@@ -53,10 +53,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="cars.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
+    <None Include="Source\cars.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Source\cars.htm" />
+    <Content Include="Source\cars_images\cars10x1.jpg" />
+    <Content Include="Source\cars_images\cars11x1.jpg" />
+    <Content Include="Source\cars_images\cars12x1.jpg" />
+    <Content Include="Source\cars_images\cars13x1.jpg" />
+    <Content Include="Source\cars_images\cars14x1.jpg" />
+    <Content Include="Source\cars_images\cars15x1.jpg" />
+    <Content Include="Source\cars_images\cars16x1.jpg" />
+    <Content Include="Source\cars_images\cars17x1.jpg" />
+    <Content Include="Source\cars_images\cars18x1.jpg" />
+    <Content Include="Source\cars_images\cars19x1.jpg" />
+    <Content Include="Source\cars_images\cars1x1.jpg" />
+    <Content Include="Source\cars_images\cars20x1.jpg" />
+    <Content Include="Source\cars_images\cars21x1.jpg" />
+    <Content Include="Source\cars_images\cars22x1.jpg" />
+    <Content Include="Source\cars_images\cars23x1.jpg" />
+    <Content Include="Source\cars_images\cars24x1.jpg" />
+    <Content Include="Source\cars_images\cars25x1.jpg" />
+    <Content Include="Source\cars_images\cars26x1.jpg" />
+    <Content Include="Source\cars_images\cars27x1.jpg" />
+    <Content Include="Source\cars_images\cars28x1.jpg" />
+    <Content Include="Source\cars_images\cars29x1.jpg" />
+    <Content Include="Source\cars_images\cars2x1.jpg" />
+    <Content Include="Source\cars_images\cars30x1.jpg" />
+    <Content Include="Source\cars_images\cars31x1.jpg" />
+    <Content Include="Source\cars_images\cars32x1.jpg" />
+    <Content Include="Source\cars_images\cars33x1.jpg" />
+    <Content Include="Source\cars_images\cars34x1.jpg" />
+    <Content Include="Source\cars_images\cars35x1.jpg" />
+    <Content Include="Source\cars_images\cars36x1.jpg" />
+    <Content Include="Source\cars_images\cars37x1.jpg" />
+    <Content Include="Source\cars_images\cars38x1.jpg" />
+    <Content Include="Source\cars_images\cars39x1.jpg" />
+    <Content Include="Source\cars_images\cars3x1.jpg" />
+    <Content Include="Source\cars_images\cars40x1.jpg" />
+    <Content Include="Source\cars_images\cars41x1.jpg" />
+    <Content Include="Source\cars_images\cars42x1.jpg" />
+    <Content Include="Source\cars_images\cars43x1.jpg" />
+    <Content Include="Source\cars_images\cars44x1.jpg" />
+    <Content Include="Source\cars_images\cars45x1.jpg" />
+    <Content Include="Source\cars_images\cars46x1.jpg" />
+    <Content Include="Source\cars_images\cars47x1.jpg" />
+    <Content Include="Source\cars_images\cars48x1.jpg" />
+    <Content Include="Source\cars_images\cars49x1.jpg" />
+    <Content Include="Source\cars_images\cars4x1.jpg" />
+    <Content Include="Source\cars_images\cars50x1.jpg" />
+    <Content Include="Source\cars_images\cars51x1.jpg" />
+    <Content Include="Source\cars_images\cars52x1.jpg" />
+    <Content Include="Source\cars_images\cars53x1.jpg" />
+    <Content Include="Source\cars_images\cars54x1.jpg" />
+    <Content Include="Source\cars_images\cars55x1.jpg" />
+    <Content Include="Source\cars_images\cars56x1.jpg" />
+    <Content Include="Source\cars_images\cars57x1.jpg" />
+    <Content Include="Source\cars_images\cars58x1.jpg" />
+    <Content Include="Source\cars_images\cars59x1.jpg" />
+    <Content Include="Source\cars_images\cars5x1.jpg" />
+    <Content Include="Source\cars_images\cars60x1.jpg" />
+    <Content Include="Source\cars_images\cars61x1.jpg" />
+    <Content Include="Source\cars_images\cars62x1.jpg" />
+    <Content Include="Source\cars_images\cars63x1.jpg" />
+    <Content Include="Source\cars_images\cars64x1.jpg" />
+    <Content Include="Source\cars_images\cars65x1.jpg" />
+    <Content Include="Source\cars_images\cars66x1.jpg" />
+    <Content Include="Source\cars_images\cars67x1.jpg" />
+    <Content Include="Source\cars_images\cars68x1.jpg" />
+    <Content Include="Source\cars_images\cars69x1.jpg" />
+    <Content Include="Source\cars_images\cars6x1.jpg" />
+    <Content Include="Source\cars_images\cars70x1.jpg" />
+    <Content Include="Source\cars_images\cars71x1.jpg" />
+    <Content Include="Source\cars_images\cars72x1.jpg" />
+    <Content Include="Source\cars_images\cars73x1.jpg" />
+    <Content Include="Source\cars_images\cars7x1.jpg" />
+    <Content Include="Source\cars_images\cars8x1.jpg" />
+    <Content Include="Source\cars_images\cars9x1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
