@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Examinator.Parser
 {
@@ -10,6 +6,13 @@ namespace Examinator.Parser
     {
         static void Main(string[] args)
         {
+            if (args.Length < 2)
+            {
+                Console.WriteLine("Arguments format is the following: [source] [output]");
+                return;
+            }
+            var sourcePdf = args[0];
+            var output = args[1];
         }
     }
 }
