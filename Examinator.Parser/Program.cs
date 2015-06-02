@@ -13,9 +13,10 @@ namespace Examinator.Parser
             AddBorders("Source/cars.pdf", "Source/bordered_cars.pdf");
 
             // Step 2. Generate Xsls. Online
+            // http://smallpdf.com/pdf-to-excel
 
             // Step 3. Parse table
-            var parser = new SourceParser();
+            var parser = new CarsParser();
             var questions = parser.Parse("Source/cars.xlsx");
 
             // Step 4. Serialize to json
@@ -43,11 +44,16 @@ namespace Examinator.Parser
 
                         const int marginH = 22;
                         const int marginW = 16;
+                        const int col1 = 68;
+                        const int col2 = 173;
+                        const int col3 = 20;
                         cb.Rectangle(marginW, marginH, doc.PageSize.Width - marginW * 2 - 7, doc.PageSize.Height - marginH * 2);
                         cb.Stroke();
-                        cb.Rectangle(marginW, marginH, 68, doc.PageSize.Height - marginH * 2);
+                        cb.Rectangle(marginW, marginH, col1, doc.PageSize.Height - marginH * 2);
                         cb.Stroke();
-                        cb.Rectangle(marginW + 68, marginH, 173, doc.PageSize.Height - marginH * 2);
+                        cb.Rectangle(marginW + col1, marginH, col2, doc.PageSize.Height - marginH * 2);
+                        cb.Stroke();
+                        cb.Rectangle(marginW + col1 + col2, marginH, col3, doc.PageSize.Height - marginH * 2);
                         cb.Stroke();
                     }
                     stamper.Close();

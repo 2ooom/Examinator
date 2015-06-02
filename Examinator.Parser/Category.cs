@@ -2,10 +2,12 @@
 
 namespace Examinator.Parser
 {
-    public class Category
+    public class Category : Paragraph
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
+        public Category()
+        {
+            Questions = new List<Question>();
+        }
         public IList<Question> Questions { get; set; }
     }
 }

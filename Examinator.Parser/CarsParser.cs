@@ -1,18 +1,82 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using LinqToExcel;
 
 namespace Examinator.Parser
 {
-    public class SourceParser
+    public class CarsParser
     {
         public IEnumerable<Category> Parse(string inputXlsx)
         {
-            var questions = new List<Category>
+            var questions = new List<Category>();
+            var excel = new ExcelQueryFactory(inputXlsx);
+            var proxies = (from c in excel.Worksheet<CarsProxy>("Cars") select c).ToList();
+            var question = new Question();
+            var category = new Category();
+            
+            foreach (var proxy in proxies)
+            {
+                var id = proxy.Id.Trim();
+                var text = proxy.Text.Trim();
+                int idInt;
+                if (!string.IsNullOrEmpty(id) && int.TryParse(id, out idInt))
+                {
+                    if (!question.IsNew)
+                    {
+                        question = PushQuestion(category, question);
+                    }
+                    else
+                    {
+                        question.Id = id;
+                    }
+                } else if (!string.IsNullOrEmpty(id))
+                {
+                    var pattern = "MARK [1-9] ANSWER?";
+
+                }
+                if (!string.IsNullOrEmpty(text))
+                {
+                    question.Text = $"{question.Text} {text}";
+                }
+                var answer = GetAnswer(proxy);
+                if (answer != null)
+                {
+                    question.Answers.Add(answer);
+                }
+            }
+            return questions;
+        }
+
+        private static Question PushQuestion(Category category, Question question)
+        {
+            category.Questions.Add(question);
+            question = new Question();
+            return question;
+        }
+        private static Answer GetAnswer(CarsProxy proxy)
+        {
+            if (string.IsNullOrEmpty(proxy.AnswerText))
+            {
+                return null;
+            }
+
+            return new Answer
+            {
+                Id = Guid.NewGuid().ToString(),
+                IsRight = proxy.AnswerIsRight.Trim().Length > 0,
+                Text = proxy.AnswerText
+            };
+        }
+
+        private static IEnumerable<Category> GetTestData()
+        {
+            return new List<Category>
             {
                 new Category
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Name = "ALERTNESS",
+                    Text = "ALERTNESS",
                     Questions = new List<Question>
                     {
                         new Question
@@ -78,19 +142,25 @@ namespace Examinator.Parser
                         new Question
                         {
                             Id = "4216",
-                            Text = "You should not use a mobile phone Because reception is poor when the engine is running whilst driving",
+                            Text =
+                                "You should not use a mobile phone Because reception is poor when the engine is running whilst driving",
                             Answers = new List<Answer>
                             {
                                 new Answer {Text = "Because reception is poor when the engine is running"},
                                 new Answer {Text = "Unless you are able to drive one handed"},
-                                new Answer {Text = "Because it might distract your attention from the road ahead", IsRight = true},
+                                new Answer
+                                {
+                                    Text = "Because it might distract your attention from the road ahead",
+                                    IsRight = true
+                                },
                                 new Answer {Text = "Until you are satisfied that no other traffic is near"},
                             }
                         },
                         new Question
                         {
                             Id = "4217",
-                            Text = "Your vehicle is fitted with a hands-free phone system. Using this equipment whilst driving",
+                            Text =
+                                "Your vehicle is fitted with a hands-free phone system. Using this equipment whilst driving",
                             Answers = new List<Answer>
                             {
                                 new Answer {Text = "Could be very good for road safety"},
@@ -101,9 +171,16 @@ namespace Examinator.Parser
                         },
                     }
                 }
-                
+
             };
-            return questions;
-        }
+        } 
+    }
+
+    public class CarsProxy
+    {
+        public string Id { get; set; }
+        public string Text { get; set; }
+        public string AnswerIsRight { get; set; }
+        public string AnswerText { get; set; }
     }
 }
