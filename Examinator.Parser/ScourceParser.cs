@@ -6,15 +6,16 @@ using LinqToExcel;
 
 namespace Examinator.Parser
 {
-    public class CarsParser
+    public class ScourceParser
     {
         public IEnumerable<Category> Parse(string inputXlsx)
         {
             var categories = new List<Category>();
             var excel = new ExcelQueryFactory(inputXlsx);
-            var proxies = (from c in excel.Worksheet<CarsProxy>("Cars") select c).ToList();
-            var question = new Question();
+            var proxies = (from c in excel.Worksheet<SourceProxy>("Cars") select c).ToList();
+
             var category = new Category();
+            var question = new Question {CategoryId = category.Id};
             var rightAnswers = 0;
             
             foreach (var proxy in proxies)
@@ -23,28 +24,32 @@ namespace Examinator.Parser
                 var text = proxy.Text?.Trim() ?? string.Empty;
                 if (!string.IsNullOrEmpty(id))
                 {
+                    var matches = 0;
                     // Question Id
-                    if (Regex.IsMatch(id, "^[0-9]*$", RegexOptions.IgnoreCase))
+                    if (Regex.IsMatch(id, "\\d{4,}", RegexOptions.IgnoreCase))
                     {
                         if (!question.IsNew)
                         {
                             question = PushQuestion(category, question, rightAnswers);
                             rightAnswers = 0;
                         }
-                        question.Id = id;
+                        question.Id = Regex.Match(id, "(\\d{4,})", RegexOptions.IgnoreCase).Groups[1].Value;
+                        matches++;
                     }
                     // SubCategory Id
-                    else if (id.StartsWith("CARS"))
+                    if (Regex.IsMatch(id, "CARS\\s*\\d+\\.\\d+", RegexOptions.IgnoreCase))
                     {
-                        question.SubCategoryId = id;
+                        matches++;
+                        question.SubCategoryId = Regex.Match(id, "(CARS\\s*\\d{1,}\\.\\d{1,})", RegexOptions.IgnoreCase).Groups[1].Value; 
                     }
                     // Correct answers counter
-                    else if (id.StartsWith("MARK"))
+                    if (Regex.IsMatch(id, "MARK\\s\\d+\\sANSWER", RegexOptions.IgnoreCase))
                     {
-                        rightAnswers = int.Parse(Regex.Match(id, "MARK ([1-9]+) ANSWER?", RegexOptions.IgnoreCase).Groups[1].Value);
+                        matches++;
+                        rightAnswers = int.Parse(Regex.Match(id, "MARK\\s(\\d+)\\sANSWER", RegexOptions.IgnoreCase).Groups[1].Value);
                     }
-                    // Category name
-                    else 
+                    // Accumulate category name
+                    else if(matches == 0)
                     {
                         if (category.Text != id)
                         {
@@ -57,7 +62,7 @@ namespace Examinator.Parser
                 {
                     question.Text = $"{question.Text} {text}";
                 }
-                var answer = GetAnswer(proxy);
+                var answer = GetAnswer(proxy, question);
                 if (answer != null)
                 {
                     question.Answers.Add(answer);
@@ -82,16 +87,16 @@ namespace Examinator.Parser
             category.Questions.Add(question);
             if (question.CorrectAnswersNumber != rightAnswers)
             {
-                Console.WriteLine(" [-] Question [{0}] is expected to have [{1}] correct answers but found only [{2}]",
+                Console.WriteLine(" [-] Question [{0}] is expected to have [{1}] correct answers but parsed [{2}]",
                     question.Id, rightAnswers, question.CorrectAnswersNumber);
             }
             else
             {
                 Console.WriteLine(" [+] Added Question [{0}]({1}) added with [{2}/{3}] answers", question.Id, question.Text, question.Answers.Count, question.CorrectAnswersNumber);
             }
-            return new Question();
+            return new Question { CategoryId = category.Id };
         }
-        private static Answer GetAnswer(CarsProxy proxy)
+        private static Answer GetAnswer(SourceProxy proxy, Question question)
         {
             if (string.IsNullOrEmpty(proxy.AnswerText))
             {
@@ -102,7 +107,8 @@ namespace Examinator.Parser
             {
                 Id = Guid.NewGuid().ToString(),
                 IsRight = !string.IsNullOrEmpty(proxy.AnswerIsRight) && proxy.AnswerIsRight.Trim().Length > 0,
-                Text = proxy.AnswerText
+                Text = proxy.AnswerText,
+                QuestionId = question.Id
             };
         }
 
@@ -213,7 +219,7 @@ namespace Examinator.Parser
         } 
     }
 
-    public class CarsProxy
+    public class SourceProxy
     {
         public string Id { get; set; }
         public string Text { get; set; }

@@ -17,7 +17,7 @@ namespace Examinator.Parser
             // http://smallpdf.com/pdf-to-excel
 
             // Step 3. Parse table
-            var parser = new CarsParser();
+            var parser = new ScourceParser();
             var questions = parser.Parse("Source/cars.xlsx");
 
             // Step 4. Serialize to json

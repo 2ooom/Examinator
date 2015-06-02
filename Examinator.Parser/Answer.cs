@@ -2,7 +2,7 @@
 {
     public class Answer : Paragraph
     {
-        public string AnswerId { get; set; }
+        public string QuestionId { get; set; }
         public bool IsRight { get; set; }
     }
 }
