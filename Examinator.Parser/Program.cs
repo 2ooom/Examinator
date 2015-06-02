@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Configuration;
+using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Newtonsoft.Json;
@@ -20,7 +21,7 @@ namespace Examinator.Parser
             var questions = parser.Parse("Source/cars.xlsx");
 
             // Step 4. Serialize to json
-            using (var stream = new StreamWriter("cars.json", false))
+            using (var stream = new StreamWriter(ConfigurationManager.AppSettings["OutpuPath"], false))
             {
                 var outputStr = JsonConvert.SerializeObject(questions);
                 
