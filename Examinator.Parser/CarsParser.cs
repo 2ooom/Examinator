@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using LinqToExcel;
 
 namespace Examinator.Parser
@@ -9,31 +10,48 @@ namespace Examinator.Parser
     {
         public IEnumerable<Category> Parse(string inputXlsx)
         {
-            var questions = new List<Category>();
+            var categories = new List<Category>();
             var excel = new ExcelQueryFactory(inputXlsx);
             var proxies = (from c in excel.Worksheet<CarsProxy>("Cars") select c).ToList();
             var question = new Question();
             var category = new Category();
+            var rightAnswers = 0;
             
             foreach (var proxy in proxies)
             {
-                var id = proxy.Id.Trim();
-                var text = proxy.Text.Trim();
-                int idInt;
-                if (!string.IsNullOrEmpty(id) && int.TryParse(id, out idInt))
+                var id = proxy.Id?.Trim() ?? string.Empty;
+                var text = proxy.Text?.Trim() ?? string.Empty;
+                if (!string.IsNullOrEmpty(id))
                 {
-                    if (!question.IsNew)
+                    // Question Id
+                    if (Regex.IsMatch(id, "^[0-9]*$", RegexOptions.IgnoreCase))
                     {
-                        question = PushQuestion(category, question);
-                    }
-                    else
-                    {
+                        if (!question.IsNew)
+                        {
+                            question = PushQuestion(category, question, rightAnswers);
+                            rightAnswers = 0;
+                        }
                         question.Id = id;
                     }
-                } else if (!string.IsNullOrEmpty(id))
-                {
-                    var pattern = "MARK [1-9] ANSWER?";
-
+                    // SubCategory Id
+                    else if (id.StartsWith("CARS"))
+                    {
+                        question.SubCategoryId = id;
+                    }
+                    // Correct answers counter
+                    else if (id.StartsWith("MARK"))
+                    {
+                        rightAnswers = int.Parse(Regex.Match(id, "MARK ([1-9]+) ANSWER?", RegexOptions.IgnoreCase).Groups[1].Value);
+                    }
+                    // Category name
+                    else 
+                    {
+                        if (category.Text != id)
+                        {
+                            category = PushCategory(categories, category);
+                        }
+                        category.Text = id;
+                    }
                 }
                 if (!string.IsNullOrEmpty(text))
                 {
@@ -45,14 +63,33 @@ namespace Examinator.Parser
                     question.Answers.Add(answer);
                 }
             }
-            return questions;
+            return categories;
         }
 
-        private static Question PushQuestion(Category category, Question question)
+        private static Category PushCategory(ICollection<Category> categories, Category category)
+        {
+            // skip the first empty one
+            if (category.Questions.Count > 0)
+            {
+                categories.Add(category);
+                Console.WriteLine(" [+] Category [{0}] added with [{1}] questions", category.Text, category.Questions.Count);
+            }
+            return new Category();
+        }
+
+        private static Question PushQuestion(Category category, Question question, int rightAnswers)
         {
             category.Questions.Add(question);
-            question = new Question();
-            return question;
+            if (question.CorrectAnswersNumber != rightAnswers)
+            {
+                Console.WriteLine(" [-] Question [{0}] is expected to have [{1}] correct answers but found only [{2}]",
+                    question.Id, rightAnswers, question.CorrectAnswersNumber);
+            }
+            else
+            {
+                Console.WriteLine(" [+] Added Question [{0}]({1}) added with [{2}/{3}] answers", question.Id, question.Text, question.Answers.Count, question.CorrectAnswersNumber);
+            }
+            return new Question();
         }
         private static Answer GetAnswer(CarsProxy proxy)
         {
@@ -64,7 +101,7 @@ namespace Examinator.Parser
             return new Answer
             {
                 Id = Guid.NewGuid().ToString(),
-                IsRight = proxy.AnswerIsRight.Trim().Length > 0,
+                IsRight = !string.IsNullOrEmpty(proxy.AnswerIsRight) && proxy.AnswerIsRight.Trim().Length > 0,
                 Text = proxy.AnswerText
             };
         }
