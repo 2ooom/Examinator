@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using HtmlAgilityPack;
 
 namespace Examinator.Parser
 {
     public class SourceParser
     {
-        public IEnumerable<Category> Parse(HtmlDocument document)
+        public IEnumerable<Category> Parse(string inputXlsx)
         {
             var questions = new List<Category>
             {

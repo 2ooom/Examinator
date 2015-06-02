@@ -1,8 +1,6 @@
 ﻿using System.IO;
-using HtmlAgilityPack;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.parser;
 using Newtonsoft.Json;
 
 namespace Examinator.Parser
@@ -11,35 +9,17 @@ namespace Examinator.Parser
     {
         static void Main(string[] args)
         {
-            var source = args.Length > 0? args[0] : "Source/cars.pdf";
-            var output = args.Length > 1? args[1] : "cars.json";
-            var doc = new HtmlDocument();
-            doc.Load(source);
-            var parser = new SourceParser();
-            var questions = parser.Parse(doc);
-            AddBorders(source, "bordered_cars.pdf");
             // Step 1. Add verticla lines
+            AddBorders("Source/cars.pdf", "Source/bordered_cars.pdf");
 
-            /*var stemper = new PdfStamper(reader, new FileStream("Source/cars.pdf", FileMode.Append));
-            pdf.Open();
-            PdfContentByte cb = writer.DirectContent;
-            cb.MoveTo(pdf.PageSize.Width / 2, pdf.PageSize.Height / 2);
-            cb.LineTo(pdf.PageSize.Width / 2, pdf.PageSize.Height);
-            cb.Stroke();
-            cb.MoveTo(10, pdf.PageSize.Height / 2);
-            cb.LineTo(pdf.PageSize.Width, pdf.PageSize.Height / 2);
-            cb.Stroke();
-            for (var page = 1; page <= reader.NumberOfPages; page++)
-            {
-                var pageObj = reader.GetPageN(page);
-                var content = pageObj.Get(PdfName.CONTENT);
-
-            }
-            stemper.Close();*/
-            // Step 2. Generate Xsls
+            // Step 2. Generate Xsls. Online
 
             // Step 3. Parse table
-            using (var stream = new StreamWriter(output, false))
+            var parser = new SourceParser();
+            var questions = parser.Parse("Source/cars.xlsx");
+
+            // Step 4. Serialize to json
+            using (var stream = new StreamWriter("cars.json", false))
             {
                 var outputStr = JsonConvert.SerializeObject(questions);
                 
@@ -57,10 +37,10 @@ namespace Examinator.Parser
                 var writer = PdfWriter.GetInstance(doc, writeStream);
                 using (var stamper = new PdfStamper(reader, writeStream))
                 {
-                    for (var page = 1; page < reader.NumberOfPages; page ++)
+                    for (var page = 2; page <= reader.NumberOfPages; page ++)
                     {
                         var cb = stamper.GetOverContent(page);
-                        var p = reader.GetPageN(page);
+
                         const int marginH = 22;
                         const int marginW = 16;
                         cb.Rectangle(marginW, marginH, doc.PageSize.Width - marginW * 2 - 7, doc.PageSize.Height - marginH * 2);
