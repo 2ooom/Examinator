@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace Examinator.Parser
 {
@@ -7,6 +8,8 @@ namespace Examinator.Parser
     {
         public string CategoryId { get; set; }
         public string SubCategoryId { get; set; }
+
+        [JsonIgnore]
         public int CorrectAnswersNumber { get { return Answers.Count(t => t.IsRight); } }
         public IList<Answer> Answers { get; set; }
 

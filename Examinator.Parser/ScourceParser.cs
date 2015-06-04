@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using LinqToExcel;
@@ -8,6 +9,9 @@ namespace Examinator.Parser
 {
     public class ScourceParser
     {
+        public string ImagesPath { get; set; }
+        public string OutputPath { get; set; }
+
         public IEnumerable<Question> Parse(string inputXlsx)
         {
             var excel = new ExcelQueryFactory(inputXlsx);
@@ -33,6 +37,7 @@ namespace Examinator.Parser
                             rightAnswers = 0;
                         }
                         question.Id = Regex.Match(id, "(\\d{4,})", RegexOptions.IgnoreCase).Groups[1].Value;
+                        CheckQuestionImage(question);
                         matches++;
                     }
                     // SubCategory Id
@@ -73,6 +78,16 @@ namespace Examinator.Parser
             return questions;
         }
 
+        private void CheckQuestionImage(Question question)
+        {
+            var filename = $"{question.Id}.png";
+            var path = Path.Combine(ImagesPath, filename);
+            if (File.Exists(path))
+            {
+                question.ImageUrl = path;
+            }
+        }
+
         private static Category PushCategory(ICollection<Category> categories, Category category)
         {
             // skip the first empty one
@@ -98,20 +113,27 @@ namespace Examinator.Parser
             }
             return new Question();
         }
-        private static Answer GetAnswer(SourceProxy proxy, Question question)
+        private Answer GetAnswer(SourceProxy proxy, Question question)
         {
-            if (string.IsNullOrEmpty(proxy.AnswerText))
-            {
-                return null;
-            }
-
-            return new Answer
+            var answer = new Answer
             {
                 Id = Guid.NewGuid().ToString(),
                 IsRight = !string.IsNullOrEmpty(proxy.AnswerIsRight) && proxy.AnswerIsRight.Trim().Length > 0,
                 Text = proxy.AnswerText,
                 QuestionId = question.Id
             };
+            var filename = $"{question.Id}.{question.Answers.Count + 1}.png";
+            var path = Path.Combine(ImagesPath, filename);
+            if (File.Exists(path))
+            {
+                answer.ImageUrl = path;
+            }
+
+            if (string.IsNullOrEmpty(proxy.AnswerText) && string.IsNullOrEmpty(answer.ImageUrl))
+            {
+                return null;
+            }
+            return answer;
         }
 
         private static IEnumerable<Category> GetTestData()

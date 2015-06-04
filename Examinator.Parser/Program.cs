@@ -10,6 +10,7 @@ namespace Examinator.Parser
     {
         static void Main(string[] args)
         {
+            var output = ConfigurationManager.AppSettings["OutpuPath"];
             // Step 1. Add verticla lines
             AddBorders("Source/cars.pdf", "Source/bordered_cars.pdf");
 
@@ -17,11 +18,11 @@ namespace Examinator.Parser
             // http://smallpdf.com/pdf-to-excel
 
             // Step 3. Parse table
-            var parser = new ScourceParser();
+            var parser = new ScourceParser {ImagesPath = "Source/img/", OutputPath = Path.GetDirectoryName(output)};
             var questions = parser.Parse("Source/cars.xlsx");
 
             // Step 4. Serialize to json
-            using (var stream = new StreamWriter(ConfigurationManager.AppSettings["OutpuPath"], false))
+            using (var stream = new StreamWriter(output, false))
             {
                 var outputStr = JsonConvert.SerializeObject(questions);
                 
