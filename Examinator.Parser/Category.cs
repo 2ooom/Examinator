@@ -8,6 +8,7 @@ namespace Examinator.Parser
         public Category()
         {
             Id = Guid.NewGuid().ToString();
+            Text = string.Empty;
             Questions = new List<Question>();
         }
         public IList<Question> Questions { get; set; }

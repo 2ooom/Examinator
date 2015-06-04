@@ -13,6 +13,7 @@ namespace Examinator.Parser
         public Question()
         {
             Text = string.Empty;
+            CategoryId = string.Empty;
             Answers = new List<Answer>();
         }
     }

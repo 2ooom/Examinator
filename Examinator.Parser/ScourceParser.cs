@@ -8,16 +8,15 @@ namespace Examinator.Parser
 {
     public class ScourceParser
     {
-        public IEnumerable<Category> Parse(string inputXlsx)
+        public IEnumerable<Question> Parse(string inputXlsx)
         {
-            var categories = new List<Category>();
             var excel = new ExcelQueryFactory(inputXlsx);
             var proxies = (from c in excel.Worksheet<SourceProxy>("Cars") select c).ToList();
-
-            var category = new Category();
-            var question = new Question {CategoryId = category.Id};
-            var rightAnswers = 0;
             
+            var question = new Question();
+            var rightAnswers = 0;
+            var newQuestion = false;
+            var questions = new List<Question>();
             foreach (var proxy in proxies)
             {
                 var id = proxy.Id?.Trim() ?? string.Empty;
@@ -30,7 +29,7 @@ namespace Examinator.Parser
                     {
                         if (!question.IsNew)
                         {
-                            question = PushQuestion(category, question, rightAnswers);
+                            question = PushQuestion(questions, question, rightAnswers);
                             rightAnswers = 0;
                         }
                         question.Id = Regex.Match(id, "(\\d{4,})", RegexOptions.IgnoreCase).Groups[1].Value;
@@ -49,13 +48,16 @@ namespace Examinator.Parser
                         rightAnswers = int.Parse(Regex.Match(id, "MARK\\s(\\d+)\\sANSWER", RegexOptions.IgnoreCase).Groups[1].Value);
                     }
                     // Accumulate category name
-                    else if(matches == 0)
+                    if (matches == 0 || matches == 3)
                     {
-                        if (category.Text != id)
+                        if (matches == 0)
                         {
-                            category = PushCategory(categories, category);
+                            question.CategoryId = $"{question.CategoryId} {id}";
                         }
-                        category.Text = id;
+                        else
+                        {
+                            question.CategoryId = Regex.Match(id, "\\n(.+)\\nMARK", RegexOptions.IgnoreCase).Groups[1].Value;
+                        }
                     }
                 }
                 if (!string.IsNullOrEmpty(text))
@@ -68,7 +70,7 @@ namespace Examinator.Parser
                     question.Answers.Add(answer);
                 }
             }
-            return categories;
+            return questions;
         }
 
         private static Category PushCategory(ICollection<Category> categories, Category category)
@@ -82,9 +84,9 @@ namespace Examinator.Parser
             return new Category();
         }
 
-        private static Question PushQuestion(Category category, Question question, int rightAnswers)
+        private static Question PushQuestion(List<Question> questions, Question question, int rightAnswers)
         {
-            category.Questions.Add(question);
+            questions.Add(question);
             if (question.CorrectAnswersNumber != rightAnswers)
             {
                 Console.WriteLine(" [-] Question [{0}] is expected to have [{1}] correct answers but parsed [{2}]",
@@ -94,7 +96,7 @@ namespace Examinator.Parser
             {
                 Console.WriteLine(" [+] Added Question [{0}]({1}) added with [{2}/{3}] answers", question.Id, question.Text, question.Answers.Count, question.CorrectAnswersNumber);
             }
-            return new Question { CategoryId = category.Id };
+            return new Question();
         }
         private static Answer GetAnswer(SourceProxy proxy, Question question)
         {
