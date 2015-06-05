@@ -12,7 +12,7 @@ namespace Examinator.Parser
         public string ImagesPath { get; set; }
         public string OutputPath { get; set; }
 
-        public IEnumerable<Question> Parse(string inputXlsx)
+        public IEnumerable<Category> Parse(string inputXlsx)
         {
             var excel = new ExcelQueryFactory(inputXlsx);
             var proxies = (from c in excel.Worksheet<SourceProxy>("Cars") select c).ToList();
@@ -75,7 +75,19 @@ namespace Examinator.Parser
                     question.Answers.Add(answer);
                 }
             }
-            return questions;
+            var categories = new List<Category>();
+            var category = new Category();
+            foreach (var q in questions)
+            {
+                if (q.CategoryId != category.Text)
+                {
+                    category = PushCategory(categories, category);
+                }
+                category.Text = q.CategoryId;
+                q.CategoryId = category.Id;
+                category.Questions.Add(q);
+            }
+            return categories;
         }
 
         private void CheckQuestionImage(Question question)

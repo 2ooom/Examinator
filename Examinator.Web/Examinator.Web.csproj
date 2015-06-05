@@ -463,8 +463,8 @@
     <Content Include="templates\browse.html" />
     <Content Include="templates\login.html" />
     <Content Include="templates\menu.html" />
-    <Content Include="templates\playlist.html" />
-    <Content Include="templates\playlists.html" />
+    <Content Include="templates\category.html" />
+    <Content Include="templates\categories.html" />
     <Content Include="templates\search.html" />
     <Content Include="web.config" />
   </ItemGroup>
