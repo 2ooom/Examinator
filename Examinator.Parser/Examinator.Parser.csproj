@@ -83,7 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Output\cars.json" />
     <None Include="packages.config" />
     <None Include="Source\cars.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
