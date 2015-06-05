@@ -39,14 +39,20 @@ angular.module('starter.controllers', [])
             }, 1000);
         };
     })
+    .controller('QuestionCtrl', [
+        '$scope', 'categories','$stateParams', function($scope, categories, $stateParams) {
+            $scope.question = categories.getQuestion($stateParams.questionId);
+        }
+    ])
     .controller('CategoriesCtrl', [
         '$scope', 'categories', function($scope, categories) {
             $scope.categories = categories.categories;
         }
     ])
     .controller('CategoryCtrl', [
-        '$scope', '$stateParams', 'categories', function($scope, $stateParams, categories) {
+        '$scope', '$stateParams', 'categories', '$state', function($scope, $stateParams, categories, $state) {
             $scope.category = categories.getCategory($stateParams.categoryId);
             $scope.current = 1;
+            $state.go('app.category.question', { questionId : $scope.category.Questions[0].Id });
         }
     ]);
