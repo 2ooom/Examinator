@@ -1,7 +1,0 @@
-{
-  "name": "Examinator.Web",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^3.3.4"
-  }
-}
