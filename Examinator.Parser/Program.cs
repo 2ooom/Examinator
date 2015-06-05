@@ -24,7 +24,7 @@ namespace Examinator.Parser
             // Step 4. Serialize to json
             using (var stream = new StreamWriter(output, false))
             {
-                var outputStr = JsonConvert.SerializeObject(questions);
+                var outputStr = $"window.categories = {JsonConvert.SerializeObject(questions)}";
                 
                 stream.Write(outputStr);
             }

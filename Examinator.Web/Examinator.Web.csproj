@@ -440,6 +440,8 @@
     <Content Include="img\ionic.png" />
     <Content Include="index.html" />
     <Content Include="js\app.js" />
+    <Content Include="js\categories.js" />
+    <Content Include="js\servicies.js" />
     <Content Include="js\controllers.js" />
     <Content Include="lib\ionic\css\ionic.css" />
     <Content Include="lib\ionic\css\ionic.min.css" />
@@ -515,7 +517,6 @@
     <Content Include="lib\ionic\scss\_util.scss" />
     <Content Include="lib\ionic\scss\_variables.scss" />
     <Content Include="lib\ionic\version.json" />
-    <None Include="js\cars.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

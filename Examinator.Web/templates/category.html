@@ -1,5 +1,7 @@
 <ion-view view-title="{{category.Text}}">
   <ion-content>
-    <h1></h1>
+      <h1>{{category.Text}}</h1>
+      <h3>{{current}} / {{category.Questions.length}}</h3>
+      <ion-nav-view name="categoryContent"></ion-nav-view>
   </ion-content>
 </ion-view>
