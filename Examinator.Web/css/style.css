@@ -5,6 +5,22 @@
 .question-bar.bar {
     padding: 0;
 }
-.answers-list.list:last-child {
-    margin-bottom: 70px;
+.question h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.question {
+    border: none;
+}
+.question-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.questoin-buttons {
+    margin-bottom: 100px;
+}
+.grayed-out {
+    font-size: 90%;
+    color: #a5a5a5;
 }

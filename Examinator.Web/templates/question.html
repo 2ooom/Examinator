@@ -1,9 +1,9 @@
 
-<div class="card">
+<div class="list list-inset question-container">
     <div class="item item-text-wrap question">
-        <h1 ng-bind="question.Text"></h1>
+        <h2 ng-bind="question.Text"></h2>
         <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
-        <h3>Mark <span ng-bind="question.CorrectAnswersNumber"></span> Answer(s) [Id: <span ng-bind="question.Id"></span>]</h3>
+        <h3>Mark <span ng-bind="question.CorrectAnswersNumber"></span> Answer(s) <span class="grayed-out">Id:<span ng-bind="question.Id"></span></span></h3>
     </div>
 </div>
 <div class="list list-inset answers-list">
@@ -17,4 +17,19 @@
         <h2 ng-bind="answer.Text"></h2>
         <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl"/>
     </div>
+</div>
+<div class="list list-inset questoin-buttons">
+    <a ng-click="checkAnswer()" ng-hide="isAnswered" class="button button-positive button-block">Answer</a>
+    <a ng-click="next()" ng-show="isAnswered && category.Questions.length > current" class="button button-block icon-right ion-chevron-right" ng-class="{
+       'button-balanced':isCorrect,
+       'button-assertive':!isCorrect}">
+        <span ng-show="isCorrect">Correct</span>
+        <span ng-show="!isCorrect">Wrong</span>
+    </a>
+    <a class="button button-positive button-block icon-right ion-navicon" ng-show="isAnswered && category.Questions.length <= current" ng-click="finish()" ng-class="{
+       'button-balanced':isCorrect,
+       'button-assertive':!isCorrect}">
+        <span ng-show="isCorrect">Correct</span>
+        <span ng-show="!isCorrect">Wrong</span>
+    </a>
 </div>

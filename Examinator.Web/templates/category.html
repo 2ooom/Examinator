@@ -1,19 +1,5 @@
-<ion-view view-title="{{category.Text}} [{{current}} / {{category.Questions.length}}]">
+<ion-view view-title="{{category.Text}} {{current}}/ {{category.Questions.length}}">
     <ion-content>
         <ui-view name="categoryContent"></ui-view>
     </ion-content>
-    <div class="bar bar-footer question-bar" ng-class="{
-         'bar-balanced':isAnswered && isCorrect,
-         'bar-assertive':isAnswered && !isCorrect,
-         'bar-positive':!isAnswered}">
-        <a class="button button-clear" ng-show="isAnswered && category.Questions.length <= current" ui-sref="finish()">Finish</a>
-
-        <div class="title" >
-            <a ng-click="checkAnswer()" ng-hide="isAnswered" class="button button-clear">Answer</a>
-        </div>
-        <div class="title" ng-show="isAnswered && isCorrect">Correct</div>
-        <div class="title" ng-show="isAnswered && !isCorrect">Wrong</div>
-        <a class="button button-clear" ng-show="isAnswered && category.Questions.length > current" ng-click="next()">Next</a>
-        
-    </div>
 </ion-view>
