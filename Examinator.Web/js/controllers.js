@@ -68,6 +68,7 @@ angular.module('starter.controllers', [])
                     delete q.isAnswered;
                 });
             };
+
             $scope.checkAnswer = function() {
                 $scope.isAnswered = true;
                 var question = categories.getQuestion(category.Questions[$scope.current - 1].Id);
@@ -79,15 +80,18 @@ angular.module('starter.controllers', [])
                 $scope.isCorrect = correct;
                 question.isAnswered = true;
             };
+
             $scope.next = function () {
                 $scope.isAnswered = false;
                 $scope.current++;
                 $state.go('app.category.question', { questionId: category.Questions[$scope.current - 1].Id });
             }
+
             $scope.finish = function () {
                 cleanup();
                 $state.go('app.categories');
             }
+
             $scope.$on('$destroy', function() {
                 cleanup();
             });
