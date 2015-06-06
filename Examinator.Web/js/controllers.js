@@ -51,8 +51,45 @@ angular.module('starter.controllers', [])
     ])
     .controller('CategoryCtrl', [
         '$scope', '$stateParams', 'categories', '$state', function($scope, $stateParams, categories, $state) {
-            $scope.category = categories.getCategory($stateParams.categoryId);
-            $scope.current = 1;
-            $state.go('app.category.question', { questionId : $scope.category.Questions[0].Id });
+            var category = categories.getCategory($stateParams.categoryId);
+            var questions = [];
+            $scope.category = category;
+            if ($stateParams.questionId) {
+                console.log($stateParams.questionId);
+            } else {
+                $scope.current = 1;
+                $state.go('app.category.question', { questionId: category.Questions[0].Id });
+            }
+            var cleanup = function() {
+                category.Questions.forEach(function (q) {
+                    q.Answers.forEach(function(a) {
+                        delete a.selected;
+                    });
+                    delete q.isAnswered;
+                });
+            };
+            $scope.checkAnswer = function() {
+                $scope.isAnswered = true;
+                var question = categories.getQuestion(category.Questions[$scope.current - 1].Id);
+                questions.push(question);
+                var correct = true;
+                for (var i = 0; i < question.Answers.length; i++) {
+                    correct = correct && !!question.Answers[i].selected === !!question.Answers[i].IsRight;
+                }
+                $scope.isCorrect = correct;
+                question.isAnswered = true;
+            };
+            $scope.next = function () {
+                $scope.isAnswered = false;
+                $scope.current++;
+                $state.go('app.category.question', { questionId: category.Questions[$scope.current - 1].Id });
+            }
+            $scope.finish = function () {
+                cleanup();
+                $state.go('app.categories');
+            }
+            $scope.$on('$destroy', function() {
+                cleanup();
+            });
         }
     ]);

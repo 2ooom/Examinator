@@ -1,13 +1,21 @@
 
 <div class="card">
-    <div class="item item-text-wrap">
-        {{question.Text}}
-        <img src="{{question.ImageUrl}}" ng-show="question.ImageUrl"/>
+    <div class="item item-text-wrap question">
+        <h1>{{question.Text}}</h1>
+        <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
+        <h3>Mark {{question.CorrectAnswersNumber}} Answer(s)</h3>
     </div>
 </div>
 <div class="list list-inset">
     <div class="item item-checkbox" ng-repeat="answer in question.Answers">
-        <label class="checkbox"><input type="checkbox" ng-bind="answer.selected"></label>
+        <label class="checkbox" ng-class="{
+               'checkbox-positive':!question.isAnswered || (!answer.selected && !asnwer.IsRight),
+               'checkbox-assertive':question.isAnswered && ((answer.selected && !asnwer.IsRight) || (answer.IsRight && !answer.selected)),
+               'checkbox-balanced':question.isAnswered && answer.selected === answer.IsRight,
+               }"><input type="checkbox" ng-model="answer.selected"></label>
+
         {{answer.Text}}
+
+        <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl" />
     </div>
 </div>
