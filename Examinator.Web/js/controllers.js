@@ -68,6 +68,37 @@ angular.module('starter.controllers', [])
                     delete q.isAnswered;
                 });
             };
+            $scope.answerHandle = function() {
+                if (!$scope.isAnswered) {
+                    $scope.checkAnswer();
+                } else if (category.Questions.length > $scope.current) {
+                    $scope.next();
+                } else {
+                    $scope.finish();
+                }
+            };
+
+            $scope.getAnswerButtonText = function () {
+                if (!$scope.isAnswered) {
+                    return 'Aswer';
+                } else if ($scope.isCorrect) {
+                    return 'Correct';
+                } else {
+                    return 'Wrong';
+                }
+            };
+
+            $scope.getAnswerButtonClass = function () {
+                if (!$scope.isAnswered) {
+                    return 'button-positive';
+                }
+                var correctClass = $scope.isCorrect ? 'button-balanced icon-right' : 'button-assertive icon-right';
+                if (category.Questions.length > $scope.current) {
+                    return correctClass + ' ion-chevron-right';
+                } else {
+                    return correctClass + ' ion-navicon';
+                }
+            }
 
             $scope.checkAnswer = function() {
                 $scope.isAnswered = true;

@@ -19,17 +19,7 @@
     </div>
 </div>
 <div class="list list-inset questoin-buttons">
-    <a ng-click="checkAnswer()" ng-hide="isAnswered" class="button button-positive button-block">Answer</a>
-    <a ng-click="next()" ng-show="isAnswered && category.Questions.length > current" class="button button-block icon-right ion-chevron-right" ng-class="{
-       'button-balanced':isCorrect,
-       'button-assertive':!isCorrect}">
-        <span ng-show="isCorrect">Correct</span>
-        <span ng-show="!isCorrect">Wrong</span>
-    </a>
-    <a class="button button-positive button-block icon-right ion-navicon" ng-show="isAnswered && category.Questions.length <= current" ng-click="finish()" ng-class="{
-       'button-balanced':isCorrect,
-       'button-assertive':!isCorrect}">
-        <span ng-show="isCorrect">Correct</span>
-        <span ng-show="!isCorrect">Wrong</span>
-    </a>
+    <a ng-click="answerHandle()" class="button button-block"
+       ng-class="getAnswerButtonClass()"
+       ng-bind="getAnswerButtonText()"></a>
 </div>
