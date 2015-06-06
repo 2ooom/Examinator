@@ -3,15 +3,15 @@
     <div class="item item-text-wrap question">
         <h2 ng-bind="question.Text"></h2>
         <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
-        <h3>Mark <span ng-bind="question.CorrectAnswersNumber"></span> Answer(s) <span class="grayed-out">Id:<span ng-bind="question.Id"></span></span></h3>
+        <h3>Mark <span ng-bind="question.CorrectAnswersNumber"></span> Answer(s) <span class="grayed-out">#<span ng-bind="question.Id"></span></span></h3>
     </div>
 </div>
 <div class="list list-inset answers-list">
     <div class="item item-checkbox item-text-wrap" ng-repeat="answer in question.Answers">
         <label class="checkbox" ng-class="{
                'checkbox-positive':!question.isAnswered || (!answer.selected && !asnwer.IsRight),
-               'checkbox-assertive':question.isAnswered && ((answer.selected && !asnwer.IsRight) || (answer.IsRight && !answer.selected)),
-               'checkbox-balanced':question.isAnswered && answer.selected === answer.IsRight,
+               'checkbox-assertive':question.isAnswered && answer.selected && !asnwer.IsRight,
+               'checkbox-balanced':question.isAnswered && ((answer.selected === answer.IsRight) || (answer.IsRight && !answer.selected)),
                }"><input type="checkbox" ng-model="answer.selected"></label>
 
         <h2 ng-bind="answer.Text"></h2>
