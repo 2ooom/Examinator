@@ -1,7 +1,7 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('starter.servicies', []).factory('utils', [
+    angular.module('examinator.servicies', []).factory('utils', [
         function () {
             var maxattempts = 1000;
             return {

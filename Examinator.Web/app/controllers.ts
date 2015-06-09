@@ -1,6 +1,6 @@
 /// <reference path="_all.d.ts" />
 module App {
-    angular.module('starter.controllers', [])
+    angular.module('examinator.controllers', [])
         .controller('AppCtrl', ($scope, $ionicModal, $timeout) => {
 
             // With the new view caching in Ionic, Controllers are only called

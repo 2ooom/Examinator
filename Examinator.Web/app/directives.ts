@@ -1,6 +1,6 @@
 /// <reference path="_all.d.ts" />
 module App {
-    angular.module('starter.directives', [])
+    angular.module('examinator.directives', [])
         .directive('question', [
             () => {
                 function link(scope, element, attributes) {

@@ -1,7 +1,7 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('starter.directives', []).directive('question', [
+    angular.module('examinator.directives', []).directive('question', [
         function () {
             function link(scope, element, attributes) {
                 scope.isCorrect = false;

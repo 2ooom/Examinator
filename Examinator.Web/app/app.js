@@ -1,7 +1,7 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('starter', ['ionic', 'starter.controllers', 'starter.servicies', 'starter.directives']).run(function ($ionicPlatform) {
+    angular.module('examinator', ['ionic', 'examinator.controllers', 'examinator.servicies', 'examinator.directives']).run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
