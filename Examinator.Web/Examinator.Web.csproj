@@ -23,6 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
+    <TypeScriptCompile Include="app\servicies.ts" />
+    <TypeScriptCompile Include="app\_all.d.ts" />
+    <TypeScriptCompile Include="app\directives.ts" />
     <Content Include="Source\img\4236.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -439,10 +442,9 @@
     </Content>
     <Content Include="Source\img\ionic.png" />
     <Content Include="index.html" />
-    <Content Include="js\app.js" />
+    <TypeScriptCompile Include="app\app.ts" />
     <Content Include="Source\categories.js" />
-    <Content Include="js\servicies.js" />
-    <Content Include="js\controllers.js" />
+    <TypeScriptCompile Include="app\controllers.ts" />
     <Content Include="lib\ionic\css\ionic.css" />
     <Content Include="lib\ionic\css\ionic.min.css" />
     <Content Include="lib\ionic\fonts\ionicons.svg" />
@@ -463,6 +465,7 @@
     <Content Include="lib\ionic\js\ionic.js" />
     <Content Include="lib\ionic\js\ionic.min.js" />
     <Content Include="templates\browse.html" />
+    <Content Include="templates\exam.html" />
     <Content Include="templates\question.html" />
     <Content Include="templates\login.html" />
     <Content Include="templates\menu.html" />
@@ -470,9 +473,16 @@
     <Content Include="templates\categories.html" />
     <Content Include="templates\search.html" />
     <Content Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-route.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-sanitize.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\cordova-ionic\cordova-ionic.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\cordova-ionic\plugins\keyboard.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\ionic\fonts\ionicons.eot" />
@@ -518,6 +528,7 @@
     <Content Include="lib\ionic\scss\_util.scss" />
     <Content Include="lib\ionic\scss\_variables.scss" />
     <Content Include="lib\ionic\version.json" />
+    <Content Include="packages.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

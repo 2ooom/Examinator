@@ -1,5 +1,7 @@
 <ion-view view-title="{{category.Text}} {{current}}/ {{category.Questions.length}}">
     <ion-content>
-        <ui-view name="categoryContent"></ui-view>
+        <div data-question="currentQuestion"
+                  is-last="isLast()"
+                  next="next()"></div>
     </ion-content>
 </ion-view>
