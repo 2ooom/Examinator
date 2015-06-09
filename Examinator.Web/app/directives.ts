@@ -18,7 +18,7 @@ module App {
 
                     scope.getAnswerButtonText = () => {
                         if (!scope.question.isAnswered) {
-                            return 'Aswer';
+                            return 'Answer';
                         } else if (scope.isCorrect) {
                             return 'Correct';
                         } else {

@@ -17,7 +17,7 @@ var App;
                 };
                 scope.getAnswerButtonText = function () {
                     if (!scope.question.isAnswered) {
-                        return 'Aswer';
+                        return 'Answer';
                     }
                     else if (scope.isCorrect) {
                         return 'Correct';
