@@ -22,6 +22,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\icon-120.png" />
+    <Content Include="Content\icon-152.png" />
+    <Content Include="Content\icon-180.png" />
+    <Content Include="Content\icon-76.png" />
     <Content Include="css\style.css" />
     <TypeScriptCompile Include="app\servicies.ts" />
     <TypeScriptCompile Include="app\_all.d.ts" />
@@ -536,6 +540,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
