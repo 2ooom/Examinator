@@ -22,14 +22,33 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\android-chrome-144x144.png" />
+    <Content Include="Content\android-chrome-192x192.png" />
+    <Content Include="Content\android-chrome-36x36.png" />
+    <Content Include="Content\android-chrome-48x48.png" />
+    <Content Include="Content\android-chrome-72x72.png" />
+    <Content Include="Content\android-chrome-96x96.png" />
+    <Content Include="Content\apple-touch-icon-114x114.png" />
+    <Content Include="Content\apple-touch-icon-120x120.png" />
+    <Content Include="Content\apple-touch-icon-144x144.png" />
+    <Content Include="Content\apple-touch-icon-152x152.png" />
+    <Content Include="Content\apple-touch-icon-180x180.png" />
+    <Content Include="Content\apple-touch-icon-57x57.png" />
+    <Content Include="Content\apple-touch-icon-60x60.png" />
+    <Content Include="Content\apple-touch-icon-72x72.png" />
+    <Content Include="Content\apple-touch-icon-76x76.png" />
+    <Content Include="Content\apple-touch-icon-precomposed.png" />
+    <Content Include="Content\apple-touch-icon.png" />
+    <Content Include="Content\browserconfig.xml" />
+    <Content Include="Content\favicon-16x16.png" />
+    <Content Include="Content\favicon-32x32.png" />
+    <Content Include="Content\favicon-96x96.png" />
     <Content Include="Content\favicon.ico" />
-    <Content Include="Content\icon-120.png" />
-    <Content Include="Content\icon-152.png" />
-    <Content Include="Content\icon-16.png" />
-    <Content Include="Content\icon-180.png" />
-    <Content Include="Content\icon-32.png" />
-    <Content Include="Content\icon-48.png" />
-    <Content Include="Content\icon-76.png" />
+    <Content Include="Content\mstile-144x144.png" />
+    <Content Include="Content\mstile-150x150.png" />
+    <Content Include="Content\mstile-310x150.png" />
+    <Content Include="Content\mstile-310x310.png" />
+    <Content Include="Content\mstile-70x70.png" />
     <Content Include="css\style.css" />
     <TypeScriptCompile Include="app\servicies.ts" />
     <TypeScriptCompile Include="app\_all.d.ts" />
@@ -537,6 +556,7 @@
     <Content Include="lib\ionic\scss\_variables.scss" />
     <Content Include="lib\ionic\version.json" />
     <Content Include="packages.config" />
+    <Content Include="Content\manifest.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
