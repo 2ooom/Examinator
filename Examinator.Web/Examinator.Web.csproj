@@ -495,11 +495,9 @@
     <Content Include="templates\settings.html" />
     <Content Include="templates\exam.html" />
     <Content Include="templates\question.html" />
-    <Content Include="templates\login.html" />
     <Content Include="templates\menu.html" />
     <Content Include="templates\category.html" />
     <Content Include="templates\categories.html" />
-    <Content Include="templates\search.html" />
     <Content Include="web.config" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />

@@ -22,14 +22,6 @@ module App {
                     templateUrl: "templates/menu.html",
                     controller: 'AppCtrl'
                 })
-                .state('app.search', {
-                    url: "/search",
-                    views: {
-                        'menuContent': {
-                            templateUrl: "templates/search.html"
-                        }
-                    }
-                })
                 .state('app.settings', {
                     url: "/settings",
                     views: {
