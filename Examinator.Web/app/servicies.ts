@@ -12,6 +12,49 @@ module App {
                 return $localStorage.settings;
             }
         ])
+        .factory('storage', ['$localStorage', 'settings',
+            ($localStorage, settings) => {
+                if (!$localStorage.progress) {
+                    $localStorage.progress = {}
+                }
+                if (!$localStorage.answers) {
+                    $localStorage.answers = {}
+                }
+                return {
+                    getProgress: (categoryId: string) => {
+                        if (!settings.saveProgress) {
+                            return 0;
+                        }
+                        return $localStorage.progress[categoryId] || 0;
+                    },
+                    saveProgress: (categoryId: string, questionIndex: number) => {
+                        if (!settings.saveProgress) {
+                            $localStorage.progress[categoryId] = 0;
+                            return false;
+                        }
+                        $localStorage.progress[categoryId] = questionIndex;
+                        return true;
+                    },
+                    saveAnswers: (categoryId: string, answers: number[]) => {
+                        if (!settings.saveProgress) {
+                            $localStorage.answers[categoryId] = [];
+                            return false;
+                        }
+                        if (!$localStorage.answers[categoryId]) {
+                            $localStorage.answers[categoryId] = [];
+                        }
+                        $localStorage.answers[categoryId].push(answers);
+                        return true;
+                    },
+                    getAnswers: (categoryId: string) => {
+                        if (!settings.saveProgress) {
+                            return [];
+                        }
+                        return $localStorage.answers[categoryId] || [];
+                    }
+                };
+            }
+        ])
         .factory('utils', [
             () => {
                 var maxattempts = 1000;

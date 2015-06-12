@@ -9,6 +9,46 @@ var App;
             };
         }
         return $localStorage.settings;
+    }]).factory('storage', ['$localStorage', 'settings', function ($localStorage, settings) {
+        if (!$localStorage.progress) {
+            $localStorage.progress = {};
+        }
+        if (!$localStorage.answers) {
+            $localStorage.answers = {};
+        }
+        return {
+            getProgress: function (categoryId) {
+                if (!settings.saveProgress) {
+                    return 0;
+                }
+                return $localStorage.progress[categoryId] || 0;
+            },
+            saveProgress: function (categoryId, questionIndex) {
+                if (!settings.saveProgress) {
+                    $localStorage.progress[categoryId] = 0;
+                    return false;
+                }
+                $localStorage.progress[categoryId] = questionIndex;
+                return true;
+            },
+            saveAnswers: function (categoryId, answers) {
+                if (!settings.saveProgress) {
+                    $localStorage.answers[categoryId] = [];
+                    return false;
+                }
+                if (!$localStorage.answers[categoryId]) {
+                    $localStorage.answers[categoryId] = [];
+                }
+                $localStorage.answers[categoryId].push(answers);
+                return true;
+            },
+            getAnswers: function (categoryId) {
+                if (!settings.saveProgress) {
+                    return [];
+                }
+                return $localStorage.answers[categoryId] || [];
+            }
+        };
     }]).factory('utils', [
         function () {
             var maxattempts = 1000;

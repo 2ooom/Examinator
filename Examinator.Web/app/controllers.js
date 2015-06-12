@@ -1,38 +1,13 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('examinator.controllers', []).controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
+    angular.module('examinator.controllers', []).controller('AppCtrl', function ($scope) {
         // With the new view caching in Ionic, Controllers are only called
         // when they are recreated or on app start, instead of every page change.
         // To listen for when this page is active (for example, to refresh data),
         // listen for the $ionicView.enter event:
         //$scope.$on('$ionicView.enter', function(e) {
         //});
-        // Form data for the login modal
-        $scope.loginData = {};
-        // Create the login modal that we will use later
-        $ionicModal.fromTemplateUrl('templates/login.html', {
-            scope: $scope
-        }).then(function (modal) {
-            $scope.modal = modal;
-        });
-        // Triggered in the login modal to close it
-        $scope.closeLogin = function () {
-            $scope.modal.hide();
-        };
-        // Open the login modal
-        $scope.login = function () {
-            $scope.modal.show();
-        };
-        // Perform the login action when the user submits the login form
-        $scope.doLogin = function () {
-            console.log('Doing login', $scope.loginData);
-            // Simulate a login delay. Remove this and replace with your login
-            // code if using a login system
-            $timeout(function () {
-                $scope.closeLogin();
-            }, 1000);
-        };
     }).controller('CategoriesCtrl', [
         '$scope',
         'categories',
@@ -44,12 +19,26 @@ var App;
         '$stateParams',
         'categories',
         '$state',
-        function ($scope, $stateParams, categories, $state) {
+        'storage',
+        function ($scope, $stateParams, categories, $state, storage) {
             var category = categories.getCategory($stateParams.categoryId);
             var questions = [];
             $scope.category = category;
-            $scope.currentQuestion = category.Questions[0];
-            $scope.current = 1;
+            $scope.current = storage.getProgress(category.Id) + 1;
+            $scope.currentQuestion = category.Questions[$scope.current - 1];
+            if ($scope.current > 1) {
+                console.log('loading question answers from previous session');
+                var answers = storage.getAnswers(category.Id);
+                for (var i = 0; i < $scope.current - 1; i++) {
+                    var q = category.Questions[i];
+                    var qa = answers[i];
+                    console.log('loading answers for question [' + q.Id + ']: ');
+                    console.log(qa);
+                    for (var j = 0; j < qa.length; j++) {
+                        q.Answers[qa[j]].selected = true;
+                    }
+                }
+            }
             var cleanup = function () {
                 category.Questions.forEach(function (q) {
                     q.Answers.forEach(function (a) {
@@ -60,11 +49,20 @@ var App;
             };
             $scope.next = function () {
                 questions.push($scope.currentQuestion);
+                var answersIndexes = [];
+                $scope.currentQuestion.Answers.forEach(function (a, i) {
+                    if (a.selected) {
+                        answersIndexes.push(i);
+                    }
+                });
+                storage.saveAnswers(category.Id, answersIndexes);
                 if ($scope.isLast()) {
                     cleanup();
+                    storage.saveProgress(category.Id, 0);
                     $state.go('app.categories');
                 }
                 else {
+                    storage.saveProgress(category.Id, $scope.current);
                     $scope.current++;
                     $scope.currentQuestion = category.Questions[$scope.current - 1];
                 }
