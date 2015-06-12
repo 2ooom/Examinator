@@ -6,7 +6,9 @@ module App {
                 if (!$localStorage.settings) {
                     // Set default settings
                     $localStorage.settings = {
-                        saveProgress: true
+                        saveProgress: true,
+                        examQuestionsNumber: 35,
+                        examTimeLimitMinutes: 60
                     }
                 }
                 return $localStorage.settings;
@@ -87,15 +89,23 @@ module App {
                 categories.forEach(c => { questions = questions.concat(c.Questions) });
                 return {
                     categories: categories,
-                    getCategory(categoryId) {
+                    getCategory(categoryId:string) {
                         return categories.filter(c => (c.Id === categoryId))[0];
                     },
-                    getQuestion(questionId) {
+                    getQuestion(questionId:string) {
                         return questions.filter((q: any) => (q.Id === questionId))[0];
                     },
-                    getRandomQuestions(num) {
+                    getRandomQuestions(num:number) {
                         var indexes = utils.getRandomNumbers(num, questions.length - 1);
                         return indexes.map(i => questions[i]);
+                    },
+                    reset(questions: any[]) {
+                        questions.forEach(q => {
+                            q.Answers.forEach(a => {
+                                delete a.selected;
+                            });
+                            delete q.isAnswered;
+                        });
                     }
                 }
             }

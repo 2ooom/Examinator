@@ -32,7 +32,7 @@ var App;
             views: {
                 'menuContent': {
                     templateUrl: "templates/exam.html",
-                    controller: 'ExamsCtrl'
+                    controller: 'ExamCtrl'
                 }
             }
         }).state('app.categories', {

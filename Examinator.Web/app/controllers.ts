@@ -19,7 +19,6 @@ module App {
         .controller('CategoryCtrl', [
             '$scope', '$stateParams', 'categories', '$state', 'storage', ($scope, $stateParams, categories, $state, storage) => {
                 var category = categories.getCategory($stateParams.categoryId);
-                var questions = [];
                 $scope.category = category;
                 $scope.current = storage.getProgress(category.Id) + 1;
                 $scope.currentQuestion = category.Questions[$scope.current - 1];
@@ -38,17 +37,7 @@ module App {
                     }
                 }
 
-                var cleanup = () => {
-                    category.Questions.forEach(q => {
-                        q.Answers.forEach(a => {
-                            delete a.selected;
-                        });
-                        delete q.isAnswered;
-                    });
-                };
-
                 $scope.next = () => {
-                    questions.push($scope.currentQuestion);
                     var answersIndexes = [];
                     $scope.currentQuestion.Answers.forEach((a, i) => {
                         if (a.selected) {
@@ -58,7 +47,7 @@ module App {
                     storage.saveAnswers(category.Id, answersIndexes);
                     
                     if ($scope.isLast()) {
-                        cleanup();
+                        categories.reset(category.Questions);
                         storage.saveProgress(category.Id, 0);
                         $state.go('app.categories');
                     } else {
@@ -71,13 +60,32 @@ module App {
                 $scope.isLast = () => (category.Questions.length <= $scope.current);
 
                 $scope.$on('$destroy', () => {
-                    cleanup();
+                    categories.reset(category.Questions);
                 });
             }
         ])
         .controller('ExamCtrl', [
-            '$scope', 'categories', '$state', ($scope, categories, $state) => {
+            '$scope', 'categories', '$state', 'settings',($scope, categories, $state, settings) => {
+                $scope.total = settings.examQuestionsNumber;
+                $scope.current = 1;
+                var questions = categories.getRandomQuestions(settings.examQuestionsNumber);
+                $scope.currentQuestion = questions[$scope.current - 1];
 
+                $scope.next = () => {
+                    if ($scope.isLast()) {
+                        categories.reset(questions);
+                        $state.go('app.categories');
+                    } else {
+                        $scope.current++;
+                        $scope.currentQuestion = questions[$scope.current - 1];
+                    }
+                }
+
+                $scope.isLast = () => (questions.length <= $scope.current);
+
+                $scope.$on('$destroy',() => {
+                    categories.reset(questions);
+                });
             }
         ])
         .controller('SettingsCtrl', [

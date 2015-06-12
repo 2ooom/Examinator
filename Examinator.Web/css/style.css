@@ -32,3 +32,9 @@
     padding-left: 15px;
     margin-top: 4px;
 }
+.settings h2 {
+    margin-bottom: 10px;
+}
+.settings h2:first-child {
+    margin-top: 20px;
+}

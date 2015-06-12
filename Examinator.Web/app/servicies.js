@@ -5,7 +5,9 @@ var App;
         if (!$localStorage.settings) {
             // Set default settings
             $localStorage.settings = {
-                saveProgress: true
+                saveProgress: true,
+                examQuestionsNumber: 35,
+                examTimeLimitMinutes: 60
             };
         }
         return $localStorage.settings;
@@ -91,6 +93,14 @@ var App;
                 getRandomQuestions: function (num) {
                     var indexes = utils.getRandomNumbers(num, questions.length - 1);
                     return indexes.map(function (i) { return questions[i]; });
+                },
+                reset: function (questions) {
+                    questions.forEach(function (q) {
+                        q.Answers.forEach(function (a) {
+                            delete a.selected;
+                        });
+                        delete q.isAnswered;
+                    });
                 }
             };
         }

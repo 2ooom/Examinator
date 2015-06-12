@@ -1,5 +1,7 @@
-<ion-view view-title="Ecamination {{current}}/ {{total}}">
+<ion-view view-title="Examination {{current}}/ {{total}}">
     <ion-content>
-        <ui-view name="questionContent"></ui-view>
+        <div data-question="currentQuestion"
+             is-last="isLast()"
+             next="next()"></div>
     </ion-content>
 </ion-view>
