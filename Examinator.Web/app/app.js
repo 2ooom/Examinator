@@ -1,7 +1,7 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('examinator', ['ionic', 'examinator.controllers', 'examinator.servicies', 'examinator.directives']).run(function ($ionicPlatform) {
+    angular.module('examinator', ['ionic', 'examinator.controllers', 'examinator.servicies', 'examinator.directives', 'ngStorage']).run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
@@ -26,11 +26,12 @@ var App;
                     templateUrl: "templates/search.html"
                 }
             }
-        }).state('app.browse', {
-            url: "/browse",
+        }).state('app.settings', {
+            url: "/settings",
             views: {
                 'menuContent': {
-                    templateUrl: "templates/browse.html"
+                    templateUrl: "templates/settings.html",
+                    controller: 'SettingsCtrl'
                 }
             }
         }).state('app.exam', {
@@ -55,14 +56,6 @@ var App;
                 'menuContent': {
                     templateUrl: "templates/category.html",
                     controller: 'CategoryCtrl'
-                }
-            }
-        }).state('app.category.question', {
-            url: "/question/:questionId",
-            views: {
-                'categoryContent': {
-                    templateUrl: "templates/question.html",
-                    controller: 'QuestionCtrl'
                 }
             }
         });

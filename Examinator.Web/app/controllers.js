@@ -33,14 +33,7 @@ var App;
                 $scope.closeLogin();
             }, 1000);
         };
-    }).controller('QuestionCtrl', [
-        '$scope',
-        'categories',
-        '$stateParams',
-        function ($scope, categories, $stateParams) {
-            $scope.question = categories.getQuestion($stateParams.questionId);
-        }
-    ]).controller('CategoriesCtrl', [
+    }).controller('CategoriesCtrl', [
         '$scope',
         'categories',
         function ($scope, categories) {
@@ -86,6 +79,12 @@ var App;
         'categories',
         '$state',
         function ($scope, categories, $state) {
+        }
+    ]).controller('SettingsCtrl', [
+        '$scope',
+        'settings',
+        function ($scope, settings) {
+            $scope.settings = settings;
         }
     ]);
 })(App || (App = {}));

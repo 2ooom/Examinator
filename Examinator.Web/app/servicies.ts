@@ -1,6 +1,17 @@
 /// <reference path="_all.d.ts" />
 module App {
     angular.module('examinator.servicies', [])
+        .factory('settings', ['$localStorage',
+            ($localStorage) => {
+                if (!$localStorage.settings) {
+                    // Set default settings
+                    $localStorage.settings = {
+                        saveProgress: true
+                    }
+                }
+                return $localStorage.settings;
+            }
+        ])
         .factory('utils', [
             () => {
                 var maxattempts = 1000;

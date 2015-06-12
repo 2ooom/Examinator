@@ -41,11 +41,6 @@ module App {
                 }, 1000);
             };
         })
-        .controller('QuestionCtrl', [
-            '$scope', 'categories', '$stateParams', ($scope, categories, $stateParams) => {
-                $scope.question = categories.getQuestion($stateParams.questionId);
-            }
-        ])
         .controller('CategoriesCtrl', [
             '$scope', 'categories', ($scope, categories) => {
                 $scope.categories = categories.categories;
@@ -89,6 +84,11 @@ module App {
         .controller('ExamCtrl', [
             '$scope', 'categories', '$state', ($scope, categories, $state) => {
 
+            }
+        ])
+        .controller('SettingsCtrl', [
+            '$scope', 'settings', ($scope, settings) => {
+                $scope.settings = settings;
             }
         ]);
 
