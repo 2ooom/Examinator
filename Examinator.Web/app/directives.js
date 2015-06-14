@@ -36,6 +36,17 @@ var App;
                     return 'Wrong';
                 }
             };
+            scope.getAnswerClass = function (answer) {
+                if (scope.question.isAnswered && ((answer.selected && answer.IsRight) || (answer.IsRight && answer.selected === undefined))) {
+                    return 'checkbox-balanced';
+                }
+                else if (scope.question.isAnswered && answer.selected && !answer.IsRight) {
+                    return 'checkbox-assertive';
+                }
+                else {
+                    return 'checkbox-positive';
+                }
+            };
             scope.getAnswerButtonClass = function () {
                 if (!scope.question.isAnswered) {
                     return 'button-positive';

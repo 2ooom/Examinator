@@ -39,6 +39,16 @@ module App {
                         }
                     };
 
+                    scope.getAnswerClass = (answer) => {
+                        if (scope.question.isAnswered && ((answer.selected && answer.IsRight) || (answer.IsRight && answer.selected === undefined))) {
+                            return 'checkbox-balanced';
+                        } else if (scope.question.isAnswered && answer.selected && !answer.IsRight) {
+                            return 'checkbox-assertive';
+                        } else {
+                            return 'checkbox-positive';
+                        }
+                    }
+
                     scope.getAnswerButtonClass = () => {
                         if (!scope.question.isAnswered) {
                             return 'button-positive';

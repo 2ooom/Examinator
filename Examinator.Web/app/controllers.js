@@ -87,7 +87,7 @@ var App;
             };
             $scope.isLast = function () { return (category.Questions.length <= $scope.current); };
             $scope.$on('$destroy', function () {
-                categories.reset(category.Questions);
+                //categories.reset(category.Questions);
             });
         }
     ]).controller('ExamCtrl', [

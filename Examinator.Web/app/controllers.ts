@@ -92,9 +92,9 @@ module App {
                 }
                 
                 $scope.isLast = () => (category.Questions.length <= $scope.current);
-
+                
                 $scope.$on('$destroy', () => {
-                    categories.reset(category.Questions);
+                    //categories.reset(category.Questions);
                 });
             }
         ])
