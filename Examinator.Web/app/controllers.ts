@@ -65,8 +65,22 @@ module App {
             }
         ])
         .controller('ExamCtrl', [
-        '$scope', 'categories', '$state', 'settings', ($scope, categories, $state, settings) => {
-                var questions = [];
+        '$scope', 'categories', '$state', 'settings','$timeout', ($scope, categories, $state, settings, $timeout) => {
+                var timerPromise;
+
+                function timer() {
+                    timerPromise = $timeout(() => {
+                        $scope.secondsElapsed++;
+                        if ($scope.secondsElapsed <= settings.examTimeLimitMinutes * 60) {
+                            timer();
+                        } else {
+                            $scope.isFinished = true;
+                            $scope.isFailed = true;
+                            $scope.isTimerElapsed = true;
+                        }
+                    }, 1000);
+                }
+
                 function reset() {
                     $scope.total = settings.examQuestionsNumber;
                     $scope.current = 1;
@@ -74,11 +88,21 @@ module App {
                     $scope.correct = 0;
                     $scope.isFailed = false;
                     $scope.isFinished = false;
-                    questions = categories.getRandomQuestions(settings.examQuestionsNumber);
-                    $scope.currentQuestion = questions[$scope.current - 1];
+                    $scope.isTimerElapsed = false;
+                    $scope.secondsElapsed = 0;
+                    $scope.questions = categories.getRandomQuestions(settings.examQuestionsNumber);
+                    $scope.currentQuestion = $scope.questions[$scope.current - 1];
+                    timer();
+                }
+                
+                $scope.getTimer = () => {
+                    return new Date($scope.secondsElapsed * 1000);
                 }
 
-                reset();
+                function complete() {
+                    $scope.isFinished = true;
+                    $timeout.cancel(timerPromise);
+                }
 
                 $scope.next = () => {
                     if (!$scope.currentQuestion.isCorrect) {
@@ -88,25 +112,26 @@ module App {
                     }
                     if ($scope.wrong > settings.examMaxMistakes) {
                         $scope.isFailed = true;
-                        $scope.isFinished = true;
+                        complete();
                     }
                     else if ($scope.isLast()) {
-                        $scope.isFinished = true;
+                        complete();
                     } else {
                         $scope.current++;
-                        $scope.currentQuestion = questions[$scope.current - 1];
+                        $scope.currentQuestion = $scope.questions[$scope.current - 1];
                     }
                 }
 
                 $scope.finish = () => {
-                    categories.reset(questions);
+                    categories.reset($scope.questions);
                     $state.go('app.categories');
                 }
 
-                $scope.isLast = () => (questions.length <= $scope.current);
+                $scope.isLast = () => ($scope.questions.length <= $scope.current);
 
                 $scope.$on('$ionicView.leave',() => {
-                    categories.reset(questions);
+                    categories.reset($scope.questions);
+                    $timeout.cancel(timerPromise);
                 });
                 $scope.$on('$ionicView.enter', (a, b, c) => {
                     reset();

@@ -4,19 +4,40 @@
             {{correct}} <span class="icon ion-checkmark"></span> {{wrong}} <span class="icon ion-close"></span> of {{total}}
         </span>
         <span ng-show="isFinished">Examination Results</span>
+        <span class="timer">
+            <span ng-bind="getTimer() | date: 'mm:ss'"></span>
+        </span>
     </ion-nav-title>
     <ion-content>
         <div data-question="currentQuestion"
              is-last="isLast()"
              next="next()" ng-hide="isFinished"></div>
-        <div class="result list list-inset" ng-show="isFinished">
-            <div class="list-item">
-                <h1 ng-hide="isFailed">Exam Passed</h1>
-                <h1 ng-show="isFailed">Exam Failed</h1>
+        <div ng-show="isFinished">
+            <div class="list list-inset exam-result">
+                <div class="list-item">
+                    <h1><button class="button button-clear button-balanced" ng-hide="isFailed">Exam Passed</button>
+                        <button class="button button-clear button-assertive" ng-show="isFailed">Exam Failed</button>
+                    </h1>
+                    <h2 ng-show="isTimerElapsed">You failed to answer all questions in time</h2>
+                    <h2 ng-show="wrong">You made <b ng-bind="wrong"></b> mistake(s)</h2>
+                    <h2 ng-hide="wrong">Congratilation you haven't done any mistakes!</h2>
+                </div>
             </div>
-            <div class="list-item">
+            <div class="list list-inset" ng-show="wrong">
+                <div class="item list-item" ng-repeat="question in questions | filter: { isCorrect: false} ">
+                    <p>#<span ng-bind="question.Id"></span>. <span ng-bind="question.Text"></span></p>
+                    <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
+                    <p ng-repeat="answer in question.Answers | filter: {IsRight: true}">
+                        <span class="icon ion-checkmark"></span>
+                        <span ng-bind="answer.Text"></span>
+                        <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl"/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="list list-inset">
                 <button class="button button-block"
-                        ng-class="{'button-positive':isCorrect, 'button-assertive':!isCorrect}"
+                        ng-class="{'button-balanced':!isFailed, 'button-assertive':isFailed}"
                         ng-click="finish()">
                     Finish
                 </button>

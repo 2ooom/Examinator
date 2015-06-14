@@ -32,9 +32,21 @@
     padding-left: 15px;
     margin-top: 4px;
 }
+
 .settings h2 {
     margin-bottom: 10px;
 }
 .settings h2:first-child {
     margin-top: 20px;
+}
+.timer {
+    position: absolute;
+    right: 0;
+}
+.exam-result h1, .exam-result h2 {
+    text-align: center;
+}
+.exam-result h1 button {
+    font-size: 36px;
+    font-weight: 500;
 }
