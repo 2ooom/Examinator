@@ -1,7 +1,4 @@
 <ion-modal-view class="confirm-modal">
-    <ion-header-bar>
-        <h1 class="title" ng-bind="title"></h1>
-    </ion-header-bar>
     <ion-content>
         <div class="row confirm-text">
             <div class="col">
@@ -11,11 +8,11 @@
     </ion-content>
     <ion-footer-bar>
         <div class="row padding-horizontal">
-            <div class="col-50">
-                <button class="button button-positive button-block" ng-click="resolve()" ng-bind="resolveText"></button>
-            </div>
-            <div class="col-50">
+            <div class="col-50 padding-right">
                 <button class="button button-positive button-outline button-block" ng-click="reject()" ng-bind="rejectText"></button>
+            </div>
+            <div class="col-50 padding-left">
+                <button class="button button-positive button-block" ng-click="resolve()" ng-bind="resolveText"></button>
             </div>
         </div>
     </ion-footer-bar>

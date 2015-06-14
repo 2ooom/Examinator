@@ -37,7 +37,7 @@ var App;
                 }
             };
             scope.getAnswerClass = function (answer) {
-                if (scope.question.isAnswered && ((answer.selected && answer.IsRight) || (answer.IsRight && answer.selected === undefined))) {
+                if (scope.question.isAnswered && ((answer.selected && answer.IsRight) || (answer.IsRight && !answer.selected))) {
                     return 'checkbox-balanced';
                 }
                 else if (scope.question.isAnswered && answer.selected && !answer.IsRight) {

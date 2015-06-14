@@ -120,8 +120,7 @@ module App {
                 };
 
                 return {
-                    show: (title: string, text: string, resolveText: string, rejectText:string) => {
-                        $scope.title = title;
+                    show: (text: string, resolveText: string, rejectText:string) => {
                         $scope.text = text;
                         $scope.resolveText = resolveText || 'Ok';
                         $scope.rejectText = rejectText || 'Cancel';

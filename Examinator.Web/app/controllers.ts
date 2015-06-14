@@ -39,7 +39,7 @@ module App {
                     var progress = storage.getProgress(category.Id) + 1;
 
                     if (progress > 1) {
-                        confirm.show('Continue from last time', 'Do you want to continue from question #' + progress + '?', 'Continue', 'Restart').then(() => {
+                        confirm.show('Do you want to continue from question #' + progress + '?', 'Continue', 'Restart').then(() => {
                             setCurrent(progress);
                             console.log('loading question answers from previous session');
                             var answers = storage.getAnswers(category.Id);

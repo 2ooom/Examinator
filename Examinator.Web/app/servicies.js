@@ -110,8 +110,7 @@ var App;
             deferred.resolve();
         };
         return {
-            show: function (title, text, resolveText, rejectText) {
-                $scope.title = title;
+            show: function (text, resolveText, rejectText) {
                 $scope.text = text;
                 $scope.resolveText = resolveText || 'Ok';
                 $scope.rejectText = rejectText || 'Cancel';

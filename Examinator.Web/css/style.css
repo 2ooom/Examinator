@@ -32,7 +32,9 @@
     padding-left: 15px;
     margin-top: 4px;
 }
-
+.total-answers {
+    font-weight: 400;
+}
 .settings h2 {
     margin-bottom: 10px;
 }
@@ -41,7 +43,7 @@
 }
 .timer {
     position: absolute;
-    right: 0;
+    right: -45px;
 }
 .exam-result h1, .exam-result h2 {
     text-align: center;
@@ -60,5 +62,22 @@
     height: 64px;
 }
 .title-center.header-item {
-    right: 0 !important;
+    overflow: visible;
+}
+
+.confirm-modal .scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.confirm-modal .scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.confirm-modal .bar-footer .padding-left {
+    padding-left: 5px;
+}
+.confirm-modal .bar-footer .padding-right {
+    padding-right: 5px;
 }
