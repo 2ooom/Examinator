@@ -59,3 +59,6 @@
 .confirm-modal .bar-footer {
     height: 64px;
 }
+.title-center.header-item {
+    right: 0 !important;
+}
