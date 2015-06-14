@@ -51,10 +51,10 @@ var App;
             $scope.finish = function () {
                 $state.go('app.categories');
             };
-            $scope.$on('$ionicView.leave', function () {
+            $scope.$on('$ionicView.afterLeave', function () {
                 categories.reset(category.Questions);
             });
-            $scope.$on('$ionicView.enter', function (a, b, c) {
+            $scope.$on('$ionicView.beforeEnter', function () {
                 $ionicScrollDelegate.scrollTop();
                 reset();
             });
@@ -149,11 +149,11 @@ var App;
                 $state.go('app.categories');
             };
             $scope.isLast = function () { return ($scope.questions.length <= $scope.current); };
-            $scope.$on('$ionicView.leave', function () {
+            $scope.$on('$ionicView.afterLeave', function () {
                 categories.reset($scope.questions);
                 $timeout.cancel(timerPromise);
             });
-            $scope.$on('$ionicView.enter', function (a, b, c) {
+            $scope.$on('$ionicView.beforeEnter', function (a, b, c) {
                 $ionicScrollDelegate.scrollTop();
                 reset();
             });

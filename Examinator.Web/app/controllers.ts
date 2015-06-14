@@ -50,11 +50,11 @@ module App {
                     $state.go('app.categories');
                 }
 
-                $scope.$on('$ionicView.leave',() => {
+                $scope.$on('$ionicView.afterLeave',() => {
                     categories.reset(category.Questions);
                 });
 
-                $scope.$on('$ionicView.enter',(a, b, c) => {
+                $scope.$on('$ionicView.beforeEnter',() => {
                     $ionicScrollDelegate.scrollTop();
                     reset();
                 });
@@ -151,12 +151,12 @@ module App {
 
                 $scope.isLast = () => ($scope.questions.length <= $scope.current);
 
-                $scope.$on('$ionicView.leave',() => {
+                $scope.$on('$ionicView.afterLeave',() => {
                     categories.reset($scope.questions);
                     $timeout.cancel(timerPromise);
                 });
 
-                $scope.$on('$ionicView.enter',(a, b, c) => {
+                $scope.$on('$ionicView.beforeEnter',(a, b, c) => {
                     $ionicScrollDelegate.scrollTop();
                     reset();
                 });
