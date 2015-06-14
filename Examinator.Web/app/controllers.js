@@ -53,6 +53,8 @@ var App;
                             categories.checkAnswers(q);
                             countAnswer(q.isCorrect);
                         }
+                    }).catch(function () {
+                        storage.saveProgress(category.Id, 0);
                     });
                 }
             }

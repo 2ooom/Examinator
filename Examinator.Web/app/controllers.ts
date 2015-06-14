@@ -54,6 +54,8 @@ module App {
                                 categories.checkAnswers(q);
                                 countAnswer(q.isCorrect);
                             }
+                        }).catch(() => {
+                            storage.saveProgress(category.Id, 0);
                         });
                     }
                 }

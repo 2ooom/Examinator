@@ -1,7 +1,11 @@
 <ion-view>
     <ion-nav-title>
         <span ng-hide="isFinished" class="answers-indicator">
-            <span ng-bind="correct"></span> <span class="icon ion-checkmark balanced padding-right"></span> <span ng-bind="wrong"></span> <span class="icon ion-close assertive padding-right"></span> <span class="total-answers">of <span ng-bind="total"></span></span>
+            <span ng-bind="correct"></span>
+            <span class="icon ion-checkmark balanced padding-right"></span>
+            <span ng-bind="wrong"></span>
+            <span class="icon ion-close assertive padding-right"></span>
+            <span class="total-answers">of <span ng-bind="total"></span></span>
         </span>
         <span ng-show="isFinished">Examination Results</span>
         <span class="timer">
