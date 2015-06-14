@@ -1,15 +1,28 @@
 /// <reference path="_all.d.ts" />
 module App {
     angular.module('examinator.directives', [])
-        .directive('question', [
+        .directive('mistakes', [
             () => {
+
+                return {
+                    scope: {
+                        questions: '='
+                    },
+                    restrict: 'E',
+                    templateUrl: 'templates/mistakes.html'
+                }
+            }
+        ])
+        .directive('question', ['$ionicScrollDelegate', 'categories',
+        ($ionicScrollDelegate, categories) => {
                 function link(scope, element, attributes) {
                     scope.question.isCorrect = false;
 
                     scope.answerHandle = () => {
                         if (!scope.question.isAnswered) {
-                            scope.checkAnswer();
+                            categories.checkAnswers(scope.question);
                         } else {
+                            $ionicScrollDelegate.scrollTop();
                             if (scope.next) {
                                 scope.next();
                             }
@@ -37,17 +50,6 @@ module App {
                             return correctClass + ' ion-navicon';
                         }
                     }
-
-                    scope.checkAnswer = () => {
-                        scope.question.isAnswered = true;
-                        var correct = true;
-                        for (var i = 0; i < scope.question.Answers.length; i++) {
-                            correct = correct && !!scope.question.Answers[i].selected === !!scope.question.Answers[i].IsRight;
-                        }
-                        scope.question.isCorrect = correct;
-                        scope.question.isAnswered = true;
-                    };
-
                 }
 
                 return {

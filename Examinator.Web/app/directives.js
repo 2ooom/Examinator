@@ -1,65 +1,65 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('examinator.directives', []).directive('question', [
+    angular.module('examinator.directives', []).directive('mistakes', [
         function () {
-            function link(scope, element, attributes) {
-                scope.question.isCorrect = false;
-                scope.answerHandle = function () {
-                    if (!scope.question.isAnswered) {
-                        scope.checkAnswer();
-                    }
-                    else {
-                        if (scope.next) {
-                            scope.next();
-                        }
-                    }
-                };
-                scope.getAnswerButtonText = function () {
-                    if (!scope.question.isAnswered) {
-                        return 'Answer';
-                    }
-                    else if (scope.question.isCorrect) {
-                        return 'Correct';
-                    }
-                    else {
-                        return 'Wrong';
-                    }
-                };
-                scope.getAnswerButtonClass = function () {
-                    if (!scope.question.isAnswered) {
-                        return 'button-positive';
-                    }
-                    var correctClass = scope.question.isCorrect ? 'button-balanced icon-right' : 'button-assertive icon-right';
-                    if (!scope.isLast) {
-                        return correctClass + ' ion-chevron-right';
-                    }
-                    else {
-                        return correctClass + ' ion-navicon';
-                    }
-                };
-                scope.checkAnswer = function () {
-                    scope.question.isAnswered = true;
-                    var correct = true;
-                    for (var i = 0; i < scope.question.Answers.length; i++) {
-                        correct = correct && !!scope.question.Answers[i].selected === !!scope.question.Answers[i].IsRight;
-                    }
-                    scope.question.isCorrect = correct;
-                    scope.question.isAnswered = true;
-                };
-            }
             return {
                 scope: {
-                    question: '=',
-                    isLast: '=',
-                    next: '&',
-                    finish: '&'
+                    questions: '='
                 },
-                restrict: 'AE',
-                templateUrl: 'templates/question.html',
-                link: link
+                restrict: 'E',
+                templateUrl: 'templates/mistakes.html'
             };
         }
-    ]);
+    ]).directive('question', ['$ionicScrollDelegate', 'categories', function ($ionicScrollDelegate, categories) {
+        function link(scope, element, attributes) {
+            scope.question.isCorrect = false;
+            scope.answerHandle = function () {
+                if (!scope.question.isAnswered) {
+                    categories.checkAnswers(scope.question);
+                }
+                else {
+                    $ionicScrollDelegate.scrollTop();
+                    if (scope.next) {
+                        scope.next();
+                    }
+                }
+            };
+            scope.getAnswerButtonText = function () {
+                if (!scope.question.isAnswered) {
+                    return 'Answer';
+                }
+                else if (scope.question.isCorrect) {
+                    return 'Correct';
+                }
+                else {
+                    return 'Wrong';
+                }
+            };
+            scope.getAnswerButtonClass = function () {
+                if (!scope.question.isAnswered) {
+                    return 'button-positive';
+                }
+                var correctClass = scope.question.isCorrect ? 'button-balanced icon-right' : 'button-assertive icon-right';
+                if (!scope.isLast) {
+                    return correctClass + ' ion-chevron-right';
+                }
+                else {
+                    return correctClass + ' ion-navicon';
+                }
+            };
+        }
+        return {
+            scope: {
+                question: '=',
+                isLast: '=',
+                next: '&',
+                finish: '&'
+            },
+            restrict: 'AE',
+            templateUrl: 'templates/question.html',
+            link: link
+        };
+    }]);
 })(App || (App = {}));
 //# sourceMappingURL=directives.js.map

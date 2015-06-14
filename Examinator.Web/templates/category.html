@@ -1,7 +1,22 @@
-<ion-view view-title="{{category.Text}} {{current}}/ {{category.Questions.length}}">
+<ion-view>
+    <ion-nav-title>
+        <span ng-hide="isFinished">
+            {{category.Text}}: {{correct}} <span class="icon ion-checkmark"></span> {{wrong}} <span class="icon ion-close"></span> of {{category.Questions.length}}
+        </span>
+        <span ng-show="isFinished">Results</span>
+    </ion-nav-title>
     <ion-content>
         <div data-question="currentQuestion"
-                  is-last="isLast()"
-                  next="next()"></div>
+             is-last="isLast()"
+             next="next()" ng-hide="isFinished"></div>
+        <div ng-show="isFinished">
+            <mistakes questions="category.Questions" ng-show="wrong"></mistakes>
+
+            <div class="list list-inset">
+                <button class="button button-block button-balanced" ng-click="finish()">
+                    Finish
+                </button>
+            </div>
+        </div>
     </ion-content>
 </ion-view>

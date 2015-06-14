@@ -3,13 +3,6 @@ module App {
     angular.module('examinator.controllers', [])
         .controller('AppCtrl', ($scope) => {
 
-            // With the new view caching in Ionic, Controllers are only called
-            // when they are recreated or on app start, instead of every page change.
-            // To listen for when this page is active (for example, to refresh data),
-            // listen for the $ionicView.enter event:
-            //$scope.$on('$ionicView.enter', function(e) {
-            //});
-        
         })
         .controller('CategoriesCtrl', [
             '$scope', 'categories', ($scope, categories) => {
@@ -17,25 +10,54 @@ module App {
             }
         ])
         .controller('CategoryCtrl', [
-            '$scope', '$stateParams', 'categories', '$state', 'storage', ($scope, $stateParams, categories, $state, storage) => {
-                var category = categories.getCategory($stateParams.categoryId);
-                $scope.category = category;
-                $scope.current = storage.getProgress(category.Id) + 1;
-                $scope.currentQuestion = category.Questions[$scope.current - 1];
+        '$scope', '$stateParams', 'categories', '$state', 'storage', '$ionicScrollDelegate', ($scope, $stateParams, categories, $state, storage, $ionicScrollDelegate) => {
 
-                if ($scope.current > 1) {
-                    console.log('loading question answers from previous session');
-                    var answers = storage.getAnswers(category.Id);
-                    for (var i = 0; i < $scope.current - 1; i++) {
-                        var q = category.Questions[i];
-                        var qa = answers[i];
-                        console.log('loading answers for question [' + q.Id + ']: ');
-                        console.log(qa);
-                        for (var j = 0; j < qa.length; j++) {
-                            q.Answers[qa[j]].selected = true;
+                var category = categories.getCategory($stateParams.categoryId);
+                function countAnswer(isCorrect) {
+                    if(isCorrect) {
+                        $scope.correct++;
+                    } else {
+                        $scope.wrong++;
+                    }
+                }
+
+                function reset() {
+                    $scope.category = category;
+                    $scope.current = storage.getProgress(category.Id) + 1;
+                    $scope.currentQuestion = category.Questions[$scope.current - 1];
+                    $scope.wrong = 0;
+                    $scope.correct = 0;
+                    $scope.isFinished = false;
+
+                    if ($scope.current > 1) {
+                        console.log('loading question answers from previous session');
+                        var answers = storage.getAnswers(category.Id);
+                        for (var i = 0; i < $scope.current - 1; i++) {
+                            var q = category.Questions[i];
+                            var qa = answers[i];
+                            console.log('loading answers for question [' + q.Id + ']: ');
+                            console.log(qa);
+                            for (var j = 0; j < qa.length; j++) {
+                                q.Answers[qa[j]].selected = true;
+                            }
+                            categories.checkAnswers(q);
+                            countAnswer(q.isCorrect);
                         }
                     }
                 }
+
+                $scope.finish = () => {
+                    $state.go('app.categories');
+                }
+
+                $scope.$on('$ionicView.leave',() => {
+                    categories.reset(category.Questions);
+                });
+
+                $scope.$on('$ionicView.enter',(a, b, c) => {
+                    $ionicScrollDelegate.scrollTop();
+                    reset();
+                });
 
                 $scope.next = () => {
                     var answersIndexes = [];
@@ -45,18 +67,18 @@ module App {
                         }
                     });
                     storage.saveAnswers(category.Id, answersIndexes);
-                    
+                    countAnswer($scope.currentQuestion.isCorrect);
                     if ($scope.isLast()) {
-                        categories.reset(category.Questions);
                         storage.saveProgress(category.Id, 0);
-                        $state.go('app.categories');
+                        $scope.isFinished = true;
+
                     } else {
                         storage.saveProgress(category.Id, $scope.current);
                         $scope.current++;
                         $scope.currentQuestion = category.Questions[$scope.current - 1];
                     }
                 }
-
+                
                 $scope.isLast = () => (category.Questions.length <= $scope.current);
 
                 $scope.$on('$destroy', () => {
@@ -65,13 +87,13 @@ module App {
             }
         ])
         .controller('ExamCtrl', [
-        '$scope', 'categories', '$state', 'settings','$timeout', ($scope, categories, $state, settings, $timeout) => {
+        '$scope', 'categories', '$state', 'settings', '$timeout', '$ionicScrollDelegate', ($scope, categories, $state, settings, $timeout, $ionicScrollDelegate) => {
                 var timerPromise;
-
+                var timeLimitSeconds = settings.examTimeLimitMinutes * 60;
                 function timer() {
                     timerPromise = $timeout(() => {
                         $scope.secondsElapsed++;
-                        if ($scope.secondsElapsed <= settings.examTimeLimitMinutes * 60) {
+                        if ($scope.secondsElapsed <= timeLimitSeconds) {
                             timer();
                         } else {
                             $scope.isFinished = true;
@@ -96,7 +118,7 @@ module App {
                 }
                 
                 $scope.getTimer = () => {
-                    return new Date($scope.secondsElapsed * 1000);
+                    return new Date((timeLimitSeconds - $scope.secondsElapsed) * 1000);
                 }
 
                 function complete() {
@@ -133,7 +155,9 @@ module App {
                     categories.reset($scope.questions);
                     $timeout.cancel(timerPromise);
                 });
-                $scope.$on('$ionicView.enter', (a, b, c) => {
+
+                $scope.$on('$ionicView.enter',(a, b, c) => {
+                    $ionicScrollDelegate.scrollTop();
                     reset();
                 });
             }

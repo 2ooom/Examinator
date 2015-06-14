@@ -19,21 +19,9 @@
                         <button class="button button-clear button-assertive" ng-show="isFailed">Exam Failed</button>
                     </h1>
                     <h2 ng-show="isTimerElapsed">You failed to answer all questions in time</h2>
-                    <h2 ng-show="wrong">You made <b ng-bind="wrong"></b> mistake(s)</h2>
-                    <h2 ng-hide="wrong">Congratilation you haven't done any mistakes!</h2>
                 </div>
             </div>
-            <div class="list list-inset" ng-show="wrong">
-                <div class="item list-item" ng-repeat="question in questions | filter: { isCorrect: false} ">
-                    <p>#<span ng-bind="question.Id"></span>. <span ng-bind="question.Text"></span></p>
-                    <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
-                    <p ng-repeat="answer in question.Answers | filter: {IsRight: true}">
-                        <span class="icon ion-checkmark"></span>
-                        <span ng-bind="answer.Text"></span>
-                        <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl"/>
-                    </p>
-                </div>
-            </div>
+            <mistakes questions="questions" ng-show="wrong"></mistakes>
 
             <div class="list list-inset">
                 <button class="button button-block"

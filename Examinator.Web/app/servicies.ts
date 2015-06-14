@@ -18,7 +18,7 @@ module App {
                     if ($localStorage.settings.examQuestionsNumber === undefined) {
                         $localStorage.settings.examQuestionsNumber = 35;
                     }
-                    if ($localStorage.settings.examTimeLimitMinutes === undefined || $localStorage.settings.examTimeLimitMinutes === 60) {
+                    if ($localStorage.settings.examTimeLimitMinutes === undefined) {
                         $localStorage.settings.examTimeLimitMinutes = 45;
                     }
                     if ($localStorage.settings.examMaxMistakes === undefined) {
@@ -112,6 +112,14 @@ module App {
                     getRandomQuestions(num:number) {
                         var indexes = utils.getRandomNumbers(num, questions.length - 1);
                         return indexes.map(i => questions[i]);
+                    },
+                    checkAnswers(question: any) {
+                        var correct = true;
+                        for (var i = 0; i < question.Answers.length; i++) {
+                            correct = correct && !!question.Answers[i].selected === !!question.Answers[i].IsRight;
+                        }
+                        question.isCorrect = correct;
+                        question.isAnswered = true;
                     },
                     reset(questions: any[]) {
                         questions.forEach(q => {
