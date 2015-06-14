@@ -95,6 +95,46 @@ module App {
                 }
             }
         ])
+        .factory('confirm', ['$ionicModal', '$rootScope', '$q',
+        ($ionicModal, $rootScope, $q) => {
+                var $scope = $rootScope.$new();
+                var deferred = $q.defer();
+                var modal = null;
+
+                var loadModal = $ionicModal.fromTemplateUrl('templates/confirm.html', {
+                    scope: $scope,
+                    backdropClickToClose: false,
+                    hardwareBackButtonClose: false
+                }).then(m => {
+                    modal = m;
+                });
+
+                $scope.reject = () => {
+                    modal.hide();
+                    deferred.reject();
+                };;
+            
+                $scope.resolve = () => {
+                    modal.hide();
+                    deferred.resolve();
+                };
+
+                return {
+                    show: (title: string, text: string, resolveText: string, rejectText:string) => {
+                        $scope.title = title;
+                        $scope.text = text;
+                        $scope.resolveText = resolveText || 'Ok';
+                        $scope.rejectText = rejectText || 'Cancel';
+                        deferred = $q.defer();
+                        loadModal.then(() => {
+                            modal.show();
+                        });
+
+                        return deferred.promise;
+                    }
+                }
+            }
+        ])
         .factory('categories', [
             'utils',
             utils => {

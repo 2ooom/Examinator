@@ -492,6 +492,7 @@
     <Content Include="lib\ionic\js\ionic.bundle.min.js" />
     <Content Include="lib\ionic\js\ionic.js" />
     <Content Include="lib\ionic\js\ionic.min.js" />
+    <Content Include="templates\confirm.html" />
     <Content Include="templates\mistakes.html" />
     <Content Include="templates\settings.html" />
     <Content Include="templates\exam.html" />

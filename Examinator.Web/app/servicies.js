@@ -89,7 +89,40 @@ var App;
                 }
             };
         }
-    ]).factory('categories', [
+    ]).factory('confirm', ['$ionicModal', '$rootScope', '$q', function ($ionicModal, $rootScope, $q) {
+        var $scope = $rootScope.$new();
+        var deferred = $q.defer();
+        var modal = null;
+        var loadModal = $ionicModal.fromTemplateUrl('templates/confirm.html', {
+            scope: $scope,
+            backdropClickToClose: false,
+            hardwareBackButtonClose: false
+        }).then(function (m) {
+            modal = m;
+        });
+        $scope.reject = function () {
+            modal.hide();
+            deferred.reject();
+        };
+        ;
+        $scope.resolve = function () {
+            modal.hide();
+            deferred.resolve();
+        };
+        return {
+            show: function (title, text, resolveText, rejectText) {
+                $scope.title = title;
+                $scope.text = text;
+                $scope.resolveText = resolveText || 'Ok';
+                $scope.rejectText = rejectText || 'Cancel';
+                deferred = $q.defer();
+                loadModal.then(function () {
+                    modal.show();
+                });
+                return deferred.promise;
+            }
+        };
+    }]).factory('categories', [
         'utils',
         function (utils) {
             var categories = window.categories;

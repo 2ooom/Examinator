@@ -1,0 +1,20 @@
+<ion-modal-view>
+    <ion-header-bar>
+        <h1 class="title" ng-bind="title"></h1>
+    </ion-header-bar>
+    <ion-content>
+        <div class="row">
+            <div class="col">
+                <h3 ng-bind="text" class="padding-horizontal"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <button class="button button-positive button-block" ng-click="resolve()" ng-bind="resolveText"></button>
+            </div>
+            <div class="col-50">
+                <button class="button button-positive button-outline button-block" ng-click="reject()"  ng-bind="rejectText"></button>
+            </div>
+        </div>
+    </ion-content>
+</ion-modal-view> 

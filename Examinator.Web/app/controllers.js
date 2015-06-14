@@ -1,8 +1,8 @@
 /// <reference path="_all.d.ts" />
 var App;
 (function (App) {
-    angular.module('examinator.controllers', []).controller('AppCtrl', function ($scope) {
-    }).controller('CategoriesCtrl', [
+    angular.module('examinator.controllers', []).controller('AppCtrl', ['$scope', 'confirm', function ($scope, confirm) {
+    }]).controller('CategoriesCtrl', [
         '$scope',
         'categories',
         function ($scope, categories) {
@@ -15,7 +15,8 @@ var App;
         '$state',
         'storage',
         '$ionicScrollDelegate',
-        function ($scope, $stateParams, categories, $state, storage, $ionicScrollDelegate) {
+        'confirm',
+        function ($scope, $stateParams, categories, $state, storage, $ionicScrollDelegate, confirm) {
             var category = categories.getCategory($stateParams.categoryId);
             function countAnswer(isCorrect) {
                 if (isCorrect) {
@@ -25,27 +26,34 @@ var App;
                     $scope.wrong++;
                 }
             }
+            function setCurrent(index) {
+                $scope.current = index;
+                $scope.currentQuestion = category.Questions[$scope.current - 1];
+            }
             function reset() {
                 $scope.category = category;
-                $scope.current = storage.getProgress(category.Id) + 1;
-                $scope.currentQuestion = category.Questions[$scope.current - 1];
+                setCurrent(1);
                 $scope.wrong = 0;
                 $scope.correct = 0;
                 $scope.isFinished = false;
-                if ($scope.current > 1) {
-                    console.log('loading question answers from previous session');
-                    var answers = storage.getAnswers(category.Id);
-                    for (var i = 0; i < $scope.current - 1; i++) {
-                        var q = category.Questions[i];
-                        var qa = answers[i];
-                        console.log('loading answers for question [' + q.Id + ']: ');
-                        console.log(qa);
-                        for (var j = 0; j < qa.length; j++) {
-                            q.Answers[qa[j]].selected = true;
+                var progress = storage.getProgress(category.Id) + 1;
+                if (progress > 1) {
+                    confirm.show('Continue from last time', 'Do you want to continue from question #' + progress + '?', 'Continue', 'Restart').then(function () {
+                        setCurrent(progress);
+                        console.log('loading question answers from previous session');
+                        var answers = storage.getAnswers(category.Id);
+                        for (var i = 0; i < $scope.current - 1; i++) {
+                            var q = category.Questions[i];
+                            var qa = answers[i];
+                            console.log('loading answers for question [' + q.Id + ']: ');
+                            console.log(qa);
+                            for (var j = 0; j < qa.length; j++) {
+                                q.Answers[qa[j]].selected = true;
+                            }
+                            categories.checkAnswers(q);
+                            countAnswer(q.isCorrect);
                         }
-                        categories.checkAnswers(q);
-                        countAnswer(q.isCorrect);
-                    }
+                    });
                 }
             }
             $scope.finish = function () {

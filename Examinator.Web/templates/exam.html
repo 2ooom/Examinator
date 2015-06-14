@@ -15,9 +15,8 @@
         <div ng-show="isFinished">
             <div class="list list-inset exam-result">
                 <div class="list-item">
-                    <h1><button class="button button-clear button-balanced" ng-hide="isFailed">Exam Passed</button>
-                        <button class="button button-clear button-assertive" ng-show="isFailed">Exam Failed</button>
-                    </h1>
+                    <h1 class="balanced" ng-hide="isFailed">Exam Passed</h1>
+                    <h1 class="assertive" ng-show="isFailed">Exam Failed</h1>
                     <h2 ng-show="isTimerElapsed">You failed to answer all questions in time</h2>
                 </div>
             </div>
