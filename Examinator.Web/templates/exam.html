@@ -1,7 +1,26 @@
-<ion-view view-title="Examination {{current}}/ {{total}}">
+<ion-view>
+    <ion-nav-title>
+        <span ng-hide="isFinished">
+            {{correct}} <span class="icon ion-checkmark"></span> {{wrong}} <span class="icon ion-close"></span> of {{total}}
+        </span>
+        <span ng-show="isFinished">Examination Results</span>
+    </ion-nav-title>
     <ion-content>
         <div data-question="currentQuestion"
              is-last="isLast()"
-             next="next()"></div>
+             next="next()" ng-hide="isFinished"></div>
+        <div class="result list list-inset" ng-show="isFinished">
+            <div class="list-item">
+                <h1 ng-hide="isFailed">Exam Passed</h1>
+                <h1 ng-show="isFailed">Exam Failed</h1>
+            </div>
+            <div class="list-item">
+                <button class="button button-block"
+                        ng-class="{'button-positive':isCorrect, 'button-assertive':!isCorrect}"
+                        ng-click="finish()">
+                    Finish
+                </button>
+            </div>
+        </div>
     </ion-content>
 </ion-view>

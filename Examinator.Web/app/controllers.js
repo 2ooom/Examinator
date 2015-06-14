@@ -68,23 +68,47 @@ var App;
         '$state',
         'settings',
         function ($scope, categories, $state, settings) {
-            $scope.total = settings.examQuestionsNumber;
-            $scope.current = 1;
-            var questions = categories.getRandomQuestions(settings.examQuestionsNumber);
-            $scope.currentQuestion = questions[$scope.current - 1];
+            var questions = [];
+            function reset() {
+                $scope.total = settings.examQuestionsNumber;
+                $scope.current = 1;
+                $scope.wrong = 0;
+                $scope.correct = 0;
+                $scope.isFailed = false;
+                $scope.isFinished = false;
+                questions = categories.getRandomQuestions(settings.examQuestionsNumber);
+                $scope.currentQuestion = questions[$scope.current - 1];
+            }
+            reset();
             $scope.next = function () {
-                if ($scope.isLast()) {
-                    categories.reset(questions);
-                    $state.go('app.categories');
+                if (!$scope.currentQuestion.isCorrect) {
+                    $scope.wrong++;
+                }
+                else {
+                    $scope.correct++;
+                }
+                if ($scope.wrong > settings.examMaxMistakes) {
+                    $scope.isFailed = true;
+                    $scope.isFinished = true;
+                }
+                else if ($scope.isLast()) {
+                    $scope.isFinished = true;
                 }
                 else {
                     $scope.current++;
                     $scope.currentQuestion = questions[$scope.current - 1];
                 }
             };
-            $scope.isLast = function () { return (questions.length <= $scope.current); };
-            $scope.$on('$destroy', function () {
+            $scope.finish = function () {
                 categories.reset(questions);
+                $state.go('app.categories');
+            };
+            $scope.isLast = function () { return (questions.length <= $scope.current); };
+            $scope.$on('$ionicView.leave', function () {
+                categories.reset(questions);
+            });
+            $scope.$on('$ionicView.enter', function (a, b, c) {
+                reset();
             });
         }
     ]).controller('SettingsCtrl', [

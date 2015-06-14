@@ -4,7 +4,7 @@ var App;
     angular.module('examinator.directives', []).directive('question', [
         function () {
             function link(scope, element, attributes) {
-                scope.isCorrect = false;
+                scope.question.isCorrect = false;
                 scope.answerHandle = function () {
                     if (!scope.question.isAnswered) {
                         scope.checkAnswer();
@@ -19,7 +19,7 @@ var App;
                     if (!scope.question.isAnswered) {
                         return 'Answer';
                     }
-                    else if (scope.isCorrect) {
+                    else if (scope.question.isCorrect) {
                         return 'Correct';
                     }
                     else {
@@ -30,7 +30,7 @@ var App;
                     if (!scope.question.isAnswered) {
                         return 'button-positive';
                     }
-                    var correctClass = scope.isCorrect ? 'button-balanced icon-right' : 'button-assertive icon-right';
+                    var correctClass = scope.question.isCorrect ? 'button-balanced icon-right' : 'button-assertive icon-right';
                     if (!scope.isLast) {
                         return correctClass + ' ion-chevron-right';
                     }
@@ -44,7 +44,7 @@ var App;
                     for (var i = 0; i < scope.question.Answers.length; i++) {
                         correct = correct && !!scope.question.Answers[i].selected === !!scope.question.Answers[i].IsRight;
                     }
-                    scope.isCorrect = correct;
+                    scope.question.isCorrect = correct;
                     scope.question.isAnswered = true;
                 };
             }
