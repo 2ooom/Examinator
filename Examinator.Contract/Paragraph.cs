@@ -13,6 +13,9 @@ namespace Examinator.Contract
         public string ImageUrl { get; set; }
 
         [JsonIgnore, TsIgnore]
-        public bool IsNew => string.IsNullOrEmpty(Id);
+        public bool IsNew
+        {
+            get { return string.IsNullOrEmpty(Id); }
+        }
     }
 }
