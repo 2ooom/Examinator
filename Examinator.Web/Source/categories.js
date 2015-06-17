@@ -1,585 +1,15308 @@
 window.categories = [
   {
-    "Questions": [
+    "questions": [
       {
-        "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a",
-        "SubCategoryId": "CARS1.2",
-        "CorrectAnswersNumber": 1,
-        "Answers": [
-          { "QuestionId": "2562", "IsRight": false, "Id": "0fc3dca3-06b9-4162-92be-33574ba59b92", "Text": "Select a higher gear than normal", "ImageUrl": null },
-          { "QuestionId": "2562", "IsRight": false, "Id": "6911124a-66bc-4a7b-88db-50464ce09abc", "Text": "Signal so that other drivers can slow down", "ImageUrl": null },
-          { "QuestionId": "2562", "IsRight": true, "Id": "634c8ba3-2a98-44de-b2bb-904a62b5c7c3", "Text": "Look over your shoulder for final confirmation", "ImageUrl": null },
-          { "QuestionId": "2562", "IsRight": false, "Id": "3b21d5d3-10ba-4351-9321-adfb099dbd61", "Text": "Give another signal as well as using your indicators", "ImageUrl": null }
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "2562",
+            "isRight": false,
+            "id": "e9ddbe2d-1484-4a59-b253-dd2a7992388b",
+            "text": "Select a higher gear than normal"
+          },
+          {
+            "questionId": "2562",
+            "isRight": false,
+            "id": "ad73a0ed-f4f1-48de-b4da-53ba2e437058",
+            "text": "Signal so that other drivers can slow down"
+          },
+          {
+            "questionId": "2562",
+            "isRight": true,
+            "id": "96ad57db-5153-465d-aae2-1d84c8cc272c",
+            "text": "Look over your shoulder for final confirmation"
+          },
+          {
+            "questionId": "2562",
+            "isRight": false,
+            "id": "03b7f430-635b-417a-b6fb-c7c4f7d1dd30",
+            "text": "Give another signal as well as using your indicators"
+          }
         ],
-        "Id": "2562",
-        "Text": " Before making a U - turn in the road  you should always:",
-        "ImageUrl": null
+        "id": "2562",
+        "text": " Before making a U - turn in the road  you should always:"
       },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4212", "IsRight": false, "Id": "504554c7-e42b-4a28-abc3-fd14084b166f", "Text": "An area covered by your left hand mirror", "ImageUrl": null }, { "QuestionId": "4212", "IsRight": false, "Id": "3b982997-2e53-42ab-a689-05aceee85d8e", "Text": "An area not covered by your headlights", "ImageUrl": null }, { "QuestionId": "4212", "IsRight": false, "Id": "c2863194-1a81-4de9-8fd4-56cf49edd5cf", "Text": "An area covered by your right hand mirror", "ImageUrl": null }, { "QuestionId": "4212", "IsRight": true, "Id": "cfcbb916-1fd5-412a-bea6-52551501191d", "Text": "An area not covered by your mirrors", "ImageUrl": null } ], "Id": "4212", "Text": " As a driver what do you understand by the term 'Blind Spot'?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4213", "IsRight": true, "Id": "1ac2d874-3b4d-4648-bb7c-c4b5600948f4", "Text": "Mirror  signal  manoeuvre", "ImageUrl": null }, { "QuestionId": "4213", "IsRight": false, "Id": "527eb174-6169-4eac-a7b7-33b6e31ae822", "Text": "Manoeuvre  speed  mirror", "ImageUrl": null }, { "QuestionId": "4213", "IsRight": false, "Id": "4f6900ac-a37d-4910-ae73-520c0d854cf6", "Text": "Mirror  speed  manoeuvre", "ImageUrl": null }, { "QuestionId": "4213", "IsRight": false, "Id": "a3430c9d-7ada-451c-83f6-e963bca9ecf4", "Text": "Manoeuvre  signal  mirror", "ImageUrl": null } ], "Id": "4213", "Text": " What does the abbreviation MSM mean?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4214", "IsRight": false, "Id": "a9605973-a69a-447d-ab7c-807c1f24e125", "Text": "It helps you to keep out of the wind", "ImageUrl": null }, { "QuestionId": "4214", "IsRight": false, "Id": "04efbc47-52f7-4596-a2b1-dd43233cde76", "Text": "It helps the large vehicle to stop more easily", "ImageUrl": null }, { "QuestionId": "4214", "IsRight": true, "Id": "06a92fc2-e84c-4b1e-80f2-07239c5b0dd7", "Text": "It allows the driver to see you in the mirror", "ImageUrl": null }, { "QuestionId": "4214", "IsRight": false, "Id": "d313167d-c15b-477a-9bba-da95bd4941b6", "Text": "It allows you to corner more quickly", "ImageUrl": null } ], "Id": "4214", "Text": " When following a large vehicle you should stay well back because", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4215", "IsRight": false, "Id": "5feb2471-944e-435d-9b82-548d5f96d465", "Text": "On a 50 kph road", "ImageUrl": null }, { "QuestionId": "4215", "IsRight": false, "Id": "1f93457f-cea4-49b4-8bef-c8e65cc781bc", "Text": "In a one-way street", "ImageUrl": null }, { "QuestionId": "4215", "IsRight": false, "Id": "4c31b538-0260-4748-9ee8-57edb5b1cb8a", "Text": "Just after a bend", "ImageUrl": null }, { "QuestionId": "4215", "IsRight": true, "Id": "6954ca91-809a-408d-bd81-819be3611280", "Text": "Approaching a dip in the road", "ImageUrl": null } ], "Id": "4215", "Text": " In which of these following situations should you avoid overtaking?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4216", "IsRight": false, "Id": "59a68357-1fe0-4004-95d8-5d776e99f71e", "Text": "Because reception is poor when the engine is running", "ImageUrl": null }, { "QuestionId": "4216", "IsRight": false, "Id": "c8271e16-d552-4e19-abef-98f49f98bbb9", "Text": "Unless you are able to drive one handed", "ImageUrl": null }, { "QuestionId": "4216", "IsRight": true, "Id": "3af44998-d4f6-483d-a8d8-a6389d6468c6", "Text": "Because it might distract your attention from the road ahead", "ImageUrl": null }, { "QuestionId": "4216", "IsRight": false, "Id": "8a1b0910-a5a4-4562-929e-9f7a1514cfe8", "Text": "Until you are satisfied that no other traffic is near", "ImageUrl": null } ], "Id": "4216", "Text": " You should not use a mobile phone whilst driving", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4217", "IsRight": false, "Id": "77b7df70-8981-43a7-9b3d-289737396304", "Text": "Could be very good for road safety", "ImageUrl": null }, { "QuestionId": "4217", "IsRight": true, "Id": "f87f4241-42b3-45a4-bf17-35c740ff1f86", "Text": "Could distract your attention from the road", "ImageUrl": null }, { "QuestionId": "4217", "IsRight": false, "Id": "eb12e70d-54be-460f-ba5b-b716ac3216ae", "Text": "Is recommended by The Highway Code", "ImageUrl": null }, { "QuestionId": "4217", "IsRight": false, "Id": "89b3bcb7-a2d5-4196-8655-dc62c6a333cd", "Text": "Is quite safe as long as you slow down", "ImageUrl": null } ], "Id": "4217", "Text": " Your vehicle is fitted with a hands- free phone system. Using this equipment whilst driving", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4218", "IsRight": false, "Id": "e27130f0-0883-45f7-a256-c7cc515a413f", "Text": "Reduce your view", "ImageUrl": null }, { "QuestionId": "4218", "IsRight": false, "Id": "757bea8d-3f2c-4937-a8f1-f5fb6cbc17e1", "Text": "Increase your concentration", "ImageUrl": null }, { "QuestionId": "4218", "IsRight": false, "Id": "057f6c14-dbf7-4570-a901-ca76e2dc4106", "Text": "Improve your safety", "ImageUrl": null }, { "QuestionId": "4218", "IsRight": true, "Id": "6bb5297c-5618-4422-9353-b2cb349f5b34", "Text": "Divert your attention", "ImageUrl": null } ], "Id": "4218", "Text": " Using a hands-free phone is likely to", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4219", "IsRight": false, "Id": "37449ee3-3c61-413f-a502-9602d24930a4", "Text": "Will affect your vehicle", "ImageUrl": null }, { "QuestionId": "4219", "IsRight": false, "Id": "3459a7e2-01a3-40a3-aeec-ffeff1232845", "Text": "Will reduce your field of vision", "ImageUrl": null }, { "QuestionId": "4219", "IsRight": true, "Id": "d358e9f9-795e-47f0-a264-4d70bbddcb94", "Text": "Could distract your attention from the road", "ImageUrl": null }, { "QuestionId": "4219", "IsRight": false, "Id": "3dd83cee-9cd0-4575-9c8a-9fc471296f22", "Text": "Is acceptable in a vehicle with power steering", "ImageUrl": null } ], "Id": "4219", "Text": " Using a mobile phone while you are driving", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4220", "IsRight": false, "Id": "f87a27e8-57ce-4e99-a304-294e1ce49bd5", "Text": "Quickly  sounding the horn as you pass", "ImageUrl": null }, { "QuestionId": "4220", "IsRight": false, "Id": "bf1e9331-7030-42af-a7bd-5d8403543ae1", "Text": "Quickly  leaving plenty of room", "ImageUrl": null }, { "QuestionId": "4220", "IsRight": true, "Id": "3c453fa3-fbb9-4b55-8ff6-4418128b9224", "Text": "Slowly  leaving plenty of room", "ImageUrl": null }, { "QuestionId": "4220", "IsRight": false, "Id": "4aecd61c-d12b-4ad0-b0cc-6cfd0d5d35a1", "Text": "Slowly  sounding the horn as you pass", "ImageUrl": null } ], "Id": "4220", "Text": " You are driving along a narrow country road. When passing a cyclist you should drive", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4221", "IsRight": false, "Id": "116aa9a8-513d-49c3-839d-5fe3ff289fbb", "Text": "Slow down and allow others to overtake", "ImageUrl": null }, { "QuestionId": "4221", "IsRight": true, "Id": "75d59338-76ee-4154-b10a-c0bafb609bc2", "Text": "Stop in a proper and convenient place", "ImageUrl": null }, { "QuestionId": "4221", "IsRight": false, "Id": "5b9f78c3-20c3-4f2a-9b98-f1406cd5d003", "Text": "Keep the call time to a minimum", "ImageUrl": null }, { "QuestionId": "4221", "IsRight": false, "Id": "d9164e0d-05e9-4914-ac71-15e6dbd68341", "Text": "Reduce your speed wherever you are", "ImageUrl": null } ], "Id": "4221", "Text": " To answer your mobile phone when driving  you should:", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4222", "IsRight": false, "Id": "211e41ae-e6a3-4053-a870-e79a312d5460", "Text": "Because the car electrics will be affected", "ImageUrl": null }, { "QuestionId": "4222", "IsRight": true, "Id": "aecc84d4-91c8-4a94-8121-c51813577c6f", "Text": "So that the control of your vehicle is not affected", "ImageUrl": null }, { "QuestionId": "4222", "IsRight": false, "Id": "522caf07-055a-4a00-ae0c-7022e83f213c", "Text": "So that a proper conversation can be held", "ImageUrl": null }, { "QuestionId": "4222", "IsRight": false, "Id": "bea530bd-24c2-4b70-a488-3f89249cb17f", "Text": "Because the reception is better when stopped", "ImageUrl": null } ], "Id": "4222", "Text": " Why should you be parked before using a mobile phone?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4223", "IsRight": true, "Id": "332e6208-1762-4258-974f-dc4d29eb7855", "Text": "Slow down or stop", "ImageUrl": null }, { "QuestionId": "4223", "IsRight": false, "Id": "6953c421-df63-44f5-92b4-9261c24effb2", "Text": "Pull down the sun visor", "ImageUrl": null }, { "QuestionId": "4223", "IsRight": false, "Id": "6783ce00-e0dc-44f9-baeb-7140017af2cd", "Text": "Flash your headlights", "ImageUrl": null }, { "QuestionId": "4223", "IsRight": false, "Id": "0fa3672e-1787-4e09-ac16-af7bb8edafda", "Text": "Close your eyes", "ImageUrl": null } ], "Id": "4223", "Text": " You are driving in the dark and are dazzled by the headlights of an oncoming car.You should", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.25", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4224", "IsRight": true, "Id": "3d5f1a9f-ebc4-44af-bf05-d427e5424a79", "Text": "So that others can see you", "ImageUrl": null }, { "QuestionId": "4224", "IsRight": true, "Id": "b936a24d-5af3-4561-bacd-ef17ede3ec15", "Text": "Even when street lights are lit", "ImageUrl": null }, { "QuestionId": "4224", "IsRight": false, "Id": "2e400445-2ae6-4a2e-ba65-b94527784a46", "Text": "Only when street lights are lit", "ImageUrl": null }, { "QuestionId": "4224", "IsRight": false, "Id": "e48d75a6-8a3a-4158-a6d5-dede317afb73", "Text": "Only when others have done so", "ImageUrl": null } ], "Id": "4224", "Text": " You are driving at dusk. Your lights should be switched on", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4225", "IsRight": true, "Id": "6092a1c4-a109-43b1-981e-c6954caf8b09", "Text": "Check the speed and position of following traffic", "ImageUrl": null }, { "QuestionId": "4225", "IsRight": false, "Id": "813e7569-62ce-4d01-ae37-ef2f61823930", "Text": "Steer round the vehicle sharply", "ImageUrl": null }, { "QuestionId": "4225", "IsRight": false, "Id": "74db9c9d-56ec-4cb0-b9ee-82053df9422a", "Text": "Get in close behind before moving out", "ImageUrl": null }, { "QuestionId": "4225", "IsRight": false, "Id": "d2fc0d66-07ad-41a6-b2b1-3234613a8d1d", "Text": "Cut back in sharply when you have passed the vehicle", "ImageUrl": null } ], "Id": "4225", "Text": " To overtake safely  which one of the following applies?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4547", "IsRight": false, "Id": "b585621e-bb1a-4206-a043-8050cf9f9f50", "Text": "Turn left", "ImageUrl": null }, { "QuestionId": "4547", "IsRight": false, "Id": "b9ac8d45-cb82-48b0-a7c4-55cd7db2d763", "Text": "Turn right", "ImageUrl": null }, { "QuestionId": "4547", "IsRight": true, "Id": "14792e24-4298-4514-8b1e-e7db95902cb9", "Text": "Overtake", "ImageUrl": null }, { "QuestionId": "4547", "IsRight": false, "Id": "0929aa43-5a48-4793-8d72-f76ed0c44479", "Text": "Slow down", "ImageUrl": null } ], "Id": "4547", "Text": " The white arrow in the diagram means that you should not plan to :", "ImageUrl": "Source/img/4547.png" },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4548", "IsRight": false, "Id": "77c50e58-7531-4997-b46f-c04e35f545e8", "Text": "Drivers that it is safe to overtake", "ImageUrl": null }, { "QuestionId": "4548", "IsRight": false, "Id": "7308b4db-f1dc-47db-a840-a9310f93dec1", "Text": "Overtaking drivers there is a bend to the left", "ImageUrl": null }, { "QuestionId": "4548", "IsRight": true, "Id": "9210cf9d-0f2d-478f-9a6b-95a117fe65b3", "Text": "Overtaking drivers to move back to the left", "ImageUrl": null }, { "QuestionId": "4548", "IsRight": false, "Id": "483c6ccb-c086-46c1-b7cf-6dd87253bbf4", "Text": "Drivers to use the hard shoulder", "ImageUrl": null } ], "Id": "4548", "Text": " The road marking in the diagram warns :", "ImageUrl": "Source/img/4548.png" },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.4", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4551", "IsRight": true, "Id": "d305d6a6-dab4-454f-b860-ffa4d8e080ee", "Text": "Distract your attention", "ImageUrl": null }, { "QuestionId": "4551", "IsRight": false, "Id": "56d8825c-78ac-4c94-8995-bbdb28c3dbcb", "Text": "Help your concentration", "ImageUrl": null }, { "QuestionId": "4551", "IsRight": true, "Id": "63f1bf6d-8e74-47a5-92a5-cf26a20f6416", "Text": "Restrict your view", "ImageUrl": null }, { "QuestionId": "4551", "IsRight": false, "Id": "2f5d1107-db7f-4115-906d-1f78f0d27d6f", "Text": "Improve your driving", "ImageUrl": null } ], "Id": "4551", "Text": " Objects or articles hanging from your interior mirror may :", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.5", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4552", "IsRight": true, "Id": "388916ae-a3f2-4b7e-b882-281d5baaa5cb", "Text": "Listen to very loud music", "ImageUrl": null }, { "QuestionId": "4552", "IsRight": true, "Id": "73ed74fa-2ccd-479d-9717-343a7ae99099", "Text": "Use a mobile phone", "ImageUrl": null }, { "QuestionId": "4552", "IsRight": false, "Id": "73e6162e-46e4-4f10-af09-1b86f3c1ec02", "Text": "Look at the door mirrors", "ImageUrl": null }, { "QuestionId": "4552", "IsRight": false, "Id": "af8ffde4-e64f-404b-91ad-cb5aae599e5a", "Text": "Switch on the heated rear window", "ImageUrl": null } ], "Id": "4552", "Text": " When driving you are most likely to lose concentration if you :", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.6", "CorrectAnswersNumber": 4, "Answers": [ { "QuestionId": "4553", "IsRight": true, "Id": "a0fd93a2-c183-4375-9b5a-a3df71e003ee", "Text": "Looking at a map", "ImageUrl": null }, { "QuestionId": "4553", "IsRight": true, "Id": "6bb4c9a8-8d58-4671-b7a3-5f71c9cfdd84", "Text": "Tuning your car radio", "ImageUrl": null }, { "QuestionId": "4553", "IsRight": true, "Id": "00c7cc4b-349d-40b0-aba9-9ffc7ce26b5c", "Text": "Talking into a microphone", "ImageUrl": null }, { "QuestionId": "4553", "IsRight": true, "Id": "d914e4c0-fda6-408c-904b-2b683479f301", "Text": "Using a mobile phone", "ImageUrl": null }, { "QuestionId": "4553", "IsRight": false, "Id": "c05fbf42-0f47-4f7d-bc1b-4dbe3cf5c1fc", "Text": "Using the demisters", "ImageUrl": null }, { "QuestionId": "4553", "IsRight": false, "Id": "03cd82a6-2fe1-4a39-bb90-f9c04b57e48a", "Text": "Checking the mirrors", "ImageUrl": null } ], "Id": "4553", "Text": " When driving  which four are most likely to cause you to lose concentration", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4554", "IsRight": false, "Id": "84b971e4-6062-4303-baff-aaa9214e9769", "Text": "Give an arm signal", "ImageUrl": null }, { "QuestionId": "4554", "IsRight": true, "Id": "5ebbfb0f-ba7b-42d8-962e-44a742c022ec", "Text": "Keep both hands on the wheel", "ImageUrl": null }, { "QuestionId": "4554", "IsRight": false, "Id": "9f375d39-3079-49f3-9992-fad12c11ea71", "Text": "Select reverse gear", "ImageUrl": null }, { "QuestionId": "4554", "IsRight": false, "Id": "c00cf84d-b0c8-4368-b7a2-d65a14fb2edc", "Text": "Apply the handbrake and footbrake together", "ImageUrl": null } ], "Id": "4554", "Text": " You are driving on a wet road and you have to stop your vehicle in an emergency. You should:", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.11", "CorrectAnswersNumber": 4, "Answers": [ { "QuestionId": "4555", "IsRight": true, "Id": "47ab0b32-5da9-4909-b23f-f986964efc43", "Text": "Putting in a cassette tape/ CD", "ImageUrl": null }, { "QuestionId": "4555", "IsRight": true, "Id": "2c617f16-9c2b-4e85-9e37-aef8580bfbe0", "Text": "Using a mobile phone", "ImageUrl": null }, { "QuestionId": "4555", "IsRight": true, "Id": "3df9ceb6-1409-446f-b304-2d0fb9e898cd", "Text": "Arguing with a passenger", "ImageUrl": null }, { "QuestionId": "4555", "IsRight": true, "Id": "c41faf3e-8227-4d9e-8d76-10071d3a5b2a", "Text": "Loud music", "ImageUrl": null }, { "QuestionId": "4555", "IsRight": false, "Id": "2b6ec014-8153-45d9-a239-07fe55cacfd8", "Text": "Pulling up to tune the radio", "ImageUrl": null }, { "QuestionId": "4555", "IsRight": false, "Id": "a06c0cfc-8e9a-437f-acd2-c48b4a7aeb6e", "Text": "Stopping regularly to rest", "ImageUrl": null } ], "Id": "4555", "Text": " Which of the following may cause distraction on a long journey?", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4556", "IsRight": true, "Id": "0a39c595-b919-4864-af1c-bcc121cb294a", "Text": "After stopping in a suitable place", "ImageUrl": null }, { "QuestionId": "4556", "IsRight": false, "Id": "d1a99f89-3a18-487a-bae7-31c2eb0948db", "Text": "If you feel your driving will be unaffected", "ImageUrl": null }, { "QuestionId": "4556", "IsRight": false, "Id": "a17d668b-a890-43f7-a41c-880052a3c4e2", "Text": "If you are driving on a motorway", "ImageUrl": null }, { "QuestionId": "4556", "IsRight": false, "Id": "51c8bce4-7c64-4511-84a7-37d5d0601614", "Text": "When driving on a quiet  minor roads", "ImageUrl": null } ], "Id": "4556", "Text": " You want to use a mobile phone whilst driving the car. You should only use the phone:", "ImageUrl": null },
-      { "CategoryId": "ad146909-09f3-4faa-bdf8-e2db40c22c8a", "SubCategoryId": "CARS1.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4557", "IsRight": false, "Id": "71177ded-1853-4f7b-8339-8df190ce67a7", "Text": "Direct your call through the operator", "ImageUrl": null }, { "QuestionId": "4557", "IsRight": true, "Id": "6b5e019e-c074-44e5-af39-0d97a88b06c8", "Text": "Find a suitable place to stop", "ImageUrl": null }, { "QuestionId": "4557", "IsRight": false, "Id": "9c4d6f5c-2c71-438a-9a89-29c7e706a61c", "Text": "Drive slowly on a quiet road", "ImageUrl": null }, { "QuestionId": "4557", "IsRight": false, "Id": "fb7cb81e-0742-4d7f-a77e-9a5038655143", "Text": "Use hands-free equipment", "ImageUrl": null } ], "Id": "4557", "Text": " What is the safest way to use a mobile phone in a car?", "ImageUrl": null }
-    ],
-    "Id": "ad146909-09f3-4faa-bdf8-e2db40c22c8a",
-    "Text": "ALERTNESS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4226", "IsRight": false, "Id": "2fd97ef7-e193-4285-9df2-71452084df1b", "Text": "Two crossings during darkness", "ImageUrl": null }, { "QuestionId": "4226", "IsRight": true, "Id": "5991f67a-dc5e-4028-8edd-2257554711b1", "Text": "One complete crossing", "ImageUrl": null }, { "QuestionId": "4226", "IsRight": false, "Id": "68e979fa-ddbd-4a4b-81b1-7acc14bb8ca6", "Text": "Two separate crossings", "ImageUrl": null }, { "QuestionId": "4226", "IsRight": false, "Id": "927a26b5-294b-4135-aa9b-25e760e92029", "Text": "One crossing in daylight only", "ImageUrl": null } ], "Id": "4226", "Text": " A pelican crossing that crosses the road in a STRAIGHT line and has a central traffic island MUST be treated as:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.2", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4227", "IsRight": true, "Id": "2b42cfe0-211b-4eb8-a548-1fed96727943", "Text": "Give way to pedestrians already on the crossing", "ImageUrl": null }, { "QuestionId": "4227", "IsRight": true, "Id": "a5c73027-8013-4501-b74a-332b107cef93", "Text": "Stop and wait for the red light", "ImageUrl": null }, { "QuestionId": "4227", "IsRight": false, "Id": "e662319a-6a76-4143-aeb8-5f75961b25c8", "Text": "Give way to pedestrians waiting to cross", "ImageUrl": null }, { "QuestionId": "4227", "IsRight": false, "Id": "bb1e38b4-dbe0-4598-9515-27f42ebdf948", "Text": "Stop and wait for the green lights", "ImageUrl": null } ], "Id": "4227", "Text": " When at a pelican crossing the amber light means you MUST", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.3", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4228", "IsRight": true, "Id": "f12a94c2-66a0-4f52-a126-8819e0f28248", "Text": "Not move until the green light appears", "ImageUrl": null }, { "QuestionId": "4228", "IsRight": false, "Id": "84fcf64d-dac5-4d50-b1b8-1a704866f2ae", "Text": "Encourage pedestrians to cross", "ImageUrl": null }, { "QuestionId": "4228", "IsRight": false, "Id": "8210b60a-b38b-4d41-8a32-83f06ee1b3c1", "Text": "Keep on driving", "ImageUrl": null }, { "QuestionId": "4228", "IsRight": true, "Id": "f771e963-c952-49ce-803c-a351dba89e7a", "Text": "Stop and wait for the red light even if the crossing is clear", "ImageUrl": null } ], "Id": "4228", "Text": " You are approaching a pelican crossing. The amber light is showing. You MUST:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4229", "IsRight": false, "Id": "e1076c46-155a-486e-932d-56adf7f45429", "Text": "Wave at them to cross the road", "ImageUrl": null }, { "QuestionId": "4229", "IsRight": true, "Id": "75db4520-7cac-429e-bce2-ef8d8fb74409", "Text": "Slow down and prepare to stop", "ImageUrl": null }, { "QuestionId": "4229", "IsRight": false, "Id": "26da7f8b-f104-4323-b024-a8dc031a7325", "Text": "Use your headlights to indicate they can cross", "ImageUrl": null }, { "QuestionId": "4229", "IsRight": false, "Id": "f4f09b44-2bc8-4baa-85f7-a061b9049774", "Text": "Give way to elderly and infirm only", "ImageUrl": null } ], "Id": "4229", "Text": " You are approaching a zebra crossing. Pedestrians are waiting to cross. You should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4230", "IsRight": true, "Id": "850df302-0627-479a-85d8-d94a8f05639d", "Text": "Wait until they have crossed", "ImageUrl": null }, { "QuestionId": "4230", "IsRight": false, "Id": "0e059ead-6e3c-432d-ab48-23808e60e182", "Text": "Signal to pedestrians to cross", "ImageUrl": null }, { "QuestionId": "4230", "IsRight": false, "Id": "34330a47-473b-482e-a3cb-2dc68bd0a834", "Text": "Wait  revving your engine", "ImageUrl": null }, { "QuestionId": "4230", "IsRight": false, "Id": "1280fe35-fd68-4e6d-9363-b37921fe9f87", "Text": "Edge your vehicle forward slowly", "ImageUrl": null } ], "Id": "4230", "Text": " You have stopped at a pedestrian (zebra) crossing to allow pedestrians to cross. You should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4231", "IsRight": true, "Id": "9a20de52-f02a-47b6-b8c3-74ee27f91039", "Text": "There may be another vehicle coming", "ImageUrl": null }, { "QuestionId": "4231", "IsRight": false, "Id": "8a275c56-6d01-48c9-8741-dd09b567e55b", "Text": "They may not be ready to cross", "ImageUrl": null }, { "QuestionId": "4231", "IsRight": false, "Id": "3d02e9a5-9a58-4a5d-9336-f798ba7c6c0d", "Text": "It is safer for you to carry on", "ImageUrl": null }, { "QuestionId": "4231", "IsRight": false, "Id": "849cb19a-9b0d-44ac-bf35-713a7eba739f", "Text": "They may not be looking", "ImageUrl": null } ], "Id": "4231", "Text": " You should never wave or urge people across at a pedestrian crossing because:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4232", "IsRight": false, "Id": "e49b8c23-7fd8-498c-8921-196498bd67ed", "Text": "Wave pedestrians to cross if you intend to wait for them to", "ImageUrl": null }, { "QuestionId": "4232", "IsRight": false, "Id": "6e0952a3-5280-4732-a45f-f080b9cf37d6", "Text": "Park only on the zigzag lines on the left", "ImageUrl": null }, { "QuestionId": "4232", "IsRight": true, "Id": "705dc76d-b516-4544-90ff-f4962ebbcb2a", "Text": "Always leave it clear in traffic queues", "ImageUrl": null }, { "QuestionId": "4232", "IsRight": false, "Id": "e7561bc1-82c8-4652-a97e-e2c3ad72a8c8", "Text": "Rev your engine to encourage pedestrians to cross quickly", "ImageUrl": null } ], "Id": "4232", "Text": " At a Pedestrian (zebra) crossing you should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4233", "IsRight": true, "Id": "4854b526-43a2-4cdb-97cc-71f1b13cc4f6", "Text": "Be patient and wait", "ImageUrl": null }, { "QuestionId": "4233", "IsRight": false, "Id": "d9ab83fd-21ea-4f5e-8bf8-7aac4e00ccef", "Text": "Wave them to cross", "ImageUrl": null }, { "QuestionId": "4233", "IsRight": false, "Id": "b2509677-86de-451e-8742-7d7784b911c1", "Text": "Drive on", "ImageUrl": null }, { "QuestionId": "4233", "IsRight": false, "Id": "22209805-731e-4a98-b25a-995f908576a4", "Text": "Sound your horn", "ImageUrl": null } ], "Id": "4233", "Text": " You stopped for pedestrians waiting to cross at a zebra crossing. They did not start to cross. What should you do?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4234", "IsRight": false, "Id": "40fc3c9c-beff-4f41-9b4d-214e180c4d0c", "Text": "When emerging on wet roads", "ImageUrl": null }, { "QuestionId": "4234", "IsRight": true, "Id": "fc3dc9a1-ecfc-47ca-996f-a03e35e7b152", "Text": "To keep a safe gap from the vehicle in front", "ImageUrl": null }, { "QuestionId": "4234", "IsRight": false, "Id": "3694e63f-78b0-4713-b02f-f8fb66d004dc", "Text": "Before using the 'Mirror - Signal - manoeuvre' routine", "ImageUrl": null }, { "QuestionId": "4234", "IsRight": false, "Id": "c45824b1-7fd3-494a-907b-4395c20699b0", "Text": "Before restarting the engine after it has stalled", "ImageUrl": null } ], "Id": "4234", "Text": " You may use the 'Two-Second Rule'", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4235", "IsRight": false, "Id": "06d41864-c47b-4bca-b827-40d8926b2f77", "Text": "Drive with rear fog lights off", "ImageUrl": null }, { "QuestionId": "4235", "IsRight": false, "Id": "e2bae112-4bf6-4aa0-a181-6326c8cbaebb", "Text": "Reverse into a parking space", "ImageUrl": null }, { "QuestionId": "4235", "IsRight": true, "Id": "7c42d4c3-7e31-40e1-b703-606b1416050f", "Text": "Follow vehicle too closely", "ImageUrl": null }, { "QuestionId": "4235", "IsRight": false, "Id": "d2cf6f0a-5c03-4f16-9e91-ef73a8841038", "Text": "Look through the rear view mirror", "ImageUrl": null } ], "Id": "4235", "Text": " When following another vehicle whilst driving on the road you should not", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.14", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4236", "IsRight": false, "Id": "5d402e72-35eb-4214-b932-e2a891bfeca9", "Text": "Your engine will overheat", "ImageUrl": null }, { "QuestionId": "4236", "IsRight": true, "Id": "fc12e258-8776-442f-8f2e-f21df818adad", "Text": "Your view ahead is reduced", "ImageUrl": null }, { "QuestionId": "4236", "IsRight": false, "Id": "3e87afdf-1da4-4415-af90-6e60c45d2f85", "Text": "Your brakes will overheat", "ImageUrl": null }, { "QuestionId": "4236", "IsRight": true, "Id": "641e32cc-2a04-498a-82d7-7e5395a7bb2d", "Text": "The driver cannot see you in his mirrors", "ImageUrl": null } ], "Id": "4236", "Text": " Following this vehicle too closely is unwise because:", "ImageUrl": "Source/img/4236.png" },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4237", "IsRight": false, "Id": "7dc9565d-457b-4577-b2d0-9b03d4ce8aa6", "Text": "Three seconds", "ImageUrl": null }, { "QuestionId": "4237", "IsRight": false, "Id": "6a26410a-4f02-448a-b6f1-e5d63dfcee79", "Text": "Two seconds", "ImageUrl": null }, { "QuestionId": "4237", "IsRight": false, "Id": "81358bdd-b1fd-4d48-984c-d5d88017fbb2", "Text": "One second", "ImageUrl": null }, { "QuestionId": "4237", "IsRight": true, "Id": "0f2fa9a7-842d-4147-bd13-fb09a7848537", "Text": "Four seconds", "ImageUrl": null } ], "Id": "4237", "Text": " You are following a vehicle on a wet and slippery road. You should leave a time gap of at least", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4238", "IsRight": false, "Id": "0d3bab5c-0399-4e0d-8e3e-6803ac40fdb8", "Text": "Move over to a position just left of the centre line of the road", "ImageUrl": null }, { "QuestionId": "4238", "IsRight": true, "Id": "08662e0e-570d-4237-a5d1-2b4f79b0e3fd", "Text": "Slow down  gradually increasing the gap between you and the vehicle in front", "ImageUrl": null }, { "QuestionId": "4238", "IsRight": false, "Id": "d2913193-d4fd-400b-8ce5-8bae79b7509d", "Text": "Signal left and wave the following driver past", "ImageUrl": null }, { "QuestionId": "4238", "IsRight": false, "Id": "f34e0886-a998-40e4-833a-4621047be237", "Text": "Ignore the following driver and continue to drive within the speed limit", "ImageUrl": null } ], "Id": "4238", "Text": " You are in a line of traffic. The driver behind you is following very closely. What action should you take?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4239", "IsRight": false, "Id": "2bf9d195-7187-4cf9-9149-adecfe424597", "Text": "Maintain your speed to prevent the vehicle from overtaking", "ImageUrl": null }, { "QuestionId": "4239", "IsRight": false, "Id": "8e8367f6-0e85-469e-a13a-343af67f9686", "Text": "Touch the brakes to show your brake lights", "ImageUrl": null }, { "QuestionId": "4239", "IsRight": false, "Id": "a937bb8e-d958-4102-be14-b7fefc50e73b", "Text": "Accelerate to make a gap behind you", "ImageUrl": null }, { "QuestionId": "4239", "IsRight": true, "Id": "b03f4ce0-b280-4f57-b157-463956d7bd46", "Text": "Allow the vehicle to overtake", "ImageUrl": null } ], "Id": "4239", "Text": " You are driving at the legal speed limit. A vehicle comes up quickly behind  flashingits headlights. You should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4240", "IsRight": false, "Id": "e7eb1bdc-9040-4ded-ac2a-526ea0dc10cd", "Text": "When the road is clear", "ImageUrl": null }, { "QuestionId": "4240", "IsRight": true, "Id": "3d540845-0e38-42d0-aed0-a2a2bed0a863", "Text": "At no time", "ImageUrl": null }, { "QuestionId": "4240", "IsRight": false, "Id": "5127d05a-df71-4bfa-a15a-87d869fe1cf5", "Text": "When overtaking", "ImageUrl": null }, { "QuestionId": "4240", "IsRight": false, "Id": "54b5c3cb-9f32-4914-a57c-5b2c6459bf3b", "Text": "Between midnight and 6 am", "ImageUrl": null } ], "Id": "4240", "Text": " When are you permitted to exceed the maximum speed limit?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4241", "IsRight": false, "Id": "ae45e264-90ea-44f0-8104-04a2833e40f8", "Text": "Change direction", "ImageUrl": null }, { "QuestionId": "4241", "IsRight": true, "Id": "f4802096-070c-4b51-8351-00270afbbdf6", "Text": "Slow down", "ImageUrl": null }, { "QuestionId": "4241", "IsRight": false, "Id": "bfeec01e-b14a-40a5-b0b0-b3170d2f5677", "Text": "Hold your speed", "ImageUrl": null }, { "QuestionId": "4241", "IsRight": false, "Id": "0080d0ff-47e9-450b-9086-d7407748d6b1", "Text": "Speed up", "ImageUrl": null } ], "Id": "4241", "Text": " A heavy lorry is taking a long time to overtake you. What should you do?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.30", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4242", "IsRight": false, "Id": "094341e6-3ecd-46fe-ad2d-becd337a20f5", "Text": "Doctor on call", "ImageUrl": null }, { "QuestionId": "4242", "IsRight": true, "Id": "8c0d3f5f-8e56-4779-b5a3-41af1a72ad8c", "Text": "Police patrol", "ImageUrl": null }, { "QuestionId": "4242", "IsRight": true, "Id": "1098575d-0939-4263-acfc-d44859eef500", "Text": "Ambulance", "ImageUrl": null }, { "QuestionId": "4242", "IsRight": false, "Id": "fcf24c3b-d1c8-4441-86ed-7fda8107beb1", "Text": "Breakdown recovery", "ImageUrl": null }, { "QuestionId": "4242", "IsRight": false, "Id": "d994b579-09ac-45ed-bca1-a4f88f304f47", "Text": "Motorway maintenance", "ImageUrl": null } ], "Id": "4242", "Text": " Which of the following cars will use blue flashing beacons?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4243", "IsRight": true, "Id": "53beae7c-1954-4ce4-8ee3-cc40d5f16cd7", "Text": "Pull over as soon as safely possible to let it pass", "ImageUrl": null }, { "QuestionId": "4243", "IsRight": false, "Id": "7e328fc5-cfaf-4276-8716-3c3655e76d4d", "Text": "Brake harshly and immediately stop in the road", "ImageUrl": null }, { "QuestionId": "4243", "IsRight": false, "Id": "9a9b56bb-9c4f-4283-ab06-522f58c4a759", "Text": "Maintain your speed and course", "ImageUrl": null }, { "QuestionId": "4243", "IsRight": false, "Id": "42cd2083-7e98-452c-98ab-0f084f7d56fd", "Text": "Accelerate fast to get away from it", "ImageUrl": null } ], "Id": "4243", "Text": " When being followed by an ambulance showing a flashing blue light you should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4244", "IsRight": false, "Id": "edb4da9c-2fad-493e-bf27-3a5ba9c1344e", "Text": "Slow down and then sound your horn", "ImageUrl": null }, { "QuestionId": "4244", "IsRight": true, "Id": "423a5118-d7dd-4fd6-ae45-59a59a9fa69c", "Text": "Slow down and give way if it is safe to do so", "ImageUrl": null }, { "QuestionId": "4244", "IsRight": false, "Id": "dd0c9933-386e-4729-bd81-629a97680b4b", "Text": "Sound your horn and keep going", "ImageUrl": null }, { "QuestionId": "4244", "IsRight": false, "Id": "dbf05791-2dca-4dfa-a782-dc9a2f87ac69", "Text": "Flash your headlights and slow down", "ImageUrl": null } ], "Id": "4244", "Text": " A bus has stopped at a bus stop ahead of you. Its right-hand indicator is flashing. You should", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.33", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4245", "IsRight": false, "Id": "3121d9d1-6870-4a86-9ae6-9c963fee789b", "Text": "To tell them that you have right of way", "ImageUrl": null }, { "QuestionId": "4245", "IsRight": false, "Id": "8c4beb8a-217e-4058-9011-d6aa6cf66eb8", "Text": "To show that you are about to reverse", "ImageUrl": null }, { "QuestionId": "4245", "IsRight": false, "Id": "d8211970-c397-4e3c-8bac-89a29aacae8e", "Text": "To show that you are giving way", "ImageUrl": null }, { "QuestionId": "4245", "IsRight": true, "Id": "f2ad441b-ef40-4fc1-8daa-b6739488ec16", "Text": "To let them know that you are there", "ImageUrl": null } ], "Id": "4245", "Text": " You should ONLY flash your headlights to other roads users:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.34", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4246", "IsRight": true, "Id": "bf2fe258-b061-4511-b600-a237cbc42929", "Text": "To alert others of your presence", "ImageUrl": null }, { "QuestionId": "4246", "IsRight": false, "Id": "3e5c7f4e-8d61-48e7-889b-8707d0bf09b9", "Text": "To signal your annoyance", "ImageUrl": null }, { "QuestionId": "4246", "IsRight": false, "Id": "a77e74c7-ffed-476c-932e-162a1b49fb6b", "Text": "To greet other road users", "ImageUrl": null }, { "QuestionId": "4246", "IsRight": false, "Id": "8dca46e6-d875-47ac-b52e-fa08c70d9a74", "Text": "To allow you right of way", "ImageUrl": null } ], "Id": "4246", "Text": " Why should you use your horn?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.36", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4247", "IsRight": false, "Id": "234e6087-ccc6-4872-ab39-6887fbdbfd98", "Text": "Just left of the centre line", "ImageUrl": null }, { "QuestionId": "4247", "IsRight": false, "Id": "9e3f1a0d-21f4-46c0-99db-a4c02f07bb9f", "Text": "In either lane  depending on the traffic", "ImageUrl": null }, { "QuestionId": "4247", "IsRight": false, "Id": "ddc5f884-3d75-45c9-bdb7-cba90db0ee7d", "Text": "In the left-hand lane", "ImageUrl": null }, { "QuestionId": "4247", "IsRight": true, "Id": "511814d8-9d02-4f47-957b-ab9d3eece29b", "Text": "As close as you safely can to the right hand side of the street", "ImageUrl": null } ], "Id": "4247", "Text": " You are in a one-way street and want to turn right. You should place yourself", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.37", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4248", "IsRight": false, "Id": "bf25799f-2688-46f1-b4d0-0273726f6572", "Text": "To allow drivers to pass you on the right", "ImageUrl": null }, { "QuestionId": "4248", "IsRight": false, "Id": "d790d34e-b620-46b6-9b7b-468da32dc7ff", "Text": "To give a better view into the road that you're joining", "ImageUrl": null }, { "QuestionId": "4248", "IsRight": true, "Id": "98055d5b-11c9-45c6-8111-ec435e98932f", "Text": "To help other road users know what you intend to do", "ImageUrl": null }, { "QuestionId": "4248", "IsRight": false, "Id": "dc492298-39a6-4f2b-90f3-756da8c1de97", "Text": "To allow other drivers to pull out in front of you", "ImageUrl": null } ], "Id": "4248", "Text": " You wish to turn right ahead. Why should you take up the proper position in goodtime?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.41", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4249", "IsRight": true, "Id": "61921a9e-2d02-4366-b575-a2456250cd2e", "Text": "After checking it is safe to do so, before changing course or direction, turning to the left or right, stopping or moving", "ImageUrl": null }, { "QuestionId": "4249", "IsRight": false, "Id": "71dc0659-95b2-4820-b588-032ce1e0bfa2", "Text": "Only when joining a dual carriageway from a slip road so you don't have to give way.", "ImageUrl": null }, { "QuestionId": "4249", "IsRight": true, "Id": "9d46f223-07e1-4b34-b4a1-73ad91a87bf2", "Text": "At all times in order to alert other road users  including pedestrians  of your intended actions.", "ImageUrl": null }, { "QuestionId": "4249", "IsRight": false, "Id": "5c514754-a470-4b59-aa14-570a2485c97a", "Text": "In traffic only during the hours of darkness or in bad weather.", "ImageUrl": null }, { "QuestionId": "4249", "IsRight": false, "Id": "13d71e54-f7bb-4d07-8674-bbdafebec0d0", "Text": "To give you priority over other traffic when changing lanes or before pulling out.", "ImageUrl": null } ], "Id": "4249", "Text": " When should you give signals?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4558", "IsRight": false, "Id": "613137cd-8d5d-4f74-9e43-a2bd2f87e0a8", "Text": "Fog lights", "ImageUrl": null }, { "QuestionId": "4558", "IsRight": false, "Id": "8159ab3f-113d-41ee-b634-4558ef74ee12", "Text": "Sidelights", "ImageUrl": null }, { "QuestionId": "4558", "IsRight": true, "Id": "a8e542bb-132f-48c6-b0b8-4b7b6a2498bb", "Text": "Dipped headlights", "ImageUrl": null }, { "QuestionId": "4558", "IsRight": false, "Id": "0aa06bc5-8e4c-46b6-8bcd-729dc971e3bb", "Text": "Full beam headlight", "ImageUrl": null } ], "Id": "4558", "Text": " You are driving on a clear night. There is a steady stream of oncoming cars. The national speed limit applies. Which lights should you use?", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4559", "IsRight": true, "Id": "5bbf2a72-4708-486e-9053-de1bd5165579", "Text": "Apply the handbrake only", "ImageUrl": null }, { "QuestionId": "4559", "IsRight": false, "Id": "ad7eec7b-9781-49b0-8b82-5c9b050a8ff3", "Text": "Use both the handbrake and footbrake", "ImageUrl": null }, { "QuestionId": "4559", "IsRight": false, "Id": "c6ebc14d-e00c-48ec-9d1c-9e69920fc81e", "Text": "Switch off your headlights", "ImageUrl": null }, { "QuestionId": "4559", "IsRight": false, "Id": "d853cbb4-890b-4ef2-a08b-dd8a3e85f232", "Text": "Apply the footbrake only", "ImageUrl": null } ], "Id": "4559", "Text": " You are waiting in a traffic queue at night. To avoid dazzling the drivers behind you should:", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4560", "IsRight": false, "Id": "6b25f3fd-87e8-4ea7-adc2-adcf27acdd9c", "Text": "Give a left signal when it is safe for vehicles to overtake you", "ImageUrl": null }, { "QuestionId": "4560", "IsRight": false, "Id": "6ef0a014-5564-4795-a06b-4273e7455a25", "Text": "Wave following vehicles past you if you think they can overtake quickly", "ImageUrl": null }, { "QuestionId": "4560", "IsRight": true, "Id": "e7d55483-ea3d-4913-ae56-73db2225b808", "Text": "Pull in safely when you can to let following vehicles overtake", "ImageUrl": null }, { "QuestionId": "4560", "IsRight": false, "Id": "519ba7e3-5845-45ba-bd1b-300eace275f1", "Text": "Keep well out to stop vehicles overtaking dangerously", "ImageUrl": null } ], "Id": "4560", "Text": " You are driving a slow-moving car on a narrow winding road. You should :", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4561", "IsRight": false, "Id": "ff1f98b9-1bcd-48c3-a4b0-e101cfa7a86a", "Text": "Stop immediately and wave it on", "ImageUrl": null }, { "QuestionId": "4561", "IsRight": false, "Id": "5e5eaa0e-ae59-44a7-a282-cc11dcee77d8", "Text": "Put your hazard warning lights on", "ImageUrl": null }, { "QuestionId": "4561", "IsRight": false, "Id": "432c27ef-76d9-4bcc-866f-f3d89877ffcd", "Text": "Take no action", "ImageUrl": null }, { "QuestionId": "4561", "IsRight": true, "Id": "e17914a4-ecb8-49c9-97b6-ffe3450a53d6", "Text": "Pull in safely as soon as you can do so", "ImageUrl": null } ], "Id": "4561", "Text": " You are driving a slow-moving car on a narrow road. When traffic wishes to overtake you should :", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4562", "IsRight": false, "Id": "94cf8cdc-b066-4d70-aeed-5bd50501a1ea", "Text": "Keep left and hold your speed", "ImageUrl": null }, { "QuestionId": "4562", "IsRight": true, "Id": "e4118116-6784-4bdb-ba50-5de9bf5ffc51", "Text": "Pull in safely when you can", "ImageUrl": null }, { "QuestionId": "4562", "IsRight": false, "Id": "3d00dea8-adec-45ea-bb2e-d5bb327a9c99", "Text": "Show a left turn signal", "ImageUrl": null }, { "QuestionId": "4562", "IsRight": false, "Id": "e9b08a70-ed96-4a71-9307-8fbd9fd31871", "Text": "Wave to them to pass", "ImageUrl": null } ], "Id": "4562", "Text": " You are driving a slow-moving car on a narrow winding road. In order to let other vehicles overtake, you should :", "ImageUrl": null },
-      { "CategoryId": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4", "SubCategoryId": "CARS2.40", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4563", "IsRight": true, "Id": "be0916f7-a6ab-4d94-b296-0a6436d7cca6", "Text": "Motorcycles", "ImageUrl": null }, { "QuestionId": "4563", "IsRight": false, "Id": "5c55de7a-6081-408f-9061-b3d5b46a407f", "Text": "Busy bus drivers", "ImageUrl": null }, { "QuestionId": "4563", "IsRight": false, "Id": "394b1bd9-fc66-4d8d-98ae-e93d41b999c7", "Text": "Learner car drivers", "ImageUrl": null }, { "QuestionId": "4563", "IsRight": false, "Id": "f3d871da-774b-4793-99e5-8912ae67c340", "Text": "Lorry drivers", "ImageUrl": null } ], "Id": "4563", "Text": " Which of the following are at greatest risk from other road users?", "ImageUrl": null }
-    ],
-    "Id": "0c79b8fa-32e0-4f53-9d68-815d1b71d9a4",
-    "Text": "ATTITUDE",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4250", "IsRight": false, "Id": "bd893efd-51d3-44d5-869e-b2a4015dd0fc", "Text": "Radiator coolant level", "ImageUrl": null }, { "QuestionId": "4250", "IsRight": true, "Id": "a1a008cd-26b2-4e5c-b230-fb4792d861dd", "Text": "Brake fluid level", "ImageUrl": null }, { "QuestionId": "4250", "IsRight": false, "Id": "ea564465-272e-4b0a-be10-2638a9dcd4d3", "Text": "Battery water level", "ImageUrl": null }, { "QuestionId": "4250", "IsRight": false, "Id": "a85d5ebd-6b73-4e5f-937e-6c319edc2491", "Text": "Antifreeze level", "ImageUrl": null } ], "Id": "4250", "Text": " Which of these fluids, if allowed to get low, is dangerous?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.4", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4251", "IsRight": true, "Id": "77b3527b-71b9-44eb-a46b-c1369545b2d2", "Text": "Steering", "ImageUrl": null }, { "QuestionId": "4251", "IsRight": true, "Id": "11038acb-fcf7-435c-a4a7-4b77bc4a3d1f", "Text": "Braking", "ImageUrl": null }, { "QuestionId": "4251", "IsRight": false, "Id": "a459aaf2-deb3-414d-a991-d8ee680fe2b9", "Text": "Parking", "ImageUrl": null }, { "QuestionId": "4251", "IsRight": false, "Id": "37f7337c-375a-492f-b348-1c9d5892e9b4", "Text": "Changing gear", "ImageUrl": null } ], "Id": "4251", "Text": " Which TWO are adversely affected if the tyres are under-inflated?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4252", "IsRight": false, "Id": "e12e1474-fa8d-4824-b0f6-7e13a7d9d2e1", "Text": "When tyres are hot", "ImageUrl": null }, { "QuestionId": "4252", "IsRight": false, "Id": "86798a31-56dd-4e81-8f5d-853216faf0b5", "Text": "After driving at high speed", "ImageUrl": null }, { "QuestionId": "4252", "IsRight": false, "Id": "4a5e7bce-4f36-491f-8551-b060381daff8", "Text": "After any lengthy journey", "ImageUrl": null }, { "QuestionId": "4252", "IsRight": true, "Id": "fe74e966-3440-40c2-a4dd-1d5e4713f9df", "Text": "When tyres are cold", "ImageUrl": null } ], "Id": "4252", "Text": " It is important that tyre pressure is regularly checked. When should this be done?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4253", "IsRight": false, "Id": "6e2fae3a-67a6-473c-8549-12133cf2d62b", "Text": "Every time the vehicle has an VRT test", "ImageUrl": null }, { "QuestionId": "4253", "IsRight": true, "Id": "faa11ce8-4542-4bae-b7da-dd4d67fe3680", "Text": "Once a week", "ImageUrl": null }, { "QuestionId": "4253", "IsRight": false, "Id": "18be5951-32e1-4b62-8439-9a66b6b526b5", "Text": "Once a month", "ImageUrl": null }, { "QuestionId": "4253", "IsRight": false, "Id": "b9599b98-41a5-49d7-89c1-f2970d43dcca", "Text": "Every time the vehicle is serviced", "ImageUrl": null } ], "Id": "4253", "Text": " It is very important that tyre pressures are correct. They should be checked at least:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.9", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4254", "IsRight": false, "Id": "7c4b1b6b-3cd6-479e-a0a4-a49587594d41", "Text": "Oil pressure", "ImageUrl": null }, { "QuestionId": "4254", "IsRight": true, "Id": "4231b1ac-fc0d-45ee-802f-5fb6e3989fed", "Text": "Braking", "ImageUrl": null }, { "QuestionId": "4254", "IsRight": true, "Id": "ccefec1b-6fa4-4fa1-9c38-a51f4a6a710e", "Text": "Fuel consumption", "ImageUrl": null }, { "QuestionId": "4254", "IsRight": false, "Id": "c0de4e0a-b78c-43ab-9afe-d494414c4ad9", "Text": "Engine temperatures", "ImageUrl": null } ], "Id": "4254", "Text": " Driving with under-inflated (low) tyres can affect:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4255", "IsRight": false, "Id": "24e2b37e-5a5d-432e-8c66-7104ef1f9aa7", "Text": "When parking", "ImageUrl": null }, { "QuestionId": "4255", "IsRight": false, "Id": "1056d1df-68ff-4f85-b78a-6919655ffa42", "Text": "Along narrow streets", "ImageUrl": null }, { "QuestionId": "4255", "IsRight": true, "Id": "21d979a1-e260-48b6-9f1d-299cbb906e31", "Text": "In poor visibility", "ImageUrl": null }, { "QuestionId": "4255", "IsRight": false, "Id": "1c79eb15-1933-4a3f-9a1d-9876b6d46885", "Text": "All the time", "ImageUrl": null } ], "Id": "4255", "Text": " When MUST you use dipped lights during the day?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.23", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4256", "IsRight": true, "Id": "c265177d-622f-4d41-aa10-d236b7a9eedd", "Text": "By servicing your vehicle properly", "ImageUrl": null }, { "QuestionId": "4256", "IsRight": true, "Id": "0b7751b8-bbf6-49f8-a2ac-f631d8fc753a", "Text": "By gentle acceleration", "ImageUrl": null }, { "QuestionId": "4256", "IsRight": false, "Id": "e5c60afd-b345-4a37-b66a-e1b4ceac626d", "Text": "By harsh acceleration", "ImageUrl": null }, { "QuestionId": "4256", "IsRight": false, "Id": "d891a723-103e-4c2d-9215-4006957b2620", "Text": "By driving faster", "ImageUrl": null }, { "QuestionId": "4256", "IsRight": true, "Id": "95432910-b48c-463a-ba31-20bbb3ae5532", "Text": "By reducing your speed", "ImageUrl": null }, { "QuestionId": "4256", "IsRight": false, "Id": "35956fe0-0f55-439f-ae9b-7d47e5b4c361", "Text": "By using leaded fuel", "ImageUrl": null } ], "Id": "4256", "Text": " How can you  as a vehicle driver help the environment?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.27", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4257", "IsRight": true, "Id": "aa1515df-7b66-4037-8e31-34df0de74b22", "Text": "Using up natural resources", "ImageUrl": null }, { "QuestionId": "4257", "IsRight": true, "Id": "be8c614d-2644-4d3a-9f57-bfadbaba67cd", "Text": "Damage to buildings", "ImageUrl": null }, { "QuestionId": "4257", "IsRight": false, "Id": "0e21a4a9-5fde-4ea5-86fe-4d46043efa44", "Text": "Less use of electric vehicles", "ImageUrl": null }, { "QuestionId": "4257", "IsRight": false, "Id": "a5bd7834-b6fb-4d00-a52c-f7a02bf2b43f", "Text": "Improved public transport", "ImageUrl": null }, { "QuestionId": "4257", "IsRight": false, "Id": "b856be95-24cf-4604-b2ef-38457261e193", "Text": "Reduced health risks", "ImageUrl": null }, { "QuestionId": "4257", "IsRight": true, "Id": "ac338bdf-b4d8-497f-a27c-529c7c437d78", "Text": "Air pollution", "ImageUrl": null } ], "Id": "4257", "Text": " Motor vehicles can harm the environment resulting in:", "ImageUrl": null },
       {
-        "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575",
-        "SubCategoryId": "CARS3.28",
-        "CorrectAnswersNumber": 3,
-        "Answers": [
-          { "QuestionId": "4258", "IsRight": false, "Id": "43ea665c-fde5-4411-a2a4-180af0b2bf8f", "Text": "Use busy routes", "ImageUrl": null },
-          { "QuestionId": "4258", "IsRight": true, "Id": "98fc36e5-26ce-45ac-ac76-4a9cd6dd920c", "Text": "Plan well ahead", "ImageUrl": null },
-          { "QuestionId": "4258", "IsRight": true, "Id": "78110651-70b9-43a6-8a16-edd218e23b21", "Text": "Brake in good time", "ImageUrl": null },
-          { "QuestionId": "4258", "IsRight": true, "Id": "3445638f-20d8-4c87-8e58-2c86ee702d3f", "Text": "Avoid harsh acceleration", "ImageUrl": null },
-          { "QuestionId": "4258", "IsRight": false, "Id": "99e8c9ce-5cf0-47ba-8011-e379d6eeaf04", "Text": "Use narrow side streets", "ImageUrl": null }
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4212",
+            "isRight": false,
+            "id": "f8744c0d-5b40-44a9-9c7c-a4ecaaf6ed23",
+            "text": "An area covered by your left hand mirror"
+          },
+          {
+            "questionId": "4212",
+            "isRight": false,
+            "id": "d1d10a76-1e58-48a7-8a8c-5e8f9edc4ac3",
+            "text": "An area not covered by your headlights"
+          },
+          {
+            "questionId": "4212",
+            "isRight": false,
+            "id": "63cef42b-8999-4fa8-bd7c-7890dd5856d1",
+            "text": "An area covered by your right hand mirror"
+          },
+          {
+            "questionId": "4212",
+            "isRight": true,
+            "id": "7333449c-00d0-464a-8608-d7316832e126",
+            "text": "An area not covered by your mirrors"
+          }
         ],
-        "Id": "4258",
-        "Text": " To reduce the damage your vehicle causes to the environment you should:",
-        "ImageUrl": null
+        "id": "4212",
+        "text": " As a driver what do you understand by the term 'Blind Spot'?"
       },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4259", "IsRight": false, "Id": "9932c750-1bda-4c3f-bf4a-3e0c2b025073", "Text": "Accelerate and brake sharply", "ImageUrl": null }, { "QuestionId": "4259", "IsRight": false, "Id": "e7722add-a6f3-4c80-a6aa-7af98a77c5f3", "Text": "Drive continually using full choke", "ImageUrl": null }, { "QuestionId": "4259", "IsRight": false, "Id": "6f7744a5-4951-4126-abaa-815fa69bb2ea", "Text": "Reduce the tyre pressure", "ImageUrl": null }, { "QuestionId": "4259", "IsRight": true, "Id": "8458689f-d7a9-4f52-897c-47be3ada81a9", "Text": "Walk or cycle when you can", "ImageUrl": null } ], "Id": "4259", "Text": " You will help your environment if you:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.30", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4260", "IsRight": false, "Id": "29ad4c2e-0e9d-43e3-a372-47e981bf7b55", "Text": "Empty the boot of unnecessary weight", "ImageUrl": null }, { "QuestionId": "4260", "IsRight": true, "Id": "df2db857-271a-466a-872b-f283ebb2aaf9", "Text": "Use your vehicle for very short journeys", "ImageUrl": null }, { "QuestionId": "4260", "IsRight": false, "Id": "9a5eda8f-c6bb-4348-95b6-47e834f7cfb7", "Text": "Walk  cycle  or use public transport", "ImageUrl": null }, { "QuestionId": "4260", "IsRight": false, "Id": "caae4c36-a58c-4ed9-b9ac-aada2069e86f", "Text": "Remove your roof rack when unloaded", "ImageUrl": null } ], "Id": "4260", "Text": " To help the environment you should NOT:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.31", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4261", "IsRight": false, "Id": "64a2dd3e-bedb-4b2e-b39e-3e7f2a042f24", "Text": "The exhaust system", "ImageUrl": null }, { "QuestionId": "4261", "IsRight": true, "Id": "a42ae7b9-f7d5-4ec9-8112-d41da106d6de", "Text": "The suspension", "ImageUrl": null }, { "QuestionId": "4261", "IsRight": false, "Id": "dc559ac2-8b72-4f31-b550-5618e0f29a05", "Text": "The accelerator", "ImageUrl": null }, { "QuestionId": "4261", "IsRight": false, "Id": "27fd3026-6bc2-4ca1-b657-e65d823b5095", "Text": "The gearbox", "ImageUrl": null }, { "QuestionId": "4261", "IsRight": true, "Id": "18eb9dab-ef34-4b2a-870c-a74c0030a4f8", "Text": "Wheel alignment", "ImageUrl": null }, { "QuestionId": "4261", "IsRight": true, "Id": "953c20b9-67e3-465f-8096-d912e691a83b", "Text": "The braking system", "ImageUrl": null } ], "Id": "4261", "Text": " Excessive or uneven wear on the tyres can be caused by faults in:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.33", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4262", "IsRight": true, "Id": "ec0db5d0-af55-4ba8-af05-b043093595da", "Text": "Planning well ahead", "ImageUrl": null }, { "QuestionId": "4262", "IsRight": true, "Id": "d272d0a8-77c8-4fd9-9ae5-8ef1ad074118", "Text": "Reducing your road speed", "ImageUrl": null }, { "QuestionId": "4262", "IsRight": false, "Id": "b29e4790-2442-4fad-b330-1d2942cd1eba", "Text": "Rapid acceleration", "ImageUrl": null }, { "QuestionId": "4262", "IsRight": false, "Id": "75e8fbc0-0d31-456b-800b-279cb9aac804", "Text": "Short journeys with a cold engine", "ImageUrl": null }, { "QuestionId": "4262", "IsRight": false, "Id": "aeb6e47d-6c69-4eef-992e-e73314b589bf", "Text": "Driving in lower gears", "ImageUrl": null }, { "QuestionId": "4262", "IsRight": false, "Id": "1ae6e6f9-5a0a-4833-acd4-0ed30622f6da", "Text": "Late and harsh braking", "ImageUrl": null } ], "Id": "4262", "Text": " Which of the following will reduce fuel consumption?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.38", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4263", "IsRight": false, "Id": "5f71d9f1-b278-4bb2-b0e7-6b3678191c56", "Text": "Between 11.30 pm and 7 am in a built-up area", "ImageUrl": null }, { "QuestionId": "4263", "IsRight": false, "Id": "0475a77a-dd79-4bbc-bd9e-58628b73048b", "Text": "At any time in a built-up area", "ImageUrl": null }, { "QuestionId": "4263", "IsRight": false, "Id": "c27ad705-17a0-4983-9c1c-ec1cd990e3e5", "Text": "Between 10 pm and 6 am in a built-up area", "ImageUrl": null }, { "QuestionId": "4263", "IsRight": true, "Id": "58a81f37-fb98-4c8d-bf43-e5ce9192d196", "Text": "Between 11.00 pm and 6 am in a built-up area", "ImageUrl": null } ], "Id": "4263", "Text": " You should NOT sound your horn:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.45", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4264", "IsRight": false, "Id": "10f88784-9bcc-46e7-bd1e-263a9d3f3dd9", "Text": "80 kph", "ImageUrl": null }, { "QuestionId": "4264", "IsRight": false, "Id": "ee031efd-98e0-47c7-8286-e976bc5419f0", "Text": "60 kph", "ImageUrl": null }, { "QuestionId": "4264", "IsRight": true, "Id": "baf1b729-8126-49b9-ad7c-81c7eb145018", "Text": "35 kph", "ImageUrl": null }, { "QuestionId": "4264", "IsRight": false, "Id": "3034f6e8-c9a3-4bd0-bc5c-f2ab619922ab", "Text": "50 kph", "ImageUrl": null } ], "Id": "4264", "Text": " In some residential roads you will find a speed limit of:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.46", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4265", "IsRight": false, "Id": "ae48d70a-66f8-4d4c-94ce-b0da7a152e35", "Text": "At toll-bridge approaches only", "ImageUrl": null }, { "QuestionId": "4265", "IsRight": false, "Id": "e2ba8f04-4f3a-48b8-9523-a3116b2f93e6", "Text": "Used to increase traffic speed", "ImageUrl": null }, { "QuestionId": "4265", "IsRight": false, "Id": "c54d4e57-5426-4d06-88a9-f2365edd27d4", "Text": "Always at major road works", "ImageUrl": null }, { "QuestionId": "4265", "IsRight": true, "Id": "2600ec2f-6838-4cb4-bbe5-f91b7309ee27", "Text": "Traffic calming measures", "ImageUrl": null } ], "Id": "4265", "Text": " Road humps, chicanes and narrowing are:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.47", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4266", "IsRight": true, "Id": "bfb195c5-c91e-49ba-8e29-f9a7b5571dec", "Text": "Maintain a reduced speed throughout", "ImageUrl": null }, { "QuestionId": "4266", "IsRight": false, "Id": "5e12f283-ff79-488f-a167-278342677354", "Text": "Drive slowly at school times only", "ImageUrl": null }, { "QuestionId": "4266", "IsRight": false, "Id": "683b51f1-3257-4514-988e-73134d08eb95", "Text": "Always keep to the maximum legal speed", "ImageUrl": null }, { "QuestionId": "4266", "IsRight": false, "Id": "9d34520c-cbfa-4d6d-8169-b19a80aebcb4", "Text": "Accelerate quickly between each one", "ImageUrl": null } ], "Id": "4266", "Text": " You enter a road where there are road humps. You should:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.2", "CorrectAnswersNumber": 4, "Answers": [ { "QuestionId": "4564", "IsRight": false, "Id": "6b85057d-f539-4785-80d0-52187a1c4617", "Text": "Tempreture gauge", "ImageUrl": null }, { "QuestionId": "4564", "IsRight": true, "Id": "649c3ccf-9b8b-4b4c-87fc-da4263b2a86f", "Text": "Indicators", "ImageUrl": null }, { "QuestionId": "4564", "IsRight": true, "Id": "ec06cdd0-fcbf-43ca-99bd-7edd5414ff47", "Text": "Brakes", "ImageUrl": null }, { "QuestionId": "4564", "IsRight": true, "Id": "6fdd16b2-babc-4c4b-970d-a0597fc078e5", "Text": "Exhaust system", "ImageUrl": null }, { "QuestionId": "4564", "IsRight": false, "Id": "ef9efd9f-07f9-4b87-9bad-bbb114626425", "Text": "Oil warning light", "ImageUrl": null }, { "QuestionId": "4564", "IsRight": true, "Id": "9f78c773-4094-4292-886d-39c494261e0c", "Text": "Lights", "ImageUrl": null } ], "Id": "4564", "Text": " Which FOUR of these MUST be in good working order for your car to be safe and roadworthy?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4565", "IsRight": false, "Id": "2c3a3a8a-1ca9-44af-9e67-5be0dbdb3486", "Text": "Allow the exhaust system to be recycled", "ImageUrl": null }, { "QuestionId": "4565", "IsRight": false, "Id": "be1e8fc4-0365-48bd-b213-54503db2595c", "Text": "Prolong the life of the exhaust system", "ImageUrl": null }, { "QuestionId": "4565", "IsRight": false, "Id": "b35ac102-3cef-4979-b83c-1b5912e4e5d5", "Text": "Control exhaust noise levels", "ImageUrl": null }, { "QuestionId": "4565", "IsRight": true, "Id": "7a6c9795-5c0b-4a04-b9b4-d5d440f9e80d", "Text": "Reduce harmful exhaust emissions", "ImageUrl": null } ], "Id": "4565", "Text": " New petrol-engined cars have to be fitted with catalytic converters. The reason for this is to:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4566", "IsRight": false, "Id": "2d1e24f4-0ed3-4633-a625-79fe1e5af68d", "Text": "Over-inflated tyres", "ImageUrl": null }, { "QuestionId": "4566", "IsRight": false, "Id": "e482c021-d000-482d-8149-b0f938111521", "Text": "Badly worn brakes", "ImageUrl": null }, { "QuestionId": "4566", "IsRight": false, "Id": "55fbb02b-2f10-458c-9654-44314002406c", "Text": "Driving on mud", "ImageUrl": null }, { "QuestionId": "4566", "IsRight": true, "Id": "4d8fc0f2-5233-4fe8-aa42-b7feabdd97c1", "Text": "Under-inflated tyres", "ImageUrl": null } ], "Id": "4566", "Text": " What can cause heavy or difficult steering?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4567", "IsRight": true, "Id": "edf6c1c5-8cd2-4cfc-91e8-df1698571540", "Text": "Lighter", "ImageUrl": null }, { "QuestionId": "4567", "IsRight": false, "Id": "9c15a11a-4248-4d41-bb9b-0988140b47be", "Text": "Noisier", "ImageUrl": null }, { "QuestionId": "4567", "IsRight": false, "Id": "4078d22f-02a6-461e-a13a-5e3888560ffe", "Text": "Quieter", "ImageUrl": null }, { "QuestionId": "4567", "IsRight": false, "Id": "35b6703f-b4b3-4f88-a61f-791b428860e0", "Text": "Heavier", "ImageUrl": null } ], "Id": "4567", "Text": " Your car is fitted with power assisted steering. This will make the steering seem:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4568", "IsRight": false, "Id": "80844f16-8333-4ca2-9c9e-fbf4b9ae26af", "Text": "Whoever issued the VRT certificate", "ImageUrl": null }, { "QuestionId": "4568", "IsRight": false, "Id": "940db482-5f2f-467e-896d-e3118e08f621", "Text": "Whoever services the car", "ImageUrl": null }, { "QuestionId": "4568", "IsRight": true, "Id": "2e43c4c4-10b2-4791-8528-19253f6e6396", "Text": "You  the driver", "ImageUrl": null }, { "QuestionId": "4568", "IsRight": false, "Id": "5366a2a7-9eb6-431a-a452-8796a52600bd", "Text": "The previous owner", "ImageUrl": null } ], "Id": "4568", "Text": " A police officer orders you to stop and finds you have a faulty tyre. Who is responsible for the tyre?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4569", "IsRight": false, "Id": "2f8e6bd5-e6ba-4cf7-a3c8-3255e3f05486", "Text": "4mm", "ImageUrl": null }, { "QuestionId": "4569", "IsRight": true, "Id": "e09d87ea-2822-4ecd-9f20-4dd572bb0f5c", "Text": "1.6mm", "ImageUrl": null }, { "QuestionId": "4569", "IsRight": false, "Id": "6c5f01b2-1db9-40c8-b00b-8daaa4e5a19b", "Text": "2.5mm", "ImageUrl": null }, { "QuestionId": "4569", "IsRight": false, "Id": "724bdfaf-996b-4f86-aec5-2e639d6dbca4", "Text": "1mm", "ImageUrl": null } ], "Id": "4569", "Text": " The legal minimum depth of tread for car tyres over three quarters of its breadth is:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.12", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4570", "IsRight": false, "Id": "10c1a735-e954-4516-8737-f7cba3b35844", "Text": "Exhaust system", "ImageUrl": null }, { "QuestionId": "4570", "IsRight": true, "Id": "800657dc-7adb-44f8-bd86-fa5e0700fd14", "Text": "Suspension", "ImageUrl": null }, { "QuestionId": "4570", "IsRight": true, "Id": "71eba0df-7d9b-4721-af45-5ecfa683d292", "Text": "Braking system", "ImageUrl": null }, { "QuestionId": "4570", "IsRight": false, "Id": "fd033813-ddda-4be9-b8be-fd914c4f5e9e", "Text": "Gearbox", "ImageUrl": null } ], "Id": "4570", "Text": " Excessive or uneven wear in one or more tyres can be caused by faults in the:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.13", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4571", "IsRight": false, "Id": "a3440215-2494-4ecd-b264-0728bc1abc4a", "Text": "Engine oil level is correct", "ImageUrl": null }, { "QuestionId": "4571", "IsRight": true, "Id": "c6c7397a-b84d-4d73-82f1-09ced4f9821c", "Text": "Wheels are secure", "ImageUrl": null }, { "QuestionId": "4571", "IsRight": false, "Id": "1731d5b9-6e78-4cfa-934e-a3d81d883beb", "Text": "Exhaust is not loose", "ImageUrl": null }, { "QuestionId": "4571", "IsRight": false, "Id": "8d0c6127-5552-4e45-8991-25dd02e2aac0", "Text": "Doors are closed", "ImageUrl": null }, { "QuestionId": "4571", "IsRight": true, "Id": "4780ccb8-5786-4fa4-b202-fc4662bdf5ba", "Text": "Wheels are balanced", "ImageUrl": null } ], "Id": "4571", "Text": " There is vibration on your steering wheel as you drive at certain speeds. You should check that the:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4572", "IsRight": false, "Id": "f6a717cd-4b18-49e9-b364-54c88dc25da6", "Text": "Use your handbrake at the same time", "ImageUrl": null }, { "QuestionId": "4572", "IsRight": true, "Id": "a5551588-cc73-41e7-948c-dd4b2d0951bd", "Text": "Have the fault checked by a competent mechanic as soon as possible", "ImageUrl": null }, { "QuestionId": "4572", "IsRight": false, "Id": "367d7ac9-e29b-4b96-a641-d8e7544af562", "Text": "Pump the pedal when braking and steer in opposite direction", "ImageUrl": null }, { "QuestionId": "4572", "IsRight": false, "Id": "accad442-160a-4a16-93a7-53b5fb8e6992", "Text": "Change the tyres around", "ImageUrl": null } ], "Id": "4572", "Text": " Your vehicle pulls to one side when braking heavily. You should:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4573", "IsRight": true, "Id": "73d0fee2-6416-4908-8a38-6cc0591bf705", "Text": "The brakes overheating", "ImageUrl": null }, { "QuestionId": "4573", "IsRight": false, "Id": "c5c60b32-bf3b-4028-8ed6-80646538015a", "Text": "The brakes out of adjustment", "ImageUrl": null }, { "QuestionId": "4573", "IsRight": false, "Id": "6c958b48-96bb-4a0a-ab97-c53b0b2c6b01", "Text": "Oil in the brakes", "ImageUrl": null }, { "QuestionId": "4573", "IsRight": false, "Id": "1c384ab8-d148-481a-9350-d3b6f61cce77", "Text": "Air in brake fluid", "ImageUrl": null } ], "Id": "4573", "Text": " The main cause of brake pedal fade is:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4574", "IsRight": false, "Id": "1ded7c93-ce8f-40d3-a6a5-dabf062114f5", "Text": "Check that the handbrake is released", "ImageUrl": null }, { "QuestionId": "4574", "IsRight": false, "Id": "00ce3406-c7d9-47fd-974c-17cf5ad35c79", "Text": "Check the footbrake free play", "ImageUrl": null }, { "QuestionId": "4574", "IsRight": false, "Id": "bf209918-a022-45db-9e3e-ad20d67127d0", "Text": "Check the brake fluid", "ImageUrl": null }, { "QuestionId": "4574", "IsRight": true, "Id": "f6420668-3070-4320-8bac-714d6161e209", "Text": "Have the brakes checked immediately", "ImageUrl": null } ], "Id": "4574", "Text": " Your anti-lock brakes warning light stays on. You should:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4575", "IsRight": false, "Id": "d37491e5-b35c-48a9-a662-20df6d6d3df8", "Text": "When you are being towed", "ImageUrl": null }, { "QuestionId": "4575", "IsRight": false, "Id": "7840ad6c-8978-409e-b559-e592f6efd0bf", "Text": "To park on double yellows lines", "ImageUrl": null }, { "QuestionId": "4575", "IsRight": false, "Id": "7265c07f-93a7-482f-aaaa-a284514b5c7a", "Text": "To park alongside another car", "ImageUrl": null }, { "QuestionId": "4575", "IsRight": true, "Id": "5502d757-053d-4c0e-8411-74066c2b61f9", "Text": "When you have broken down in traffic", "ImageUrl": null } ], "Id": "4575", "Text": " When may you use hazard lights?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4576", "IsRight": true, "Id": "da93135e-2fd7-415d-826f-bf908de4dc1c", "Text": "Broken down and causing an obstruction", "ImageUrl": null }, { "QuestionId": "4576", "IsRight": false, "Id": "460c90ba-d6b5-4ac1-907d-fd4afd01ace3", "Text": "Reversing into a side road", "ImageUrl": null }, { "QuestionId": "4576", "IsRight": false, "Id": "daad2c8a-5620-41da-83a6-8f47ca0a5887", "Text": "Being towed along a road", "ImageUrl": null }, { "QuestionId": "4576", "IsRight": false, "Id": "6d5dd17a-1517-44f3-9826-92bcf32f2e98", "Text": "Faulty and moving slowly", "ImageUrl": null } ], "Id": "4576", "Text": " Hazard lights should be used when vehicles are:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4577", "IsRight": false, "Id": "f103a84e-9efb-4788-b389-15528ad7341e", "Text": "Help you to maintain your driving position", "ImageUrl": null }, { "QuestionId": "4577", "IsRight": true, "Id": "9c96b69c-3fcd-49fd-ada6-70d1acf53617", "Text": "Help you to avoid neck injury", "ImageUrl": null }, { "QuestionId": "4577", "IsRight": false, "Id": "ecfe82b7-1b4a-4c82-84a6-564d3a09b666", "Text": "Help you to relax", "ImageUrl": null }, { "QuestionId": "4577", "IsRight": false, "Id": "8d295de0-bbc1-41ce-8a10-ee2cff0b0cdd", "Text": "Make you more comfortable", "ImageUrl": null } ], "Id": "4577", "Text": " A properly adjusted head rest will:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4578", "IsRight": false, "Id": "79de3335-4746-4f2d-8713-13d1d9249599", "Text": "A collapsible steering wheel", "ImageUrl": null }, { "QuestionId": "4578", "IsRight": false, "Id": "8a58e8a8-6c1c-4575-b0dd-b4c99f676fe7", "Text": "Anti-lock brakes", "ImageUrl": null }, { "QuestionId": "4578", "IsRight": false, "Id": "21cc5954-b384-4247-818a-c374695eddf0", "Text": "An air-sprung seat", "ImageUrl": null }, { "QuestionId": "4578", "IsRight": true, "Id": "1bfec6cc-06d9-4cce-8e8f-b71320447c1b", "Text": "A properly adjusted head restraint", "ImageUrl": null } ], "Id": "4578", "Text": " What will reduce the risk of neck injury resulting from a car collision?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.24", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4579", "IsRight": true, "Id": "f11bc0fa-095f-4e60-b6dc-2fff9c8e7c97", "Text": "Not over-revving in the lower gears", "ImageUrl": null }, { "QuestionId": "4579", "IsRight": true, "Id": "759db3e3-44db-4ffd-8bf4-bf1ef72914c0", "Text": "Making sure your tyres are correctly inflated", "ImageUrl": null }, { "QuestionId": "4579", "IsRight": true, "Id": "0d326286-271a-4585-8add-c9b3fab6e6fb", "Text": "Having your vehicle properly serviced", "ImageUrl": null }, { "QuestionId": "4579", "IsRight": false, "Id": "78aff547-bd28-4040-b0a4-61fa96a53af8", "Text": "Keeping an empty roof rack properly fitted", "ImageUrl": null }, { "QuestionId": "4579", "IsRight": false, "Id": "e68b88ca-ba65-4620-a470-b2e2303ed4fb", "Text": "Driving at higher speeds where possible", "ImageUrl": null } ], "Id": "4579", "Text": " To reduce harming  the environment  you can avoid wasting fuel by:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4580", "IsRight": false, "Id": "2e0965c9-5c56-44b7-ae81-b240502fb3c3", "Text": "To make sure diesel and petrol engines emit the same fumes", "ImageUrl": null }, { "QuestionId": "4580", "IsRight": true, "Id": "c635e5f5-232f-40c5-af59-5153e2a763fb", "Text": "To help protect the environment against pollution", "ImageUrl": null }, { "QuestionId": "4580", "IsRight": false, "Id": "87fc375f-8886-41dd-83b1-9e80010e5376", "Text": "To discover which fuel supplier is used the most", "ImageUrl": null }, { "QuestionId": "4580", "IsRight": false, "Id": "af0f65f1-9d40-4061-84b0-0380acab1089", "Text": "To recover the cost of expensive garage equipment", "ImageUrl": null } ], "Id": "4580", "Text": " Why do VRT tests include an exhaust emission test?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4581", "IsRight": false, "Id": "9a276f15-3fc2-4132-b981-8083c95c8fa7", "Text": "Steering wheel not located centrally", "ImageUrl": null }, { "QuestionId": "4581", "IsRight": false, "Id": "b445ebee-4403-481d-bfa3-eab2ae2ee313", "Text": "Tyres under-inflated", "ImageUrl": null }, { "QuestionId": "4581", "IsRight": false, "Id": "8a2e60a2-b402-44a0-855b-876ba88720ab", "Text": "Worn tyres", "ImageUrl": null }, { "QuestionId": "4581", "IsRight": true, "Id": "d45bae71-05b8-40d7-b211-bbb1167891f6", "Text": "Worn shock absorbers", "ImageUrl": null } ], "Id": "4581", "Text": " You are testing the suspension of your car. You notice that your vehicle keeps bouncing when you press down on the front wing.\nWhat does this mean?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.34", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4582", "IsRight": true, "Id": "d90353a1-22b6-4481-9c96-ead2c9428fc7", "Text": "A fitted  empty roof rack", "ImageUrl": null }, { "QuestionId": "4582", "IsRight": false, "Id": "4d471ca2-1949-480b-8b26-7247161123bd", "Text": "Using different brands of fuel", "ImageUrl": null }, { "QuestionId": "4582", "IsRight": true, "Id": "fcb49bce-e4d2-4ead-92f0-28a478d9f70b", "Text": "Under-inflated tyres", "ImageUrl": null }, { "QuestionId": "4582", "IsRight": false, "Id": "04560e46-7ee4-4f86-8af0-f63b2933b51e", "Text": "Using the wrong grade of fuel", "ImageUrl": null }, { "QuestionId": "4582", "IsRight": true, "Id": "469b9572-ed78-4cdc-8ce3-4b4c73c61652", "Text": "Carrying unnecessary weight", "ImageUrl": null } ], "Id": "4582", "Text": " Which THREE of the following are most likely to increase fuel consumption?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.35", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4583", "IsRight": true, "Id": "13f78cf6-9d35-40ef-95ca-2f63a378fa1e", "Text": "Cause diesel to spill and make roads slippery for others road users", "ImageUrl": null }, { "QuestionId": "4583", "IsRight": true, "Id": "1c656b89-da6f-4c52-8053-e794015ab4bd", "Text": "Waste fuel and money", "ImageUrl": null }, { "QuestionId": "4583", "IsRight": false, "Id": "ec76c06f-11e8-4bda-8a45-f7a4285ee375", "Text": "Increase the level of exhaust emissions", "ImageUrl": null }, { "QuestionId": "4583", "IsRight": false, "Id": "96ab385f-bf34-4de0-a2fb-526523d83fdd", "Text": "Improve your vehicle's fuel consumption", "ImageUrl": null } ], "Id": "4583", "Text": " The filler cap on your diesel fuel tank is loose. This will:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.37", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4584", "IsRight": false, "Id": "8acc9fe3-3ca1-437e-87d6-199336a23342", "Text": "Clear", "ImageUrl": null }, { "QuestionId": "4584", "IsRight": false, "Id": "c13841fa-d157-4654-9949-4d20f337ed69", "Text": "Odourless", "ImageUrl": null }, { "QuestionId": "4584", "IsRight": false, "Id": "97776893-7ea9-4174-8670-c01d5d176eaf", "Text": "Sticky", "ImageUrl": null }, { "QuestionId": "4584", "IsRight": true, "Id": "8a5346ff-e5c6-4ba5-ad29-3831f85ef829", "Text": "Slippery", "ImageUrl": null } ], "Id": "4584", "Text": " Care should be taken when refueling with diesel  because when spilt it is:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.39", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4585", "IsRight": false, "Id": "cffe308d-72a0-4fa0-bd26-60914b4f26c1", "Text": "Look in the nearside mirror", "ImageUrl": null }, { "QuestionId": "4585", "IsRight": false, "Id": "3bba668f-2b06-4104-989a-439c30a92a2d", "Text": "Open the door and look behind", "ImageUrl": null }, { "QuestionId": "4585", "IsRight": false, "Id": "db3183ac-6bee-4ad4-abbf-fc6aa4b533a2", "Text": "Open your window to look behind", "ImageUrl": null }, { "QuestionId": "4585", "IsRight": true, "Id": "0ac293ac-aa13-439e-9ca7-7cee2e19959e", "Text": "Ask someone to guide you", "ImageUrl": null } ], "Id": "4585", "Text": " If you cannot see clearly behind when reversing  what should you do?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.41", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4586", "IsRight": false, "Id": "95ad0707-b72a-44f9-a4f0-be9c651d9ea0", "Text": "You a refund on your road tax", "ImageUrl": null }, { "QuestionId": "4586", "IsRight": false, "Id": "6784adba-4976-4f88-85a0-835d2aa40a35", "Text": "Lower insurance premiums", "ImageUrl": null }, { "QuestionId": "4586", "IsRight": true, "Id": "c35acc50-9304-4b92-9686-5cffb9d7eee2", "Text": "Cleaner exhaust emissions", "ImageUrl": null }, { "QuestionId": "4586", "IsRight": true, "Id": "5691b8ba-b67c-4a74-be15-769ee4aa04eb", "Text": "Better fuel economy", "ImageUrl": null } ], "Id": "4586", "Text": " A properly serviced car will give:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.42", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4587", "IsRight": false, "Id": "f3ce9e2b-9ceb-4d5a-a60f-b4bbd60e6449", "Text": "It will affect your braking", "ImageUrl": null }, { "QuestionId": "4587", "IsRight": false, "Id": "e4ad16df-ba17-4cab-852f-92c92449b54a", "Text": "It is illegal", "ImageUrl": null }, { "QuestionId": "4587", "IsRight": false, "Id": "b6ac6e0e-4b62-40c9-b0a8-3582d96cb636", "Text": "It will affect the suspension", "ImageUrl": null }, { "QuestionId": "4587", "IsRight": true, "Id": "9e9f226e-f7d5-49d5-a5cf-7090154c6844", "Text": "It will waste fuel", "ImageUrl": null } ], "Id": "4587", "Text": " When a roof rack is not in use it should be removed. Why?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.43", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4588", "IsRight": false, "Id": "36aa8450-da5f-4c48-b8f2-ab25ed44e1e2", "Text": "Make your car go faster", "ImageUrl": null }, { "QuestionId": "4588", "IsRight": false, "Id": "f6234b04-5ddd-4714-ad0c-ab5190d5f6c0", "Text": "Improve the road handling", "ImageUrl": null }, { "QuestionId": "4588", "IsRight": false, "Id": "1378d8c7-96ef-41a6-bfcc-6d78df533810", "Text": "Reduce fuel consumption", "ImageUrl": null }, { "QuestionId": "4588", "IsRight": true, "Id": "3cfee011-7107-4466-94a3-61f36e2277fe", "Text": "Increase fuel consumption", "ImageUrl": null } ], "Id": "4588", "Text": " A roof rack that is fitted to your car will:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.44", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4589", "IsRight": true, "Id": "ae489c2b-8602-4ab8-99f1-4718d1937d28", "Text": "Walk or cycle on short journeys", "ImageUrl": null }, { "QuestionId": "4589", "IsRight": true, "Id": "7ecf994c-b7b4-445f-ade7-996720fbcd3a", "Text": "Share a car when possible", "ImageUrl": null }, { "QuestionId": "4589", "IsRight": true, "Id": "30890432-be9b-41c8-8415-5c7e024e2c74", "Text": "Use public transport more often", "ImageUrl": null }, { "QuestionId": "4589", "IsRight": false, "Id": "96c3c54e-1460-408b-ab40-f64e1b3165df", "Text": "Use a car with a smaller engine", "ImageUrl": null }, { "QuestionId": "4589", "IsRight": false, "Id": "6cbcb1ca-82cd-42d9-b36c-cb97ef90ba92", "Text": "Travel by car at all times", "ImageUrl": null } ], "Id": "4589", "Text": " To reduce the volume of cars on the roads you could:", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.48", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4590", "IsRight": true, "Id": "28989b02-fe49-44ff-96c0-06514629834f", "Text": "When your vehicle has broken down and is causing an obstruction", "ImageUrl": null }, { "QuestionId": "4590", "IsRight": false, "Id": "d65dad06-5854-40eb-900d-308d1a709225", "Text": "When warning oncoming traffic that you intend to stop", "ImageUrl": null }, { "QuestionId": "4590", "IsRight": false, "Id": "22318e88-9d8f-428c-a949-b0f012898cc7", "Text": "When your direction indicators are not working", "ImageUrl": null }, { "QuestionId": "4590", "IsRight": false, "Id": "e28303be-8a9e-4b7e-b350-f86ec4ae4ed6", "Text": "When you are double parked on a two-way road", "ImageUrl": null }, { "QuestionId": "4590", "IsRight": true, "Id": "c9b2f3ca-1e1e-496c-91fa-92dca7d55a66", "Text": "When slowing down to warn other drivers behind of a hazard ahead", "ImageUrl": null } ], "Id": "4590", "Text": " For which TWO of these should you use hazard-warning lights?", "ImageUrl": null },
-      { "CategoryId": "c1e4d39b-5b41-48ca-bfa8-bacefc827575", "SubCategoryId": "CARS3.49", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4591", "IsRight": false, "Id": "172dfeff-e3ae-46a4-959a-90a534e26096", "Text": "Rear fog lights", "ImageUrl": null }, { "QuestionId": "4591", "IsRight": false, "Id": "5ad57337-daed-423c-bcd0-a5da72b493cb", "Text": "Front fog lights", "ImageUrl": null }, { "QuestionId": "4591", "IsRight": true, "Id": "405644d1-86c2-462c-b06a-acdd306ab83b", "Text": "Dipped headlights", "ImageUrl": null }, { "QuestionId": "4591", "IsRight": false, "Id": "32e65773-86d0-4727-8c76-3f90e8e955f5", "Text": "Headlights and fog lights", "ImageUrl": null } ], "Id": "4591", "Text": " If daytime visibility is poor but not seriously reduced  you should switch on:", "ImageUrl": null }
-    ],
-    "Id": "c1e4d39b-5b41-48ca-bfa8-bacefc827575",
-    "Text": "SAFETY AND YOUR VEHICLE",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4267", "IsRight": false, "Id": "66f35518-227a-4139-8d0e-2422da5dbedd", "Text": "96 metres (315 feet)", "ImageUrl": null }, { "QuestionId": "4267", "IsRight": false, "Id": "51b4d6e8-5491-42fd-90e4-7bbe6a4db11d", "Text": "53 metres (174 feet)", "ImageUrl": null }, { "QuestionId": "4267", "IsRight": false, "Id": "48f667df-1655-41f0-b039-442a18c53bea", "Text": "36 metres (118 feet)", "ImageUrl": null }, { "QuestionId": "4267", "IsRight": true, "Id": "c3456bd5-f9c7-4449-b3c2-a20502fd5c0f", "Text": "23 metres (75 feet)", "ImageUrl": null } ], "Id": "4267", "Text": " If you are on a good dry road surface and your vehicle has good brakes and tyres. What is the overall stopping distance at 48 kph?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4268", "IsRight": false, "Id": "b989ad4f-766e-48d1-95c7-6276dd5fdc46", "Text": "Corner safely", "ImageUrl": null }, { "QuestionId": "4268", "IsRight": true, "Id": "f9ecfb32-99e4-4dc8-a0c0-6031e77aa332", "Text": "Unstable", "ImageUrl": null }, { "QuestionId": "4268", "IsRight": false, "Id": "246fb92f-673d-437c-a02b-384f7b320b9e", "Text": "Stall", "ImageUrl": null }, { "QuestionId": "4268", "IsRight": false, "Id": "1b51b427-0e43-4a51-8870-6d0769480c99", "Text": "More stable", "ImageUrl": null } ], "Id": "4268", "Text": " Braking hard at a high speed on a sharp bend can make your vehicle:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.7", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4269", "IsRight": false, "Id": "4086c5fc-e461-465e-a744-e351bb9260e5", "Text": "Use side lights only", "ImageUrl": null }, { "QuestionId": "4269", "IsRight": true, "Id": "6ea6b2d8-cc73-4d71-ba81-d92eadbea05e", "Text": "Use dipped headlights", "ImageUrl": null }, { "QuestionId": "4269", "IsRight": false, "Id": "fce67598-f5c9-4892-91f1-299f712839eb", "Text": "Keep close to the car in front", "ImageUrl": null }, { "QuestionId": "4269", "IsRight": true, "Id": "10727579-a2d5-429b-9614-6a1a157e541a", "Text": "Slow down", "ImageUrl": null }, { "QuestionId": "4269", "IsRight": false, "Id": "f7ccbae2-19e9-45b4-be8e-64b26e421b58", "Text": "Use headlights on full beam", "ImageUrl": null }, { "QuestionId": "4269", "IsRight": true, "Id": "d9a5fb43-f380-473b-a0aa-a2b130eb65a3", "Text": "Allow more time for your journey", "ImageUrl": null } ], "Id": "4269", "Text": " When driving in fog  which of the following measures are correct?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4270", "IsRight": true, "Id": "0ba46bae-ad90-44c6-a5ec-38cdb268c805", "Text": "Keep a safe distance from the car in front", "ImageUrl": null }, { "QuestionId": "4270", "IsRight": false, "Id": "4cb1943e-5f07-4822-859f-694de9f3aad1", "Text": "Check your mirrors", "ImageUrl": null }, { "QuestionId": "4270", "IsRight": false, "Id": "e93cb425-ca90-4c6a-805f-679d6a861379", "Text": "Check your blind spot", "ImageUrl": null }, { "QuestionId": "4270", "IsRight": false, "Id": "a5ccafd6-a105-445f-8ac2-d1246ba43a6b", "Text": "Keep the correct distance from the kerb", "ImageUrl": null } ], "Id": "4270", "Text": " The 'two-second rule' allows you to:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4271", "IsRight": true, "Id": "655d72ef-ffb5-4b35-9989-77bfb9f32647", "Text": "In the rain", "ImageUrl": null }, { "QuestionId": "4271", "IsRight": false, "Id": "070de670-a964-4757-b71a-95d2be159fa6", "Text": "In strong winds", "ImageUrl": null }, { "QuestionId": "4271", "IsRight": false, "Id": "01a2e3ef-08f8-4875-98d4-b6946170b3aa", "Text": "At night", "ImageUrl": null }, { "QuestionId": "4271", "IsRight": false, "Id": "25866ba5-9914-4dbe-a976-d98adc47dac4", "Text": "In fog", "ImageUrl": null } ], "Id": "4271", "Text": " Your overall stopping distance will be longer when driving:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4272", "IsRight": false, "Id": "a526ff65-6507-42fa-9d19-e0a73afc43ed", "Text": "Brake firmly to reduce speed", "ImageUrl": null }, { "QuestionId": "4272", "IsRight": false, "Id": "31fa3558-ba78-4bf1-b7c6-19697e1b2359", "Text": "Apply gentle acceleration", "ImageUrl": null }, { "QuestionId": "4272", "IsRight": false, "Id": "49389c4e-2e4f-4475-8ac1-9a9ac68943d6", "Text": "Steer towards the side of the road", "ImageUrl": null }, { "QuestionId": "4272", "IsRight": true, "Id": "5c1f4f10-ac2a-46c2-8ca4-c0d7b7407f5a", "Text": "Ease off the accelerator", "ImageUrl": null } ], "Id": "4272", "Text": " You are driving in heavy rain. Your steering suddenly becomes very light. You should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4273", "IsRight": false, "Id": "cb523c92-1ef4-496e-9ba2-6775ab7e2236", "Text": "The road", "ImageUrl": null }, { "QuestionId": "4273", "IsRight": true, "Id": "c5fde3ee-3cb1-4b10-9136-50bd7fb94517", "Text": "The driver", "ImageUrl": null }, { "QuestionId": "4273", "IsRight": false, "Id": "bd9318c0-a852-4425-9efa-0a01bad27e3c", "Text": "The vehicle", "ImageUrl": null }, { "QuestionId": "4273", "IsRight": false, "Id": "c05fec27-b552-4d34-af10-21cdd4e65294", "Text": "The weather", "ImageUrl": null } ], "Id": "4273", "Text": " The MAIN cause of skidding is:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4274", "IsRight": false, "Id": "2dbdd0d1-00f5-4b8e-8c79-ea5b464a5bb8", "Text": "Be ready to move off quickly", "ImageUrl": null }, { "QuestionId": "4274", "IsRight": false, "Id": "f40b5580-7477-426b-b21e-43a0b3fedad7", "Text": "Creep forward  looking to the left", "ImageUrl": null }, { "QuestionId": "4274", "IsRight": false, "Id": "9fe91321-a540-4ea2-a2b5-9dcbc32e7a74", "Text": "Creep forward  looking to the right", "ImageUrl": null }, { "QuestionId": "4274", "IsRight": true, "Id": "cbdba9ac-0017-4bac-83ba-def3ea02b823", "Text": "Creep forward  looking both ways", "ImageUrl": null } ], "Id": "4274", "Text": " If you are at a junction with limited visibility  you should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.21", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4275", "IsRight": false, "Id": "2da635b8-84eb-450a-8de5-3811dfb986d5", "Text": "The windscreen", "ImageUrl": null }, { "QuestionId": "4275", "IsRight": true, "Id": "f60f72bf-1f22-4fb6-80e3-81881b29c00f", "Text": "The steering", "ImageUrl": null }, { "QuestionId": "4275", "IsRight": false, "Id": "6b79d3f1-f8f8-4127-96fc-3ee3579b439b", "Text": "The suspension", "ImageUrl": null }, { "QuestionId": "4275", "IsRight": true, "Id": "687e8713-651d-4ef1-a7b0-593789c8c1b8", "Text": "The braking", "ImageUrl": null } ], "Id": "4275", "Text": " In very hot weather the road surface can get soft. Which TWO of the following will be affected most?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4276", "IsRight": false, "Id": "b695bd4a-e7cb-4054-a5a6-71840bdd1bd6", "Text": "Turn as quickly as you can", "ImageUrl": null }, { "QuestionId": "4276", "IsRight": true, "Id": "667e16fb-c977-4f48-8e63-0d26a4d8cfa5", "Text": "Give an arm signal as well as using your indicator", "ImageUrl": null }, { "QuestionId": "4276", "IsRight": false, "Id": "e24d89cf-ae6b-4c47-814f-9381de740d8c", "Text": "Touch the brake several times to show the stop lamp(s)", "ImageUrl": null }, { "QuestionId": "4276", "IsRight": false, "Id": "5da26bb6-ff38-41d4-bcb0-eacb9e9ede84", "Text": "Use the indicator earlier", "ImageUrl": null } ], "Id": "4276", "Text": " Your indicators may be difficult to see in bright sunlight. What should you do?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4277", "IsRight": false, "Id": "3a0e2326-6e77-4d9d-8698-9ea7331cb3ba", "Text": "By selecting neutral gear", "ImageUrl": null }, { "QuestionId": "4277", "IsRight": false, "Id": "6d295d72-15f8-4c2f-9548-03d4eb38f3bb", "Text": "By changing to a higher gear", "ImageUrl": null }, { "QuestionId": "4277", "IsRight": false, "Id": "e5b2069f-c3eb-4db5-a3e5-1242cd3ece91", "Text": "By selecting reverse gear", "ImageUrl": null }, { "QuestionId": "4277", "IsRight": true, "Id": "9d850192-4bdf-4d48-9d39-a11ba3e19adc", "Text": "By changing to a lower gear", "ImageUrl": null } ], "Id": "4277", "Text": " How can you use the engine of your vehicle as a brake?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4278", "IsRight": false, "Id": "799b9583-87bc-4945-9a1d-24aa0378769f", "Text": "top and check both pavements", "ImageUrl": null }, { "QuestionId": "4278", "IsRight": false, "Id": "53b2e888-0162-48a4-8631-62b92309495c", "Text": "Wait for any pedestrians to cross", "ImageUrl": null }, { "QuestionId": "4278", "IsRight": true, "Id": "0ef5843c-86f9-48db-96aa-f073bdcd4483", "Text": "Slow your vehicle right down", "ImageUrl": null }, { "QuestionId": "4278", "IsRight": false, "Id": "c3f3c561-5d1b-4c90-9f69-9838a2419a66", "Text": "Move across to the left-hand side of the road", "ImageUrl": null } ], "Id": "4278", "Text": " You are driving in a built-up residential area. You are approaching road humps. You should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4279", "IsRight": false, "Id": "7a5319dc-2332-412d-b62d-7bd86b2e411b", "Text": "To be positioned safely if the vehicle skids", "ImageUrl": null }, { "QuestionId": "4279", "IsRight": false, "Id": "95eca7e7-5a0a-45cb-97cc-559529eb58c7", "Text": "To let faster traffic from behind overtake", "ImageUrl": null }, { "QuestionId": "4279", "IsRight": false, "Id": "65b78be8-e7f6-436c-bd7d-0d8c6bfe743d", "Text": "To overcome the effect of the road's slope", "ImageUrl": null }, { "QuestionId": "4279", "IsRight": true, "Id": "5dd311b0-8f77-4814-948d-fb489cb9a8cd", "Text": "To improve your view of the road", "ImageUrl": null } ], "Id": "4279", "Text": " When approaching a right-hand bend you should keep well to the left. Why is this?", "ImageUrl": "Source/img/4279.png" },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4280", "IsRight": false, "Id": "bf3ec8e8-bec0-4938-9fc2-a0921040d3ec", "Text": "Keep well to the right to make the bend less sharp", "ImageUrl": null }, { "QuestionId": "4280", "IsRight": true, "Id": "227cef88-1f59-42fd-b3a5-4965e9889e15", "Text": "Keep well to the left for a better view around the bend", "ImageUrl": null }, { "QuestionId": "4280", "IsRight": false, "Id": "ce700066-e40b-4160-a4eb-6c8bf556d040", "Text": "Keep well to the right to avoid anything in the gutter", "ImageUrl": null }, { "QuestionId": "4280", "IsRight": false, "Id": "a628b4e6-e5b6-4329-82db-8f77d82cf130", "Text": "Keep well to the left as it makes the bend faster", "ImageUrl": null } ], "Id": "4280", "Text": " You are approaching a right-hand bend. You should:", "ImageUrl": "Source/img/4280.png" },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.30", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4281", "IsRight": false, "Id": "2e10415a-a27e-486a-9954-5d1f4db85cd8", "Text": "Driving up a long hill", "ImageUrl": null }, { "QuestionId": "4281", "IsRight": false, "Id": "8cb8a19a-5003-407f-960e-4d49a1df24c8", "Text": "In a one-way street", "ImageUrl": null }, { "QuestionId": "4281", "IsRight": true, "Id": "9411fb16-2d17-464b-b36a-8a4e133e01b5", "Text": "The view ahead is blocked", "ImageUrl": null }, { "QuestionId": "4281", "IsRight": true, "Id": "3521c6a7-9286-459f-9e1a-450b1d51d0f9", "Text": "Approaching a junction", "ImageUrl": null }, { "QuestionId": "4281", "IsRight": true, "Id": "9edc6f10-35b9-4bc2-b3bd-315d41e18b02", "Text": "Intending to turn left shortly afterwards", "ImageUrl": null } ], "Id": "4281", "Text": " You should not overtake when:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4592", "IsRight": false, "Id": "624ff8a1-acb7-4428-8f64-5db446cf2183", "Text": "Apply the handbrake to reduce the stopping distance", "ImageUrl": null }, { "QuestionId": "4592", "IsRight": true, "Id": "f8f9e32f-0ec8-4897-a45c-e2efd67873a4", "Text": "Press the brake pedal rapidly and firmly until you have stopped", "ImageUrl": null }, { "QuestionId": "4592", "IsRight": false, "Id": "a5a29b8f-2aa6-4029-a8e2-6a73af02addd", "Text": "Keep pushing and releasing the foot brake quickly to prevent skidding", "ImageUrl": null }, { "QuestionId": "4592", "IsRight": false, "Id": "72a577a7-a2c3-411c-b237-3f44a11e293d", "Text": "Brake normally and avoid turning the steering wheel", "ImageUrl": null } ], "Id": "4592", "Text": " If your car is fitted with anti-lock brakes and you need to stop in an emergency. You should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4593", "IsRight": false, "Id": "6e9c2e92-7aa5-460c-ac60-599e34f972e9", "Text": "Driving on good road surfaces", "ImageUrl": null }, { "QuestionId": "4593", "IsRight": false, "Id": "b6f99833-3da8-4479-a656-9faa7315d524", "Text": "Breaking during normal driving", "ImageUrl": null }, { "QuestionId": "4593", "IsRight": true, "Id": "76c6af33-9c23-4e14-8da3-fb72ca0292a9", "Text": "Breaking in an emergency", "ImageUrl": null }, { "QuestionId": "4593", "IsRight": false, "Id": "ea9b916d-059a-4d96-bbd4-77a2ce45cfc3", "Text": "Driving down steep hills", "ImageUrl": null } ], "Id": "4593", "Text": " Anti-lock brakes reduce the chances of a skid occurring particularly when:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4594", "IsRight": false, "Id": "7b69cc5a-b4e4-45f6-8227-c84980e5fb4e", "Text": "Are not fitted with a handbrake", "ImageUrl": null }, { "QuestionId": "4594", "IsRight": true, "Id": "7ee61a1c-c24f-42e8-aa1c-a1efd397c54f", "Text": "Can be steered while you are braking", "ImageUrl": null }, { "QuestionId": "4594", "IsRight": false, "Id": "43e493f1-2489-4997-acb6-aab312c76be9", "Text": "Accelerate much faster", "ImageUrl": null }, { "QuestionId": "4594", "IsRight": false, "Id": "4e3282c4-c9e1-4e5f-aac9-aeb967e644f7", "Text": "Are impossible to skid", "ImageUrl": null } ], "Id": "4594", "Text": " Vehicles fitted with an anti-lock brake system:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.4", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4595", "IsRight": false, "Id": "0678bb57-a778-4bce-834d-322bb6a4090a", "Text": "Firm", "ImageUrl": null }, { "QuestionId": "4595", "IsRight": true, "Id": "d8027f32-4d99-49b7-bafd-5903c8893635", "Text": "Loose", "ImageUrl": null }, { "QuestionId": "4595", "IsRight": false, "Id": "223408ef-f629-4469-a890-1aeb2ed1fce3", "Text": "Good", "ImageUrl": null }, { "QuestionId": "4595", "IsRight": false, "Id": "e1db3d79-74fe-4987-8dd8-e7e4088b59ec", "Text": "Dry", "ImageUrl": null }, { "QuestionId": "4595", "IsRight": true, "Id": "9412fb6a-2732-422c-b4a1-7f72deec5e13", "Text": "Wet", "ImageUrl": null } ], "Id": "4595", "Text": " Anti-lock brakes may not work as effectively as you expect if the road surface is:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4596", "IsRight": false, "Id": "0f70544a-cbe3-473d-8324-7aff3565557f", "Text": "Pedestrians", "ImageUrl": null }, { "QuestionId": "4596", "IsRight": true, "Id": "df900d02-b123-40c4-9b77-26627aefad11", "Text": "Driver error", "ImageUrl": null }, { "QuestionId": "4596", "IsRight": false, "Id": "5a825b6b-4caf-4c7a-9b8c-bb67294bff81", "Text": "Other vehicles", "ImageUrl": null }, { "QuestionId": "4596", "IsRight": false, "Id": "464aa84a-29c4-4e12-a4f0-4594de9d6d99", "Text": "Worn tyres", "ImageUrl": null } ], "Id": "4596", "Text": " What is the MOSTcommon reason a car skids?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4597", "IsRight": true, "Id": "40ef7e2f-5c77-4764-80d9-565969b49859", "Text": "Front wheels", "ImageUrl": null }, { "QuestionId": "4597", "IsRight": false, "Id": "905c04c1-27aa-4e42-bdf9-2e1afe881341", "Text": "Right wheels", "ImageUrl": null }, { "QuestionId": "4597", "IsRight": false, "Id": "aba786b3-a855-4871-a079-f332bb7e41c3", "Text": "Left wheels", "ImageUrl": null }, { "QuestionId": "4597", "IsRight": false, "Id": "eb1fb4b8-fd00-47c0-ae83-53dd2adc7de4", "Text": "Rear wheels", "ImageUrl": null } ], "Id": "4597", "Text": " When braking hard in a straight line most of the weight of the vehicle will shift onto the:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4598", "IsRight": false, "Id": "ab448a17-b7ae-43f7-b4eb-e8745d38486c", "Text": "Switch on your windscreen wipers", "ImageUrl": null }, { "QuestionId": "4598", "IsRight": false, "Id": "ba6548ec-a017-46fd-898d-f4fbec4b61c5", "Text": "Stop and dry the brakes", "ImageUrl": null }, { "QuestionId": "4598", "IsRight": false, "Id": "79645107-adca-4093-bea1-c050baa21cb8", "Text": "Stop and check the tyres", "ImageUrl": null }, { "QuestionId": "4598", "IsRight": true, "Id": "916adaea-ac06-4c71-b252-6bd0df9be0ef", "Text": "Test your brakes", "ImageUrl": null } ], "Id": "4598", "Text": " You have driven your car through a flood. What is the first thing you should do?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4599", "IsRight": false, "Id": "e4c2e72f-86fc-4e95-9483-559e3229c86d", "Text": "Brake firmly and steer to the left", "ImageUrl": null }, { "QuestionId": "4599", "IsRight": false, "Id": "abf2556c-ce12-44d5-bde0-560e441eaf6d", "Text": "Steer carefully to the left", "ImageUrl": null }, { "QuestionId": "4599", "IsRight": false, "Id": "cf2717eb-2e84-4756-b26e-339d4e816b27", "Text": "Brake firmly and not turn the steering wheel", "ImageUrl": null }, { "QuestionId": "4599", "IsRight": true, "Id": "c01306e8-7511-4d4b-9ba1-951d6856e8c0", "Text": "Steer carefully to the right", "ImageUrl": null } ], "Id": "4599", "Text": " You are turning left on a slippery road. The back of your vehicle slides to the right. You should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4600", "IsRight": false, "Id": "8c0a1665-1e0e-4e2b-81ba-67b9e6b83e2d", "Text": "Gently use the accelerator", "ImageUrl": null }, { "QuestionId": "4600", "IsRight": false, "Id": "60f4d4b1-a390-47b4-b84e-e5085afe7151", "Text": "Push harder on the brake pedal", "ImageUrl": null }, { "QuestionId": "4600", "IsRight": false, "Id": "a6d155f2-4b37-46d1-98c8-090d27442800", "Text": "Quickly pull up the handbrake", "ImageUrl": null }, { "QuestionId": "4600", "IsRight": true, "Id": "8d1f5ac4-6b24-4825-a6ec-1ab8da11287d", "Text": "Release the footbrake fully", "ImageUrl": null } ], "Id": "4600", "Text": " Your vehicle does not have anti- lock brakes.  If you are braking on a wet road and your vehicle begins to skid. What is the FIRST thing you should do?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4601", "IsRight": false, "Id": "dccb9278-1f17-4204-aa4b-99110af69326", "Text": "Use more fuel", "ImageUrl": null }, { "QuestionId": "4601", "IsRight": false, "Id": "f1ea9240-fc04-4b32-9cd6-0cd4de5fc9ed", "Text": "Make steering easier", "ImageUrl": null }, { "QuestionId": "4601", "IsRight": true, "Id": "8620044f-041e-4299-b2a9-ab08d8eb2dfb", "Text": "Reduce the driver's control", "ImageUrl": null }, { "QuestionId": "4601", "IsRight": false, "Id": "e4eac7dd-924f-4826-a471-ce6ebaf93347", "Text": "Improve the driver's control", "ImageUrl": null } ], "Id": "4601", "Text": " Clutch Coasting will :", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4602", "IsRight": false, "Id": "7b1bbeb8-2c49-4c6d-8962-fdb7935332f1", "Text": "Select a low gear and avoid using the brakes", "ImageUrl": null }, { "QuestionId": "4602", "IsRight": false, "Id": "7d238f2a-d07e-4206-b4e0-3dedbb7365b0", "Text": "Select a high gear and use the brakes firmly", "ImageUrl": null }, { "QuestionId": "4602", "IsRight": false, "Id": "66a29691-ddd9-43bb-89d1-362135bce497", "Text": "Select a high gear and use the brakes carefully", "ImageUrl": null }, { "QuestionId": "4602", "IsRight": true, "Id": "e5080830-e20b-4b4a-8b7d-c3405384923e", "Text": "Select a low gear and use the brakes carefully", "ImageUrl": null } ], "Id": "4602", "Text": " You are about to go down a steep hill. To control the speed of your car you should:", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4603", "IsRight": false, "Id": "855dda33-987a-4930-875c-726c05cf096c", "Text": "Apply the parking brake gently", "ImageUrl": null }, { "QuestionId": "4603", "IsRight": false, "Id": "43917f9a-5420-4e1f-bb5a-0745a67d245a", "Text": "Grip the handbrake firmly", "ImageUrl": null }, { "QuestionId": "4603", "IsRight": false, "Id": "bfdb11a2-cd11-451a-b20b-860cb51882c7", "Text": "Select neutral", "ImageUrl": null }, { "QuestionId": "4603", "IsRight": true, "Id": "7f37f324-2a68-446c-a1a9-f2510a16ce23", "Text": "Select a lower gear", "ImageUrl": null } ], "Id": "4603", "Text": " You are on a long  downhill slope. What should you do to help control the speed of your car?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.26", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4604", "IsRight": true, "Id": "205d7894-d3ea-4ac7-a3c2-f65b0c0bc36b", "Text": "Turn the steering wheel towards the kerb", "ImageUrl": null }, { "QuestionId": "4604", "IsRight": false, "Id": "094be846-15cc-43f9-bbf0-c746db47038c", "Text": "Turn the steering wheel away from the kerb", "ImageUrl": null }, { "QuestionId": "4604", "IsRight": false, "Id": "9a01c5de-52bc-4dfa-890e-3832cf4e692a", "Text": "Park with two wheels on the kerb", "ImageUrl": null }, { "QuestionId": "4604", "IsRight": false, "Id": "b88b47f8-a623-4874-a790-8bc96ae6a42c", "Text": "Park close to the bumper of another car", "ImageUrl": null }, { "QuestionId": "4604", "IsRight": true, "Id": "7a70fcc2-d16a-43ab-8148-50a125a970c4", "Text": "Put the handbrake on firmly", "ImageUrl": null } ], "Id": "4604", "Text": " You wish to park facing DOWNHILL. Which TWO of the following should you do?", "ImageUrl": null },
-      { "CategoryId": "3b08202d-1be6-4c44-984d-f2261628e2c2", "SubCategoryId": "CARS4.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4605", "IsRight": false, "Id": "00fa4223-57b7-4797-afde-e60599063bd4", "Text": "When it is raining and just in case the roads are slippery.", "ImageUrl": null }, { "QuestionId": "4605", "IsRight": false, "Id": "6677adce-75f2-42f5-9ee4-24b646ff9437", "Text": "When the road is unlit by street lamps or they are not working.", "ImageUrl": null }, { "QuestionId": "4605", "IsRight": false, "Id": "35452345-3892-4c40-ac28-f36e6e2f3c99", "Text": "When going through tunnels.", "ImageUrl": null }, { "QuestionId": "4605", "IsRight": false, "Id": "629b3015-90f6-4af9-aaf2-8080df8ad8b3", "Text": "During any time of the day or night to make sure that other road users see me.", "ImageUrl": null }, { "QuestionId": "4605", "IsRight": true, "Id": "d83ef26e-2118-45ee-90de-c6ce8890394f", "Text": "When visibility is considerably reduced because of fog.", "ImageUrl": null } ], "Id": "4605", "Text": " When should you use front and rear fog lights?", "ImageUrl": null }
-    ],
-    "Id": "3b08202d-1be6-4c44-984d-f2261628e2c2",
-    "Text": "SAFETY MARGINS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4282", "IsRight": true, "Id": "e3b18fb0-54e1-403a-8c95-ad301202fddf", "Text": "All the time when driving", "ImageUrl": null }, { "QuestionId": "4282", "IsRight": false, "Id": "ccb4d890-4277-415a-808f-589715759a33", "Text": "Only in poor visibility", "ImageUrl": null }, { "QuestionId": "4282", "IsRight": false, "Id": "90a8d2e7-33fd-42bf-bf1b-69eade5d9cb0", "Text": "Only when reversing", "ImageUrl": null }, { "QuestionId": "4282", "IsRight": false, "Id": "2fa0a60c-bfab-4742-af38-0607734a91be", "Text": "Only when driving long distances", "ImageUrl": null } ], "Id": "4282", "Text": " A driver can only read a number plate at the required distance with glasses on. The glasses should be worn:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4283", "IsRight": false, "Id": "ad657dfe-38a3-4272-9cad-810173e44205", "Text": "Drive home at night", "ImageUrl": null }, { "QuestionId": "4283", "IsRight": false, "Id": "f197ed3c-7a43-4cae-a78a-55bf71a45d65", "Text": "Borrow a friend's glasses and drive home", "ImageUrl": null }, { "QuestionId": "4283", "IsRight": false, "Id": "11d6e97e-e53d-4c9a-824b-0653f2ad7a20", "Text": "Drive home slowly  keeping to quite roads", "ImageUrl": null }, { "QuestionId": "4283", "IsRight": true, "Id": "8a0ed9df-4200-40d7-856c-cf973a9c3e1b", "Text": "Find a way of getting home without driving", "ImageUrl": null } ], "Id": "4283", "Text": " You are about to drive home. You cannot find the glasses you need to wear when driving. You should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4284", "IsRight": false, "Id": "6e2e378e-96a2-47f2-bc69-c2665023d9b5", "Text": "There is an eyesight problem in your family", "ImageUrl": null }, { "QuestionId": "4284", "IsRight": false, "Id": "6244cf52-a032-4576-aaa8-ccd1cc8c6d39", "Text": "You cannot read a vehicle number plate from a distance of 36 meters (120 feet) without them", "ImageUrl": null }, { "QuestionId": "4284", "IsRight": false, "Id": "6b6d932b-8b58-4eb1-aae0-1df9c79ebfe2", "Text": "You are the holder of an orange badge", "ImageUrl": null }, { "QuestionId": "4284", "IsRight": true, "Id": "5c0a37b3-03fb-4928-90ff-ca71fc6babc6", "Text": "You cannot read a vehicle number plate from distance of 20.5 meters (67 feet) without them", "ImageUrl": null } ], "Id": "4284", "Text": " You MUST wear glasses or contact lenses when driving on public roads if:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.6", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4285", "IsRight": true, "Id": "0fbd8733-98c6-4c35-bb63-0ddfc1d39492", "Text": "Less control", "ImageUrl": null }, { "QuestionId": "4285", "IsRight": true, "Id": "c74d11f2-2df8-4ba2-83d5-345b56930f1b", "Text": "Poor judgment of speed", "ImageUrl": null }, { "QuestionId": "4285", "IsRight": false, "Id": "b651b8b2-3151-4d8c-b0f0-6cbb073eeff6", "Text": "Greater awareness of danger", "ImageUrl": null }, { "QuestionId": "4285", "IsRight": false, "Id": "7d72aaf4-113b-48cb-b011-244bb39242b6", "Text": "Faster reactions", "ImageUrl": null }, { "QuestionId": "4285", "IsRight": true, "Id": "38867a1f-fe8e-4642-bba9-e54428c53084", "Text": "A false sense of confidence", "ImageUrl": null } ], "Id": "4285", "Text": " Which THREE result from drinking alcohol and driving?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.7", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4286", "IsRight": true, "Id": "5e1deafd-1a46-4643-9d57-83af91c453e9", "Text": "Poor judgment", "ImageUrl": null }, { "QuestionId": "4286", "IsRight": true, "Id": "1b3a87af-c38e-4d84-a158-1527c3ba19ee", "Text": "Increased confidence", "ImageUrl": null }, { "QuestionId": "4286", "IsRight": false, "Id": "05fe2a11-60fe-4dc0-8954-259f9ec77f56", "Text": "Colour blindness", "ImageUrl": null }, { "QuestionId": "4286", "IsRight": false, "Id": "262c8c45-4b5d-4f72-9dfa-bfa7ff7b1eeb", "Text": "Faster reactions", "ImageUrl": null }, { "QuestionId": "4286", "IsRight": false, "Id": "6e7af4d3-43e3-49ec-88d6-2170cd43eec9", "Text": "Increase concentration", "ImageUrl": null }, { "QuestionId": "4286", "IsRight": true, "Id": "bf3cf986-4029-4c25-b9d3-a322539ddd9d", "Text": "Reduce co-ordination", "ImageUrl": null } ], "Id": "4286", "Text": " Which THREE of these are likely effects of drinking alcohol on driving?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.8", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4287", "IsRight": true, "Id": "3b5faa57-2e56-4cac-8f31-9e883776cd95", "Text": "Give a false sense of confidence", "ImageUrl": null }, { "QuestionId": "4287", "IsRight": false, "Id": "53062969-78fc-42ae-a322-7bc4c7a08634", "Text": "Improve your awareness of danger", "ImageUrl": null }, { "QuestionId": "4287", "IsRight": false, "Id": "8623739f-3815-408d-bb9b-2276e72fb74a", "Text": "Increase the speed of your reactions", "ImageUrl": null }, { "QuestionId": "4287", "IsRight": true, "Id": "9dea8004-dda7-4e21-a0e1-4d4af2042652", "Text": "Worsen your judgment of speed", "ImageUrl": null }, { "QuestionId": "4287", "IsRight": true, "Id": "557812ec-8eb6-4172-8a70-97f1438b5a25", "Text": "Slow down your reactions to hazards", "ImageUrl": null } ], "Id": "4287", "Text": " Drinking any amount of alcohol is likely to:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4288", "IsRight": false, "Id": "43ba976a-b178-43a3-89fe-aa84731b37d1", "Text": "Eat a hot meal with your alcohol drinks", "ImageUrl": null }, { "QuestionId": "4288", "IsRight": false, "Id": "8a20b2c8-c0a8-4b68-b802-814d47579778", "Text": "Have some milk before drinking alcohol", "ImageUrl": null }, { "QuestionId": "4288", "IsRight": false, "Id": "18c3c1c1-6864-49e0-aa1a-24df3d3333bf", "Text": "Avoid mixing your alcoholic drinks", "ImageUrl": null }, { "QuestionId": "4288", "IsRight": true, "Id": "1977f26a-a496-4c3a-b1f0-cc91315fabca", "Text": "Not drink any alcohol at all", "ImageUrl": null } ], "Id": "4288", "Text": " You are invited to a pub lunch. You know that you will have to drive in the evening. What is your best course of action?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.10", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4289", "IsRight": true, "Id": "6b656335-536a-4000-bbdd-661d810cc07a", "Text": "Loud music", "ImageUrl": null }, { "QuestionId": "4289", "IsRight": true, "Id": "447db889-c7e6-4ca3-aec3-ec916308e660", "Text": "Tiredness", "ImageUrl": null }, { "QuestionId": "4289", "IsRight": false, "Id": "a91cdac4-27a9-4c8a-a323-1c9e3544d346", "Text": "Contact lenses", "ImageUrl": null }, { "QuestionId": "4289", "IsRight": false, "Id": "f04fd88f-669e-4026-9e75-f34754e8385b", "Text": "Tinted windows", "ImageUrl": null }, { "QuestionId": "4289", "IsRight": true, "Id": "435d082b-29ec-4a0d-b5bf-2a6088f9a54c", "Text": "Drugs", "ImageUrl": null } ], "Id": "4289", "Text": " What else can seriously affect your concentration when driving  other than alcoholic drinks?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4290", "IsRight": false, "Id": "e8f155be-2aee-4823-9636-bf95040e8638", "Text": "It improves your co-ordination", "ImageUrl": null }, { "QuestionId": "4290", "IsRight": false, "Id": "82c208d6-0552-4075-8632-4dba16d42b9c", "Text": "It increases your awareness", "ImageUrl": null }, { "QuestionId": "4290", "IsRight": false, "Id": "c3afc59b-18a4-46c3-8f39-5ed5c4c1edad", "Text": "It speeds up your reactions", "ImageUrl": null }, { "QuestionId": "4290", "IsRight": true, "Id": "1ee7c42c-0387-4beb-bc3e-4a286e32f854", "Text": "It reduces your concentration", "ImageUrl": null } ], "Id": "4290", "Text": " How does alcohol affect your driving?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.12", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4291", "IsRight": true, "Id": "1ddaa8e0-396d-4944-9a8a-370f7abe43d2", "Text": "Your concentration may still be badly affected", "ImageUrl": null }, { "QuestionId": "4291", "IsRight": true, "Id": "afe2d6ee-d749-4f55-a8da-37c36ae37413", "Text": "You may still be over the legal limit", "ImageUrl": null }, { "QuestionId": "4291", "IsRight": false, "Id": "f6ca0a4f-d0b3-4d58-a4ef-fd3ae7a815c1", "Text": "You will be well under the legal limit", "ImageUrl": null }, { "QuestionId": "4291", "IsRight": false, "Id": "e087862c-6e3a-429d-bace-99e71db4ea4b", "Text": "Your concentration will not be badly affected", "ImageUrl": null } ], "Id": "4291", "Text": " After drinking alcohol heavily you should not drive the following day. Why is this?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4292", "IsRight": false, "Id": "77bc7bff-0f7a-4391-82f6-1269cab8fe52", "Text": "Wait a short while and then drive home", "ImageUrl": null }, { "QuestionId": "4292", "IsRight": false, "Id": "86352054-e6c3-4ea7-90c8-9d86445e8293", "Text": "Drive home carefully and slowly", "ImageUrl": null }, { "QuestionId": "4292", "IsRight": true, "Id": "bf8db6a2-f254-4c96-9dcc-36debe9a552f", "Text": "Go home by public transport", "ImageUrl": null }, { "QuestionId": "4292", "IsRight": false, "Id": "f17b2a44-32ad-400e-8f61-b6a8df5b5612", "Text": "Have a strong cup of coffee and then drive home", "ImageUrl": null } ], "Id": "4292", "Text": " What advice should you give to a driver who has had a few alcoholic drinks at a party?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4293", "IsRight": false, "Id": "a6a1370d-dbdf-4fea-8a35-0ca9bfab33c2", "Text": "Drink plenty of milk before drinking alcohol", "ImageUrl": null }, { "QuestionId": "4293", "IsRight": false, "Id": "8fbdff6f-33d4-4af0-b921-3459980edb0d", "Text": "Drink plenty of coffee after drinking alcohol", "ImageUrl": null }, { "QuestionId": "4293", "IsRight": true, "Id": "cc6d35a3-a3e9-49ea-9cd5-918e4efa7b23", "Text": "Avoid drinking alcohol completely", "ImageUrl": null }, { "QuestionId": "4293", "IsRight": false, "Id": "f473eb1c-c669-478a-a03e-033c8067f766", "Text": "Avoid drinking alcohol on an empty stomach", "ImageUrl": null } ], "Id": "4293", "Text": " You go to a social event and need to drive a short time after. What precautions should you take?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.15", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4294", "IsRight": false, "Id": "2d9ae213-9f7a-4e24-84fe-68c0682a5ba9", "Text": "You will have no alcohol in your system", "ImageUrl": null }, { "QuestionId": "4294", "IsRight": false, "Id": "70edcdd8-7462-4de8-9d12-ff33def49702", "Text": "You will certainly be under the legal limit", "ImageUrl": null }, { "QuestionId": "4294", "IsRight": true, "Id": "a988f217-bb87-4e72-bf14-c8e2fe8721f6", "Text": "You may still be unfit to drive", "ImageUrl": null }, { "QuestionId": "4294", "IsRight": true, "Id": "d5e536ee-357d-46bc-be2d-5b37f2b45acc", "Text": "You may still be over the legal limit", "ImageUrl": null } ], "Id": "4294", "Text": " It is eight hours since you last had an alcoholic drink. Which TWO of the following applies?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4295", "IsRight": false, "Id": "ab0a64ef-ffb8-4bec-a2cf-798585f2d6ca", "Text": "The medicine you take may affect your hearing", "ImageUrl": null }, { "QuestionId": "4295", "IsRight": false, "Id": "c57bc4eb-188e-4338-a2d3-b52eb4f93c4e", "Text": "You will have to let your insurance company know about the medicine", "ImageUrl": null }, { "QuestionId": "4295", "IsRight": true, "Id": "d4a11cba-4807-425c-b8ad-bb67c8bd98df", "Text": "Some types of medicine can cause your reactions to slow down", "ImageUrl": null }, { "QuestionId": "4295", "IsRight": false, "Id": "1729989a-0946-4d95-8793-27ba2cb9f031", "Text": "Drugs make you a better driver by quickening your reactions", "ImageUrl": null } ], "Id": "4295", "Text": " Your doctor has given you a course of medicine. Why should you ask if it is OK to drive?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4296", "IsRight": false, "Id": "4ebce325-4b51-4e85-8d0d-ff2bff0b9333", "Text": "If someone goes with you", "ImageUrl": null }, { "QuestionId": "4296", "IsRight": false, "Id": "b00218e2-48af-4d71-bc8e-d2e4f9252314", "Text": "At night on quiet roads", "ImageUrl": null }, { "QuestionId": "4296", "IsRight": false, "Id": "de638588-67c8-4213-be31-bc9cfb386652", "Text": "If driving is really necessary", "ImageUrl": null }, { "QuestionId": "4296", "IsRight": true, "Id": "ee8afc49-1e40-4c0e-994e-420445f2a83a", "Text": "After checking with your doctor", "ImageUrl": null } ], "Id": "4296", "Text": " You have been taking medicine for a few days  which made you feel drowsy. Today you feel better but still need to take the medicine. You\nshould only drive:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4297", "IsRight": false, "Id": "66c3cf68-3ad0-4d31-bf1b-2e8cc4a3dbc1", "Text": "Never drive at more than 30 kph", "ImageUrl": null }, { "QuestionId": "4297", "IsRight": false, "Id": "b8b75d50-4d17-4bb4-8521-9dcc61b07a3f", "Text": "Drive only if someone is with you", "ImageUrl": null }, { "QuestionId": "4297", "IsRight": true, "Id": "f1022b34-0e62-4d24-adf7-45890b32db28", "Text": "Not drive yourself", "ImageUrl": null }, { "QuestionId": "4297", "IsRight": false, "Id": "1685f3b9-b234-4486-991a-28257f1e8463", "Text": "Aviod busy roads", "ImageUrl": null } ], "Id": "4297", "Text": " You become ill. A doctor prescribes drugs  which are likely to affect your driving. You should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.19", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4298", "IsRight": false, "Id": "2834655a-0a3c-499e-a9d3-a8eeacdc1f3e", "Text": "Take all your medicines with you when you drive", "ImageUrl": null }, { "QuestionId": "4298", "IsRight": false, "Id": "50bca4f7-beac-449f-bb5e-4e2d8fe8e5e5", "Text": "Only take smaller doses of any medicines", "ImageUrl": null }, { "QuestionId": "4298", "IsRight": true, "Id": "0df74ce6-636a-4a57-b95b-435ed834a33f", "Text": "Not drive after taking certain medicines", "ImageUrl": null }, { "QuestionId": "4298", "IsRight": false, "Id": "74f52b68-8b6c-406e-9514-2d3c1127f51a", "Text": "See your doctor each time before you drive", "ImageUrl": null }, { "QuestionId": "4298", "IsRight": true, "Id": "b380580b-bfce-466c-91ef-e93cfea58022", "Text": "Be medically fit to drive", "ImageUrl": null } ], "Id": "4298", "Text": " During periods of illness your ability to drive may be impaired. You MUST:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4300", "IsRight": true, "Id": "7a68fa2f-f76a-46d5-93a1-4a4da4ef73e3", "Text": "Seek medical advice before driving", "ImageUrl": null }, { "QuestionId": "4300", "IsRight": false, "Id": "7598b1bb-5e68-4036-a7bb-ed89063638f7", "Text": "Drive only for short distances", "ImageUrl": null }, { "QuestionId": "4300", "IsRight": false, "Id": "b3df58b3-da1e-422b-ac64-95d59000dc5b", "Text": "Only drive if accompanied by a full licence-holder", "ImageUrl": null }, { "QuestionId": "4300", "IsRight": false, "Id": "2cdac043-93e5-4a1b-8609-65aeb305aa46", "Text": "Limit your driving to essential journeys", "ImageUrl": null } ], "Id": "4300", "Text": " You are taking drugs that are likely to affect your driving. What should you do?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4301", "IsRight": false, "Id": "12d67b27-d066-471b-8f1f-9637e0b88f0f", "Text": "Keep changing speed to improve concentration", "ImageUrl": null }, { "QuestionId": "4301", "IsRight": false, "Id": "0855de9d-4f1a-449b-9e7a-e43de338b592", "Text": "Gently tap the steering wheel", "ImageUrl": null }, { "QuestionId": "4301", "IsRight": false, "Id": "dda3656b-f0f3-4f34-b356-35a7285d542d", "Text": "Increase your speed to find a stopping place quickly", "ImageUrl": null }, { "QuestionId": "4301", "IsRight": true, "Id": "51dae57c-467d-4f77-a330-00ba46246354", "Text": "Ensure a supply of fresh air", "ImageUrl": null } ], "Id": "4301", "Text": " If you are feeling tired it is best to stop as soon as you can. Until then you should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4302", "IsRight": false, "Id": "b6412626-5c8b-4d7f-b7e6-dca2992423d8", "Text": "In rain", "ImageUrl": null }, { "QuestionId": "4302", "IsRight": false, "Id": "ec1977e4-d449-409b-ac3d-507cc4af14c7", "Text": "Too quickly", "ImageUrl": null }, { "QuestionId": "4302", "IsRight": false, "Id": "8bd1adcd-667a-47f2-9f68-e53556469968", "Text": "In fog", "ImageUrl": null }, { "QuestionId": "4302", "IsRight": true, "Id": "9255c7dc-f9fd-4b2f-87bd-9575a9172a0a", "Text": "If tired", "ImageUrl": null } ], "Id": "4302", "Text": " Your reaction will be much slower when driving:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.24", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4303", "IsRight": true, "Id": "b48958f7-0619-4250-bf93-ab0dfd747c57", "Text": "Using a mobile phone", "ImageUrl": null }, { "QuestionId": "4303", "IsRight": false, "Id": "4aa633ca-948c-4258-89dd-1b571d96f67c", "Text": "Looking in your wing mirror", "ImageUrl": null }, { "QuestionId": "4303", "IsRight": false, "Id": "d7add44c-dd3d-464c-ac06-fc95d366c803", "Text": "Using your windscreen washers", "ImageUrl": null }, { "QuestionId": "4303", "IsRight": true, "Id": "cad3dad3-511c-481b-a6c6-615804f01091", "Text": "Listening to loud music", "ImageUrl": null }, { "QuestionId": "4303", "IsRight": true, "Id": "73d5e627-af17-4cf5-b847-2ac3e82fda4b", "Text": "Looking at road maps", "ImageUrl": null } ], "Id": "4303", "Text": " Which THREE are likely to make you lose concentration while driving?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4304", "IsRight": true, "Id": "1a40b567-6cc9-4d63-83d0-31fcac600cd8", "Text": "Ignore the error and stay calm", "ImageUrl": null }, { "QuestionId": "4304", "IsRight": false, "Id": "578b1ee1-9d76-43ac-b705-4dc62485168f", "Text": "Overtake as soon as possible", "ImageUrl": null }, { "QuestionId": "4304", "IsRight": false, "Id": "7ab822b2-d5fd-4ead-b739-44e002d2967d", "Text": "Sound your horn to show your annoyance", "ImageUrl": null }, { "QuestionId": "4304", "IsRight": false, "Id": "3355c8c7-f238-4e23-b86c-2bdea963c88f", "Text": "Flash your lights to show your annoyance", "ImageUrl": null } ], "Id": "4304", "Text": " A driver pulls out of a side road in front of you. You have to brake hard. You should", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4305", "IsRight": true, "Id": "266cecf6-14de-42cf-b0c5-55b51c9af782", "Text": "Keep calm and not retaliate", "ImageUrl": null }, { "QuestionId": "4305", "IsRight": false, "Id": "231e4e36-d0f5-485c-abde-b8f9ebb8834e", "Text": "Flag the driver down and explain the mistake", "ImageUrl": null }, { "QuestionId": "4305", "IsRight": false, "Id": "de026c94-55d5-453d-907c-08ba9309314d", "Text": "Drive close behind and sound your horn", "ImageUrl": null }, { "QuestionId": "4305", "IsRight": false, "Id": "2ed5ef63-19ae-440e-900b-dbbb79d004d8", "Text": "Overtake and sound your horn", "ImageUrl": null } ], "Id": "4305", "Text": " A car driver pulls out causing you to brake. You should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4306", "IsRight": false, "Id": "6464ba7e-49c2-449d-8546-5904c554af8b", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4306", "IsRight": false, "Id": "b18d35fe-2a0b-4852-b4de-2115feae1367", "Text": "Flash your headlights several times", "ImageUrl": null }, { "QuestionId": "4306", "IsRight": false, "Id": "1d0713bc-a798-42e4-93ab-0f09c0cb3ec6", "Text": "Let them know how you feel", "ImageUrl": null }, { "QuestionId": "4306", "IsRight": true, "Id": "61b89297-950b-4b8c-a932-247764785f63", "Text": "Try not to react", "ImageUrl": null } ], "Id": "4306", "Text": " Another driver does something that upsets you. You should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4307", "IsRight": false, "Id": "54aa979c-a70d-4f66-97fb-33519bc9bed2", "Text": "Give signals correctly", "ImageUrl": null }, { "QuestionId": "4307", "IsRight": false, "Id": "4b3f7c37-1e3a-4f96-8e11-9f7f231d73c9", "Text": "Understand road signs", "ImageUrl": null }, { "QuestionId": "4307", "IsRight": true, "Id": "3f8567e3-e286-46a8-94a2-5997570102ed", "Text": "React very quickly", "ImageUrl": null }, { "QuestionId": "4307", "IsRight": false, "Id": "653f9c90-284f-4672-b20e-bae84f35bc00", "Text": "Obtain car insurance", "ImageUrl": null } ], "Id": "4307", "Text": " An elderly person's driving ability could be affected because they may be unable to:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.30", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4308", "IsRight": false, "Id": "c22de7ce-8983-45d1-8248-ab8c82c55a38", "Text": "Turn around and drive against the one-way", "ImageUrl": null }, { "QuestionId": "4308", "IsRight": false, "Id": "7e8a22cd-2cae-4cb6-b651-7ed0b3c8d294", "Text": "Reverse out of the road", "ImageUrl": null }, { "QuestionId": "4308", "IsRight": true, "Id": "3629a354-f02b-4380-8ab9-7ec45c0cea86", "Text": "Continue to the end of the one-way street", "ImageUrl": null }, { "QuestionId": "4308", "IsRight": false, "Id": "910a13df-8ba0-4157-b974-6ecd66dcf9b8", "Text": "Reverse into a driveway", "ImageUrl": null } ], "Id": "4308", "Text": " You take the wrong route and find you are well into a one-way street. You should:", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4309", "IsRight": false, "Id": "96a0545d-4465-4cae-8e66-d7e395e78279", "Text": "Breath alcohol level of 20 mg/100ml or blood alcohol level of 60mm/100ml.", "ImageUrl": null }, { "QuestionId": "4309", "IsRight": true, "Id": "cec28c3e-54fa-4961-9d15-149e9392ad75", "Text": "Breath alcohol level of 35 mg/100ml or blood alcohol level of 80mg/100ml.", "ImageUrl": null }, { "QuestionId": "4309", "IsRight": false, "Id": "2fb55476-e157-44b5-86e6-d0417329aeef", "Text": "Breath alcohol level of 45 mg/100ml or blood alcohol level of 90mm/100ml.", "ImageUrl": null }, { "QuestionId": "4309", "IsRight": false, "Id": "fd6a5ac5-1976-461b-84d8-66a701ebd458", "Text": "Breath alcohol level of 25 mg/100ml or blood alcohol level of 70mg/100ml.", "ImageUrl": null } ], "Id": "4309", "Text": " What is the maximum permissible alcohol level above which  a driver must not drive?", "ImageUrl": null },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4549", "IsRight": false, "Id": "cc42db57-42d4-438d-97a5-8aecb265a167", "Text": "Bend sharply to the right", "ImageUrl": null }, { "QuestionId": "4549", "IsRight": false, "Id": "d70d365b-74c1-4a8b-aed7-445a1cd4c1e8", "Text": "Go steeply downhill", "ImageUrl": null }, { "QuestionId": "4549", "IsRight": true, "Id": "9243939f-6fbf-417e-bfaa-df5c2cac3095", "Text": "Bend sharply to the left", "ImageUrl": null }, { "QuestionId": "4549", "IsRight": false, "Id": "a2cf8669-6dc1-429e-9fad-23f50ada4736", "Text": "Steep hill upwards", "ImageUrl": null } ], "Id": "4549", "Text": " You see this sign ahead. You should expect the road to:", "ImageUrl": "Source/img/4549.png" },
-      { "CategoryId": "95bf1047-203b-4c44-a2c5-1f343b25d94b", "SubCategoryId": "CARS5.25", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4606", "IsRight": false, "Id": "d113ae41-d8d2-4572-a2b7-0dcfa50da4f6", "Text": "Rest your hand on the gear lever", "ImageUrl": null }, { "QuestionId": "4606", "IsRight": true, "Id": "261dda6f-0b0f-4c13-a898-c52a823874c4", "Text": "Have a suitable grip on the steering wheel", "ImageUrl": null }, { "QuestionId": "4606", "IsRight": false, "Id": "4fa84c1b-d5be-4412-b6cf-159459c198c6", "Text": "Talk to all your passengers", "ImageUrl": null }, { "QuestionId": "4606", "IsRight": true, "Id": "676f706d-ba99-488b-9e3f-83bcd70f25d1", "Text": "Have good visibility through the windows", "ImageUrl": null }, { "QuestionId": "4606", "IsRight": true, "Id": "5f2da4b5-cd65-45e7-8f6e-56c7d62f6b2e", "Text": "Comfortably reach the pedals", "ImageUrl": null }, { "QuestionId": "4606", "IsRight": false, "Id": "5d8435e5-cf6f-4e4b-bb36-51eb8cd7f632", "Text": "Rest your head against the head restraint", "ImageUrl": null } ], "Id": "4606", "Text": " A correct seating position will enable you to:", "ImageUrl": null }
-    ],
-    "Id": "95bf1047-203b-4c44-a2c5-1f343b25d94b",
-    "Text": "HAZARD AWARENESS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4310", "IsRight": false, "Id": "a86d25c7-7b6b-4f3e-abbe-82443d322f12", "Text": "Horse riders", "ImageUrl": null }, { "QuestionId": "4310", "IsRight": false, "Id": "d41c0e74-565e-41ac-b2c4-bfac632dbd93", "Text": "Bicycles", "ImageUrl": null }, { "QuestionId": "4310", "IsRight": true, "Id": "619cc84e-50e2-478a-87eb-200d79c678b5", "Text": "Pedestrians", "ImageUrl": null }, { "QuestionId": "4310", "IsRight": false, "Id": "4d9c7957-e0b5-476b-a0a5-6e40051031c3", "Text": "Motorcycles", "ImageUrl": null } ], "Id": "4310", "Text": " You are driving on a quiet country road. What should you expect to see coming towards you on YOUR side of the road?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4311", "IsRight": false, "Id": "15dc64bc-7f4c-44d2-98f0-af3c98a2a7b8", "Text": null, "ImageUrl": "Source/img/4311.1.png" }, { "QuestionId": "4311", "IsRight": false, "Id": "48ee2d0e-02bf-4b6b-aeab-92c34c2a5710", "Text": null, "ImageUrl": "Source/img/4311.2.png" }, { "QuestionId": "4311", "IsRight": false, "Id": "88af9a86-3f91-45dd-bffe-64ef8eb2304f", "Text": null, "ImageUrl": "Source/img/4311.3.png" }, { "QuestionId": "4311", "IsRight": true, "Id": "51487a38-590d-44af-9c7e-48323e76db09", "Text": null, "ImageUrl": "Source/img/4311.4.png" } ], "Id": "4311", "Text": " Which sign means that there may be people walking along the road?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4312", "IsRight": false, "Id": "97265fb5-1227-4045-acd9-1ed875ce5f25", "Text": "Switch on your hazard lights", "ImageUrl": null }, { "QuestionId": "4312", "IsRight": false, "Id": "8a51c3c5-154e-4362-8c0c-557f3e9c9582", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4312", "IsRight": false, "Id": "e31ac134-5ffb-485c-8b0c-175285e78354", "Text": "Wave them on", "ImageUrl": null }, { "QuestionId": "4312", "IsRight": true, "Id": "addaa3b3-9089-48f4-969e-6c90f6597c14", "Text": "Wait for them to cross", "ImageUrl": null } ], "Id": "4312", "Text": " You are turning left into a side road and find pedestrians that are crossing. You must:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4313", "IsRight": false, "Id": "a7002ba6-611a-40ad-99a2-4c72eea24921", "Text": "Blow your horn and proceed", "ImageUrl": null }, { "QuestionId": "4313", "IsRight": false, "Id": "4f7fa885-c83d-47fd-8122-752ace278fbe", "Text": "Stop and wave at them to cross", "ImageUrl": null }, { "QuestionId": "4313", "IsRight": false, "Id": "e91eb749-ed51-4ea4-9525-925819a57452", "Text": "Go on giving them plenty of room", "ImageUrl": null }, { "QuestionId": "4313", "IsRight": true, "Id": "42f60e9e-d94b-4d49-bba6-1038cbfe6e7f", "Text": "Give way to them", "ImageUrl": null } ], "Id": "4313", "Text": " You are turning left at a junction. Pedestrians have suddenly started to cross the road. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4314", "IsRight": false, "Id": "620cf40b-9db8-4fda-a626-d3bab9934e85", "Text": "Stop  get out and look along the main road to check", "ImageUrl": null }, { "QuestionId": "4314", "IsRight": false, "Id": "63c0cde6-1c53-4491-ab7a-d3dc360032e6", "Text": "Sound your horn and pull out if there is no reply", "ImageUrl": null }, { "QuestionId": "4314", "IsRight": false, "Id": "dbc870f8-d31f-42e6-80d7-53bdf0e23004", "Text": "Move out quickly  but be prepared to stop", "ImageUrl": null }, { "QuestionId": "4314", "IsRight": true, "Id": "c0c3d849-f0f5-45ee-97e7-bb146eca58ec", "Text": "Stop  then move slowly forward until you have a clear view", "ImageUrl": null } ], "Id": "4314", "Text": " You want to emerge from a junction but your view is partly restricted by parked vehicles. What should you do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4315", "IsRight": false, "Id": "8980de12-8bed-4277-98b2-97844b593b46", "Text": "To check for emerging traffic", "ImageUrl": null }, { "QuestionId": "4315", "IsRight": true, "Id": "cdb90c4e-4290-44f8-ae93-3b8b0b35f5a0", "Text": "To check for overtaking vehicles", "ImageUrl": null }, { "QuestionId": "4315", "IsRight": false, "Id": "3a59bdba-00d8-43b1-8bf1-755f181f1b27", "Text": "To make sure the side road is clear", "ImageUrl": null }, { "QuestionId": "4315", "IsRight": false, "Id": "8548fe35-8f74-4fd4-a61f-add53c734589", "Text": "To look for pedestrians about to cross", "ImageUrl": null } ], "Id": "4315", "Text": " You are at the front of a queue of traffic waiting to turn right into a side road. Why is it important to check your right mirror just before\nturning?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4316", "IsRight": false, "Id": "c37b7f61-596f-411e-8083-2cc06fb42a0a", "Text": "Move off", "ImageUrl": null }, { "QuestionId": "4316", "IsRight": false, "Id": "aef3ad62-d7b2-4e43-bdbb-7207b3832b62", "Text": "Always wait for the green light before proceeding", "ImageUrl": null }, { "QuestionId": "4316", "IsRight": true, "Id": "69080c1f-5906-42f9-ac4b-03ed1304c453", "Text": "Give way to any pedestrians on the crossing", "ImageUrl": null }, { "QuestionId": "4316", "IsRight": false, "Id": "5f73f436-fc7f-4467-8f82-628b010b49a6", "Text": "Signal the pedestrian to cross", "ImageUrl": null } ], "Id": "4316", "Text": " What should a driver do at a pelican crossing when the red and amber lights are on?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.14", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4317", "IsRight": false, "Id": "8d794f9d-44cc-4de8-ae5c-fea1e5ff82ec", "Text": "Drive in front of the person", "ImageUrl": null }, { "QuestionId": "4317", "IsRight": false, "Id": "9fad2ef0-4131-4114-aec8-5562fc057c24", "Text": "Edge forward slowly", "ImageUrl": null }, { "QuestionId": "4317", "IsRight": true, "Id": "3ad669d0-3ae4-4d86-b537-03b92fbe0506", "Text": "Allow the person to cross", "ImageUrl": null }, { "QuestionId": "4317", "IsRight": false, "Id": "a11a7d0a-e8f7-4f01-911f-39193a25b77b", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4317", "IsRight": true, "Id": "7b0bf8cb-574a-4ad7-bd3b-65cee34e0639", "Text": "Be patient", "ImageUrl": null }, { "QuestionId": "4317", "IsRight": false, "Id": "2ea51149-af41-4afb-83dc-e26cce4b674f", "Text": "Drive behind the person", "ImageUrl": null } ], "Id": "4317", "Text": " You have stopped at a pelican crossing. A disabled person is crossing slowly in front of you.The lights have now changed to green.\nYou should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4318", "IsRight": false, "Id": "1763faa8-8486-4470-877f-864799ea42ba", "Text": "Flash your lights in case they have not heard you", "ImageUrl": null }, { "QuestionId": "4318", "IsRight": false, "Id": "eb2505c8-2d71-4ad0-9446-a2a0bf65cd7e", "Text": "Rev your engine to make them hurry", "ImageUrl": null }, { "QuestionId": "4318", "IsRight": false, "Id": "7ca6ccb8-f760-439c-a0d6-7f2547773f2e", "Text": "Wave them to cross as quickly as they can", "ImageUrl": null }, { "QuestionId": "4318", "IsRight": true, "Id": "60aed91b-4f84-4fbe-945d-391500dc2c9a", "Text": "Wait because they will take longer to cross", "ImageUrl": null } ], "Id": "4318", "Text": " As you approach a pelican crossing the lights change to green but elderly people are halfway across. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4319", "IsRight": false, "Id": "748a0c52-96ce-4a26-b393-44c3d9b80fe2", "Text": "The car on the left may move off", "ImageUrl": null }, { "QuestionId": "4319", "IsRight": false, "Id": "f854980c-1ae3-418a-b152-b1832d38a239", "Text": "The driver of the ice cream van may get out", "ImageUrl": null }, { "QuestionId": "4319", "IsRight": false, "Id": "c2d253ec-0f56-48a8-b44f-0b05d86df129", "Text": "The ice cream van may move off", "ImageUrl": null }, { "QuestionId": "4319", "IsRight": true, "Id": "a49f0233-913a-4967-be8f-70eca1059b5b", "Text": "The child may run out into the road", "ImageUrl": null } ], "Id": "4319", "Text": " Look at this picture. What is the danger you should be most aware of?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4320", "IsRight": false, "Id": "3b9a3f79-e3ce-4adc-94e7-c06b1cc69217", "Text": "Brake sharply and flash your headlights", "ImageUrl": null }, { "QuestionId": "4320", "IsRight": false, "Id": "294b1260-a4cd-48fd-a196-2b4dbe9412c0", "Text": "Slow down and wave the cyclist across", "ImageUrl": null }, { "QuestionId": "4320", "IsRight": false, "Id": "c4bb75e1-683d-4dc4-b68f-ac9b67e67df0", "Text": "Accelerate past quickly and sound your horn", "ImageUrl": null }, { "QuestionId": "4320", "IsRight": true, "Id": "5f6db973-9f5e-4ba1-b460-4b662539d067", "Text": "Slow down and be prepared to stop for a cyclist", "ImageUrl": null } ], "Id": "4320", "Text": " You are driving past parked cars. You notice a wheel of a bicycle sticking out between them. What should you do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4321", "IsRight": false, "Id": "a534562c-1d24-47ad-adca-0b355f75a2b7", "Text": "Stop and wave the children across to fetch their ball", "ImageUrl": null }, { "QuestionId": "4321", "IsRight": false, "Id": "a961fe9e-bc09-4a6c-ac65-9ad658a41b1a", "Text": "Continue driving at the same speed and flash your headlights", "ImageUrl": null }, { "QuestionId": "4321", "IsRight": true, "Id": "9b791050-2b92-4d52-acf4-96b63b191514", "Text": "Slow down and be prepared to stop for children", "ImageUrl": null }, { "QuestionId": "4321", "IsRight": false, "Id": "f279b09e-a696-42f1-b5b3-01804f52e166", "Text": "Continue driving at the same speed and sound your horn", "ImageUrl": null } ], "Id": "4321", "Text": " You are driving past a lane of parked cars and you notice a ball bouncing out into the road ahead. What should you do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4322", "IsRight": false, "Id": "b97948fa-36b2-47d3-aa4e-c7175d2a0aef", "Text": "Stay close behind and drive carefully", "ImageUrl": null }, { "QuestionId": "4322", "IsRight": false, "Id": "9853a8fa-1e47-4909-9692-dd82299597b2", "Text": "Flash your lights and overtake", "ImageUrl": null }, { "QuestionId": "4322", "IsRight": true, "Id": "87ad49b5-4568-4682-8fc2-291324d9deb2", "Text": "Be aware that the driver's reactions may not be as fast as yours", "ImageUrl": null }, { "QuestionId": "4322", "IsRight": false, "Id": "ed6ea160-5a16-4ab7-95a5-2bb67080ceae", "Text": "Expect the driver to drive badly", "ImageUrl": null } ], "Id": "4322", "Text": " If you are following a car driven by an elderly driver  you should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4323", "IsRight": true, "Id": "d0d67d8c-aff8-4f4e-b7e1-bd5872bb8013", "Text": null, "ImageUrl": "Source/img/4323.1.png" }, { "QuestionId": "4323", "IsRight": false, "Id": "f527ad04-02ed-4017-b59e-d47533affb86", "Text": null, "ImageUrl": "Source/img/4323.2.png" }, { "QuestionId": "4323", "IsRight": false, "Id": "a5bfc4b3-a385-484a-9264-278079652109", "Text": null, "ImageUrl": "Source/img/4323.3.png" }, { "QuestionId": "4323", "IsRight": false, "Id": "d6de3208-bfb5-4138-9a65-62f45ee9f13d", "Text": null, "ImageUrl": "Source/img/4323.4.png" } ], "Id": "4323", "Text": " Which sign tells you that pedestrians may be walking in the road  as there is no pavement?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4324", "IsRight": true, "Id": "d6a9a51c-f2e6-4b7d-8eb5-015d11a139ed", "Text": null, "ImageUrl": "Source/img/4324.1.png" }, { "QuestionId": "4324", "IsRight": false, "Id": "2d2e5138-a08c-4bb3-bd61-32511df1eb2c", "Text": null, "ImageUrl": "Source/img/4324.2.png" }, { "QuestionId": "4324", "IsRight": false, "Id": "e5e2e475-a2a0-4ecc-a318-19c89bc71282", "Text": null, "ImageUrl": "Source/img/4324.3.png" }, { "QuestionId": "4324", "IsRight": false, "Id": "86118f43-2783-4cbe-9ef5-7da7ffe1ca7b", "Text": null, "ImageUrl": "Source/img/4324.4.png" } ], "Id": "4324", "Text": " Which sign means there maybe elderly pedestrians likely to cross the road?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4325", "IsRight": false, "Id": "d70a1695-f140-49a2-b7a1-d8971fc05dab", "Text": "Elderly", "ImageUrl": null }, { "QuestionId": "4325", "IsRight": false, "Id": "d33aa3cb-d323-4552-9eda-718b6d0b8bdb", "Text": "Deaf", "ImageUrl": null }, { "QuestionId": "4325", "IsRight": false, "Id": "94bcd03c-7fd4-48da-9da7-86381f2ff5a2", "Text": "Disabled", "ImageUrl": null }, { "QuestionId": "4325", "IsRight": true, "Id": "70178320-382c-4002-8839-881f2d47c67b", "Text": "Blind", "ImageUrl": null } ], "Id": "4325", "Text": " If you see a pedestrian carrying a white stick, this shows that the person is:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4326", "IsRight": false, "Id": "8886a0f6-d350-4a4b-8ffb-c5eb5029e095", "Text": "Wave to the person to wait", "ImageUrl": null }, { "QuestionId": "4326", "IsRight": false, "Id": "f90f711d-6e83-4b12-a1a6-7f07959b4abb", "Text": "Wave to the person to cross", "ImageUrl": null }, { "QuestionId": "4326", "IsRight": false, "Id": "ca631421-7db3-4dc6-8522-129cac23c783", "Text": "Continue on your way", "ImageUrl": null }, { "QuestionId": "4326", "IsRight": true, "Id": "6feba90b-6382-4863-b87d-ba8e692b4b90", "Text": "Be prepared to stop", "ImageUrl": null } ], "Id": "4326", "Text": " You are driving towards a pedestrian (zebra) crossing. Waiting to cross is a person in a wheelchair. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4327", "IsRight": false, "Id": "45c0ce93-b6e2-4aa8-9200-84c998fe5c2f", "Text": "Tap the horn in case they are hard of hearing", "ImageUrl": null }, { "QuestionId": "4327", "IsRight": true, "Id": "7d6540b6-f918-4008-a72e-1601799da63a", "Text": "Be patient and allow them to cross in their own time", "ImageUrl": null }, { "QuestionId": "4327", "IsRight": false, "Id": "f7305bc2-f8c6-4dcc-a693-0def65f7c237", "Text": "Rev the engine to let them know that you are waiting", "ImageUrl": null }, { "QuestionId": "4327", "IsRight": false, "Id": "1ec06d6a-ab4d-4239-8642-548d59c909ea", "Text": "Wave them across so they know that you have seen them", "ImageUrl": null } ], "Id": "4327", "Text": " What action should you take when elderly people are crossing the road?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4328", "IsRight": true, "Id": "f6c089d5-4be7-46e1-ae01-930803f5b8be", "Text": "Just before you turn left", "ImageUrl": null }, { "QuestionId": "4328", "IsRight": false, "Id": "4c18b9ca-c8ed-4944-8447-aaf65751090d", "Text": "On a dual carriageway", "ImageUrl": null }, { "QuestionId": "4328", "IsRight": false, "Id": "242bc481-982d-4055-8239-d14f1aa0c3c5", "Text": "On a one-way street", "ImageUrl": null }, { "QuestionId": "4328", "IsRight": false, "Id": "48e83f53-0bab-476e-b7db-b2c07a2b4a0b", "Text": "Just before you turn right", "ImageUrl": null } ], "Id": "4328", "Text": " You should NEVER attempt to overtake a cyclist:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4329", "IsRight": false, "Id": "0d108ab9-d1cf-4488-8294-3709ba910f15", "Text": "Go around the cyclist on the junction", "ImageUrl": null }, { "QuestionId": "4329", "IsRight": false, "Id": "96f14590-6a5c-425d-b684-87ed32a27bdd", "Text": "Pull alongside the cyclist and stay level until after the junction", "ImageUrl": null }, { "QuestionId": "4329", "IsRight": true, "Id": "36744160-c03b-4ab9-a135-6b46e3b180e4", "Text": "Hold back until the cyclist has passed the junction", "ImageUrl": null }, { "QuestionId": "4329", "IsRight": false, "Id": "98e049eb-c5f3-4dd4-ae4e-72656ba0b247", "Text": "Overtake the cyclist before the junction", "ImageUrl": null } ], "Id": "4329", "Text": " If you are driving behind a cyclist and you wish to turn left just ahead. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4330", "IsRight": false, "Id": "aa953cd4-8c55-4ac4-907b-99ef4cb23ff9", "Text": "Signal the cyclist to move across", "ImageUrl": null }, { "QuestionId": "4330", "IsRight": false, "Id": "4ec1b89a-b87b-46c4-bbc3-53913cf54b23", "Text": "Give a horn warning", "ImageUrl": null }, { "QuestionId": "4330", "IsRight": false, "Id": "f11adf76-06a8-4c97-96a9-33d4d2ad6ef3", "Text": "Overtake on the right", "ImageUrl": null }, { "QuestionId": "4330", "IsRight": true, "Id": "b06e006e-78f7-460b-9d31-5dcd863abe88", "Text": "Give the cyclist plenty of room", "ImageUrl": null } ], "Id": "4330", "Text": " You are coming up to a roundabout and a cyclist is signaling to turn right. What should you do:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.30", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4331", "IsRight": false, "Id": "a77044de-1c04-4eff-aa4a-a019f65ed4cb", "Text": "Straight ahead", "ImageUrl": null }, { "QuestionId": "4331", "IsRight": false, "Id": "a4a54822-3706-43a3-883b-2a275b6882b4", "Text": "Right", "ImageUrl": null }, { "QuestionId": "4331", "IsRight": true, "Id": "65185bb5-7d94-4c6d-b15e-42cc84751823", "Text": "Any direction", "ImageUrl": null }, { "QuestionId": "4331", "IsRight": false, "Id": "fc52a103-0d82-46e8-96ba-381646f9903b", "Text": "Left", "ImageUrl": null } ], "Id": "4331", "Text": " You are driving behind three cyclists. They approach a roundabout in the left-hand lane. In which direction should you\nexpect the cyclists to go?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4332", "IsRight": false, "Id": "e0ae0390-dd95-4ed4-9518-0673942e2b2b", "Text": "The cyclist thinks The highway Code does not apply to bicycles", "ImageUrl": null }, { "QuestionId": "4332", "IsRight": false, "Id": "96a9c3a9-15dc-4fcb-98ec-e98ad001d262", "Text": "The cyclist is going to turn left instead", "ImageUrl": null }, { "QuestionId": "4332", "IsRight": false, "Id": "3f54bf28-12df-4592-90f8-c5165562d9c9", "Text": "It is quicker route for cyclist", "ImageUrl": null }, { "QuestionId": "4332", "IsRight": true, "Id": "e0963840-2368-48a0-9f28-92ee9569ec53", "Text": "The cyclist is slower and more vulnerable", "ImageUrl": null } ], "Id": "4332", "Text": " You are approaching a roundabout and see a cyclist signal right. Why is the cyclist keeping to the left?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4333", "IsRight": false, "Id": "7ac6a8fb-5f27-4a58-a9c0-cfcda451886c", "Text": "The cyclist might have to make a right turn", "ImageUrl": null }, { "QuestionId": "4333", "IsRight": false, "Id": "d6ba51c7-fc74-475d-8098-790a633a1f5e", "Text": "The cyclist might get off the bike", "ImageUrl": null }, { "QuestionId": "4333", "IsRight": false, "Id": "6abb4d55-abb5-47a7-8b63-077e5f5c8696", "Text": "The cyclist might change lanes", "ImageUrl": null }, { "QuestionId": "4333", "IsRight": true, "Id": "1cb4bd41-5ec1-4fa4-8916-c1320fe7e0d6", "Text": "The cyclist might swerve", "ImageUrl": null } ], "Id": "4333", "Text": " When you are overtaking a cyclist in the road you should leave as much room as you would give to a car. What is the main reason for\nthis?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.38", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4334", "IsRight": false, "Id": "7d951cc4-655a-4a81-b964-203dfba80ccd", "Text": "On one-way streets", "ImageUrl": null }, { "QuestionId": "4334", "IsRight": true, "Id": "02e2686f-772d-4112-a612-b4a1710e8081", "Text": "At junctions", "ImageUrl": null }, { "QuestionId": "4334", "IsRight": false, "Id": "3fe536b7-7e16-4850-8d9e-9876fa439f00", "Text": "At zebra crossings", "ImageUrl": null }, { "QuestionId": "4334", "IsRight": false, "Id": "9df0de57-c7bb-4395-9234-2f995b3161b0", "Text": "On dual carriageways", "ImageUrl": null } ], "Id": "4334", "Text": " Where should you take particular care to look out for motorcyclists and cyclists?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.39", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4335", "IsRight": true, "Id": "692e86f1-d97e-470e-8e76-62fb5e71180c", "Text": "So that the rider can be seen more easily", "ImageUrl": null }, { "QuestionId": "4335", "IsRight": false, "Id": "615274fb-5c97-4188-81d7-a79fb9f709b6", "Text": "The rider is inviting you to proceed", "ImageUrl": null }, { "QuestionId": "4335", "IsRight": false, "Id": "5d320de7-4dda-46af-888c-5d94350c521b", "Text": "To improve the rider's vision", "ImageUrl": null }, { "QuestionId": "4335", "IsRight": false, "Id": "6c045027-cd9c-4206-81a1-471335d4bdb0", "Text": "To stop the battery overcharging", "ImageUrl": null } ], "Id": "4335", "Text": " In daylight  an approaching motorcyclist is using a dipped headlight. Why?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.42", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4336", "IsRight": false, "Id": "d81869da-5052-43af-833e-d0b5a10f11b7", "Text": "Sound your horn as a warning and pull in front of the moped", "ImageUrl": null }, { "QuestionId": "4336", "IsRight": false, "Id": "6d83b492-fb06-40a7-814d-96aac2934d90", "Text": "Pull alongside the moped and stay level until just before the junction", "ImageUrl": null }, { "QuestionId": "4336", "IsRight": false, "Id": "281abcdc-9b56-483d-8ada-3671982d9325", "Text": "Overtake the moped before the junction", "ImageUrl": null }, { "QuestionId": "4336", "IsRight": true, "Id": "5c5be9b6-87f8-4c02-b0c2-3de61f608c78", "Text": "Stay behind until the moped has passed the junction", "ImageUrl": null } ], "Id": "4336", "Text": " You are driving behind a moped or a small motorcycle. You want to turn left just ahead. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.44", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4337", "IsRight": true, "Id": "15410f7f-c7dc-4618-b2ba-c464a8321d23", "Text": "Motorcyclists", "ImageUrl": null }, { "QuestionId": "4337", "IsRight": true, "Id": "a9636798-10d5-45c3-9d7f-19a0bdb2b3f3", "Text": "Cyclists", "ImageUrl": null }, { "QuestionId": "4337", "IsRight": false, "Id": "d8942c38-4ee2-403d-ab00-9e5d8c9d07ce", "Text": "Lorry drivers", "ImageUrl": null }, { "QuestionId": "4337", "IsRight": false, "Id": "18a8c01e-3d1e-4413-83ff-2fd62c06c38a", "Text": "Car drivers", "ImageUrl": null }, { "QuestionId": "4337", "IsRight": true, "Id": "a01a731b-e014-4f11-a4cc-836d12c14aa9", "Text": "Pedestrians", "ImageUrl": null } ], "Id": "4337", "Text": " At road junctions which THREE of the following are most vulnerable?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.45", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4338", "IsRight": true, "Id": "d88ffd37-1bfc-4946-a9bf-030e5f0104c2", "Text": "Motorcycles", "ImageUrl": null }, { "QuestionId": "4338", "IsRight": false, "Id": "d4675da1-459d-4f12-bbd8-1b26d2e31ade", "Text": "Cars", "ImageUrl": null }, { "QuestionId": "4338", "IsRight": false, "Id": "073005da-54ed-44e4-b164-2534fe2b5aa5", "Text": "Milk floats", "ImageUrl": null }, { "QuestionId": "4338", "IsRight": false, "Id": "a2d0c88e-f79f-441b-8f00-ad88e9440fe3", "Text": "Tractors", "ImageUrl": null } ], "Id": "4338", "Text": " When emerging from a side road into a queue of traffic which road users can be difficult to see?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.46", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4339", "IsRight": false, "Id": "b226c38e-c827-41a9-b582-3cd8ca4a6d34", "Text": "Stop and set the handbrake", "ImageUrl": null }, { "QuestionId": "4339", "IsRight": false, "Id": "74d73374-c580-4b6d-bb9c-28e4e6c6c30d", "Text": "Select first gear", "ImageUrl": null }, { "QuestionId": "4339", "IsRight": true, "Id": "a1a5a967-3b96-46a4-a36a-d00701d19630", "Text": "Check for traffic overtaking on your right", "ImageUrl": null }, { "QuestionId": "4339", "IsRight": false, "Id": "d6a30a40-2e3e-44af-80a1-b47094b176b3", "Text": "Cancel your right-turn signal", "ImageUrl": null } ], "Id": "4339", "Text": " You want to turn right from a main road into a side road. Just before you turn you should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.48", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4340", "IsRight": true, "Id": "5c406836-c606-4880-8d2a-473eb91ff2a2", "Text": "Slow moving", "ImageUrl": null }, { "QuestionId": "4340", "IsRight": false, "Id": "51bf5898-643b-49b8-a8a6-0a0829d7e5ec", "Text": "A school crossing patrol", "ImageUrl": null }, { "QuestionId": "4340", "IsRight": false, "Id": "9d91c7be-0dac-4caa-9924-ae8bac23a434", "Text": "A doctor's car", "ImageUrl": null }, { "QuestionId": "4340", "IsRight": false, "Id": "481a405e-71a3-43e7-9928-bb8415794ca7", "Text": "Broken down", "ImageUrl": null } ], "Id": "4340", "Text": " You are driving and ahead of you there is a vehicle with a flashing amber beacon.This means it is:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.50", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4341", "IsRight": false, "Id": "1c6f2fc5-4f23-4f31-8659-a3920c6120d2", "Text": "Remove the leather jacket", "ImageUrl": null }, { "QuestionId": "4341", "IsRight": false, "Id": "90ef0de7-abef-4eb3-b17a-4e764a48c546", "Text": "Move the person off the road", "ImageUrl": null }, { "QuestionId": "4341", "IsRight": false, "Id": "30e241fb-6031-4a81-a8ca-1e1d36cc1e34", "Text": "Remove the safety helmet", "ImageUrl": null }, { "QuestionId": "4341", "IsRight": true, "Id": "3389eea4-5585-4c2f-a299-65d1f2082dee", "Text": "Seek medical assistance", "ImageUrl": null } ], "Id": "4341", "Text": " An injured motorcyclist is lying unconscious in the road. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.51", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4342", "IsRight": false, "Id": "ac9605d5-3a48-4b44-98ba-2e57c82a3270", "Text": "The bus may remain stationary", "ImageUrl": null }, { "QuestionId": "4342", "IsRight": false, "Id": "9d33c77c-c8d7-4c9a-beb4-0f9027173105", "Text": "The bus may move off suddenly", "ImageUrl": null }, { "QuestionId": "4342", "IsRight": false, "Id": "23c8050c-ed47-4cec-b02e-72cead3ec628", "Text": "The bus may have broken down", "ImageUrl": null }, { "QuestionId": "4342", "IsRight": true, "Id": "e1fa78b6-51cf-45df-b615-ce1012d8931c", "Text": "Pedestrians may come from behind the bus", "ImageUrl": null } ], "Id": "4342", "Text": " You are driving in town. There is a bus at the bus stop on the other side of the road. Why should you be careful?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.52", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4343", "IsRight": false, "Id": "a31179b0-c620-4e5e-870f-05ad834ed58f", "Text": "Use your horn just once to warn them", "ImageUrl": null }, { "QuestionId": "4343", "IsRight": false, "Id": "cd793657-2dfd-460a-9284-158b744844fb", "Text": "Speed is not important but allow plenty of room", "ImageUrl": null }, { "QuestionId": "4343", "IsRight": false, "Id": "17758222-2ff3-40a2-aa8f-f47713474996", "Text": "Drive along their side and overtake as soon as possible", "ImageUrl": null }, { "QuestionId": "4343", "IsRight": true, "Id": "a8862b14-1485-4b1a-ba97-80a197e2606b", "Text": "Drive slowly and leave plenty of room", "ImageUrl": null } ], "Id": "4343", "Text": " How should you overtake horse riders?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.53", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4344", "IsRight": false, "Id": "5b6badcc-a654-4de5-9a5c-bf72c9f02b9c", "Text": "Signal right", "ImageUrl": null }, { "QuestionId": "4344", "IsRight": true, "Id": "ba9c1f17-0081-4f83-a1bb-81da86972ccf", "Text": "Be prepared to slow down", "ImageUrl": null }, { "QuestionId": "4344", "IsRight": false, "Id": "48398a3d-259f-4324-9805-bf0f935326cc", "Text": "Accelerate around them", "ImageUrl": null }, { "QuestionId": "4344", "IsRight": false, "Id": "f8eddb6a-87af-4da7-8866-749efaceacbd", "Text": "Pull out to the middle of the road", "ImageUrl": null } ], "Id": "4344", "Text": " You notice horse riders ahead of you. What should you do FIRST?", "ImageUrl": "Source/img/4344.png" },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.54", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4345", "IsRight": true, "Id": "d390404b-3124-4184-a914-8c0679bb8814", "Text": "On left-hand bends", "ImageUrl": null }, { "QuestionId": "4345", "IsRight": false, "Id": "86648145-c665-4b0a-b544-56e339c0f391", "Text": "On right-hand bends", "ImageUrl": null }, { "QuestionId": "4345", "IsRight": false, "Id": "3ead6f4c-b24c-4f64-a8df-01a7f53aa304", "Text": "When uphill", "ImageUrl": null }, { "QuestionId": "4345", "IsRight": false, "Id": "72d64458-5278-487b-9905-82c78a549993", "Text": "When downhill", "ImageUrl": null } ], "Id": "4345", "Text": " You are driving on a narrow country road. Where would you find it most difficult to see horses and riders ahead of you?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.55", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4346", "IsRight": false, "Id": "5280cb1c-f74d-49ce-a9c7-ec58d98cc5b7", "Text": "Go ahead", "ImageUrl": null }, { "QuestionId": "4346", "IsRight": false, "Id": "8f407d15-c84b-466d-a06b-5d7ca1a31891", "Text": "Turn left", "ImageUrl": null }, { "QuestionId": "4346", "IsRight": false, "Id": "fb70ae0b-a757-43dd-80a5-cda77783687b", "Text": "Turn right", "ImageUrl": null }, { "QuestionId": "4346", "IsRight": true, "Id": "6e876f0a-20b3-43ab-80fd-e09202027c91", "Text": "Go in any direction", "ImageUrl": null } ], "Id": "4346", "Text": " A horse rider is in the left-hand lane approaching a roundabout. The driver behind should expect the rider to:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.56", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4347", "IsRight": false, "Id": "2707379f-b13b-408a-9ea7-e8969c0357dc", "Text": "Sound your horn as a warning", "ImageUrl": null }, { "QuestionId": "4347", "IsRight": true, "Id": "d559f136-be4a-462b-89cb-0ae1d7ad8267", "Text": "Give them plenty of room", "ImageUrl": null }, { "QuestionId": "4347", "IsRight": false, "Id": "258c156b-c900-41d3-874b-ba470346a47e", "Text": "Accelerate past as quickly as possible", "ImageUrl": null }, { "QuestionId": "4347", "IsRight": false, "Id": "563ac96c-d0ad-46f2-8d3e-1a6413af22f3", "Text": "Treat them like any other vehicle", "ImageUrl": null }, { "QuestionId": "4347", "IsRight": true, "Id": "a43b22a8-b96e-4caa-bb18-c75a8dcfdb45", "Text": "Be prepared to stop", "ImageUrl": null } ], "Id": "4347", "Text": " You are approaching a roundabout. There are horses just ahead of you. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.57", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4348", "IsRight": false, "Id": "fe8e8427-0bca-414d-a3d0-e6b918b27e96", "Text": "Cut in front of them", "ImageUrl": null }, { "QuestionId": "4348", "IsRight": false, "Id": "7812ac36-31ff-44aa-bffd-fc245409704b", "Text": "Keep close of them", "ImageUrl": null }, { "QuestionId": "4348", "IsRight": false, "Id": "a948029d-39e1-42fb-a581-32d7226b9af8", "Text": "Proceed as normal", "ImageUrl": null }, { "QuestionId": "4348", "IsRight": true, "Id": "7dcd23ee-14e1-4b0e-af43-0cee3f10f4d5", "Text": "Stay well back", "ImageUrl": null } ], "Id": "4348", "Text": " You see a group of horse riders as you approach a roundabout. They are signalling to go right but keeping well to the left. You\nshould:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.58", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4349", "IsRight": false, "Id": "1f0d16ab-2acb-4a2c-b3fb-3cc12cd74f9f", "Text": "Mechanical failure", "ImageUrl": null }, { "QuestionId": "4349", "IsRight": true, "Id": "272ed48c-45d8-4cc9-a2ef-4e669cbf131f", "Text": "Driver error", "ImageUrl": null }, { "QuestionId": "4349", "IsRight": false, "Id": "b6808aeb-537c-4d50-872f-a7cc0fb43478", "Text": "Road conditions", "ImageUrl": null }, { "QuestionId": "4349", "IsRight": false, "Id": "f80d1419-6a97-43a7-8eec-c6abd8c39863", "Text": "Weather conditions", "ImageUrl": null } ], "Id": "4349", "Text": " What is the MOST common cause of road accidents?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.60", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4350", "IsRight": false, "Id": "4bd3dda9-aac2-4348-a3d0-0f32675f5af7", "Text": "46 to 55-year-old", "ImageUrl": null }, { "QuestionId": "4350", "IsRight": false, "Id": "cee63e16-48da-443b-8a8a-ac681f91a0dc", "Text": "55-year-olds and over", "ImageUrl": null }, { "QuestionId": "4350", "IsRight": false, "Id": "f9d7ea96-be4c-41ba-a500-c6662f9ed331", "Text": "36 to 45-year-old", "ImageUrl": null }, { "QuestionId": "4350", "IsRight": true, "Id": "a395fa62-9994-4eb2-b2f4-be85d4ecea90", "Text": "18 to 25-year-old", "ImageUrl": null } ], "Id": "4350", "Text": " Which age group is most likely to be involved in traffic accidents?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.61", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4351", "IsRight": true, "Id": "08721b03-0fb1-4688-bafc-c228af77b19b", "Text": "Be patient as you expect them to make mistakes", "ImageUrl": null }, { "QuestionId": "4351", "IsRight": false, "Id": "52050efd-35d5-45cb-98f4-6f5d7d76905f", "Text": "Immediately steer around them and drive on", "ImageUrl": null }, { "QuestionId": "4351", "IsRight": false, "Id": "2816fcf1-2535-4a3e-b54a-7f0b13773132", "Text": "Start to rev your engine if they take too long to restart", "ImageUrl": null }, { "QuestionId": "4351", "IsRight": false, "Id": "1a8bb88d-bd92-43e1-8810-0c0cedfe6a14", "Text": "Drive up close behind and flash your headlights", "ImageUrl": null } ], "Id": "4351", "Text": " You are following a learner driver who stalls at a junction. What should you do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4607", "IsRight": false, "Id": "73bf83aa-1e66-41ee-bae8-f28f7e0260f9", "Text": "Carry on assuming it is clear", "ImageUrl": null }, { "QuestionId": "4607", "IsRight": true, "Id": "cb7eea46-a3a8-492d-82aa-b031458bcd32", "Text": "Get out and check", "ImageUrl": null }, { "QuestionId": "4607", "IsRight": false, "Id": "14c2f9e9-e097-4fee-806c-8df265284789", "Text": "Check the mirrors only", "ImageUrl": null }, { "QuestionId": "4607", "IsRight": false, "Id": "d20e0747-faa4-4114-ad0a-566aaa1049ec", "Text": "Look through the rear window only", "ImageUrl": null } ], "Id": "4607", "Text": " You want to reverse into a side road. You are not sure that the area behind your car is clear. What should you do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4608", "IsRight": false, "Id": "5a3ce3f1-5019-4bbf-b537-58b6247ea5d8", "Text": "Reverse before the pedestrian starts to cross", "ImageUrl": null }, { "QuestionId": "4608", "IsRight": true, "Id": "90f5452f-2a7d-47d3-899f-b0bb0b441dfb", "Text": "Give way to the pedestrian", "ImageUrl": null }, { "QuestionId": "4608", "IsRight": false, "Id": "117b6fa6-7732-4eca-aac9-5b934ec20067", "Text": "Wave to the pedestrian to cross", "ImageUrl": null }, { "QuestionId": "4608", "IsRight": false, "Id": "d792d6fd-9d49-449f-98f6-9139ee61eafb", "Text": "Wave to the pedestrian to stop", "ImageUrl": null } ], "Id": "4608", "Text": " You are about to reverse into a side road and a pedestrian wishes to cross behind you. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4609", "IsRight": false, "Id": "c61ea4ee-a848-432f-b9af-98776319a38b", "Text": "Cyclists", "ImageUrl": null }, { "QuestionId": "4609", "IsRight": false, "Id": "e86e1b7a-a320-4c88-9e48-9569fb82fc03", "Text": "Car drivers", "ImageUrl": null }, { "QuestionId": "4609", "IsRight": false, "Id": "d31b40d2-f951-4ebb-a206-dc36cb0753f7", "Text": "Motorcyclists", "ImageUrl": null }, { "QuestionId": "4609", "IsRight": true, "Id": "9032694d-cf20-4cf7-b642-69de0d7adcd9", "Text": "Children", "ImageUrl": null } ], "Id": "4609", "Text": " Who is especially in danger of not being seen as you reverse your car?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4610", "IsRight": false, "Id": "1eca9021-8c15-4d94-b2d5-74554419e6dd", "Text": "Emerging from the side road", "ImageUrl": null }, { "QuestionId": "4610", "IsRight": false, "Id": "262c3310-3f01-4781-8d5d-cef4e30f5d23", "Text": "Following you closely", "ImageUrl": null }, { "QuestionId": "4610", "IsRight": false, "Id": "1bde93ce-3233-418f-904f-7c7a1fa73a05", "Text": "Overtaking on your left", "ImageUrl": null }, { "QuestionId": "4610", "IsRight": true, "Id": "1e3204df-e5a9-432e-813a-c4da07b932a7", "Text": "Overtaking on your right", "ImageUrl": null } ], "Id": "4610", "Text": " You intend to turn right into a side road. Just before turning you should check for motorcyclists who may be:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.12", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4611", "IsRight": false, "Id": "d4117963-e040-46cf-bdde-dd46d163383c", "Text": "Where the kerb is raised", "ImageUrl": null }, { "QuestionId": "4611", "IsRight": true, "Id": "620c4fb5-004b-41e0-b30e-f99da43e42a2", "Text": "At or near a bus stop", "ImageUrl": null }, { "QuestionId": "4611", "IsRight": true, "Id": "04f132b6-815e-48d7-9a71-7ed252b66860", "Text": "Where the kerb has been lowered for wheelchairs", "ImageUrl": null }, { "QuestionId": "4611", "IsRight": true, "Id": "f20b6923-69a0-424e-9100-a6b9e55eddad", "Text": "Near the brow of a hill", "ImageUrl": null }, { "QuestionId": "4611", "IsRight": false, "Id": "12b96608-3ee6-40f1-becb-be30c2023796", "Text": "In a lay-by", "ImageUrl": null } ], "Id": "4611", "Text": " In which three places would parking cause an obstruction to other road users?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4612", "IsRight": false, "Id": "bc8b5a7e-e324-43a9-9d7e-e97a7885552b", "Text": "Stop and wave them across the road", "ImageUrl": null }, { "QuestionId": "4612", "IsRight": false, "Id": "84a44f6e-c7d5-4914-9f14-d5ea0f4499fc", "Text": "Speed up to get past them quickly", "ImageUrl": null }, { "QuestionId": "4612", "IsRight": false, "Id": "4466f51f-1f85-4626-bd57-dc8e36e43aa4", "Text": "Expect them to wait for you to pass", "ImageUrl": null }, { "QuestionId": "4612", "IsRight": true, "Id": "e6a5d9e4-b152-48d9-8a78-a6240d7725f7", "Text": "Be careful  they may misjudge your speed", "ImageUrl": null } ], "Id": "4612", "Text": " You are following a motorcyclist on an uneven and bumpy road. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4613", "IsRight": false, "Id": "2b99f196-4271-4907-8c79-bf92f1ab7c26", "Text": "Allow the same room as normal because motorcyclists are not affected by road surfaces", "ImageUrl": null }, { "QuestionId": "4613", "IsRight": false, "Id": "dc116a83-5616-4ec2-ab45-4a595b6f330e", "Text": "Overtake immediately", "ImageUrl": null }, { "QuestionId": "4613", "IsRight": true, "Id": "0d91a99b-daf9-4559-b1fd-4e549b8eeb0b", "Text": "Allow extra room in case they swerve to avoid pot-holes", "ImageUrl": null }, { "QuestionId": "4613", "IsRight": false, "Id": "14dd5d16-6b0c-4140-b163-d2bebc09a403", "Text": "Allow less room to ensure that you can be seen in their mirrors", "ImageUrl": null } ], "Id": "4613", "Text": " You are following a motorcyclist on an uneven road. You should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.33", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4614", "IsRight": false, "Id": "8660b150-5f76-4918-b4d7-fcec16074a99", "Text": "Road-sweeping vehicles", "ImageUrl": null }, { "QuestionId": "4614", "IsRight": true, "Id": "026e0032-01bb-444d-aebe-9d3d97ba1b8e", "Text": "Motorcycles", "ImageUrl": null }, { "QuestionId": "4614", "IsRight": false, "Id": "f9a98975-c886-4a2d-95c2-78acb4579696", "Text": "Tractors", "ImageUrl": null }, { "QuestionId": "4614", "IsRight": true, "Id": "add1915d-4ed9-41d7-8ffc-c9f6e1973c55", "Text": "Bicycles", "ImageUrl": null } ], "Id": "4614", "Text": " Which TWO should you allow extra room when overtaking?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.34", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4615", "IsRight": false, "Id": "31d3ccec-1c75-4119-a7cd-5776879381b9", "Text": "The rider may be traveling faster than normal", "ImageUrl": null }, { "QuestionId": "4615", "IsRight": true, "Id": "ccb34604-0394-4a3e-9043-beec1f0072f5", "Text": "The rider may be blown across in front of you", "ImageUrl": null }, { "QuestionId": "4615", "IsRight": false, "Id": "740910e5-b9c0-456d-9f4a-51bd9318eaec", "Text": "The rider may stop suddenly", "ImageUrl": null }, { "QuestionId": "4615", "IsRight": false, "Id": "6a06cbd1-e711-43af-abc4-9d420ca9ed25", "Text": "The rider may turn off suddenly to get out of the wind", "ImageUrl": null } ], "Id": "4615", "Text": " Why should you allow extra room when overtaking a motorcyclist on a windy day?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.35", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4616", "IsRight": false, "Id": "f1ff2e49-a0ae-4fa7-b08c-495884abe534", "Text": "Bowser", "ImageUrl": null }, { "QuestionId": "4616", "IsRight": true, "Id": "2456e93d-4dce-4d5d-942e-202c31510bb9", "Text": "Motorcycle", "ImageUrl": null }, { "QuestionId": "4616", "IsRight": false, "Id": "dadfa009-52bf-4736-b038-53b792e71034", "Text": "Car", "ImageUrl": null }, { "QuestionId": "4616", "IsRight": false, "Id": "d610ef65-258a-4b20-b53a-f0f6eb5b199c", "Text": "Tractor", "ImageUrl": null } ], "Id": "4616", "Text": " Which type of vehicle is MOST affected by strong winds?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.36", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4617", "IsRight": false, "Id": "cecdff74-b454-4254-8faa-fa1ed0dc7268", "Text": "They might not see you turn", "ImageUrl": null }, { "QuestionId": "4617", "IsRight": false, "Id": "2d98909f-e1ba-4fa6-9a33-ac410377fcf5", "Text": "They may slow down to let you turn", "ImageUrl": null }, { "QuestionId": "4617", "IsRight": true, "Id": "66b5dbea-2a8c-4bd2-92b9-06f1e354a292", "Text": "They are harder to see", "ImageUrl": null }, { "QuestionId": "4617", "IsRight": false, "Id": "16ee5335-1825-4f94-9a37-02f20b884155", "Text": "They may want to turn into the side road", "ImageUrl": null } ], "Id": "4617", "Text": " Why should you particularly look for motorcyclists and cyclists at any junction?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.37", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4618", "IsRight": false, "Id": "6ec291e1-1a2d-483e-be0e-91982686cc7c", "Text": "Motorcycles have right of way", "ImageUrl": null }, { "QuestionId": "4618", "IsRight": false, "Id": "7163e2df-60bb-41b4-ac01-0739a2d8256c", "Text": "Police patrols often use motorcycles", "ImageUrl": null }, { "QuestionId": "4618", "IsRight": true, "Id": "c64ef744-2829-441c-82bd-35b191a3644f", "Text": "Motorcycles are small and hard to see", "ImageUrl": null }, { "QuestionId": "4618", "IsRight": false, "Id": "e9dfff91-6786-4558-afc4-c9988ce6e972", "Text": "Motorcycles are usually faster than cars", "ImageUrl": null } ], "Id": "4618", "Text": " You are waiting to come out of a side road. Why should you watch carefully for motorcycles?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.43", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4619", "IsRight": false, "Id": "ec6782fa-3184-4c63-9b46-11bf024e6150", "Text": "Looking around helps them balance as they turn", "ImageUrl": null }, { "QuestionId": "4619", "IsRight": false, "Id": "12700bd6-334f-4eac-a958-b923bc3feeea", "Text": "Motorcycles do not have mirrors", "ImageUrl": null }, { "QuestionId": "4619", "IsRight": false, "Id": "fe21c96a-c067-4ac5-bbe9-cf23a13d36f7", "Text": "They need to listen for following traffic", "ImageUrl": null }, { "QuestionId": "4619", "IsRight": true, "Id": "e02d1c20-37bd-4abc-a381-d27b995e1bfa", "Text": "They need to check for traffic in their blind area", "ImageUrl": null } ], "Id": "4619", "Text": " Motorcyclists often look round over their right shoulder just before turning right. This is because:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.47", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4620", "IsRight": true, "Id": "40d135d2-c6ad-4194-8fbf-628419e59523", "Text": "Passing very close to your car", "ImageUrl": null }, { "QuestionId": "4620", "IsRight": false, "Id": "eca0ed82-fda6-466b-a83c-e25032e32dc6", "Text": "Riding with their headlamp on dipped beam", "ImageUrl": null }, { "QuestionId": "4620", "IsRight": false, "Id": "eb18457f-a4b0-45c2-9cfc-64e91133200e", "Text": "Riding in single file", "ImageUrl": null }, { "QuestionId": "4620", "IsRight": true, "Id": "9d67025d-09a1-4eda-9db9-5eaceec8f43a", "Text": "Filtering between the lanes", "ImageUrl": null }, { "QuestionId": "4620", "IsRight": true, "Id": "5087d7bc-bb02-4c71-bd12-9f0eec427c6c", "Text": "Cutting in just in front of you", "ImageUrl": null } ], "Id": "4620", "Text": " Which of the following are hazards that motorcyclists present in queues of traffic?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.49", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4621", "IsRight": false, "Id": "374f2ba9-9141-4542-8866-ce4b535500ce", "Text": "Change down to first gear", "ImageUrl": null }, { "QuestionId": "4621", "IsRight": false, "Id": "a8e441fe-c2cc-4635-a6d4-b230a78349d8", "Text": "Give a 'slowing down' arm signal", "ImageUrl": null }, { "QuestionId": "4621", "IsRight": false, "Id": "ddf042c2-b7ed-4029-b435-67e9a4034bfb", "Text": "Sound the horn", "ImageUrl": null }, { "QuestionId": "4621", "IsRight": true, "Id": "9a56d5eb-2978-4eff-875e-54bf689ef990", "Text": "Look for motorcyclists filtering through the traffic", "ImageUrl": null } ], "Id": "4621", "Text": " You are driving in slow-moving queues of traffic. Just before changing lane you should:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.59", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4622", "IsRight": false, "Id": "d11e6d09-cd81-4c64-bfa4-c7340e0baa98", "Text": "Call your insurance company", "ImageUrl": null }, { "QuestionId": "4622", "IsRight": false, "Id": "dd1fef48-573d-4bf9-915e-36cb749ca17a", "Text": "Call the emergency services", "ImageUrl": null }, { "QuestionId": "4622", "IsRight": true, "Id": "cb96bd40-73c6-4d9b-bcbd-f51332d23ccf", "Text": "Stop at the scene of the accident", "ImageUrl": null }, { "QuestionId": "4622", "IsRight": false, "Id": "721805b7-9e08-4ddb-b5b3-384ab9e8a5b1", "Text": "Stop only if there are injured people", "ImageUrl": null } ], "Id": "4622", "Text": " You have a collision while your car is moving. What is the first important thing you must do?", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.62", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4623", "IsRight": true, "Id": "710a524e-1a47-48d9-9a43-19d19dd8a5cc", "Text": "Be over 25 and have held a full licence for at least 5 years", "ImageUrl": null }, { "QuestionId": "4623", "IsRight": false, "Id": "edc1ff90-37fe-48b4-81c1-4cc464e34389", "Text": "Be over 21 and have had a full license for at least three years.", "ImageUrl": null }, { "QuestionId": "4623", "IsRight": false, "Id": "e639600e-6a79-4f6f-a35d-b0e87d9338aa", "Text": "Be over 18 and have fully comprehensive insurance", "ImageUrl": null }, { "QuestionId": "4623", "IsRight": false, "Id": "8b0a7000-f482-4e95-86e2-575fabe8a69f", "Text": "Be over 18 and hold an advanced driver's certificate", "ImageUrl": null } ], "Id": "4623", "Text": " If a friend wants to teach you how to drive a car  they must:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.63", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4624", "IsRight": false, "Id": "5026d4c0-a242-4752-8f0a-132ca5b13554", "Text": "Probably survive", "ImageUrl": null }, { "QuestionId": "4624", "IsRight": false, "Id": "2afd0413-e1ee-413f-92c4-12dec190fe3c", "Text": "Certainly survive", "ImageUrl": null }, { "QuestionId": "4624", "IsRight": true, "Id": "4c306972-7907-4c7c-b71c-a10832f1908e", "Text": "Probably be killed", "ImageUrl": null }, { "QuestionId": "4624", "IsRight": false, "Id": "bca7aca2-5821-4b94-a1d1-3c50452573e7", "Text": "Certainly be killed", "ImageUrl": null } ], "Id": "4624", "Text": " Your car hits a pedestrian at 60 kph. The pedestrian will:", "ImageUrl": null },
-      { "CategoryId": "81aa5a93-cff6-4c93-bf39-4f5b5288072a", "SubCategoryId": "CARS6.64", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4625", "IsRight": true, "Id": "9db57603-c097-431f-a5a0-6d55c78a3984", "Text": "Set your mirror to anti-dazzle", "ImageUrl": null }, { "QuestionId": "4625", "IsRight": false, "Id": "2aac393a-c907-44be-acda-7beabf35f747", "Text": "Switch your rear lights on and off", "ImageUrl": null }, { "QuestionId": "4625", "IsRight": false, "Id": "5be19126-7b18-46ca-a9f6-10a8267364d7", "Text": "Brake sharply to a stop", "ImageUrl": null }, { "QuestionId": "4625", "IsRight": false, "Id": "2b6374fb-ca57-4089-986c-c5c20cc11b38", "Text": "Set your mirror to dazzle the other driver", "ImageUrl": null } ], "Id": "4625", "Text": " You are dazzled at night by the lights of the vehicle behind you. You should:", "ImageUrl": null }
-    ],
-    "Id": "81aa5a93-cff6-4c93-bf39-4f5b5288072a",
-    "Text": "VULNERABLE ROAD USERS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4352", "IsRight": false, "Id": "38e63763-f00f-4af3-9f48-28bf34a8d264", "Text": "The large vehicle can easily hide vehicles from the left", "ImageUrl": null }, { "QuestionId": "4352", "IsRight": false, "Id": "754dd953-4de8-4d66-8257-c4bc95f07fbe", "Text": "The large vehicle is difficult to steer in a straight line", "ImageUrl": null }, { "QuestionId": "4352", "IsRight": false, "Id": "192157d7-77f4-4c1c-858a-a19af9102515", "Text": "The large vehicle can turn suddenly", "ImageUrl": null }, { "QuestionId": "4352", "IsRight": true, "Id": "536a182a-6267-48f3-8a0d-c930c5e334da", "Text": "The large vehicle can easily hide an overtaking vehicle", "ImageUrl": null } ], "Id": "4352", "Text": " You are waiting to emerge left from a minor road. A large vehicle is approaching from the right. You have time to turn, but you should\nwait. Why?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4353", "IsRight": false, "Id": "57d50c9d-5ec2-4219-b5bd-1146d51b9890", "Text": "Overtake quickly before the lorry moves out", "ImageUrl": null }, { "QuestionId": "4353", "IsRight": false, "Id": "1d0411b5-4bf8-4c62-a37b-207e25431c9c", "Text": "Pass on the left as the vehicle moves out", "ImageUrl": null }, { "QuestionId": "4353", "IsRight": true, "Id": "22775761-4b88-490a-b714-9cbab3ded416", "Text": "Be prepared to stop behind it", "ImageUrl": null }, { "QuestionId": "4353", "IsRight": false, "Id": "986e5eb1-23b3-41ac-99f3-40368d603160", "Text": "Move out and overtake on the offside", "ImageUrl": null } ], "Id": "4353", "Text": " You are driving behind a large articulated vehicle (trailer). It is going to turn left into a narrow road. What action should you take?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4354", "IsRight": false, "Id": "07e02382-27e6-4b56-a7b3-9f3a2a942779", "Text": "Overtake as it starts to slow down", "ImageUrl": null }, { "QuestionId": "4354", "IsRight": true, "Id": "26d7fd29-8ab4-4d33-aa2d-4719c4f5c0ee", "Text": "Stay well back and give it room", "ImageUrl": null }, { "QuestionId": "4354", "IsRight": false, "Id": "bcb4af71-77da-4ca0-b4cf-773dc8467c23", "Text": "Assume the signal is wrong and it is really turning right", "ImageUrl": null }, { "QuestionId": "4354", "IsRight": false, "Id": "635cc96d-7c5f-4a8d-8675-f7e6e6ffd603", "Text": "Get closer in order to pass it quickly", "ImageUrl": null } ], "Id": "4354", "Text": " You are driving behind a long vehicle. It approaches a crossroads and signals left, but moves out to the right. You should:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4355", "IsRight": false, "Id": "53c4121b-71f7-41ce-ae33-7b6dd5c5796b", "Text": "Overtake on the right-hand side", "ImageUrl": null }, { "QuestionId": "4355", "IsRight": true, "Id": "3cd865e9-425f-49be-bbed-ed0c2ae85654", "Text": "Wait behind the long vehicle", "ImageUrl": null }, { "QuestionId": "4355", "IsRight": false, "Id": "8f7db9d2-771e-47db-b5fa-016a18dbcd3a", "Text": "Report the driver to the police", "ImageUrl": null }, { "QuestionId": "4355", "IsRight": false, "Id": "bfa5a04b-db92-42cc-a00b-21e42eed1717", "Text": "Warn the driver of the wrong signal", "ImageUrl": null } ], "Id": "4355", "Text": " You are driving behind a long vehicle approaching a crossroad. The driver signals right but moves close to the left-hand kerb. What\nshould you do?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4356", "IsRight": false, "Id": "bb5d252e-f4b8-42e6-aa89-5001deae259b", "Text": "Follow the same course as the lorry", "ImageUrl": null }, { "QuestionId": "4356", "IsRight": false, "Id": "e4e7bafc-e399-4b9a-9635-f8add83d7cef", "Text": "Overtake on the left", "ImageUrl": null }, { "QuestionId": "4356", "IsRight": false, "Id": "5849cedc-3e50-41f3-8d48-556c949c5506", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4356", "IsRight": true, "Id": "51f6e231-1d03-4321-8fdc-a35d1f79083b", "Text": "Keep well back", "ImageUrl": null } ], "Id": "4356", "Text": " You are approaching a small roundabout. The long vehicle in front is signaling left but is positioned over to the right. You\nshould:", "ImageUrl": "Source/img/4356.png" },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4357", "IsRight": false, "Id": "25635aa6-9eb2-4060-b161-1d0ccb9d66b6", "Text": "Start to overtake", "ImageUrl": null }, { "QuestionId": "4357", "IsRight": true, "Id": "63324297-beaf-4218-99f5-464ff740983c", "Text": "Drop back further", "ImageUrl": null }, { "QuestionId": "4357", "IsRight": false, "Id": "d71519c8-1505-4f94-9444-443d202be1eb", "Text": "Flash your headlights", "ImageUrl": null }, { "QuestionId": "4357", "IsRight": false, "Id": "245685f5-7e03-4bbf-9343-66a74d48b789", "Text": "Sound your horn", "ImageUrl": null } ], "Id": "4357", "Text": " You keep well back while waiting to overtake a large lorry. Another car fills the gap. You should:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4358", "IsRight": false, "Id": "9f5372d6-f0e0-4438-a26c-bb2194174757", "Text": "To offer other drivers a safe gap if they want to overtake you", "ImageUrl": null }, { "QuestionId": "4358", "IsRight": true, "Id": "bb6215e7-caaf-4c9b-b6de-bb2fa479cdf8", "Text": "To get the best view of the road ahead", "ImageUrl": null }, { "QuestionId": "4358", "IsRight": false, "Id": "aa2c8935-86d1-41be-8d9e-12b6a08a3191", "Text": "To leave a gap in case it stops and rolls back", "ImageUrl": null }, { "QuestionId": "4358", "IsRight": false, "Id": "68b55455-426e-4228-9ffd-7130b6460de5", "Text": "To give acceleration space to overtake quickly on blind bends", "ImageUrl": null } ], "Id": "4358", "Text": " Before overtaking a large vehicle or lorry you should keep well back. Why is this?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4359", "IsRight": false, "Id": "08c66d50-ff27-4211-b5ed-197ad780856f", "Text": "Stay behind until the driver waves you past", "ImageUrl": null }, { "QuestionId": "4359", "IsRight": false, "Id": "effeba65-e360-416a-b551-20571ebfef7a", "Text": "Flash your headlights for the oncoming traffic to give way", "ImageUrl": null }, { "QuestionId": "4359", "IsRight": false, "Id": "1512d3ba-7d9a-4a0f-bf3f-27f2b8b2e918", "Text": "Follow it closely and keep moving out to see the road ahead", "ImageUrl": null }, { "QuestionId": "4359", "IsRight": true, "Id": "712c755a-247c-4eb5-9c20-bd459fc20c8b", "Text": "Keep well back until you can see that it is clear", "ImageUrl": null } ], "Id": "4359", "Text": " You wish to overtake a long, slow moving vehicle or lorry on a busy road with oncoming traffic. You should:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4360", "IsRight": false, "Id": "478c9791-1230-40b0-8fec-2a300d76c91e", "Text": "Pull over on the right behind the parked car", "ImageUrl": null }, { "QuestionId": "4360", "IsRight": true, "Id": "0c6eb5d2-b027-41b7-bc1b-64de922f5582", "Text": "Slow down and give way", "ImageUrl": null }, { "QuestionId": "4360", "IsRight": false, "Id": "26a944da-ae17-4295-b67e-72013b4076c1", "Text": "Speed up and get past quickly", "ImageUrl": null }, { "QuestionId": "4360", "IsRight": false, "Id": "76e03233-953e-4fdf-a883-4a8c48c9cd24", "Text": "Keep going because you have the right of way", "ImageUrl": null } ], "Id": "4360", "Text": " You are driving downhill. There is a car parked on the other side of the road partly blocking the road. Large, slow lorries are coming\ntowards you. You should:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4361", "IsRight": false, "Id": "51670c56-8eb2-48f3-bfe7-9c007eb37b94", "Text": "Flash your lights and wait for the driver to signal when it is safe", "ImageUrl": null }, { "QuestionId": "4361", "IsRight": true, "Id": "40f11639-1162-4e94-97c7-8c60c0bc4b5a", "Text": "Stay well back from the lorry to obtain a better view", "ImageUrl": null }, { "QuestionId": "4361", "IsRight": false, "Id": "45738260-e451-4de9-8455-8b8018ad8518", "Text": "Drive close to the lorry in order to pass more quickly", "ImageUrl": null }, { "QuestionId": "4361", "IsRight": false, "Id": "24472286-dcb1-4105-a06f-46364d5fef1c", "Text": "Sound the horn to warn the driver that you are there", "ImageUrl": null } ], "Id": "4361", "Text": " When about to overtake a long vehicle or lorry you should:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.15", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4362", "IsRight": true, "Id": "a07cc38e-f901-4daf-bd5d-237b63d1b315", "Text": "Be ready to give way to the bus", "ImageUrl": null }, { "QuestionId": "4362", "IsRight": false, "Id": "22b55532-f4b1-4d45-8e75-81be7a5bc78c", "Text": "Pull in closely behind the bus", "ImageUrl": null }, { "QuestionId": "4362", "IsRight": true, "Id": "c359bea6-d0aa-42e0-8ceb-c2d77bf9ed24", "Text": "Watch carefully for pedestrians", "ImageUrl": null }, { "QuestionId": "4362", "IsRight": false, "Id": "40165611-4982-4dbd-9d39-4e56410ba453", "Text": "Accelerate past the bus sounding your horn", "ImageUrl": null } ], "Id": "4362", "Text": " You are traveling behind a bus that suddenly pulls up at a bus stop. What should you do?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.16", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4363", "IsRight": true, "Id": "a61e5152-1623-4a9b-851a-8cff403de5e9", "Text": "Be prepared to give way if the bus suddenly moves off", "ImageUrl": null }, { "QuestionId": "4363", "IsRight": false, "Id": "61a5796b-d0c4-41a5-a119-26866e91ff58", "Text": "Continue at the same speed but sound your horn as warning", "ImageUrl": null }, { "QuestionId": "4363", "IsRight": true, "Id": "4d12e92b-b541-45bc-af87-e3f0f7ba4dbf", "Text": "Watch carefully for the sudden appearance of pedestrians", "ImageUrl": null }, { "QuestionId": "4363", "IsRight": false, "Id": "7c8be949-3041-4c99-a01c-985f6fd0ef47", "Text": "Pass the bus as quickly as you possibly can", "ImageUrl": null } ], "Id": "4363", "Text": " You are driving in a city. Ahead of you a bus is at a bus stop. Which TWO of the following should you do?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4364", "IsRight": false, "Id": "92f0a19e-81f7-4b1d-b520-7baa67cdee5c", "Text": "Signal left and wave the bus on", "ImageUrl": null }, { "QuestionId": "4364", "IsRight": true, "Id": "0d23b605-a98e-4928-8245-b66047ecadf3", "Text": "Allow it to pull away,  if it is safe to do so", "ImageUrl": null }, { "QuestionId": "4364", "IsRight": false, "Id": "8a882df8-5cc2-469e-b5d7-9de6e79b9adb", "Text": "Flash your headlights as you approach", "ImageUrl": null }, { "QuestionId": "4364", "IsRight": false, "Id": "8700204a-bb67-4575-8ae6-5743ebd091c1", "Text": "Get past before it moves", "ImageUrl": null } ], "Id": "4364", "Text": " When you approach a bus that is about to move off from a bus stop you should:", "ImageUrl": "Source/img/4364.png" },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4365", "IsRight": false, "Id": "bf67020f-3555-44cc-9b8e-35b30609ef7e", "Text": "When stationary vehicles are too close in a queue", "ImageUrl": null }, { "QuestionId": "4365", "IsRight": false, "Id": "4245d732-c8ff-45ab-ad79-38188d8358b7", "Text": "When a vehicle is with its back doors open", "ImageUrl": null }, { "QuestionId": "4365", "IsRight": false, "Id": "9e8bc993-71dc-4e1a-9abf-cf622dc36dca", "Text": "When a vehicle delivering goods has its tailgate down", "ImageUrl": null }, { "QuestionId": "4365", "IsRight": true, "Id": "646e4537-3b66-40df-8d95-bea11d5e5e88", "Text": "When a driver is following another vehicle too closely", "ImageUrl": null } ], "Id": "4365", "Text": " What is the effect of not keeping to the two second rule 'tailgating' when driving on a dry and good road surface?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4366", "IsRight": true, "Id": "53f2389f-2b85-4adf-80bf-756f4d2e90b5", "Text": "Drop back until you can see better", "ImageUrl": null }, { "QuestionId": "4366", "IsRight": false, "Id": "b1d9b30f-09f3-44ef-9e46-334704e5b276", "Text": "Speed up and overtake quickly", "ImageUrl": null }, { "QuestionId": "4366", "IsRight": false, "Id": "4579f362-eae8-48b2-9316-f7610ab65aee", "Text": "Keep close to the lorry  away from the spray", "ImageUrl": null }, { "QuestionId": "4366", "IsRight": false, "Id": "fc3e3218-cd0e-4938-8698-0c3360f09e53", "Text": "Put your headlights on full beam", "ImageUrl": null } ], "Id": "4366", "Text": " You are following a large lorry on a wet road. Spray makes it difficult to see. You should:", "ImageUrl": "Source/img/4366.png" },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4367", "IsRight": false, "Id": "78aa8d0b-448c-480e-b4a6-fda88cdd8b43", "Text": "Your sidelights", "ImageUrl": null }, { "QuestionId": "4367", "IsRight": true, "Id": "d46d25d8-210a-43a0-884d-1f719b89b846", "Text": "Your dipped headlights", "ImageUrl": null }, { "QuestionId": "4367", "IsRight": false, "Id": "8a930fcc-5688-486c-8c7f-d1883a5ff95e", "Text": "Your rear fog lights", "ImageUrl": null }, { "QuestionId": "4367", "IsRight": false, "Id": "3be02dd4-64ad-4b95-a2f3-57e04526e433", "Text": "Your hazard flashers", "ImageUrl": null } ], "Id": "4367", "Text": " You are driving on a dual- carriageway with surface spray. You should use:", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4626", "IsRight": false, "Id": "28aebebd-c68f-45e0-83dd-c4990d4ef4a1", "Text": "To avoid splashing pedestrians on the pavements", "ImageUrl": null }, { "QuestionId": "4626", "IsRight": false, "Id": "cf660066-cc0d-4352-ad38-94764d9f9daa", "Text": "To help judge the bend using the drain covers as marker points", "ImageUrl": null }, { "QuestionId": "4626", "IsRight": false, "Id": "e844c2ef-8e04-494a-9278-a7728859cd75", "Text": "To avoid puncturing the tyres on the edge of the drain covers", "ImageUrl": null }, { "QuestionId": "4626", "IsRight": true, "Id": "fa620bad-2667-4fc9-8f54-98b6bee95a4f", "Text": "To prevent the motorcycle sliding on the metal drain covers", "ImageUrl": null } ], "Id": "4626", "Text": " The road is wet and slippery. Why might a motorcyclist steer round drain covers on a bend?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4627", "IsRight": false, "Id": "e019c6d4-1327-4004-8866-55e0c0142318", "Text": "Keep close to the motorcyclist", "ImageUrl": null }, { "QuestionId": "4627", "IsRight": true, "Id": "1cd387c6-48a8-4dbe-9435-9e99b3a04607", "Text": "Keep well back", "ImageUrl": null }, { "QuestionId": "4627", "IsRight": false, "Id": "868c4637-8335-45d8-bb4a-033144574011", "Text": "Stay level with the motorcycle", "ImageUrl": null }, { "QuestionId": "4627", "IsRight": false, "Id": "823f1842-c12e-450f-a85b-8e35c77e42ef", "Text": "Overtake the motorcyclist immediately", "ImageUrl": null } ], "Id": "4627", "Text": " It is very windy. You are behind a motorcyclist who is overtaking a high vehicle. What should you do?", "ImageUrl": null },
-      { "CategoryId": "73b238d7-b987-4f6b-9f1c-25539a3bca44", "SubCategoryId": "CARS7.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4628", "IsRight": false, "Id": "33aed253-ac9c-4edc-90c2-5dcf489d5c64", "Text": "Keep close as you pass", "ImageUrl": null }, { "QuestionId": "4628", "IsRight": true, "Id": "5230059a-daf1-41d1-83df-6dead4983f1e", "Text": "Allow extra room", "ImageUrl": null }, { "QuestionId": "4628", "IsRight": false, "Id": "535c5d8f-7e0e-4ed0-8d41-d68c6166c119", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4628", "IsRight": false, "Id": "caf45fa8-47ef-453b-b404-80d3ee65ef7d", "Text": "Overtake slowly", "ImageUrl": null } ], "Id": "4628", "Text": " It is very blustery and windy. You are about to overtake a motorcyclist. You should:", "ImageUrl": null }
-    ],
-    "Id": "73b238d7-b987-4f6b-9f1c-25539a3bca44",
-    "Text": "OTHER TYPE OF VEHICLES",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.1", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4368", "IsRight": false, "Id": "48d6a0a1-ef9a-47a7-adf7-cd1d5048a902", "Text": "It damages the engine", "ImageUrl": null }, { "QuestionId": "4368", "IsRight": true, "Id": "5e6bf16b-f626-4697-9111-fd50cf3497a2", "Text": "You have less braking and steering control", "ImageUrl": null }, { "QuestionId": "4368", "IsRight": false, "Id": "80c48d06-a8b0-47db-ab35-f7b2b6b0001a", "Text": "It puts more wear and tear on the tyres", "ImageUrl": null }, { "QuestionId": "4368", "IsRight": true, "Id": "bf2cb4f6-0bcd-4539-a930-92454b2a1eb7", "Text": "The vehicle will pick up speed", "ImageUrl": null }, { "QuestionId": "4368", "IsRight": false, "Id": "74991520-2277-4fcd-8f59-5fddfde489d6", "Text": "Fuel consumption will be higher", "ImageUrl": null } ], "Id": "4368", "Text": " What are TWO main reasons why coasting downhill is dangerous or wrong?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4369", "IsRight": false, "Id": "3ad6f6c6-75aa-4a66-bfbd-9e3b2938da26", "Text": "The engine will run faster", "ImageUrl": null }, { "QuestionId": "4369", "IsRight": false, "Id": "26d8864a-b904-42f7-bfbb-0a5c2e8dcdbd", "Text": "It will make the engine stall", "ImageUrl": null }, { "QuestionId": "4369", "IsRight": false, "Id": "28e4949f-2f45-4dc1-95ce-2b4488a353bf", "Text": "It will cause the car to skid", "ImageUrl": null }, { "QuestionId": "4369", "IsRight": true, "Id": "3fff722d-0c0b-4155-bfb8-aadc83d301b4", "Text": "There is no engine braking", "ImageUrl": null } ], "Id": "4369", "Text": " Why is coasting wrong or dangerous?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.4", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4370", "IsRight": true, "Id": "5126058d-163b-4297-a8a0-16d71d389fa0", "Text": "The engine will work harder", "ImageUrl": null }, { "QuestionId": "4370", "IsRight": false, "Id": "2d30af10-4f67-480e-884d-e24ee6c26d6c", "Text": "The steering will feel heavier", "ImageUrl": null }, { "QuestionId": "4370", "IsRight": true, "Id": "9710757c-de81-44c6-b712-6759cc6c9c9f", "Text": "You will slow down sooner", "ImageUrl": null }, { "QuestionId": "4370", "IsRight": false, "Id": "92c3a22a-fffc-4184-ac6b-ceb6819a56b0", "Text": "Higher gears will pull better", "ImageUrl": null }, { "QuestionId": "4370", "IsRight": false, "Id": "7ffc1873-43ed-4929-b525-9455f5840b9f", "Text": "Overtaking will be easier", "ImageUrl": null } ], "Id": "4370", "Text": " Hills can affect the performance of your vehicle. Which TWO apply when driving up steep hills?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4371", "IsRight": false, "Id": "eaded7d1-c216-41b5-8eaa-9e4b79a71ad5", "Text": "After changing gears", "ImageUrl": null }, { "QuestionId": "4371", "IsRight": true, "Id": "b926239a-4a00-4aec-be91-852d3592d234", "Text": "Before the bend", "ImageUrl": null }, { "QuestionId": "4371", "IsRight": false, "Id": "05847a78-e3fa-45bb-8d14-7ff61cdf8fbc", "Text": "After the bend", "ImageUrl": null }, { "QuestionId": "4371", "IsRight": false, "Id": "cc5391a7-5fc7-4f9d-ba8b-801f76eb0747", "Text": "On the bend", "ImageUrl": null } ], "Id": "4371", "Text": " You are approaching a bend at a high speed. You should begin to brake.", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4372", "IsRight": false, "Id": "51fe12b6-8532-4114-b714-1ebd2d066d37", "Text": "Stay close to the other vehicle until it moves on", "ImageUrl": null }, { "QuestionId": "4372", "IsRight": false, "Id": "fe38ceac-032e-43d2-8e27-1a40cca23521", "Text": "Try to overtake safely as soon as you can", "ImageUrl": null }, { "QuestionId": "4372", "IsRight": true, "Id": "86eb4c7b-20a7-41e0-a72b-450bf569b5f0", "Text": "Drop back to regain a safe distance", "ImageUrl": null }, { "QuestionId": "4372", "IsRight": false, "Id": "056ce62c-b56c-4a01-9cce-8f2dfdf12b40", "Text": "Flash your headlights as a warning", "ImageUrl": null } ], "Id": "4372", "Text": " You are following a vehicle at a safe distance on a wet and slippery road. Another driver overtakes you and pulls into the gap you have\nleft. What should you do?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.8", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4373", "IsRight": true, "Id": "ca1bc6cc-0ccd-4bd0-9746-0bbe0d6296ba", "Text": "When the vehicle in front is to turn right", "ImageUrl": null }, { "QuestionId": "4373", "IsRight": false, "Id": "7366bdf3-8734-45f4-ae85-68cbfb0f7b90", "Text": "When a slower vehicle is in the right-hand lane of a dual carriageway", "ImageUrl": null }, { "QuestionId": "4373", "IsRight": true, "Id": "7f7b0b8a-e5be-445d-bdf4-7327fbbbc94e", "Text": "When you are in a one-way street", "ImageUrl": null }, { "QuestionId": "4373", "IsRight": true, "Id": "db553869-9988-475d-9682-af99d7a822da", "Text": "In slow-moving traffic queues when traffic in the right-hand lane is moving more slowly", "ImageUrl": null } ], "Id": "4373", "Text": " In which THREE of these situations may you overtake another vehicle on the inside, or the left?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.9", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4374", "IsRight": false, "Id": "9df381a6-a90d-4542-a658-8de65e3c4eab", "Text": "The street lighting", "ImageUrl": null }, { "QuestionId": "4374", "IsRight": true, "Id": "06399831-0e12-4481-b680-be547a082112", "Text": "The weather", "ImageUrl": null }, { "QuestionId": "4374", "IsRight": false, "Id": "770c3e63-9de2-4cc2-bedc-a91aab461e2b", "Text": "The time of day", "ImageUrl": null }, { "QuestionId": "4374", "IsRight": true, "Id": "891bc14f-c8ad-4c59-b0ed-587e5c323a0a", "Text": "The tyres on your vehicle", "ImageUrl": null }, { "QuestionId": "4374", "IsRight": true, "Id": "7ce3d51f-b085-4cfe-a5ce-60bc72432a9e", "Text": "How fast you are going", "ImageUrl": null } ], "Id": "4374", "Text": " Which THREE of the following will affect your stopping distance?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4375", "IsRight": true, "Id": "79e7492d-a86f-4e1c-9fab-f5569ffe3c40", "Text": "Doubled", "ImageUrl": null }, { "QuestionId": "4375", "IsRight": false, "Id": "15fe3069-f695-4c91-a677-12291cfb51ff", "Text": "No different", "ImageUrl": null }, { "QuestionId": "4375", "IsRight": false, "Id": "d59dd11a-6796-4f41-a958-357bc457e947", "Text": "Up to ten times greater", "ImageUrl": null }, { "QuestionId": "4375", "IsRight": false, "Id": "50356c4b-0bae-4484-a4ed-a15d5b79445d", "Text": "Halved", "ImageUrl": null } ], "Id": "4375", "Text": " You are in a very heavy downpour. Your overall stopping distance is likely to be:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4376", "IsRight": false, "Id": "bae02336-4d8c-4f17-82d8-732310c40fb2", "Text": "Keep two seconds behind other vehicles", "ImageUrl": null }, { "QuestionId": "4376", "IsRight": false, "Id": "41bc0ea1-96e6-4500-99e4-8cb8ca8b4216", "Text": "Never use demisters and windscreens wipers.", "ImageUrl": null }, { "QuestionId": "4376", "IsRight": true, "Id": "f3c676af-0d15-4d41-b4e5-ae32bb01e095", "Text": "Leave plenty of time for your journey", "ImageUrl": null }, { "QuestionId": "4376", "IsRight": false, "Id": "5dadad9c-5ba2-43a2-8c16-c90840ba6eca", "Text": "Follow closely other vehicle's tail lights", "ImageUrl": null } ], "Id": "4376", "Text": " You have to make a journey in foggy conditions. You should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4377", "IsRight": false, "Id": "7cf40159-8811-4e56-92c2-3db740d83116", "Text": "Keep together with the faster vehicles", "ImageUrl": null }, { "QuestionId": "4377", "IsRight": false, "Id": "676b677b-ec74-4053-87f7-cf29e311a37b", "Text": "Use your main beam instead of dipped headlights", "ImageUrl": null }, { "QuestionId": "4377", "IsRight": false, "Id": "3c950212-d605-44f4-8191-78f42a8367be", "Text": "Keep close to the vehicle in front", "ImageUrl": null }, { "QuestionId": "4377", "IsRight": true, "Id": "c647d756-e325-4343-a3a4-6a96370995ed", "Text": "Reduce your speed and increase the gap", "ImageUrl": null } ], "Id": "4377", "Text": " You are following other vehicles in fog with your lights on. How else can you reduce the chances of being involved in an accident?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4378", "IsRight": false, "Id": "4c4c177b-a7ab-4231-a180-2ee49d2bceb1", "Text": "Because the engine's colder", "ImageUrl": null }, { "QuestionId": "4378", "IsRight": false, "Id": "572cc898-713b-4668-9985-51a45143dbe5", "Text": "Because you could be dazzled by other people's fog lights", "ImageUrl": null }, { "QuestionId": "4378", "IsRight": false, "Id": "241601a4-986e-4e51-9094-f1999464e02e", "Text": "Because the brakes do not work as well", "ImageUrl": null }, { "QuestionId": "4378", "IsRight": true, "Id": "ed999ca6-9044-4de8-86c6-dfc691b2574f", "Text": "Because it is more difficult to see events ahead", "ImageUrl": null } ], "Id": "4378", "Text": " Why should you always reduce your speed when driving in fog?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4379", "IsRight": false, "Id": "2fff526e-1fb8-4d23-9dbc-ade03ba9cf53", "Text": "In case its brake lights dazzle you", "ImageUrl": null }, { "QuestionId": "4379", "IsRight": false, "Id": "a83bde4c-10d5-4681-b761-2d6613ad26b5", "Text": "In case its fog lights dazzle you", "ImageUrl": null }, { "QuestionId": "4379", "IsRight": true, "Id": "eb22f770-1111-4f59-abdf-28844a7fafa4", "Text": "In case it stops suddenly", "ImageUrl": null }, { "QuestionId": "4379", "IsRight": false, "Id": "c8cdb134-422f-410c-ae6d-d840534e0f09", "Text": "In case it changes direction suddenly", "ImageUrl": null } ], "Id": "4379", "Text": " You are driving in fog. Why should you keep well back from the vehicle in front?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4380", "IsRight": false, "Id": "1dded19b-0e1c-404a-bd72-8f7ecbf909eb", "Text": "Be useful when towing a trailer", "ImageUrl": null }, { "QuestionId": "4380", "IsRight": false, "Id": "a261b3f7-297e-4cb3-8d78-7c471c642b6e", "Text": "Make following drivers keep back", "ImageUrl": null }, { "QuestionId": "4380", "IsRight": true, "Id": "16320774-f541-4c26-adb4-e7e78a12fa69", "Text": "Dazzle others drivers", "ImageUrl": null }, { "QuestionId": "4380", "IsRight": false, "Id": "7e260540-3ae0-4ae9-a736-df5148d112c1", "Text": "Give extra protection", "ImageUrl": null } ], "Id": "4380", "Text": " Using rear fog lights in clear daylight or tunnels will:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.30", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4381", "IsRight": false, "Id": "ce2b9ae4-d665-49bc-bb63-5564c06bfa1f", "Text": "Wait until a bend so that you can see the oncoming headlights", "ImageUrl": null }, { "QuestionId": "4381", "IsRight": false, "Id": "1552461c-bcbc-4632-848b-22c760158fa4", "Text": "Put headlights on full beam", "ImageUrl": null }, { "QuestionId": "4381", "IsRight": true, "Id": "889aa5c8-11f7-4924-8d8b-ee1ee7b52502", "Text": "Beware of the bends in the road ahead", "ImageUrl": null }, { "QuestionId": "4381", "IsRight": false, "Id": "447cb167-9771-459b-a8e8-2bac23b7d5c0", "Text": "Sound your horn twice before moving out", "ImageUrl": null }, { "QuestionId": "4381", "IsRight": true, "Id": "b133a39d-f777-487f-929a-42d293c0566f", "Text": "Be careful because you can see less", "ImageUrl": null } ], "Id": "4381", "Text": " Which TWO of the following are correct? When overtaking at night you should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4382", "IsRight": false, "Id": "5a50c1b0-35b7-470e-936a-88a998ac35bd", "Text": "Your rear fog lights are switched on", "ImageUrl": null }, { "QuestionId": "4382", "IsRight": false, "Id": "6657ee90-9c35-4546-bde6-761d0a6cff7a", "Text": "You have switched your lights to full beam before overtaking", "ImageUrl": null }, { "QuestionId": "4382", "IsRight": false, "Id": "52736486-3c50-4dac-94d6-75cc5eaf8976", "Text": "You flash your headlamps before overtaking", "ImageUrl": null }, { "QuestionId": "4382", "IsRight": true, "Id": "cc08ecc9-081a-4879-bff1-9811e1d20e6d", "Text": "You do not dazzle other road users", "ImageUrl": null } ], "Id": "4382", "Text": " You are overtaking a car at night. You must be sure that:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4383", "IsRight": false, "Id": "b3a7d61e-49ba-4c92-8fa5-afa955b626d9", "Text": "Put your hand over your eyes", "ImageUrl": null }, { "QuestionId": "4383", "IsRight": true, "Id": "80b9058a-5e15-4879-bd40-c7dfc3b7cdba", "Text": "Slow down or stop", "ImageUrl": null }, { "QuestionId": "4383", "IsRight": false, "Id": "1954de5b-93c7-4c3a-a2cd-5b036424e677", "Text": "Switch on your main beam headlights", "ImageUrl": null }, { "QuestionId": "4383", "IsRight": false, "Id": "622c43a9-ce41-4899-b4f1-922a67a47ac6", "Text": "Pull down your sun visor", "ImageUrl": null } ], "Id": "4383", "Text": " At night  you are dazzled by headlights of vehicles coming towards you. You should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.33", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4384", "IsRight": true, "Id": "a06337c2-d7b4-4a36-a425-6cc6976b81e0", "Text": "Slow down or stop", "ImageUrl": null }, { "QuestionId": "4384", "IsRight": false, "Id": "8576e950-0ed2-4d2e-9ba7-88d467bdfb0f", "Text": "Flash your lights", "ImageUrl": null }, { "QuestionId": "4384", "IsRight": false, "Id": "21ae98d9-8074-4b72-a416-f6d7606b2458", "Text": "Drive faster past the oncoming car", "ImageUrl": null }, { "QuestionId": "4384", "IsRight": false, "Id": "90f61a41-d30d-4a0f-bd0f-911648214857", "Text": "Brake hard", "ImageUrl": null } ], "Id": "4384", "Text": " You are dazzled by headlights of oncoming vehicles when driving at night. What should you do?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.34", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4385", "IsRight": false, "Id": "317fc86c-00cb-4103-9229-7ab01966454d", "Text": "Signal right and sound your horn", "ImageUrl": null }, { "QuestionId": "4385", "IsRight": false, "Id": "9117c078-ddf8-4715-a8f8-daa08ab2abaf", "Text": "Flash your headlights before overtaking", "ImageUrl": null }, { "QuestionId": "4385", "IsRight": false, "Id": "027c722d-bcf2-41cd-ba4b-c6ea74734388", "Text": "Overtake on the left", "ImageUrl": null }, { "QuestionId": "4385", "IsRight": true, "Id": "75521281-c83c-4100-9f44-42f3198db1ae", "Text": "Wait for the signal to be cancelled before overtaking", "ImageUrl": null } ], "Id": "4385", "Text": " You are on a narrow road at night. A slower-moving vehicle ahead has been signalling right for some time. What should you do?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.35", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4386", "IsRight": true, "Id": "774df5ce-ee12-4dd3-8100-256335461803", "Text": "To pull into if the car behind wants to overtake", "ImageUrl": null }, { "QuestionId": "4386", "IsRight": false, "Id": "906cb199-d455-4875-a20f-9902ec685387", "Text": "To turn the car around in  if you are lost", "ImageUrl": null }, { "QuestionId": "4386", "IsRight": false, "Id": "9eb6b7ea-567e-4dda-84d5-0b965b75eb91", "Text": "For stopping and checking your route", "ImageUrl": null }, { "QuestionId": "4386", "IsRight": true, "Id": "cb3c6bf8-5999-4b81-9a57-1dcc4223ad51", "Text": "To pull into if an oncoming vehicle wants to proceed", "ImageUrl": null }, { "QuestionId": "4386", "IsRight": false, "Id": "cf46a386-9d70-4d42-b820-31b9b1c106c1", "Text": "For taking a rest from driving", "ImageUrl": null } ], "Id": "4386", "Text": " Which TWO are correct? The passing places on a narrow single- track road are:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.36", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4387", "IsRight": false, "Id": "9dc15215-9c54-42f1-b059-b6d15fabcda5", "Text": "Put on your hazard warning lights", "ImageUrl": null }, { "QuestionId": "4387", "IsRight": false, "Id": "f6fa8a6f-cd0e-4842-b5b4-b929dffa3039", "Text": "Do an emergency stop", "ImageUrl": null }, { "QuestionId": "4387", "IsRight": true, "Id": "f283a174-c90d-48e2-b3e8-b20fd7e1297b", "Text": "Stop at a passing place", "ImageUrl": null }, { "QuestionId": "4387", "IsRight": false, "Id": "2d2c4537-ab10-45ce-a5db-f4051f670536", "Text": "Reverse back to the main road", "ImageUrl": null } ], "Id": "4387", "Text": " You see a vehicle coming towards you on a narrow single-track road. You should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4629", "IsRight": false, "Id": "838a129a-6e22-4120-9eb1-f9c35fd541a8", "Text": "Flatten the battery", "ImageUrl": null }, { "QuestionId": "4629", "IsRight": false, "Id": "c799876e-4945-4359-bd3a-8c56d0b54543", "Text": "Increase tyre wear", "ImageUrl": null }, { "QuestionId": "4629", "IsRight": false, "Id": "666c35e4-3754-4221-9dda-b512c0f61809", "Text": "Damage the suspension", "ImageUrl": null }, { "QuestionId": "4629", "IsRight": true, "Id": "67b1d38b-a729-4686-9e64-684b0a2a8da5", "Text": "Reduce steering control", "ImageUrl": null } ], "Id": "4629", "Text": " You should avoid 'coasting' your car because it could:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4630", "IsRight": false, "Id": "cf447668-320c-4967-9892-c68716a84f9f", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4630", "IsRight": false, "Id": "31e11515-f2c8-4746-b67b-c32255a33ce7", "Text": "Continue as you are", "ImageUrl": null }, { "QuestionId": "4630", "IsRight": true, "Id": "c16bbcba-144a-4e24-8862-a3232ed87b38", "Text": "Drop back", "ImageUrl": null }, { "QuestionId": "4630", "IsRight": false, "Id": "0e692492-9f90-4650-ac11-b61b226f6c42", "Text": "Move to the right-hand lane", "ImageUrl": null } ], "Id": "4630", "Text": " You are driving in the left-hand lane of a dual carriageway. Another car overtakes and pulls in front of you leaving you without enough\nseparation distance. You should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4631", "IsRight": false, "Id": "eafe03ae-9f03-4673-9b52-d82d7509012e", "Text": "Are always faster than other drivers", "ImageUrl": null }, { "QuestionId": "4631", "IsRight": false, "Id": "2b1f515f-b060-457f-878d-5be56868da6d", "Text": "Are more likely to break down than other motorists", "ImageUrl": null }, { "QuestionId": "4631", "IsRight": false, "Id": "85c649c1-2f2e-4c09-8145-c9762f2c022e", "Text": "Are less experienced that other drivers", "ImageUrl": null }, { "QuestionId": "4631", "IsRight": true, "Id": "87423029-663f-4c09-ad32-56e6bf300fe6", "Text": "Are more difficult to see than other drivers", "ImageUrl": null } ], "Id": "4631", "Text": " Motorcyclists are more at risk to be injured from other road users because they:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4632", "IsRight": false, "Id": "b778b357-c887-41d8-ad39-59a395dc73cb", "Text": "Apply your handbrake", "ImageUrl": null }, { "QuestionId": "4632", "IsRight": false, "Id": "96573c4e-8d9f-4856-9c0b-6f3b681e343b", "Text": "Steer away from it", "ImageUrl": null }, { "QuestionId": "4632", "IsRight": true, "Id": "9fdad6d4-90f4-4f0e-8902-4bdbda1aa33a", "Text": "Steer into it", "ImageUrl": null }, { "QuestionId": "4632", "IsRight": false, "Id": "62038225-9766-4110-9cfe-a4829522cef2", "Text": "Not steer at all", "ImageUrl": null } ], "Id": "4632", "Text": " To correct a rear-wheel skid you should:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4633", "IsRight": false, "Id": "fae4e392-2350-4742-9683-1ef1958d07b6", "Text": "Fading", "ImageUrl": null }, { "QuestionId": "4633", "IsRight": false, "Id": "f9495c82-fd43-4aed-a8c4-289c5fb38c1e", "Text": "Weaving", "ImageUrl": null }, { "QuestionId": "4633", "IsRight": true, "Id": "562c7ffb-56f6-4351-8aca-bf5aeadde7df", "Text": "Aquaplaning", "ImageUrl": null }, { "QuestionId": "4633", "IsRight": false, "Id": "c11d3f6d-6a43-478b-9656-95ca929c9e2a", "Text": "Hosing", "ImageUrl": null } ], "Id": "4633", "Text": " You are driving in very wet weather. Your vehicle begins to slide. This affect is called:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.14", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4634", "IsRight": false, "Id": "d89c6fef-575e-4743-a62b-b9d759129d11", "Text": "Top up the radiator with antifreeze", "ImageUrl": null }, { "QuestionId": "4634", "IsRight": true, "Id": "84c0c231-0e52-4f29-8773-1698c481ad58", "Text": "Check that your lights are working", "ImageUrl": null }, { "QuestionId": "4634", "IsRight": false, "Id": "b03642a0-11d3-4ff2-b84a-3d8e940de94f", "Text": "Check the battery", "ImageUrl": null }, { "QuestionId": "4634", "IsRight": true, "Id": "fb9c7737-76ea-420d-953b-3c9c3e943eb3", "Text": "Make sure that the windows are clean", "ImageUrl": null }, { "QuestionId": "4634", "IsRight": false, "Id": "ac3943d4-28f8-46f1-9a18-498c4dfc39af", "Text": "Make sure that you have a warning triangle in the vehicle", "ImageUrl": null } ], "Id": "4634", "Text": " You have to make a journey in fog. What are the TWO most important things you should do before you set out?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4635", "IsRight": true, "Id": "27f6aba4-4605-401a-9f70-31e63d131dac", "Text": "Visibility is seriously reduced", "ImageUrl": null }, { "QuestionId": "4635", "IsRight": false, "Id": "f4e0cb5f-a892-47be-ae6a-78492067a4cd", "Text": "An audible warning device is used", "ImageUrl": null }, { "QuestionId": "4635", "IsRight": false, "Id": "80ce26d8-a6dd-42a1-9aa2-25aa1b416550", "Text": "They are not as bright as the headlights", "ImageUrl": null }, { "QuestionId": "4635", "IsRight": false, "Id": "2d5fac5c-8ea1-4b21-8c1f-5af8516306f6", "Text": "They are fitted above the bumper", "ImageUrl": null } ], "Id": "4635", "Text": " Front fog lights may be used ONLY if:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4636", "IsRight": false, "Id": "90b21cd7-fc0c-4803-b052-73ae9db87d0c", "Text": "During 'lighting up' times only", "ImageUrl": null }, { "QuestionId": "4636", "IsRight": true, "Id": "eb44aa64-8813-4fd9-a61e-b27ffece349a", "Text": "When visibility is seriously reduced", "ImageUrl": null }, { "QuestionId": "4636", "IsRight": false, "Id": "ea0ad6c9-a640-495d-9edf-2420f029af05", "Text": "Between dusk and dawn", "ImageUrl": null }, { "QuestionId": "4636", "IsRight": false, "Id": "84d2bc58-ce7b-4aae-b188-c865e7cb0a48", "Text": "If they are not as bright as the headlights", "ImageUrl": null } ], "Id": "4636", "Text": " Front fog lights may be used ONLY if:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4637", "IsRight": false, "Id": "597d77eb-c359-4f69-b22e-a1bcb10d5ebd", "Text": "They were fitted by the vehicle manufacturer", "ImageUrl": null }, { "QuestionId": "4637", "IsRight": false, "Id": "e1a995b5-537a-4842-b920-06335951c008", "Text": "They are operated with rear fog lights", "ImageUrl": null }, { "QuestionId": "4637", "IsRight": false, "Id": "731e6049-0ae7-4f2f-9893-be53fa334ccc", "Text": "Your headlights are not working", "ImageUrl": null }, { "QuestionId": "4637", "IsRight": true, "Id": "513395e9-d5d0-499f-97a5-d3c5fde401d6", "Text": "Visibility is seriously reduced", "ImageUrl": null } ], "Id": "4637", "Text": " Front fog lights may be used ONLY if:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4638", "IsRight": false, "Id": "61d3352b-68c5-4bb0-a377-9710b39f93f2", "Text": "Fitted by manufacturer", "ImageUrl": null }, { "QuestionId": "4638", "IsRight": false, "Id": "f21bcc5a-ac3a-42cd-8294-604ef4e42f71", "Text": "You wish to overtake in bad weather", "ImageUrl": null }, { "QuestionId": "4638", "IsRight": true, "Id": "6421b4ed-6c8a-4ef9-b61d-8bf779755382", "Text": "Visibility is seriously reduced", "ImageUrl": null }, { "QuestionId": "4638", "IsRight": false, "Id": "a1723f24-8190-4d3f-b44d-57b3958218f0", "Text": "They prevent headlights glare on a wet road", "ImageUrl": null } ], "Id": "4638", "Text": " Front fog lights may be used ONLY if:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4639", "IsRight": false, "Id": "fc5117c9-f7c6-4555-becb-0183e075da99", "Text": "Driving after midnight", "ImageUrl": null }, { "QuestionId": "4639", "IsRight": true, "Id": "73f0189c-8d29-4e42-84cd-88322224622f", "Text": "Visibility is seriously reduced", "ImageUrl": null }, { "QuestionId": "4639", "IsRight": false, "Id": "e3732457-1330-41b5-b424-bd138b5ef1d8", "Text": "Daylight is fading", "ImageUrl": null }, { "QuestionId": "4639", "IsRight": false, "Id": "530f38c4-64fc-4b58-b6bd-f4b3f508f9e1", "Text": "In very light rain", "ImageUrl": null } ], "Id": "4639", "Text": " Fog lights should be used ONLY when:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4640", "IsRight": false, "Id": "d7eda466-1873-4237-b830-ae25a1c657e0", "Text": "Increase your awareness", "ImageUrl": null }, { "QuestionId": "4640", "IsRight": true, "Id": "e23dc6d5-d293-4190-8c57-7464cb52a9d2", "Text": "Dazzle other drivers", "ImageUrl": null }, { "QuestionId": "4640", "IsRight": false, "Id": "9143cfb7-60e3-4690-9018-8aa16dda27dc", "Text": "Improve your visibility", "ImageUrl": null }, { "QuestionId": "4640", "IsRight": false, "Id": "aada5b1c-0ce2-4071-b405-b06758bcc41e", "Text": "Flatten the battery", "ImageUrl": null } ], "Id": "4640", "Text": " Using front/rear fog lights in good visibility will:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.26", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4641", "IsRight": true, "Id": "db861584-2cad-4988-9ea2-2eaf25f6b0ff", "Text": "Dazzle following drivers", "ImageUrl": null }, { "QuestionId": "4641", "IsRight": false, "Id": "ab2fa755-6080-4e30-b8ad-c10f141c3ec0", "Text": "Help your indicators to be seen more clearly", "ImageUrl": null }, { "QuestionId": "4641", "IsRight": true, "Id": "f3308f7f-b4ed-4a7a-a45d-fd618b187dbe", "Text": "Make other drivers think you are braking", "ImageUrl": null }, { "QuestionId": "4641", "IsRight": false, "Id": "96734be2-c630-4aa8-acc1-a78ce7640e2f", "Text": "Give a better view of the road ahead", "ImageUrl": null }, { "QuestionId": "4641", "IsRight": false, "Id": "13a5827b-0600-4eef-849c-b80a9089a7d2", "Text": "Reduce glare from the road surface", "ImageUrl": null } ], "Id": "4641", "Text": " You are driving on a clear dry night with your rear fog lights switched on. This may:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.27", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4642", "IsRight": true, "Id": "c543313b-6b9a-441a-a8c9-f4be65b4a8e8", "Text": "Following drivers can be dazzled", "ImageUrl": null }, { "QuestionId": "4642", "IsRight": false, "Id": "dfb07453-2563-4d35-afdb-066d0682a5af", "Text": "Electrical systems could be overloaded", "ImageUrl": null }, { "QuestionId": "4642", "IsRight": false, "Id": "5c64b1de-ec17-45e5-9444-0c761d325bbd", "Text": "The battery could fail", "ImageUrl": null }, { "QuestionId": "4642", "IsRight": false, "Id": "e902e00a-a2ea-4096-ae5d-ec2e481be391", "Text": "Direction indicators may not work properly", "ImageUrl": null }, { "QuestionId": "4642", "IsRight": true, "Id": "493f6f25-0b4d-4569-92ba-91ca7ac3405b", "Text": "Brake lights are less clear", "ImageUrl": null } ], "Id": "4642", "Text": " Why is it dangerous to leave rear fog lights on when they are not needed?", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4643", "IsRight": false, "Id": "3ad19c92-e6df-4650-b567-bc896182e215", "Text": "Increase your speed", "ImageUrl": null }, { "QuestionId": "4643", "IsRight": false, "Id": "a7151ffa-e5f3-4cb3-869d-eaf4bbf2a05a", "Text": "Keep them on", "ImageUrl": null }, { "QuestionId": "4643", "IsRight": false, "Id": "082861d3-efbf-4bba-9eed-b8e576bb5ff8", "Text": "Maintain your speed", "ImageUrl": null }, { "QuestionId": "4643", "IsRight": true, "Id": "1ec9035d-90fa-48d6-9d06-ba2f37a0c1ba", "Text": "Switch them off", "ImageUrl": null } ], "Id": "4643", "Text": " You are driving in thick fog using fog lights. When visibility improves you MUST:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4644", "IsRight": false, "Id": "f29ddd7d-afe8-4f7c-9133-55090b69acb4", "Text": "Switched off in night-time fog", "ImageUrl": null }, { "QuestionId": "4644", "IsRight": false, "Id": "567a6c6c-7a40-44a0-861d-a4fb6f58c8a2", "Text": "Used outside built up areas only", "ImageUrl": null }, { "QuestionId": "4644", "IsRight": false, "Id": "b25fedc2-179c-4be2-a551-c2ffa882a3c1", "Text": "Connected to an audible warning signal", "ImageUrl": null }, { "QuestionId": "4644", "IsRight": true, "Id": "fcf68a13-c305-4813-b0b5-aad37cb08611", "Text": "Switched off if visibility is not seriously reduced", "ImageUrl": null } ], "Id": "4644", "Text": " Front and rear fog lights MUST be:", "ImageUrl": null },
-      { "CategoryId": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5", "SubCategoryId": "CARS8.38", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4645", "IsRight": true, "Id": "4f9e9e47-dee8-45ac-98d0-1acaa4a38de2", "Text": "Both hands on the steering wheel at all times and only when a change of gear or operation of controls is necessary", "ImageUrl": null }, { "QuestionId": "4645", "IsRight": false, "Id": "3839adea-1871-49c9-acd9-a8f372dd2c86", "Text": "One hand on the steering wheel and the other simply hanging out of the window to catch the breeze and look cool", "ImageUrl": null }, { "QuestionId": "4645", "IsRight": false, "Id": "ff43c40c-641f-4c7b-bba5-4926ec048077", "Text": "One hand on the steering wheel and the other being used to hold a mobile phone.", "ImageUrl": null }, { "QuestionId": "4645", "IsRight": false, "Id": "d00f8f24-562a-4b29-a563-3cf67cd8ce81", "Text": "One hand on the steering wheel and the other grasping the gear lever for the most part to facilitate instant gear changing", "ImageUrl": null } ], "Id": "4645", "Text": " Which statement represents being in safe control of your vehicle?", "ImageUrl": null }
-    ],
-    "Id": "8cdaeb6a-ad62-446d-9d4b-a20143c347c5",
-    "Text": "VEHICLE HANDLING",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4388", "IsRight": false, "Id": "3a1a3bdb-2f6a-4c71-bfa5-5bd602ebf258", "Text": "Position your vehicle in the centre lane", "ImageUrl": null }, { "QuestionId": "4388", "IsRight": false, "Id": "1477eb85-e156-4217-969c-ed2b6bde3091", "Text": "Readjust your mirrors", "ImageUrl": null }, { "QuestionId": "4388", "IsRight": false, "Id": "3f508350-affa-42c1-9cb9-b4f00aa5690d", "Text": "Try to overtake", "ImageUrl": null }, { "QuestionId": "4388", "IsRight": true, "Id": "d922ff97-8327-46ac-be12-dc125f3d0844", "Text": "Keep in the left lane", "ImageUrl": null } ], "Id": "4388", "Text": " As soon as you join a dual carriageway you should normally:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4389", "IsRight": false, "Id": "2fa3c674-7fd4-41c5-89cc-b86a3b97661c", "Text": "Come to a stop before joining the dual carriageway", "ImageUrl": null }, { "QuestionId": "4389", "IsRight": false, "Id": "e3cacaf5-9039-4095-b5b3-b3601f50c2b0", "Text": "Stop at the end of the acceleration lane", "ImageUrl": null }, { "QuestionId": "4389", "IsRight": false, "Id": "6f284fd3-b860-46ba-a62b-3d1cd649f81f", "Text": "Use the hard shoulder", "ImageUrl": null }, { "QuestionId": "4389", "IsRight": true, "Id": "6ccfcbc8-e7c5-435c-989a-187225878a93", "Text": "Give way to traffic already on the dual carriageway", "ImageUrl": null } ], "Id": "4389", "Text": " When joining a dual carriageway you must always:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4390", "IsRight": false, "Id": "125b5a6f-8ffd-48d5-9fcd-9955802a1b0b", "Text": "Try to keep above 50 kph to prevent congestion", "ImageUrl": null }, { "QuestionId": "4390", "IsRight": true, "Id": "6b1bd40b-c7de-4793-b8a2-ed337c3531c0", "Text": "Keep to the left lane unless overtaking", "ImageUrl": null }, { "QuestionId": "4390", "IsRight": false, "Id": "f972f8b5-1715-4b5a-870e-7c79f6a1b1c6", "Text": "Overtake on the side that is clearest", "ImageUrl": null }, { "QuestionId": "4390", "IsRight": false, "Id": "de46d253-19dd-4a70-91a9-19a34d9f6ae6", "Text": "Use the lane that has least traffic", "ImageUrl": null } ], "Id": "4390", "Text": " A fundamental rule when driving on a dual carriageway is:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4391", "IsRight": false, "Id": "d3e53e7f-afad-4c2c-8e11-16f63647ceff", "Text": "There is a police speed check up ahead", "ImageUrl": null }, { "QuestionId": "4391", "IsRight": false, "Id": "a8ed2f56-1fd5-4ef3-a51c-dd48403254a2", "Text": "The other car is going to change lanes", "ImageUrl": null }, { "QuestionId": "4391", "IsRight": true, "Id": "c338f447-9c17-4f51-a5bb-3552d4dcaac3", "Text": "Traffic ahead is slowing or stopping suddenly", "ImageUrl": null }, { "QuestionId": "4391", "IsRight": false, "Id": "57d114f1-70c7-4fa2-b7d2-0ef267b8cdb3", "Text": "The driver wants you to overtake", "ImageUrl": null } ], "Id": "4391", "Text": " You are driving on a dual carriageway and the car ahead shows its hazard lights for a short time. This tells you that:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4392", "IsRight": true, "Id": "ccbd5328-d90b-42d7-8e3a-48bd5f18c329", "Text": "Switch on your hazard lights", "ImageUrl": null }, { "QuestionId": "4392", "IsRight": false, "Id": "2be4a42e-cc81-4572-95e5-2d71d8d764e2", "Text": "Flash your headlights", "ImageUrl": null }, { "QuestionId": "4392", "IsRight": false, "Id": "e2587086-ad44-4b59-96e2-10a1cec0ffd8", "Text": "Sound your horn", "ImageUrl": null }, { "QuestionId": "4392", "IsRight": false, "Id": "98bad8f8-754e-43ea-b738-838837e37f00", "Text": "Switch on your headlights", "ImageUrl": null } ], "Id": "4392", "Text": " You are driving on a dual carriageway. You have to slow down quickly due to a hazard. You should:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.6", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4393", "IsRight": false, "Id": "e51be002-ddea-42c1-befc-982ffc8e63b2", "Text": "Coastguard", "ImageUrl": null }, { "QuestionId": "4393", "IsRight": true, "Id": "8cdeb4c4-341d-4804-a8c5-be4eaa42ff7a", "Text": "Maintenance vehicles", "ImageUrl": null }, { "QuestionId": "4393", "IsRight": false, "Id": "1ab5dbfe-9903-46e5-bc46-dcf43c087e8a", "Text": "Blood transfusion team", "ImageUrl": null }, { "QuestionId": "4393", "IsRight": true, "Id": "a5f428cb-411b-41a6-bb35-8932bda9cc2a", "Text": "Breakdown recovery vehicles", "ImageUrl": null }, { "QuestionId": "4393", "IsRight": false, "Id": "b5470bca-2635-4a6f-b113-d4e637e3be48", "Text": "Doctor's car", "ImageUrl": null } ], "Id": "4393", "Text": " Which vehicles are normally fitted with amber flashing beacons on the roof?", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4394", "IsRight": true, "Id": "298b8aaa-56e8-40c9-9b2c-9a4f23eb4cc4", "Text": "Stopping in an emergency", "ImageUrl": null }, { "QuestionId": "4394", "IsRight": false, "Id": "34f4d36b-2092-48ac-a199-d2682eea17e2", "Text": "Joining the dual-carriageway", "ImageUrl": null }, { "QuestionId": "4394", "IsRight": false, "Id": "eccc0fe4-3579-468d-9d53-0de7a2e03880", "Text": "Stopping when you are tired", "ImageUrl": null }, { "QuestionId": "4394", "IsRight": false, "Id": "ea13964a-65ba-4f5c-ab63-2a89b432b025", "Text": "Leaving the dual-carriageway", "ImageUrl": null } ], "Id": "4394", "Text": " What should you use the hard shoulder of a multi-lane- carriageway for?", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4395", "IsRight": false, "Id": "44b1deb6-99fc-4780-b710-6e5fc32b07db", "Text": "Wait on the hard shoulder until someone flashes their headlights at you", "ImageUrl": null }, { "QuestionId": "4395", "IsRight": false, "Id": "7e0f357f-f84d-4ae0-b71a-79a746500de7", "Text": "Move out onto the carriageway using your hazard lights", "ImageUrl": null }, { "QuestionId": "4395", "IsRight": true, "Id": "e5b42e23-00fe-4f4b-a62c-c65692bfb5d2", "Text": "Gain speed on the hard shoulder before moving out onto the carriageway", "ImageUrl": null }, { "QuestionId": "4395", "IsRight": false, "Id": "043ab119-471f-4ead-8171-ad0da99a3171", "Text": "Move out onto the carriageway then build up your speed", "ImageUrl": null } ], "Id": "4395", "Text": " After a breakdown you need to rejoin the main carriageway of a multi-lane-carriageway from the hard shoulder. You should:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4396", "IsRight": false, "Id": "25f6cd5a-1388-4594-be93-a286e5c7571c", "Text": "Three seconds", "ImageUrl": null }, { "QuestionId": "4396", "IsRight": false, "Id": "1d9e593b-561d-4afe-a94e-0299a849159c", "Text": "One second", "ImageUrl": null }, { "QuestionId": "4396", "IsRight": false, "Id": "d7c014f1-0193-4572-b331-0a2e23db2585", "Text": "Four seconds", "ImageUrl": null }, { "QuestionId": "4396", "IsRight": true, "Id": "277b12d9-7ac3-474b-9bf3-c6249aaf8a4a", "Text": "Two seconds", "ImageUrl": null } ], "Id": "4396", "Text": " The minimum safe time gap to keep between you and the vehicle in front in good conditions is at least:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4397", "IsRight": false, "Id": "7352f617-bb96-461a-bae2-6f352d053203", "Text": "In any lane", "ImageUrl": null }, { "QuestionId": "4397", "IsRight": true, "Id": "9e87f794-1084-48cd-b5be-ab3cf8b1cce6", "Text": "In the left-hand lane", "ImageUrl": null }, { "QuestionId": "4397", "IsRight": false, "Id": "808a8e97-8c4d-4262-aa17-8830d9d19cb8", "Text": "On the hard shoulder", "ImageUrl": null }, { "QuestionId": "4397", "IsRight": false, "Id": "e1132c0b-3b3a-473d-a4b0-122bc1562efb", "Text": "In the middle lane", "ImageUrl": null } ], "Id": "4397", "Text": " You are intending to leave the multi-lane-carriageway at the next exit. Before you reach the exit you should normally position your\nvehicle:", "ImageUrl": null },
-      { "CategoryId": "09fce187-1eea-4635-9f48-3d9e7ec36065", "SubCategoryId": "CARS9.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4398", "IsRight": false, "Id": "982ee3e0-9857-4fbc-b555-54ee88990d86", "Text": "Make a U-turn at the next gap in the central reservation", "ImageUrl": null }, { "QuestionId": "4398", "IsRight": true, "Id": "8c316966-4cfb-4a73-be7f-767130056d74", "Text": "Carry on to the next exit", "ImageUrl": null }, { "QuestionId": "4398", "IsRight": false, "Id": "219ee392-c079-4e44-8e08-d9b1314bc1cd", "Text": "Carefully reverse in the left-hand lane", "ImageUrl": null }, { "QuestionId": "4398", "IsRight": false, "Id": "65408448-4467-44f4-a4dc-13038e09e54a", "Text": "Carefully reverse on the hard shoulder", "ImageUrl": null } ], "Id": "4398", "Text": " You are driving on a multi-lane- carriageway. By mistake, you go past the exit that you wanted to take. You should:", "ImageUrl": null }
-    ],
-    "Id": "09fce187-1eea-4635-9f48-3d9e7ec36065",
-    "Text": "DUAL CARRIAGEWAY RULES",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4399", "IsRight": false, "Id": "76ea42c6-395a-4ffa-8558-9f2430528d01", "Text": "If no pedestrians are near", "ImageUrl": null }, { "QuestionId": "4399", "IsRight": false, "Id": "e5fd185d-3935-4e3f-a997-762c4e68594f", "Text": "When the pavement is very wide", "ImageUrl": null }, { "QuestionId": "4399", "IsRight": false, "Id": "57e6dc67-1f8e-4dcc-8a53-85601cf4f8ef", "Text": "To overtake slow-moving traffic", "ImageUrl": null }, { "QuestionId": "4399", "IsRight": true, "Id": "88e9dad1-dbb9-4b8f-ac88-179e18b7103a", "Text": "To gain lawful access into a property", "ImageUrl": null } ], "Id": "4399", "Text": " You may drive over a footpath:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4400", "IsRight": false, "Id": "5484d93c-912f-44bf-8144-b3297c1d092e", "Text": "100kph", "ImageUrl": null }, { "QuestionId": "4400", "IsRight": false, "Id": "bb36e03a-cc06-480e-8864-7cf72dcba30e", "Text": "60kph", "ImageUrl": null }, { "QuestionId": "4400", "IsRight": true, "Id": "b81cbaa0-fa25-4243-ada5-db1aad71a960", "Text": "80kph", "ImageUrl": null }, { "QuestionId": "4400", "IsRight": false, "Id": "ba3d964e-b65e-4e6e-9bed-02fbf3ce8052", "Text": "50 kph", "ImageUrl": null } ], "Id": "4400", "Text": " What is the national speed limit outside built up areas unless otherwise indicated  for cars and motorcycles?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4401", "IsRight": false, "Id": "25e5bddb-2872-456f-b4be-a8beca9fb81e", "Text": "50kph", "ImageUrl": null }, { "QuestionId": "4401", "IsRight": false, "Id": "0e8ab55c-987d-4a9a-af6e-e8f63ddedc9d", "Text": "70kph", "ImageUrl": null }, { "QuestionId": "4401", "IsRight": true, "Id": "fe5811a2-1493-4862-abc3-3253002a29af", "Text": "80kph", "ImageUrl": null }, { "QuestionId": "4401", "IsRight": false, "Id": "181bc4a9-0fdd-4736-9452-6b524ceec357", "Text": "100kph", "ImageUrl": null } ], "Id": "4401", "Text": " What is the national speed limit unless otherwise indicated  on dual carriageways for cars and motorcycles?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.7", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4402", "IsRight": true, "Id": "b37ad1c3-ccdd-4aec-91bc-7f4c8b55be0b", "Text": "Children may run out from between the vehicles", "ImageUrl": null }, { "QuestionId": "4402", "IsRight": true, "Id": "26768203-58ff-4177-ac43-44d91ee5edfe", "Text": "Drivers' doors may open", "ImageUrl": null }, { "QuestionId": "4402", "IsRight": true, "Id": "d1a73ce6-7ceb-4252-948e-a9171a6feb08", "Text": "Vehicles may be pulling out", "ImageUrl": null }, { "QuestionId": "4402", "IsRight": false, "Id": "689377d3-966e-4966-88ee-ecf2bbe0002f", "Text": "You may set off car alarms", "ImageUrl": null }, { "QuestionId": "4402", "IsRight": false, "Id": "cfdc1c5b-6516-43ba-892f-ddb6049bc68e", "Text": "So that oncoming traffic can see you more clearly", "ImageUrl": null } ], "Id": "4402", "Text": " You are driving along a street with parked vehicles on the left-hand side. For which THREE reasons should you keep your speed down?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4403", "IsRight": false, "Id": "1057f6bb-ce17-4b32-b4a5-4017d37c4de4", "Text": "Accelerate to get past first", "ImageUrl": null }, { "QuestionId": "4403", "IsRight": true, "Id": "975a5fb3-f315-40bc-9b24-818f13d01c56", "Text": "Give way to oncoming traffic", "ImageUrl": null }, { "QuestionId": "4403", "IsRight": false, "Id": "bac5f0a9-dc01-4c39-a435-63f957b0455e", "Text": "Wave oncoming vehicles through", "ImageUrl": null }, { "QuestionId": "4403", "IsRight": false, "Id": "6ca4dc9c-f7ae-4746-8dc6-93062e2fd773", "Text": "Drive on; it is your right of way", "ImageUrl": null } ], "Id": "4403", "Text": " You meet an obstruction on your side of the road. You should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4404", "IsRight": false, "Id": "5cc255c5-7104-4213-a4a2-8f7954bc5988", "Text": "Speed through but flash your lights to oncoming traffic", "ImageUrl": null }, { "QuestionId": "4404", "IsRight": false, "Id": "013fa446-747e-458e-bafa-fd1dea2d9e24", "Text": "Sound your horn to the slow vehicle to pull over", "ImageUrl": null }, { "QuestionId": "4404", "IsRight": false, "Id": "e7bf5c0a-b1de-444c-99ae-28dfac2dfbf2", "Text": "Follow another overtaking vehicle through", "ImageUrl": null }, { "QuestionId": "4404", "IsRight": true, "Id": "a131c64f-9eef-4c7b-9989-f454dddb6f5c", "Text": "Not overtake if you are in doubt", "ImageUrl": null } ], "Id": "4404", "Text": " There is a tractor ahead of you. You wish to overtake but you are NOT sure if it is safe to do so. You should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.10", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4405", "IsRight": false, "Id": "029e6764-daaa-4c55-a3f2-4f92f73dbd73", "Text": "Bread vans", "ImageUrl": null }, { "QuestionId": "4405", "IsRight": true, "Id": "cecd5f83-5aa3-4303-b513-a576e7344e10", "Text": "Horse riders", "ImageUrl": null }, { "QuestionId": "4405", "IsRight": false, "Id": "cd044bed-a929-4bc5-9e0f-0b16c4c8e59f", "Text": "Delivery vans", "ImageUrl": null }, { "QuestionId": "4405", "IsRight": true, "Id": "cdd10e98-4887-4f85-bd6b-1fc152420eee", "Text": "Long vehicles", "ImageUrl": null }, { "QuestionId": "4405", "IsRight": true, "Id": "15fab2d7-ab2b-482f-8a2b-177a918b40a5", "Text": "Cyclists", "ImageUrl": null }, { "QuestionId": "4405", "IsRight": false, "Id": "db384213-3618-4272-a67f-d0eba709f2ba", "Text": "Estate cars", "ImageUrl": null } ], "Id": "4405", "Text": " Which three of the following are most likely to take an unusual course at roundabouts?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4406", "IsRight": false, "Id": "3c01177f-359a-4848-acdf-d9ce04471e8e", "Text": "When in a 40 kph zone", "ImageUrl": null }, { "QuestionId": "4406", "IsRight": false, "Id": "7ba1cd13-8a87-4279-aec9-64fbb10e0def", "Text": "If the battery is flat", "ImageUrl": null }, { "QuestionId": "4406", "IsRight": false, "Id": "42304d7e-eb4a-4c24-a5d6-eb068f5bead0", "Text": "If you will be parked for less than five minutes", "ImageUrl": null }, { "QuestionId": "4406", "IsRight": true, "Id": "3b948f7d-efcf-4474-bca7-d75d352ab244", "Text": "Not on any occasion", "ImageUrl": null } ], "Id": "4406", "Text": " You are leaving your vehicle parked on a road. When may you leave the engine running?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.12", "CorrectAnswersNumber": 5, "Answers": [ { "QuestionId": "4407", "IsRight": false, "Id": "cab4cabc-56ef-4fcb-a34b-2851e572b321", "Text": "On the slope of a hill", "ImageUrl": null }, { "QuestionId": "4407", "IsRight": true, "Id": "effa6840-901c-4307-a466-e891530830d4", "Text": "On the brow of a hill", "ImageUrl": null }, { "QuestionId": "4407", "IsRight": true, "Id": "692b8885-e38d-42cc-ba66-79ebc4ce07d1", "Text": "In front of someone else's drive-way/garage", "ImageUrl": null }, { "QuestionId": "4407", "IsRight": true, "Id": "e2a53d6b-7ade-46d5-8a47-daec9536afd8", "Text": "Opposite a traffic island", "ImageUrl": null }, { "QuestionId": "4407", "IsRight": true, "Id": "19a2d31d-b49f-48eb-aa3e-fb5316b4811a", "Text": "On a dual carriageway", "ImageUrl": null }, { "QuestionId": "4407", "IsRight": true, "Id": "416e2b35-8a1c-45ca-baa6-fe17317dbba3", "Text": "At a bus stop", "ImageUrl": null } ], "Id": "4407", "Text": " In which Five places must you NOT park or wait?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4408", "IsRight": true, "Id": "0dfc0c4e-4556-40bc-abe7-6edabc126099", "Text": "5 meters   (16 feet)", "ImageUrl": null }, { "QuestionId": "4408", "IsRight": false, "Id": "4015b593-241a-4b15-8596-6de6b78256d9", "Text": "15 meters (49 feet)", "ImageUrl": null }, { "QuestionId": "4408", "IsRight": false, "Id": "29060db0-47ac-4908-ad5b-d8220381944c", "Text": "12 meters (39 feet)", "ImageUrl": null }, { "QuestionId": "4408", "IsRight": false, "Id": "b8736e69-63b7-4dd7-acc9-3cab73808f16", "Text": "10 meters (32 feet)", "ImageUrl": null } ], "Id": "4408", "Text": " What is the nearest you may park your vehicle to a junction?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4409", "IsRight": false, "Id": "c8cfb07f-8ba1-47fa-97cb-0561d1d15036", "Text": "Yes  if you don't block people from crossing", "ImageUrl": null }, { "QuestionId": "4409", "IsRight": false, "Id": "64175b8f-db84-4735-8c78-55046f89456a", "Text": "Yes  in order to drop off a passenger", "ImageUrl": null }, { "QuestionId": "4409", "IsRight": false, "Id": "5675ce18-7c06-4e2b-a800-6303c330dd4d", "Text": "No  unless you stay with your car", "ImageUrl": null }, { "QuestionId": "4409", "IsRight": true, "Id": "111d3cee-d7af-4892-b3c1-20803567b5bc", "Text": "No  not under any circumstances", "ImageUrl": null } ], "Id": "4409", "Text": " You are finding it difficult to find a parking place in a busy town. You can see there is space on the zigzag lines of a zebra crossing. Can you\npark there?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.15", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4410", "IsRight": true, "Id": "887ccc68-64ed-4520-8f03-e0df7b47e5da", "Text": "At a bus stop", "ImageUrl": null }, { "QuestionId": "4410", "IsRight": false, "Id": "94537672-c221-4aff-b4df-9e2d0c364ea6", "Text": "In a one-way street", "ImageUrl": null }, { "QuestionId": "4410", "IsRight": false, "Id": "d728e871-c8d5-4f61-a928-ec3ebd525f83", "Text": "In a side road", "ImageUrl": null }, { "QuestionId": "4410", "IsRight": true, "Id": "06beb5f2-f1e3-4d1f-910c-04df83fd8d16", "Text": "Near a school entrance", "ImageUrl": null }, { "QuestionId": "4410", "IsRight": false, "Id": "3fba4e6b-de4f-47ce-a358-097424648661", "Text": "Near a police station", "ImageUrl": null } ], "Id": "4410", "Text": " In which TWO places must you NOT park?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4411", "IsRight": false, "Id": "ef56e8f9-cc5b-4996-8471-d99a819ea93d", "Text": "Use these spaces  disabled or not", "ImageUrl": null }, { "QuestionId": "4411", "IsRight": false, "Id": "083a27dd-c8d1-40a1-ab9f-25ee46be56d8", "Text": "Park if you stay with your vehicle", "ImageUrl": null }, { "QuestionId": "4411", "IsRight": false, "Id": "3c9c12b8-6dc2-4020-8b5b-2e7feaa0b35c", "Text": "Use these spaces when elsewhere is full", "ImageUrl": null }, { "QuestionId": "4411", "IsRight": true, "Id": "b387831e-6fc0-446b-aa68-38cc1f84dc91", "Text": "Not park there unless permitted", "ImageUrl": null } ], "Id": "4411", "Text": " You are looking for somewhere to park your vehicle. The area is full EXCEPT for spaces marked 'disabled use'. You can:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4412", "IsRight": false, "Id": "013b7dd6-3a71-4ba6-ab68-d655ac51b5f8", "Text": "Only if the other driver dips his headlights", "ImageUrl": null }, { "QuestionId": "4412", "IsRight": false, "Id": "1d433f0b-f667-4c53-b450-589b58dfd1fd", "Text": "Before the vehicles starts to pass you", "ImageUrl": null }, { "QuestionId": "4412", "IsRight": false, "Id": "1fc310d7-f436-48e1-9725-39e7bd483dab", "Text": "Some time after the vehicles has passed you", "ImageUrl": null }, { "QuestionId": "4412", "IsRight": true, "Id": "a9006cf3-9d7c-412a-b701-67cb92a4a94d", "Text": "As soon as the vehicle passes you", "ImageUrl": null } ], "Id": "4412", "Text": " You are driving at night with full- beam headlights on. A vehicle is overtaking you. You should dip your lights:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.19", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4413", "IsRight": true, "Id": "eff5685c-9c1f-498a-b9cd-84b6a6053956", "Text": "Overtaking", "ImageUrl": null }, { "QuestionId": "4413", "IsRight": false, "Id": "51695c77-0c32-446f-9577-a7834760bfaa", "Text": "Mending punctures", "ImageUrl": null }, { "QuestionId": "4413", "IsRight": false, "Id": "22fd2f01-5fe8-4294-9511-d0ad3b43db23", "Text": "Constant high speed driving", "ImageUrl": null }, { "QuestionId": "4413", "IsRight": false, "Id": "989d0336-41d2-49fb-a903-4b97c6f3a710", "Text": "Driving at the minimum allowed speed", "ImageUrl": null }, { "QuestionId": "4413", "IsRight": true, "Id": "2f8fd344-eeae-4584-bf2c-70ec4b21441f", "Text": "Turning right", "ImageUrl": null }, { "QuestionId": "4413", "IsRight": false, "Id": "1738487f-0579-4fe5-b0ff-e047e8f472dd", "Text": "Normal driving", "ImageUrl": null } ], "Id": "4413", "Text": " You are driving on a two-lane carriageway. For which TWO of the following would you use the right- hand lane?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4414", "IsRight": true, "Id": "7788bef0-16b2-46a8-9e6d-b0688236fb2b", "Text": "Not exceed the speed limit", "ImageUrl": null }, { "QuestionId": "4414", "IsRight": false, "Id": "d2e75e4d-cc2d-4172-97d8-72390d71a521", "Text": "Obey the limit except for overnight", "ImageUrl": null }, { "QuestionId": "4414", "IsRight": false, "Id": "e2f5ae29-2cf9-458d-83a5-f18d98fd685f", "Text": "Accept the speed limit as advisable", "ImageUrl": null }, { "QuestionId": "4414", "IsRight": false, "Id": "cb5eab36-8ca4-4d27-9b67-7983c6aac42c", "Text": "Obey the limit only during rush hour", "ImageUrl": null } ], "Id": "4414", "Text": " You are entering an area of roadworks. There is a temporary speed limit displayed. You must:", "ImageUrl": "Source/img/4414.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4415", "IsRight": true, "Id": "cc38c92b-a4ce-4a9f-958c-4bc913592646", "Text": "Continue in that lane", "ImageUrl": null }, { "QuestionId": "4415", "IsRight": false, "Id": "029bce92-d781-450b-b89a-e4146df3e353", "Text": "Use clear arm signals to cut across", "ImageUrl": null }, { "QuestionId": "4415", "IsRight": false, "Id": "9684e426-0d84-456b-b108-633b0274f70e", "Text": "Stop until the area has cleared", "ImageUrl": null }, { "QuestionId": "4415", "IsRight": false, "Id": "2e5e0f17-4ee2-4402-91c5-678e35723bfc", "Text": "Force your way across", "ImageUrl": null } ], "Id": "4415", "Text": " You are approaching a busy junction. There are several lanes with road markings. At the last moment you realise that you are in\nthe wrong lane. You should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4416", "IsRight": false, "Id": "a012a7a9-072a-44e3-8a86-1c8dd166d960", "Text": "Only on the right-hand side", "ImageUrl": null }, { "QuestionId": "4416", "IsRight": false, "Id": "db8e6e8f-8da7-44a9-82cc-9f59738aa89d", "Text": "Overtaking is not allowed", "ImageUrl": null }, { "QuestionId": "4416", "IsRight": false, "Id": "9fb09527-2297-4fca-9240-67dcef3956c0", "Text": "Only on the left-hand side", "ImageUrl": null }, { "QuestionId": "4416", "IsRight": true, "Id": "12dab241-988f-4220-923b-380aaf028339", "Text": "Either on the right or the left", "ImageUrl": null } ], "Id": "4416", "Text": " Where may you overtake on a one- way street?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4417", "IsRight": false, "Id": "78b90840-29fe-458d-af2c-dbf28ff97c3c", "Text": "Drive into a passing place on your right", "ImageUrl": null }, { "QuestionId": "4417", "IsRight": false, "Id": "c0d00580-e920-4224-8aab-ed645caa4221", "Text": "Switch on your hazard warning lights", "ImageUrl": null }, { "QuestionId": "4417", "IsRight": true, "Id": "adb2019b-acc1-406d-b744-426ee0af81ed", "Text": "Wait opposite a passing place on your right", "ImageUrl": null }, { "QuestionId": "4417", "IsRight": false, "Id": "01d3afa3-527a-4a3b-b7cd-b48e78268f41", "Text": "Speed up to get away from the following driver", "ImageUrl": null } ], "Id": "4417", "Text": " You are going along a single-track road with passing places only on the right. The driver behind wishes to overtake. You should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.24", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4418", "IsRight": false, "Id": "1f7ce7d4-71db-471a-b186-91e439076927", "Text": "Wait opposite a passing place on your left", "ImageUrl": null }, { "QuestionId": "4418", "IsRight": false, "Id": "b599dbeb-cac0-4f86-9a12-cf260c0bff3b", "Text": "Pull into a passing place if your vehicle is wider", "ImageUrl": null }, { "QuestionId": "4418", "IsRight": false, "Id": "d1f32d24-562b-44da-8a38-5a6552772b47", "Text": "Force the other driver to reverse", "ImageUrl": null }, { "QuestionId": "4418", "IsRight": true, "Id": "5cf1041d-73d8-4855-840d-df986c105af1", "Text": "Wait opposite a passing place on your right", "ImageUrl": null }, { "QuestionId": "4418", "IsRight": true, "Id": "3a6b72a1-82a7-42b3-b5bf-521d5c5039e6", "Text": "Pull into a passing place on your left", "ImageUrl": null }, { "QuestionId": "4418", "IsRight": false, "Id": "2b5f6055-c4da-4fae-a611-93ed30bce6ec", "Text": "Pull into a passing place on your right", "ImageUrl": null } ], "Id": "4418", "Text": " You are on a road that is only wide enough for one vehicle. There is a car coming towards you. Which TWO of these would be correct?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4419", "IsRight": true, "Id": "8098a394-fa6b-459a-b341-f3e2d994e89d", "Text": "Brake lights", "ImageUrl": null }, { "QuestionId": "4419", "IsRight": false, "Id": "794e91cd-87dd-4a07-9153-aed6b0cddcd3", "Text": "Interior lights", "ImageUrl": null }, { "QuestionId": "4419", "IsRight": false, "Id": "4ab10654-5d11-4976-9ad9-d00e3fe6a151", "Text": "Fog lights", "ImageUrl": null }, { "QuestionId": "4419", "IsRight": false, "Id": "57229ce8-4548-4e74-92de-3e3e9f1d32a5", "Text": "Side lights", "ImageUrl": null } ], "Id": "4419", "Text": " Signals are normally given by direction indicators and:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4420", "IsRight": true, "Id": "02bc0b85-fe86-4be2-bf8c-5f310e396dfa", "Text": "Indicate left just after you pass the exit before the one you will take", "ImageUrl": null }, { "QuestionId": "4420", "IsRight": false, "Id": "d738ef16-f41b-4525-a921-4e55cb1da811", "Text": "Indicate left when approaching the roundabout", "ImageUrl": null }, { "QuestionId": "4420", "IsRight": false, "Id": "69630af7-c833-4af4-8e27-a831879d2a60", "Text": "Indicate right when approaching the roundabout", "ImageUrl": null }, { "QuestionId": "4420", "IsRight": false, "Id": "b38aff6c-289f-422d-8028-5aba7f8bf57a", "Text": "Not indicate at any time", "ImageUrl": null } ], "Id": "4420", "Text": " When going straight ahead at a roundabout you should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4421", "IsRight": false, "Id": "838f201d-9402-4e8b-9d72-4dbe4c66fbd3", "Text": "Estate car", "ImageUrl": null }, { "QuestionId": "4421", "IsRight": false, "Id": "8997ff1d-4082-4ab9-8976-8ceef1c0f8dc", "Text": "Van", "ImageUrl": null }, { "QuestionId": "4421", "IsRight": false, "Id": "6dd02c27-2cdf-49ef-8e75-70a3a1f1e199", "Text": "Sports car", "ImageUrl": null }, { "QuestionId": "4421", "IsRight": true, "Id": "73b05269-9c8b-4363-9cfb-f12ab8486587", "Text": "Long vehicle", "ImageUrl": null } ], "Id": "4421", "Text": " Which vehicle might have to use a different course than normal at roundabouts?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4422", "IsRight": false, "Id": "c5705790-b1c2-41fb-898b-206c984c129e", "Text": "Signal right on the approach and then left to leave the roundabout", "ImageUrl": null }, { "QuestionId": "4422", "IsRight": false, "Id": "44c8e69d-922c-4b6f-bb38-ac28050417de", "Text": "Signal left on the approach to the roundabout and keep the signal on until you leave", "ImageUrl": null }, { "QuestionId": "4422", "IsRight": false, "Id": "b6eb7538-2f5b-4c50-a3a1-9d038e551a95", "Text": "Signal left as you leave the roundabouts", "ImageUrl": null }, { "QuestionId": "4422", "IsRight": true, "Id": "d49f916d-b992-439f-ba0b-2141be839830", "Text": "Signal left just after you pass the exit before the one you will take", "ImageUrl": null } ], "Id": "4422", "Text": " You are going straight ahead at a roundabout. How should you signal?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4423", "IsRight": true, "Id": "decb8cae-8510-405c-ac2f-d0de8ddb0fb4", "Text": "Neither vehicle", "ImageUrl": null }, { "QuestionId": "4423", "IsRight": false, "Id": "fd5337d2-9179-4ccd-9eee-23835fab4e35", "Text": "Vehicles approaching from the right", "ImageUrl": null }, { "QuestionId": "4423", "IsRight": false, "Id": "8466f371-db60-4d95-a528-613ca4f41dfa", "Text": "The vehicle on the widest road", "ImageUrl": null }, { "QuestionId": "4423", "IsRight": false, "Id": "837c0e25-5cd3-439b-90d8-d5a68ae3f4a8", "Text": "The fastest vehicle", "ImageUrl": null } ], "Id": "4423", "Text": " At a crossroads there are no signs or road markings. Two vehicles approach. Which has priority?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.30", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4424", "IsRight": false, "Id": "1846686a-1f4d-4e3f-b9ba-d53dfb6c26f0", "Text": "The driver on the wider road", "ImageUrl": null }, { "QuestionId": "4424", "IsRight": true, "Id": "10517043-9db8-41db-bb94-8a1584bbb70c", "Text": "No one", "ImageUrl": null }, { "QuestionId": "4424", "IsRight": false, "Id": "176409cf-31dd-45bd-b30e-44e5f02430c0", "Text": "The driver who is going faster", "ImageUrl": null }, { "QuestionId": "4424", "IsRight": false, "Id": "e62aeaeb-8a80-42cd-b574-1146f4afc862", "Text": "The driver of the larger vehicle", "ImageUrl": null } ], "Id": "4424", "Text": " Who has priority at an unmarked crossroads?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4425", "IsRight": true, "Id": "f11c0c39-75ab-4aa5-a70c-fe4e8be29275", "Text": "Keep the other vehicle to your RIGHT and turn behind it (offside to offside)", "ImageUrl": null }, { "QuestionId": "4425", "IsRight": false, "Id": "a49aed36-a7ec-4cdb-9d85-216584c32242", "Text": "Hold back, wait for the other driver to turn first", "ImageUrl": null }, { "QuestionId": "4425", "IsRight": false, "Id": "4f599d95-74ed-48ce-b0c4-749ee2536f81", "Text": "Carry on and turn at the next junction instead", "ImageUrl": null }, { "QuestionId": "4425", "IsRight": false, "Id": "16955f79-4202-432a-b202-a855daf7845a", "Text": "Keep the other vehicle to your LEFT and turn in front of it (nearside to nearside)", "ImageUrl": null } ], "Id": "4425", "Text": " You are intending to turn right at a junction. An oncoming driver is also turning right. It will normally be safer to:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4426", "IsRight": false, "Id": "d62e71cb-eea3-4694-8830-5abe24dc9899", "Text": "Emerge slightly to show your intentions", "ImageUrl": null }, { "QuestionId": "4426", "IsRight": true, "Id": "c3e1e57d-a603-401e-8f7f-2002c6d286ee", "Text": "Wait until the road is clear in both directions", "ImageUrl": null }, { "QuestionId": "4426", "IsRight": false, "Id": "ab1a25c1-f2f0-44f8-b184-afd29120838d", "Text": "Stop in the first lane so that other vehicles give way", "ImageUrl": null }, { "QuestionId": "4426", "IsRight": false, "Id": "cc1fa499-7e43-4591-9faa-ed83b7db5962", "Text": "Proceed to central reservation and wait", "ImageUrl": null } ], "Id": "4426", "Text": " The dual carriageway you are turning right onto has a narrow central reservation. You should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.33", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4427", "IsRight": false, "Id": "a8bcdaec-0c69-4b5c-9217-b553b3da8fe4", "Text": "Swing out wide just before turning", "ImageUrl": null }, { "QuestionId": "4427", "IsRight": false, "Id": "0a31cf82-1c8c-4b28-aa57-c3545a4fa683", "Text": "Keep in the middle of the road", "ImageUrl": null }, { "QuestionId": "4427", "IsRight": false, "Id": "d2ee2f0f-8eb5-48a3-8715-c1348b8ee08f", "Text": "Keep just left of the middle of the road", "ImageUrl": null }, { "QuestionId": "4427", "IsRight": true, "Id": "9ce52d4b-50b7-45b4-8673-1c00877d6859", "Text": "Keep well to the left of the road", "ImageUrl": null } ], "Id": "4427", "Text": " While driving  you intend to turn left into a minor road. On the approach you should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.34", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4428", "IsRight": false, "Id": "12a0aac3-7b72-4b1f-a8fc-e33da7625867", "Text": "You need to turn left", "ImageUrl": null }, { "QuestionId": "4428", "IsRight": false, "Id": "21bf7444-1e54-47d3-8a57-042ab37d62bc", "Text": "The traffic lights show green", "ImageUrl": null }, { "QuestionId": "4428", "IsRight": true, "Id": "5e500c37-3147-43ce-a54e-2264efa0ecf6", "Text": "Your exit road is clear", "ImageUrl": null }, { "QuestionId": "4428", "IsRight": false, "Id": "2cc8af3d-9299-44b0-9f6a-8eee71b73039", "Text": "There are less than two vehicles in front of you", "ImageUrl": null } ], "Id": "4428", "Text": " You may only enter a box junction when:", "ImageUrl": "Source/img/4428.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.35", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4429", "IsRight": false, "Id": "3736f1ed-4f3e-44b9-a1ca-4ac9fe3005cd", "Text": "Ignore them as they are still on the pavement", "ImageUrl": null }, { "QuestionId": "4429", "IsRight": false, "Id": "077c633d-f031-4a0a-ae2f-e53f4c513b7a", "Text": "Stop before you reach the zigzag lines and let them cross", "ImageUrl": null }, { "QuestionId": "4429", "IsRight": true, "Id": "dfa7bd0a-f675-469b-870f-c9fc57daf818", "Text": "Stop, let them cross and wait patiently", "ImageUrl": null }, { "QuestionId": "4429", "IsRight": false, "Id": "29b28303-3cc0-46cd-bc13-d5a0e0a5c8af", "Text": "Go on quickly before they step onto the crossing", "ImageUrl": null } ], "Id": "4429", "Text": " Someone is waiting to cross at a zebra crossing. They are standing on the pavement. You should normally:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.36", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4430", "IsRight": false, "Id": "245aff81-afaa-4fdb-90da-51773fbe162b", "Text": "Make a 'three point' turn in the main road", "ImageUrl": null }, { "QuestionId": "4430", "IsRight": false, "Id": "872d8e0c-263e-46e9-9a94-c00e97de6f4d", "Text": "Make a U-turn in the main road", "ImageUrl": null }, { "QuestionId": "4430", "IsRight": false, "Id": "eaf414ea-30d7-4e0b-bd33-fab43215c1b7", "Text": "Turn into a side road on the road on the right and reverse into the main road.", "ImageUrl": null }, { "QuestionId": "4430", "IsRight": true, "Id": "189c8b8c-ca3f-4d85-8694-0d2bf1670ea0", "Text": "Turn round in a side road", "ImageUrl": null } ], "Id": "4430", "Text": " You are on a busy main road and find that you are in a wrong direction. What should you do?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.39", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4431", "IsRight": true, "Id": "43a1c6f2-e4e0-47f7-b346-75079954f346", "Text": "Find a quiet side road to turn round in", "ImageUrl": null }, { "QuestionId": "4431", "IsRight": false, "Id": "99afdafc-e3fa-49a3-9d17-b5b7b21501cf", "Text": "Do a U-turn", "ImageUrl": null }, { "QuestionId": "4431", "IsRight": false, "Id": "a2bfc438-aee6-432b-9943-50f90bc5b89d", "Text": "Get someone to stop the traffic", "ImageUrl": null }, { "QuestionId": "4431", "IsRight": false, "Id": "33058d79-c468-44f7-b884-403a4aac2d4b", "Text": "Drive into a side road and reverse into the main road", "ImageUrl": null } ], "Id": "4431", "Text": " You are parked in a busy high street. What is the safest way to turn your vehicle around to go the opposite way?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.42", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4432", "IsRight": true, "Id": "99c88415-8e63-4405-9c66-6d3ca4fbefad", "Text": "So that you are on the correct side of the road before and after turning left or right at junctions and when approaching roundabouts", "ImageUrl": null }, { "QuestionId": "4432", "IsRight": true, "Id": "13823435-5338-4125-bc6f-6bf9fd54a37c", "Text": "So that you are always in the correct lane on a multi-lane road.", "ImageUrl": null }, { "QuestionId": "4432", "IsRight": false, "Id": "426f6a04-9814-4dc7-82e8-d02dde66a9f9", "Text": "Staying in the lane of your choice as long as you are driving within the speed limit.", "ImageUrl": null }, { "QuestionId": "4432", "IsRight": false, "Id": "a0778319-2e00-42ce-ba4f-de52f5c5d696", "Text": "So that nobody can overtake you if they are speeding.", "ImageUrl": null } ], "Id": "4432", "Text": " Why is it important for you to maintain road position.", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.43", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4433", "IsRight": false, "Id": "ca81963a-34e7-4da3-8274-e55ddbdb4ed5", "Text": "No lights are necessary as tunnels have their own lighting.", "ImageUrl": null }, { "QuestionId": "4433", "IsRight": true, "Id": "b8465670-feea-400e-bee9-fb77b62bb47a", "Text": "Dipped-beam to help you see and also be clearly seen by others.", "ImageUrl": null }, { "QuestionId": "4433", "IsRight": false, "Id": "5c6ba879-db9b-4e44-88ff-648710c03fc2", "Text": "Hazard warning lights so nobody drives too near.", "ImageUrl": null }, { "QuestionId": "4433", "IsRight": false, "Id": "c262a7f4-a2a2-4b89-a77a-561fdd2c0086", "Text": "Main-beam to see clearly where you are going.", "ImageUrl": null } ], "Id": "4433", "Text": " What lights should you use and why, when going through a tunnel?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.44", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4434", "IsRight": false, "Id": "96330917-32eb-4e7b-a770-c745c11c0e5b", "Text": "On the outside lane if the vehicle in front of you on the inner lane is not going fast enough.", "ImageUrl": null }, { "QuestionId": "4434", "IsRight": false, "Id": "01690c07-fb8d-41f8-b298-6abf10b961ec", "Text": "On the inside lane if the vehicle in front of me on the outside lane is not going fast enough.", "ImageUrl": null }, { "QuestionId": "4434", "IsRight": true, "Id": "e2025777-8fdf-460d-8bb7-4999b2733b06", "Text": "Never under normal circumstances as overtaking in tunnels is prohibited.", "ImageUrl": null }, { "QuestionId": "4434", "IsRight": true, "Id": "f43dfa62-97fc-4960-8f33-1c21a6f4730f", "Text": "If a broken down vehicle or other static hazard is obstructing the lane you are driving in, after having checked and signaled correctly", "ImageUrl": null } ], "Id": "4434", "Text": " When can you overtake in a tunnel?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.45", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4435", "IsRight": false, "Id": "6ebed30b-b4ff-4d25-8cad-7084771237df", "Text": "40kph and 70kph", "ImageUrl": null }, { "QuestionId": "4435", "IsRight": true, "Id": "b3a51aae-d462-48a5-889f-dcf906200c57", "Text": "50kph and 80kph", "ImageUrl": null }, { "QuestionId": "4435", "IsRight": false, "Id": "eaeb8ad0-ef26-493c-9724-783c7248aaad", "Text": "30kph and 60kph", "ImageUrl": null }, { "QuestionId": "4435", "IsRight": false, "Id": "c6caa608-e84e-4f15-9c53-69f50ce2374a", "Text": "45kph and 100kph", "ImageUrl": null } ], "Id": "4435", "Text": " What are the maximum national speed limits for cars and motorcycles in built-up areas and elsewhere?", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4489", "IsRight": false, "Id": "18b5bb8d-782f-495b-8cb3-76dc127d2596", "Text": "No entry to vehicular traffic", "ImageUrl": null }, { "QuestionId": "4489", "IsRight": false, "Id": "91d9822c-89d2-417c-9323-46c1f85c1eb4", "Text": "No waiting on the carriageway", "ImageUrl": null }, { "QuestionId": "4489", "IsRight": true, "Id": "fca98e21-fa28-4958-8ee4-9639a3d51b7c", "Text": "National speed limit applies", "ImageUrl": null }, { "QuestionId": "4489", "IsRight": false, "Id": "0a598620-ae92-489f-a3de-c99d307a53dd", "Text": "Local speed limit applies", "ImageUrl": null } ], "Id": "4489", "Text": " What is the meaning of this sign?", "ImageUrl": "Source/img/4489.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4490", "IsRight": false, "Id": "4819dd88-b56b-40ef-8e89-961f13801f1b", "Text": "The minimum speed limit ahead is 30 kph", "ImageUrl": null }, { "QuestionId": "4490", "IsRight": false, "Id": "1495cca2-40d8-449e-b461-078b96117373", "Text": "You are leaving the 30 kph speed limit area", "ImageUrl": null }, { "QuestionId": "4490", "IsRight": false, "Id": "c6ab4f46-393d-4e16-9151-fb1c582db605", "Text": "Start to slow down to 30 kph after passing it", "ImageUrl": null }, { "QuestionId": "4490", "IsRight": true, "Id": "9573a7cf-2a50-49c9-a1d8-9391173b8aec", "Text": "Do not exceed 30 kph after passing it", "ImageUrl": null } ], "Id": "4490", "Text": " You see this sign ahead of you. It means:", "ImageUrl": "Source/img/4490.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4491", "IsRight": false, "Id": "a15ef7d2-2a5d-4f36-a754-98d5924d543b", "Text": "The speed shown allows for various road and weather conditions", "ImageUrl": null }, { "QuestionId": "4491", "IsRight": false, "Id": "a12ad47f-a142-4de1-8f6d-7558f8880129", "Text": "The speed shown is the advised maximum", "ImageUrl": null }, { "QuestionId": "4491", "IsRight": false, "Id": "e9cb7895-121a-4405-bc0c-faaead2e499a", "Text": "It is safe to drive at the speed shown", "ImageUrl": null }, { "QuestionId": "4491", "IsRight": true, "Id": "8d582949-119a-4951-9df8-ca156bc0280b", "Text": "You must not exceed the speed shown", "ImageUrl": null } ], "Id": "4491", "Text": " What does a speed limit sign like this mean?", "ImageUrl": "Source/img/4491.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4492", "IsRight": false, "Id": "52a7629e-da19-4a3e-afd5-f3244dcabd35", "Text": "School crossing patrol", "ImageUrl": null }, { "QuestionId": "4492", "IsRight": true, "Id": "e0234ecb-33b6-4c50-8424-d1ed6f2337c5", "Text": "Waiting restrictions", "ImageUrl": null }, { "QuestionId": "4492", "IsRight": false, "Id": "acc34c2b-c8b4-407c-a073-c5e45668048b", "Text": "National speed limit", "ImageUrl": null }, { "QuestionId": "4492", "IsRight": false, "Id": "30e456e5-70de-4dad-82cc-393fab6b2280", "Text": "No entry", "ImageUrl": null } ], "Id": "4492", "Text": " What is the meaning of this sign?", "ImageUrl": "Source/img/4492.png" },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.37", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4646", "IsRight": true, "Id": "abb2364b-c1b9-415f-a178-c90f77b2bd12", "Text": "Reversing", "ImageUrl": null }, { "QuestionId": "4646", "IsRight": false, "Id": "0469091d-c55e-4635-875f-a9e0d0b6a52b", "Text": "Driving slowly", "ImageUrl": null }, { "QuestionId": "4646", "IsRight": false, "Id": "3741c7df-81bb-434a-9fa3-ac2687240b92", "Text": "An emergency stop", "ImageUrl": null }, { "QuestionId": "4646", "IsRight": false, "Id": "d739f6c7-6dac-401a-821f-dc765b452761", "Text": "A hill start", "ImageUrl": null } ], "Id": "4646", "Text": " You may remove your seat belt temporarily when carrying out a manoeuvre that involves:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.38", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4647", "IsRight": true, "Id": "f90f3718-8cd6-49cb-90bc-23e8907c9832", "Text": "For longer than necessary", "ImageUrl": null }, { "QuestionId": "4647", "IsRight": false, "Id": "06399b2c-83c8-43a4-9837-0a0298fb5473", "Text": "In a built-up area", "ImageUrl": null }, { "QuestionId": "4647", "IsRight": false, "Id": "895db931-f297-4f0c-a507-593451c7ad71", "Text": "Into a side road", "ImageUrl": null }, { "QuestionId": "4647", "IsRight": false, "Id": "a88fc7ad-32f7-4c4a-ae52-d8a84ba509e7", "Text": "For more than a car's length", "ImageUrl": null } ], "Id": "4647", "Text": " You must not reverse:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.40", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4648", "IsRight": false, "Id": "1cb5f4ab-f60b-4b59-8978-ce262c2e7a6c", "Text": "Use your horn", "ImageUrl": null }, { "QuestionId": "4648", "IsRight": false, "Id": "8e159d0a-87a6-439c-91b3-6a9c326356a7", "Text": "Reverse slowly", "ImageUrl": null }, { "QuestionId": "4648", "IsRight": true, "Id": "50e7f183-21b3-477f-b483-be01b0ec1563", "Text": "Get out and check", "ImageUrl": null }, { "QuestionId": "4648", "IsRight": false, "Id": "bf549847-d173-4f3a-8b02-9cd7e17d2421", "Text": "Rev your engine", "ImageUrl": null } ], "Id": "4648", "Text": " When you are NOT sure that it is safe to reverse your vehicle you should:", "ImageUrl": null },
-      { "CategoryId": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b", "SubCategoryId": "CARS10.41", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4649", "IsRight": false, "Id": "3bd8f4a8-b545-405d-bd31-ef98ef827c74", "Text": "After you've entered the side road", "ImageUrl": null }, { "QuestionId": "4649", "IsRight": false, "Id": "3f409bcf-dcc8-49b3-875e-2b305161e951", "Text": "Just before you actually begin to manoeuvre", "ImageUrl": null }, { "QuestionId": "4649", "IsRight": false, "Id": "80bfbfe8-c0d7-4ce4-b50e-830474e1ffd7", "Text": "After you've completed the manoeuvre", "ImageUrl": null }, { "QuestionId": "4649", "IsRight": true, "Id": "9c05923f-d0c8-43b6-a994-cf1e1acc6d3d", "Text": "When the front of your vehicle swings out", "ImageUrl": null } ], "Id": "4649", "Text": " You are reversing your vehicle into a side road. When would the greatest hazard to passing traffic occur?", "ImageUrl": null }
-    ],
-    "Id": "db37d1e8-6ce6-4c6c-9196-b6e3565acb9b",
-    "Text": "RULES OF THE ROAD",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4436", "IsRight": false, "Id": "a91729f5-270e-40f8-ab0e-c82f7e0b5d69", "Text": "Blue rectangles", "ImageUrl": null }, { "QuestionId": "4436", "IsRight": false, "Id": "c5aa4d93-26e2-40b8-8fc2-66271afe70a5", "Text": "Red triangles", "ImageUrl": null }, { "QuestionId": "4436", "IsRight": false, "Id": "f3f03d8b-ddd8-4106-be04-28c8fb9820f9", "Text": "Green rectangles", "ImageUrl": null }, { "QuestionId": "4436", "IsRight": true, "Id": "9232bad4-1034-4502-a2b7-9e6273b37214", "Text": "Red circles", "ImageUrl": null } ], "Id": "4436", "Text": " You MUST obey signs giving orders. These signs are mostly in:", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.25", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4437", "IsRight": true, "Id": "187c393e-8bd0-4832-bd00-11ea970335f4", "Text": "Give way to traffic from the right", "ImageUrl": null }, { "QuestionId": "4437", "IsRight": false, "Id": "fc7e1bd2-0c18-4cd3-a3a4-b8f5b9ec161c", "Text": "Stop even when clear", "ImageUrl": null }, { "QuestionId": "4437", "IsRight": false, "Id": "84c1ad59-54aa-4005-a8e3-0395a7854cf7", "Text": "Give way to traffic from the other way", "ImageUrl": null }, { "QuestionId": "4437", "IsRight": false, "Id": "2c046ac1-a26b-4467-b304-e152da2fb845", "Text": "Give way to traffic from the left", "ImageUrl": null } ], "Id": "4437", "Text": " At a mini-roundabout you should:", "ImageUrl": "Source/img/4437.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.27", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4438", "IsRight": false, "Id": "f3d12020-f774-4f94-abb9-4b54e089cdde", "Text": "Give motorway information", "ImageUrl": null }, { "QuestionId": "4438", "IsRight": false, "Id": "d8ba65b4-71eb-41ab-a834-e4aee1ac3f04", "Text": "Give directions to a car park", "ImageUrl": null }, { "QuestionId": "4438", "IsRight": false, "Id": "db0913ca-d026-4500-9ea5-24ad5652e5bb", "Text": "Give warning of a motorway ahead", "ImageUrl": null }, { "QuestionId": "4438", "IsRight": true, "Id": "7a576863-ed4c-46c8-a760-ac236b5ce390", "Text": "Give an instruction", "ImageUrl": null } ], "Id": "4438", "Text": " What does a circular traffic sign with a blue background do?", "ImageUrl": "Source/img/4438.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.29", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4440", "IsRight": true, "Id": "0fe6bbf6-a689-4744-b767-987d8179a166", "Text": "Tourist directions", "ImageUrl": null }, { "QuestionId": "4440", "IsRight": false, "Id": "2468a3dc-2b58-4475-b9a0-0709293e0842", "Text": "Minor routes", "ImageUrl": null }, { "QuestionId": "4440", "IsRight": false, "Id": "89ccd741-130d-4278-8752-9d5a2e0abc06", "Text": "Motorway routes", "ImageUrl": null }, { "QuestionId": "4440", "IsRight": false, "Id": "e2e84d56-cbb7-44ff-834b-2a0fd0356661", "Text": "Primary roads", "ImageUrl": null } ], "Id": "4440", "Text": " What does a sign with a brown background show?", "ImageUrl": "Source/img/4440.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.30", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4441", "IsRight": true, "Id": "ee6fe888-be52-4d2d-a208-5760dbe7d2dc", "Text": "To give warnings", "ImageUrl": null }, { "QuestionId": "4441", "IsRight": false, "Id": "6cbe7258-79fc-4fa9-9081-1e0e951fc855", "Text": "To give directions", "ImageUrl": null }, { "QuestionId": "4441", "IsRight": false, "Id": "c816e7fc-5810-4a09-953e-4630fcdaffee", "Text": "To give order", "ImageUrl": null }, { "QuestionId": "4441", "IsRight": false, "Id": "996c1a5e-691f-458b-a33f-5c342408b994", "Text": "To give information", "ImageUrl": null } ], "Id": "4441", "Text": " What are triangular signs for?", "ImageUrl": "Source/img/4441.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.34", "CorrectAnswersNumber": 4, "Answers": [ { "QuestionId": "4442", "IsRight": false, "Id": "3aef23be-725d-4e9f-8296-54ccd35ea6d2", "Text": "Ahead only", "ImageUrl": null }, { "QuestionId": "4442", "IsRight": true, "Id": "2e04b1df-a07e-403b-a079-77b1f535693c", "Text": "Children crossing", "ImageUrl": null }, { "QuestionId": "4442", "IsRight": true, "Id": "d121d0f3-2741-4050-b0b7-1034a7282c2b", "Text": "T-junction", "ImageUrl": null }, { "QuestionId": "4442", "IsRight": true, "Id": "34eb97b3-d0a5-4453-a584-93453b19f734", "Text": "Road narrows", "ImageUrl": null }, { "QuestionId": "4442", "IsRight": true, "Id": "9fe12cf8-c2d1-4aff-a8c8-774d888d5892", "Text": "Tunnel ahead", "ImageUrl": null }, { "QuestionId": "4442", "IsRight": false, "Id": "633c7940-a457-4871-9354-a8b8ccba88d4", "Text": "Minimum speed", "ImageUrl": null } ], "Id": "4442", "Text": " Which FOUR of these would be indicated by a triangular road sign?", "ImageUrl": "Source/img/4442.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.55", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4443", "IsRight": true, "Id": "050c55dc-fc63-4d15-89e8-ce4080552dd8", "Text": "Red and amber then green", "ImageUrl": null }, { "QuestionId": "4443", "IsRight": false, "Id": "e78aa97f-da4f-4daa-ba8b-bca46d14f31a", "Text": "Green and amber then green", "ImageUrl": null }, { "QuestionId": "4443", "IsRight": false, "Id": "801a2e1a-7c97-4cf2-8823-211cf3bf4f96", "Text": "Amber then green", "ImageUrl": null }, { "QuestionId": "4443", "IsRight": false, "Id": "cc5817fd-23a2-4671-b5bf-33a251ed77bb", "Text": "Green then amber", "ImageUrl": null } ], "Id": "4443", "Text": " You are approaching a red traffic light. The signal will change from red to:", "ImageUrl": "Source/img/4443.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.56", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4444", "IsRight": false, "Id": "c94dc269-44ab-44db-a44a-cdd023ea89fa", "Text": "Proceed with caution", "ImageUrl": null }, { "QuestionId": "4444", "IsRight": false, "Id": "9a6ae702-46dd-436a-bd31-6a14eab4ca36", "Text": "Stop  if you are able to brake safely", "ImageUrl": null }, { "QuestionId": "4444", "IsRight": true, "Id": "71f28646-b519-42a8-8da5-945fa3331d37", "Text": "You must stop and wait behind the stop line", "ImageUrl": null }, { "QuestionId": "4444", "IsRight": false, "Id": "b31075d2-f216-448b-8c5b-403dfaa7778d", "Text": "You should stop unless turning left", "ImageUrl": null } ], "Id": "4444", "Text": " A red traffic light means:", "ImageUrl": "Source/img/4444.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.57", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4445", "IsRight": false, "Id": "b9eeee0a-ccba-4116-a66d-0d354515d028", "Text": "Go if no pedestrians are crossing", "ImageUrl": null }, { "QuestionId": "4445", "IsRight": false, "Id": "6fef1b27-cd8f-4f26-800e-97c5e1fac0ae", "Text": "Go if the way is clear", "ImageUrl": null }, { "QuestionId": "4445", "IsRight": false, "Id": "cf3b283f-5a84-456e-bb3e-1a35b3595e4d", "Text": "Prepare to go", "ImageUrl": null }, { "QuestionId": "4445", "IsRight": true, "Id": "27afb7e3-ed2b-4eed-9f38-7ad9778f6861", "Text": "Prepare to stop at the stop line", "ImageUrl": null } ], "Id": "4445", "Text": " At traffic lights  amber on its own means:", "ImageUrl": "Source/img/4445.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.58", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4446", "IsRight": true, "Id": "ae0901ea-5e11-4123-b307-5390bd79e9a9", "Text": "You must stop behind the white stop line", "ImageUrl": null }, { "QuestionId": "4446", "IsRight": false, "Id": "387425d5-11d3-4fac-9be0-5f3b6609c91b", "Text": "You must slow down and prepare to stop if traffic has started to cross", "ImageUrl": null }, { "QuestionId": "4446", "IsRight": false, "Id": "0261c050-609c-4de1-b99c-7e1d398f2dd0", "Text": "You may turn left if it is safe to do so", "ImageUrl": null }, { "QuestionId": "4446", "IsRight": false, "Id": "a63ae6b7-885b-4e2a-b34e-89fc0036c349", "Text": "You may drive straight on if there is no other traffic", "ImageUrl": null } ], "Id": "4446", "Text": " A red traffic light means:", "ImageUrl": "Source/img/4446.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.59", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4447", "IsRight": false, "Id": "52efc273-0767-440e-ba37-b94651a13ecf", "Text": "The lights are about to change to red", "ImageUrl": null }, { "QuestionId": "4447", "IsRight": false, "Id": "8824efed-221f-4ba8-90c9-09f7b86de7bc", "Text": "There is a fault with the lights - take care", "ImageUrl": null }, { "QuestionId": "4447", "IsRight": true, "Id": "99db2872-0683-4f22-849f-41aee6a1a403", "Text": "Wait for the green light before you pass the lights", "ImageUrl": null }, { "QuestionId": "4447", "IsRight": false, "Id": "648c4405-dcb9-4dbd-bbf7-01cf0675ea18", "Text": "Pass the lights if the road is clear", "ImageUrl": null } ], "Id": "4447", "Text": " You are approaching traffic lights. Red and amber are showing. This means:", "ImageUrl": "Source/img/4447.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.60", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4448", "IsRight": false, "Id": "9d975cf5-fd57-4bb8-95ee-29eda97898e1", "Text": "When you intend to turn right", "ImageUrl": null }, { "QuestionId": "4448", "IsRight": true, "Id": "c06a08bb-20bb-44aa-b9d1-3e4607d9a544", "Text": "When your intended route from the junction is blocked", "ImageUrl": null }, { "QuestionId": "4448", "IsRight": false, "Id": "27d80bdd-32a2-49fb-9488-ca970892ab28", "Text": "When you think the lights may be about to change", "ImageUrl": null }, { "QuestionId": "4448", "IsRight": false, "Id": "040c6c82-7350-487b-958c-bdbf60887cf1", "Text": "When pedestrians are waiting to cross", "ImageUrl": null } ], "Id": "4448", "Text": " You are at a junction controlled by traffic lights. When should you NOT proceed at green?", "ImageUrl": "Source/img/4448.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.61", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4449", "IsRight": true, "Id": "cee4006f-8b91-42ca-bb66-d288371a30d4", "Text": "No parking at any time", "ImageUrl": null }, { "QuestionId": "4449", "IsRight": false, "Id": "27de0f80-9412-48e6-853b-499e27831c90", "Text": "Sounding of horns is not allowed", "ImageUrl": null }, { "QuestionId": "4449", "IsRight": false, "Id": "a441f7d3-daf3-4647-b9f8-00c1ad852b15", "Text": "Slow down to 20kph", "ImageUrl": null }, { "QuestionId": "4449", "IsRight": false, "Id": "447d424c-8014-4450-a51e-653be12f0731", "Text": "Parking allowed only for a short time", "ImageUrl": null } ], "Id": "4449", "Text": " What do these zigzag lines at pedestrian crossings mean?", "ImageUrl": "Source/img/4449.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.66", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4450", "IsRight": false, "Id": "e7ef148e-604c-40b6-a6a3-a77037b8d6fc", "Text": "Position over the centre line at an angle", "ImageUrl": null }, { "QuestionId": "4450", "IsRight": true, "Id": "3d642662-8c6c-4cbb-8d8d-1f971e68c579", "Text": "Give an arm signal as well as an indicator signal", "ImageUrl": null }, { "QuestionId": "4450", "IsRight": false, "Id": "484fee85-f87e-483a-96a0-6f05e8040242", "Text": "Flash your headlamp", "ImageUrl": null }, { "QuestionId": "4450", "IsRight": false, "Id": "0fb79412-ce12-47e5-83ac-6a35604df126", "Text": "Sound the horn", "ImageUrl": null } ], "Id": "4450", "Text": " You are to turn right in busy traffic. How would you confirm your intention safely?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.67", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4451", "IsRight": false, "Id": "b1c27379-6632-4754-88ee-e1464162b277", "Text": "Keep well over to the right", "ImageUrl": null }, { "QuestionId": "4451", "IsRight": false, "Id": "87ca8169-2229-4a29-853e-cbd2497caa03", "Text": "Stay in the left-hand lane", "ImageUrl": null }, { "QuestionId": "4451", "IsRight": false, "Id": "ddd77d44-e5f8-47b2-81af-a332ae066ef9", "Text": "Get out and check if your indicators can be seen", "ImageUrl": null }, { "QuestionId": "4451", "IsRight": true, "Id": "0d8f754f-3252-4e7f-b339-24392d0cc325", "Text": "Give an arm signal as well as an indicator signal", "ImageUrl": null } ], "Id": "4451", "Text": " You want to turn right at a junction but you think that your indicators cannot be seen clearly. What should you do?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.69", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4453", "IsRight": false, "Id": "02d482b5-67d0-4093-aa70-389396aa6b9f", "Text": "To avoid damage to the indicator relay", "ImageUrl": null }, { "QuestionId": "4453", "IsRight": true, "Id": "5c2e87bf-b8c6-4e31-a8bf-45c3cdf6787e", "Text": "To avoid misleading other road users", "ImageUrl": null }, { "QuestionId": "4453", "IsRight": false, "Id": "a4779527-4092-4035-9a3b-16bd32f832e7", "Text": "To avoid dazzling other road users", "ImageUrl": null }, { "QuestionId": "4453", "IsRight": false, "Id": "5e27c23a-b86e-4c55-a73f-2917f49d0c32", "Text": "To avoid flattening the battery", "ImageUrl": null } ], "Id": "4453", "Text": " Why should you make sure that you have cancelled your indicators after turning?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.70", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4454", "IsRight": false, "Id": "4b9883f8-bba4-434e-9410-07b6c4c2ae0b", "Text": "Move out slowly", "ImageUrl": null }, { "QuestionId": "4454", "IsRight": true, "Id": "7c072de3-bf6c-4c90-bbb7-9dfc1894f7d1", "Text": "Wait until the vehicle starts to turn in", "ImageUrl": null }, { "QuestionId": "4454", "IsRight": false, "Id": "724fe058-b899-425c-b92f-7768f090f832", "Text": "Pull out before the vehicle reaches the junction", "ImageUrl": null }, { "QuestionId": "4454", "IsRight": false, "Id": "eed84c9b-2cf2-442c-be78-68465ad3cae7", "Text": "Move out and accelerate hard", "ImageUrl": null } ], "Id": "4454", "Text": " You are waiting at a T-junction. A vehicle is coming from the right with the left signalflashing. What should you do?", "ImageUrl": "Source/img/4454.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.73", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4455", "IsRight": false, "Id": "9c4e6cf8-9211-4c6f-a5a9-ba8a93134781", "Text": "60kph", "ImageUrl": null }, { "QuestionId": "4455", "IsRight": false, "Id": "c2f8942e-acc4-4c7a-830f-47a28b470e09", "Text": "40kph", "ImageUrl": null }, { "QuestionId": "4455", "IsRight": true, "Id": "b1b0eee8-5008-4e7c-b8c1-4d659d6072e1", "Text": "50kph", "ImageUrl": null }, { "QuestionId": "4455", "IsRight": false, "Id": "f3bb9984-f430-4238-aaac-8da2e9ec96c8", "Text": "30 kph", "ImageUrl": null } ], "Id": "4455", "Text": " What is the maximum speed limit in a built up area unless indicated otherwise?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4493", "IsRight": false, "Id": "f1a44c18-aac1-45f6-8f33-1d7c426f59c9", "Text": null, "ImageUrl": "Source/img/4493.1.png" }, { "QuestionId": "4493", "IsRight": false, "Id": "75bbe25e-d533-4127-bbee-132f5d42bbf6", "Text": null, "ImageUrl": "Source/img/4493.2.png" }, { "QuestionId": "4493", "IsRight": false, "Id": "70960da9-681f-4dc8-92c3-c2f5bbd8be63", "Text": null, "ImageUrl": "Source/img/4493.3.png" }, { "QuestionId": "4493", "IsRight": true, "Id": "ceb03369-f998-4b7b-b140-79bf83def77c", "Text": null, "ImageUrl": "Source/img/4493.4.png" } ], "Id": "4493", "Text": " Traffic signs giving orders are generally which shape?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4494", "IsRight": true, "Id": "93c8c908-208e-4b61-b937-0371c8391f82", "Text": null, "ImageUrl": "Source/img/4494.1.png" }, { "QuestionId": "4494", "IsRight": false, "Id": "b4d283e3-966b-4e99-a404-f55aa63068f7", "Text": null, "ImageUrl": "Source/img/4494.2.png" }, { "QuestionId": "4494", "IsRight": false, "Id": "174d0700-22d9-4b97-b7f3-2cf7e0f920bb", "Text": null, "ImageUrl": "Source/img/4494.3.png" }, { "QuestionId": "4494", "IsRight": false, "Id": "73474e0b-8284-4c78-8709-f47c31294b0e", "Text": null, "ImageUrl": "Source/img/4494.4.png" } ], "Id": "4494", "Text": " Which type of sign tells you NOT to do something?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4495", "IsRight": true, "Id": "438f9678-f913-4250-88a0-ed98942d7047", "Text": "Maximum speed limit with traffic calming measures", "ImageUrl": null }, { "QuestionId": "4495", "IsRight": false, "Id": "36f52318-7f76-4f0b-b197-ca29ece197ce", "Text": "Only 20 cars allowed at any one time", "ImageUrl": null }, { "QuestionId": "4495", "IsRight": false, "Id": "dd5140d4-6d2e-48b0-9ab7-5ff3b95eedc9", "Text": "Parking area for 20 cars only", "ImageUrl": null }, { "QuestionId": "4495", "IsRight": false, "Id": "680a5f87-d36b-4135-b06b-130439e84955", "Text": "Minimum speed limit with traffic calming measures", "ImageUrl": null } ], "Id": "4495", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4495.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4496", "IsRight": true, "Id": "218f4556-5231-4388-bef7-28ffc8fce13f", "Text": null, "ImageUrl": "Source/img/4496.1.png" }, { "QuestionId": "4496", "IsRight": false, "Id": "b2f0ec9a-eac5-4e98-bb91-d7063abce367", "Text": null, "ImageUrl": "Source/img/4496.2.png" }, { "QuestionId": "4496", "IsRight": false, "Id": "fc2a68af-d39c-4811-987d-cc82bf57f41e", "Text": null, "ImageUrl": "Source/img/4496.3.png" } ], "Id": "4496", "Text": " Which sign means no motor vehicles are allowed?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4497", "IsRight": false, "Id": "173b9a34-2042-4060-86f6-27cca7e4a643", "Text": null, "ImageUrl": "Source/img/4497.1.png" }, { "QuestionId": "4497", "IsRight": true, "Id": "4c7cddf5-7acc-406a-a66b-efd3be01827a", "Text": null, "ImageUrl": "Source/img/4497.2.png" }, { "QuestionId": "4497", "IsRight": false, "Id": "cbd0ad0d-1c22-4fb5-bcb3-723874288df1", "Text": null, "ImageUrl": "Source/img/4497.3.png" } ], "Id": "4497", "Text": " Which of these signs means no motor vehicles?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.7", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4498", "IsRight": false, "Id": "7c6279a3-f1ef-43d5-afcf-bbc2ecfca2c2", "Text": "Minimum speed limit 30kph", "ImageUrl": null }, { "QuestionId": "4498", "IsRight": false, "Id": "324ddbc1-d1ae-42ff-a09b-d41c24081c99", "Text": "No vehicles over 30 tonnes", "ImageUrl": null }, { "QuestionId": "4498", "IsRight": false, "Id": "4c454e51-64e0-4714-8bb4-01d6ad5b63fa", "Text": "New speed limit 20 kph", "ImageUrl": null }, { "QuestionId": "4498", "IsRight": true, "Id": "efced1ff-ef51-4ba7-8b36-97734e16897a", "Text": "End of 20kph zone", "ImageUrl": null } ], "Id": "4498", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4498.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.8", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4499", "IsRight": true, "Id": "3eb01c8b-1eae-4169-8abd-ae1c725d792b", "Text": "No motor vehicles", "ImageUrl": null }, { "QuestionId": "4499", "IsRight": false, "Id": "685ade58-6341-4d99-a1cd-5c4be7e16779", "Text": "Cars and motorcycles only", "ImageUrl": null }, { "QuestionId": "4499", "IsRight": false, "Id": "d00fd69d-cac2-4e82-88ab-319363703142", "Text": "Clearway (no stopping)", "ImageUrl": null }, { "QuestionId": "4499", "IsRight": false, "Id": "b1c37d5c-0d5b-4fff-8e36-4ef7964cc0ae", "Text": "No overtaking", "ImageUrl": null } ], "Id": "4499", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4499.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4500", "IsRight": false, "Id": "95bdf2c6-99ac-4b25-bdf0-373877c8c68b", "Text": "No through road", "ImageUrl": null }, { "QuestionId": "4500", "IsRight": false, "Id": "429bbde0-8760-496e-b87e-160961a52eaf", "Text": "No road markings", "ImageUrl": null }, { "QuestionId": "4500", "IsRight": false, "Id": "6ff80bb4-f065-4d4e-a16b-616a158fca35", "Text": "No parking", "ImageUrl": null }, { "QuestionId": "4500", "IsRight": true, "Id": "c1405aea-ff79-4198-93b3-8d1334ecf6dd", "Text": "No entry", "ImageUrl": null } ], "Id": "4500", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4500.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4501", "IsRight": false, "Id": "8a4275be-4a8a-4c17-9f44-861954b4a958", "Text": "No traffic from the right", "ImageUrl": null }, { "QuestionId": "4501", "IsRight": false, "Id": "5fb8c8d3-3d81-4de3-8cc8-011558e10ebb", "Text": "Road on the right closed", "ImageUrl": null }, { "QuestionId": "4501", "IsRight": false, "Id": "66ece857-cf04-4d8e-8c32-6689c987baf1", "Text": "Bend on the right", "ImageUrl": null }, { "QuestionId": "4501", "IsRight": true, "Id": "3c160084-3754-43d7-9ed7-96ec76a06a83", "Text": "No right turn", "ImageUrl": null } ], "Id": "4501", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4501.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4502", "IsRight": false, "Id": "2a12ff79-0baa-44ab-a8f2-84cb7a127b4d", "Text": null, "ImageUrl": "Source/img/4502.1.png" }, { "QuestionId": "4502", "IsRight": false, "Id": "adc12026-caf7-4cc8-88a9-2d468bdba22b", "Text": null, "ImageUrl": "Source/img/4502.2.png" }, { "QuestionId": "4502", "IsRight": false, "Id": "484930f1-81eb-40a7-861c-3ae6fdffb2f3", "Text": null, "ImageUrl": "Source/img/4502.3.png" }, { "QuestionId": "4502", "IsRight": true, "Id": "f4e5a67d-bd6b-4533-b131-509799710741", "Text": null, "ImageUrl": "Source/img/4502.4.png" } ], "Id": "4502", "Text": " Which sign means 'no entry'?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.12", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4503", "IsRight": false, "Id": "9193883b-59c3-4f50-a31f-3c090aba7395", "Text": "Two-way traffic", "ImageUrl": null }, { "QuestionId": "4503", "IsRight": false, "Id": "18f49a8e-c9b1-4f5b-a904-5fe4230a9fe0", "Text": "No motor vehicles", "ImageUrl": null }, { "QuestionId": "4503", "IsRight": false, "Id": "06d0163f-3521-45f7-81a1-d89e13dd814c", "Text": "You have priority", "ImageUrl": null }, { "QuestionId": "4503", "IsRight": true, "Id": "e6064d6a-bf50-4688-88c0-ca388a982abd", "Text": "No overtaking", "ImageUrl": null } ], "Id": "4503", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4503.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4504", "IsRight": false, "Id": "7ed91831-0358-4e32-8a04-37506ad8d8b5", "Text": "Form two lanes", "ImageUrl": null }, { "QuestionId": "4504", "IsRight": false, "Id": "2a2cb6ca-bd1f-4c7d-a435-82f15b0e38e9", "Text": "Give way to oncoming traffic", "ImageUrl": null }, { "QuestionId": "4504", "IsRight": true, "Id": "9343550c-d0c8-462c-822d-af54bcbac517", "Text": "Do not overtake", "ImageUrl": null }, { "QuestionId": "4504", "IsRight": false, "Id": "b2e165c4-5b52-4081-b5c7-8c29fd6ac788", "Text": "Keep in one lane", "ImageUrl": null } ], "Id": "4504", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4504.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4505", "IsRight": true, "Id": "eaf366cc-0b07-4d35-955d-9109476fd275", "Text": "Waiting restrictions apply", "ImageUrl": null }, { "QuestionId": "4505", "IsRight": false, "Id": "bbead8bc-e02b-4fb2-bb43-658f38ad4ac1", "Text": "Clearway (no stopping)", "ImageUrl": null }, { "QuestionId": "4505", "IsRight": false, "Id": "b8153f2a-b39a-43dd-9bff-5ce7a80ff54b", "Text": "National speed limit applies", "ImageUrl": null }, { "QuestionId": "4505", "IsRight": false, "Id": "fe14a5bc-879c-4c36-b9f9-2f72e8e94bae", "Text": "Waiting permitted", "ImageUrl": null } ], "Id": "4505", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4505.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.15", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4506", "IsRight": false, "Id": "c5e11ebc-6a16-4c62-9de9-bad5c74fbe23", "Text": null, "ImageUrl": "Source/img/4506.1.png" }, { "QuestionId": "4506", "IsRight": true, "Id": "fc1cef5a-e4b9-4448-8ba2-5cd4e50ff678", "Text": null, "ImageUrl": "Source/img/4506.2.png" }, { "QuestionId": "4506", "IsRight": false, "Id": "e60cbc8c-9e50-40d6-a39a-d2f50265385d", "Text": null, "ImageUrl": "Source/img/4506.3.png" }, { "QuestionId": "4506", "IsRight": false, "Id": "a1ec06c3-8c48-4a23-8b77-8bb2ed3b0ffc", "Text": null, "ImageUrl": "Source/img/4506.4.png" } ], "Id": "4506", "Text": " Which sign means 'no stopping'?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.16", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4507", "IsRight": false, "Id": "c1a634cb-5353-4631-9136-0ba7f5c46b9c", "Text": "Roundabout", "ImageUrl": null }, { "QuestionId": "4507", "IsRight": false, "Id": "48b0cfff-10a5-4da9-b47b-37d399aebdba", "Text": "No entry", "ImageUrl": null }, { "QuestionId": "4507", "IsRight": true, "Id": "e2fd9293-9503-43dd-9dee-ba6af9146fd9", "Text": "No stopping", "ImageUrl": null }, { "QuestionId": "4507", "IsRight": false, "Id": "e528d23c-a883-4ab2-8fa6-2fbb70650280", "Text": "Crossroads", "ImageUrl": null } ], "Id": "4507", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4507.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4508", "IsRight": false, "Id": "021b495c-88b9-42d1-9c85-6ec34b6eb11b", "Text": "National speed limit applies", "ImageUrl": null }, { "QuestionId": "4508", "IsRight": false, "Id": "1b906275-1d97-4f20-8ec8-77ca31a58d88", "Text": "No entry", "ImageUrl": null }, { "QuestionId": "4508", "IsRight": true, "Id": "bdf50527-26b6-4862-ac71-3bec0b7074d2", "Text": "No stopping", "ImageUrl": null }, { "QuestionId": "4508", "IsRight": false, "Id": "d24409ad-749a-4ef1-96e5-f95d0d08fcfb", "Text": "Waiting restrictions apply", "ImageUrl": null } ], "Id": "4508", "Text": " You see this sign ahead. It means:", "ImageUrl": "Source/img/4508.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.18", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4509", "IsRight": false, "Id": "eebf40b6-5391-45d9-abf0-27c27c0fae86", "Text": "No overtaking allowed", "ImageUrl": null }, { "QuestionId": "4509", "IsRight": false, "Id": "7a5f09bb-1d3f-4d12-b975-1d178d9a61a2", "Text": "One-way traffic only", "ImageUrl": null }, { "QuestionId": "4509", "IsRight": false, "Id": "a952985d-9b79-4c53-b798-da0b5772e27b", "Text": "Two way traffic", "ImageUrl": null }, { "QuestionId": "4509", "IsRight": true, "Id": "7757e45e-f8bd-43f4-874b-c9dd7237fb86", "Text": "Give priority to oncoming traffic", "ImageUrl": null } ], "Id": "4509", "Text": " What does this traffic sign mean?", "ImageUrl": "Source/img/4509.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4510", "IsRight": false, "Id": "a7e10375-968c-4066-85e2-62a34779ba16", "Text": "Bus lane ahead", "ImageUrl": null }, { "QuestionId": "4510", "IsRight": false, "Id": "26461916-a0cd-4a52-9ff8-e52d8712c5b5", "Text": "Give priority to vehicles coming towards you", "ImageUrl": null }, { "QuestionId": "4510", "IsRight": true, "Id": "2ea4b649-fdcb-4e46-af8c-dadccb1a3c03", "Text": "You have priority over vehicles coming towards you", "ImageUrl": null }, { "QuestionId": "4510", "IsRight": false, "Id": "ed376eea-ef50-45f0-8d1e-a16bc4b45881", "Text": "End of two-way road", "ImageUrl": null } ], "Id": "4510", "Text": " What is the meaning of this traffic sign?", "ImageUrl": "Source/img/4510.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4511", "IsRight": false, "Id": "6801ccfe-7787-42f7-88d0-f207e3d1f43f", "Text": null, "ImageUrl": "Source/img/4511.1.png" }, { "QuestionId": "4511", "IsRight": false, "Id": "abbb9f8e-567d-4a2e-a725-58fea78d5914", "Text": null, "ImageUrl": "Source/img/4511.2.png" }, { "QuestionId": "4511", "IsRight": true, "Id": "46964182-3194-4da2-8c42-b349fabcf7fb", "Text": null, "ImageUrl": "Source/img/4511.3.png" }, { "QuestionId": "4511", "IsRight": false, "Id": "19dbffe1-4126-40fa-bcd9-e51081102b42", "Text": null, "ImageUrl": "Source/img/4511.4.png" } ], "Id": "4511", "Text": " Which sign means 'traffic has priority over oncoming vehicles'?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4512", "IsRight": false, "Id": "7c0af826-c3db-4cd2-9fdc-cf2b63ca0aef", "Text": "Stop  ONLY if a red light is showing", "ImageUrl": null }, { "QuestionId": "4512", "IsRight": false, "Id": "b473c7fe-29bc-4ce1-8044-c95dfef863de", "Text": "Stop  ONLY if children are waiting to cross", "ImageUrl": null }, { "QuestionId": "4512", "IsRight": false, "Id": "2255f2e9-c143-4d67-ab14-9e0d3dce0d90", "Text": "Stop  ONLY if traffic is approaching", "ImageUrl": null }, { "QuestionId": "4512", "IsRight": true, "Id": "b7dea08f-b121-4561-8b02-7a4b69ecfd44", "Text": "Stop  even if the road is clear", "ImageUrl": null } ], "Id": "4512", "Text": " What MUST you do when you see this sign?", "ImageUrl": "Source/img/4512.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.22", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4513", "IsRight": false, "Id": "0e066876-ba88-4c04-a84a-fb1891ed5935", "Text": "Two-way traffic ahead", "ImageUrl": null }, { "QuestionId": "4513", "IsRight": false, "Id": "6efbbef5-ca43-4785-99cf-64e5d77c9adb", "Text": "You are entering a one-way street", "ImageUrl": null }, { "QuestionId": "4513", "IsRight": false, "Id": "ad63f253-24cd-4969-a7dc-215df5ed3548", "Text": "No overtaking", "ImageUrl": null }, { "QuestionId": "4513", "IsRight": true, "Id": "4195193d-b104-4caf-b3d4-33a1a76126dc", "Text": "You have priority over vehicles from the opposite direction", "ImageUrl": null } ], "Id": "4513", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4513.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.23", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4514", "IsRight": false, "Id": "928714c4-9901-4c6d-b299-8850376a1902", "Text": null, "ImageUrl": "Source/img/4514.1.png" }, { "QuestionId": "4514", "IsRight": false, "Id": "5ce31ea5-df19-4bd6-a171-90d770f9aac4", "Text": null, "ImageUrl": "Source/img/4514.2.png" }, { "QuestionId": "4514", "IsRight": false, "Id": "acfebaf0-1ee0-4cbf-a01a-bbd5b061d88e", "Text": null, "ImageUrl": "Source/img/4514.3.png" }, { "QuestionId": "4514", "IsRight": true, "Id": "b51277b8-e320-4166-9ea4-07010982828c", "Text": null, "ImageUrl": "Source/img/4514.4.png" } ], "Id": "4514", "Text": " What shape is a STOP sign at a junction?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4515", "IsRight": false, "Id": "a944f8d1-1f9b-43c1-9d72-60c929b7e058", "Text": null, "ImageUrl": "Source/img/4515.1.png" }, { "QuestionId": "4515", "IsRight": false, "Id": "d4319219-48ab-4f93-a39f-beaf96beefbe", "Text": null, "ImageUrl": "Source/img/4515.2.png" }, { "QuestionId": "4515", "IsRight": false, "Id": "9b879974-bdc9-4e01-ad78-5d276f1707fb", "Text": null, "ImageUrl": "Source/img/4515.3.png" }, { "QuestionId": "4515", "IsRight": true, "Id": "9951c8a6-c0ae-4ee7-a36a-1083d6f1d4f3", "Text": null, "ImageUrl": "Source/img/4515.4.png" } ], "Id": "4515", "Text": " Which shape is used for GIVE WAY sign?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.26", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4516", "IsRight": false, "Id": "9548af5d-68c6-45ac-b7d9-91bbf51f0e56", "Text": "Give way to oncoming vehicles", "ImageUrl": null }, { "QuestionId": "4516", "IsRight": false, "Id": "facf8376-46a5-45fb-92ca-291319667fef", "Text": "Turn off at the next available junction", "ImageUrl": null }, { "QuestionId": "4516", "IsRight": false, "Id": "9c33ffb5-d5cf-41c5-aebe-882fa617f95a", "Text": "Approaching traffic passes you on both sides", "ImageUrl": null }, { "QuestionId": "4516", "IsRight": true, "Id": "18808efa-419c-4fa0-9aa9-085f1d437d8f", "Text": "Pass either side to get to the same destination", "ImageUrl": null } ], "Id": "4516", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4516.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.31", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4517", "IsRight": false, "Id": "394db2ba-3d83-4aa8-9fe4-3d56be4b0406", "Text": "Give way", "ImageUrl": null }, { "QuestionId": "4517", "IsRight": true, "Id": "b210681e-5590-482f-a378-21e47634a6f1", "Text": "T-junction", "ImageUrl": null }, { "QuestionId": "4517", "IsRight": false, "Id": "2c8b083f-e929-4a5b-ab61-a86591ee9b32", "Text": "No through road", "ImageUrl": null }, { "QuestionId": "4517", "IsRight": false, "Id": "6e9816e1-9056-4e5d-8183-b33bf1e7ea84", "Text": "Turn left ahead", "ImageUrl": null } ], "Id": "4517", "Text": " What does this sign means?", "ImageUrl": "Source/img/4517.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.32", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4518", "IsRight": true, "Id": "71e27dcf-b859-4cc4-85a2-64c4d7016316", "Text": "Crossroads", "ImageUrl": null }, { "QuestionId": "4518", "IsRight": false, "Id": "9d78c699-4824-463d-9cf9-3596354938f5", "Text": "Ahead only", "ImageUrl": null }, { "QuestionId": "4518", "IsRight": false, "Id": "c7b413d2-09ca-4bd8-8829-31d228f7bcfb", "Text": "Level crossing without gate", "ImageUrl": null }, { "QuestionId": "4518", "IsRight": false, "Id": "90658993-570a-4c30-8d6d-e090247c8d2c", "Text": "Level crossing with gate", "ImageUrl": null } ], "Id": "4518", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4518.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.33", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4519", "IsRight": false, "Id": "56fc3606-3518-47f0-aff5-97d882cad934", "Text": "Ring road", "ImageUrl": null }, { "QuestionId": "4519", "IsRight": false, "Id": "ced98329-55a3-4c9c-ad76-67c9189f2785", "Text": "Mini-roundabout", "ImageUrl": null }, { "QuestionId": "4519", "IsRight": false, "Id": "620b7d52-6a35-4a69-8431-6f4943956290", "Text": "No vehicles", "ImageUrl": null }, { "QuestionId": "4519", "IsRight": true, "Id": "83d4cd30-74ca-4a63-bc62-c9571fb8d3d1", "Text": "Roundabout", "ImageUrl": null } ], "Id": "4519", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4519.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.35", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4520", "IsRight": true, "Id": "7024d155-425f-4eb6-abb1-37fd831f47ce", "Text": null, "ImageUrl": "Source/img/4520.1.png" }, { "QuestionId": "4520", "IsRight": false, "Id": "944d8ca7-eb51-444b-8ea3-8ab07acbfcc2", "Text": null, "ImageUrl": "Source/img/4520.2.png" }, { "QuestionId": "4520", "IsRight": false, "Id": "c21e6c36-b07b-4d36-8264-517e4d82f239", "Text": null, "ImageUrl": "Source/img/4520.3.png" }, { "QuestionId": "4520", "IsRight": false, "Id": "2a92c353-ea1e-4060-8c29-5ef7e322d232", "Text": null, "ImageUrl": "Source/img/4520.4.png" } ], "Id": "4520", "Text": " Which sign means that pedestrians may be walking together along the road?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.36", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4521", "IsRight": true, "Id": "d57e4c51-8cbe-4476-8f51-bb0075543a36", "Text": null, "ImageUrl": "Source/img/4521.1.png" }, { "QuestionId": "4521", "IsRight": false, "Id": "a34688d1-6488-4e0f-a1b9-5450878210b9", "Text": null, "ImageUrl": "Source/img/4521.2.png" }, { "QuestionId": "4521", "IsRight": false, "Id": "a48b9061-433b-4b79-8278-2fde5df42eff", "Text": null, "ImageUrl": "Source/img/4521.3.png" }, { "QuestionId": "4521", "IsRight": false, "Id": "d6bf86ab-bf22-48ce-b5e9-3d2aa8e5d55d", "Text": null, "ImageUrl": "Source/img/4521.4.png" } ], "Id": "4521", "Text": " Which of these signs warn you of a pedestrian crossing?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.37", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4522", "IsRight": false, "Id": "886e188b-5231-4722-8cb2-2a9bf9c0b26a", "Text": "No footpath ahead", "ImageUrl": null }, { "QuestionId": "4522", "IsRight": false, "Id": "e842910e-2486-43f0-ad60-276d3d41dacc", "Text": "School crossing ahead", "ImageUrl": null }, { "QuestionId": "4522", "IsRight": true, "Id": "a9f6b799-f363-4400-aeeb-950a377143af", "Text": "Pedestrian crossing ahead", "ImageUrl": null }, { "QuestionId": "4522", "IsRight": false, "Id": "680d1dce-b510-42bb-b8ed-b20f1c5e33cf", "Text": "Pedestrians only ahead", "ImageUrl": null } ], "Id": "4522", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4522.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.38", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4523", "IsRight": false, "Id": "11d4ca5e-a81e-41cc-801d-9002f3319ee7", "Text": "School crossing patrol", "ImageUrl": null }, { "QuestionId": "4523", "IsRight": false, "Id": "36c69ee2-62cb-4e2d-b235-308a26026b27", "Text": "Pedestrian zone - no vehicles", "ImageUrl": null }, { "QuestionId": "4523", "IsRight": false, "Id": "e5d9771d-a9f9-4467-93bf-9d4e7d77a920", "Text": "No pedestrians allowed", "ImageUrl": null }, { "QuestionId": "4523", "IsRight": true, "Id": "1f5a5582-a1a8-43e5-81c9-8cd030ba6591", "Text": "Pedestrian crossing ahead", "ImageUrl": null } ], "Id": "4523", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4523.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.39", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4524", "IsRight": false, "Id": "b2025d4b-847f-4958-b8b6-46647549eae0", "Text": null, "ImageUrl": "Source/img/4524.1.png" }, { "QuestionId": "4524", "IsRight": true, "Id": "c47da76a-0f35-4caf-82ea-ed3ea3aed539", "Text": null, "ImageUrl": "Source/img/4524.2.png" }, { "QuestionId": "4524", "IsRight": false, "Id": "76446689-97ee-425d-9008-4e059a073266", "Text": null, "ImageUrl": "Source/img/4524.3.png" }, { "QuestionId": "4524", "IsRight": false, "Id": "671a668b-8996-4cbb-9eb4-463ccd619792", "Text": null, "ImageUrl": "Source/img/4524.4.png" } ], "Id": "4524", "Text": " Which of these signs means there is a double bend ahead?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.40", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4525", "IsRight": false, "Id": "74d75114-39fe-4630-9011-92c997186b94", "Text": "Humpback bridge", "ImageUrl": null }, { "QuestionId": "4525", "IsRight": true, "Id": "46d1b972-fa62-420c-b76b-216f25ec6d60", "Text": "Humps in the road", "ImageUrl": null }, { "QuestionId": "4525", "IsRight": false, "Id": "64fa22a5-0c1a-405c-bf20-2c3b5501b411", "Text": "Exiting tunnels", "ImageUrl": null }, { "QuestionId": "4525", "IsRight": false, "Id": "ad80e182-6c8d-40e9-9c59-bb37223b3ccc", "Text": "Entrance to tunnel", "ImageUrl": null } ], "Id": "4525", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4525.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.41", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4526", "IsRight": false, "Id": "9563c627-11a9-4162-9107-30866947f784", "Text": "Low bridge ahead", "ImageUrl": null }, { "QuestionId": "4526", "IsRight": true, "Id": "db1c549d-5e05-4a04-9496-6ab079ca058b", "Text": "Tunnel ahead", "ImageUrl": null }, { "QuestionId": "4526", "IsRight": false, "Id": "dfb9dbca-3ad7-4eb6-910c-1889d722ea66", "Text": "Accident black spot ahead", "ImageUrl": null }, { "QuestionId": "4526", "IsRight": false, "Id": "d1c85d75-f142-4bd0-b70d-41fd27568f11", "Text": "Ancient monument ahead", "ImageUrl": null } ], "Id": "4526", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4526.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.42", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4527", "IsRight": true, "Id": "12f201ab-f8be-4f29-a4cf-a6981c7cfbe9", "Text": null, "ImageUrl": "Source/img/4527.1.png" }, { "QuestionId": "4527", "IsRight": false, "Id": "86858a18-54d7-4540-b672-ec60d70b03ca", "Text": null, "ImageUrl": "Source/img/4527.2.png" }, { "QuestionId": "4527", "IsRight": false, "Id": "a5a938cd-16cb-434b-b24f-6f22e4ee0f5d", "Text": null, "ImageUrl": "Source/img/4527.3.png" }, { "QuestionId": "4527", "IsRight": false, "Id": "edfc8aa2-270e-4fa6-8551-104bec4d8f48", "Text": null, "ImageUrl": "Source/img/4527.4.png" } ], "Id": "4527", "Text": " Which of these signs means the end of a dual carriageway?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.43", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4528", "IsRight": true, "Id": "3083e935-dec1-42d7-8020-3f55057c9bbf", "Text": "End of dual carriageway", "ImageUrl": null }, { "QuestionId": "4528", "IsRight": false, "Id": "59a84f44-7600-4b8e-9400-75cc37ef9e93", "Text": "End of narrow bridge", "ImageUrl": null }, { "QuestionId": "4528", "IsRight": false, "Id": "d6569948-6a3a-48d7-a362-1fb2b3d6167a", "Text": "Road narrows", "ImageUrl": null }, { "QuestionId": "4528", "IsRight": false, "Id": "07231ce2-3015-463b-b8fa-d47b858b60e9", "Text": "Tall bridge", "ImageUrl": null } ], "Id": "4528", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4528.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.44", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4529", "IsRight": false, "Id": "76528218-de5b-45ea-9954-b6404ad5bc37", "Text": "Two-way traffic ahead across a one-way street", "ImageUrl": null }, { "QuestionId": "4529", "IsRight": false, "Id": "b7df70a8-f098-4c62-848a-82e92778599f", "Text": "Motorway contra flow system ahead", "ImageUrl": null }, { "QuestionId": "4529", "IsRight": true, "Id": "b71891e9-c42a-4497-b300-5d1d0ed62bf3", "Text": "Two-way traffic straight ahead", "ImageUrl": null }, { "QuestionId": "4529", "IsRight": false, "Id": "54c64c09-cf92-4caa-906c-a6a95e48ba89", "Text": "Traffic approaching you has priority", "ImageUrl": null } ], "Id": "4529", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4529.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.45", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4530", "IsRight": false, "Id": "70954b6b-a69d-4d2a-8b8b-320b71739c4d", "Text": "Slippery road ahead", "ImageUrl": null }, { "QuestionId": "4530", "IsRight": false, "Id": "e1c9bb19-7844-4875-9d58-215c9c046173", "Text": "Service area ahead", "ImageUrl": null }, { "QuestionId": "4530", "IsRight": true, "Id": "5a3ec972-b0a0-4e19-8e4c-74f2e755a555", "Text": "Danger ahead", "ImageUrl": null }, { "QuestionId": "4530", "IsRight": false, "Id": "cbeaea66-2607-4cac-b70a-f93b9279c78e", "Text": "Tyres liable to punctures ahead", "ImageUrl": null } ], "Id": "4530", "Text": " What does this traffic sign mean?", "ImageUrl": "Source/img/4530.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.46", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4531", "IsRight": false, "Id": "e76b9a21-6dd1-4569-b126-6a09abc5a23d", "Text": "Switch your headlights on before overtaking", "ImageUrl": null }, { "QuestionId": "4531", "IsRight": false, "Id": "7fda827f-9314-4b15-a05f-61dd35a0442f", "Text": "Move to the right to get a better view", "ImageUrl": null }, { "QuestionId": "4531", "IsRight": false, "Id": "37efbe0c-7db9-4262-a506-e7c2bc4bc0a3", "Text": "Overtake the other driver as quickly as possible", "ImageUrl": null }, { "QuestionId": "4531", "IsRight": true, "Id": "f298d7de-b6cc-46c9-aa86-16fd50cbeee3", "Text": "Hold back until you can see clearly ahead", "ImageUrl": null } ], "Id": "4531", "Text": " You are about to overtake when you see this sign. You should:", "ImageUrl": "Source/img/4531.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.47", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4532", "IsRight": false, "Id": "f81a9d79-f9f0-4d64-b2ca-7d4fbb20b317", "Text": "Steep hill upwards", "ImageUrl": null }, { "QuestionId": "4532", "IsRight": true, "Id": "d3570180-46ff-41fb-9c1d-d7d5a46eccf3", "Text": "Steep hill downwards", "ImageUrl": null }, { "QuestionId": "4532", "IsRight": false, "Id": "26092064-7012-43b0-bf5a-fd25d9537774", "Text": "Uneven road", "ImageUrl": null }, { "QuestionId": "4532", "IsRight": false, "Id": "5efdcc90-34dc-432a-a6cd-03323de1e33e", "Text": "Adverse camber", "ImageUrl": null } ], "Id": "4532", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4532.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.48", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4533", "IsRight": true, "Id": "6f4ed7ff-0678-45ac-a598-59db27322e57", "Text": "Quayside or river bank", "ImageUrl": null }, { "QuestionId": "4533", "IsRight": false, "Id": "f756dbe9-9655-468e-bcc6-49fe1290ebda", "Text": "Road liable to flooding", "ImageUrl": null }, { "QuestionId": "4533", "IsRight": false, "Id": "0a4e26ff-0767-4b30-832d-d180deca9014", "Text": "Slippery road", "ImageUrl": null }, { "QuestionId": "4533", "IsRight": false, "Id": "72806668-1820-4d9e-81ba-e4532c8317f5", "Text": "Steep hill downwards", "ImageUrl": null } ], "Id": "4533", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4533.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.49", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4534", "IsRight": false, "Id": "b81fee2d-b2c7-4267-ad2f-6f181f39a5f7", "Text": "Turn left for ferry terminal", "ImageUrl": null }, { "QuestionId": "4534", "IsRight": true, "Id": "2e17ae39-d0e6-4c03-a989-04c683529fd3", "Text": "No through road on the left", "ImageUrl": null }, { "QuestionId": "4534", "IsRight": false, "Id": "33960cec-0cea-47ae-b012-d2aeda9b5ad4", "Text": "No entry for traffic turning left", "ImageUrl": null }, { "QuestionId": "4534", "IsRight": false, "Id": "11ae469e-5b7a-4e45-a0ff-996da36326d3", "Text": "Turn left for parking area", "ImageUrl": null } ], "Id": "4534", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4534.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.50", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4535", "IsRight": false, "Id": "a4a43525-b66e-48d9-b252-031821022b32", "Text": "Toilet ahead", "ImageUrl": null }, { "QuestionId": "4535", "IsRight": false, "Id": "9cc7227f-af9c-4a2c-8843-8ce0279861a3", "Text": "Telephone box ahead", "ImageUrl": null }, { "QuestionId": "4535", "IsRight": false, "Id": "998ec8ca-12f3-4fd3-a59e-fb06ec8f822f", "Text": "T-junction", "ImageUrl": null }, { "QuestionId": "4535", "IsRight": true, "Id": "587e6c80-a65c-460c-af50-1ddee1f5b391", "Text": "No through road", "ImageUrl": null } ], "Id": "4535", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4535.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.51", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4536", "IsRight": false, "Id": "4b31126c-e32b-4ea8-8283-14cda5b1538a", "Text": null, "ImageUrl": "Source/img/4536.1.png" }, { "QuestionId": "4536", "IsRight": false, "Id": "836cc72b-103c-4945-b98f-362faa3ddad7", "Text": null, "ImageUrl": "Source/img/4536.2.png" }, { "QuestionId": "4536", "IsRight": true, "Id": "95cb2cb6-372a-4889-be5a-36b896f4cd6d", "Text": null, "ImageUrl": "Source/img/4536.3.png" } ], "Id": "4536", "Text": " Which sign means 'no through road'?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.52", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4537", "IsRight": false, "Id": "8bfaab7b-cb9a-42b9-aaf5-d1c22322ad86", "Text": null, "ImageUrl": "Source/img/4537.1.png" }, { "QuestionId": "4537", "IsRight": false, "Id": "1a81af87-ef96-4b1b-8721-e8f64fe0495f", "Text": null, "ImageUrl": "Source/img/4537.2.png" }, { "QuestionId": "4537", "IsRight": true, "Id": "b33dbfb5-cc2c-473c-9fda-0493577baf4b", "Text": null, "ImageUrl": "Source/img/4537.3.png" } ], "Id": "4537", "Text": " Which of the following signs informs you that you are coming to a No Through Road?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.53", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4538", "IsRight": false, "Id": "c4e70a28-c586-4c63-b01e-060e2e3708b6", "Text": "The right-hand lane ahead is narrow", "ImageUrl": null }, { "QuestionId": "4538", "IsRight": false, "Id": "944d9feb-cc95-4def-82c8-70d1a9f88e07", "Text": "Right hand lane for turning right", "ImageUrl": null }, { "QuestionId": "4538", "IsRight": false, "Id": "50eeed14-7525-49f4-bd25-66e0be143ac4", "Text": "Right-hand lane for buses only", "ImageUrl": null }, { "QuestionId": "4538", "IsRight": true, "Id": "acf4d77d-ffac-4f26-9b29-d42350fcd571", "Text": "The right-hand lane ahead is closed", "ImageUrl": null } ], "Id": "4538", "Text": " What does this sign mean?", "ImageUrl": "Source/img/4538.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.54", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4539", "IsRight": true, "Id": "4b819487-fd0d-4edf-86ca-0baa3d7f5287", "Text": "Red alone", "ImageUrl": null }, { "QuestionId": "4539", "IsRight": false, "Id": "fc26fbee-0047-4012-a533-05ebfd56b94f", "Text": "Green alone", "ImageUrl": null }, { "QuestionId": "4539", "IsRight": false, "Id": "a685a88f-331a-46d3-b08e-597078fb38b8", "Text": "Green and amber together", "ImageUrl": null }, { "QuestionId": "4539", "IsRight": false, "Id": "e4bc2ff2-9df7-420b-9326-14c0d6470d8f", "Text": "Red and amber together", "ImageUrl": null } ], "Id": "4539", "Text": " You see this traffic light ahead. Which light(s) will come on next?", "ImageUrl": "Source/img/4539.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.62", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4540", "IsRight": false, "Id": "8479d59e-059c-4fb8-8a80-57c72980276e", "Text": "No through road sign", "ImageUrl": null }, { "QuestionId": "4540", "IsRight": true, "Id": "cf54dac9-8443-49a5-8ef6-e0af9a233f5c", "Text": "Give way sign", "ImageUrl": null }, { "QuestionId": "4540", "IsRight": false, "Id": "cff5823f-426f-45d4-b4c8-f2756b0a3518", "Text": "Stop sign", "ImageUrl": null }, { "QuestionId": "4540", "IsRight": false, "Id": "7c1934cb-95b1-4e50-8ce6-b107f6e2b697", "Text": "No entry sign", "ImageUrl": null } ], "Id": "4540", "Text": " This marking appears on the road just before a", "ImageUrl": "Source/img/4540.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.63", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4541", "IsRight": true, "Id": "da391031-51d4-406a-8220-219af74c6195", "Text": "Give way to traffic from the right", "ImageUrl": null }, { "QuestionId": "4541", "IsRight": false, "Id": "31ba23f6-3814-48ec-a86d-5f36d447e906", "Text": "Stop at the line", "ImageUrl": null }, { "QuestionId": "4541", "IsRight": false, "Id": "d38dcd74-09a6-4f17-861b-40eec28bf72f", "Text": "You have right of way", "ImageUrl": null }, { "QuestionId": "4541", "IsRight": false, "Id": "ed7fbe2f-6270-4a9e-bb8c-231bb48f31e8", "Text": "Traffic from the left has right of way", "ImageUrl": null } ], "Id": "4541", "Text": " You see this line across the road at the entrance to a roundabout.\nWhat does it mean?", "ImageUrl": "Source/img/4541.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.64", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4542", "IsRight": false, "Id": "be58cfd8-851f-4ca9-9a88-040671403e75", "Text": "The driver wishes to overtake", "ImageUrl": null }, { "QuestionId": "4542", "IsRight": false, "Id": "5639d3ed-f591-4c2e-a7c8-42438b8bc102", "Text": "The driver intends to turn right", "ImageUrl": null }, { "QuestionId": "4542", "IsRight": false, "Id": "6800cd88-ecf2-4620-8087-8e7b8ed982e0", "Text": "The driver is slowing down", "ImageUrl": null }, { "QuestionId": "4542", "IsRight": true, "Id": "027d1918-87e9-47f7-a17c-ecec914a7fba", "Text": "The drivers intends to turn left", "ImageUrl": null } ], "Id": "4542", "Text": " The driver of the car in front is giving this signal. What does it mean?", "ImageUrl": "Source/img/4542.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.65", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4543", "IsRight": false, "Id": "1e40a1cf-6f4c-4b42-a70d-693261d5bcc7", "Text": "Let pedestrians cross", "ImageUrl": null }, { "QuestionId": "4543", "IsRight": true, "Id": "4c27a085-e30c-4c10-b66f-85362dfb0987", "Text": "Turn to the left", "ImageUrl": null }, { "QuestionId": "4543", "IsRight": false, "Id": "53e1cd57-d474-4b5e-9ad8-5f97c6cbe72f", "Text": "Go straight ahead", "ImageUrl": null }, { "QuestionId": "4543", "IsRight": false, "Id": "cb212df2-4405-4edb-b2c0-d566dc40316d", "Text": "Turn to the right", "ImageUrl": null } ], "Id": "4543", "Text": " The driver of this car is giving an arm signal. What is he about to do?", "ImageUrl": "Source/img/4543.png" },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.71", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4544", "IsRight": false, "Id": "88e76b8d-bdae-4b68-8bcd-5e4dd1beeded", "Text": null, "ImageUrl": "Source/img/4544.1.png" }, { "QuestionId": "4544", "IsRight": false, "Id": "312240c0-ad36-4a82-8a57-86d9a4127e6a", "Text": null, "ImageUrl": "Source/img/4544.2.png" }, { "QuestionId": "4544", "IsRight": false, "Id": "f974fcec-258e-48d8-bd7b-b69c7cd3e5e3", "Text": null, "ImageUrl": "Source/img/4544.3.png" }, { "QuestionId": "4544", "IsRight": true, "Id": "0acb286f-85fa-44ce-a7dc-0e2cf1062a8a", "Text": null, "ImageUrl": "Source/img/4544.4.png" } ], "Id": "4544", "Text": " Which of these signs means that the national speed limit applies?", "ImageUrl": null },
-      { "CategoryId": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0", "SubCategoryId": "CARS11.72", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4545", "IsRight": false, "Id": "da7b0882-e0a5-4458-9844-3b7f86aca49d", "Text": "Hatched traffic stream separator warning lines that may be used for overtaking as long as no traffic is coming from the opposite direction", "ImageUrl": null }, { "QuestionId": "4545", "IsRight": false, "Id": "a6a8919d-b97b-4ff8-8188-4b7cd7a5fcce", "Text": "Central reservation and can be used for overtaking if no traffic is coming from the opposite direction.", "ImageUrl": null }, { "QuestionId": "4545", "IsRight": true, "Id": "cc276c33-23ed-4aa7-81e3-ab4b726809b2", "Text": "Hatching bordered by continuous solid white lines intended to separate two opposing streams of traffic  which lines must not be crossed or entered into except in an emergency or when directed to do so by the police", "ImageUrl": null } ], "Id": "4545", "Text": " Which of the following describe these road markings?", "ImageUrl": "Source/img/4545.png" }
-    ],
-    "Id": "ba4dbc97-1203-4c7a-9c6a-84e5c22d85e0",
-    "Text": "ROAD AND TRAFFIC SIGNS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4456", "IsRight": true, "Id": "b582b857-006a-4066-8efe-60e5adb10243", "Text": "Have held a full licence for at least 5 years", "ImageUrl": null }, { "QuestionId": "4456", "IsRight": false, "Id": "edd97792-7f23-4fb5-897f-7f61292795c3", "Text": "Hold an advanced driving certificate", "ImageUrl": null }, { "QuestionId": "4456", "IsRight": false, "Id": "4fbf51a7-2dbe-4378-b976-7424c6129a6e", "Text": "Be an approved driving instructor", "ImageUrl": null }, { "QuestionId": "4456", "IsRight": false, "Id": "eef70573-4d6b-4f9d-aed3-33e6c2b12180", "Text": "Be at least 23", "ImageUrl": null } ], "Id": "4456", "Text": " To supervise a learner driver you must:", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.2", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4457", "IsRight": true, "Id": "0fc4000d-b049-4153-b09e-49d7ad221b98", "Text": "When you are taxing your vehicle", "ImageUrl": null }, { "QuestionId": "4457", "IsRight": true, "Id": "5a634a3e-edb5-440b-a999-cac83d7f635f", "Text": "When a police officer asks you for it", "ImageUrl": null }, { "QuestionId": "4457", "IsRight": false, "Id": "e4ecc3bc-6312-4849-b2e4-445e12e5b5af", "Text": "When having a VRT inspection", "ImageUrl": null }, { "QuestionId": "4457", "IsRight": true, "Id": "9074f94f-631d-41f7-b2ea-39f0e9bf9cc1", "Text": "When buying or selling a vehicle", "ImageUrl": null } ], "Id": "4457", "Text": " For which THREE of these must you show your motor insurance certificate?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4458", "IsRight": false, "Id": "b57c9e3d-c8f8-4f9c-8fc8-ec925aa67668", "Text": "The owner has left the insurance documents in the vehicle", "ImageUrl": null }, { "QuestionId": "4458", "IsRight": false, "Id": "2ede5786-b565-476e-9371-868126f178c0", "Text": "Your own vehicle has insurance cover", "ImageUrl": null }, { "QuestionId": "4458", "IsRight": true, "Id": "7c2bd244-3282-43d1-b837-eb660f3f87f0", "Text": "The vehicle is also insured for your use", "ImageUrl": null }, { "QuestionId": "4458", "IsRight": false, "Id": "ee7c2281-9b13-4d27-8fa9-5572e4628827", "Text": "The vehicle owner has third party insurance cover", "ImageUrl": null } ], "Id": "4458", "Text": " Before driving anyone else's motor vehicle you should make sure that:", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4459", "IsRight": false, "Id": "b73f77c6-bfcc-4c9d-b438-6afc8d0f27f9", "Text": "Personal injury cover", "ImageUrl": null }, { "QuestionId": "4459", "IsRight": false, "Id": "26a475da-5ced-475e-b12b-460773a01fbd", "Text": "Fully comprehensive", "ImageUrl": null }, { "QuestionId": "4459", "IsRight": false, "Id": "c6edc32f-01bf-4bfc-883f-e0388a2516ba", "Text": "Third party fire and theft", "ImageUrl": null }, { "QuestionId": "4459", "IsRight": true, "Id": "3ff2d55a-35b1-49e2-828d-385deaa5db23", "Text": "Third party only", "ImageUrl": null } ], "Id": "4459", "Text": " What is the legal minimum insurance cover you must have to drive on public roads?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.7", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4460", "IsRight": true, "Id": "bca7fc19-41c0-45a2-b0fc-64ad6f584deb", "Text": "Proper insurance cover", "ImageUrl": null }, { "QuestionId": "4460", "IsRight": false, "Id": "d04f98e0-0119-429c-96d3-1a54ed50dd14", "Text": "A vehicle handbook", "ImageUrl": null }, { "QuestionId": "4460", "IsRight": false, "Id": "600fb0e5-c9e4-4432-81d5-19cd4e45c7f7", "Text": "Breakdown cover", "ImageUrl": null }, { "QuestionId": "4460", "IsRight": true, "Id": "e1834ae5-37c7-4b3c-9931-fe22f8dff680", "Text": "A valid road tax disc displayed on your vehicle", "ImageUrl": null }, { "QuestionId": "4460", "IsRight": true, "Id": "6504d50c-c622-416b-97e3-ca4730e79f38", "Text": "A valid signed driving licence", "ImageUrl": null }, { "QuestionId": "4460", "IsRight": false, "Id": "8c4c46db-076b-4ed1-a280-aa2e09191169", "Text": "Proof of your identity", "ImageUrl": null } ], "Id": "4460", "Text": " Which THREE of the following do you need before you can drive legally?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.8", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4461", "IsRight": true, "Id": "3e4b1fdd-dde6-48cc-aa02-18a94cbf56c2", "Text": "Make of the vehicle", "ImageUrl": null }, { "QuestionId": "4461", "IsRight": true, "Id": "675c373b-e3bf-4c53-a57e-d2cb1ceb9aee", "Text": "Registered owner", "ImageUrl": null }, { "QuestionId": "4461", "IsRight": false, "Id": "a1e89384-f96a-4e54-b37f-a6021d148962", "Text": "Type of insurance cover", "ImageUrl": null }, { "QuestionId": "4461", "IsRight": false, "Id": "07102a7d-0545-4639-b9c6-797839622797", "Text": "Date of the VRT", "ImageUrl": null }, { "QuestionId": "4461", "IsRight": false, "Id": "0cf84589-69cd-4cd6-9444-9b9eb5239eac", "Text": "Service history details", "ImageUrl": null } ], "Id": "4461", "Text": " Which TWO pieces of information are found on a vehicle registration document?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.9", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4462", "IsRight": false, "Id": "516466aa-2616-4007-8493-8dcab69f7472", "Text": "4 points a year over a 3 year period.", "ImageUrl": null }, { "QuestionId": "4462", "IsRight": true, "Id": "22f37ff6-0095-46ba-a22b-f3a63749587c", "Text": "12 points at any time during a 3 year period.", "ImageUrl": null }, { "QuestionId": "4462", "IsRight": false, "Id": "6f5a092a-051f-40ee-b719-c8565b0192f9", "Text": "18 points over a two year period.", "ImageUrl": null }, { "QuestionId": "4462", "IsRight": false, "Id": "ea069485-4b96-400c-96db-2b4443dd7bfd", "Text": "10 points during any one year period.", "ImageUrl": null }, { "QuestionId": "4462", "IsRight": false, "Id": "1cae7c26-30b4-4b02-84ad-1a77c62d5342", "Text": "15 points over a five 5 year period.", "ImageUrl": null } ], "Id": "4462", "Text": " What is the maximum number of penalty points that will automatically disqualify a driver who holds a probationary driving licence?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.10", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4463", "IsRight": false, "Id": "916a887f-2630-48b5-a95f-aa7b91cd1390", "Text": "Simply re-sit and pass the test of skills and behaviour.", "ImageUrl": null }, { "QuestionId": "4463", "IsRight": false, "Id": "6fb5243c-9275-447d-95f3-540e2f114960", "Text": "Re-apply as for a new driver after expiry of disqualification period and must re-sit and pass the theory test", "ImageUrl": null }, { "QuestionId": "4463", "IsRight": true, "Id": "58c250c8-2c1c-4948-876d-b9b8b0c7e867", "Text": "Pay any outstanding fines  submit a new licence application after expiry of disqualification period and re-sit and pass both the theory and practical tests", "ImageUrl": null }, { "QuestionId": "4463", "IsRight": false, "Id": "488669d7-0965-4263-bb19-db3327431aae", "Text": "Wait for any disqualification period to pass and apply for a duplicate driving licence.", "ImageUrl": null } ], "Id": "4463", "Text": " Apart from complying with any punishment according to law  what will a disqualified driver have to do to obtain a driving licence?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.11", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4464", "IsRight": false, "Id": "357dab0f-4c1a-4ecd-98c3-f36c1f5f7d03", "Text": "Nobody in particular.", "ImageUrl": null }, { "QuestionId": "4464", "IsRight": false, "Id": "b241276c-8061-48dd-90b8-abd8f500953a", "Text": "Your mechanic.", "ImageUrl": null }, { "QuestionId": "4464", "IsRight": false, "Id": "923577f9-7949-4066-a7c5-76786f62fbd4", "Text": "The VRT tester.", "ImageUrl": null }, { "QuestionId": "4464", "IsRight": true, "Id": "8fa0d94b-ad34-4a16-9094-92b05d7fb462", "Text": "You  the driver.", "ImageUrl": null } ], "Id": "4464", "Text": " Who is responsible for ensuring that a vehicle is fully road worthy when driven on a public road?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.5", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4650", "IsRight": true, "Id": "2298a868-b223-48a6-b3f2-2202c3f0e233", "Text": "Damage to other vehicles", "ImageUrl": null }, { "QuestionId": "4650", "IsRight": true, "Id": "2eb16772-2da6-42af-9ca2-d01990e4ee1f", "Text": "Damage to someone's property", "ImageUrl": null }, { "QuestionId": "4650", "IsRight": false, "Id": "5f5e95d3-acac-4b67-8e01-07928d1a8b23", "Text": "Injury to yourself", "ImageUrl": null }, { "QuestionId": "4650", "IsRight": true, "Id": "7693d8e9-2fce-4c92-9c3a-ece7d16663b9", "Text": "Injury to another person", "ImageUrl": null }, { "QuestionId": "4650", "IsRight": false, "Id": "ff1a4326-1795-4d29-abad-796515d102f8", "Text": "Damage to your car by fire", "ImageUrl": null }, { "QuestionId": "4650", "IsRight": false, "Id": "916a0749-d210-4c72-9396-8de9a5d0ba27", "Text": "Damage to your own car", "ImageUrl": null } ], "Id": "4650", "Text": " Your car has third party insurance. What does this cover?", "ImageUrl": null },
-      { "CategoryId": "713e7fce-50ac-4e29-87a0-2c0261ffffde", "SubCategoryId": "CARS12.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4651", "IsRight": false, "Id": "86fed384-fa7d-42a0-8c2a-f09a73269581", "Text": "30,000 miles", "ImageUrl": null }, { "QuestionId": "4651", "IsRight": false, "Id": "9b8c4940-ede3-4518-8df9-2dbf7cf2810f", "Text": "One year after the date it was issued", "ImageUrl": null }, { "QuestionId": "4651", "IsRight": false, "Id": "7128fc2d-5d36-453e-a43e-567a2abc6e35", "Text": "10,000 miles", "ImageUrl": null }, { "QuestionId": "4651", "IsRight": true, "Id": "bde78931-1af6-42ce-af98-0f683ac68f75", "Text": "Two years after the date it was issued", "ImageUrl": null } ], "Id": "4651", "Text": " A VRT certificate is normally valid for:", "ImageUrl": null }
-    ],
-    "Id": "713e7fce-50ac-4e29-87a0-2c0261ffffde",
-    "Text": "DOCUMENTS",
-    "ImageUrl": null
-  },
-  {
-    "Questions": [
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.1", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4465", "IsRight": true, "Id": "c2f0ba5f-42eb-4b8b-99e1-e48f8c4cbb50", "Text": "Not put yourself at risk", "ImageUrl": null }, { "QuestionId": "4465", "IsRight": false, "Id": "cdf62114-9a8e-4ef9-aabc-d2fd543d5214", "Text": "Leave vehicle engines switched on", "ImageUrl": null }, { "QuestionId": "4465", "IsRight": false, "Id": "06d41b3e-5295-4bd9-a555-22344e8f6532", "Text": "Pull everybody out of their vehicles", "ImageUrl": null }, { "QuestionId": "4465", "IsRight": false, "Id": "f3ae80d1-17d1-4850-9748-06cbb8ae3674", "Text": "Go to those casualties who are screaming", "ImageUrl": null } ], "Id": "4465", "Text": " At the scene of an accident you should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.2", "CorrectAnswersNumber": 4, "Answers": [ { "QuestionId": "4466", "IsRight": true, "Id": "aa1aaeb6-33e1-4cb2-ad77-c8ed82f47a19", "Text": "Warn other traffic", "ImageUrl": null }, { "QuestionId": "4466", "IsRight": true, "Id": "d1bc332f-2f96-444f-b3ac-5ef1c09c4182", "Text": "Call the emergency services", "ImageUrl": null }, { "QuestionId": "4466", "IsRight": true, "Id": "395d6cfd-bdcb-439a-b889-d871226ff9a6", "Text": "Move uninjured people away from the vehicle(s)", "ImageUrl": null }, { "QuestionId": "4466", "IsRight": true, "Id": "3db5662d-f503-4f24-be7d-8766c6ad9e02", "Text": "Switch off the vehicle engine(s)", "ImageUrl": null }, { "QuestionId": "4466", "IsRight": false, "Id": "e05d297e-2b48-42c3-b987-c27a3e325f96", "Text": "Leave as soon as another motorist arrives", "ImageUrl": null }, { "QuestionId": "4466", "IsRight": false, "Id": "6086e1f2-b241-4cc4-b1a1-10e6e7f8cd33", "Text": "Offer casualties something to drink", "ImageUrl": null } ], "Id": "4466", "Text": " You are the first to arrive at the scene of an accident. Which FOUR of these should you do?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.3", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4467", "IsRight": false, "Id": "1b7d1e03-aa5a-4061-ace5-cd5b12fab2ab", "Text": "Move the people who are injured clear of their vehicles", "ImageUrl": null }, { "QuestionId": "4467", "IsRight": false, "Id": "191e8cdf-98f2-471f-bff5-989213954b8b", "Text": "Try and get people who are injured to drink something", "ImageUrl": null }, { "QuestionId": "4467", "IsRight": true, "Id": "f784cd38-4fba-417f-bade-d77ade96ed09", "Text": "Get people who are not injured clear of the scene", "ImageUrl": null }, { "QuestionId": "4467", "IsRight": true, "Id": "4cf6c081-879f-4811-b5e4-b7db65b567b3", "Text": "Make sure that someone telephones for an ambulance", "ImageUrl": null }, { "QuestionId": "4467", "IsRight": true, "Id": "8ba23998-c3cb-48f5-89f1-9872b60eb264", "Text": "Switch on your own hazard warning lights", "ImageUrl": null } ], "Id": "4467", "Text": " You are the first person to arrive at an accident where people are badly injured. Which THREE should you do?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4468", "IsRight": true, "Id": "4dc3eeb1-702a-4441-b42d-691d38ccccbb", "Text": "Only when it is essential", "ImageUrl": null }, { "QuestionId": "4468", "IsRight": false, "Id": "0952fad4-d049-4fb9-899b-5708063b2fc2", "Text": "Always  unless they are in shock", "ImageUrl": null }, { "QuestionId": "4468", "IsRight": false, "Id": "f6cdade3-d554-4523-b741-e7475d783486", "Text": "Only when the motorcyclist asks", "ImageUrl": null }, { "QuestionId": "4468", "IsRight": false, "Id": "fc145104-b3ba-4314-9a39-db6037c7f2fb", "Text": "Always straight away", "ImageUrl": null } ], "Id": "4468", "Text": " You arrive at the scene of a motorcycle accident. The rider is injured. When should the helmet be removed?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.5", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4469", "IsRight": true, "Id": "4dc411a8-d9df-4392-9a67-9f85cc4559a3", "Text": "Check the casualty's breathing", "ImageUrl": null }, { "QuestionId": "4469", "IsRight": true, "Id": "8ee950af-28e5-47e8-adfa-9f23413e945b", "Text": "Try to stop any bleeding", "ImageUrl": null }, { "QuestionId": "4469", "IsRight": false, "Id": "0ae380f8-2892-4937-ba11-0d72932c52ac", "Text": "Sweep up any loose debris", "ImageUrl": null }, { "QuestionId": "4469", "IsRight": false, "Id": "c3c1b15e-542b-4a2a-9b1a-94e64c0a4ba1", "Text": "Take the numbers of the vehicles involved", "ImageUrl": null }, { "QuestionId": "4469", "IsRight": true, "Id": "1abe5dfb-7ea4-4c08-b77c-dd821d46b290", "Text": "Check that the airway is clear", "ImageUrl": null }, { "QuestionId": "4469", "IsRight": false, "Id": "0a57de92-d712-48e5-ad63-a93010de89d6", "Text": "Make a list of witnesses", "ImageUrl": null } ], "Id": "4469", "Text": " You arrive at a serious motorcycle accident. The motorcyclist is unconscious and bleeding. Your main priorities should be to:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.6", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4470", "IsRight": true, "Id": "6c4138ca-a66f-4321-99d2-6ad7ffcaaaca", "Text": "Breathing", "ImageUrl": null }, { "QuestionId": "4470", "IsRight": false, "Id": "c535e519-5413-4143-90c7-88474d2dcdc9", "Text": "Bruising", "ImageUrl": null }, { "QuestionId": "4470", "IsRight": false, "Id": "d917c5f3-bad5-494a-8722-ec7672f7fe70", "Text": "Broken bones", "ImageUrl": null }, { "QuestionId": "4470", "IsRight": false, "Id": "248f14c6-e61b-449e-9acb-5a8cd19686c5", "Text": "Bleeding", "ImageUrl": null } ], "Id": "4470", "Text": " You arrive at an accident. A motorcyclist is unconscious. Your FIRST priority is the casualty's", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.7", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4471", "IsRight": false, "Id": "e49b421a-1a03-4fc5-b3bd-37d43b977d7d", "Text": "Broken bones", "ImageUrl": null }, { "QuestionId": "4471", "IsRight": true, "Id": "c9df94cc-cdb8-4731-89a9-44651d74af05", "Text": "Airway", "ImageUrl": null }, { "QuestionId": "4471", "IsRight": false, "Id": "908213a5-a96c-4925-853a-ffec55bd5245", "Text": "Shock", "ImageUrl": null }, { "QuestionId": "4471", "IsRight": true, "Id": "ab1957ad-b281-49f4-b480-1d3064dc5f74", "Text": "Circulation", "ImageUrl": null }, { "QuestionId": "4471", "IsRight": true, "Id": "432bf789-4be0-4660-8e41-9db193ab40f4", "Text": "Breathing", "ImageUrl": null } ], "Id": "4471", "Text": " At an accident a casualty is unconscious. Which THREE of the following should you check urgently?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.8", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4472", "IsRight": true, "Id": "76d260f6-6c0f-4f2e-86eb-d83a56e729c6", "Text": "Circulation", "ImageUrl": null }, { "QuestionId": "4472", "IsRight": true, "Id": "9cb926b0-6d94-4b78-ac80-9f815316be10", "Text": "Airway", "ImageUrl": null }, { "QuestionId": "4472", "IsRight": false, "Id": "61cb0a7b-bdea-4f15-8d08-ed1640972839", "Text": "Bleeding", "ImageUrl": null }, { "QuestionId": "4472", "IsRight": false, "Id": "284dd09b-a567-4abe-a7bd-74e5127fe30f", "Text": "Alert", "ImageUrl": null }, { "QuestionId": "4472", "IsRight": true, "Id": "356bd306-709a-4ffd-b92d-03b53b813a17", "Text": "Breathing", "ImageUrl": null }, { "QuestionId": "4472", "IsRight": false, "Id": "809d5f80-0fae-4c56-a38f-bce9a4064468", "Text": "Conscious", "ImageUrl": null } ], "Id": "4472", "Text": " In first aid what does ABC stand for?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.9", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4473", "IsRight": true, "Id": "f09247cc-7ce6-4024-9b2f-724fcf00323c", "Text": "Make sure they are breathing", "ImageUrl": null }, { "QuestionId": "4473", "IsRight": true, "Id": "cca18dc0-698a-4bd8-809f-e5d156b2126a", "Text": "Check that the airway is clear", "ImageUrl": null }, { "QuestionId": "4473", "IsRight": true, "Id": "41506255-89b9-4265-87b9-24cc637c6c57", "Text": "Stop any heavy bleeding", "ImageUrl": null }, { "QuestionId": "4473", "IsRight": false, "Id": "1022a0ea-06aa-4caa-961d-82d5a9f1be45", "Text": "Count the number of vehicles involved", "ImageUrl": null }, { "QuestionId": "4473", "IsRight": false, "Id": "d90ca1ec-41b8-41d5-a24e-d52ff2799520", "Text": "Take the names of witnesses", "ImageUrl": null }, { "QuestionId": "4473", "IsRight": false, "Id": "0538695f-1d6c-46ba-b270-4fbe3b1c86e9", "Text": "Sweep up the broken glass", "ImageUrl": null } ], "Id": "4473", "Text": " At an accident someone is unconscious. Your main priorities should be to:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.11", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4474", "IsRight": true, "Id": "05bda219-6a94-47a9-ac78-1b532571487f", "Text": "Not leave the driver alone", "ImageUrl": null }, { "QuestionId": "4474", "IsRight": true, "Id": "df7efa81-72d4-45b9-a09b-791843ba718e", "Text": "Reassure the driver", "ImageUrl": null }, { "QuestionId": "4474", "IsRight": false, "Id": "7ce3e07e-5b74-43ca-adcd-823b9c8f9a6b", "Text": "Ask who caused the accident", "ImageUrl": null }, { "QuestionId": "4474", "IsRight": false, "Id": "56ce2a80-f829-4abc-9ab4-5ff1b41f9bd4", "Text": "Offer the driver a cigarette", "ImageUrl": null }, { "QuestionId": "4474", "IsRight": false, "Id": "0ed567ed-e58d-41a7-b3e6-fce460361dee", "Text": "Give the driver a drink", "ImageUrl": null } ], "Id": "4474", "Text": " There has been an accident. The driver is suffering from shock. You should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.12", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4475", "IsRight": true, "Id": "3437b032-7f2e-42d9-a5e5-016033d30da6", "Text": "Reassure them constantly", "ImageUrl": null }, { "QuestionId": "4475", "IsRight": true, "Id": "9608acea-b9f8-4083-9fd7-ce50b37b01f1", "Text": "Loosen any tight clothing", "ImageUrl": null }, { "QuestionId": "4475", "IsRight": true, "Id": "881fe2b0-103e-44c7-8c65-9493963aab9c", "Text": "Keep them warm", "ImageUrl": null }, { "QuestionId": "4475", "IsRight": false, "Id": "be0db4f9-3a29-45c4-919d-bba05a7b60b7", "Text": "Offer them a warm drink", "ImageUrl": null }, { "QuestionId": "4475", "IsRight": false, "Id": "5c481024-63e9-4e6c-830e-72504ce973be", "Text": "Offer them a cigarette", "ImageUrl": null } ], "Id": "4475", "Text": " You are at the scene of an accident. Someone is suffering from shock. You should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.13", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4476", "IsRight": false, "Id": "b3ccd354-ba95-41ec-b91e-d91ed300023f", "Text": "Give the rider reassurance", "ImageUrl": null }, { "QuestionId": "4476", "IsRight": true, "Id": "cdab880c-8d9c-401e-abdf-3967238e0dd2", "Text": "Warn other traffic", "ImageUrl": null }, { "QuestionId": "4476", "IsRight": false, "Id": "0060210e-46fc-453d-928d-972468aa790a", "Text": "Clear the road of debris", "ImageUrl": null }, { "QuestionId": "4476", "IsRight": false, "Id": "0654ab7e-8d4f-406d-9611-1362fde9063a", "Text": "Move the rider out of the road", "ImageUrl": null } ], "Id": "4476", "Text": " You arrive at the scene of a motorcycle accident. No other vehicle is involved. The rider is unconscious  lying in the middle of the road. The first thing you should do is:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.14", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4477", "IsRight": false, "Id": "690da650-dba5-4755-9e30-56c9388e2b40", "Text": "Rapidly", "ImageUrl": null }, { "QuestionId": "4477", "IsRight": true, "Id": "bad1c0ff-e877-4bc9-ad2b-a7a5ec6d154b", "Text": "Gently", "ImageUrl": null }, { "QuestionId": "4477", "IsRight": false, "Id": "1a8a65de-bcf1-453b-a9d9-c4d464f4a4cd", "Text": "Heavily", "ImageUrl": null }, { "QuestionId": "4477", "IsRight": false, "Id": "5ad98067-2143-487a-855e-210926c75982", "Text": "Sharply", "ImageUrl": null } ], "Id": "4477", "Text": " At an accident a small child is not breathing. When giving a mouth to mouth you should breathe", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.15", "CorrectAnswersNumber": 3, "Answers": [ { "QuestionId": "4478", "IsRight": true, "Id": "ef218d44-766b-4bce-84a7-ea8d0f3f3c70", "Text": "Pinch the nostrils together", "ImageUrl": null }, { "QuestionId": "4478", "IsRight": true, "Id": "714dd91d-51c2-4fdc-a48e-1887b55ae075", "Text": "Tilt their head back", "ImageUrl": null }, { "QuestionId": "4478", "IsRight": false, "Id": "2977efbb-b755-4b00-a834-276b7991ef56", "Text": "Put their arms across their chest", "ImageUrl": null }, { "QuestionId": "4478", "IsRight": true, "Id": "34527d02-d56e-42d1-9d27-7f77dcd14c30", "Text": "Clear the airway", "ImageUrl": null }, { "QuestionId": "4478", "IsRight": false, "Id": "54293599-d305-4917-93d9-fa2f4a5dd267", "Text": "Tilt their head forward", "ImageUrl": null } ], "Id": "4478", "Text": " To start mouth to mouth on a casualty you should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.16", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4479", "IsRight": false, "Id": "aaf4918c-a9c6-4119-a0ce-187b778f86d4", "Text": "Remove anything sticking to burns", "ImageUrl": null }, { "QuestionId": "4479", "IsRight": true, "Id": "37f7e932-4ede-4e23-8b73-613d74f062e5", "Text": "Reassure casualties constantly", "ImageUrl": null }, { "QuestionId": "4479", "IsRight": false, "Id": "d278a55e-fbfa-4fe3-a54e-b91e8210b891", "Text": "Lay the casualty down", "ImageUrl": null }, { "QuestionId": "4479", "IsRight": true, "Id": "41593b11-7457-4cc2-84c4-48cb62815e34", "Text": "Douse the burn thoroughly with cold water", "ImageUrl": null } ], "Id": "4479", "Text": " You arrive at the scene of an accident and a casualty is suffering from severe burns. You should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.17", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4480", "IsRight": false, "Id": "f21c84fb-ba60-434e-b1f4-3dc7e00d6fe3", "Text": "Remove anything stuck to the burns", "ImageUrl": null }, { "QuestionId": "4480", "IsRight": false, "Id": "39157e7f-5a05-4006-9a71-0096be283d6d", "Text": "Burst any blisters", "ImageUrl": null }, { "QuestionId": "4480", "IsRight": false, "Id": "05b9a47e-9a34-4b2c-814a-3460c8a4737b", "Text": "Apply lotions to the injury", "ImageUrl": null }, { "QuestionId": "4480", "IsRight": true, "Id": "e6215590-9d69-44f6-a4cd-b46963a268a0", "Text": "Douse the burns with cold water", "ImageUrl": null } ], "Id": "4480", "Text": " You arrive at an accident where someone is suffering from severe burns. You should:", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.18", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4481", "IsRight": false, "Id": "d25cecce-fac1-4e24-895c-e50c447a96f5", "Text": "Fetch them a warm drink", "ImageUrl": null }, { "QuestionId": "4481", "IsRight": true, "Id": "29678648-fd3e-401f-ba94-146d551be3a9", "Text": "Raise the leg to lessen bleeding", "ImageUrl": null }, { "QuestionId": "4481", "IsRight": true, "Id": "c93f70cf-ccd9-4106-9025-6c194dc05a0b", "Text": "Apply firm pressure to the wound to stop bleeding", "ImageUrl": null }, { "QuestionId": "4481", "IsRight": false, "Id": "be9c7d08-a6af-48f5-93d2-152d4e557981", "Text": "Keep both legs flat on the ground", "ImageUrl": null }, { "QuestionId": "4481", "IsRight": false, "Id": "e14d25f5-879e-442f-ba23-821dd6fb45b3", "Text": "Dab the wound to stop bleeding", "ImageUrl": null } ], "Id": "4481", "Text": " You arrive at the scene of an accident. A pedestrian has a severe bleeding wound on the leg although it is not broken. What should you do?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.19", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4482", "IsRight": false, "Id": "b9f476e0-5766-4b4c-b6f1-fa15e5e2e79b", "Text": "Get them a drink", "ImageUrl": null }, { "QuestionId": "4482", "IsRight": false, "Id": "d60f7ac5-438b-4a53-9afd-47282e181a95", "Text": "Dab the wound", "ImageUrl": null }, { "QuestionId": "4482", "IsRight": false, "Id": "991fd79d-b260-44be-a1f1-ea8219e6b645", "Text": "Apply pressure over the wound and keep the arm down", "ImageUrl": null }, { "QuestionId": "4482", "IsRight": true, "Id": "a5b5de92-deec-478e-8236-eb253a724773", "Text": "Apply pressure over the wound and raise the arm", "ImageUrl": null } ], "Id": "4482", "Text": " You arrive at a scene of an accident. A passenger is bleeding badly from an arm wound. What should you do?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.20", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4483", "IsRight": false, "Id": "718fb6e1-c30e-40ec-8ccc-3b61965af317", "Text": "Bystanders will help you to", "ImageUrl": null }, { "QuestionId": "4483", "IsRight": false, "Id": "e0eaad37-c006-475b-a3e4-17a363b0d959", "Text": "Bystanders advise you to", "ImageUrl": null }, { "QuestionId": "4483", "IsRight": true, "Id": "243e244c-8468-42da-9ba1-296134b8a473", "Text": "There is further danger to the casualty", "ImageUrl": null }, { "QuestionId": "4483", "IsRight": false, "Id": "1cd2addb-74ef-4011-a199-247d3e3c4efb", "Text": "An ambulance is on its way", "ImageUrl": null } ], "Id": "4483", "Text": " At an accident a casualty is unconscious but still breathing. You should only move the person if :", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.21", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4484", "IsRight": false, "Id": "17281aa8-579e-4dd5-b9e5-365f924ec3fc", "Text": "Offer them a cigarette", "ImageUrl": null }, { "QuestionId": "4484", "IsRight": true, "Id": "088eb6f2-0b26-41a2-8646-f6e865da6ed9", "Text": "Not move them at all", "ImageUrl": null }, { "QuestionId": "4484", "IsRight": false, "Id": "9efbb778-57a5-4e9e-84b4-2ee0c98ba156", "Text": "Raise their legs", "ImageUrl": null }, { "QuestionId": "4484", "IsRight": false, "Id": "ae73aa21-78c5-4080-9628-72b98233c7c9", "Text": "Offer them a drink", "ImageUrl": null } ], "Id": "4484", "Text": " At an accident you suspect that a casualty has back injuries. The area is safe. You should:", "ImageUrl": null },
       {
-        "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa",
-        "SubCategoryId": "CARS13.25",
-        "CorrectAnswersNumber": 3,
-        "Answers": [
-          { "QuestionId": "4485", "IsRight": true, "Id": "27b2d892-af84-4231-bb26-9c91cb2bb0ae", "Text": "Driving licence", "ImageUrl": null },
-          { "QuestionId": "4485", "IsRight": true, "Id": "c5861e29-c20a-4517-b699-1539d98deb25", "Text": "Vehicle registration document (log book)", "ImageUrl": null },
-          { "QuestionId": "4485", "IsRight": false, "Id": "70e89234-126c-4c4a-acdd-e5872c7e45d5", "Text": "Road tax disc", "ImageUrl": null },
-          { "QuestionId": "4485", "IsRight": false, "Id": "3d506af5-fe6e-4d15-9397-98bd1184c4e8", "Text": "VRT test certificate", "ImageUrl": null },
-          { "QuestionId": "4485", "IsRight": true, "Id": "a2b8901a-12fd-41c4-b9ad-3bc3dc4132a5", "Text": "Insurance certificate", "ImageUrl": null }
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4213",
+            "isRight": true,
+            "id": "d4d4b73e-3010-4810-a2ec-bfd3d617ac57",
+            "text": "Mirror  signal  manoeuvre"
+          },
+          {
+            "questionId": "4213",
+            "isRight": false,
+            "id": "c2e1cd3b-ee7e-431e-bd13-bd15f5e043d9",
+            "text": "Manoeuvre  speed  mirror"
+          },
+          {
+            "questionId": "4213",
+            "isRight": false,
+            "id": "61a4d641-de9d-45c8-a850-a58319638c1e",
+            "text": "Mirror  speed  manoeuvre"
+          },
+          {
+            "questionId": "4213",
+            "isRight": false,
+            "id": "6c6eaae6-1f19-43f6-a9f4-7804542d4d37",
+            "text": "Manoeuvre  signal  mirror"
+          }
         ],
-        "Id": "4485",
-        "Text": " The police may ask you to produce which three of these documents following an accident?",
-        "ImageUrl": null
+        "id": "4213",
+        "text": " What does the abbreviation MSM mean?"
       },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.28", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4486", "IsRight": false, "Id": "418d1264-bf3b-4b54-afaf-ca81f77019cf", "Text": "To check a road atlas", "ImageUrl": null }, { "QuestionId": "4486", "IsRight": true, "Id": "3e9a3609-2e22-460b-974f-4cd1d5defab0", "Text": "When an emergency arises", "ImageUrl": null }, { "QuestionId": "4486", "IsRight": false, "Id": "77e3be08-dc9f-432e-9210-5bf55ddc8ea2", "Text": "For a short rest when tired", "ImageUrl": null }, { "QuestionId": "4486", "IsRight": false, "Id": "d1c19750-8073-46e0-b208-d9de93cd9989", "Text": "To answer a mobile phone", "ImageUrl": null } ], "Id": "4486", "Text": " On the dual carriageway the hard shoulder should be used", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.10", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4652", "IsRight": false, "Id": "4ba33f06-e76b-4738-9167-d22f4e15db54", "Text": "Ask drivers to switch off their engines", "ImageUrl": null }, { "QuestionId": "4652", "IsRight": true, "Id": "a824d838-4150-48a7-8dbd-4b49323a3457", "Text": "Give them an alcoholic drink", "ImageUrl": null }, { "QuestionId": "4652", "IsRight": true, "Id": "9bdc3337-f7ea-4c94-a0b5-9364a5b39117", "Text": "Offer someone a cigarette to calm them down", "ImageUrl": null }, { "QuestionId": "4652", "IsRight": false, "Id": "47feddd8-5f2a-4a9b-8c5f-fc2bf2ad97ac", "Text": "Call the emergency services immediately", "ImageUrl": null }, { "QuestionId": "4652", "IsRight": false, "Id": "c3ab2521-e907-48c3-bd6a-bac61d258250", "Text": "Warn other traffic by switching on your hazard warning lights", "ImageUrl": null } ], "Id": "4652", "Text": " Which of the following should you NOT do at the scene of an accident?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.22", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4653", "IsRight": true, "Id": "2c9b700f-424c-4ce9-85d1-8e18c1ba2bfd", "Text": "When you have broken down", "ImageUrl": null }, { "QuestionId": "4653", "IsRight": true, "Id": "7b2cbd4f-b235-47cf-a371-d80d2fcd7220", "Text": "When you slow down quickly because of a hazard ahead", "ImageUrl": null }, { "QuestionId": "4653", "IsRight": false, "Id": "0599691f-70cc-4b0c-8bbb-885c0f6c1171", "Text": "When you need to park on the pavement", "ImageUrl": null }, { "QuestionId": "4653", "IsRight": false, "Id": "5d1285eb-ab92-4f41-bd56-10f239c5ef3a", "Text": "When you wish to stop on double yellow lines", "ImageUrl": null } ], "Id": "4653", "Text": " For which TWO should you use hazard-warning lights?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.24", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4654", "IsRight": true, "Id": "465166c7-68d6-4be4-80b9-aa1512e49694", "Text": "When you cannot avoid causing an obstruction", "ImageUrl": null }, { "QuestionId": "4654", "IsRight": false, "Id": "083671fb-f7c6-420a-a261-7267cbb65412", "Text": "When you are parked on double yellow lines", "ImageUrl": null }, { "QuestionId": "4654", "IsRight": false, "Id": "4f06c375-846b-45d7-8797-174f85916ffd", "Text": "When you are towing a broken down vehicle", "ImageUrl": null }, { "QuestionId": "4654", "IsRight": false, "Id": "accf0c2f-3fee-4f7e-962e-1b842d79e6d5", "Text": "When you are driving slowly due to bad weather", "ImageUrl": null } ], "Id": "4654", "Text": " When should you switch on your hazard warning lights?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.26", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4655", "IsRight": false, "Id": "b7ff0a38-9a4b-459f-9c09-88c9981732e3", "Text": "Continue on at a normal speed", "ImageUrl": null }, { "QuestionId": "4655", "IsRight": true, "Id": "b52bae26-e2e2-442e-b632-5224d0672f57", "Text": "Hold the steering wheel firmly to keep control", "ImageUrl": null }, { "QuestionId": "4655", "IsRight": true, "Id": "b76be64b-e3c0-4ca9-8b7d-93a88ef14d85", "Text": "Pull up slowly at the side of the road", "ImageUrl": null }, { "QuestionId": "4655", "IsRight": false, "Id": "20d4f146-6b0b-4c55-b8e2-80f9abc90bca", "Text": "Brake as quickly as possible", "ImageUrl": null }, { "QuestionId": "4655", "IsRight": false, "Id": "8be7df89-6406-4821-9c88-75fb78f0645b", "Text": "Pull on the handbrake", "ImageUrl": null } ], "Id": "4655", "Text": " Your tyre bursts while you are driving. Which TWO things should you do?", "ImageUrl": null },
-      { "CategoryId": "f671075e-926a-4b65-8bd1-20b0f9e30ffa", "SubCategoryId": "CARS13.27", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4656", "IsRight": false, "Id": "b253cf3e-682f-48c8-b2b5-461a7d3efeea", "Text": "Let the vehicle roll to a stop", "ImageUrl": null }, { "QuestionId": "4656", "IsRight": true, "Id": "be98d35e-6903-4f64-b0bb-0676263984bd", "Text": "Grip the steering wheel firmly", "ImageUrl": null }, { "QuestionId": "4656", "IsRight": false, "Id": "6b3fb738-f70e-428a-8723-6f007ec4a252", "Text": "Hold the steering wheel lightly", "ImageUrl": null }, { "QuestionId": "4656", "IsRight": true, "Id": "d42ed818-5eb9-4976-b4d6-a41e4c0592e6", "Text": "Stop gradually at the side of the road", "ImageUrl": null }, { "QuestionId": "4656", "IsRight": false, "Id": "ca93c8da-cf33-4fea-b829-fc80d4d791fc", "Text": "Apply the handbrake to stop the vehicle", "ImageUrl": null } ], "Id": "4656", "Text": " Which TWO things should you do when a front tyre bursts?", "ImageUrl": null }
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4214",
+            "isRight": false,
+            "id": "266e4dbe-2ded-473a-979e-afc9be1e290a",
+            "text": "It helps you to keep out of the wind"
+          },
+          {
+            "questionId": "4214",
+            "isRight": false,
+            "id": "d08772b9-6568-43c1-8083-d82e6df02469",
+            "text": "It helps the large vehicle to stop more easily"
+          },
+          {
+            "questionId": "4214",
+            "isRight": true,
+            "id": "b083f786-f972-42fe-bb9e-846ec8f050f7",
+            "text": "It allows the driver to see you in the mirror"
+          },
+          {
+            "questionId": "4214",
+            "isRight": false,
+            "id": "d3acce6f-faa9-4ea3-b3c6-6db51f253f42",
+            "text": "It allows you to corner more quickly"
+          }
+        ],
+        "id": "4214",
+        "text": " When following a large vehicle you should stay well back because"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4215",
+            "isRight": false,
+            "id": "c0dfa954-72cc-4019-876d-c41449524b81",
+            "text": "On a 50 kph road"
+          },
+          {
+            "questionId": "4215",
+            "isRight": false,
+            "id": "b9867a5f-07dd-4648-afca-c950efe95f9c",
+            "text": "In a one-way street"
+          },
+          {
+            "questionId": "4215",
+            "isRight": false,
+            "id": "d37249a9-557d-4120-ac82-5a789208b587",
+            "text": "Just after a bend"
+          },
+          {
+            "questionId": "4215",
+            "isRight": true,
+            "id": "98d09215-9d99-4a4d-940e-48e3d6121f05",
+            "text": "Approaching a dip in the road"
+          }
+        ],
+        "id": "4215",
+        "text": " In which of these following situations should you avoid overtaking?"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4216",
+            "isRight": false,
+            "id": "011dfb18-df84-47e6-abd3-06f6a6915f79",
+            "text": "Because reception is poor when the engine is running"
+          },
+          {
+            "questionId": "4216",
+            "isRight": false,
+            "id": "106fb50e-aec1-4f48-aaec-d9ede2939349",
+            "text": "Unless you are able to drive one handed"
+          },
+          {
+            "questionId": "4216",
+            "isRight": true,
+            "id": "6c038029-fa48-45a0-8795-6b8f5e0825fc",
+            "text": "Because it might distract your attention from the road ahead"
+          },
+          {
+            "questionId": "4216",
+            "isRight": false,
+            "id": "62a5328d-a190-46c5-9968-5ccae49b0711",
+            "text": "Until you are satisfied that no other traffic is near"
+          }
+        ],
+        "id": "4216",
+        "text": " You should not use a mobile phone whilst driving"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4217",
+            "isRight": false,
+            "id": "9ebf0276-1344-4cf2-ad05-c5b5d868373c",
+            "text": "Could be very good for road safety"
+          },
+          {
+            "questionId": "4217",
+            "isRight": true,
+            "id": "415e9776-d85b-4621-8f6c-4c8cff4fba89",
+            "text": "Could distract your attention from the road"
+          },
+          {
+            "questionId": "4217",
+            "isRight": false,
+            "id": "eb71baef-af3a-401f-81be-5e00576166fe",
+            "text": "Is recommended by The Highway Code"
+          },
+          {
+            "questionId": "4217",
+            "isRight": false,
+            "id": "dd3a5baa-a06a-47cf-89cd-65b442d8f243",
+            "text": "Is quite safe as long as you slow down"
+          }
+        ],
+        "id": "4217",
+        "text": " Your vehicle is fitted with a hands- free phone system. Using this equipment whilst driving"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4218",
+            "isRight": false,
+            "id": "1c93fff5-cb03-4281-80c1-0f842dd79ca9",
+            "text": "Reduce your view"
+          },
+          {
+            "questionId": "4218",
+            "isRight": false,
+            "id": "883adf75-df67-4ed4-9f13-6c7b5f888e1f",
+            "text": "Increase your concentration"
+          },
+          {
+            "questionId": "4218",
+            "isRight": false,
+            "id": "4d9cd9d4-b008-4e64-8844-db86ddf04e0a",
+            "text": "Improve your safety"
+          },
+          {
+            "questionId": "4218",
+            "isRight": true,
+            "id": "b989b7b7-3d26-45f6-9992-1c5d3eb3cd9a",
+            "text": "Divert your attention"
+          }
+        ],
+        "id": "4218",
+        "text": " Using a hands-free phone is likely to"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4219",
+            "isRight": false,
+            "id": "0b1997eb-9810-448b-ab70-4a04a2d24777",
+            "text": "Will affect your vehicle"
+          },
+          {
+            "questionId": "4219",
+            "isRight": false,
+            "id": "d4cd1ed0-1e1c-40e2-a9b2-792ba744cdd8",
+            "text": "Will reduce your field of vision"
+          },
+          {
+            "questionId": "4219",
+            "isRight": true,
+            "id": "1fabb410-1096-4b12-b6e7-f8d6ee3df27b",
+            "text": "Could distract your attention from the road"
+          },
+          {
+            "questionId": "4219",
+            "isRight": false,
+            "id": "afb5d20e-12c4-495c-b795-44c66e3fa8eb",
+            "text": "Is acceptable in a vehicle with power steering"
+          }
+        ],
+        "id": "4219",
+        "text": " Using a mobile phone while you are driving"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4220",
+            "isRight": false,
+            "id": "7c074f48-18a6-4758-a184-96e827aa006a",
+            "text": "Quickly  sounding the horn as you pass"
+          },
+          {
+            "questionId": "4220",
+            "isRight": false,
+            "id": "5fe474d4-5df7-43ba-a07a-8596ea7d10e9",
+            "text": "Quickly  leaving plenty of room"
+          },
+          {
+            "questionId": "4220",
+            "isRight": true,
+            "id": "8ece02c8-9708-4ca2-9c8c-b4df0728d182",
+            "text": "Slowly  leaving plenty of room"
+          },
+          {
+            "questionId": "4220",
+            "isRight": false,
+            "id": "44652365-42b1-4474-a85c-b3a1fa414ffd",
+            "text": "Slowly  sounding the horn as you pass"
+          }
+        ],
+        "id": "4220",
+        "text": " You are driving along a narrow country road. When passing a cyclist you should drive"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4221",
+            "isRight": false,
+            "id": "45550ae8-2012-4aec-824d-f4114523b8d4",
+            "text": "Slow down and allow others to overtake"
+          },
+          {
+            "questionId": "4221",
+            "isRight": true,
+            "id": "e34e545b-da24-45d3-b739-52e0e670bb41",
+            "text": "Stop in a proper and convenient place"
+          },
+          {
+            "questionId": "4221",
+            "isRight": false,
+            "id": "cc26c4a5-da34-4de3-80d0-12e3979d5ce4",
+            "text": "Keep the call time to a minimum"
+          },
+          {
+            "questionId": "4221",
+            "isRight": false,
+            "id": "afca8d8b-9011-43fe-9b83-021434a79599",
+            "text": "Reduce your speed wherever you are"
+          }
+        ],
+        "id": "4221",
+        "text": " To answer your mobile phone when driving  you should:"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4222",
+            "isRight": false,
+            "id": "1c528e17-ecfc-474b-8dbd-28abe7a3ef0c",
+            "text": "Because the car electrics will be affected"
+          },
+          {
+            "questionId": "4222",
+            "isRight": true,
+            "id": "57ba0e3d-9e01-4898-9027-01024e66afa8",
+            "text": "So that the control of your vehicle is not affected"
+          },
+          {
+            "questionId": "4222",
+            "isRight": false,
+            "id": "8d0281c3-bf24-4273-8463-476be6467b3c",
+            "text": "So that a proper conversation can be held"
+          },
+          {
+            "questionId": "4222",
+            "isRight": false,
+            "id": "da7937db-4606-482b-8b22-fe16a000e81c",
+            "text": "Because the reception is better when stopped"
+          }
+        ],
+        "id": "4222",
+        "text": " Why should you be parked before using a mobile phone?"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4223",
+            "isRight": true,
+            "id": "c2f85a1a-3e0a-4cec-926f-2a09aeaadb09",
+            "text": "Slow down or stop"
+          },
+          {
+            "questionId": "4223",
+            "isRight": false,
+            "id": "0afd1ad6-27fc-4d72-899e-c1072b1e1e2e",
+            "text": "Pull down the sun visor"
+          },
+          {
+            "questionId": "4223",
+            "isRight": false,
+            "id": "0ccbfb56-d9a5-4721-a9fa-36d18e59d061",
+            "text": "Flash your headlights"
+          },
+          {
+            "questionId": "4223",
+            "isRight": false,
+            "id": "d602d64d-ad82-4ca3-8041-60cb004ade17",
+            "text": "Close your eyes"
+          }
+        ],
+        "id": "4223",
+        "text": " You are driving in the dark and are dazzled by the headlights of an oncoming car.You should"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.25",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4224",
+            "isRight": true,
+            "id": "182c3a9c-cafd-469e-a277-3191ca539cc3",
+            "text": "So that others can see you"
+          },
+          {
+            "questionId": "4224",
+            "isRight": true,
+            "id": "0506b56a-2973-4385-93d9-b9920721725c",
+            "text": "Even when street lights are lit"
+          },
+          {
+            "questionId": "4224",
+            "isRight": false,
+            "id": "81a8afd1-3d6c-4a3e-b74a-9d9ee007f87e",
+            "text": "Only when street lights are lit"
+          },
+          {
+            "questionId": "4224",
+            "isRight": false,
+            "id": "b7d856ac-41be-4b6f-ae19-93855f6586ab",
+            "text": "Only when others have done so"
+          }
+        ],
+        "id": "4224",
+        "text": " You are driving at dusk. Your lights should be switched on"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4225",
+            "isRight": true,
+            "id": "73320d3e-9e11-4654-950f-8924f2d525f6",
+            "text": "Check the speed and position of following traffic"
+          },
+          {
+            "questionId": "4225",
+            "isRight": false,
+            "id": "93a1d269-7e9b-4a89-97c1-cdb61c86b24a",
+            "text": "Steer round the vehicle sharply"
+          },
+          {
+            "questionId": "4225",
+            "isRight": false,
+            "id": "6f84929e-a164-4c6b-932d-179711c9f899",
+            "text": "Get in close behind before moving out"
+          },
+          {
+            "questionId": "4225",
+            "isRight": false,
+            "id": "86618710-89bb-4440-bd93-ba26881fa8d1",
+            "text": "Cut back in sharply when you have passed the vehicle"
+          }
+        ],
+        "id": "4225",
+        "text": " To overtake safely  which one of the following applies?"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4547",
+            "isRight": false,
+            "id": "0c4e4dc9-991b-47f7-a40f-c55c1f6eb186",
+            "text": "Turn left"
+          },
+          {
+            "questionId": "4547",
+            "isRight": false,
+            "id": "d817ca38-1305-4011-944f-cbf27e7df9f3",
+            "text": "Turn right"
+          },
+          {
+            "questionId": "4547",
+            "isRight": true,
+            "id": "300e9370-b48e-4847-91d7-837b82cf23d8",
+            "text": "Overtake"
+          },
+          {
+            "questionId": "4547",
+            "isRight": false,
+            "id": "940541e4-56a7-4c2a-b906-7b6059b8fec5",
+            "text": "Slow down"
+          }
+        ],
+        "id": "4547",
+        "text": " The white arrow in the diagram means that you should not plan to :",
+        "imageUrl": "Source/img/4547.png"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4548",
+            "isRight": false,
+            "id": "49685319-9bec-4047-b279-ad5521d4a79a",
+            "text": "Drivers that it is safe to overtake"
+          },
+          {
+            "questionId": "4548",
+            "isRight": false,
+            "id": "72f0876d-87ba-43d6-a5c6-e6811b84fe62",
+            "text": "Overtaking drivers there is a bend to the left"
+          },
+          {
+            "questionId": "4548",
+            "isRight": true,
+            "id": "5b9fe834-c6f1-4e62-9b3d-a09508858274",
+            "text": "Overtaking drivers to move back to the left"
+          },
+          {
+            "questionId": "4548",
+            "isRight": false,
+            "id": "f887aadf-7f68-4496-ad25-20a53f54618b",
+            "text": "Drivers to use the hard shoulder"
+          }
+        ],
+        "id": "4548",
+        "text": " The road marking in the diagram warns :",
+        "imageUrl": "Source/img/4548.png"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.4",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4551",
+            "isRight": true,
+            "id": "d98d2274-2da6-40c1-b4fa-f8febdf05227",
+            "text": "Distract your attention"
+          },
+          {
+            "questionId": "4551",
+            "isRight": false,
+            "id": "bb75e7a7-3b48-447b-a673-863b727c9e7c",
+            "text": "Help your concentration"
+          },
+          {
+            "questionId": "4551",
+            "isRight": true,
+            "id": "64d7b5b8-322e-4e2a-b3a9-2581c4af319a",
+            "text": "Restrict your view"
+          },
+          {
+            "questionId": "4551",
+            "isRight": false,
+            "id": "6ad59b60-f494-470c-9e68-c1900101b80e",
+            "text": "Improve your driving"
+          }
+        ],
+        "id": "4551",
+        "text": " Objects or articles hanging from your interior mirror may :"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.5",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4552",
+            "isRight": true,
+            "id": "cca4387c-d14f-481b-b69e-bcca4dd90cc7",
+            "text": "Listen to very loud music"
+          },
+          {
+            "questionId": "4552",
+            "isRight": true,
+            "id": "cd2afa08-5e49-472f-84ca-497cf6b6ac85",
+            "text": "Use a mobile phone"
+          },
+          {
+            "questionId": "4552",
+            "isRight": false,
+            "id": "6bcad46e-f591-4d50-bb1d-62cbce97f3cb",
+            "text": "Look at the door mirrors"
+          },
+          {
+            "questionId": "4552",
+            "isRight": false,
+            "id": "4bb2f45a-e526-4177-931c-a150f0127d60",
+            "text": "Switch on the heated rear window"
+          }
+        ],
+        "id": "4552",
+        "text": " When driving you are most likely to lose concentration if you :"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.6",
+        "correctAnswersNumber": 4,
+        "answers": [
+          {
+            "questionId": "4553",
+            "isRight": true,
+            "id": "66d441f0-12b2-443b-8fff-a2345931ab78",
+            "text": "Looking at a map"
+          },
+          {
+            "questionId": "4553",
+            "isRight": true,
+            "id": "8250a51f-9017-41bf-92be-83308983a17a",
+            "text": "Tuning your car radio"
+          },
+          {
+            "questionId": "4553",
+            "isRight": true,
+            "id": "e8858cff-1683-42f8-8bce-0221613c2903",
+            "text": "Talking into a microphone"
+          },
+          {
+            "questionId": "4553",
+            "isRight": true,
+            "id": "b7a3e3d5-842e-4f1b-a971-e9c775ab7f11",
+            "text": "Using a mobile phone"
+          },
+          {
+            "questionId": "4553",
+            "isRight": false,
+            "id": "d3e198ba-eb38-4ff2-9e80-e4615b06e059",
+            "text": "Using the demisters"
+          },
+          {
+            "questionId": "4553",
+            "isRight": false,
+            "id": "24ea0254-819d-4385-a65d-cd6ef41d4560",
+            "text": "Checking the mirrors"
+          }
+        ],
+        "id": "4553",
+        "text": " When driving  which four are most likely to cause you to lose concentration"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4554",
+            "isRight": false,
+            "id": "d8905177-a3fc-4015-bdd4-c51c2b2ac935",
+            "text": "Give an arm signal"
+          },
+          {
+            "questionId": "4554",
+            "isRight": true,
+            "id": "f8905280-cccb-4b1d-b5a5-71a9f6f3a9a9",
+            "text": "Keep both hands on the wheel"
+          },
+          {
+            "questionId": "4554",
+            "isRight": false,
+            "id": "1cc4ea95-5dc9-4e81-b8be-b1496b4fee9d",
+            "text": "Select reverse gear"
+          },
+          {
+            "questionId": "4554",
+            "isRight": false,
+            "id": "0fb37496-970a-440d-8030-5e085250b637",
+            "text": "Apply the handbrake and footbrake together"
+          }
+        ],
+        "id": "4554",
+        "text": " You are driving on a wet road and you have to stop your vehicle in an emergency. You should:"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.11",
+        "correctAnswersNumber": 4,
+        "answers": [
+          {
+            "questionId": "4555",
+            "isRight": true,
+            "id": "64af5555-bdcb-404b-9023-c6daf7e94324",
+            "text": "Putting in a cassette tape/ CD"
+          },
+          {
+            "questionId": "4555",
+            "isRight": true,
+            "id": "1f64e293-02bb-4a2b-973b-976356aca936",
+            "text": "Using a mobile phone"
+          },
+          {
+            "questionId": "4555",
+            "isRight": true,
+            "id": "d8621faa-00ec-49b3-8fc6-3e2a81be8fa8",
+            "text": "Arguing with a passenger"
+          },
+          {
+            "questionId": "4555",
+            "isRight": true,
+            "id": "0e05a6f6-c834-434e-85da-c66cc237df6b",
+            "text": "Loud music"
+          },
+          {
+            "questionId": "4555",
+            "isRight": false,
+            "id": "dc63a392-1fa8-4d62-9b16-939b6bdc3ae3",
+            "text": "Pulling up to tune the radio"
+          },
+          {
+            "questionId": "4555",
+            "isRight": false,
+            "id": "f55be3a9-8bc6-43f7-9b79-836d79367077",
+            "text": "Stopping regularly to rest"
+          }
+        ],
+        "id": "4555",
+        "text": " Which of the following may cause distraction on a long journey?"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4556",
+            "isRight": true,
+            "id": "fbaefb6e-d1c6-40c4-a625-bce42738b231",
+            "text": "After stopping in a suitable place"
+          },
+          {
+            "questionId": "4556",
+            "isRight": false,
+            "id": "df576413-6751-4686-bcc2-2c558aea13c9",
+            "text": "If you feel your driving will be unaffected"
+          },
+          {
+            "questionId": "4556",
+            "isRight": false,
+            "id": "345ee36a-8e9c-4811-a540-e3e526ace99f",
+            "text": "If you are driving on a motorway"
+          },
+          {
+            "questionId": "4556",
+            "isRight": false,
+            "id": "47feed91-0581-4360-ba31-a4d66462877a",
+            "text": "When driving on a quiet  minor roads"
+          }
+        ],
+        "id": "4556",
+        "text": " You want to use a mobile phone whilst driving the car. You should only use the phone:"
+      },
+      {
+        "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
+        "subCategoryId": "CARS1.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4557",
+            "isRight": false,
+            "id": "e1264a71-00d5-4f92-9472-0e285337c02d",
+            "text": "Direct your call through the operator"
+          },
+          {
+            "questionId": "4557",
+            "isRight": true,
+            "id": "7c8203f5-025a-4557-9a32-7b6c6b554b72",
+            "text": "Find a suitable place to stop"
+          },
+          {
+            "questionId": "4557",
+            "isRight": false,
+            "id": "5743b618-d3bf-41bd-ab54-27b21d56ceba",
+            "text": "Drive slowly on a quiet road"
+          },
+          {
+            "questionId": "4557",
+            "isRight": false,
+            "id": "6180d600-6e4c-4600-b414-a3f5497dd4d2",
+            "text": "Use hands-free equipment"
+          }
+        ],
+        "id": "4557",
+        "text": " What is the safest way to use a mobile phone in a car?"
+      }
     ],
-    "Id": "f671075e-926a-4b65-8bd1-20b0f9e30ffa",
-    "Text": "ACCIDENTS",
-    "ImageUrl": null
+    "id": "fe80340a-8920-4532-873c-7fee834886eb",
+    "text": "ALERTNESS"
   },
   {
-    "Questions": [
-      { "CategoryId": "a071671d-b10d-44b7-bae7-fa871d4c4771", "SubCategoryId": "CARS14.1", "CorrectAnswersNumber": 2, "Answers": [ { "QuestionId": "4487", "IsRight": true, "Id": "22aa5f81-6f29-4368-9660-803f4c8108a3", "Text": "Handling", "ImageUrl": null }, { "QuestionId": "4487", "IsRight": true, "Id": "acb5a221-de67-474a-8e0a-4a3cd33264c9", "Text": "Steering", "ImageUrl": null }, { "QuestionId": "4487", "IsRight": false, "Id": "2d91f5a8-27e1-4a0c-8862-43d614a890c8", "Text": "Journey time", "ImageUrl": null }, { "QuestionId": "4487", "IsRight": false, "Id": "8780c1cf-934d-478e-8419-16f4866c1d66", "Text": "Battery life", "ImageUrl": null }, { "QuestionId": "4487", "IsRight": false, "Id": "b25e19f5-d9af-402a-86b9-9554153c9a9d", "Text": "Gearbox", "ImageUrl": null } ], "Id": "4487", "Text": " Overloading your vehicle can seriously affect the :", "ImageUrl": null },
-      { "CategoryId": "a071671d-b10d-44b7-bae7-fa871d4c4771", "SubCategoryId": "CARS14.2", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4488", "IsRight": true, "Id": "dcb83e31-2f06-4e86-b749-1b2e2ec5e743", "Text": "The driver of the vehicle", "ImageUrl": null }, { "QuestionId": "4488", "IsRight": false, "Id": "24c91080-f7fc-44f1-82e6-f6685d2d060a", "Text": "The owner of the vehicle", "ImageUrl": null }, { "QuestionId": "4488", "IsRight": false, "Id": "fcf4670c-9b6f-4731-a75a-71e493b44464", "Text": "The person who loaded the vehicle", "ImageUrl": null }, { "QuestionId": "4488", "IsRight": false, "Id": "bd3f828a-96ed-48f8-847d-a04f08e5353b", "Text": "The owner of the items being carried", "ImageUrl": null } ], "Id": "4488", "Text": " Who is responsible for making sure that a vehicle is not overloaded?", "ImageUrl": null },
-      { "CategoryId": "a071671d-b10d-44b7-bae7-fa871d4c4771", "SubCategoryId": "CARS14.3", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4657", "IsRight": true, "Id": "39cb69b7-7a66-43b8-a395-95706a3d46e4", "Text": "Securely fastened when driving", "ImageUrl": null }, { "QuestionId": "4657", "IsRight": false, "Id": "13fa05ba-da73-4aeb-b089-441dfd67fa05", "Text": "Covered with plastic sheeting", "ImageUrl": null }, { "QuestionId": "4657", "IsRight": false, "Id": "ccb65b92-5f58-41b2-9da0-68acabb6bb56", "Text": "As light as possible", "ImageUrl": null }, { "QuestionId": "4657", "IsRight": false, "Id": "40499bb5-d9ab-457f-ab19-934da9f77121", "Text": "Carried only when strictly necessary", "ImageUrl": null } ], "Id": "4657", "Text": " Any load that is carried on a roof rack MUST be:", "ImageUrl": null },
-      { "CategoryId": "a071671d-b10d-44b7-bae7-fa871d4c4771", "SubCategoryId": "CARS14.4", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4658", "IsRight": false, "Id": "79a610f7-05de-454a-aa11-7bc662eb85ff", "Text": "Make the steering lighter", "ImageUrl": null }, { "QuestionId": "4658", "IsRight": false, "Id": "6e2516d4-4348-4aab-ac1a-5e70255d40df", "Text": "Reduce the stopping distance", "ImageUrl": null }, { "QuestionId": "4658", "IsRight": false, "Id": "67561163-6cbf-4158-9f3e-44dd4e0fa45a", "Text": "Improve the road holding", "ImageUrl": null }, { "QuestionId": "4658", "IsRight": true, "Id": "480fab40-3290-4993-9ee9-1544e4cf97ac", "Text": "Reduce stability", "ImageUrl": null } ], "Id": "4658", "Text": " A heavy load on your roof rack will MAINLY:", "ImageUrl": null },
-      { "CategoryId": "a071671d-b10d-44b7-bae7-fa871d4c4771", "SubCategoryId": "CARS14.5", "CorrectAnswersNumber": 1, "Answers": [ { "QuestionId": "4659", "IsRight": false, "Id": "83120cbf-d0c6-477a-ac3a-cd174fbb4fd6", "Text": "Stop the rear seats from tipping forward", "ImageUrl": null }, { "QuestionId": "4659", "IsRight": true, "Id": "8fa41695-1cae-4fcd-b8bb-3e589da9ac01", "Text": "Stop children from opening rear doors from the inside", "ImageUrl": null }, { "QuestionId": "4659", "IsRight": false, "Id": "ab34d554-3a0e-4b20-937b-215fe1c9e49d", "Text": "Lock the rear windows in the up position", "ImageUrl": null }, { "QuestionId": "4659", "IsRight": false, "Id": "6534a357-ac3d-462a-b550-1f9b77bea7ff", "Text": "Lock the seat belt buckles in place", "ImageUrl": null } ], "Id": "4659", "Text": " What do child locks in a vehicle do?", "ImageUrl": null }
+    "questions": [
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4226",
+            "isRight": false,
+            "id": "8a95b517-42de-46cc-b85d-555ec238ead3",
+            "text": "Two crossings during darkness"
+          },
+          {
+            "questionId": "4226",
+            "isRight": true,
+            "id": "77987c52-d075-437e-9d50-21611482d2c9",
+            "text": "One complete crossing"
+          },
+          {
+            "questionId": "4226",
+            "isRight": false,
+            "id": "97fa7111-caf1-4642-a2af-045c369c01ff",
+            "text": "Two separate crossings"
+          },
+          {
+            "questionId": "4226",
+            "isRight": false,
+            "id": "3fcc9f69-48e4-4147-b49a-b02fb6161fd9",
+            "text": "One crossing in daylight only"
+          }
+        ],
+        "id": "4226",
+        "text": " A pelican crossing that crosses the road in a STRAIGHT line and has a central traffic island MUST be treated as:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.2",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4227",
+            "isRight": true,
+            "id": "36937b26-ee7e-4ee2-b55f-4dfb49b39117",
+            "text": "Give way to pedestrians already on the crossing"
+          },
+          {
+            "questionId": "4227",
+            "isRight": true,
+            "id": "bb056e43-d2b8-47ab-8190-c3c4cfd51f7d",
+            "text": "Stop and wait for the red light"
+          },
+          {
+            "questionId": "4227",
+            "isRight": false,
+            "id": "11870f4d-e906-49c3-8559-73007716ceae",
+            "text": "Give way to pedestrians waiting to cross"
+          },
+          {
+            "questionId": "4227",
+            "isRight": false,
+            "id": "863aaa90-0db6-4fe7-ac28-50531d535285",
+            "text": "Stop and wait for the green lights"
+          }
+        ],
+        "id": "4227",
+        "text": " When at a pelican crossing the amber light means you MUST"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.3",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4228",
+            "isRight": true,
+            "id": "3f6c26ee-0ba0-4c01-8895-ddeb58f43d1c",
+            "text": "Not move until the green light appears"
+          },
+          {
+            "questionId": "4228",
+            "isRight": false,
+            "id": "603311ed-3afa-45fb-88f4-cfc78396ece6",
+            "text": "Encourage pedestrians to cross"
+          },
+          {
+            "questionId": "4228",
+            "isRight": false,
+            "id": "37704d47-831a-448e-8551-d013aae9d62c",
+            "text": "Keep on driving"
+          },
+          {
+            "questionId": "4228",
+            "isRight": true,
+            "id": "d58b2cc3-39bf-457d-bc2e-55b19f56fcc7",
+            "text": "Stop and wait for the red light even if the crossing is clear"
+          }
+        ],
+        "id": "4228",
+        "text": " You are approaching a pelican crossing. The amber light is showing. You MUST:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4229",
+            "isRight": false,
+            "id": "c9bd92e8-4914-41ae-bf32-932f65ba6cdc",
+            "text": "Wave at them to cross the road"
+          },
+          {
+            "questionId": "4229",
+            "isRight": true,
+            "id": "9cb110b4-5d34-421d-8fb9-4583d6bc903b",
+            "text": "Slow down and prepare to stop"
+          },
+          {
+            "questionId": "4229",
+            "isRight": false,
+            "id": "e28cc93f-23ba-4fff-96cb-ee5477cae244",
+            "text": "Use your headlights to indicate they can cross"
+          },
+          {
+            "questionId": "4229",
+            "isRight": false,
+            "id": "f4ce3ae6-0bcc-4bf5-9157-79fbaf9adb8e",
+            "text": "Give way to elderly and infirm only"
+          }
+        ],
+        "id": "4229",
+        "text": " You are approaching a zebra crossing. Pedestrians are waiting to cross. You should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4230",
+            "isRight": true,
+            "id": "0871d62a-fc23-4679-a78d-a6604e7aa68c",
+            "text": "Wait until they have crossed"
+          },
+          {
+            "questionId": "4230",
+            "isRight": false,
+            "id": "1e08cad8-14b6-4f06-bf53-2c72632186f2",
+            "text": "Signal to pedestrians to cross"
+          },
+          {
+            "questionId": "4230",
+            "isRight": false,
+            "id": "73bf235c-090c-4b1a-b2ae-efa1fe01825a",
+            "text": "Wait  revving your engine"
+          },
+          {
+            "questionId": "4230",
+            "isRight": false,
+            "id": "385216ef-d5b5-484c-afbf-33f86792815e",
+            "text": "Edge your vehicle forward slowly"
+          }
+        ],
+        "id": "4230",
+        "text": " You have stopped at a pedestrian (zebra) crossing to allow pedestrians to cross. You should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4231",
+            "isRight": true,
+            "id": "cf7b4a54-6df7-412f-b0af-0bd2fa4ba282",
+            "text": "There may be another vehicle coming"
+          },
+          {
+            "questionId": "4231",
+            "isRight": false,
+            "id": "e862c01c-367c-4491-8501-801ddcea84d1",
+            "text": "They may not be ready to cross"
+          },
+          {
+            "questionId": "4231",
+            "isRight": false,
+            "id": "4c9d7c31-811d-481f-ab1b-3b3cc286e425",
+            "text": "It is safer for you to carry on"
+          },
+          {
+            "questionId": "4231",
+            "isRight": false,
+            "id": "0bb7b799-3a50-4991-b534-47a4c4bfdb60",
+            "text": "They may not be looking"
+          }
+        ],
+        "id": "4231",
+        "text": " You should never wave or urge people across at a pedestrian crossing because:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4232",
+            "isRight": false,
+            "id": "2a2716d4-4536-44d8-8e04-8c80bb27c439",
+            "text": "Wave pedestrians to cross if you intend to wait for them to"
+          },
+          {
+            "questionId": "4232",
+            "isRight": false,
+            "id": "e027e3b8-b22b-45a5-b9d3-7093fe6273c3",
+            "text": "Park only on the zigzag lines on the left"
+          },
+          {
+            "questionId": "4232",
+            "isRight": true,
+            "id": "1e86006d-910e-4b61-b4ae-183ef9dafd55",
+            "text": "Always leave it clear in traffic queues"
+          },
+          {
+            "questionId": "4232",
+            "isRight": false,
+            "id": "eeb66420-96f0-421a-b643-2cf2cf2896c4",
+            "text": "Rev your engine to encourage pedestrians to cross quickly"
+          }
+        ],
+        "id": "4232",
+        "text": " At a Pedestrian (zebra) crossing you should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4233",
+            "isRight": true,
+            "id": "eb5f295f-d298-49d7-9444-6ca5e35e401a",
+            "text": "Be patient and wait"
+          },
+          {
+            "questionId": "4233",
+            "isRight": false,
+            "id": "3d7dfaed-8522-4335-8f60-5d63479ef9ca",
+            "text": "Wave them to cross"
+          },
+          {
+            "questionId": "4233",
+            "isRight": false,
+            "id": "67d28ea0-23f5-43a9-a384-12894a8688b2",
+            "text": "Drive on"
+          },
+          {
+            "questionId": "4233",
+            "isRight": false,
+            "id": "3c8c4771-60ef-4ea6-80be-8744437ac0d7",
+            "text": "Sound your horn"
+          }
+        ],
+        "id": "4233",
+        "text": " You stopped for pedestrians waiting to cross at a zebra crossing. They did not start to cross. What should you do?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4234",
+            "isRight": false,
+            "id": "7c11b326-f326-401e-ae84-d16dc52cb4ef",
+            "text": "When emerging on wet roads"
+          },
+          {
+            "questionId": "4234",
+            "isRight": true,
+            "id": "6ffe7aab-5ea3-46d6-a127-3db5a24e102c",
+            "text": "To keep a safe gap from the vehicle in front"
+          },
+          {
+            "questionId": "4234",
+            "isRight": false,
+            "id": "6a3f6a6f-f489-4629-99d2-d89de1fa5009",
+            "text": "Before using the 'Mirror - Signal - manoeuvre' routine"
+          },
+          {
+            "questionId": "4234",
+            "isRight": false,
+            "id": "e5585931-ef6e-4dc9-8158-362e9e70cfdb",
+            "text": "Before restarting the engine after it has stalled"
+          }
+        ],
+        "id": "4234",
+        "text": " You may use the 'Two-Second Rule'"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4235",
+            "isRight": false,
+            "id": "3ad94274-4f68-44ff-a51d-de95c40b22f4",
+            "text": "Drive with rear fog lights off"
+          },
+          {
+            "questionId": "4235",
+            "isRight": false,
+            "id": "a919cf15-a1bc-4a28-93d3-61dbd74d843a",
+            "text": "Reverse into a parking space"
+          },
+          {
+            "questionId": "4235",
+            "isRight": true,
+            "id": "ad492bea-d77e-4688-95b1-0691ca8a135d",
+            "text": "Follow vehicle too closely"
+          },
+          {
+            "questionId": "4235",
+            "isRight": false,
+            "id": "ee283f18-bf01-408a-ba01-50aad173addf",
+            "text": "Look through the rear view mirror"
+          }
+        ],
+        "id": "4235",
+        "text": " When following another vehicle whilst driving on the road you should not"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.14",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4236",
+            "isRight": false,
+            "id": "981a072e-a872-402f-9fc4-02d540ee268c",
+            "text": "Your engine will overheat"
+          },
+          {
+            "questionId": "4236",
+            "isRight": true,
+            "id": "8d3a034d-4957-453a-80a7-99a8c6281cf1",
+            "text": "Your view ahead is reduced"
+          },
+          {
+            "questionId": "4236",
+            "isRight": false,
+            "id": "53fbafa3-8910-4a22-9246-7a8294ad2538",
+            "text": "Your brakes will overheat"
+          },
+          {
+            "questionId": "4236",
+            "isRight": true,
+            "id": "361b9a39-29a5-471d-a2c1-7e4c1c11724b",
+            "text": "The driver cannot see you in his mirrors"
+          }
+        ],
+        "id": "4236",
+        "text": " Following this vehicle too closely is unwise because:",
+        "imageUrl": "Source/img/4236.png"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4237",
+            "isRight": false,
+            "id": "47418112-cf7b-4fba-be95-0ea898c4a5f9",
+            "text": "Three seconds"
+          },
+          {
+            "questionId": "4237",
+            "isRight": false,
+            "id": "b1369cc8-0923-4756-ae82-cb7df9656682",
+            "text": "Two seconds"
+          },
+          {
+            "questionId": "4237",
+            "isRight": false,
+            "id": "aa449d05-9833-4a5f-bfc9-f146db34d291",
+            "text": "One second"
+          },
+          {
+            "questionId": "4237",
+            "isRight": true,
+            "id": "d5d87fb7-c777-42a7-b339-b84ec660e55d",
+            "text": "Four seconds"
+          }
+        ],
+        "id": "4237",
+        "text": " You are following a vehicle on a wet and slippery road. You should leave a time gap of at least"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4238",
+            "isRight": false,
+            "id": "e0b25683-998c-4eed-818d-1a07aacf485f",
+            "text": "Move over to a position just left of the centre line of the road"
+          },
+          {
+            "questionId": "4238",
+            "isRight": true,
+            "id": "f1e7ed6a-7774-43f6-af0f-7b70776f8c73",
+            "text": "Slow down  gradually increasing the gap between you and the vehicle in front"
+          },
+          {
+            "questionId": "4238",
+            "isRight": false,
+            "id": "69c3dcfa-e33c-43a7-9cb1-9568ac7fdae5",
+            "text": "Signal left and wave the following driver past"
+          },
+          {
+            "questionId": "4238",
+            "isRight": false,
+            "id": "5960a294-ccaf-409d-b906-c413d46f0719",
+            "text": "Ignore the following driver and continue to drive within the speed limit"
+          }
+        ],
+        "id": "4238",
+        "text": " You are in a line of traffic. The driver behind you is following very closely. What action should you take?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4239",
+            "isRight": false,
+            "id": "1315a48b-34f1-48da-abf7-5cb8132a1a5b",
+            "text": "Maintain your speed to prevent the vehicle from overtaking"
+          },
+          {
+            "questionId": "4239",
+            "isRight": false,
+            "id": "1565edc0-e983-42d8-8e8f-765a7efa13e6",
+            "text": "Touch the brakes to show your brake lights"
+          },
+          {
+            "questionId": "4239",
+            "isRight": false,
+            "id": "b66a929d-2cb3-48e3-935e-2c7d7f8610c9",
+            "text": "Accelerate to make a gap behind you"
+          },
+          {
+            "questionId": "4239",
+            "isRight": true,
+            "id": "7c51b0da-9556-4c2b-8b62-022282d39c59",
+            "text": "Allow the vehicle to overtake"
+          }
+        ],
+        "id": "4239",
+        "text": " You are driving at the legal speed limit. A vehicle comes up quickly behind  flashingits headlights. You should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4240",
+            "isRight": false,
+            "id": "6bb4d98a-3db9-42a9-b790-76aaff53e8e9",
+            "text": "When the road is clear"
+          },
+          {
+            "questionId": "4240",
+            "isRight": true,
+            "id": "c44485a8-92da-4b57-abbb-412d9832109f",
+            "text": "At no time"
+          },
+          {
+            "questionId": "4240",
+            "isRight": false,
+            "id": "3d089dc0-d33b-4694-a1e5-c9857c837dac",
+            "text": "When overtaking"
+          },
+          {
+            "questionId": "4240",
+            "isRight": false,
+            "id": "d6e7d6df-883f-47b6-b39b-a9e9b25f1b1c",
+            "text": "Between midnight and 6 am"
+          }
+        ],
+        "id": "4240",
+        "text": " When are you permitted to exceed the maximum speed limit?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4241",
+            "isRight": false,
+            "id": "0fda146d-bc89-4519-b370-5273b273d95f",
+            "text": "Change direction"
+          },
+          {
+            "questionId": "4241",
+            "isRight": true,
+            "id": "d0194103-d05a-4ee8-8f2e-1f46eb851371",
+            "text": "Slow down"
+          },
+          {
+            "questionId": "4241",
+            "isRight": false,
+            "id": "bdb7d26f-9bbe-4daa-bb41-a366017c778b",
+            "text": "Hold your speed"
+          },
+          {
+            "questionId": "4241",
+            "isRight": false,
+            "id": "43c07f16-3c74-43c0-a94e-cf055ae2b6bc",
+            "text": "Speed up"
+          }
+        ],
+        "id": "4241",
+        "text": " A heavy lorry is taking a long time to overtake you. What should you do?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.30",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4242",
+            "isRight": false,
+            "id": "c1ff1e8d-5cab-4682-86dd-fd2ad27e025d",
+            "text": "Doctor on call"
+          },
+          {
+            "questionId": "4242",
+            "isRight": true,
+            "id": "eac021b7-59e6-4809-ac8d-5798c023c3b4",
+            "text": "Police patrol"
+          },
+          {
+            "questionId": "4242",
+            "isRight": true,
+            "id": "7f4d989e-d130-49a9-8be5-12c748789c41",
+            "text": "Ambulance"
+          },
+          {
+            "questionId": "4242",
+            "isRight": false,
+            "id": "51b5e6c0-b0f8-46d5-a3fb-9f05a0c64840",
+            "text": "Breakdown recovery"
+          },
+          {
+            "questionId": "4242",
+            "isRight": false,
+            "id": "48f9036a-5cb2-41bc-8bbd-3e63f7b15841",
+            "text": "Motorway maintenance"
+          }
+        ],
+        "id": "4242",
+        "text": " Which of the following cars will use blue flashing beacons?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4243",
+            "isRight": true,
+            "id": "762b6815-8160-40b1-944a-ddbd07e2d105",
+            "text": "Pull over as soon as safely possible to let it pass"
+          },
+          {
+            "questionId": "4243",
+            "isRight": false,
+            "id": "28965e2d-4ada-4d17-8e53-4be15982c75c",
+            "text": "Brake harshly and immediately stop in the road"
+          },
+          {
+            "questionId": "4243",
+            "isRight": false,
+            "id": "bf968942-207f-4750-bacf-ddde8c3db65c",
+            "text": "Maintain your speed and course"
+          },
+          {
+            "questionId": "4243",
+            "isRight": false,
+            "id": "49caefe5-484a-4074-96cd-5f64fb66a9f9",
+            "text": "Accelerate fast to get away from it"
+          }
+        ],
+        "id": "4243",
+        "text": " When being followed by an ambulance showing a flashing blue light you should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4244",
+            "isRight": false,
+            "id": "1b7642b0-dd44-45ed-9e2e-4f9df7a42b42",
+            "text": "Slow down and then sound your horn"
+          },
+          {
+            "questionId": "4244",
+            "isRight": true,
+            "id": "f48c92bd-e91f-4469-957c-3564ab48504e",
+            "text": "Slow down and give way if it is safe to do so"
+          },
+          {
+            "questionId": "4244",
+            "isRight": false,
+            "id": "09b03bfd-e07b-4c86-a791-9957d41bca72",
+            "text": "Sound your horn and keep going"
+          },
+          {
+            "questionId": "4244",
+            "isRight": false,
+            "id": "df43a567-e9c7-42b9-9251-baa800dbcb11",
+            "text": "Flash your headlights and slow down"
+          }
+        ],
+        "id": "4244",
+        "text": " A bus has stopped at a bus stop ahead of you. Its right-hand indicator is flashing. You should"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.33",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4245",
+            "isRight": false,
+            "id": "4fd6aecb-a45f-4c81-8ed0-f09a64abd3fb",
+            "text": "To tell them that you have right of way"
+          },
+          {
+            "questionId": "4245",
+            "isRight": false,
+            "id": "adfe9706-d60f-4085-99c3-869e995149c1",
+            "text": "To show that you are about to reverse"
+          },
+          {
+            "questionId": "4245",
+            "isRight": false,
+            "id": "5e05f0fc-f7be-4cc4-b9c7-27fbdd63e162",
+            "text": "To show that you are giving way"
+          },
+          {
+            "questionId": "4245",
+            "isRight": true,
+            "id": "5b22fb81-f6f5-492a-80f6-1277907ef52e",
+            "text": "To let them know that you are there"
+          }
+        ],
+        "id": "4245",
+        "text": " You should ONLY flash your headlights to other roads users:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.34",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4246",
+            "isRight": true,
+            "id": "4df437c9-a8e1-42bc-8d58-c06005d38796",
+            "text": "To alert others of your presence"
+          },
+          {
+            "questionId": "4246",
+            "isRight": false,
+            "id": "10dc1263-fcc1-4697-929b-ccc75a8a8a66",
+            "text": "To signal your annoyance"
+          },
+          {
+            "questionId": "4246",
+            "isRight": false,
+            "id": "2088dc28-13be-4ff8-8a13-d4ec82b63a98",
+            "text": "To greet other road users"
+          },
+          {
+            "questionId": "4246",
+            "isRight": false,
+            "id": "3e4cf24a-4fcd-4348-ad68-263a58a605fc",
+            "text": "To allow you right of way"
+          }
+        ],
+        "id": "4246",
+        "text": " Why should you use your horn?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.36",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4247",
+            "isRight": false,
+            "id": "750dbc87-3cfc-4103-b92a-b40214c9514e",
+            "text": "Just left of the centre line"
+          },
+          {
+            "questionId": "4247",
+            "isRight": false,
+            "id": "1d58f8e2-2fb9-4d02-99d3-3afc5512f46e",
+            "text": "In either lane  depending on the traffic"
+          },
+          {
+            "questionId": "4247",
+            "isRight": false,
+            "id": "7aa4585b-6450-4d98-a410-da26c76b7ae4",
+            "text": "In the left-hand lane"
+          },
+          {
+            "questionId": "4247",
+            "isRight": true,
+            "id": "d9c53aee-5739-4cac-aa61-7d889d04208e",
+            "text": "As close as you safely can to the right hand side of the street"
+          }
+        ],
+        "id": "4247",
+        "text": " You are in a one-way street and want to turn right. You should place yourself"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.37",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4248",
+            "isRight": false,
+            "id": "2085c0af-2c26-48bb-a159-7bb03335220a",
+            "text": "To allow drivers to pass you on the right"
+          },
+          {
+            "questionId": "4248",
+            "isRight": false,
+            "id": "74abd56f-a474-4e51-8c97-5fcb1b1edc84",
+            "text": "To give a better view into the road that you're joining"
+          },
+          {
+            "questionId": "4248",
+            "isRight": true,
+            "id": "5ddd5593-54ac-4532-ad36-8c8426f7a746",
+            "text": "To help other road users know what you intend to do"
+          },
+          {
+            "questionId": "4248",
+            "isRight": false,
+            "id": "5af987c9-d8f8-4000-bd5c-426404352ed8",
+            "text": "To allow other drivers to pull out in front of you"
+          }
+        ],
+        "id": "4248",
+        "text": " You wish to turn right ahead. Why should you take up the proper position in goodtime?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.41",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4249",
+            "isRight": true,
+            "id": "ad0c40ed-b83d-4a80-9a39-88204dcddce5",
+            "text": "After checking it is safe to do so, before changing course or direction, turning to the left or right, stopping or moving"
+          },
+          {
+            "questionId": "4249",
+            "isRight": false,
+            "id": "018a6bce-4e7f-472b-89c5-ca0843e6e353",
+            "text": "Only when joining a dual carriageway from a slip road so you don't have to give way."
+          },
+          {
+            "questionId": "4249",
+            "isRight": true,
+            "id": "eb3759ee-e1bc-4754-829e-0985588e88c4",
+            "text": "At all times in order to alert other road users  including pedestrians  of your intended actions."
+          },
+          {
+            "questionId": "4249",
+            "isRight": false,
+            "id": "5a04cbf5-4755-45f9-83ec-5685a81427a1",
+            "text": "In traffic only during the hours of darkness or in bad weather."
+          },
+          {
+            "questionId": "4249",
+            "isRight": false,
+            "id": "7ca699ab-32a7-4bea-aed3-90f4c6897cd2",
+            "text": "To give you priority over other traffic when changing lanes or before pulling out."
+          }
+        ],
+        "id": "4249",
+        "text": " When should you give signals?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4558",
+            "isRight": false,
+            "id": "f77f9a3a-5167-4ace-bead-7a56147df6d5",
+            "text": "Fog lights"
+          },
+          {
+            "questionId": "4558",
+            "isRight": false,
+            "id": "f8477296-70c2-4d57-855d-2055226ce3a6",
+            "text": "Sidelights"
+          },
+          {
+            "questionId": "4558",
+            "isRight": true,
+            "id": "740f9299-3a92-498b-be06-a22403212c30",
+            "text": "Dipped headlights"
+          },
+          {
+            "questionId": "4558",
+            "isRight": false,
+            "id": "6b347ef2-f0fb-42b0-8f0d-60dc9c949920",
+            "text": "Full beam headlight"
+          }
+        ],
+        "id": "4558",
+        "text": " You are driving on a clear night. There is a steady stream of oncoming cars. The national speed limit applies. Which lights should you use?"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4559",
+            "isRight": true,
+            "id": "2e54a462-d200-420a-8ff9-9e4881d2b934",
+            "text": "Apply the handbrake only"
+          },
+          {
+            "questionId": "4559",
+            "isRight": false,
+            "id": "67aaf4e0-42ff-41fa-9275-9faa6a92a007",
+            "text": "Use both the handbrake and footbrake"
+          },
+          {
+            "questionId": "4559",
+            "isRight": false,
+            "id": "f58cc8dc-be64-40cc-a4a5-b83e7f8dac85",
+            "text": "Switch off your headlights"
+          },
+          {
+            "questionId": "4559",
+            "isRight": false,
+            "id": "b5f6ca06-ce06-4bac-986c-9c54f3f2f089",
+            "text": "Apply the footbrake only"
+          }
+        ],
+        "id": "4559",
+        "text": " You are waiting in a traffic queue at night. To avoid dazzling the drivers behind you should:"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4560",
+            "isRight": false,
+            "id": "389e47f6-7b63-486c-b1a9-c08f3123a370",
+            "text": "Give a left signal when it is safe for vehicles to overtake you"
+          },
+          {
+            "questionId": "4560",
+            "isRight": false,
+            "id": "96b03ac3-304f-464e-a569-fba9172bf89e",
+            "text": "Wave following vehicles past you if you think they can overtake quickly"
+          },
+          {
+            "questionId": "4560",
+            "isRight": true,
+            "id": "fb62ce3e-f063-44d2-954e-f270c32d7ceb",
+            "text": "Pull in safely when you can to let following vehicles overtake"
+          },
+          {
+            "questionId": "4560",
+            "isRight": false,
+            "id": "5b82fdf2-cc64-4bb4-aeed-c5bd31b58013",
+            "text": "Keep well out to stop vehicles overtaking dangerously"
+          }
+        ],
+        "id": "4560",
+        "text": " You are driving a slow-moving car on a narrow winding road. You should :"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4561",
+            "isRight": false,
+            "id": "6639a317-eb2d-4f29-bb58-9b6de0c8ef7c",
+            "text": "Stop immediately and wave it on"
+          },
+          {
+            "questionId": "4561",
+            "isRight": false,
+            "id": "9406b57e-ff1c-4059-9d5f-348da75bb143",
+            "text": "Put your hazard warning lights on"
+          },
+          {
+            "questionId": "4561",
+            "isRight": false,
+            "id": "891fc395-0dec-49b6-8c59-758bfecfa219",
+            "text": "Take no action"
+          },
+          {
+            "questionId": "4561",
+            "isRight": true,
+            "id": "a5bdc1d4-ff7e-4252-bc5e-1409f6a8786a",
+            "text": "Pull in safely as soon as you can do so"
+          }
+        ],
+        "id": "4561",
+        "text": " You are driving a slow-moving car on a narrow road. When traffic wishes to overtake you should :"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4562",
+            "isRight": false,
+            "id": "9c469fcd-e529-4aa8-85d1-4acd0710549a",
+            "text": "Keep left and hold your speed"
+          },
+          {
+            "questionId": "4562",
+            "isRight": true,
+            "id": "50095ec3-9de1-4467-bc53-2dcd30e91e28",
+            "text": "Pull in safely when you can"
+          },
+          {
+            "questionId": "4562",
+            "isRight": false,
+            "id": "0373726f-fcad-4d96-afea-4ed2687ae649",
+            "text": "Show a left turn signal"
+          },
+          {
+            "questionId": "4562",
+            "isRight": false,
+            "id": "1ea6e45f-548b-488e-9261-621145364e1c",
+            "text": "Wave to them to pass"
+          }
+        ],
+        "id": "4562",
+        "text": " You are driving a slow-moving car on a narrow winding road. In order to let other vehicles overtake, you should :"
+      },
+      {
+        "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
+        "subCategoryId": "CARS2.40",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4563",
+            "isRight": true,
+            "id": "200040c6-eabc-4488-8335-441133085c8b",
+            "text": "Motorcycles"
+          },
+          {
+            "questionId": "4563",
+            "isRight": false,
+            "id": "e56498a1-6b27-4b4f-b408-ffb079fcb2d3",
+            "text": "Busy bus drivers"
+          },
+          {
+            "questionId": "4563",
+            "isRight": false,
+            "id": "3205d4c2-5b94-4eb8-97a5-14c84bd2d03a",
+            "text": "Learner car drivers"
+          },
+          {
+            "questionId": "4563",
+            "isRight": false,
+            "id": "8df1c82f-4d33-4b9e-a402-5f0afaa4951f",
+            "text": "Lorry drivers"
+          }
+        ],
+        "id": "4563",
+        "text": " Which of the following are at greatest risk from other road users?"
+      }
     ],
-    "Id": "a071671d-b10d-44b7-bae7-fa871d4c4771",
-    "Text": "VEHICLE LOADING",
-    "ImageUrl": null
+    "id": "7ee6a242-4199-4955-bdef-6feab70c4615",
+    "text": "ATTITUDE"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4250",
+            "isRight": false,
+            "id": "efa71740-dc93-4976-afd6-6b33927d1548",
+            "text": "Radiator coolant level"
+          },
+          {
+            "questionId": "4250",
+            "isRight": true,
+            "id": "5f9f810c-4b81-4491-99c4-a28c36b2cdca",
+            "text": "Brake fluid level"
+          },
+          {
+            "questionId": "4250",
+            "isRight": false,
+            "id": "de2fdf66-54d5-4042-9198-f94babd89065",
+            "text": "Battery water level"
+          },
+          {
+            "questionId": "4250",
+            "isRight": false,
+            "id": "f64ef3f5-a161-455e-8ee2-d380ddf629a0",
+            "text": "Antifreeze level"
+          }
+        ],
+        "id": "4250",
+        "text": " Which of these fluids, if allowed to get low, is dangerous?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.4",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4251",
+            "isRight": true,
+            "id": "1df57b58-ef25-4b13-acfe-e4bcc92e805a",
+            "text": "Steering"
+          },
+          {
+            "questionId": "4251",
+            "isRight": true,
+            "id": "a2b7acbf-675e-4726-b519-ca18a46fe9ef",
+            "text": "Braking"
+          },
+          {
+            "questionId": "4251",
+            "isRight": false,
+            "id": "14a1ac5f-86b4-4b7a-a19e-c541ffd83e03",
+            "text": "Parking"
+          },
+          {
+            "questionId": "4251",
+            "isRight": false,
+            "id": "e662b365-30c9-4d4f-bfb4-68653a0f7063",
+            "text": "Changing gear"
+          }
+        ],
+        "id": "4251",
+        "text": " Which TWO are adversely affected if the tyres are under-inflated?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4252",
+            "isRight": false,
+            "id": "6673d5c8-e867-4c6e-9d38-2089ee8d3a15",
+            "text": "When tyres are hot"
+          },
+          {
+            "questionId": "4252",
+            "isRight": false,
+            "id": "9c0d8ea2-55dd-4e56-85a4-7acfbf80c11f",
+            "text": "After driving at high speed"
+          },
+          {
+            "questionId": "4252",
+            "isRight": false,
+            "id": "a685a997-57f8-44d5-94d6-3071946753c1",
+            "text": "After any lengthy journey"
+          },
+          {
+            "questionId": "4252",
+            "isRight": true,
+            "id": "e4fa77b7-5b4f-4bae-8d73-16f17a027669",
+            "text": "When tyres are cold"
+          }
+        ],
+        "id": "4252",
+        "text": " It is important that tyre pressure is regularly checked. When should this be done?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4253",
+            "isRight": false,
+            "id": "9d943cbe-4c0c-4edb-8c61-8e1d642d2fba",
+            "text": "Every time the vehicle has an VRT test"
+          },
+          {
+            "questionId": "4253",
+            "isRight": true,
+            "id": "35007e9a-b330-42d7-be07-058855c47e65",
+            "text": "Once a week"
+          },
+          {
+            "questionId": "4253",
+            "isRight": false,
+            "id": "ebd0fc52-63fd-4e78-a263-9eeecc8abf98",
+            "text": "Once a month"
+          },
+          {
+            "questionId": "4253",
+            "isRight": false,
+            "id": "1b63ed49-ae2d-448b-9dcc-96f18cf011d2",
+            "text": "Every time the vehicle is serviced"
+          }
+        ],
+        "id": "4253",
+        "text": " It is very important that tyre pressures are correct. They should be checked at least:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.9",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4254",
+            "isRight": false,
+            "id": "4f303dc7-2d1e-4f65-b35a-13571ca9690e",
+            "text": "Oil pressure"
+          },
+          {
+            "questionId": "4254",
+            "isRight": true,
+            "id": "f7f2dbc4-6d9b-4155-8f7d-40951b60c12a",
+            "text": "Braking"
+          },
+          {
+            "questionId": "4254",
+            "isRight": true,
+            "id": "3d9eb4be-e6e9-4eeb-8416-1def7c76e0f3",
+            "text": "Fuel consumption"
+          },
+          {
+            "questionId": "4254",
+            "isRight": false,
+            "id": "427a7506-2a9f-4c36-99b1-5541174144a2",
+            "text": "Engine temperatures"
+          }
+        ],
+        "id": "4254",
+        "text": " Driving with under-inflated (low) tyres can affect:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4255",
+            "isRight": false,
+            "id": "1241c4d2-1e77-49b9-952f-797743b9233a",
+            "text": "When parking"
+          },
+          {
+            "questionId": "4255",
+            "isRight": false,
+            "id": "cbe2b817-9ec8-4dc4-9625-0c07c21f0a3b",
+            "text": "Along narrow streets"
+          },
+          {
+            "questionId": "4255",
+            "isRight": true,
+            "id": "8b17fdf0-031d-477a-a45c-bafe8f640288",
+            "text": "In poor visibility"
+          },
+          {
+            "questionId": "4255",
+            "isRight": false,
+            "id": "8ea35418-af82-4f2e-b9d6-c3f2e55dcc4b",
+            "text": "All the time"
+          }
+        ],
+        "id": "4255",
+        "text": " When MUST you use dipped lights during the day?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.23",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4256",
+            "isRight": true,
+            "id": "a692f9a1-201f-4319-9bc1-dc850aba08f3",
+            "text": "By servicing your vehicle properly"
+          },
+          {
+            "questionId": "4256",
+            "isRight": true,
+            "id": "92893432-9e03-440f-8bad-ef66eb39aa8e",
+            "text": "By gentle acceleration"
+          },
+          {
+            "questionId": "4256",
+            "isRight": false,
+            "id": "7e09cccf-fe42-48df-b45e-04fb79ab7e1a",
+            "text": "By harsh acceleration"
+          },
+          {
+            "questionId": "4256",
+            "isRight": false,
+            "id": "f6eb7cba-d31e-4823-91b9-bce8d21fb68d",
+            "text": "By driving faster"
+          },
+          {
+            "questionId": "4256",
+            "isRight": true,
+            "id": "583a8551-dc1c-4106-83c7-f5257e049106",
+            "text": "By reducing your speed"
+          },
+          {
+            "questionId": "4256",
+            "isRight": false,
+            "id": "060d12c6-e1c2-4419-9709-b60378a97004",
+            "text": "By using leaded fuel"
+          }
+        ],
+        "id": "4256",
+        "text": " How can you  as a vehicle driver help the environment?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.27",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4257",
+            "isRight": true,
+            "id": "7aa349da-e645-46d9-a9ed-4b264e8c0e2f",
+            "text": "Using up natural resources"
+          },
+          {
+            "questionId": "4257",
+            "isRight": true,
+            "id": "c1db5241-03fd-44e5-a261-38b734b6cc2f",
+            "text": "Damage to buildings"
+          },
+          {
+            "questionId": "4257",
+            "isRight": false,
+            "id": "35685d9e-4d44-481f-9244-62e0a886f1d0",
+            "text": "Less use of electric vehicles"
+          },
+          {
+            "questionId": "4257",
+            "isRight": false,
+            "id": "49d74222-f442-4188-aab7-1906df08c716",
+            "text": "Improved public transport"
+          },
+          {
+            "questionId": "4257",
+            "isRight": false,
+            "id": "93bc256c-47d2-419d-b78a-64727ed392c5",
+            "text": "Reduced health risks"
+          },
+          {
+            "questionId": "4257",
+            "isRight": true,
+            "id": "cc59304d-836e-4444-a404-1000baf20eef",
+            "text": "Air pollution"
+          }
+        ],
+        "id": "4257",
+        "text": " Motor vehicles can harm the environment resulting in:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.28",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4258",
+            "isRight": false,
+            "id": "e4686dd9-e194-4155-9efb-b165fafac1ad",
+            "text": "Use busy routes"
+          },
+          {
+            "questionId": "4258",
+            "isRight": true,
+            "id": "3d8ac3fb-865a-4940-aa87-779e4fdc6aa2",
+            "text": "Plan well ahead"
+          },
+          {
+            "questionId": "4258",
+            "isRight": true,
+            "id": "1274e16d-30a8-42a3-8037-a99e6135d9ff",
+            "text": "Brake in good time"
+          },
+          {
+            "questionId": "4258",
+            "isRight": true,
+            "id": "247df4fe-14b9-497b-b1ec-aee0f094df5d",
+            "text": "Avoid harsh acceleration"
+          },
+          {
+            "questionId": "4258",
+            "isRight": false,
+            "id": "085721d2-4bb0-4feb-90a7-3715f49f87a8",
+            "text": "Use narrow side streets"
+          }
+        ],
+        "id": "4258",
+        "text": " To reduce the damage your vehicle causes to the environment you should:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4259",
+            "isRight": false,
+            "id": "055f9122-0776-4bdb-8112-b1cd7ec93982",
+            "text": "Accelerate and brake sharply"
+          },
+          {
+            "questionId": "4259",
+            "isRight": false,
+            "id": "02bd1427-c63d-442f-88df-e48652adc42a",
+            "text": "Drive continually using full choke"
+          },
+          {
+            "questionId": "4259",
+            "isRight": false,
+            "id": "23d9afa9-3882-4175-919f-83a798682c70",
+            "text": "Reduce the tyre pressure"
+          },
+          {
+            "questionId": "4259",
+            "isRight": true,
+            "id": "0bcad1e3-1baa-4cc2-89cb-31575994109d",
+            "text": "Walk or cycle when you can"
+          }
+        ],
+        "id": "4259",
+        "text": " You will help your environment if you:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.30",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4260",
+            "isRight": false,
+            "id": "a31ed1e3-6476-4a1c-9b69-9b396ac3de81",
+            "text": "Empty the boot of unnecessary weight"
+          },
+          {
+            "questionId": "4260",
+            "isRight": true,
+            "id": "b365db2a-53a7-4540-b85e-ffacc07219ce",
+            "text": "Use your vehicle for very short journeys"
+          },
+          {
+            "questionId": "4260",
+            "isRight": false,
+            "id": "4ea7e881-c196-4d69-a35d-631cb6e37e78",
+            "text": "Walk  cycle  or use public transport"
+          },
+          {
+            "questionId": "4260",
+            "isRight": false,
+            "id": "1bf8cd4f-92c1-43bf-9cc4-3a9cfd3b8272",
+            "text": "Remove your roof rack when unloaded"
+          }
+        ],
+        "id": "4260",
+        "text": " To help the environment you should NOT:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.31",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4261",
+            "isRight": false,
+            "id": "8b262de5-2206-40c6-a0c8-abafd826b58e",
+            "text": "The exhaust system"
+          },
+          {
+            "questionId": "4261",
+            "isRight": true,
+            "id": "a41a369b-c2b5-4b5b-90ed-6a469d66978b",
+            "text": "The suspension"
+          },
+          {
+            "questionId": "4261",
+            "isRight": false,
+            "id": "0b45a483-040b-4e00-ad8a-9c1cba2a6783",
+            "text": "The accelerator"
+          },
+          {
+            "questionId": "4261",
+            "isRight": false,
+            "id": "53098ce8-845d-48ff-965d-78da31117900",
+            "text": "The gearbox"
+          },
+          {
+            "questionId": "4261",
+            "isRight": true,
+            "id": "e92d93eb-8720-4ac0-82ea-04da126b4aba",
+            "text": "Wheel alignment"
+          },
+          {
+            "questionId": "4261",
+            "isRight": true,
+            "id": "f29fd63e-c93f-4406-8209-d5870386e8f6",
+            "text": "The braking system"
+          }
+        ],
+        "id": "4261",
+        "text": " Excessive or uneven wear on the tyres can be caused by faults in:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.33",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4262",
+            "isRight": true,
+            "id": "39f96dd1-63a8-4cae-adcc-2c635c6a6cd8",
+            "text": "Planning well ahead"
+          },
+          {
+            "questionId": "4262",
+            "isRight": true,
+            "id": "e8ee0723-81f2-413d-b205-6846b65a25e9",
+            "text": "Reducing your road speed"
+          },
+          {
+            "questionId": "4262",
+            "isRight": false,
+            "id": "05321c27-7efc-4801-8a0a-22cda75b312a",
+            "text": "Rapid acceleration"
+          },
+          {
+            "questionId": "4262",
+            "isRight": false,
+            "id": "07b0950c-dcb5-4e0e-af4d-4d5cab171fe8",
+            "text": "Short journeys with a cold engine"
+          },
+          {
+            "questionId": "4262",
+            "isRight": false,
+            "id": "c3cd8abc-0485-4621-97f7-6c287285f466",
+            "text": "Driving in lower gears"
+          },
+          {
+            "questionId": "4262",
+            "isRight": false,
+            "id": "d8e2a9d8-6320-4517-ac05-d344f7d15ee8",
+            "text": "Late and harsh braking"
+          }
+        ],
+        "id": "4262",
+        "text": " Which of the following will reduce fuel consumption?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.38",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4263",
+            "isRight": false,
+            "id": "a9ede312-59c7-458f-861a-b4afdeb55f68",
+            "text": "Between 11.30 pm and 7 am in a built-up area"
+          },
+          {
+            "questionId": "4263",
+            "isRight": false,
+            "id": "2410d2c0-0ccb-499e-97e0-ea845c4a8fdd",
+            "text": "At any time in a built-up area"
+          },
+          {
+            "questionId": "4263",
+            "isRight": false,
+            "id": "9bec037a-d908-4fd8-b78d-a2aa939fa852",
+            "text": "Between 10 pm and 6 am in a built-up area"
+          },
+          {
+            "questionId": "4263",
+            "isRight": true,
+            "id": "015cd4db-bd87-4006-bd22-bdbf5b6ce82e",
+            "text": "Between 11.00 pm and 6 am in a built-up area"
+          }
+        ],
+        "id": "4263",
+        "text": " You should NOT sound your horn:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.45",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4264",
+            "isRight": false,
+            "id": "eff3ec72-a776-4591-8f1b-55d333d6998f",
+            "text": "80 kph"
+          },
+          {
+            "questionId": "4264",
+            "isRight": false,
+            "id": "b7cbe9de-2b7b-49f6-9a6a-4e6c4776a38e",
+            "text": "60 kph"
+          },
+          {
+            "questionId": "4264",
+            "isRight": true,
+            "id": "0cb0959f-66d1-43da-9f49-35bb337042c3",
+            "text": "35 kph"
+          },
+          {
+            "questionId": "4264",
+            "isRight": false,
+            "id": "e70bd848-6094-447d-90df-e864ffaf875f",
+            "text": "50 kph"
+          }
+        ],
+        "id": "4264",
+        "text": " In some residential roads you will find a speed limit of:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.46",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4265",
+            "isRight": false,
+            "id": "19d3b42c-6f67-453c-adb4-fde9278bfb6e",
+            "text": "At toll-bridge approaches only"
+          },
+          {
+            "questionId": "4265",
+            "isRight": false,
+            "id": "81648488-26da-4311-b275-56f428baf5f2",
+            "text": "Used to increase traffic speed"
+          },
+          {
+            "questionId": "4265",
+            "isRight": false,
+            "id": "d5f4c724-7540-431e-9c78-f8808379977e",
+            "text": "Always at major road works"
+          },
+          {
+            "questionId": "4265",
+            "isRight": true,
+            "id": "8f19ab9e-172d-4384-9d5e-850469fc128f",
+            "text": "Traffic calming measures"
+          }
+        ],
+        "id": "4265",
+        "text": " Road humps, chicanes and narrowing are:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.47",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4266",
+            "isRight": true,
+            "id": "7f6b606e-d0a7-4243-992c-1b01d4c582cf",
+            "text": "Maintain a reduced speed throughout"
+          },
+          {
+            "questionId": "4266",
+            "isRight": false,
+            "id": "2f7852b5-bbf5-44fe-bcef-afdd7e1fd3cb",
+            "text": "Drive slowly at school times only"
+          },
+          {
+            "questionId": "4266",
+            "isRight": false,
+            "id": "bab3b2e7-138c-4d28-a588-ed63c48b5476",
+            "text": "Always keep to the maximum legal speed"
+          },
+          {
+            "questionId": "4266",
+            "isRight": false,
+            "id": "e439d963-76aa-4971-aedc-d318f2b627e1",
+            "text": "Accelerate quickly between each one"
+          }
+        ],
+        "id": "4266",
+        "text": " You enter a road where there are road humps. You should:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.2",
+        "correctAnswersNumber": 4,
+        "answers": [
+          {
+            "questionId": "4564",
+            "isRight": false,
+            "id": "e10cf237-810a-4154-8862-11ebd146c51f",
+            "text": "Tempreture gauge"
+          },
+          {
+            "questionId": "4564",
+            "isRight": true,
+            "id": "50f40235-9a71-4eed-b86c-3c8c0f66a647",
+            "text": "Indicators"
+          },
+          {
+            "questionId": "4564",
+            "isRight": true,
+            "id": "3baf8744-395d-4e5f-89e3-0a7764a6b3bb",
+            "text": "Brakes"
+          },
+          {
+            "questionId": "4564",
+            "isRight": true,
+            "id": "2b43f158-00f6-4699-95f5-06d1db49b760",
+            "text": "Exhaust system"
+          },
+          {
+            "questionId": "4564",
+            "isRight": false,
+            "id": "d38565d7-f525-4801-8dc5-49aeb663b3d2",
+            "text": "Oil warning light"
+          },
+          {
+            "questionId": "4564",
+            "isRight": true,
+            "id": "025b6a63-b3f7-4c9e-9f78-ce01d57982a9",
+            "text": "Lights"
+          }
+        ],
+        "id": "4564",
+        "text": " Which FOUR of these MUST be in good working order for your car to be safe and roadworthy?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4565",
+            "isRight": false,
+            "id": "04d10c5a-3928-4ce9-845b-e4c4337a18b9",
+            "text": "Allow the exhaust system to be recycled"
+          },
+          {
+            "questionId": "4565",
+            "isRight": false,
+            "id": "b727b627-612e-4bbb-8c87-fb81e03eb3bc",
+            "text": "Prolong the life of the exhaust system"
+          },
+          {
+            "questionId": "4565",
+            "isRight": false,
+            "id": "c0402acd-f7ae-4e28-81fc-05023567840c",
+            "text": "Control exhaust noise levels"
+          },
+          {
+            "questionId": "4565",
+            "isRight": true,
+            "id": "abb7eb2c-eea9-4bb3-9a8c-372b71e424bd",
+            "text": "Reduce harmful exhaust emissions"
+          }
+        ],
+        "id": "4565",
+        "text": " New petrol-engined cars have to be fitted with catalytic converters. The reason for this is to:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4566",
+            "isRight": false,
+            "id": "6468b70b-89f8-4164-ab39-7f52843dfaec",
+            "text": "Over-inflated tyres"
+          },
+          {
+            "questionId": "4566",
+            "isRight": false,
+            "id": "22eacf61-a300-461c-95c4-2b2833635f57",
+            "text": "Badly worn brakes"
+          },
+          {
+            "questionId": "4566",
+            "isRight": false,
+            "id": "5f65cd1b-11ef-43d5-93c9-07fb2c1fe99e",
+            "text": "Driving on mud"
+          },
+          {
+            "questionId": "4566",
+            "isRight": true,
+            "id": "92b593bc-195a-4a42-8937-9c5c773d9875",
+            "text": "Under-inflated tyres"
+          }
+        ],
+        "id": "4566",
+        "text": " What can cause heavy or difficult steering?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4567",
+            "isRight": true,
+            "id": "7c8713c6-eeb1-450b-ad14-7cd6781c8426",
+            "text": "Lighter"
+          },
+          {
+            "questionId": "4567",
+            "isRight": false,
+            "id": "5cdf59f8-c34c-45f1-b9b6-8a5d685c8d84",
+            "text": "Noisier"
+          },
+          {
+            "questionId": "4567",
+            "isRight": false,
+            "id": "002c2921-1f8e-45aa-9cb9-17f1475b6a7f",
+            "text": "Quieter"
+          },
+          {
+            "questionId": "4567",
+            "isRight": false,
+            "id": "0123813b-f5f4-499e-87de-e742b2ffb616",
+            "text": "Heavier"
+          }
+        ],
+        "id": "4567",
+        "text": " Your car is fitted with power assisted steering. This will make the steering seem:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4568",
+            "isRight": false,
+            "id": "7f47c624-5339-4e1c-b1c1-9143130eedbf",
+            "text": "Whoever issued the VRT certificate"
+          },
+          {
+            "questionId": "4568",
+            "isRight": false,
+            "id": "a5ea50a9-8ecb-4f7c-8fac-425c25cf05a4",
+            "text": "Whoever services the car"
+          },
+          {
+            "questionId": "4568",
+            "isRight": true,
+            "id": "65c8d4bb-28cd-4791-a18a-40f395110f58",
+            "text": "You  the driver"
+          },
+          {
+            "questionId": "4568",
+            "isRight": false,
+            "id": "9cd112be-fea8-4785-82b0-d7aa5c3d5aee",
+            "text": "The previous owner"
+          }
+        ],
+        "id": "4568",
+        "text": " A police officer orders you to stop and finds you have a faulty tyre. Who is responsible for the tyre?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4569",
+            "isRight": false,
+            "id": "9af491ba-057d-4936-8a4b-53adf1056bc3",
+            "text": "4mm"
+          },
+          {
+            "questionId": "4569",
+            "isRight": true,
+            "id": "74123182-d04f-450a-af23-83a567a83fea",
+            "text": "1.6mm"
+          },
+          {
+            "questionId": "4569",
+            "isRight": false,
+            "id": "81c862d6-3f35-4b5b-b240-eb87cb8e3d5b",
+            "text": "2.5mm"
+          },
+          {
+            "questionId": "4569",
+            "isRight": false,
+            "id": "be222fb4-67be-43d8-9ab1-f6328b16b2c8",
+            "text": "1mm"
+          }
+        ],
+        "id": "4569",
+        "text": " The legal minimum depth of tread for car tyres over three quarters of its breadth is:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.12",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4570",
+            "isRight": false,
+            "id": "673accbc-d927-4b2e-9b66-9b97e7c1f24f",
+            "text": "Exhaust system"
+          },
+          {
+            "questionId": "4570",
+            "isRight": true,
+            "id": "14c698be-e660-4c02-9a02-5d909d5e6a61",
+            "text": "Suspension"
+          },
+          {
+            "questionId": "4570",
+            "isRight": true,
+            "id": "3a43c412-bef9-4d68-9952-291dc64b39aa",
+            "text": "Braking system"
+          },
+          {
+            "questionId": "4570",
+            "isRight": false,
+            "id": "0bbf78b9-ea46-42cc-a6a5-7152a3a2504e",
+            "text": "Gearbox"
+          }
+        ],
+        "id": "4570",
+        "text": " Excessive or uneven wear in one or more tyres can be caused by faults in the:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.13",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4571",
+            "isRight": false,
+            "id": "27ffd5ed-9e52-4f8c-8862-f419de9c8c81",
+            "text": "Engine oil level is correct"
+          },
+          {
+            "questionId": "4571",
+            "isRight": true,
+            "id": "a709ef84-0cb3-4fd8-bcf4-28670bb494cc",
+            "text": "Wheels are secure"
+          },
+          {
+            "questionId": "4571",
+            "isRight": false,
+            "id": "f6ed4180-c5b0-487c-871d-2abddeae0fe4",
+            "text": "Exhaust is not loose"
+          },
+          {
+            "questionId": "4571",
+            "isRight": false,
+            "id": "aae00889-6600-46f6-84ad-aa48fab69cd1",
+            "text": "Doors are closed"
+          },
+          {
+            "questionId": "4571",
+            "isRight": true,
+            "id": "778c65b4-87ef-428b-a421-7666d253388a",
+            "text": "Wheels are balanced"
+          }
+        ],
+        "id": "4571",
+        "text": " There is vibration on your steering wheel as you drive at certain speeds. You should check that the:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4572",
+            "isRight": false,
+            "id": "24abe128-359d-46aa-a184-a4de9ac1111c",
+            "text": "Use your handbrake at the same time"
+          },
+          {
+            "questionId": "4572",
+            "isRight": true,
+            "id": "362e55a7-d925-479f-8c73-7d3af96dd035",
+            "text": "Have the fault checked by a competent mechanic as soon as possible"
+          },
+          {
+            "questionId": "4572",
+            "isRight": false,
+            "id": "ffdcdb30-706b-4acd-9713-374bf71804e4",
+            "text": "Pump the pedal when braking and steer in opposite direction"
+          },
+          {
+            "questionId": "4572",
+            "isRight": false,
+            "id": "934b961e-b350-4278-9343-f7e7f23bcfd9",
+            "text": "Change the tyres around"
+          }
+        ],
+        "id": "4572",
+        "text": " Your vehicle pulls to one side when braking heavily. You should:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4573",
+            "isRight": true,
+            "id": "19051471-f44a-40c8-b0ef-82c84b16dbf2",
+            "text": "The brakes overheating"
+          },
+          {
+            "questionId": "4573",
+            "isRight": false,
+            "id": "96f2ff21-8cfa-4e19-a4a2-ea31f3afe92b",
+            "text": "The brakes out of adjustment"
+          },
+          {
+            "questionId": "4573",
+            "isRight": false,
+            "id": "22b8b2f2-697a-4966-9d7f-4473182b5342",
+            "text": "Oil in the brakes"
+          },
+          {
+            "questionId": "4573",
+            "isRight": false,
+            "id": "04657ff4-ec53-4af0-ab80-e9447fb112b3",
+            "text": "Air in brake fluid"
+          }
+        ],
+        "id": "4573",
+        "text": " The main cause of brake pedal fade is:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4574",
+            "isRight": false,
+            "id": "e9d24a95-1d0f-4afd-831a-6f72571f9080",
+            "text": "Check that the handbrake is released"
+          },
+          {
+            "questionId": "4574",
+            "isRight": false,
+            "id": "b0a549ea-29cc-4852-ac52-bdc784b91bc3",
+            "text": "Check the footbrake free play"
+          },
+          {
+            "questionId": "4574",
+            "isRight": false,
+            "id": "7ab5ccd0-1dea-42ee-a396-7232ca8727ae",
+            "text": "Check the brake fluid"
+          },
+          {
+            "questionId": "4574",
+            "isRight": true,
+            "id": "017fd6d7-3ce8-412c-a279-4127ac7c89c6",
+            "text": "Have the brakes checked immediately"
+          }
+        ],
+        "id": "4574",
+        "text": " Your anti-lock brakes warning light stays on. You should:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4575",
+            "isRight": false,
+            "id": "2849da11-0488-4674-856f-b5cff05a50ba",
+            "text": "When you are being towed"
+          },
+          {
+            "questionId": "4575",
+            "isRight": false,
+            "id": "e881ff94-172d-482a-96d2-f7574df64ed8",
+            "text": "To park on double yellows lines"
+          },
+          {
+            "questionId": "4575",
+            "isRight": false,
+            "id": "51e246cd-d703-4a9d-8ddd-f94e8ff397fb",
+            "text": "To park alongside another car"
+          },
+          {
+            "questionId": "4575",
+            "isRight": true,
+            "id": "395772ad-6aa9-4ab4-9e70-914f69a54148",
+            "text": "When you have broken down in traffic"
+          }
+        ],
+        "id": "4575",
+        "text": " When may you use hazard lights?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4576",
+            "isRight": true,
+            "id": "012d6308-3fa6-4b80-8428-a9c6ace4ba4c",
+            "text": "Broken down and causing an obstruction"
+          },
+          {
+            "questionId": "4576",
+            "isRight": false,
+            "id": "41feb4ec-708a-4ed3-b801-3356f10c7f51",
+            "text": "Reversing into a side road"
+          },
+          {
+            "questionId": "4576",
+            "isRight": false,
+            "id": "c259efdd-e00f-49c5-b263-0c574c5a8318",
+            "text": "Being towed along a road"
+          },
+          {
+            "questionId": "4576",
+            "isRight": false,
+            "id": "a74cc2e3-4dc6-4786-b1df-b259fb4fdde6",
+            "text": "Faulty and moving slowly"
+          }
+        ],
+        "id": "4576",
+        "text": " Hazard lights should be used when vehicles are:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4577",
+            "isRight": false,
+            "id": "8444d0cc-803e-4ae6-87b3-f956a47fb6a4",
+            "text": "Help you to maintain your driving position"
+          },
+          {
+            "questionId": "4577",
+            "isRight": true,
+            "id": "b5b83cd3-4e69-43da-bf09-9d15f97190f5",
+            "text": "Help you to avoid neck injury"
+          },
+          {
+            "questionId": "4577",
+            "isRight": false,
+            "id": "ebecabfa-4435-41e5-8169-4402f49bdd50",
+            "text": "Help you to relax"
+          },
+          {
+            "questionId": "4577",
+            "isRight": false,
+            "id": "135e9af3-8bf0-4806-96b6-5928688225da",
+            "text": "Make you more comfortable"
+          }
+        ],
+        "id": "4577",
+        "text": " A properly adjusted head rest will:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4578",
+            "isRight": false,
+            "id": "57e50cf6-c567-4c3b-94eb-0a2b7ac913dd",
+            "text": "A collapsible steering wheel"
+          },
+          {
+            "questionId": "4578",
+            "isRight": false,
+            "id": "4e06a9de-ac45-448a-bf16-3114d95114a2",
+            "text": "Anti-lock brakes"
+          },
+          {
+            "questionId": "4578",
+            "isRight": false,
+            "id": "6a5954e3-2910-4779-94de-e55a42e96cf9",
+            "text": "An air-sprung seat"
+          },
+          {
+            "questionId": "4578",
+            "isRight": true,
+            "id": "f5f0ec8a-6a9d-4389-87e6-7dadfd0e235d",
+            "text": "A properly adjusted head restraint"
+          }
+        ],
+        "id": "4578",
+        "text": " What will reduce the risk of neck injury resulting from a car collision?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.24",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4579",
+            "isRight": true,
+            "id": "8119de6f-c567-4fc9-be2e-42f63cb0de06",
+            "text": "Not over-revving in the lower gears"
+          },
+          {
+            "questionId": "4579",
+            "isRight": true,
+            "id": "2eb42ef1-d0a1-4003-bb98-ac965b3f1fd5",
+            "text": "Making sure your tyres are correctly inflated"
+          },
+          {
+            "questionId": "4579",
+            "isRight": true,
+            "id": "2fee82c3-6bde-4a82-93e4-9dc585fc57ef",
+            "text": "Having your vehicle properly serviced"
+          },
+          {
+            "questionId": "4579",
+            "isRight": false,
+            "id": "bf2d3149-ccf0-42de-a2ba-9becc37ecbd7",
+            "text": "Keeping an empty roof rack properly fitted"
+          },
+          {
+            "questionId": "4579",
+            "isRight": false,
+            "id": "96d0020c-e2b0-4d8f-9228-f4a65f6a1372",
+            "text": "Driving at higher speeds where possible"
+          }
+        ],
+        "id": "4579",
+        "text": " To reduce harming  the environment  you can avoid wasting fuel by:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4580",
+            "isRight": false,
+            "id": "7a7768f4-740e-46ed-950f-9c1ecf9dc22e",
+            "text": "To make sure diesel and petrol engines emit the same fumes"
+          },
+          {
+            "questionId": "4580",
+            "isRight": true,
+            "id": "2d9760ce-2bba-4702-bc54-ea9895f9e7ce",
+            "text": "To help protect the environment against pollution"
+          },
+          {
+            "questionId": "4580",
+            "isRight": false,
+            "id": "992628bc-6041-443a-91fc-e37b048167ab",
+            "text": "To discover which fuel supplier is used the most"
+          },
+          {
+            "questionId": "4580",
+            "isRight": false,
+            "id": "46eca538-5c4c-424b-a2eb-3ff98dd0d543",
+            "text": "To recover the cost of expensive garage equipment"
+          }
+        ],
+        "id": "4580",
+        "text": " Why do VRT tests include an exhaust emission test?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4581",
+            "isRight": false,
+            "id": "682b17f7-25aa-40bd-849e-1fad6835c296",
+            "text": "Steering wheel not located centrally"
+          },
+          {
+            "questionId": "4581",
+            "isRight": false,
+            "id": "b331ec91-b99c-4921-a444-70a997bbf94d",
+            "text": "Tyres under-inflated"
+          },
+          {
+            "questionId": "4581",
+            "isRight": false,
+            "id": "677972b6-62f8-4dcb-b931-3b3dc57ed2aa",
+            "text": "Worn tyres"
+          },
+          {
+            "questionId": "4581",
+            "isRight": true,
+            "id": "c3094a43-2f73-4840-a2b3-f9226c9aa1af",
+            "text": "Worn shock absorbers"
+          }
+        ],
+        "id": "4581",
+        "text": " You are testing the suspension of your car. You notice that your vehicle keeps bouncing when you press down on the front wing.\nWhat does this mean?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.34",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4582",
+            "isRight": true,
+            "id": "37793273-10d2-4ede-b599-e49f4007550d",
+            "text": "A fitted  empty roof rack"
+          },
+          {
+            "questionId": "4582",
+            "isRight": false,
+            "id": "954aaf33-4c55-442e-bd58-77ecf38ee947",
+            "text": "Using different brands of fuel"
+          },
+          {
+            "questionId": "4582",
+            "isRight": true,
+            "id": "a035c889-5113-483a-9a34-03e3ef33c8bc",
+            "text": "Under-inflated tyres"
+          },
+          {
+            "questionId": "4582",
+            "isRight": false,
+            "id": "4f36a9b7-4334-47dc-8e10-9c8468e9aa30",
+            "text": "Using the wrong grade of fuel"
+          },
+          {
+            "questionId": "4582",
+            "isRight": true,
+            "id": "279447b2-5e33-4eac-b25c-d7ff8ab2489a",
+            "text": "Carrying unnecessary weight"
+          }
+        ],
+        "id": "4582",
+        "text": " Which THREE of the following are most likely to increase fuel consumption?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.35",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4583",
+            "isRight": true,
+            "id": "a975df57-8d5b-4747-a78b-5ddab73b1446",
+            "text": "Cause diesel to spill and make roads slippery for others road users"
+          },
+          {
+            "questionId": "4583",
+            "isRight": true,
+            "id": "4a0027e1-2b7c-4739-a1ce-97cf9c27612a",
+            "text": "Waste fuel and money"
+          },
+          {
+            "questionId": "4583",
+            "isRight": false,
+            "id": "41348ffd-5ad3-4b9c-8ae5-2943a693f2b6",
+            "text": "Increase the level of exhaust emissions"
+          },
+          {
+            "questionId": "4583",
+            "isRight": false,
+            "id": "52b7ecad-47e7-443c-9ad0-30eea8aeff2f",
+            "text": "Improve your vehicle's fuel consumption"
+          }
+        ],
+        "id": "4583",
+        "text": " The filler cap on your diesel fuel tank is loose. This will:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.37",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4584",
+            "isRight": false,
+            "id": "5b559b98-8c72-4326-b3cc-300e13b287be",
+            "text": "Clear"
+          },
+          {
+            "questionId": "4584",
+            "isRight": false,
+            "id": "43bf25ed-a421-4eee-8e7f-c08b4d093ffe",
+            "text": "Odourless"
+          },
+          {
+            "questionId": "4584",
+            "isRight": false,
+            "id": "b5dd825c-c373-44ff-8987-39b3e7f9afc0",
+            "text": "Sticky"
+          },
+          {
+            "questionId": "4584",
+            "isRight": true,
+            "id": "b262801b-2117-47fc-87cc-576170b56a20",
+            "text": "Slippery"
+          }
+        ],
+        "id": "4584",
+        "text": " Care should be taken when refueling with diesel  because when spilt it is:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.39",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4585",
+            "isRight": false,
+            "id": "201d3f62-275a-452a-a83a-96e51effc7c9",
+            "text": "Look in the nearside mirror"
+          },
+          {
+            "questionId": "4585",
+            "isRight": false,
+            "id": "8cb597b7-816a-4bd0-8dc5-f3cecd3cccbe",
+            "text": "Open the door and look behind"
+          },
+          {
+            "questionId": "4585",
+            "isRight": false,
+            "id": "b3c51f23-fa3b-4f5b-bf9f-d0822bb31298",
+            "text": "Open your window to look behind"
+          },
+          {
+            "questionId": "4585",
+            "isRight": true,
+            "id": "e3de7761-3050-4e96-8edb-68eb0bb88d4f",
+            "text": "Ask someone to guide you"
+          }
+        ],
+        "id": "4585",
+        "text": " If you cannot see clearly behind when reversing  what should you do?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.41",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4586",
+            "isRight": false,
+            "id": "7cd0d297-95b9-4514-937b-2501c311e1a2",
+            "text": "You a refund on your road tax"
+          },
+          {
+            "questionId": "4586",
+            "isRight": false,
+            "id": "5677b95d-d29b-444c-a2a9-a85ffbf3e77c",
+            "text": "Lower insurance premiums"
+          },
+          {
+            "questionId": "4586",
+            "isRight": true,
+            "id": "50e9af2f-0bc7-4a18-84aa-8888726b64ef",
+            "text": "Cleaner exhaust emissions"
+          },
+          {
+            "questionId": "4586",
+            "isRight": true,
+            "id": "f5f02b65-c744-4d3a-bbce-13557062b983",
+            "text": "Better fuel economy"
+          }
+        ],
+        "id": "4586",
+        "text": " A properly serviced car will give:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.42",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4587",
+            "isRight": false,
+            "id": "6e9ce7ee-cac0-427c-92df-f84df99e4461",
+            "text": "It will affect your braking"
+          },
+          {
+            "questionId": "4587",
+            "isRight": false,
+            "id": "0e6e5dec-98f4-41aa-bbfa-4535dd43e1af",
+            "text": "It is illegal"
+          },
+          {
+            "questionId": "4587",
+            "isRight": false,
+            "id": "81ba71a0-1c26-4083-b225-aa04a9a06475",
+            "text": "It will affect the suspension"
+          },
+          {
+            "questionId": "4587",
+            "isRight": true,
+            "id": "9de747b1-60a1-4b0d-9e75-c562298a1be2",
+            "text": "It will waste fuel"
+          }
+        ],
+        "id": "4587",
+        "text": " When a roof rack is not in use it should be removed. Why?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.43",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4588",
+            "isRight": false,
+            "id": "ade18a44-2e23-4ad0-a472-548a3ece783b",
+            "text": "Make your car go faster"
+          },
+          {
+            "questionId": "4588",
+            "isRight": false,
+            "id": "4252ec09-57a6-4aa0-bd06-ca35de931317",
+            "text": "Improve the road handling"
+          },
+          {
+            "questionId": "4588",
+            "isRight": false,
+            "id": "914b801e-7d38-4136-9eca-f54afac57610",
+            "text": "Reduce fuel consumption"
+          },
+          {
+            "questionId": "4588",
+            "isRight": true,
+            "id": "d3126eef-49a5-4235-b770-11887f5c88cb",
+            "text": "Increase fuel consumption"
+          }
+        ],
+        "id": "4588",
+        "text": " A roof rack that is fitted to your car will:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.44",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4589",
+            "isRight": true,
+            "id": "e2e18698-66d8-46d5-9f1f-24141237ef0c",
+            "text": "Walk or cycle on short journeys"
+          },
+          {
+            "questionId": "4589",
+            "isRight": true,
+            "id": "4c46e944-a43d-4cc4-961b-f921342eac82",
+            "text": "Share a car when possible"
+          },
+          {
+            "questionId": "4589",
+            "isRight": true,
+            "id": "585c6b8c-2b25-42f0-a8f2-caae86e23906",
+            "text": "Use public transport more often"
+          },
+          {
+            "questionId": "4589",
+            "isRight": false,
+            "id": "ca43f6e8-27e3-4ea9-a0da-233937bc5e61",
+            "text": "Use a car with a smaller engine"
+          },
+          {
+            "questionId": "4589",
+            "isRight": false,
+            "id": "423169d6-620f-4377-a492-8f436a7e0b02",
+            "text": "Travel by car at all times"
+          }
+        ],
+        "id": "4589",
+        "text": " To reduce the volume of cars on the roads you could:"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.48",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4590",
+            "isRight": true,
+            "id": "facb8842-386e-45a3-b401-a7800a066db6",
+            "text": "When your vehicle has broken down and is causing an obstruction"
+          },
+          {
+            "questionId": "4590",
+            "isRight": false,
+            "id": "0dc0df03-e382-4da7-951c-d0dda790bf66",
+            "text": "When warning oncoming traffic that you intend to stop"
+          },
+          {
+            "questionId": "4590",
+            "isRight": false,
+            "id": "f690e9da-d541-4b24-80de-f4d5c832a3a1",
+            "text": "When your direction indicators are not working"
+          },
+          {
+            "questionId": "4590",
+            "isRight": false,
+            "id": "9b14ef8a-df09-478c-8b2e-280aaac4d589",
+            "text": "When you are double parked on a two-way road"
+          },
+          {
+            "questionId": "4590",
+            "isRight": true,
+            "id": "3353ba25-56a9-4b1c-8555-4dd872319188",
+            "text": "When slowing down to warn other drivers behind of a hazard ahead"
+          }
+        ],
+        "id": "4590",
+        "text": " For which TWO of these should you use hazard-warning lights?"
+      },
+      {
+        "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+        "subCategoryId": "CARS3.49",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4591",
+            "isRight": false,
+            "id": "efd5f928-17d4-4f49-8f9e-fdecb348acef",
+            "text": "Rear fog lights"
+          },
+          {
+            "questionId": "4591",
+            "isRight": false,
+            "id": "b3660679-6aac-4867-8f68-0eaea1f00def",
+            "text": "Front fog lights"
+          },
+          {
+            "questionId": "4591",
+            "isRight": true,
+            "id": "eff3404c-fab2-45c3-99ae-23dbcfcf0fb8",
+            "text": "Dipped headlights"
+          },
+          {
+            "questionId": "4591",
+            "isRight": false,
+            "id": "bd2aa7a9-6c2c-4774-a824-c05a9ff83074",
+            "text": "Headlights and fog lights"
+          }
+        ],
+        "id": "4591",
+        "text": " If daytime visibility is poor but not seriously reduced  you should switch on:"
+      }
+    ],
+    "id": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
+    "text": "SAFETY AND YOUR VEHICLE"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4267",
+            "isRight": false,
+            "id": "8d859c3d-2c09-4ab3-b037-27c6e6aefc49",
+            "text": "96 metres (315 feet)"
+          },
+          {
+            "questionId": "4267",
+            "isRight": false,
+            "id": "f2fb04ee-6087-4c90-b80a-7dd5cda57156",
+            "text": "53 metres (174 feet)"
+          },
+          {
+            "questionId": "4267",
+            "isRight": false,
+            "id": "5c529f0f-7dc0-4c3c-9415-dd2152b03dd3",
+            "text": "36 metres (118 feet)"
+          },
+          {
+            "questionId": "4267",
+            "isRight": true,
+            "id": "60f4abbe-070a-401f-b3dd-e725026ebd1f",
+            "text": "23 metres (75 feet)"
+          }
+        ],
+        "id": "4267",
+        "text": " If you are on a good dry road surface and your vehicle has good brakes and tyres. What is the overall stopping distance at 48 kph?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4268",
+            "isRight": false,
+            "id": "6bb0dbb1-ef81-4f9a-a030-82bd46cf0793",
+            "text": "Corner safely"
+          },
+          {
+            "questionId": "4268",
+            "isRight": true,
+            "id": "a6a3e9f6-9f7f-40d2-bd0f-f8faeae64f17",
+            "text": "Unstable"
+          },
+          {
+            "questionId": "4268",
+            "isRight": false,
+            "id": "8c6d3da3-3fa3-4251-9375-9f47d23e1ac4",
+            "text": "Stall"
+          },
+          {
+            "questionId": "4268",
+            "isRight": false,
+            "id": "1a9b2f0f-12da-45e5-b0b6-2e9929d6cc69",
+            "text": "More stable"
+          }
+        ],
+        "id": "4268",
+        "text": " Braking hard at a high speed on a sharp bend can make your vehicle:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.7",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4269",
+            "isRight": false,
+            "id": "99539997-ffa7-4b42-8bcd-19deab928a15",
+            "text": "Use side lights only"
+          },
+          {
+            "questionId": "4269",
+            "isRight": true,
+            "id": "e65886f1-6b44-4018-819f-8007102bc4d1",
+            "text": "Use dipped headlights"
+          },
+          {
+            "questionId": "4269",
+            "isRight": false,
+            "id": "7e02b487-fb29-49a3-9123-edd6f3148469",
+            "text": "Keep close to the car in front"
+          },
+          {
+            "questionId": "4269",
+            "isRight": true,
+            "id": "20e19cc8-aeaa-49d6-ac7a-a0b7f06baf38",
+            "text": "Slow down"
+          },
+          {
+            "questionId": "4269",
+            "isRight": false,
+            "id": "2284cba9-e829-4562-b97e-f1657e34891d",
+            "text": "Use headlights on full beam"
+          },
+          {
+            "questionId": "4269",
+            "isRight": true,
+            "id": "801bbeb3-7837-47a8-9738-f276e486ba9c",
+            "text": "Allow more time for your journey"
+          }
+        ],
+        "id": "4269",
+        "text": " When driving in fog  which of the following measures are correct?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4270",
+            "isRight": true,
+            "id": "816b2064-4c70-4626-bb4f-17c415400f94",
+            "text": "Keep a safe distance from the car in front"
+          },
+          {
+            "questionId": "4270",
+            "isRight": false,
+            "id": "3e81137a-f888-45bb-9a85-96f436fe0029",
+            "text": "Check your mirrors"
+          },
+          {
+            "questionId": "4270",
+            "isRight": false,
+            "id": "7606aa72-1429-46e4-8064-3096ab7471ba",
+            "text": "Check your blind spot"
+          },
+          {
+            "questionId": "4270",
+            "isRight": false,
+            "id": "634ee2bb-a0b0-469d-9621-68366b6ab8a8",
+            "text": "Keep the correct distance from the kerb"
+          }
+        ],
+        "id": "4270",
+        "text": " The 'two-second rule' allows you to:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4271",
+            "isRight": true,
+            "id": "1feea742-9848-48f4-b5d0-2104936cf658",
+            "text": "In the rain"
+          },
+          {
+            "questionId": "4271",
+            "isRight": false,
+            "id": "8cc740e3-5c96-41bf-916b-be3da63d84df",
+            "text": "In strong winds"
+          },
+          {
+            "questionId": "4271",
+            "isRight": false,
+            "id": "caf2f112-daba-47bc-ad66-df453a6058e7",
+            "text": "At night"
+          },
+          {
+            "questionId": "4271",
+            "isRight": false,
+            "id": "17cc9bfd-1a41-4246-bfeb-beaf25f79ad7",
+            "text": "In fog"
+          }
+        ],
+        "id": "4271",
+        "text": " Your overall stopping distance will be longer when driving:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4272",
+            "isRight": false,
+            "id": "187bd68c-6d8c-4f44-ae47-c7be82435f04",
+            "text": "Brake firmly to reduce speed"
+          },
+          {
+            "questionId": "4272",
+            "isRight": false,
+            "id": "f5bc887d-b2f7-47e7-a9cb-a73fd0b8dc00",
+            "text": "Apply gentle acceleration"
+          },
+          {
+            "questionId": "4272",
+            "isRight": false,
+            "id": "b9748a8a-1f23-4f96-92ae-4ad04fe9bc44",
+            "text": "Steer towards the side of the road"
+          },
+          {
+            "questionId": "4272",
+            "isRight": true,
+            "id": "0b263cd8-5012-4b88-9c3a-e74118de9ae2",
+            "text": "Ease off the accelerator"
+          }
+        ],
+        "id": "4272",
+        "text": " You are driving in heavy rain. Your steering suddenly becomes very light. You should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4273",
+            "isRight": false,
+            "id": "4dd55c73-e8e9-4e1c-82b8-0ca92530a968",
+            "text": "The road"
+          },
+          {
+            "questionId": "4273",
+            "isRight": true,
+            "id": "2927bd2a-a81a-43e3-854a-b161e8b29d00",
+            "text": "The driver"
+          },
+          {
+            "questionId": "4273",
+            "isRight": false,
+            "id": "fbf7fc58-2123-4ac5-89e2-efda39275ea6",
+            "text": "The vehicle"
+          },
+          {
+            "questionId": "4273",
+            "isRight": false,
+            "id": "2088618c-fcf4-423b-a1f3-b0aac6c1cb06",
+            "text": "The weather"
+          }
+        ],
+        "id": "4273",
+        "text": " The MAIN cause of skidding is:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4274",
+            "isRight": false,
+            "id": "96969c92-9877-410e-b056-61029c0246f8",
+            "text": "Be ready to move off quickly"
+          },
+          {
+            "questionId": "4274",
+            "isRight": false,
+            "id": "0e58495f-6e55-4632-a5c6-311de194b1f1",
+            "text": "Creep forward  looking to the left"
+          },
+          {
+            "questionId": "4274",
+            "isRight": false,
+            "id": "8e8d10d0-b85a-471c-b0f7-bb4bc4fe7186",
+            "text": "Creep forward  looking to the right"
+          },
+          {
+            "questionId": "4274",
+            "isRight": true,
+            "id": "2bce2c51-5f02-4d00-9b25-04a96af520bf",
+            "text": "Creep forward  looking both ways"
+          }
+        ],
+        "id": "4274",
+        "text": " If you are at a junction with limited visibility  you should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.21",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4275",
+            "isRight": false,
+            "id": "6fe2227e-868d-442f-aa68-7dcb9f6e101a",
+            "text": "The windscreen"
+          },
+          {
+            "questionId": "4275",
+            "isRight": true,
+            "id": "5811993b-d17a-4e6b-b6c8-13b33e0f11a5",
+            "text": "The steering"
+          },
+          {
+            "questionId": "4275",
+            "isRight": false,
+            "id": "15036260-3c43-40a9-9514-1b42553f969d",
+            "text": "The suspension"
+          },
+          {
+            "questionId": "4275",
+            "isRight": true,
+            "id": "fd5497f0-76c6-4cd4-961e-729471bd69d6",
+            "text": "The braking"
+          }
+        ],
+        "id": "4275",
+        "text": " In very hot weather the road surface can get soft. Which TWO of the following will be affected most?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4276",
+            "isRight": false,
+            "id": "8202edb5-3ae4-454a-9a5e-5d2902bc63d5",
+            "text": "Turn as quickly as you can"
+          },
+          {
+            "questionId": "4276",
+            "isRight": true,
+            "id": "f45ae4b3-d573-4cc7-b5e0-190d94987b0b",
+            "text": "Give an arm signal as well as using your indicator"
+          },
+          {
+            "questionId": "4276",
+            "isRight": false,
+            "id": "8a3ca035-e61b-4bf7-90db-87d174e8286f",
+            "text": "Touch the brake several times to show the stop lamp(s)"
+          },
+          {
+            "questionId": "4276",
+            "isRight": false,
+            "id": "fbedc393-2fa6-4796-a89f-dee00da00cca",
+            "text": "Use the indicator earlier"
+          }
+        ],
+        "id": "4276",
+        "text": " Your indicators may be difficult to see in bright sunlight. What should you do?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4277",
+            "isRight": false,
+            "id": "bd41d534-e23b-47b9-8b83-658d50dd3d28",
+            "text": "By selecting neutral gear"
+          },
+          {
+            "questionId": "4277",
+            "isRight": false,
+            "id": "c0367cdf-99c3-4d41-8931-78a039e4b859",
+            "text": "By changing to a higher gear"
+          },
+          {
+            "questionId": "4277",
+            "isRight": false,
+            "id": "b5385510-b1e5-4aba-9f2f-a4128b7ab34a",
+            "text": "By selecting reverse gear"
+          },
+          {
+            "questionId": "4277",
+            "isRight": true,
+            "id": "12c07c97-5add-4982-b86e-f5ed8e31640a",
+            "text": "By changing to a lower gear"
+          }
+        ],
+        "id": "4277",
+        "text": " How can you use the engine of your vehicle as a brake?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4278",
+            "isRight": false,
+            "id": "d5312a75-1318-4a0d-8a38-29d7ce75566b",
+            "text": "top and check both pavements"
+          },
+          {
+            "questionId": "4278",
+            "isRight": false,
+            "id": "d02f4e7f-7177-461d-9796-baf929a56682",
+            "text": "Wait for any pedestrians to cross"
+          },
+          {
+            "questionId": "4278",
+            "isRight": true,
+            "id": "8a4c004e-927f-4a6c-bcd4-2b50bb6dc69c",
+            "text": "Slow your vehicle right down"
+          },
+          {
+            "questionId": "4278",
+            "isRight": false,
+            "id": "368f9b57-0eb9-475f-b955-d111a78d8628",
+            "text": "Move across to the left-hand side of the road"
+          }
+        ],
+        "id": "4278",
+        "text": " You are driving in a built-up residential area. You are approaching road humps. You should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4279",
+            "isRight": false,
+            "id": "3551bc85-273b-4d96-a9cd-233a15d71c0c",
+            "text": "To be positioned safely if the vehicle skids"
+          },
+          {
+            "questionId": "4279",
+            "isRight": false,
+            "id": "548b6955-21a1-486f-8f45-d265e939c194",
+            "text": "To let faster traffic from behind overtake"
+          },
+          {
+            "questionId": "4279",
+            "isRight": false,
+            "id": "df390005-f476-4925-866c-3b34ea543984",
+            "text": "To overcome the effect of the road's slope"
+          },
+          {
+            "questionId": "4279",
+            "isRight": true,
+            "id": "aed3a0da-ca89-406f-a773-b02117fad6c8",
+            "text": "To improve your view of the road"
+          }
+        ],
+        "id": "4279",
+        "text": " When approaching a right-hand bend you should keep well to the left. Why is this?",
+        "imageUrl": "Source/img/4279.png"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4280",
+            "isRight": false,
+            "id": "a06eebf4-12ff-4d5a-9614-8ed845018a67",
+            "text": "Keep well to the right to make the bend less sharp"
+          },
+          {
+            "questionId": "4280",
+            "isRight": true,
+            "id": "4b49fdf6-38b1-402a-8faa-2fefad43846e",
+            "text": "Keep well to the left for a better view around the bend"
+          },
+          {
+            "questionId": "4280",
+            "isRight": false,
+            "id": "932cd73e-ac82-401a-9c33-56ffd46ae609",
+            "text": "Keep well to the right to avoid anything in the gutter"
+          },
+          {
+            "questionId": "4280",
+            "isRight": false,
+            "id": "39bbd4f5-aa8c-4974-a567-abbc7aa3d246",
+            "text": "Keep well to the left as it makes the bend faster"
+          }
+        ],
+        "id": "4280",
+        "text": " You are approaching a right-hand bend. You should:",
+        "imageUrl": "Source/img/4280.png"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.30",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4281",
+            "isRight": false,
+            "id": "5a7d67fe-348e-42c7-9e3e-ddb314f0d688",
+            "text": "Driving up a long hill"
+          },
+          {
+            "questionId": "4281",
+            "isRight": false,
+            "id": "c62df54c-5824-4ec6-ad7b-7eef5aa186df",
+            "text": "In a one-way street"
+          },
+          {
+            "questionId": "4281",
+            "isRight": true,
+            "id": "b0d20ae6-23f0-4fe4-9657-422b2009ead5",
+            "text": "The view ahead is blocked"
+          },
+          {
+            "questionId": "4281",
+            "isRight": true,
+            "id": "693ac6da-d76b-4900-94c3-5a3140a37c56",
+            "text": "Approaching a junction"
+          },
+          {
+            "questionId": "4281",
+            "isRight": true,
+            "id": "97ac3a82-443a-43ec-8cce-f461d8a6268e",
+            "text": "Intending to turn left shortly afterwards"
+          }
+        ],
+        "id": "4281",
+        "text": " You should not overtake when:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4592",
+            "isRight": false,
+            "id": "737f0e00-ad10-4089-b0c7-b227c18d8a97",
+            "text": "Apply the handbrake to reduce the stopping distance"
+          },
+          {
+            "questionId": "4592",
+            "isRight": true,
+            "id": "4ad33b73-5884-4e9f-ba7f-e6b1705ca292",
+            "text": "Press the brake pedal rapidly and firmly until you have stopped"
+          },
+          {
+            "questionId": "4592",
+            "isRight": false,
+            "id": "5ebd19e2-c772-46d4-8586-4b3d0b900043",
+            "text": "Keep pushing and releasing the foot brake quickly to prevent skidding"
+          },
+          {
+            "questionId": "4592",
+            "isRight": false,
+            "id": "b56f0c95-fff8-4c6f-a267-8d27171d6d9e",
+            "text": "Brake normally and avoid turning the steering wheel"
+          }
+        ],
+        "id": "4592",
+        "text": " If your car is fitted with anti-lock brakes and you need to stop in an emergency. You should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4593",
+            "isRight": false,
+            "id": "d10371cc-ab21-4090-b105-d996f61c685b",
+            "text": "Driving on good road surfaces"
+          },
+          {
+            "questionId": "4593",
+            "isRight": false,
+            "id": "0b3a0f4b-67c9-40c3-9e11-03af1a3187f6",
+            "text": "Breaking during normal driving"
+          },
+          {
+            "questionId": "4593",
+            "isRight": true,
+            "id": "12ba3e71-644d-4946-ad09-7046d8f2fc3f",
+            "text": "Breaking in an emergency"
+          },
+          {
+            "questionId": "4593",
+            "isRight": false,
+            "id": "0c2bc432-4b79-47d2-95d1-9121dee7855a",
+            "text": "Driving down steep hills"
+          }
+        ],
+        "id": "4593",
+        "text": " Anti-lock brakes reduce the chances of a skid occurring particularly when:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4594",
+            "isRight": false,
+            "id": "919eaae1-93d5-46d2-9283-af27fdc341d0",
+            "text": "Are not fitted with a handbrake"
+          },
+          {
+            "questionId": "4594",
+            "isRight": true,
+            "id": "28a97cbc-0b56-4deb-b4a2-a6ae9007e7de",
+            "text": "Can be steered while you are braking"
+          },
+          {
+            "questionId": "4594",
+            "isRight": false,
+            "id": "6aff9899-5da6-4aa1-9fe4-cdd9eaaacf89",
+            "text": "Accelerate much faster"
+          },
+          {
+            "questionId": "4594",
+            "isRight": false,
+            "id": "28506e01-dda2-4d2d-baa5-b4deefb4592f",
+            "text": "Are impossible to skid"
+          }
+        ],
+        "id": "4594",
+        "text": " Vehicles fitted with an anti-lock brake system:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.4",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4595",
+            "isRight": false,
+            "id": "9954744c-39fe-4ff6-8fcd-8f52b73dd55e",
+            "text": "Firm"
+          },
+          {
+            "questionId": "4595",
+            "isRight": true,
+            "id": "f4099140-896c-4bd1-b83a-fbcc680c97f6",
+            "text": "Loose"
+          },
+          {
+            "questionId": "4595",
+            "isRight": false,
+            "id": "5792eca2-b09e-4f46-92f3-11333fb54425",
+            "text": "Good"
+          },
+          {
+            "questionId": "4595",
+            "isRight": false,
+            "id": "1dbdb8fa-c151-4af9-afe5-04ecc2cf675d",
+            "text": "Dry"
+          },
+          {
+            "questionId": "4595",
+            "isRight": true,
+            "id": "1925c188-10c6-4188-8f7f-81047eb27d6a",
+            "text": "Wet"
+          }
+        ],
+        "id": "4595",
+        "text": " Anti-lock brakes may not work as effectively as you expect if the road surface is:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4596",
+            "isRight": false,
+            "id": "10873f15-1aac-4bf3-9a26-af3a17948a93",
+            "text": "Pedestrians"
+          },
+          {
+            "questionId": "4596",
+            "isRight": true,
+            "id": "97745f55-0076-4567-a2fe-e58e76e5df84",
+            "text": "Driver error"
+          },
+          {
+            "questionId": "4596",
+            "isRight": false,
+            "id": "a7777934-4e15-408f-a771-3621d1a045cc",
+            "text": "Other vehicles"
+          },
+          {
+            "questionId": "4596",
+            "isRight": false,
+            "id": "c5d241da-87c9-4abc-adcf-01e163c3db5f",
+            "text": "Worn tyres"
+          }
+        ],
+        "id": "4596",
+        "text": " What is the MOSTcommon reason a car skids?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4597",
+            "isRight": true,
+            "id": "72cba78c-f1f3-4b28-93af-bf23d033e5c1",
+            "text": "Front wheels"
+          },
+          {
+            "questionId": "4597",
+            "isRight": false,
+            "id": "5b2f2342-1f25-4e11-b18a-6867333e069c",
+            "text": "Right wheels"
+          },
+          {
+            "questionId": "4597",
+            "isRight": false,
+            "id": "dd339283-c61f-457c-b77d-410ef5557fca",
+            "text": "Left wheels"
+          },
+          {
+            "questionId": "4597",
+            "isRight": false,
+            "id": "207e83ab-ef9c-41e2-8fdc-3308d0bbb07a",
+            "text": "Rear wheels"
+          }
+        ],
+        "id": "4597",
+        "text": " When braking hard in a straight line most of the weight of the vehicle will shift onto the:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4598",
+            "isRight": false,
+            "id": "749c89b9-398f-4977-91d2-b86df8dacc6b",
+            "text": "Switch on your windscreen wipers"
+          },
+          {
+            "questionId": "4598",
+            "isRight": false,
+            "id": "9270b37e-8772-4135-a1a6-bf3f75a9ad16",
+            "text": "Stop and dry the brakes"
+          },
+          {
+            "questionId": "4598",
+            "isRight": false,
+            "id": "46008719-7afc-4b14-9d38-3be7832edaad",
+            "text": "Stop and check the tyres"
+          },
+          {
+            "questionId": "4598",
+            "isRight": true,
+            "id": "d7e08c0e-82cd-4b82-9e7f-72892b7c5c0b",
+            "text": "Test your brakes"
+          }
+        ],
+        "id": "4598",
+        "text": " You have driven your car through a flood. What is the first thing you should do?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4599",
+            "isRight": false,
+            "id": "966db69c-43f6-434a-b2b1-ebcb9564c14d",
+            "text": "Brake firmly and steer to the left"
+          },
+          {
+            "questionId": "4599",
+            "isRight": false,
+            "id": "8587bd9c-615e-4e5f-b99f-2e5f0e8c3874",
+            "text": "Steer carefully to the left"
+          },
+          {
+            "questionId": "4599",
+            "isRight": false,
+            "id": "a7f22cee-787e-4d21-9bff-6ab02a1dc1e6",
+            "text": "Brake firmly and not turn the steering wheel"
+          },
+          {
+            "questionId": "4599",
+            "isRight": true,
+            "id": "503d8ca0-34f7-4d28-b904-2d5495f6c3da",
+            "text": "Steer carefully to the right"
+          }
+        ],
+        "id": "4599",
+        "text": " You are turning left on a slippery road. The back of your vehicle slides to the right. You should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4600",
+            "isRight": false,
+            "id": "d061bf0e-65c7-4e27-8ec9-d92d600f5d60",
+            "text": "Gently use the accelerator"
+          },
+          {
+            "questionId": "4600",
+            "isRight": false,
+            "id": "eff3b1e4-9811-4213-9f50-421b0d633596",
+            "text": "Push harder on the brake pedal"
+          },
+          {
+            "questionId": "4600",
+            "isRight": false,
+            "id": "a60c1b1a-a180-4c65-aa49-78c0ef7c5cdc",
+            "text": "Quickly pull up the handbrake"
+          },
+          {
+            "questionId": "4600",
+            "isRight": true,
+            "id": "b5d02fb1-49b6-4f3c-802a-860398dd43a6",
+            "text": "Release the footbrake fully"
+          }
+        ],
+        "id": "4600",
+        "text": " Your vehicle does not have anti- lock brakes.  If you are braking on a wet road and your vehicle begins to skid. What is the FIRST thing you should do?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4601",
+            "isRight": false,
+            "id": "69a5baed-c299-4380-84be-3cb7e2511a41",
+            "text": "Use more fuel"
+          },
+          {
+            "questionId": "4601",
+            "isRight": false,
+            "id": "473bcac2-d7d8-4c56-a067-1e268c54c28d",
+            "text": "Make steering easier"
+          },
+          {
+            "questionId": "4601",
+            "isRight": true,
+            "id": "e7325614-dc28-47f6-9968-11db7f9745b6",
+            "text": "Reduce the driver's control"
+          },
+          {
+            "questionId": "4601",
+            "isRight": false,
+            "id": "4bfee63a-c985-48c7-a4e7-7790ce17f1b7",
+            "text": "Improve the driver's control"
+          }
+        ],
+        "id": "4601",
+        "text": " Clutch Coasting will :"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4602",
+            "isRight": false,
+            "id": "03c7bebe-b986-4b7e-a4b7-88e538d92316",
+            "text": "Select a low gear and avoid using the brakes"
+          },
+          {
+            "questionId": "4602",
+            "isRight": false,
+            "id": "e8962798-293c-4ba5-9127-a3e07f7f9ced",
+            "text": "Select a high gear and use the brakes firmly"
+          },
+          {
+            "questionId": "4602",
+            "isRight": false,
+            "id": "041be525-acd1-4892-95c6-23d597357764",
+            "text": "Select a high gear and use the brakes carefully"
+          },
+          {
+            "questionId": "4602",
+            "isRight": true,
+            "id": "3df7712b-413c-44b2-84d9-f5ebc78e56cf",
+            "text": "Select a low gear and use the brakes carefully"
+          }
+        ],
+        "id": "4602",
+        "text": " You are about to go down a steep hill. To control the speed of your car you should:"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4603",
+            "isRight": false,
+            "id": "3f2a1527-474e-4eb6-939f-271756113181",
+            "text": "Apply the parking brake gently"
+          },
+          {
+            "questionId": "4603",
+            "isRight": false,
+            "id": "50dad5f0-6696-4c08-93d8-b780d8185b07",
+            "text": "Grip the handbrake firmly"
+          },
+          {
+            "questionId": "4603",
+            "isRight": false,
+            "id": "a6056ec0-fed1-43ff-a186-dd117852954e",
+            "text": "Select neutral"
+          },
+          {
+            "questionId": "4603",
+            "isRight": true,
+            "id": "5c6c6b3b-886e-4de2-ad37-fffe744a5c9f",
+            "text": "Select a lower gear"
+          }
+        ],
+        "id": "4603",
+        "text": " You are on a long  downhill slope. What should you do to help control the speed of your car?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.26",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4604",
+            "isRight": true,
+            "id": "7a505d8c-dbe9-450a-8256-ba961cf96279",
+            "text": "Turn the steering wheel towards the kerb"
+          },
+          {
+            "questionId": "4604",
+            "isRight": false,
+            "id": "697b4b7a-fb64-46aa-8ee6-2a433f065a5d",
+            "text": "Turn the steering wheel away from the kerb"
+          },
+          {
+            "questionId": "4604",
+            "isRight": false,
+            "id": "a016dc2a-043b-4b9d-ad45-8b7fcf18e85b",
+            "text": "Park with two wheels on the kerb"
+          },
+          {
+            "questionId": "4604",
+            "isRight": false,
+            "id": "3b584b8f-517a-4e85-993b-635b9f64d6c3",
+            "text": "Park close to the bumper of another car"
+          },
+          {
+            "questionId": "4604",
+            "isRight": true,
+            "id": "e84e3db6-80ce-4768-8336-bfce5850f9e0",
+            "text": "Put the handbrake on firmly"
+          }
+        ],
+        "id": "4604",
+        "text": " You wish to park facing DOWNHILL. Which TWO of the following should you do?"
+      },
+      {
+        "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+        "subCategoryId": "CARS4.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4605",
+            "isRight": false,
+            "id": "e0f53178-af78-471f-b2c2-939804e888e5",
+            "text": "When it is raining and just in case the roads are slippery."
+          },
+          {
+            "questionId": "4605",
+            "isRight": false,
+            "id": "aa084857-503e-489a-9bd0-61811c1f15d3",
+            "text": "When the road is unlit by street lamps or they are not working."
+          },
+          {
+            "questionId": "4605",
+            "isRight": false,
+            "id": "b2ae27b4-27c4-4883-be2e-7c755914a5ba",
+            "text": "When going through tunnels."
+          },
+          {
+            "questionId": "4605",
+            "isRight": false,
+            "id": "24c38b1a-f14c-4690-82de-2ec64df8f001",
+            "text": "During any time of the day or night to make sure that other road users see me."
+          },
+          {
+            "questionId": "4605",
+            "isRight": true,
+            "id": "b6431acc-8337-4fac-a169-443ab7564fd3",
+            "text": "When visibility is considerably reduced because of fog."
+          }
+        ],
+        "id": "4605",
+        "text": " When should you use front and rear fog lights?"
+      }
+    ],
+    "id": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
+    "text": "SAFETY MARGINS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4282",
+            "isRight": true,
+            "id": "b9c012f0-8d13-4f66-a3a8-6214bece6d70",
+            "text": "All the time when driving"
+          },
+          {
+            "questionId": "4282",
+            "isRight": false,
+            "id": "7959fb36-0c60-4842-b846-958efb3f661e",
+            "text": "Only in poor visibility"
+          },
+          {
+            "questionId": "4282",
+            "isRight": false,
+            "id": "b598e0ad-72a1-439b-ae42-aa7be7937f14",
+            "text": "Only when reversing"
+          },
+          {
+            "questionId": "4282",
+            "isRight": false,
+            "id": "2070587d-0372-46ea-9b5a-2ef43abaea4d",
+            "text": "Only when driving long distances"
+          }
+        ],
+        "id": "4282",
+        "text": " A driver can only read a number plate at the required distance with glasses on. The glasses should be worn:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4283",
+            "isRight": false,
+            "id": "bb584e0b-40ff-4255-b9f2-3a06f6714348",
+            "text": "Drive home at night"
+          },
+          {
+            "questionId": "4283",
+            "isRight": false,
+            "id": "0bd68417-bada-476b-9d74-596f9c2120bb",
+            "text": "Borrow a friend's glasses and drive home"
+          },
+          {
+            "questionId": "4283",
+            "isRight": false,
+            "id": "cca86538-20ec-4ed6-9a7f-e48adf8ea95e",
+            "text": "Drive home slowly  keeping to quite roads"
+          },
+          {
+            "questionId": "4283",
+            "isRight": true,
+            "id": "6b1955ba-2335-488b-923d-4bd2cd0e8f44",
+            "text": "Find a way of getting home without driving"
+          }
+        ],
+        "id": "4283",
+        "text": " You are about to drive home. You cannot find the glasses you need to wear when driving. You should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4284",
+            "isRight": false,
+            "id": "e26e4386-1b05-425d-b9e1-d21e0c9d8a04",
+            "text": "There is an eyesight problem in your family"
+          },
+          {
+            "questionId": "4284",
+            "isRight": false,
+            "id": "35222ec0-c0d4-486c-aa12-e066476b78d4",
+            "text": "You cannot read a vehicle number plate from a distance of 36 meters (120 feet) without them"
+          },
+          {
+            "questionId": "4284",
+            "isRight": false,
+            "id": "c6236454-959e-44e3-aafe-ff7807357837",
+            "text": "You are the holder of an orange badge"
+          },
+          {
+            "questionId": "4284",
+            "isRight": true,
+            "id": "20d52e41-212c-44ba-a62d-7775a8363759",
+            "text": "You cannot read a vehicle number plate from distance of 20.5 meters (67 feet) without them"
+          }
+        ],
+        "id": "4284",
+        "text": " You MUST wear glasses or contact lenses when driving on public roads if:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.6",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4285",
+            "isRight": true,
+            "id": "8592a4cf-1f0a-4df9-9ac9-f9c97dbf5d41",
+            "text": "Less control"
+          },
+          {
+            "questionId": "4285",
+            "isRight": true,
+            "id": "4467bbe9-c62b-411b-82c6-50cfd98c9834",
+            "text": "Poor judgment of speed"
+          },
+          {
+            "questionId": "4285",
+            "isRight": false,
+            "id": "19e36d1d-6256-4a34-909c-d3e279ff324a",
+            "text": "Greater awareness of danger"
+          },
+          {
+            "questionId": "4285",
+            "isRight": false,
+            "id": "b5482a1a-6da8-4986-ab34-6555497af4ea",
+            "text": "Faster reactions"
+          },
+          {
+            "questionId": "4285",
+            "isRight": true,
+            "id": "feb3e91b-dde1-4281-84bb-d9436edb92d5",
+            "text": "A false sense of confidence"
+          }
+        ],
+        "id": "4285",
+        "text": " Which THREE result from drinking alcohol and driving?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.7",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4286",
+            "isRight": true,
+            "id": "b6117df3-6604-48c6-bf6e-9942c227e051",
+            "text": "Poor judgment"
+          },
+          {
+            "questionId": "4286",
+            "isRight": true,
+            "id": "6802f7d1-2562-418e-967e-fc50446e57e2",
+            "text": "Increased confidence"
+          },
+          {
+            "questionId": "4286",
+            "isRight": false,
+            "id": "5ca601d8-6480-41d0-8d41-613fe9766cf3",
+            "text": "Colour blindness"
+          },
+          {
+            "questionId": "4286",
+            "isRight": false,
+            "id": "15fc2a50-7896-45c6-a31e-777fda61cda1",
+            "text": "Faster reactions"
+          },
+          {
+            "questionId": "4286",
+            "isRight": false,
+            "id": "1367d2ea-7b0b-413f-bea0-c5277b2167b7",
+            "text": "Increase concentration"
+          },
+          {
+            "questionId": "4286",
+            "isRight": true,
+            "id": "5857a691-afdf-4891-bbd0-e4516ea27eae",
+            "text": "Reduce co-ordination"
+          }
+        ],
+        "id": "4286",
+        "text": " Which THREE of these are likely effects of drinking alcohol on driving?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.8",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4287",
+            "isRight": true,
+            "id": "18423546-1e29-4885-b4aa-7300a2a2f84f",
+            "text": "Give a false sense of confidence"
+          },
+          {
+            "questionId": "4287",
+            "isRight": false,
+            "id": "938d7132-a8b5-40d2-a077-0c9f5165a647",
+            "text": "Improve your awareness of danger"
+          },
+          {
+            "questionId": "4287",
+            "isRight": false,
+            "id": "6dee9edb-7d26-4781-a21b-3c706b26e60f",
+            "text": "Increase the speed of your reactions"
+          },
+          {
+            "questionId": "4287",
+            "isRight": true,
+            "id": "2bdfe3ed-8a3f-4ca0-a0c6-9da9fa049d8d",
+            "text": "Worsen your judgment of speed"
+          },
+          {
+            "questionId": "4287",
+            "isRight": true,
+            "id": "b4ef843e-4eda-4a18-91f6-bd3da36af159",
+            "text": "Slow down your reactions to hazards"
+          }
+        ],
+        "id": "4287",
+        "text": " Drinking any amount of alcohol is likely to:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4288",
+            "isRight": false,
+            "id": "9a04ecc2-908e-40d1-85bb-ef0bdeb4e8b6",
+            "text": "Eat a hot meal with your alcohol drinks"
+          },
+          {
+            "questionId": "4288",
+            "isRight": false,
+            "id": "4be8f6e1-1521-4320-9c01-b46861bb82a0",
+            "text": "Have some milk before drinking alcohol"
+          },
+          {
+            "questionId": "4288",
+            "isRight": false,
+            "id": "5dbfb399-3d8a-4368-8632-a2eca53f68e9",
+            "text": "Avoid mixing your alcoholic drinks"
+          },
+          {
+            "questionId": "4288",
+            "isRight": true,
+            "id": "c20d0970-553e-454b-9921-e4eed8d6acef",
+            "text": "Not drink any alcohol at all"
+          }
+        ],
+        "id": "4288",
+        "text": " You are invited to a pub lunch. You know that you will have to drive in the evening. What is your best course of action?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.10",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4289",
+            "isRight": true,
+            "id": "9ce17a75-f3ac-46d6-924d-22da3c58f1e9",
+            "text": "Loud music"
+          },
+          {
+            "questionId": "4289",
+            "isRight": true,
+            "id": "7103a3c1-9666-47b8-a706-168f8330e27b",
+            "text": "Tiredness"
+          },
+          {
+            "questionId": "4289",
+            "isRight": false,
+            "id": "165f9c88-487e-4f4c-9224-a2df1f4a5649",
+            "text": "Contact lenses"
+          },
+          {
+            "questionId": "4289",
+            "isRight": false,
+            "id": "1f6af9c2-389d-4653-9f6b-5cc1c2b759d6",
+            "text": "Tinted windows"
+          },
+          {
+            "questionId": "4289",
+            "isRight": true,
+            "id": "80784a3e-f9aa-4fc7-b193-2dcd627ddcba",
+            "text": "Drugs"
+          }
+        ],
+        "id": "4289",
+        "text": " What else can seriously affect your concentration when driving  other than alcoholic drinks?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4290",
+            "isRight": false,
+            "id": "f6296f78-3dd7-4f44-ae2c-aa48b6717009",
+            "text": "It improves your co-ordination"
+          },
+          {
+            "questionId": "4290",
+            "isRight": false,
+            "id": "4bbc60c4-8b28-4c16-833f-f2ce992d66a9",
+            "text": "It increases your awareness"
+          },
+          {
+            "questionId": "4290",
+            "isRight": false,
+            "id": "d4137440-a43e-41b9-adb1-ce1ad65070cb",
+            "text": "It speeds up your reactions"
+          },
+          {
+            "questionId": "4290",
+            "isRight": true,
+            "id": "6a8a0b6d-be81-4d82-8668-5657f5d60f80",
+            "text": "It reduces your concentration"
+          }
+        ],
+        "id": "4290",
+        "text": " How does alcohol affect your driving?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.12",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4291",
+            "isRight": true,
+            "id": "a292a252-885e-42f0-aec3-09d5e17900f4",
+            "text": "Your concentration may still be badly affected"
+          },
+          {
+            "questionId": "4291",
+            "isRight": true,
+            "id": "5773f7fc-b99b-4739-a436-d5a52f664f37",
+            "text": "You may still be over the legal limit"
+          },
+          {
+            "questionId": "4291",
+            "isRight": false,
+            "id": "fee82351-bf32-4b3c-9be2-c4d12d61b24f",
+            "text": "You will be well under the legal limit"
+          },
+          {
+            "questionId": "4291",
+            "isRight": false,
+            "id": "5010efea-47c8-4066-b063-b166bf051413",
+            "text": "Your concentration will not be badly affected"
+          }
+        ],
+        "id": "4291",
+        "text": " After drinking alcohol heavily you should not drive the following day. Why is this?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4292",
+            "isRight": false,
+            "id": "cfbf1647-d354-44ca-8bbc-b55792d1b24e",
+            "text": "Wait a short while and then drive home"
+          },
+          {
+            "questionId": "4292",
+            "isRight": false,
+            "id": "3c56b28d-4de5-4c70-9c09-b57c04111b87",
+            "text": "Drive home carefully and slowly"
+          },
+          {
+            "questionId": "4292",
+            "isRight": true,
+            "id": "39ae35eb-a254-408b-9804-f12b6a47787a",
+            "text": "Go home by public transport"
+          },
+          {
+            "questionId": "4292",
+            "isRight": false,
+            "id": "dc1f04e1-7bb1-4afa-b241-a8bb21e825d1",
+            "text": "Have a strong cup of coffee and then drive home"
+          }
+        ],
+        "id": "4292",
+        "text": " What advice should you give to a driver who has had a few alcoholic drinks at a party?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4293",
+            "isRight": false,
+            "id": "95bf053c-082f-446a-8414-1c430d33a7fd",
+            "text": "Drink plenty of milk before drinking alcohol"
+          },
+          {
+            "questionId": "4293",
+            "isRight": false,
+            "id": "55b5fe4a-c46b-4a66-b07d-383526d4cab6",
+            "text": "Drink plenty of coffee after drinking alcohol"
+          },
+          {
+            "questionId": "4293",
+            "isRight": true,
+            "id": "3ddab93b-1ecf-44b5-8093-73c66bb3f5b0",
+            "text": "Avoid drinking alcohol completely"
+          },
+          {
+            "questionId": "4293",
+            "isRight": false,
+            "id": "9ac98c9d-cd53-4d9e-89ba-5caebe6fc4d6",
+            "text": "Avoid drinking alcohol on an empty stomach"
+          }
+        ],
+        "id": "4293",
+        "text": " You go to a social event and need to drive a short time after. What precautions should you take?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.15",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4294",
+            "isRight": false,
+            "id": "63b1aa63-75c4-45db-9644-5a039db88803",
+            "text": "You will have no alcohol in your system"
+          },
+          {
+            "questionId": "4294",
+            "isRight": false,
+            "id": "9d05e68e-e210-46ef-a39a-3ed08588913b",
+            "text": "You will certainly be under the legal limit"
+          },
+          {
+            "questionId": "4294",
+            "isRight": true,
+            "id": "bfcb385f-f4a4-4d12-a7a5-486c93027689",
+            "text": "You may still be unfit to drive"
+          },
+          {
+            "questionId": "4294",
+            "isRight": true,
+            "id": "5fc83f78-d646-409d-9645-8519d0116190",
+            "text": "You may still be over the legal limit"
+          }
+        ],
+        "id": "4294",
+        "text": " It is eight hours since you last had an alcoholic drink. Which TWO of the following applies?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4295",
+            "isRight": false,
+            "id": "2443d667-bf1d-4620-91db-94e46f0bdcc7",
+            "text": "The medicine you take may affect your hearing"
+          },
+          {
+            "questionId": "4295",
+            "isRight": false,
+            "id": "c2dffd39-1679-4b9c-b9b6-8e506b4d396a",
+            "text": "You will have to let your insurance company know about the medicine"
+          },
+          {
+            "questionId": "4295",
+            "isRight": true,
+            "id": "bfaa797f-a64d-47dc-9c18-4e0ae338d5d2",
+            "text": "Some types of medicine can cause your reactions to slow down"
+          },
+          {
+            "questionId": "4295",
+            "isRight": false,
+            "id": "03f35469-92db-4cd9-8245-411878468869",
+            "text": "Drugs make you a better driver by quickening your reactions"
+          }
+        ],
+        "id": "4295",
+        "text": " Your doctor has given you a course of medicine. Why should you ask if it is OK to drive?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4296",
+            "isRight": false,
+            "id": "4b7bf433-8afd-4be5-a124-8611c4ffd004",
+            "text": "If someone goes with you"
+          },
+          {
+            "questionId": "4296",
+            "isRight": false,
+            "id": "246b8bd8-aa63-4dc3-9dfe-f4be389ff1a7",
+            "text": "At night on quiet roads"
+          },
+          {
+            "questionId": "4296",
+            "isRight": false,
+            "id": "a27678ca-3678-405f-a664-e55e4491aa92",
+            "text": "If driving is really necessary"
+          },
+          {
+            "questionId": "4296",
+            "isRight": true,
+            "id": "ef950a23-f584-40bd-bbf1-5c999da9e960",
+            "text": "After checking with your doctor"
+          }
+        ],
+        "id": "4296",
+        "text": " You have been taking medicine for a few days  which made you feel drowsy. Today you feel better but still need to take the medicine. You\nshould only drive:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4297",
+            "isRight": false,
+            "id": "eab8de5f-0688-48f7-a4b2-d86e0dfdee01",
+            "text": "Never drive at more than 30 kph"
+          },
+          {
+            "questionId": "4297",
+            "isRight": false,
+            "id": "6b5b6ad0-6e96-4de3-85ea-722bb3a2242a",
+            "text": "Drive only if someone is with you"
+          },
+          {
+            "questionId": "4297",
+            "isRight": true,
+            "id": "154a20be-d080-49c7-9d75-72d145227486",
+            "text": "Not drive yourself"
+          },
+          {
+            "questionId": "4297",
+            "isRight": false,
+            "id": "c5135cf8-18c0-4404-a385-b214392517be",
+            "text": "Aviod busy roads"
+          }
+        ],
+        "id": "4297",
+        "text": " You become ill. A doctor prescribes drugs  which are likely to affect your driving. You should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.19",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4298",
+            "isRight": false,
+            "id": "3d00f3b4-7d7c-4f83-a1f9-267cbe1eb778",
+            "text": "Take all your medicines with you when you drive"
+          },
+          {
+            "questionId": "4298",
+            "isRight": false,
+            "id": "7d71cf65-fe40-4eee-9401-4ea3a1d90afe",
+            "text": "Only take smaller doses of any medicines"
+          },
+          {
+            "questionId": "4298",
+            "isRight": true,
+            "id": "3bee2c13-59c1-4f9e-8973-d006f586d341",
+            "text": "Not drive after taking certain medicines"
+          },
+          {
+            "questionId": "4298",
+            "isRight": false,
+            "id": "212745d1-4563-49d5-b243-99770f3a0bd8",
+            "text": "See your doctor each time before you drive"
+          },
+          {
+            "questionId": "4298",
+            "isRight": true,
+            "id": "dc35beef-d750-4b21-be09-8e74bba02666",
+            "text": "Be medically fit to drive"
+          }
+        ],
+        "id": "4298",
+        "text": " During periods of illness your ability to drive may be impaired. You MUST:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4300",
+            "isRight": true,
+            "id": "76af965f-a7c9-41df-a023-b71f66be06d4",
+            "text": "Seek medical advice before driving"
+          },
+          {
+            "questionId": "4300",
+            "isRight": false,
+            "id": "23c38dc6-c15a-4142-84d2-a0765bc0e0f1",
+            "text": "Drive only for short distances"
+          },
+          {
+            "questionId": "4300",
+            "isRight": false,
+            "id": "fb0f0ccc-024f-4a1e-862d-eeb2d0224400",
+            "text": "Only drive if accompanied by a full licence-holder"
+          },
+          {
+            "questionId": "4300",
+            "isRight": false,
+            "id": "ebe298ca-7e09-4a0e-9f76-71b29e4eaaf6",
+            "text": "Limit your driving to essential journeys"
+          }
+        ],
+        "id": "4300",
+        "text": " You are taking drugs that are likely to affect your driving. What should you do?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4301",
+            "isRight": false,
+            "id": "ed0a78b5-105d-4706-b93f-e6e746f770e7",
+            "text": "Keep changing speed to improve concentration"
+          },
+          {
+            "questionId": "4301",
+            "isRight": false,
+            "id": "ee88f117-e924-44ac-87f3-7d33f736719d",
+            "text": "Gently tap the steering wheel"
+          },
+          {
+            "questionId": "4301",
+            "isRight": false,
+            "id": "5619d60c-4b83-4796-ac17-0d317c3e1b28",
+            "text": "Increase your speed to find a stopping place quickly"
+          },
+          {
+            "questionId": "4301",
+            "isRight": true,
+            "id": "116dbfde-4de9-4c67-9e18-dd5cfef85954",
+            "text": "Ensure a supply of fresh air"
+          }
+        ],
+        "id": "4301",
+        "text": " If you are feeling tired it is best to stop as soon as you can. Until then you should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4302",
+            "isRight": false,
+            "id": "5433a35f-dfa2-42fe-95ac-06f7db36971f",
+            "text": "In rain"
+          },
+          {
+            "questionId": "4302",
+            "isRight": false,
+            "id": "6d5b12e5-b1a9-4af6-a7b1-fc21644bad4e",
+            "text": "Too quickly"
+          },
+          {
+            "questionId": "4302",
+            "isRight": false,
+            "id": "7b3b2f19-c691-4c2b-838e-bd44774a9854",
+            "text": "In fog"
+          },
+          {
+            "questionId": "4302",
+            "isRight": true,
+            "id": "8982a6d9-6c3e-45ad-b3ca-af588b71f380",
+            "text": "If tired"
+          }
+        ],
+        "id": "4302",
+        "text": " Your reaction will be much slower when driving:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.24",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4303",
+            "isRight": true,
+            "id": "e66ad2d1-4a81-42ba-b84d-c17a4f30238e",
+            "text": "Using a mobile phone"
+          },
+          {
+            "questionId": "4303",
+            "isRight": false,
+            "id": "db1e7965-806e-4d17-a38a-f05642ad05e4",
+            "text": "Looking in your wing mirror"
+          },
+          {
+            "questionId": "4303",
+            "isRight": false,
+            "id": "649c721f-24ab-4443-a766-6dbfb8cbc9b5",
+            "text": "Using your windscreen washers"
+          },
+          {
+            "questionId": "4303",
+            "isRight": true,
+            "id": "a5ba7848-6fee-4243-9f30-96a302c355d5",
+            "text": "Listening to loud music"
+          },
+          {
+            "questionId": "4303",
+            "isRight": true,
+            "id": "8c07c29e-7810-481e-90a9-da9b4180dfa1",
+            "text": "Looking at road maps"
+          }
+        ],
+        "id": "4303",
+        "text": " Which THREE are likely to make you lose concentration while driving?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4304",
+            "isRight": true,
+            "id": "9e054b9f-3342-4fc4-9791-d344416260d6",
+            "text": "Ignore the error and stay calm"
+          },
+          {
+            "questionId": "4304",
+            "isRight": false,
+            "id": "b0d949f8-9e31-46a1-8536-5ec4be39480c",
+            "text": "Overtake as soon as possible"
+          },
+          {
+            "questionId": "4304",
+            "isRight": false,
+            "id": "8ccc3ad3-e9af-46cd-abcc-f2bdc1b16f6f",
+            "text": "Sound your horn to show your annoyance"
+          },
+          {
+            "questionId": "4304",
+            "isRight": false,
+            "id": "f174289e-fe56-4692-b0a4-5f3f5b7585b3",
+            "text": "Flash your lights to show your annoyance"
+          }
+        ],
+        "id": "4304",
+        "text": " A driver pulls out of a side road in front of you. You have to brake hard. You should"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4305",
+            "isRight": true,
+            "id": "8b8a69b3-30f2-48d5-8883-799627f0fb19",
+            "text": "Keep calm and not retaliate"
+          },
+          {
+            "questionId": "4305",
+            "isRight": false,
+            "id": "18970307-6fb1-4f89-96c4-fcf8c238a4fa",
+            "text": "Flag the driver down and explain the mistake"
+          },
+          {
+            "questionId": "4305",
+            "isRight": false,
+            "id": "ba543307-4f39-4edf-b02f-3ae3fb5b4f68",
+            "text": "Drive close behind and sound your horn"
+          },
+          {
+            "questionId": "4305",
+            "isRight": false,
+            "id": "b9390a4b-a66a-454a-a06e-0381d1410576",
+            "text": "Overtake and sound your horn"
+          }
+        ],
+        "id": "4305",
+        "text": " A car driver pulls out causing you to brake. You should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4306",
+            "isRight": false,
+            "id": "bfdf9943-f706-477d-af96-ed51ec44332d",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4306",
+            "isRight": false,
+            "id": "f25a1a39-5035-42f6-99f1-01491943cd43",
+            "text": "Flash your headlights several times"
+          },
+          {
+            "questionId": "4306",
+            "isRight": false,
+            "id": "cc5b6d0a-e8f7-4f20-9ac5-d5d62f6634e6",
+            "text": "Let them know how you feel"
+          },
+          {
+            "questionId": "4306",
+            "isRight": true,
+            "id": "6f16013a-8ab7-43a0-9df4-b7dfdae84c30",
+            "text": "Try not to react"
+          }
+        ],
+        "id": "4306",
+        "text": " Another driver does something that upsets you. You should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4307",
+            "isRight": false,
+            "id": "a677c71e-262e-4305-a8f9-8830ff22cb48",
+            "text": "Give signals correctly"
+          },
+          {
+            "questionId": "4307",
+            "isRight": false,
+            "id": "12da068e-fc80-4dba-bdae-3d32bcc5e8ad",
+            "text": "Understand road signs"
+          },
+          {
+            "questionId": "4307",
+            "isRight": true,
+            "id": "2c68e546-b3a6-4471-b69d-22fc210c9c62",
+            "text": "React very quickly"
+          },
+          {
+            "questionId": "4307",
+            "isRight": false,
+            "id": "d6858d9d-eeb1-485a-bb31-ab60513f91e4",
+            "text": "Obtain car insurance"
+          }
+        ],
+        "id": "4307",
+        "text": " An elderly person's driving ability could be affected because they may be unable to:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.30",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4308",
+            "isRight": false,
+            "id": "efc27996-2eac-4477-ae4f-575946e19f07",
+            "text": "Turn around and drive against the one-way"
+          },
+          {
+            "questionId": "4308",
+            "isRight": false,
+            "id": "f36d7864-82ca-4cdc-a48f-943c8ca70d41",
+            "text": "Reverse out of the road"
+          },
+          {
+            "questionId": "4308",
+            "isRight": true,
+            "id": "422c2467-e5be-4dc8-86ac-b229d53e3bf7",
+            "text": "Continue to the end of the one-way street"
+          },
+          {
+            "questionId": "4308",
+            "isRight": false,
+            "id": "632a9b47-62ea-4029-b351-6c78fb3bed2a",
+            "text": "Reverse into a driveway"
+          }
+        ],
+        "id": "4308",
+        "text": " You take the wrong route and find you are well into a one-way street. You should:"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4309",
+            "isRight": false,
+            "id": "c6899379-f3af-4e5d-8729-849301f6b326",
+            "text": "Breath alcohol level of 20 mg/100ml or blood alcohol level of 60mm/100ml."
+          },
+          {
+            "questionId": "4309",
+            "isRight": true,
+            "id": "1caee096-8244-465f-8a61-65ca6c938208",
+            "text": "Breath alcohol level of 35 mg/100ml or blood alcohol level of 80mg/100ml."
+          },
+          {
+            "questionId": "4309",
+            "isRight": false,
+            "id": "c810bb15-0e4e-43ea-b24e-ae172a33b401",
+            "text": "Breath alcohol level of 45 mg/100ml or blood alcohol level of 90mm/100ml."
+          },
+          {
+            "questionId": "4309",
+            "isRight": false,
+            "id": "1649ca21-fba0-473e-8750-8c7ec0c2edb6",
+            "text": "Breath alcohol level of 25 mg/100ml or blood alcohol level of 70mg/100ml."
+          }
+        ],
+        "id": "4309",
+        "text": " What is the maximum permissible alcohol level above which  a driver must not drive?"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4549",
+            "isRight": false,
+            "id": "c40f440c-ec55-4ffc-9cb1-281101a4e087",
+            "text": "Bend sharply to the right"
+          },
+          {
+            "questionId": "4549",
+            "isRight": false,
+            "id": "1fbde963-a822-4e64-a6f8-785321909ab0",
+            "text": "Go steeply downhill"
+          },
+          {
+            "questionId": "4549",
+            "isRight": true,
+            "id": "6a313fd0-6cf3-4a31-a3f6-826562d8644f",
+            "text": "Bend sharply to the left"
+          },
+          {
+            "questionId": "4549",
+            "isRight": false,
+            "id": "e07664cc-0c34-42dc-8b18-5517cf7cde04",
+            "text": "Steep hill upwards"
+          }
+        ],
+        "id": "4549",
+        "text": " You see this sign ahead. You should expect the road to:",
+        "imageUrl": "Source/img/4549.png"
+      },
+      {
+        "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
+        "subCategoryId": "CARS5.25",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4606",
+            "isRight": false,
+            "id": "df3d3dbc-5276-4b6c-8cd3-482eb50cc593",
+            "text": "Rest your hand on the gear lever"
+          },
+          {
+            "questionId": "4606",
+            "isRight": true,
+            "id": "b8766829-a033-45ac-b640-43f2e3dfd3ae",
+            "text": "Have a suitable grip on the steering wheel"
+          },
+          {
+            "questionId": "4606",
+            "isRight": false,
+            "id": "a14673c3-5fd2-41d2-9521-9c4891dd847b",
+            "text": "Talk to all your passengers"
+          },
+          {
+            "questionId": "4606",
+            "isRight": true,
+            "id": "09be8af0-9eee-4996-bcfd-87c79be46baf",
+            "text": "Have good visibility through the windows"
+          },
+          {
+            "questionId": "4606",
+            "isRight": true,
+            "id": "e4b55027-7f67-4d53-b4ac-f882d68cb553",
+            "text": "Comfortably reach the pedals"
+          },
+          {
+            "questionId": "4606",
+            "isRight": false,
+            "id": "9978fd55-20b8-4ee1-a4a6-453e6ab20ef8",
+            "text": "Rest your head against the head restraint"
+          }
+        ],
+        "id": "4606",
+        "text": " A correct seating position will enable you to:"
+      }
+    ],
+    "id": "405180a6-030c-4631-9b79-4b7008c426e2",
+    "text": "HAZARD AWARENESS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4310",
+            "isRight": false,
+            "id": "6cce3f1b-8938-46b4-ac04-bf33e9792ef5",
+            "text": "Horse riders"
+          },
+          {
+            "questionId": "4310",
+            "isRight": false,
+            "id": "7fc1f571-f0bc-4734-81d4-41d6cb67d022",
+            "text": "Bicycles"
+          },
+          {
+            "questionId": "4310",
+            "isRight": true,
+            "id": "c425363e-d05f-4789-a385-03fd404d3301",
+            "text": "Pedestrians"
+          },
+          {
+            "questionId": "4310",
+            "isRight": false,
+            "id": "2a7861d8-5836-4664-98c7-7f0248655041",
+            "text": "Motorcycles"
+          }
+        ],
+        "id": "4310",
+        "text": " You are driving on a quiet country road. What should you expect to see coming towards you on YOUR side of the road?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4311",
+            "isRight": false,
+            "id": "f3cda363-4b4e-47f5-899d-a123a52dd294",
+            "imageUrl": "Source/img/4311.1.png"
+          },
+          {
+            "questionId": "4311",
+            "isRight": false,
+            "id": "0bdfb6b5-357f-465b-bc0a-2ac322733301",
+            "imageUrl": "Source/img/4311.2.png"
+          },
+          {
+            "questionId": "4311",
+            "isRight": false,
+            "id": "175ad548-5c3f-4c1f-9958-55dfd96f49b1",
+            "imageUrl": "Source/img/4311.3.png"
+          },
+          {
+            "questionId": "4311",
+            "isRight": true,
+            "id": "f1e23cb1-0376-4d14-89f7-3de2abb7e20d",
+            "imageUrl": "Source/img/4311.4.png"
+          }
+        ],
+        "id": "4311",
+        "text": " Which sign means that there may be people walking along the road?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4312",
+            "isRight": false,
+            "id": "021b9e43-7520-44aa-b1c4-83455bdadb22",
+            "text": "Switch on your hazard lights"
+          },
+          {
+            "questionId": "4312",
+            "isRight": false,
+            "id": "c9c18618-75f2-4054-86a5-1ab9ef9da60d",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4312",
+            "isRight": false,
+            "id": "c3801ff0-a543-432c-aa34-a200ffc98cd1",
+            "text": "Wave them on"
+          },
+          {
+            "questionId": "4312",
+            "isRight": true,
+            "id": "32be157e-db23-4de2-b3d8-e68f11cf9e7c",
+            "text": "Wait for them to cross"
+          }
+        ],
+        "id": "4312",
+        "text": " You are turning left into a side road and find pedestrians that are crossing. You must:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4313",
+            "isRight": false,
+            "id": "5abb096b-1872-446b-bcda-4610e9aa76f7",
+            "text": "Blow your horn and proceed"
+          },
+          {
+            "questionId": "4313",
+            "isRight": false,
+            "id": "2a3d21ff-7b1f-4fb5-a710-6db4d54dce39",
+            "text": "Stop and wave at them to cross"
+          },
+          {
+            "questionId": "4313",
+            "isRight": false,
+            "id": "4946df4c-0a14-45a8-b1b3-933a7ff8ea18",
+            "text": "Go on giving them plenty of room"
+          },
+          {
+            "questionId": "4313",
+            "isRight": true,
+            "id": "4cdd6e09-0d88-4556-93e0-254b53ebd5b1",
+            "text": "Give way to them"
+          }
+        ],
+        "id": "4313",
+        "text": " You are turning left at a junction. Pedestrians have suddenly started to cross the road. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4314",
+            "isRight": false,
+            "id": "f519adac-8446-48df-ad39-cf9f1182d55d",
+            "text": "Stop  get out and look along the main road to check"
+          },
+          {
+            "questionId": "4314",
+            "isRight": false,
+            "id": "68a137c4-08fd-4916-8246-c4e1adbb1b69",
+            "text": "Sound your horn and pull out if there is no reply"
+          },
+          {
+            "questionId": "4314",
+            "isRight": false,
+            "id": "f66ec5c2-c88a-4865-9532-2b57137fe769",
+            "text": "Move out quickly  but be prepared to stop"
+          },
+          {
+            "questionId": "4314",
+            "isRight": true,
+            "id": "e1feafbd-8615-4fee-b198-4022496122f5",
+            "text": "Stop  then move slowly forward until you have a clear view"
+          }
+        ],
+        "id": "4314",
+        "text": " You want to emerge from a junction but your view is partly restricted by parked vehicles. What should you do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4315",
+            "isRight": false,
+            "id": "9882a510-fc64-463c-9a55-4e282c701883",
+            "text": "To check for emerging traffic"
+          },
+          {
+            "questionId": "4315",
+            "isRight": true,
+            "id": "90ad79c7-68df-4848-bff8-32eafa4d561d",
+            "text": "To check for overtaking vehicles"
+          },
+          {
+            "questionId": "4315",
+            "isRight": false,
+            "id": "5c4b02a0-8b37-4aaa-a5a8-ee8668200a82",
+            "text": "To make sure the side road is clear"
+          },
+          {
+            "questionId": "4315",
+            "isRight": false,
+            "id": "d5951f19-32b1-42d0-a219-5ac6437ee858",
+            "text": "To look for pedestrians about to cross"
+          }
+        ],
+        "id": "4315",
+        "text": " You are at the front of a queue of traffic waiting to turn right into a side road. Why is it important to check your right mirror just before\nturning?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4316",
+            "isRight": false,
+            "id": "5f6994c7-4745-437a-a0b4-3f95983f0864",
+            "text": "Move off"
+          },
+          {
+            "questionId": "4316",
+            "isRight": false,
+            "id": "04708a23-8533-4cd8-bbad-cb7d3538b4d2",
+            "text": "Always wait for the green light before proceeding"
+          },
+          {
+            "questionId": "4316",
+            "isRight": true,
+            "id": "c208559a-b8c4-476f-b5e7-b2429ed37cb3",
+            "text": "Give way to any pedestrians on the crossing"
+          },
+          {
+            "questionId": "4316",
+            "isRight": false,
+            "id": "008728dc-a8d9-44f1-b39c-b922d55cf07a",
+            "text": "Signal the pedestrian to cross"
+          }
+        ],
+        "id": "4316",
+        "text": " What should a driver do at a pelican crossing when the red and amber lights are on?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.14",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4317",
+            "isRight": false,
+            "id": "89f077d5-5903-4d97-a71b-6979e2bd5c69",
+            "text": "Drive in front of the person"
+          },
+          {
+            "questionId": "4317",
+            "isRight": false,
+            "id": "ac18d4a2-9561-44e5-b49e-946b833a24b1",
+            "text": "Edge forward slowly"
+          },
+          {
+            "questionId": "4317",
+            "isRight": true,
+            "id": "1a278c5c-8ec2-40d4-a05f-06e076aa4f12",
+            "text": "Allow the person to cross"
+          },
+          {
+            "questionId": "4317",
+            "isRight": false,
+            "id": "50186d57-5be0-4b57-902b-21b41033978f",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4317",
+            "isRight": true,
+            "id": "e036d7a3-dcbf-4192-97cc-75c8c41fe4b8",
+            "text": "Be patient"
+          },
+          {
+            "questionId": "4317",
+            "isRight": false,
+            "id": "7681519c-4d08-4c59-a873-d7a16eb036da",
+            "text": "Drive behind the person"
+          }
+        ],
+        "id": "4317",
+        "text": " You have stopped at a pelican crossing. A disabled person is crossing slowly in front of you.The lights have now changed to green.\nYou should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4318",
+            "isRight": false,
+            "id": "cd6e3221-3546-424f-8db7-59841791eb9c",
+            "text": "Flash your lights in case they have not heard you"
+          },
+          {
+            "questionId": "4318",
+            "isRight": false,
+            "id": "97a5d198-8356-4074-b279-d61c8407dfd8",
+            "text": "Rev your engine to make them hurry"
+          },
+          {
+            "questionId": "4318",
+            "isRight": false,
+            "id": "916df554-7462-490a-8460-356609a50580",
+            "text": "Wave them to cross as quickly as they can"
+          },
+          {
+            "questionId": "4318",
+            "isRight": true,
+            "id": "621e4100-c78e-4f83-9473-9d06dfbd1a09",
+            "text": "Wait because they will take longer to cross"
+          }
+        ],
+        "id": "4318",
+        "text": " As you approach a pelican crossing the lights change to green but elderly people are halfway across. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4319",
+            "isRight": false,
+            "id": "bb9596d0-d75d-49c0-ba60-9a9943d453b6",
+            "text": "The car on the left may move off"
+          },
+          {
+            "questionId": "4319",
+            "isRight": false,
+            "id": "185acd3b-3459-48b1-b535-8c7e8b372846",
+            "text": "The driver of the ice cream van may get out"
+          },
+          {
+            "questionId": "4319",
+            "isRight": false,
+            "id": "ba872e3a-0f61-40b6-96de-ed3690cc413d",
+            "text": "The ice cream van may move off"
+          },
+          {
+            "questionId": "4319",
+            "isRight": true,
+            "id": "30ae1e38-a022-481f-b10c-18b8f9aa911a",
+            "text": "The child may run out into the road"
+          }
+        ],
+        "id": "4319",
+        "text": " Look at this picture. What is the danger you should be most aware of?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4320",
+            "isRight": false,
+            "id": "7d3d8271-dc07-4d0d-b342-c4cc6059aabc",
+            "text": "Brake sharply and flash your headlights"
+          },
+          {
+            "questionId": "4320",
+            "isRight": false,
+            "id": "84b90e66-bc87-4218-8bec-4f3473e7c5a2",
+            "text": "Slow down and wave the cyclist across"
+          },
+          {
+            "questionId": "4320",
+            "isRight": false,
+            "id": "9583c12a-15c9-4a0d-9351-72e0db642958",
+            "text": "Accelerate past quickly and sound your horn"
+          },
+          {
+            "questionId": "4320",
+            "isRight": true,
+            "id": "8d466069-eac5-421c-a5a3-7904ecd04517",
+            "text": "Slow down and be prepared to stop for a cyclist"
+          }
+        ],
+        "id": "4320",
+        "text": " You are driving past parked cars. You notice a wheel of a bicycle sticking out between them. What should you do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4321",
+            "isRight": false,
+            "id": "922a15fa-4941-47a0-a9f8-2a233e89cc73",
+            "text": "Stop and wave the children across to fetch their ball"
+          },
+          {
+            "questionId": "4321",
+            "isRight": false,
+            "id": "1b5a9c8c-3298-4ace-8032-ecfe42a603f3",
+            "text": "Continue driving at the same speed and flash your headlights"
+          },
+          {
+            "questionId": "4321",
+            "isRight": true,
+            "id": "f6a6c31e-6f54-46ee-b422-55180ffffbc3",
+            "text": "Slow down and be prepared to stop for children"
+          },
+          {
+            "questionId": "4321",
+            "isRight": false,
+            "id": "2f7979d3-f953-467d-b334-797009429a4b",
+            "text": "Continue driving at the same speed and sound your horn"
+          }
+        ],
+        "id": "4321",
+        "text": " You are driving past a lane of parked cars and you notice a ball bouncing out into the road ahead. What should you do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4322",
+            "isRight": false,
+            "id": "eea95716-7f2e-4fcc-816b-40f3cf961566",
+            "text": "Stay close behind and drive carefully"
+          },
+          {
+            "questionId": "4322",
+            "isRight": false,
+            "id": "c9ca7eed-d9c0-4c1f-ae37-02e872319760",
+            "text": "Flash your lights and overtake"
+          },
+          {
+            "questionId": "4322",
+            "isRight": true,
+            "id": "6784006d-e16b-4200-8560-fa49c57911d6",
+            "text": "Be aware that the driver's reactions may not be as fast as yours"
+          },
+          {
+            "questionId": "4322",
+            "isRight": false,
+            "id": "46459bea-dc3a-4ad6-91d5-4ff957dfe2d6",
+            "text": "Expect the driver to drive badly"
+          }
+        ],
+        "id": "4322",
+        "text": " If you are following a car driven by an elderly driver  you should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4323",
+            "isRight": true,
+            "id": "8df9ce7d-5538-44e3-b212-b49841c3e543",
+            "imageUrl": "Source/img/4323.1.png"
+          },
+          {
+            "questionId": "4323",
+            "isRight": false,
+            "id": "648042e9-1c2f-4467-8f75-06ca3f598455",
+            "imageUrl": "Source/img/4323.2.png"
+          },
+          {
+            "questionId": "4323",
+            "isRight": false,
+            "id": "eacee6b3-176b-4a00-b0fe-54632957c886",
+            "imageUrl": "Source/img/4323.3.png"
+          },
+          {
+            "questionId": "4323",
+            "isRight": false,
+            "id": "4edf4102-1fd3-44cf-aca5-3b03ffc23ecf",
+            "imageUrl": "Source/img/4323.4.png"
+          }
+        ],
+        "id": "4323",
+        "text": " Which sign tells you that pedestrians may be walking in the road  as there is no pavement?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4324",
+            "isRight": true,
+            "id": "6639e86b-71e6-47a0-8ecc-d4d5bd9f17a7",
+            "imageUrl": "Source/img/4324.1.png"
+          },
+          {
+            "questionId": "4324",
+            "isRight": false,
+            "id": "23b4add8-d763-4b20-b5be-fd8098a02c5f",
+            "imageUrl": "Source/img/4324.2.png"
+          },
+          {
+            "questionId": "4324",
+            "isRight": false,
+            "id": "4f35d115-58f9-4b38-95b5-434b43c5a664",
+            "imageUrl": "Source/img/4324.3.png"
+          },
+          {
+            "questionId": "4324",
+            "isRight": false,
+            "id": "5b6debac-a0e8-452f-af08-3977d17c24b5",
+            "imageUrl": "Source/img/4324.4.png"
+          }
+        ],
+        "id": "4324",
+        "text": " Which sign means there maybe elderly pedestrians likely to cross the road?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4325",
+            "isRight": false,
+            "id": "5d74ec7f-3a11-4f98-a683-dca1def3fd97",
+            "text": "Elderly"
+          },
+          {
+            "questionId": "4325",
+            "isRight": false,
+            "id": "8fc3d4e8-81af-4265-92d4-96cb0c4615b5",
+            "text": "Deaf"
+          },
+          {
+            "questionId": "4325",
+            "isRight": false,
+            "id": "dafa507f-3d63-4dad-8d38-c40c1976c021",
+            "text": "Disabled"
+          },
+          {
+            "questionId": "4325",
+            "isRight": true,
+            "id": "0928fde6-af21-448f-871d-b3c70be54388",
+            "text": "Blind"
+          }
+        ],
+        "id": "4325",
+        "text": " If you see a pedestrian carrying a white stick, this shows that the person is:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4326",
+            "isRight": false,
+            "id": "08aa3424-807f-4ef9-a965-44cc01bafb76",
+            "text": "Wave to the person to wait"
+          },
+          {
+            "questionId": "4326",
+            "isRight": false,
+            "id": "222e7a8a-6873-4897-b075-fff4ca57feb5",
+            "text": "Wave to the person to cross"
+          },
+          {
+            "questionId": "4326",
+            "isRight": false,
+            "id": "b1298e90-b39f-4be0-9a38-60b339ce28d8",
+            "text": "Continue on your way"
+          },
+          {
+            "questionId": "4326",
+            "isRight": true,
+            "id": "85c9938e-d199-45ce-89d2-0acb69279fa9",
+            "text": "Be prepared to stop"
+          }
+        ],
+        "id": "4326",
+        "text": " You are driving towards a pedestrian (zebra) crossing. Waiting to cross is a person in a wheelchair. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4327",
+            "isRight": false,
+            "id": "70e116b0-d0be-469e-ada6-859b1df5f8a7",
+            "text": "Tap the horn in case they are hard of hearing"
+          },
+          {
+            "questionId": "4327",
+            "isRight": true,
+            "id": "03c62adc-e3d6-4714-a58a-850ef6cf64ec",
+            "text": "Be patient and allow them to cross in their own time"
+          },
+          {
+            "questionId": "4327",
+            "isRight": false,
+            "id": "50c2a383-73ff-4902-99f4-aaeadbf03f3e",
+            "text": "Rev the engine to let them know that you are waiting"
+          },
+          {
+            "questionId": "4327",
+            "isRight": false,
+            "id": "2c052ce5-254e-4697-a9a2-58498804cfa1",
+            "text": "Wave them across so they know that you have seen them"
+          }
+        ],
+        "id": "4327",
+        "text": " What action should you take when elderly people are crossing the road?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4328",
+            "isRight": true,
+            "id": "f46ae634-dab5-4b58-a471-c4b89104778f",
+            "text": "Just before you turn left"
+          },
+          {
+            "questionId": "4328",
+            "isRight": false,
+            "id": "6645282a-bb6a-47b6-9333-1b0140ceb5a0",
+            "text": "On a dual carriageway"
+          },
+          {
+            "questionId": "4328",
+            "isRight": false,
+            "id": "14cc063e-7ab9-4eba-8664-a5b5b309d8ae",
+            "text": "On a one-way street"
+          },
+          {
+            "questionId": "4328",
+            "isRight": false,
+            "id": "b4bcf642-085d-4180-bb0d-0468e260f8dd",
+            "text": "Just before you turn right"
+          }
+        ],
+        "id": "4328",
+        "text": " You should NEVER attempt to overtake a cyclist:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4329",
+            "isRight": false,
+            "id": "2256372a-c3f5-4fb6-b67a-4d3b00472f11",
+            "text": "Go around the cyclist on the junction"
+          },
+          {
+            "questionId": "4329",
+            "isRight": false,
+            "id": "38f97546-eaa9-4b5b-94bb-2c53752ada99",
+            "text": "Pull alongside the cyclist and stay level until after the junction"
+          },
+          {
+            "questionId": "4329",
+            "isRight": true,
+            "id": "2e34a52f-fd52-4e7e-b928-5c76d237d436",
+            "text": "Hold back until the cyclist has passed the junction"
+          },
+          {
+            "questionId": "4329",
+            "isRight": false,
+            "id": "ddb1326a-c6e8-4ec0-9104-4a158907fdfa",
+            "text": "Overtake the cyclist before the junction"
+          }
+        ],
+        "id": "4329",
+        "text": " If you are driving behind a cyclist and you wish to turn left just ahead. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4330",
+            "isRight": false,
+            "id": "0df2cf13-feae-4bb6-ac2f-17244dce3bc0",
+            "text": "Signal the cyclist to move across"
+          },
+          {
+            "questionId": "4330",
+            "isRight": false,
+            "id": "e10e78fa-4fd5-4594-9b65-bd61b185bb93",
+            "text": "Give a horn warning"
+          },
+          {
+            "questionId": "4330",
+            "isRight": false,
+            "id": "13e1cc78-f65e-472e-8d86-e1e81332f743",
+            "text": "Overtake on the right"
+          },
+          {
+            "questionId": "4330",
+            "isRight": true,
+            "id": "22b23d4d-a868-40aa-b3b9-5af5337b7e9f",
+            "text": "Give the cyclist plenty of room"
+          }
+        ],
+        "id": "4330",
+        "text": " You are coming up to a roundabout and a cyclist is signaling to turn right. What should you do:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.30",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4331",
+            "isRight": false,
+            "id": "515c8b94-50b8-4d75-9f0e-d2f98edb7a9b",
+            "text": "Straight ahead"
+          },
+          {
+            "questionId": "4331",
+            "isRight": false,
+            "id": "a7af733b-8ae2-4fa0-8dd2-da20d90d7ec2",
+            "text": "Right"
+          },
+          {
+            "questionId": "4331",
+            "isRight": true,
+            "id": "a7d25ae1-db12-4f3c-b733-e8f3f22f0fc7",
+            "text": "Any direction"
+          },
+          {
+            "questionId": "4331",
+            "isRight": false,
+            "id": "40c9d1da-d984-4472-b192-b397d515541c",
+            "text": "Left"
+          }
+        ],
+        "id": "4331",
+        "text": " You are driving behind three cyclists. They approach a roundabout in the left-hand lane. In which direction should you\nexpect the cyclists to go?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4332",
+            "isRight": false,
+            "id": "f1d0e520-f5b9-439d-a210-0b815ea7b7eb",
+            "text": "The cyclist thinks The highway Code does not apply to bicycles"
+          },
+          {
+            "questionId": "4332",
+            "isRight": false,
+            "id": "8bb81505-7742-49ae-b908-535f19a89964",
+            "text": "The cyclist is going to turn left instead"
+          },
+          {
+            "questionId": "4332",
+            "isRight": false,
+            "id": "2245af99-5ac2-4d39-b04e-999a5108f62c",
+            "text": "It is quicker route for cyclist"
+          },
+          {
+            "questionId": "4332",
+            "isRight": true,
+            "id": "bff09707-9635-4ddd-9a72-84f03fc18c75",
+            "text": "The cyclist is slower and more vulnerable"
+          }
+        ],
+        "id": "4332",
+        "text": " You are approaching a roundabout and see a cyclist signal right. Why is the cyclist keeping to the left?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4333",
+            "isRight": false,
+            "id": "9c99b25a-3d06-481e-b9ef-d0908bcc895d",
+            "text": "The cyclist might have to make a right turn"
+          },
+          {
+            "questionId": "4333",
+            "isRight": false,
+            "id": "f4ab2120-3d32-4a11-b918-ae2db8ac8085",
+            "text": "The cyclist might get off the bike"
+          },
+          {
+            "questionId": "4333",
+            "isRight": false,
+            "id": "87e17b52-1249-4184-981e-ce3081887972",
+            "text": "The cyclist might change lanes"
+          },
+          {
+            "questionId": "4333",
+            "isRight": true,
+            "id": "d6824729-d99e-4f8c-ba90-00763cb592d3",
+            "text": "The cyclist might swerve"
+          }
+        ],
+        "id": "4333",
+        "text": " When you are overtaking a cyclist in the road you should leave as much room as you would give to a car. What is the main reason for\nthis?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.38",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4334",
+            "isRight": false,
+            "id": "3a78a45d-5192-4e38-ab38-d1ad4ed3ac96",
+            "text": "On one-way streets"
+          },
+          {
+            "questionId": "4334",
+            "isRight": true,
+            "id": "c6d6abdc-7b1e-4109-9603-8190816bcf3a",
+            "text": "At junctions"
+          },
+          {
+            "questionId": "4334",
+            "isRight": false,
+            "id": "a55f2029-c43a-4ea8-844d-c7f6cdadeb8b",
+            "text": "At zebra crossings"
+          },
+          {
+            "questionId": "4334",
+            "isRight": false,
+            "id": "43b8a265-e55d-463b-8aab-63dada235088",
+            "text": "On dual carriageways"
+          }
+        ],
+        "id": "4334",
+        "text": " Where should you take particular care to look out for motorcyclists and cyclists?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.39",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4335",
+            "isRight": true,
+            "id": "0aa1bac4-c7e4-433e-ae17-af87c3ebf556",
+            "text": "So that the rider can be seen more easily"
+          },
+          {
+            "questionId": "4335",
+            "isRight": false,
+            "id": "ebfba7ab-f927-4979-b15b-d605e9614253",
+            "text": "The rider is inviting you to proceed"
+          },
+          {
+            "questionId": "4335",
+            "isRight": false,
+            "id": "74941df2-6dd0-4936-b061-b234eebf448b",
+            "text": "To improve the rider's vision"
+          },
+          {
+            "questionId": "4335",
+            "isRight": false,
+            "id": "8b24939a-9146-40a8-9449-88ffecd864f3",
+            "text": "To stop the battery overcharging"
+          }
+        ],
+        "id": "4335",
+        "text": " In daylight  an approaching motorcyclist is using a dipped headlight. Why?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.42",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4336",
+            "isRight": false,
+            "id": "d0172502-ce7f-46a7-97ad-f37ff81c17d8",
+            "text": "Sound your horn as a warning and pull in front of the moped"
+          },
+          {
+            "questionId": "4336",
+            "isRight": false,
+            "id": "6301b42a-f28b-44ea-b216-62293a8fdc38",
+            "text": "Pull alongside the moped and stay level until just before the junction"
+          },
+          {
+            "questionId": "4336",
+            "isRight": false,
+            "id": "cfd35444-9253-4972-abbc-e86bea92ebd9",
+            "text": "Overtake the moped before the junction"
+          },
+          {
+            "questionId": "4336",
+            "isRight": true,
+            "id": "5e28c81a-a71f-4994-bbca-08735048ffce",
+            "text": "Stay behind until the moped has passed the junction"
+          }
+        ],
+        "id": "4336",
+        "text": " You are driving behind a moped or a small motorcycle. You want to turn left just ahead. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.44",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4337",
+            "isRight": true,
+            "id": "a444170e-6c48-48cb-b4e0-cc4018b91760",
+            "text": "Motorcyclists"
+          },
+          {
+            "questionId": "4337",
+            "isRight": true,
+            "id": "d0fcdc7a-74e3-4ca6-a825-9e8cebbc01f4",
+            "text": "Cyclists"
+          },
+          {
+            "questionId": "4337",
+            "isRight": false,
+            "id": "9d1dcab5-e603-4405-bb4a-dc53fd00232d",
+            "text": "Lorry drivers"
+          },
+          {
+            "questionId": "4337",
+            "isRight": false,
+            "id": "cc6e34bf-0167-4dcc-b504-951783b16066",
+            "text": "Car drivers"
+          },
+          {
+            "questionId": "4337",
+            "isRight": true,
+            "id": "477ad029-0927-4cce-8f58-8b428c3d76da",
+            "text": "Pedestrians"
+          }
+        ],
+        "id": "4337",
+        "text": " At road junctions which THREE of the following are most vulnerable?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.45",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4338",
+            "isRight": true,
+            "id": "0ee128e9-5829-429f-9cf8-3b6999f4ea76",
+            "text": "Motorcycles"
+          },
+          {
+            "questionId": "4338",
+            "isRight": false,
+            "id": "380d3e03-b003-4251-9768-fbc601f45e56",
+            "text": "Cars"
+          },
+          {
+            "questionId": "4338",
+            "isRight": false,
+            "id": "97784767-8db2-4cbf-af9e-64fb76d92328",
+            "text": "Milk floats"
+          },
+          {
+            "questionId": "4338",
+            "isRight": false,
+            "id": "27b83f2d-90c9-4d6b-a525-1351eb4b3095",
+            "text": "Tractors"
+          }
+        ],
+        "id": "4338",
+        "text": " When emerging from a side road into a queue of traffic which road users can be difficult to see?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.46",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4339",
+            "isRight": false,
+            "id": "5b3c6a29-ee22-4bf9-99e1-04a69a7f7233",
+            "text": "Stop and set the handbrake"
+          },
+          {
+            "questionId": "4339",
+            "isRight": false,
+            "id": "a6f05d91-30c7-4d94-8d13-e4ca1db20858",
+            "text": "Select first gear"
+          },
+          {
+            "questionId": "4339",
+            "isRight": true,
+            "id": "e81bb24b-a64b-42cb-8ee5-cb5423685a6a",
+            "text": "Check for traffic overtaking on your right"
+          },
+          {
+            "questionId": "4339",
+            "isRight": false,
+            "id": "0baa386d-d2cd-4295-9fb6-a259c5a163a1",
+            "text": "Cancel your right-turn signal"
+          }
+        ],
+        "id": "4339",
+        "text": " You want to turn right from a main road into a side road. Just before you turn you should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.48",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4340",
+            "isRight": true,
+            "id": "cf73772b-0aba-4865-bc96-2e9f1562307d",
+            "text": "Slow moving"
+          },
+          {
+            "questionId": "4340",
+            "isRight": false,
+            "id": "f9a1ab8f-b03f-4868-8768-350a68c44381",
+            "text": "A school crossing patrol"
+          },
+          {
+            "questionId": "4340",
+            "isRight": false,
+            "id": "b19b33ad-5a0e-405e-99e1-5f9c26c1090b",
+            "text": "A doctor's car"
+          },
+          {
+            "questionId": "4340",
+            "isRight": false,
+            "id": "dcb36df7-5e22-4628-bc1a-792626f31259",
+            "text": "Broken down"
+          }
+        ],
+        "id": "4340",
+        "text": " You are driving and ahead of you there is a vehicle with a flashing amber beacon.This means it is:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.50",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4341",
+            "isRight": false,
+            "id": "1e5bd9eb-3b34-4bcd-be3a-9c61e495932d",
+            "text": "Remove the leather jacket"
+          },
+          {
+            "questionId": "4341",
+            "isRight": false,
+            "id": "ef206ba7-6da0-4f3e-acce-4268f65e0a2b",
+            "text": "Move the person off the road"
+          },
+          {
+            "questionId": "4341",
+            "isRight": false,
+            "id": "5a61350a-5eb3-4224-abce-3844c913fca0",
+            "text": "Remove the safety helmet"
+          },
+          {
+            "questionId": "4341",
+            "isRight": true,
+            "id": "d9099b91-928c-4a61-bfa1-38f538400097",
+            "text": "Seek medical assistance"
+          }
+        ],
+        "id": "4341",
+        "text": " An injured motorcyclist is lying unconscious in the road. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.51",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4342",
+            "isRight": false,
+            "id": "e45c5d84-48f3-4e26-a2f5-d8e7c1e882e1",
+            "text": "The bus may remain stationary"
+          },
+          {
+            "questionId": "4342",
+            "isRight": false,
+            "id": "66bf8045-9b59-4e3f-b1c4-e23d69ee1417",
+            "text": "The bus may move off suddenly"
+          },
+          {
+            "questionId": "4342",
+            "isRight": false,
+            "id": "832f4583-db97-4fbb-a924-a38b7311b5d4",
+            "text": "The bus may have broken down"
+          },
+          {
+            "questionId": "4342",
+            "isRight": true,
+            "id": "30c6148a-d5cb-4980-8a25-43afc8870538",
+            "text": "Pedestrians may come from behind the bus"
+          }
+        ],
+        "id": "4342",
+        "text": " You are driving in town. There is a bus at the bus stop on the other side of the road. Why should you be careful?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.52",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4343",
+            "isRight": false,
+            "id": "e3678e84-ff3c-47be-a401-b07775197325",
+            "text": "Use your horn just once to warn them"
+          },
+          {
+            "questionId": "4343",
+            "isRight": false,
+            "id": "8a4c3dfa-9aad-4a46-b6a4-5f45e66c753c",
+            "text": "Speed is not important but allow plenty of room"
+          },
+          {
+            "questionId": "4343",
+            "isRight": false,
+            "id": "6a245a95-9253-4d85-a131-23c077e5cfa1",
+            "text": "Drive along their side and overtake as soon as possible"
+          },
+          {
+            "questionId": "4343",
+            "isRight": true,
+            "id": "a2509114-ed07-492c-8a4b-24c337c7c517",
+            "text": "Drive slowly and leave plenty of room"
+          }
+        ],
+        "id": "4343",
+        "text": " How should you overtake horse riders?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.53",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4344",
+            "isRight": false,
+            "id": "9d850cc0-f1e0-47dc-b3a2-6cd72cf08fb6",
+            "text": "Signal right"
+          },
+          {
+            "questionId": "4344",
+            "isRight": true,
+            "id": "436211a2-6758-4308-aa0c-dea88e45d88c",
+            "text": "Be prepared to slow down"
+          },
+          {
+            "questionId": "4344",
+            "isRight": false,
+            "id": "b3ee1b22-63ed-463b-86ec-efa5d8d65c02",
+            "text": "Accelerate around them"
+          },
+          {
+            "questionId": "4344",
+            "isRight": false,
+            "id": "3fc77b5e-8e4d-4599-8122-0d57e25376d7",
+            "text": "Pull out to the middle of the road"
+          }
+        ],
+        "id": "4344",
+        "text": " You notice horse riders ahead of you. What should you do FIRST?",
+        "imageUrl": "Source/img/4344.png"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.54",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4345",
+            "isRight": true,
+            "id": "3941bd72-7dd8-4b0c-8e64-f49c2c7c5c45",
+            "text": "On left-hand bends"
+          },
+          {
+            "questionId": "4345",
+            "isRight": false,
+            "id": "44312c71-f8af-4d5b-ac2a-f95b5fcf3bfb",
+            "text": "On right-hand bends"
+          },
+          {
+            "questionId": "4345",
+            "isRight": false,
+            "id": "eb19516e-ef79-4e0c-a8b3-d0aed221b283",
+            "text": "When uphill"
+          },
+          {
+            "questionId": "4345",
+            "isRight": false,
+            "id": "41d765f8-1e6a-43b0-b95b-f9b06700566d",
+            "text": "When downhill"
+          }
+        ],
+        "id": "4345",
+        "text": " You are driving on a narrow country road. Where would you find it most difficult to see horses and riders ahead of you?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.55",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4346",
+            "isRight": false,
+            "id": "78636cc1-a33c-49b9-bda5-a3442e8cae06",
+            "text": "Go ahead"
+          },
+          {
+            "questionId": "4346",
+            "isRight": false,
+            "id": "0e019bd9-7e6b-4b28-a87e-1edec1642e9c",
+            "text": "Turn left"
+          },
+          {
+            "questionId": "4346",
+            "isRight": false,
+            "id": "1b921510-52bd-45d1-9460-a3d5b68439d5",
+            "text": "Turn right"
+          },
+          {
+            "questionId": "4346",
+            "isRight": true,
+            "id": "ea4a0f96-5884-4759-becb-6c11e7d77b17",
+            "text": "Go in any direction"
+          }
+        ],
+        "id": "4346",
+        "text": " A horse rider is in the left-hand lane approaching a roundabout. The driver behind should expect the rider to:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.56",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4347",
+            "isRight": false,
+            "id": "4a63aedd-19ed-4769-9d47-20f2d5585c29",
+            "text": "Sound your horn as a warning"
+          },
+          {
+            "questionId": "4347",
+            "isRight": true,
+            "id": "3ec2f8ab-aa81-4787-8134-6a9af47e01b1",
+            "text": "Give them plenty of room"
+          },
+          {
+            "questionId": "4347",
+            "isRight": false,
+            "id": "07c23362-6f0e-4ed1-b89c-be428311331d",
+            "text": "Accelerate past as quickly as possible"
+          },
+          {
+            "questionId": "4347",
+            "isRight": false,
+            "id": "1f4d3a20-3df3-4260-8f90-f0a7277ec76b",
+            "text": "Treat them like any other vehicle"
+          },
+          {
+            "questionId": "4347",
+            "isRight": true,
+            "id": "891cb9a0-e689-49eb-8e5d-330568033ecb",
+            "text": "Be prepared to stop"
+          }
+        ],
+        "id": "4347",
+        "text": " You are approaching a roundabout. There are horses just ahead of you. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.57",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4348",
+            "isRight": false,
+            "id": "ba754424-f930-422e-be85-40bdd107b0d1",
+            "text": "Cut in front of them"
+          },
+          {
+            "questionId": "4348",
+            "isRight": false,
+            "id": "6bdcc716-2ad9-4f32-8ab6-cf99fed71523",
+            "text": "Keep close of them"
+          },
+          {
+            "questionId": "4348",
+            "isRight": false,
+            "id": "0028e73c-da7b-4c81-a1bb-eff44fc7e5df",
+            "text": "Proceed as normal"
+          },
+          {
+            "questionId": "4348",
+            "isRight": true,
+            "id": "1729a5e1-c4f4-4edc-84e9-e5ee978ca225",
+            "text": "Stay well back"
+          }
+        ],
+        "id": "4348",
+        "text": " You see a group of horse riders as you approach a roundabout. They are signalling to go right but keeping well to the left. You\nshould:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.58",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4349",
+            "isRight": false,
+            "id": "3aefd9c7-0b1c-4ab0-b55a-b0ae127f11d8",
+            "text": "Mechanical failure"
+          },
+          {
+            "questionId": "4349",
+            "isRight": true,
+            "id": "6ddd97be-93f2-47ea-849e-9f4fe5ac89ad",
+            "text": "Driver error"
+          },
+          {
+            "questionId": "4349",
+            "isRight": false,
+            "id": "44e27802-f6fb-4218-ae3a-d6e81b96e3af",
+            "text": "Road conditions"
+          },
+          {
+            "questionId": "4349",
+            "isRight": false,
+            "id": "9f9c38f5-3bfb-400b-b210-57da456be240",
+            "text": "Weather conditions"
+          }
+        ],
+        "id": "4349",
+        "text": " What is the MOST common cause of road accidents?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.60",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4350",
+            "isRight": false,
+            "id": "a6579e36-1c23-4ed0-9503-45ae3ee70abb",
+            "text": "46 to 55-year-old"
+          },
+          {
+            "questionId": "4350",
+            "isRight": false,
+            "id": "a820a84d-efe5-4034-adc1-f016fb24c88f",
+            "text": "55-year-olds and over"
+          },
+          {
+            "questionId": "4350",
+            "isRight": false,
+            "id": "9a3224f4-edeb-4ba9-a962-6d9f28da7672",
+            "text": "36 to 45-year-old"
+          },
+          {
+            "questionId": "4350",
+            "isRight": true,
+            "id": "71640f45-cbb5-4625-9637-7b685d798bf9",
+            "text": "18 to 25-year-old"
+          }
+        ],
+        "id": "4350",
+        "text": " Which age group is most likely to be involved in traffic accidents?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.61",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4351",
+            "isRight": true,
+            "id": "e69e2ca7-c455-4376-9d94-2b3875b7a3c8",
+            "text": "Be patient as you expect them to make mistakes"
+          },
+          {
+            "questionId": "4351",
+            "isRight": false,
+            "id": "05b139ed-961d-4bfd-86f5-f0eea94b0560",
+            "text": "Immediately steer around them and drive on"
+          },
+          {
+            "questionId": "4351",
+            "isRight": false,
+            "id": "2e3a66a1-f44e-41de-8c20-4e0bdce37356",
+            "text": "Start to rev your engine if they take too long to restart"
+          },
+          {
+            "questionId": "4351",
+            "isRight": false,
+            "id": "fbed8cde-0225-46b6-958e-94e0251c2bc6",
+            "text": "Drive up close behind and flash your headlights"
+          }
+        ],
+        "id": "4351",
+        "text": " You are following a learner driver who stalls at a junction. What should you do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4607",
+            "isRight": false,
+            "id": "119c6da7-73a5-4e30-85a7-8c05e4f8314f",
+            "text": "Carry on assuming it is clear"
+          },
+          {
+            "questionId": "4607",
+            "isRight": true,
+            "id": "4a74e973-00b4-40ca-9a6d-be7986807455",
+            "text": "Get out and check"
+          },
+          {
+            "questionId": "4607",
+            "isRight": false,
+            "id": "6564b0ac-cbba-4b0f-a7a9-97884ee8ea0f",
+            "text": "Check the mirrors only"
+          },
+          {
+            "questionId": "4607",
+            "isRight": false,
+            "id": "a7d47dc9-59fb-4034-9630-9ea2ce48eca5",
+            "text": "Look through the rear window only"
+          }
+        ],
+        "id": "4607",
+        "text": " You want to reverse into a side road. You are not sure that the area behind your car is clear. What should you do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4608",
+            "isRight": false,
+            "id": "c2fd308e-572a-48a4-9d01-407dd3560c7b",
+            "text": "Reverse before the pedestrian starts to cross"
+          },
+          {
+            "questionId": "4608",
+            "isRight": true,
+            "id": "90b4928f-f91a-47cb-b762-bea0594242ad",
+            "text": "Give way to the pedestrian"
+          },
+          {
+            "questionId": "4608",
+            "isRight": false,
+            "id": "2eec688f-65f5-4349-91a9-84433ea1a3c7",
+            "text": "Wave to the pedestrian to cross"
+          },
+          {
+            "questionId": "4608",
+            "isRight": false,
+            "id": "084454ad-a331-4616-ac17-0a6f72771241",
+            "text": "Wave to the pedestrian to stop"
+          }
+        ],
+        "id": "4608",
+        "text": " You are about to reverse into a side road and a pedestrian wishes to cross behind you. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4609",
+            "isRight": false,
+            "id": "8bdc11ec-e28d-44a5-8eeb-bb3af0e1a645",
+            "text": "Cyclists"
+          },
+          {
+            "questionId": "4609",
+            "isRight": false,
+            "id": "575ca126-0570-42ae-bf71-c7c9ca201517",
+            "text": "Car drivers"
+          },
+          {
+            "questionId": "4609",
+            "isRight": false,
+            "id": "eb5a8b60-ae18-48c9-8e35-3d8e97fe82ce",
+            "text": "Motorcyclists"
+          },
+          {
+            "questionId": "4609",
+            "isRight": true,
+            "id": "8c81db08-c561-433e-8a92-174f5c660b0f",
+            "text": "Children"
+          }
+        ],
+        "id": "4609",
+        "text": " Who is especially in danger of not being seen as you reverse your car?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4610",
+            "isRight": false,
+            "id": "433926cb-403e-4b0d-95a0-eaa260775008",
+            "text": "Emerging from the side road"
+          },
+          {
+            "questionId": "4610",
+            "isRight": false,
+            "id": "5f720c70-06e5-4b49-bf62-0ff8120b0605",
+            "text": "Following you closely"
+          },
+          {
+            "questionId": "4610",
+            "isRight": false,
+            "id": "23ae8f7e-1bc2-458d-9aa9-66837c4a334c",
+            "text": "Overtaking on your left"
+          },
+          {
+            "questionId": "4610",
+            "isRight": true,
+            "id": "1263ede2-2d8d-4e45-8886-db998d32e7a2",
+            "text": "Overtaking on your right"
+          }
+        ],
+        "id": "4610",
+        "text": " You intend to turn right into a side road. Just before turning you should check for motorcyclists who may be:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.12",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4611",
+            "isRight": false,
+            "id": "87475ced-2ee6-4b4d-848e-fde68ba9cc4d",
+            "text": "Where the kerb is raised"
+          },
+          {
+            "questionId": "4611",
+            "isRight": true,
+            "id": "f90e0095-ec5d-4749-adbc-ddf39a123dec",
+            "text": "At or near a bus stop"
+          },
+          {
+            "questionId": "4611",
+            "isRight": true,
+            "id": "8b103630-cce5-4908-9d38-f9227535ea68",
+            "text": "Where the kerb has been lowered for wheelchairs"
+          },
+          {
+            "questionId": "4611",
+            "isRight": true,
+            "id": "011ea16f-9444-4520-995f-740dfb2d6667",
+            "text": "Near the brow of a hill"
+          },
+          {
+            "questionId": "4611",
+            "isRight": false,
+            "id": "dd301015-ba8f-49b3-a41f-b516d9977267",
+            "text": "In a lay-by"
+          }
+        ],
+        "id": "4611",
+        "text": " In which three places would parking cause an obstruction to other road users?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4612",
+            "isRight": false,
+            "id": "a8b04179-d3c7-4a6f-ba50-bd5557960595",
+            "text": "Stop and wave them across the road"
+          },
+          {
+            "questionId": "4612",
+            "isRight": false,
+            "id": "318ab261-e839-441b-baf2-3f3c9f4f4dbf",
+            "text": "Speed up to get past them quickly"
+          },
+          {
+            "questionId": "4612",
+            "isRight": false,
+            "id": "a3d34e5e-48a0-484a-bc2c-0614ea4bdeae",
+            "text": "Expect them to wait for you to pass"
+          },
+          {
+            "questionId": "4612",
+            "isRight": true,
+            "id": "9adca2ed-02d7-4562-bbfa-8502fab4c1e9",
+            "text": "Be careful  they may misjudge your speed"
+          }
+        ],
+        "id": "4612",
+        "text": " You are following a motorcyclist on an uneven and bumpy road. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4613",
+            "isRight": false,
+            "id": "73eb8ea8-6ef8-4fe2-b553-84ac1819c5b0",
+            "text": "Allow the same room as normal because motorcyclists are not affected by road surfaces"
+          },
+          {
+            "questionId": "4613",
+            "isRight": false,
+            "id": "50a64f30-eecd-4844-b049-7f5a74a30fca",
+            "text": "Overtake immediately"
+          },
+          {
+            "questionId": "4613",
+            "isRight": true,
+            "id": "14b31554-8a2e-4e4f-b3eb-64e681f7c15c",
+            "text": "Allow extra room in case they swerve to avoid pot-holes"
+          },
+          {
+            "questionId": "4613",
+            "isRight": false,
+            "id": "6d0b4a16-b752-4310-9b96-97abdd10c25f",
+            "text": "Allow less room to ensure that you can be seen in their mirrors"
+          }
+        ],
+        "id": "4613",
+        "text": " You are following a motorcyclist on an uneven road. You should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.33",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4614",
+            "isRight": false,
+            "id": "d96027b0-fe3e-43be-a91d-7ff8275283de",
+            "text": "Road-sweeping vehicles"
+          },
+          {
+            "questionId": "4614",
+            "isRight": true,
+            "id": "80550839-6f4c-4a67-9ddb-fac26539b6ad",
+            "text": "Motorcycles"
+          },
+          {
+            "questionId": "4614",
+            "isRight": false,
+            "id": "a9b21020-c4e5-4621-90b2-900df363e233",
+            "text": "Tractors"
+          },
+          {
+            "questionId": "4614",
+            "isRight": true,
+            "id": "c009556f-ee18-4797-9d1a-58459cdb0bb8",
+            "text": "Bicycles"
+          }
+        ],
+        "id": "4614",
+        "text": " Which TWO should you allow extra room when overtaking?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.34",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4615",
+            "isRight": false,
+            "id": "69aaa40e-128b-44bb-98f5-391793c09fee",
+            "text": "The rider may be traveling faster than normal"
+          },
+          {
+            "questionId": "4615",
+            "isRight": true,
+            "id": "0e18d9eb-c577-4289-a508-2aed268b8e0c",
+            "text": "The rider may be blown across in front of you"
+          },
+          {
+            "questionId": "4615",
+            "isRight": false,
+            "id": "d517c353-cc0a-4e2a-b505-5898581f7829",
+            "text": "The rider may stop suddenly"
+          },
+          {
+            "questionId": "4615",
+            "isRight": false,
+            "id": "6baaa2a7-145b-4540-90a9-50ab09f0eefe",
+            "text": "The rider may turn off suddenly to get out of the wind"
+          }
+        ],
+        "id": "4615",
+        "text": " Why should you allow extra room when overtaking a motorcyclist on a windy day?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.35",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4616",
+            "isRight": false,
+            "id": "f0bda64f-ef1d-4a2f-b866-363ac8c8493d",
+            "text": "Bowser"
+          },
+          {
+            "questionId": "4616",
+            "isRight": true,
+            "id": "bc34480d-6738-46af-9974-f8c3cb92f22a",
+            "text": "Motorcycle"
+          },
+          {
+            "questionId": "4616",
+            "isRight": false,
+            "id": "0165bab8-c9a4-47d3-960c-bb2f2215df54",
+            "text": "Car"
+          },
+          {
+            "questionId": "4616",
+            "isRight": false,
+            "id": "e2d0624f-6cf9-4ea6-b1fb-750d59b2fcef",
+            "text": "Tractor"
+          }
+        ],
+        "id": "4616",
+        "text": " Which type of vehicle is MOST affected by strong winds?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.36",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4617",
+            "isRight": false,
+            "id": "bb0bafde-4ffd-427f-8666-d581e33db0a3",
+            "text": "They might not see you turn"
+          },
+          {
+            "questionId": "4617",
+            "isRight": false,
+            "id": "ee893cb3-4240-4608-ae10-58bb59ac7045",
+            "text": "They may slow down to let you turn"
+          },
+          {
+            "questionId": "4617",
+            "isRight": true,
+            "id": "c4a21e47-5ca6-4ad2-ab54-4092a8dfe509",
+            "text": "They are harder to see"
+          },
+          {
+            "questionId": "4617",
+            "isRight": false,
+            "id": "749495fa-f3fc-4a0f-88d2-e7b9c0d166ec",
+            "text": "They may want to turn into the side road"
+          }
+        ],
+        "id": "4617",
+        "text": " Why should you particularly look for motorcyclists and cyclists at any junction?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.37",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4618",
+            "isRight": false,
+            "id": "c4de2595-e7fd-49a1-abec-1d24b187aac7",
+            "text": "Motorcycles have right of way"
+          },
+          {
+            "questionId": "4618",
+            "isRight": false,
+            "id": "beacdc81-0334-4a8f-9b20-c59b4ea75bb1",
+            "text": "Police patrols often use motorcycles"
+          },
+          {
+            "questionId": "4618",
+            "isRight": true,
+            "id": "0cff9f11-14f8-4592-8192-57f2692b9eb6",
+            "text": "Motorcycles are small and hard to see"
+          },
+          {
+            "questionId": "4618",
+            "isRight": false,
+            "id": "c1b691da-300a-4efc-9ac9-2fd5343b2eec",
+            "text": "Motorcycles are usually faster than cars"
+          }
+        ],
+        "id": "4618",
+        "text": " You are waiting to come out of a side road. Why should you watch carefully for motorcycles?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.43",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4619",
+            "isRight": false,
+            "id": "68c63b4e-ac9f-414b-b13d-2e8d991a256b",
+            "text": "Looking around helps them balance as they turn"
+          },
+          {
+            "questionId": "4619",
+            "isRight": false,
+            "id": "c4d8df4e-a436-4743-9b2e-64b83f7c2f81",
+            "text": "Motorcycles do not have mirrors"
+          },
+          {
+            "questionId": "4619",
+            "isRight": false,
+            "id": "588cfef6-8b5d-44fe-9679-171d70791047",
+            "text": "They need to listen for following traffic"
+          },
+          {
+            "questionId": "4619",
+            "isRight": true,
+            "id": "9d9c76f0-bc5e-4287-a54e-0c9bcfdefc70",
+            "text": "They need to check for traffic in their blind area"
+          }
+        ],
+        "id": "4619",
+        "text": " Motorcyclists often look round over their right shoulder just before turning right. This is because:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.47",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4620",
+            "isRight": true,
+            "id": "9af6e496-41f4-41f8-b801-bd2974e0972f",
+            "text": "Passing very close to your car"
+          },
+          {
+            "questionId": "4620",
+            "isRight": false,
+            "id": "e2d2f57b-e92b-43bf-b2a0-f0ee3cd54ed3",
+            "text": "Riding with their headlamp on dipped beam"
+          },
+          {
+            "questionId": "4620",
+            "isRight": false,
+            "id": "f281000c-f9bf-4c94-a405-b3ef2a62cc64",
+            "text": "Riding in single file"
+          },
+          {
+            "questionId": "4620",
+            "isRight": true,
+            "id": "5016ca7a-b0fd-47e7-92f8-9433d3953e5d",
+            "text": "Filtering between the lanes"
+          },
+          {
+            "questionId": "4620",
+            "isRight": true,
+            "id": "a237d579-8cea-4d43-ab5c-536d2c4206b5",
+            "text": "Cutting in just in front of you"
+          }
+        ],
+        "id": "4620",
+        "text": " Which of the following are hazards that motorcyclists present in queues of traffic?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.49",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4621",
+            "isRight": false,
+            "id": "5fa493fa-0f1e-4fd2-be6c-c9d7b9c50ac5",
+            "text": "Change down to first gear"
+          },
+          {
+            "questionId": "4621",
+            "isRight": false,
+            "id": "bf899417-c5f8-418a-8fb3-e046419e1dcb",
+            "text": "Give a 'slowing down' arm signal"
+          },
+          {
+            "questionId": "4621",
+            "isRight": false,
+            "id": "c9669eb0-d154-4913-b82c-bbec6d0f8599",
+            "text": "Sound the horn"
+          },
+          {
+            "questionId": "4621",
+            "isRight": true,
+            "id": "235b28f8-5355-4de9-8b5a-5bf5664fdb95",
+            "text": "Look for motorcyclists filtering through the traffic"
+          }
+        ],
+        "id": "4621",
+        "text": " You are driving in slow-moving queues of traffic. Just before changing lane you should:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.59",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4622",
+            "isRight": false,
+            "id": "a9fbd44c-d1ca-4686-8972-3cd8d521545d",
+            "text": "Call your insurance company"
+          },
+          {
+            "questionId": "4622",
+            "isRight": false,
+            "id": "b569df15-c462-4c22-bc2a-8a64fe4d4f70",
+            "text": "Call the emergency services"
+          },
+          {
+            "questionId": "4622",
+            "isRight": true,
+            "id": "b413b85a-711b-4b77-8f9a-96ff78e88aab",
+            "text": "Stop at the scene of the accident"
+          },
+          {
+            "questionId": "4622",
+            "isRight": false,
+            "id": "5648e1e1-3f2f-4d75-80e4-c4b82196ff09",
+            "text": "Stop only if there are injured people"
+          }
+        ],
+        "id": "4622",
+        "text": " You have a collision while your car is moving. What is the first important thing you must do?"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.62",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4623",
+            "isRight": true,
+            "id": "c3ab3d50-5d93-4929-9e8a-5426f4a1624a",
+            "text": "Be over 25 and have held a full licence for at least 5 years"
+          },
+          {
+            "questionId": "4623",
+            "isRight": false,
+            "id": "b3129985-beda-409d-926a-594558b703ae",
+            "text": "Be over 21 and have had a full license for at least three years."
+          },
+          {
+            "questionId": "4623",
+            "isRight": false,
+            "id": "d8e338f4-6227-42e7-8de5-a9bf5da7c328",
+            "text": "Be over 18 and have fully comprehensive insurance"
+          },
+          {
+            "questionId": "4623",
+            "isRight": false,
+            "id": "133d7085-2ae4-4ae2-860d-37951db7fd22",
+            "text": "Be over 18 and hold an advanced driver's certificate"
+          }
+        ],
+        "id": "4623",
+        "text": " If a friend wants to teach you how to drive a car  they must:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.63",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4624",
+            "isRight": false,
+            "id": "90e3f881-1112-42c7-bd4b-564ebaa5ddfe",
+            "text": "Probably survive"
+          },
+          {
+            "questionId": "4624",
+            "isRight": false,
+            "id": "77d8c1bf-66a7-417e-986e-e33f00e40302",
+            "text": "Certainly survive"
+          },
+          {
+            "questionId": "4624",
+            "isRight": true,
+            "id": "b005c2a5-d502-4cd0-8129-cec67f214ec5",
+            "text": "Probably be killed"
+          },
+          {
+            "questionId": "4624",
+            "isRight": false,
+            "id": "00f44112-8d39-4f35-95b9-c1966b10580e",
+            "text": "Certainly be killed"
+          }
+        ],
+        "id": "4624",
+        "text": " Your car hits a pedestrian at 60 kph. The pedestrian will:"
+      },
+      {
+        "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+        "subCategoryId": "CARS6.64",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4625",
+            "isRight": true,
+            "id": "25405ebb-6625-42f9-92de-3e1bf57490d3",
+            "text": "Set your mirror to anti-dazzle"
+          },
+          {
+            "questionId": "4625",
+            "isRight": false,
+            "id": "2d800d1b-6eb0-4b59-9544-76d992f18c09",
+            "text": "Switch your rear lights on and off"
+          },
+          {
+            "questionId": "4625",
+            "isRight": false,
+            "id": "afd6df08-81c4-48b4-82f7-b1e371453acf",
+            "text": "Brake sharply to a stop"
+          },
+          {
+            "questionId": "4625",
+            "isRight": false,
+            "id": "825c4c08-bee7-4d1e-9eeb-fe423adeedd3",
+            "text": "Set your mirror to dazzle the other driver"
+          }
+        ],
+        "id": "4625",
+        "text": " You are dazzled at night by the lights of the vehicle behind you. You should:"
+      }
+    ],
+    "id": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
+    "text": "VULNERABLE ROAD USERS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4352",
+            "isRight": false,
+            "id": "773decf0-aadc-4d1c-aaf5-19b3794381a1",
+            "text": "The large vehicle can easily hide vehicles from the left"
+          },
+          {
+            "questionId": "4352",
+            "isRight": false,
+            "id": "9da98aa0-8c3b-4dad-b327-75b1ba37edfa",
+            "text": "The large vehicle is difficult to steer in a straight line"
+          },
+          {
+            "questionId": "4352",
+            "isRight": false,
+            "id": "045aa1ea-9e72-4233-8dd9-fd91e987cdbd",
+            "text": "The large vehicle can turn suddenly"
+          },
+          {
+            "questionId": "4352",
+            "isRight": true,
+            "id": "629c8934-2a53-43ee-9352-f62ac264fd43",
+            "text": "The large vehicle can easily hide an overtaking vehicle"
+          }
+        ],
+        "id": "4352",
+        "text": " You are waiting to emerge left from a minor road. A large vehicle is approaching from the right. You have time to turn, but you should\nwait. Why?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4353",
+            "isRight": false,
+            "id": "28da8a82-39ce-4930-92d5-b47030d272d5",
+            "text": "Overtake quickly before the lorry moves out"
+          },
+          {
+            "questionId": "4353",
+            "isRight": false,
+            "id": "8e234400-f7fd-41ab-8bd8-1dc6e6196d0c",
+            "text": "Pass on the left as the vehicle moves out"
+          },
+          {
+            "questionId": "4353",
+            "isRight": true,
+            "id": "819cd9be-1f29-4c09-af0e-44805cf7b4df",
+            "text": "Be prepared to stop behind it"
+          },
+          {
+            "questionId": "4353",
+            "isRight": false,
+            "id": "23d43652-c228-4738-9d4b-eb03a2eec5fe",
+            "text": "Move out and overtake on the offside"
+          }
+        ],
+        "id": "4353",
+        "text": " You are driving behind a large articulated vehicle (trailer). It is going to turn left into a narrow road. What action should you take?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4354",
+            "isRight": false,
+            "id": "1bcb70e3-3642-42b0-a555-986c9f63b744",
+            "text": "Overtake as it starts to slow down"
+          },
+          {
+            "questionId": "4354",
+            "isRight": true,
+            "id": "ef05a101-b4b5-439c-8178-6be003971562",
+            "text": "Stay well back and give it room"
+          },
+          {
+            "questionId": "4354",
+            "isRight": false,
+            "id": "fdaa9e61-02ab-48c8-ba45-6198697def0e",
+            "text": "Assume the signal is wrong and it is really turning right"
+          },
+          {
+            "questionId": "4354",
+            "isRight": false,
+            "id": "3d41c643-bdc7-4926-839f-e2d814d58cbb",
+            "text": "Get closer in order to pass it quickly"
+          }
+        ],
+        "id": "4354",
+        "text": " You are driving behind a long vehicle. It approaches a crossroads and signals left, but moves out to the right. You should:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4355",
+            "isRight": false,
+            "id": "c89fe044-9ff6-488f-89cb-1fe12a046342",
+            "text": "Overtake on the right-hand side"
+          },
+          {
+            "questionId": "4355",
+            "isRight": true,
+            "id": "83243e3d-7323-41bd-9d3d-6ccb2104e483",
+            "text": "Wait behind the long vehicle"
+          },
+          {
+            "questionId": "4355",
+            "isRight": false,
+            "id": "e4978648-6b3a-41f4-9291-058aead1909e",
+            "text": "Report the driver to the police"
+          },
+          {
+            "questionId": "4355",
+            "isRight": false,
+            "id": "b543252c-82ae-4a0d-ab2d-b6d7f3670d92",
+            "text": "Warn the driver of the wrong signal"
+          }
+        ],
+        "id": "4355",
+        "text": " You are driving behind a long vehicle approaching a crossroad. The driver signals right but moves close to the left-hand kerb. What\nshould you do?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4356",
+            "isRight": false,
+            "id": "1744000d-e4aa-4f23-b6c2-65e90cd8a02e",
+            "text": "Follow the same course as the lorry"
+          },
+          {
+            "questionId": "4356",
+            "isRight": false,
+            "id": "8a43ed96-4d37-4c65-a06c-a3dba58481f0",
+            "text": "Overtake on the left"
+          },
+          {
+            "questionId": "4356",
+            "isRight": false,
+            "id": "534f9a60-1f10-46af-add3-1e00ae725eb8",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4356",
+            "isRight": true,
+            "id": "97333a15-03d4-4dfe-9101-f963e4a5e286",
+            "text": "Keep well back"
+          }
+        ],
+        "id": "4356",
+        "text": " You are approaching a small roundabout. The long vehicle in front is signaling left but is positioned over to the right. You\nshould:",
+        "imageUrl": "Source/img/4356.png"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4357",
+            "isRight": false,
+            "id": "5021a750-c537-4560-b247-986818cf9e1a",
+            "text": "Start to overtake"
+          },
+          {
+            "questionId": "4357",
+            "isRight": true,
+            "id": "0403e010-bc61-49c7-a52a-6305237da7fc",
+            "text": "Drop back further"
+          },
+          {
+            "questionId": "4357",
+            "isRight": false,
+            "id": "b998d9a3-7c1a-48c5-a9f3-b4259e10bd84",
+            "text": "Flash your headlights"
+          },
+          {
+            "questionId": "4357",
+            "isRight": false,
+            "id": "07b838de-0852-449c-b181-03d4a36f15c6",
+            "text": "Sound your horn"
+          }
+        ],
+        "id": "4357",
+        "text": " You keep well back while waiting to overtake a large lorry. Another car fills the gap. You should:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4358",
+            "isRight": false,
+            "id": "b9e5519c-d55a-475e-a92e-5979b8f9e477",
+            "text": "To offer other drivers a safe gap if they want to overtake you"
+          },
+          {
+            "questionId": "4358",
+            "isRight": true,
+            "id": "e9b674c0-4b63-4e47-8711-9b8f4c7f6abf",
+            "text": "To get the best view of the road ahead"
+          },
+          {
+            "questionId": "4358",
+            "isRight": false,
+            "id": "e77915e2-fea3-4c00-ba0c-0030e8a73298",
+            "text": "To leave a gap in case it stops and rolls back"
+          },
+          {
+            "questionId": "4358",
+            "isRight": false,
+            "id": "346e0a49-682d-4acf-95a6-c01049f4614e",
+            "text": "To give acceleration space to overtake quickly on blind bends"
+          }
+        ],
+        "id": "4358",
+        "text": " Before overtaking a large vehicle or lorry you should keep well back. Why is this?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4359",
+            "isRight": false,
+            "id": "07b6d7f8-e4dd-41e6-9cac-83fe9675d3ef",
+            "text": "Stay behind until the driver waves you past"
+          },
+          {
+            "questionId": "4359",
+            "isRight": false,
+            "id": "b687d73f-afac-4bca-9e19-008f6096363c",
+            "text": "Flash your headlights for the oncoming traffic to give way"
+          },
+          {
+            "questionId": "4359",
+            "isRight": false,
+            "id": "658781dd-68c1-48ed-a905-1ee39f10c03d",
+            "text": "Follow it closely and keep moving out to see the road ahead"
+          },
+          {
+            "questionId": "4359",
+            "isRight": true,
+            "id": "26ec568f-ae3f-4adf-b294-ec7232910228",
+            "text": "Keep well back until you can see that it is clear"
+          }
+        ],
+        "id": "4359",
+        "text": " You wish to overtake a long, slow moving vehicle or lorry on a busy road with oncoming traffic. You should:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4360",
+            "isRight": false,
+            "id": "2b179668-d79b-47f3-8013-7112415342d6",
+            "text": "Pull over on the right behind the parked car"
+          },
+          {
+            "questionId": "4360",
+            "isRight": true,
+            "id": "03968716-ee09-4c37-a088-7a3a1417a8a6",
+            "text": "Slow down and give way"
+          },
+          {
+            "questionId": "4360",
+            "isRight": false,
+            "id": "83e379d5-d257-4387-91aa-0b5af12debb4",
+            "text": "Speed up and get past quickly"
+          },
+          {
+            "questionId": "4360",
+            "isRight": false,
+            "id": "ced32fcf-c542-4c8a-b1ce-3391f11b256f",
+            "text": "Keep going because you have the right of way"
+          }
+        ],
+        "id": "4360",
+        "text": " You are driving downhill. There is a car parked on the other side of the road partly blocking the road. Large, slow lorries are coming\ntowards you. You should:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4361",
+            "isRight": false,
+            "id": "c4db218a-cae0-48af-9349-e971693f4ea0",
+            "text": "Flash your lights and wait for the driver to signal when it is safe"
+          },
+          {
+            "questionId": "4361",
+            "isRight": true,
+            "id": "b54717be-05f9-4084-89a3-56a3fcaaf53d",
+            "text": "Stay well back from the lorry to obtain a better view"
+          },
+          {
+            "questionId": "4361",
+            "isRight": false,
+            "id": "d1d449dd-bd8a-4cd9-9d2c-51d757946ad0",
+            "text": "Drive close to the lorry in order to pass more quickly"
+          },
+          {
+            "questionId": "4361",
+            "isRight": false,
+            "id": "c80d7bd3-02ce-4118-9303-25b15271ef61",
+            "text": "Sound the horn to warn the driver that you are there"
+          }
+        ],
+        "id": "4361",
+        "text": " When about to overtake a long vehicle or lorry you should:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.15",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4362",
+            "isRight": true,
+            "id": "6799a1bd-49a8-4e2e-a550-7c4dc2a6c7d6",
+            "text": "Be ready to give way to the bus"
+          },
+          {
+            "questionId": "4362",
+            "isRight": false,
+            "id": "77486200-98a3-4ef0-a16a-0bc79597fce0",
+            "text": "Pull in closely behind the bus"
+          },
+          {
+            "questionId": "4362",
+            "isRight": true,
+            "id": "3b571eb2-fa61-453c-a781-fa9df89be4a7",
+            "text": "Watch carefully for pedestrians"
+          },
+          {
+            "questionId": "4362",
+            "isRight": false,
+            "id": "c7185bd6-1227-4534-af9f-9652b45494ba",
+            "text": "Accelerate past the bus sounding your horn"
+          }
+        ],
+        "id": "4362",
+        "text": " You are traveling behind a bus that suddenly pulls up at a bus stop. What should you do?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.16",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4363",
+            "isRight": true,
+            "id": "6e216ceb-bd23-4ca8-aae2-37fe6f0af295",
+            "text": "Be prepared to give way if the bus suddenly moves off"
+          },
+          {
+            "questionId": "4363",
+            "isRight": false,
+            "id": "93903315-faf9-48a7-8876-c30d39aaa783",
+            "text": "Continue at the same speed but sound your horn as warning"
+          },
+          {
+            "questionId": "4363",
+            "isRight": true,
+            "id": "f0c12e2d-c96b-4784-875c-d7c6309785a8",
+            "text": "Watch carefully for the sudden appearance of pedestrians"
+          },
+          {
+            "questionId": "4363",
+            "isRight": false,
+            "id": "45a45ebf-92e5-4cfe-9f6b-c6ab994ac904",
+            "text": "Pass the bus as quickly as you possibly can"
+          }
+        ],
+        "id": "4363",
+        "text": " You are driving in a city. Ahead of you a bus is at a bus stop. Which TWO of the following should you do?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4364",
+            "isRight": false,
+            "id": "9a9a1d2a-743f-41fe-9a1c-d190116bc858",
+            "text": "Signal left and wave the bus on"
+          },
+          {
+            "questionId": "4364",
+            "isRight": true,
+            "id": "b71950af-b429-4095-ab0b-e859df59159a",
+            "text": "Allow it to pull away,  if it is safe to do so"
+          },
+          {
+            "questionId": "4364",
+            "isRight": false,
+            "id": "c657d5c5-15f1-4c82-9acc-0581d7b8798b",
+            "text": "Flash your headlights as you approach"
+          },
+          {
+            "questionId": "4364",
+            "isRight": false,
+            "id": "ebf545fe-5599-448d-a258-254994929f82",
+            "text": "Get past before it moves"
+          }
+        ],
+        "id": "4364",
+        "text": " When you approach a bus that is about to move off from a bus stop you should:",
+        "imageUrl": "Source/img/4364.png"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4365",
+            "isRight": false,
+            "id": "387ee468-31a3-43b6-8215-58b15c4ceb17",
+            "text": "When stationary vehicles are too close in a queue"
+          },
+          {
+            "questionId": "4365",
+            "isRight": false,
+            "id": "0b0832e6-aed7-4354-9fcd-1b1598871a18",
+            "text": "When a vehicle is with its back doors open"
+          },
+          {
+            "questionId": "4365",
+            "isRight": false,
+            "id": "ce69b842-76ab-4711-8aae-394cfaf221e8",
+            "text": "When a vehicle delivering goods has its tailgate down"
+          },
+          {
+            "questionId": "4365",
+            "isRight": true,
+            "id": "ea289f94-2ab3-4cbe-bef7-ef57ae8fc47e",
+            "text": "When a driver is following another vehicle too closely"
+          }
+        ],
+        "id": "4365",
+        "text": " What is the effect of not keeping to the two second rule 'tailgating' when driving on a dry and good road surface?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4366",
+            "isRight": true,
+            "id": "b061997c-4a2a-4039-8aa9-8cae9f07a8ef",
+            "text": "Drop back until you can see better"
+          },
+          {
+            "questionId": "4366",
+            "isRight": false,
+            "id": "95c1a78f-6534-4ff8-a4f1-46cfd3d68ebb",
+            "text": "Speed up and overtake quickly"
+          },
+          {
+            "questionId": "4366",
+            "isRight": false,
+            "id": "f4321a43-0d19-47ff-92d8-54542a0e1d37",
+            "text": "Keep close to the lorry  away from the spray"
+          },
+          {
+            "questionId": "4366",
+            "isRight": false,
+            "id": "622f28ba-d7be-4704-9fc8-731fdb5a5a90",
+            "text": "Put your headlights on full beam"
+          }
+        ],
+        "id": "4366",
+        "text": " You are following a large lorry on a wet road. Spray makes it difficult to see. You should:",
+        "imageUrl": "Source/img/4366.png"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4367",
+            "isRight": false,
+            "id": "f99bba00-038f-4d04-af81-20420d9f5bd5",
+            "text": "Your sidelights"
+          },
+          {
+            "questionId": "4367",
+            "isRight": true,
+            "id": "d596e4c4-f3ed-4c49-897b-39adceae9dcf",
+            "text": "Your dipped headlights"
+          },
+          {
+            "questionId": "4367",
+            "isRight": false,
+            "id": "a57192fb-c7d9-4ba2-8d31-a2b190617edb",
+            "text": "Your rear fog lights"
+          },
+          {
+            "questionId": "4367",
+            "isRight": false,
+            "id": "1781a7a1-fb13-4def-ba10-a20f615ebc82",
+            "text": "Your hazard flashers"
+          }
+        ],
+        "id": "4367",
+        "text": " You are driving on a dual- carriageway with surface spray. You should use:"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4626",
+            "isRight": false,
+            "id": "aea9a170-f0bc-4342-9a3c-e98c4de7fbc2",
+            "text": "To avoid splashing pedestrians on the pavements"
+          },
+          {
+            "questionId": "4626",
+            "isRight": false,
+            "id": "b83a0d9c-7d60-4bd9-8beb-0d68f546308e",
+            "text": "To help judge the bend using the drain covers as marker points"
+          },
+          {
+            "questionId": "4626",
+            "isRight": false,
+            "id": "c9a09e23-7459-41a2-b6dd-4023ed3fe388",
+            "text": "To avoid puncturing the tyres on the edge of the drain covers"
+          },
+          {
+            "questionId": "4626",
+            "isRight": true,
+            "id": "381d385e-cadf-4e3a-98e8-e3457ac88c7d",
+            "text": "To prevent the motorcycle sliding on the metal drain covers"
+          }
+        ],
+        "id": "4626",
+        "text": " The road is wet and slippery. Why might a motorcyclist steer round drain covers on a bend?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4627",
+            "isRight": false,
+            "id": "becd3a6f-b0c6-4eaa-88e3-abbc144a4046",
+            "text": "Keep close to the motorcyclist"
+          },
+          {
+            "questionId": "4627",
+            "isRight": true,
+            "id": "742cb421-8f36-4569-bfe5-3643cfb100a3",
+            "text": "Keep well back"
+          },
+          {
+            "questionId": "4627",
+            "isRight": false,
+            "id": "1d5713bf-7999-451f-aa6d-c99008336fde",
+            "text": "Stay level with the motorcycle"
+          },
+          {
+            "questionId": "4627",
+            "isRight": false,
+            "id": "f77e06af-98d3-41ec-84f1-3369e26694e7",
+            "text": "Overtake the motorcyclist immediately"
+          }
+        ],
+        "id": "4627",
+        "text": " It is very windy. You are behind a motorcyclist who is overtaking a high vehicle. What should you do?"
+      },
+      {
+        "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+        "subCategoryId": "CARS7.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4628",
+            "isRight": false,
+            "id": "eacd68ec-fcab-4d62-9f9c-3adee0d49ab0",
+            "text": "Keep close as you pass"
+          },
+          {
+            "questionId": "4628",
+            "isRight": true,
+            "id": "414cb42a-0c3a-4c2a-866a-bbf3283eb304",
+            "text": "Allow extra room"
+          },
+          {
+            "questionId": "4628",
+            "isRight": false,
+            "id": "bdf40010-3add-42b2-bb9e-b32dc69f51f2",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4628",
+            "isRight": false,
+            "id": "d39583ed-3595-4f3c-b5cd-d80b32824415",
+            "text": "Overtake slowly"
+          }
+        ],
+        "id": "4628",
+        "text": " It is very blustery and windy. You are about to overtake a motorcyclist. You should:"
+      }
+    ],
+    "id": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
+    "text": "OTHER TYPE OF VEHICLES"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.1",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4368",
+            "isRight": false,
+            "id": "ef487605-fab4-4bdd-ac1f-ee056fdfeff2",
+            "text": "It damages the engine"
+          },
+          {
+            "questionId": "4368",
+            "isRight": true,
+            "id": "78471884-e174-4512-bb77-0e30da8df750",
+            "text": "You have less braking and steering control"
+          },
+          {
+            "questionId": "4368",
+            "isRight": false,
+            "id": "ba90ad1d-78ba-4d15-b9c2-1bd82b52ef9a",
+            "text": "It puts more wear and tear on the tyres"
+          },
+          {
+            "questionId": "4368",
+            "isRight": true,
+            "id": "aa34ad19-bb6c-4468-a456-debef6d32f2d",
+            "text": "The vehicle will pick up speed"
+          },
+          {
+            "questionId": "4368",
+            "isRight": false,
+            "id": "a144530e-3b35-4d5e-9b8f-56380d29b6c6",
+            "text": "Fuel consumption will be higher"
+          }
+        ],
+        "id": "4368",
+        "text": " What are TWO main reasons why coasting downhill is dangerous or wrong?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4369",
+            "isRight": false,
+            "id": "457ce57c-3fdc-48b4-a850-a730dd3228ee",
+            "text": "The engine will run faster"
+          },
+          {
+            "questionId": "4369",
+            "isRight": false,
+            "id": "ea2184e7-e636-4584-a4cb-8e868b0e5dd4",
+            "text": "It will make the engine stall"
+          },
+          {
+            "questionId": "4369",
+            "isRight": false,
+            "id": "4e7c5c2c-5899-4eec-8d01-2a2209a552ff",
+            "text": "It will cause the car to skid"
+          },
+          {
+            "questionId": "4369",
+            "isRight": true,
+            "id": "7e2a8c77-23df-4f71-9d71-83c0309cd9c7",
+            "text": "There is no engine braking"
+          }
+        ],
+        "id": "4369",
+        "text": " Why is coasting wrong or dangerous?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.4",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4370",
+            "isRight": true,
+            "id": "d8517695-433e-421b-81a4-995e7da3a1c7",
+            "text": "The engine will work harder"
+          },
+          {
+            "questionId": "4370",
+            "isRight": false,
+            "id": "116eb6d5-15f4-4260-a26d-9523ef0835c6",
+            "text": "The steering will feel heavier"
+          },
+          {
+            "questionId": "4370",
+            "isRight": true,
+            "id": "b8b767fd-e406-4603-bd21-7083359288c1",
+            "text": "You will slow down sooner"
+          },
+          {
+            "questionId": "4370",
+            "isRight": false,
+            "id": "22f33f98-e90f-4397-a30b-baac6956f874",
+            "text": "Higher gears will pull better"
+          },
+          {
+            "questionId": "4370",
+            "isRight": false,
+            "id": "46efd097-c6dc-45eb-b7b9-4c3bec6eeb64",
+            "text": "Overtaking will be easier"
+          }
+        ],
+        "id": "4370",
+        "text": " Hills can affect the performance of your vehicle. Which TWO apply when driving up steep hills?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4371",
+            "isRight": false,
+            "id": "42a97b93-a9b2-4ffd-9c3d-7bd38d0e6953",
+            "text": "After changing gears"
+          },
+          {
+            "questionId": "4371",
+            "isRight": true,
+            "id": "b3b8b449-237f-47ef-89c1-f9e6b40bc564",
+            "text": "Before the bend"
+          },
+          {
+            "questionId": "4371",
+            "isRight": false,
+            "id": "e17c91f6-a010-4dbe-af58-250cde52c3db",
+            "text": "After the bend"
+          },
+          {
+            "questionId": "4371",
+            "isRight": false,
+            "id": "f73da636-de99-43da-9013-dce61e3b0106",
+            "text": "On the bend"
+          }
+        ],
+        "id": "4371",
+        "text": " You are approaching a bend at a high speed. You should begin to brake."
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4372",
+            "isRight": false,
+            "id": "999b44dd-4851-4af8-833c-532cc5f4f986",
+            "text": "Stay close to the other vehicle until it moves on"
+          },
+          {
+            "questionId": "4372",
+            "isRight": false,
+            "id": "acbc0759-9fd5-432d-8e42-09480d333dc9",
+            "text": "Try to overtake safely as soon as you can"
+          },
+          {
+            "questionId": "4372",
+            "isRight": true,
+            "id": "035aeecb-0a58-4fc0-89c9-74e01f9eb174",
+            "text": "Drop back to regain a safe distance"
+          },
+          {
+            "questionId": "4372",
+            "isRight": false,
+            "id": "c874bd17-d676-43ed-9c28-2637f9f03589",
+            "text": "Flash your headlights as a warning"
+          }
+        ],
+        "id": "4372",
+        "text": " You are following a vehicle at a safe distance on a wet and slippery road. Another driver overtakes you and pulls into the gap you have\nleft. What should you do?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.8",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4373",
+            "isRight": true,
+            "id": "a464eafa-64e8-499a-a4af-f9d35272528e",
+            "text": "When the vehicle in front is to turn right"
+          },
+          {
+            "questionId": "4373",
+            "isRight": false,
+            "id": "2727c4e5-2c4c-40b7-83eb-1f490effe3c3",
+            "text": "When a slower vehicle is in the right-hand lane of a dual carriageway"
+          },
+          {
+            "questionId": "4373",
+            "isRight": true,
+            "id": "49e7a7bd-6505-49c6-8110-d245a810a375",
+            "text": "When you are in a one-way street"
+          },
+          {
+            "questionId": "4373",
+            "isRight": true,
+            "id": "26b4f8bc-55b1-4d0d-a980-0bd3d8458dff",
+            "text": "In slow-moving traffic queues when traffic in the right-hand lane is moving more slowly"
+          }
+        ],
+        "id": "4373",
+        "text": " In which THREE of these situations may you overtake another vehicle on the inside, or the left?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.9",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4374",
+            "isRight": false,
+            "id": "7f581a2d-d64b-4b70-9073-ec47decdb698",
+            "text": "The street lighting"
+          },
+          {
+            "questionId": "4374",
+            "isRight": true,
+            "id": "c9f02690-c26f-4b71-a31b-0d4f5735a820",
+            "text": "The weather"
+          },
+          {
+            "questionId": "4374",
+            "isRight": false,
+            "id": "d1ba214b-4fe9-404a-bef6-359d8ef2e4d3",
+            "text": "The time of day"
+          },
+          {
+            "questionId": "4374",
+            "isRight": true,
+            "id": "48eb9af6-0ffe-4f94-a80e-4cb37ec2445b",
+            "text": "The tyres on your vehicle"
+          },
+          {
+            "questionId": "4374",
+            "isRight": true,
+            "id": "d37deeb3-9d6d-4a69-963c-854f834ab0ec",
+            "text": "How fast you are going"
+          }
+        ],
+        "id": "4374",
+        "text": " Which THREE of the following will affect your stopping distance?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4375",
+            "isRight": true,
+            "id": "e77d842a-d194-49a1-8010-f9c8357f4978",
+            "text": "Doubled"
+          },
+          {
+            "questionId": "4375",
+            "isRight": false,
+            "id": "4d39761f-4d81-4f14-960d-abfb25c43ccf",
+            "text": "No different"
+          },
+          {
+            "questionId": "4375",
+            "isRight": false,
+            "id": "ebfa8146-be51-495e-b744-e1022fa73ca5",
+            "text": "Up to ten times greater"
+          },
+          {
+            "questionId": "4375",
+            "isRight": false,
+            "id": "6e8265e9-e387-4eb6-afda-d127f52479e4",
+            "text": "Halved"
+          }
+        ],
+        "id": "4375",
+        "text": " You are in a very heavy downpour. Your overall stopping distance is likely to be:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4376",
+            "isRight": false,
+            "id": "172fe18c-3e54-408e-89a9-4aa8a1052a2f",
+            "text": "Keep two seconds behind other vehicles"
+          },
+          {
+            "questionId": "4376",
+            "isRight": false,
+            "id": "9871ddef-3e4e-4f0a-93e0-59f04b67c427",
+            "text": "Never use demisters and windscreens wipers."
+          },
+          {
+            "questionId": "4376",
+            "isRight": true,
+            "id": "c31b183e-5d8f-478d-a1c2-2807aa09a4bc",
+            "text": "Leave plenty of time for your journey"
+          },
+          {
+            "questionId": "4376",
+            "isRight": false,
+            "id": "78a8ccdd-69e2-4f0f-925d-f3d15973cba9",
+            "text": "Follow closely other vehicle's tail lights"
+          }
+        ],
+        "id": "4376",
+        "text": " You have to make a journey in foggy conditions. You should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4377",
+            "isRight": false,
+            "id": "de4a41d3-19ec-4d87-a89e-b2bfb9f936a4",
+            "text": "Keep together with the faster vehicles"
+          },
+          {
+            "questionId": "4377",
+            "isRight": false,
+            "id": "44526d7c-1e4f-4eb7-ac53-048a8b361ce3",
+            "text": "Use your main beam instead of dipped headlights"
+          },
+          {
+            "questionId": "4377",
+            "isRight": false,
+            "id": "6cb0fc8a-a006-4a4b-8a99-66f93a48d39d",
+            "text": "Keep close to the vehicle in front"
+          },
+          {
+            "questionId": "4377",
+            "isRight": true,
+            "id": "b05862fe-3b7f-430c-ac01-b16f4afbc5bc",
+            "text": "Reduce your speed and increase the gap"
+          }
+        ],
+        "id": "4377",
+        "text": " You are following other vehicles in fog with your lights on. How else can you reduce the chances of being involved in an accident?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4378",
+            "isRight": false,
+            "id": "d32891b2-4378-47fb-8bb4-09b3c1a5b9f4",
+            "text": "Because the engine's colder"
+          },
+          {
+            "questionId": "4378",
+            "isRight": false,
+            "id": "ea8cfb87-c614-4d08-93f8-7ad3c87e8f45",
+            "text": "Because you could be dazzled by other people's fog lights"
+          },
+          {
+            "questionId": "4378",
+            "isRight": false,
+            "id": "dbdb43e4-eaef-4a64-824b-f1cb6be648c6",
+            "text": "Because the brakes do not work as well"
+          },
+          {
+            "questionId": "4378",
+            "isRight": true,
+            "id": "44cdf32b-b599-4f4d-b0ad-6bda91a818fd",
+            "text": "Because it is more difficult to see events ahead"
+          }
+        ],
+        "id": "4378",
+        "text": " Why should you always reduce your speed when driving in fog?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4379",
+            "isRight": false,
+            "id": "574e9ebd-706b-4032-aca7-414ace6e9256",
+            "text": "In case its brake lights dazzle you"
+          },
+          {
+            "questionId": "4379",
+            "isRight": false,
+            "id": "cc14ea16-3df5-4cdc-8e74-cc66f6bde5aa",
+            "text": "In case its fog lights dazzle you"
+          },
+          {
+            "questionId": "4379",
+            "isRight": true,
+            "id": "4e8179f0-387f-4c98-9a61-b6d9ed381f00",
+            "text": "In case it stops suddenly"
+          },
+          {
+            "questionId": "4379",
+            "isRight": false,
+            "id": "02ec02bd-e052-4774-be18-fa205a45a24a",
+            "text": "In case it changes direction suddenly"
+          }
+        ],
+        "id": "4379",
+        "text": " You are driving in fog. Why should you keep well back from the vehicle in front?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4380",
+            "isRight": false,
+            "id": "28b04ae2-a2b6-4ed6-bb9e-cd9783f12618",
+            "text": "Be useful when towing a trailer"
+          },
+          {
+            "questionId": "4380",
+            "isRight": false,
+            "id": "f9caa335-0f68-499d-858c-56487065ae99",
+            "text": "Make following drivers keep back"
+          },
+          {
+            "questionId": "4380",
+            "isRight": true,
+            "id": "80374782-c272-4128-bcb0-142e774fe3d0",
+            "text": "Dazzle others drivers"
+          },
+          {
+            "questionId": "4380",
+            "isRight": false,
+            "id": "81c2aecb-15ef-4c91-8001-579d91f90270",
+            "text": "Give extra protection"
+          }
+        ],
+        "id": "4380",
+        "text": " Using rear fog lights in clear daylight or tunnels will:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.30",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4381",
+            "isRight": false,
+            "id": "cc0b6010-7372-4a0c-8109-f76ecb793969",
+            "text": "Wait until a bend so that you can see the oncoming headlights"
+          },
+          {
+            "questionId": "4381",
+            "isRight": false,
+            "id": "5eef4aca-8790-401e-aafd-112f5aaa67d5",
+            "text": "Put headlights on full beam"
+          },
+          {
+            "questionId": "4381",
+            "isRight": true,
+            "id": "3ff70a25-f77e-44a7-beeb-0cfc8e763e46",
+            "text": "Beware of the bends in the road ahead"
+          },
+          {
+            "questionId": "4381",
+            "isRight": false,
+            "id": "d701acb5-9154-4271-b568-c27a9ce49b22",
+            "text": "Sound your horn twice before moving out"
+          },
+          {
+            "questionId": "4381",
+            "isRight": true,
+            "id": "97a65ede-dcfa-46e1-9db5-34b1ade41388",
+            "text": "Be careful because you can see less"
+          }
+        ],
+        "id": "4381",
+        "text": " Which TWO of the following are correct? When overtaking at night you should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4382",
+            "isRight": false,
+            "id": "053000ad-86c9-46b7-9c4b-676746887b5b",
+            "text": "Your rear fog lights are switched on"
+          },
+          {
+            "questionId": "4382",
+            "isRight": false,
+            "id": "ee105f8b-2449-408e-b274-f5abc7aaa6c2",
+            "text": "You have switched your lights to full beam before overtaking"
+          },
+          {
+            "questionId": "4382",
+            "isRight": false,
+            "id": "ec4a8f48-1aa5-4afd-9dcf-9ea1f0d3dbf7",
+            "text": "You flash your headlamps before overtaking"
+          },
+          {
+            "questionId": "4382",
+            "isRight": true,
+            "id": "7a04b888-ce4b-4efb-a737-8554d2f36229",
+            "text": "You do not dazzle other road users"
+          }
+        ],
+        "id": "4382",
+        "text": " You are overtaking a car at night. You must be sure that:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4383",
+            "isRight": false,
+            "id": "42138d00-60d6-4fe2-91df-8023f82351e1",
+            "text": "Put your hand over your eyes"
+          },
+          {
+            "questionId": "4383",
+            "isRight": true,
+            "id": "3c577351-0c6c-4df4-abf2-386ea54b9b6a",
+            "text": "Slow down or stop"
+          },
+          {
+            "questionId": "4383",
+            "isRight": false,
+            "id": "2d295e68-6caa-49b8-b45f-99a1cb423604",
+            "text": "Switch on your main beam headlights"
+          },
+          {
+            "questionId": "4383",
+            "isRight": false,
+            "id": "cc39daa7-4401-4eaf-b4ac-d9d8620131e5",
+            "text": "Pull down your sun visor"
+          }
+        ],
+        "id": "4383",
+        "text": " At night  you are dazzled by headlights of vehicles coming towards you. You should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.33",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4384",
+            "isRight": true,
+            "id": "28d35ad5-3782-4c7c-b85f-6aceab3e01e2",
+            "text": "Slow down or stop"
+          },
+          {
+            "questionId": "4384",
+            "isRight": false,
+            "id": "a1a36431-3831-4f76-8199-880fbc250741",
+            "text": "Flash your lights"
+          },
+          {
+            "questionId": "4384",
+            "isRight": false,
+            "id": "dc37d310-298e-4ed0-b81d-7e5043f711cf",
+            "text": "Drive faster past the oncoming car"
+          },
+          {
+            "questionId": "4384",
+            "isRight": false,
+            "id": "673b74ea-7759-4cfa-ad27-270e287bf130",
+            "text": "Brake hard"
+          }
+        ],
+        "id": "4384",
+        "text": " You are dazzled by headlights of oncoming vehicles when driving at night. What should you do?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.34",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4385",
+            "isRight": false,
+            "id": "50f6acf7-0afd-4aed-88c6-55fe41df6583",
+            "text": "Signal right and sound your horn"
+          },
+          {
+            "questionId": "4385",
+            "isRight": false,
+            "id": "d2662ab3-4f97-4907-8128-d34ff02c4d42",
+            "text": "Flash your headlights before overtaking"
+          },
+          {
+            "questionId": "4385",
+            "isRight": false,
+            "id": "fba76903-047d-496b-9ab4-547478e071c1",
+            "text": "Overtake on the left"
+          },
+          {
+            "questionId": "4385",
+            "isRight": true,
+            "id": "a1167006-ce72-4775-ac7d-8d44b8e8fb00",
+            "text": "Wait for the signal to be cancelled before overtaking"
+          }
+        ],
+        "id": "4385",
+        "text": " You are on a narrow road at night. A slower-moving vehicle ahead has been signalling right for some time. What should you do?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.35",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4386",
+            "isRight": true,
+            "id": "d42dea47-4e87-4a4f-8674-6c1e93be0218",
+            "text": "To pull into if the car behind wants to overtake"
+          },
+          {
+            "questionId": "4386",
+            "isRight": false,
+            "id": "b0514f41-e21d-412f-8b44-219c098612b2",
+            "text": "To turn the car around in  if you are lost"
+          },
+          {
+            "questionId": "4386",
+            "isRight": false,
+            "id": "74378c7f-a165-408f-890c-2f0d44e38c24",
+            "text": "For stopping and checking your route"
+          },
+          {
+            "questionId": "4386",
+            "isRight": true,
+            "id": "c5959fb1-2e6b-4efb-b217-0d7805e4ddb5",
+            "text": "To pull into if an oncoming vehicle wants to proceed"
+          },
+          {
+            "questionId": "4386",
+            "isRight": false,
+            "id": "6a8a1b90-13d7-4eeb-a1b5-73093e5c8738",
+            "text": "For taking a rest from driving"
+          }
+        ],
+        "id": "4386",
+        "text": " Which TWO are correct? The passing places on a narrow single- track road are:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.36",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4387",
+            "isRight": false,
+            "id": "ccf75888-2b2c-4886-b942-8f9c892ff295",
+            "text": "Put on your hazard warning lights"
+          },
+          {
+            "questionId": "4387",
+            "isRight": false,
+            "id": "d65324bb-9cfc-48e0-8f20-899c016869a0",
+            "text": "Do an emergency stop"
+          },
+          {
+            "questionId": "4387",
+            "isRight": true,
+            "id": "1c78fc67-9500-4120-81a6-138157aa7bb6",
+            "text": "Stop at a passing place"
+          },
+          {
+            "questionId": "4387",
+            "isRight": false,
+            "id": "5ebbcb1d-7137-4a04-9342-6eb5d5e53ab7",
+            "text": "Reverse back to the main road"
+          }
+        ],
+        "id": "4387",
+        "text": " You see a vehicle coming towards you on a narrow single-track road. You should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4629",
+            "isRight": false,
+            "id": "483a6c31-c730-4c3f-bb6f-d70d38914277",
+            "text": "Flatten the battery"
+          },
+          {
+            "questionId": "4629",
+            "isRight": false,
+            "id": "9a58665d-658b-4025-a389-a60f8099af9c",
+            "text": "Increase tyre wear"
+          },
+          {
+            "questionId": "4629",
+            "isRight": false,
+            "id": "38707d7f-de95-4e0e-9c92-3546bc4174d0",
+            "text": "Damage the suspension"
+          },
+          {
+            "questionId": "4629",
+            "isRight": true,
+            "id": "06b89304-b27b-4823-be3d-2b6c4033a33c",
+            "text": "Reduce steering control"
+          }
+        ],
+        "id": "4629",
+        "text": " You should avoid 'coasting' your car because it could:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4630",
+            "isRight": false,
+            "id": "f7cdb13e-1286-4095-87cf-76281cf1007a",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4630",
+            "isRight": false,
+            "id": "dbca6d96-4435-42ec-bb8c-94b874114f22",
+            "text": "Continue as you are"
+          },
+          {
+            "questionId": "4630",
+            "isRight": true,
+            "id": "60b31871-fd1b-4c09-a30f-fd52cafdda2d",
+            "text": "Drop back"
+          },
+          {
+            "questionId": "4630",
+            "isRight": false,
+            "id": "99cbf2ec-536f-4bab-a6d8-95749cc6d678",
+            "text": "Move to the right-hand lane"
+          }
+        ],
+        "id": "4630",
+        "text": " You are driving in the left-hand lane of a dual carriageway. Another car overtakes and pulls in front of you leaving you without enough\nseparation distance. You should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4631",
+            "isRight": false,
+            "id": "cc817a1a-55f3-4bb1-a372-0ed3949e0208",
+            "text": "Are always faster than other drivers"
+          },
+          {
+            "questionId": "4631",
+            "isRight": false,
+            "id": "48bcbc3e-6f6e-4bd1-a0e9-6dc6bc305e88",
+            "text": "Are more likely to break down than other motorists"
+          },
+          {
+            "questionId": "4631",
+            "isRight": false,
+            "id": "cde685a4-9f64-4e46-8880-806b154097dc",
+            "text": "Are less experienced that other drivers"
+          },
+          {
+            "questionId": "4631",
+            "isRight": true,
+            "id": "dfa7f527-b29c-40ce-b541-06933784f643",
+            "text": "Are more difficult to see than other drivers"
+          }
+        ],
+        "id": "4631",
+        "text": " Motorcyclists are more at risk to be injured from other road users because they:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4632",
+            "isRight": false,
+            "id": "236fd13d-243f-4122-9b15-23397324899b",
+            "text": "Apply your handbrake"
+          },
+          {
+            "questionId": "4632",
+            "isRight": false,
+            "id": "13186df0-5c50-426f-beb8-e01080512e1f",
+            "text": "Steer away from it"
+          },
+          {
+            "questionId": "4632",
+            "isRight": true,
+            "id": "eeebbeec-460c-4bba-918f-1f351018fec0",
+            "text": "Steer into it"
+          },
+          {
+            "questionId": "4632",
+            "isRight": false,
+            "id": "1a9b249e-22af-44f4-9675-2378d0bf10f9",
+            "text": "Not steer at all"
+          }
+        ],
+        "id": "4632",
+        "text": " To correct a rear-wheel skid you should:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4633",
+            "isRight": false,
+            "id": "5384d28a-ab6c-4134-aebf-e6704cbb6fdb",
+            "text": "Fading"
+          },
+          {
+            "questionId": "4633",
+            "isRight": false,
+            "id": "a9a57cc9-c5fe-44a9-adee-063cca3466d9",
+            "text": "Weaving"
+          },
+          {
+            "questionId": "4633",
+            "isRight": true,
+            "id": "04cb518a-13f1-42cd-b512-c2514ed844d3",
+            "text": "Aquaplaning"
+          },
+          {
+            "questionId": "4633",
+            "isRight": false,
+            "id": "508c811a-f742-4fc3-920e-e96bb558c1b1",
+            "text": "Hosing"
+          }
+        ],
+        "id": "4633",
+        "text": " You are driving in very wet weather. Your vehicle begins to slide. This affect is called:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.14",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4634",
+            "isRight": false,
+            "id": "3d4435f0-7fb2-4e44-a562-e2bc6b35bbbd",
+            "text": "Top up the radiator with antifreeze"
+          },
+          {
+            "questionId": "4634",
+            "isRight": true,
+            "id": "e391ca37-5257-41f6-b7f4-d4ecb73b8795",
+            "text": "Check that your lights are working"
+          },
+          {
+            "questionId": "4634",
+            "isRight": false,
+            "id": "2ff7f653-8da6-49da-998d-54a38a5f657e",
+            "text": "Check the battery"
+          },
+          {
+            "questionId": "4634",
+            "isRight": true,
+            "id": "e304dfe3-33b4-491b-bb37-ad43c23a5b10",
+            "text": "Make sure that the windows are clean"
+          },
+          {
+            "questionId": "4634",
+            "isRight": false,
+            "id": "08058645-34fa-4552-9ca0-09a62fdd81d9",
+            "text": "Make sure that you have a warning triangle in the vehicle"
+          }
+        ],
+        "id": "4634",
+        "text": " You have to make a journey in fog. What are the TWO most important things you should do before you set out?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4635",
+            "isRight": true,
+            "id": "6cf65b32-bd01-419a-97bb-1f198e739fdb",
+            "text": "Visibility is seriously reduced"
+          },
+          {
+            "questionId": "4635",
+            "isRight": false,
+            "id": "aa141b6e-aad1-4fc3-a628-7243caf72716",
+            "text": "An audible warning device is used"
+          },
+          {
+            "questionId": "4635",
+            "isRight": false,
+            "id": "dbc5b9ab-c272-49aa-b135-40a65bf5ad31",
+            "text": "They are not as bright as the headlights"
+          },
+          {
+            "questionId": "4635",
+            "isRight": false,
+            "id": "af19c2ae-9a1f-4213-85f1-23fee480dcf5",
+            "text": "They are fitted above the bumper"
+          }
+        ],
+        "id": "4635",
+        "text": " Front fog lights may be used ONLY if:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4636",
+            "isRight": false,
+            "id": "d1d8d172-e578-4c77-8052-653067cd2f69",
+            "text": "During 'lighting up' times only"
+          },
+          {
+            "questionId": "4636",
+            "isRight": true,
+            "id": "7f765d97-128d-4ab2-8e86-2068729ef732",
+            "text": "When visibility is seriously reduced"
+          },
+          {
+            "questionId": "4636",
+            "isRight": false,
+            "id": "23c1e73f-28cd-47b0-ba15-38621c2d6c84",
+            "text": "Between dusk and dawn"
+          },
+          {
+            "questionId": "4636",
+            "isRight": false,
+            "id": "b46d968f-fc5c-4cc8-a552-1d387c572f8e",
+            "text": "If they are not as bright as the headlights"
+          }
+        ],
+        "id": "4636",
+        "text": " Front fog lights may be used ONLY if:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4637",
+            "isRight": false,
+            "id": "01f4ea7e-cc51-49cb-a1b5-bdc757d1adbe",
+            "text": "They were fitted by the vehicle manufacturer"
+          },
+          {
+            "questionId": "4637",
+            "isRight": false,
+            "id": "ca4dba9b-13d0-44ea-81b4-561cabc96a4f",
+            "text": "They are operated with rear fog lights"
+          },
+          {
+            "questionId": "4637",
+            "isRight": false,
+            "id": "88e38e32-00c2-4789-bb3c-e124bd09d0fb",
+            "text": "Your headlights are not working"
+          },
+          {
+            "questionId": "4637",
+            "isRight": true,
+            "id": "7ece5783-e6f4-48fe-aa1a-e255a5e6b176",
+            "text": "Visibility is seriously reduced"
+          }
+        ],
+        "id": "4637",
+        "text": " Front fog lights may be used ONLY if:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4638",
+            "isRight": false,
+            "id": "60e454fe-1fd5-4528-ab64-ab14fe3dcb73",
+            "text": "Fitted by manufacturer"
+          },
+          {
+            "questionId": "4638",
+            "isRight": false,
+            "id": "8225e9f4-f2b8-40e7-97c0-50891515741d",
+            "text": "You wish to overtake in bad weather"
+          },
+          {
+            "questionId": "4638",
+            "isRight": true,
+            "id": "2353a49b-5438-4aaf-bc5d-b435a5b08908",
+            "text": "Visibility is seriously reduced"
+          },
+          {
+            "questionId": "4638",
+            "isRight": false,
+            "id": "a8c37313-af95-4ec8-93dc-62e46f7154e4",
+            "text": "They prevent headlights glare on a wet road"
+          }
+        ],
+        "id": "4638",
+        "text": " Front fog lights may be used ONLY if:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4639",
+            "isRight": false,
+            "id": "bb7d2105-d86a-423e-8ca8-6f5d6dd3c0ed",
+            "text": "Driving after midnight"
+          },
+          {
+            "questionId": "4639",
+            "isRight": true,
+            "id": "706d9c40-f6d2-4a4e-9a50-840074b8d294",
+            "text": "Visibility is seriously reduced"
+          },
+          {
+            "questionId": "4639",
+            "isRight": false,
+            "id": "9ac75fcd-c3c9-453f-83bf-96e328897a78",
+            "text": "Daylight is fading"
+          },
+          {
+            "questionId": "4639",
+            "isRight": false,
+            "id": "89906815-7902-4d07-9259-3747e079a151",
+            "text": "In very light rain"
+          }
+        ],
+        "id": "4639",
+        "text": " Fog lights should be used ONLY when:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4640",
+            "isRight": false,
+            "id": "dab89f32-09dc-4957-8dea-97f0d353a204",
+            "text": "Increase your awareness"
+          },
+          {
+            "questionId": "4640",
+            "isRight": true,
+            "id": "30a179c0-6f82-445d-b16e-bfe76a92bd5d",
+            "text": "Dazzle other drivers"
+          },
+          {
+            "questionId": "4640",
+            "isRight": false,
+            "id": "2c177ea4-e099-4886-99ed-8f488dde0d76",
+            "text": "Improve your visibility"
+          },
+          {
+            "questionId": "4640",
+            "isRight": false,
+            "id": "38f5943d-3d7a-4792-b750-0cc3893184cd",
+            "text": "Flatten the battery"
+          }
+        ],
+        "id": "4640",
+        "text": " Using front/rear fog lights in good visibility will:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.26",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4641",
+            "isRight": true,
+            "id": "c30d57e2-a976-4141-86a6-6f56ce073596",
+            "text": "Dazzle following drivers"
+          },
+          {
+            "questionId": "4641",
+            "isRight": false,
+            "id": "239d7eb7-585e-4ac7-847f-fc565ba6bf2f",
+            "text": "Help your indicators to be seen more clearly"
+          },
+          {
+            "questionId": "4641",
+            "isRight": true,
+            "id": "85fc6ff6-b0db-4461-acef-d1dc3fc170c6",
+            "text": "Make other drivers think you are braking"
+          },
+          {
+            "questionId": "4641",
+            "isRight": false,
+            "id": "a31ee2d0-1d37-453f-b38e-10cfb0664a71",
+            "text": "Give a better view of the road ahead"
+          },
+          {
+            "questionId": "4641",
+            "isRight": false,
+            "id": "4d013d14-6046-425f-b36c-97cee1435209",
+            "text": "Reduce glare from the road surface"
+          }
+        ],
+        "id": "4641",
+        "text": " You are driving on a clear dry night with your rear fog lights switched on. This may:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.27",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4642",
+            "isRight": true,
+            "id": "1f4d42ba-e798-49bb-8a61-b2860b0c96b1",
+            "text": "Following drivers can be dazzled"
+          },
+          {
+            "questionId": "4642",
+            "isRight": false,
+            "id": "51fa5fb0-97cc-458b-be7e-b1b0e9b529e5",
+            "text": "Electrical systems could be overloaded"
+          },
+          {
+            "questionId": "4642",
+            "isRight": false,
+            "id": "c7c4e4d9-a7a7-45b3-89ef-69fbe852f78d",
+            "text": "The battery could fail"
+          },
+          {
+            "questionId": "4642",
+            "isRight": false,
+            "id": "a066c33d-ba35-44ff-be90-1f06a97a4148",
+            "text": "Direction indicators may not work properly"
+          },
+          {
+            "questionId": "4642",
+            "isRight": true,
+            "id": "d3ef6a6c-9a99-441e-a3d7-0a9a80e4e4c3",
+            "text": "Brake lights are less clear"
+          }
+        ],
+        "id": "4642",
+        "text": " Why is it dangerous to leave rear fog lights on when they are not needed?"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4643",
+            "isRight": false,
+            "id": "bc751976-d624-479c-a633-fa48f65035c6",
+            "text": "Increase your speed"
+          },
+          {
+            "questionId": "4643",
+            "isRight": false,
+            "id": "e9bdfe36-c3da-45ff-b50b-bf4264ef651a",
+            "text": "Keep them on"
+          },
+          {
+            "questionId": "4643",
+            "isRight": false,
+            "id": "f135cc08-bfdf-46b2-ac87-c1e99e0dc886",
+            "text": "Maintain your speed"
+          },
+          {
+            "questionId": "4643",
+            "isRight": true,
+            "id": "ac8065c1-7721-4cd1-825b-33a121fdd4f7",
+            "text": "Switch them off"
+          }
+        ],
+        "id": "4643",
+        "text": " You are driving in thick fog using fog lights. When visibility improves you MUST:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4644",
+            "isRight": false,
+            "id": "18bd431a-f04d-4491-a7a0-27ba434e9f80",
+            "text": "Switched off in night-time fog"
+          },
+          {
+            "questionId": "4644",
+            "isRight": false,
+            "id": "db1dfffd-eea4-4cc1-8581-9a1b37eb9d43",
+            "text": "Used outside built up areas only"
+          },
+          {
+            "questionId": "4644",
+            "isRight": false,
+            "id": "151965e9-b497-4d29-9a4b-0ae0817faaf1",
+            "text": "Connected to an audible warning signal"
+          },
+          {
+            "questionId": "4644",
+            "isRight": true,
+            "id": "20494302-61d9-45b7-a7b9-0c1929d59e7f",
+            "text": "Switched off if visibility is not seriously reduced"
+          }
+        ],
+        "id": "4644",
+        "text": " Front and rear fog lights MUST be:"
+      },
+      {
+        "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+        "subCategoryId": "CARS8.38",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4645",
+            "isRight": true,
+            "id": "944c343a-3098-4a9b-95d3-e321cf466e67",
+            "text": "Both hands on the steering wheel at all times and only when a change of gear or operation of controls is necessary"
+          },
+          {
+            "questionId": "4645",
+            "isRight": false,
+            "id": "2ab05cbb-ba24-4ff1-9c10-fbdfcbd3cf6a",
+            "text": "One hand on the steering wheel and the other simply hanging out of the window to catch the breeze and look cool"
+          },
+          {
+            "questionId": "4645",
+            "isRight": false,
+            "id": "93a98577-e50f-4e5c-bfcc-2bb6b520c056",
+            "text": "One hand on the steering wheel and the other being used to hold a mobile phone."
+          },
+          {
+            "questionId": "4645",
+            "isRight": false,
+            "id": "57d4c610-f577-43b1-b928-53afcc2d8b7c",
+            "text": "One hand on the steering wheel and the other grasping the gear lever for the most part to facilitate instant gear changing"
+          }
+        ],
+        "id": "4645",
+        "text": " Which statement represents being in safe control of your vehicle?"
+      }
+    ],
+    "id": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
+    "text": "VEHICLE HANDLING"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4388",
+            "isRight": false,
+            "id": "a892f825-d2b6-4552-bdac-e77bc787b9b9",
+            "text": "Position your vehicle in the centre lane"
+          },
+          {
+            "questionId": "4388",
+            "isRight": false,
+            "id": "7fdddbf3-16f9-4705-9755-32bb9d5e2d23",
+            "text": "Readjust your mirrors"
+          },
+          {
+            "questionId": "4388",
+            "isRight": false,
+            "id": "39560396-c28d-4d9f-8abb-4670e60e049e",
+            "text": "Try to overtake"
+          },
+          {
+            "questionId": "4388",
+            "isRight": true,
+            "id": "a0dbf1aa-c986-4994-bf2c-a5d5708f480e",
+            "text": "Keep in the left lane"
+          }
+        ],
+        "id": "4388",
+        "text": " As soon as you join a dual carriageway you should normally:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4389",
+            "isRight": false,
+            "id": "834e27c9-58b3-45f2-ae1f-b906cd187d89",
+            "text": "Come to a stop before joining the dual carriageway"
+          },
+          {
+            "questionId": "4389",
+            "isRight": false,
+            "id": "9485301c-33c0-46f6-b04d-27eaf9d08d53",
+            "text": "Stop at the end of the acceleration lane"
+          },
+          {
+            "questionId": "4389",
+            "isRight": false,
+            "id": "0ac21f8f-ec23-44d4-a71e-40e0f1a65665",
+            "text": "Use the hard shoulder"
+          },
+          {
+            "questionId": "4389",
+            "isRight": true,
+            "id": "52e679e0-b8f1-40f7-ac34-f41d848f4096",
+            "text": "Give way to traffic already on the dual carriageway"
+          }
+        ],
+        "id": "4389",
+        "text": " When joining a dual carriageway you must always:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4390",
+            "isRight": false,
+            "id": "778854cf-46e8-4856-a3c7-22fddc174c33",
+            "text": "Try to keep above 50 kph to prevent congestion"
+          },
+          {
+            "questionId": "4390",
+            "isRight": true,
+            "id": "74c5bc57-9ae4-462b-9667-183d778277b5",
+            "text": "Keep to the left lane unless overtaking"
+          },
+          {
+            "questionId": "4390",
+            "isRight": false,
+            "id": "7fc8bb27-3370-4f37-9113-b4ff0f9f611f",
+            "text": "Overtake on the side that is clearest"
+          },
+          {
+            "questionId": "4390",
+            "isRight": false,
+            "id": "e3bee7a4-e58a-4e55-a5ca-ee12878ef0a4",
+            "text": "Use the lane that has least traffic"
+          }
+        ],
+        "id": "4390",
+        "text": " A fundamental rule when driving on a dual carriageway is:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4391",
+            "isRight": false,
+            "id": "916ca174-320b-447f-a6c0-69c145bab53a",
+            "text": "There is a police speed check up ahead"
+          },
+          {
+            "questionId": "4391",
+            "isRight": false,
+            "id": "1c8705ba-5d96-47b4-a08b-496bff5cc00e",
+            "text": "The other car is going to change lanes"
+          },
+          {
+            "questionId": "4391",
+            "isRight": true,
+            "id": "5a0a7e1c-b332-4b12-b8cf-3f2788e593de",
+            "text": "Traffic ahead is slowing or stopping suddenly"
+          },
+          {
+            "questionId": "4391",
+            "isRight": false,
+            "id": "811b3f6d-3856-4aa0-9f84-a50afd322db7",
+            "text": "The driver wants you to overtake"
+          }
+        ],
+        "id": "4391",
+        "text": " You are driving on a dual carriageway and the car ahead shows its hazard lights for a short time. This tells you that:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4392",
+            "isRight": true,
+            "id": "841c6275-f504-4726-b8a3-8a7be9368bd4",
+            "text": "Switch on your hazard lights"
+          },
+          {
+            "questionId": "4392",
+            "isRight": false,
+            "id": "2e123711-78fe-46b7-9b0d-5b4612e9b85c",
+            "text": "Flash your headlights"
+          },
+          {
+            "questionId": "4392",
+            "isRight": false,
+            "id": "a255b05f-a070-4f2d-af80-1fce0ddf2dec",
+            "text": "Sound your horn"
+          },
+          {
+            "questionId": "4392",
+            "isRight": false,
+            "id": "97883dfb-9f9a-40b8-985d-4f8df61e7dc9",
+            "text": "Switch on your headlights"
+          }
+        ],
+        "id": "4392",
+        "text": " You are driving on a dual carriageway. You have to slow down quickly due to a hazard. You should:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.6",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4393",
+            "isRight": false,
+            "id": "973093ef-6118-41aa-8569-6f4e22aa130d",
+            "text": "Coastguard"
+          },
+          {
+            "questionId": "4393",
+            "isRight": true,
+            "id": "eab7fc4d-69d6-4684-8fea-47d1bb10dcf4",
+            "text": "Maintenance vehicles"
+          },
+          {
+            "questionId": "4393",
+            "isRight": false,
+            "id": "8e716cdb-1a14-4779-a132-42c73c110458",
+            "text": "Blood transfusion team"
+          },
+          {
+            "questionId": "4393",
+            "isRight": true,
+            "id": "083246c8-3e01-4232-ba76-43eb41bdc1e0",
+            "text": "Breakdown recovery vehicles"
+          },
+          {
+            "questionId": "4393",
+            "isRight": false,
+            "id": "3a61615e-2861-4ff7-9fbd-5dae50db192b",
+            "text": "Doctor's car"
+          }
+        ],
+        "id": "4393",
+        "text": " Which vehicles are normally fitted with amber flashing beacons on the roof?"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4394",
+            "isRight": true,
+            "id": "23da7ba2-a1bc-4bff-bf44-f3362a0a5a0f",
+            "text": "Stopping in an emergency"
+          },
+          {
+            "questionId": "4394",
+            "isRight": false,
+            "id": "c6cdb91e-5eee-43f1-93b3-ab4032f84c2b",
+            "text": "Joining the dual-carriageway"
+          },
+          {
+            "questionId": "4394",
+            "isRight": false,
+            "id": "0cbd75f3-9c2f-412d-b880-46de046b7d46",
+            "text": "Stopping when you are tired"
+          },
+          {
+            "questionId": "4394",
+            "isRight": false,
+            "id": "7d55d6c8-1fe6-4d80-9928-efd517964b25",
+            "text": "Leaving the dual-carriageway"
+          }
+        ],
+        "id": "4394",
+        "text": " What should you use the hard shoulder of a multi-lane- carriageway for?"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4395",
+            "isRight": false,
+            "id": "e42c7045-498c-4b07-ab49-f7004480d129",
+            "text": "Wait on the hard shoulder until someone flashes their headlights at you"
+          },
+          {
+            "questionId": "4395",
+            "isRight": false,
+            "id": "e7a84ba1-27c6-4d12-b4cc-7d0297788dca",
+            "text": "Move out onto the carriageway using your hazard lights"
+          },
+          {
+            "questionId": "4395",
+            "isRight": true,
+            "id": "3e73cc7d-b75c-42be-8277-336579707c3d",
+            "text": "Gain speed on the hard shoulder before moving out onto the carriageway"
+          },
+          {
+            "questionId": "4395",
+            "isRight": false,
+            "id": "9acf2513-ad50-4314-8b73-272ea5b865b7",
+            "text": "Move out onto the carriageway then build up your speed"
+          }
+        ],
+        "id": "4395",
+        "text": " After a breakdown you need to rejoin the main carriageway of a multi-lane-carriageway from the hard shoulder. You should:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4396",
+            "isRight": false,
+            "id": "97e0518a-26e2-481e-8231-c143752a82dc",
+            "text": "Three seconds"
+          },
+          {
+            "questionId": "4396",
+            "isRight": false,
+            "id": "dfeb3dda-593e-49b0-8495-156cedf48bd9",
+            "text": "One second"
+          },
+          {
+            "questionId": "4396",
+            "isRight": false,
+            "id": "81f8b551-fed5-4f2b-81e8-0718f6474b7a",
+            "text": "Four seconds"
+          },
+          {
+            "questionId": "4396",
+            "isRight": true,
+            "id": "5c9f516c-880a-4d81-bf8a-c32adcb51c63",
+            "text": "Two seconds"
+          }
+        ],
+        "id": "4396",
+        "text": " The minimum safe time gap to keep between you and the vehicle in front in good conditions is at least:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4397",
+            "isRight": false,
+            "id": "05eb8615-92e5-4218-b9c4-a7915937cfd1",
+            "text": "In any lane"
+          },
+          {
+            "questionId": "4397",
+            "isRight": true,
+            "id": "4a552e1c-0537-405f-81e2-5c9f0fb737ed",
+            "text": "In the left-hand lane"
+          },
+          {
+            "questionId": "4397",
+            "isRight": false,
+            "id": "ddc221a1-bf5d-48a1-9439-da33c3f88a54",
+            "text": "On the hard shoulder"
+          },
+          {
+            "questionId": "4397",
+            "isRight": false,
+            "id": "87eafe2c-4cd6-4868-a976-1d124607a9d3",
+            "text": "In the middle lane"
+          }
+        ],
+        "id": "4397",
+        "text": " You are intending to leave the multi-lane-carriageway at the next exit. Before you reach the exit you should normally position your\nvehicle:"
+      },
+      {
+        "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+        "subCategoryId": "CARS9.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4398",
+            "isRight": false,
+            "id": "a259beaa-5c86-45a1-a5a3-2a47de37fe14",
+            "text": "Make a U-turn at the next gap in the central reservation"
+          },
+          {
+            "questionId": "4398",
+            "isRight": true,
+            "id": "d5ecb036-9067-43bc-927b-7692ffbdabfc",
+            "text": "Carry on to the next exit"
+          },
+          {
+            "questionId": "4398",
+            "isRight": false,
+            "id": "280a1cb4-f9fe-4c4d-aefd-095c386c2ca0",
+            "text": "Carefully reverse in the left-hand lane"
+          },
+          {
+            "questionId": "4398",
+            "isRight": false,
+            "id": "30a59093-2b01-4895-909b-c6238cf08ac0",
+            "text": "Carefully reverse on the hard shoulder"
+          }
+        ],
+        "id": "4398",
+        "text": " You are driving on a multi-lane- carriageway. By mistake, you go past the exit that you wanted to take. You should:"
+      }
+    ],
+    "id": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
+    "text": "DUAL CARRIAGEWAY RULES"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4399",
+            "isRight": false,
+            "id": "d15fc259-fb1c-461f-aeca-71d5d201eaba",
+            "text": "If no pedestrians are near"
+          },
+          {
+            "questionId": "4399",
+            "isRight": false,
+            "id": "e1ee5dc5-04ef-4428-b8f5-dbb6920709da",
+            "text": "When the pavement is very wide"
+          },
+          {
+            "questionId": "4399",
+            "isRight": false,
+            "id": "9a485191-de64-4366-bd8b-3f62eae9f454",
+            "text": "To overtake slow-moving traffic"
+          },
+          {
+            "questionId": "4399",
+            "isRight": true,
+            "id": "d871ef64-37c6-455b-8fc3-4e052ee1eb45",
+            "text": "To gain lawful access into a property"
+          }
+        ],
+        "id": "4399",
+        "text": " You may drive over a footpath:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4400",
+            "isRight": false,
+            "id": "dbb919f2-1741-486b-b183-b747c3ec870b",
+            "text": "100kph"
+          },
+          {
+            "questionId": "4400",
+            "isRight": false,
+            "id": "11c7a893-6c56-4084-8a83-0139fbc273bc",
+            "text": "60kph"
+          },
+          {
+            "questionId": "4400",
+            "isRight": true,
+            "id": "20f05e31-e973-4ff6-a21d-f58823bfee4c",
+            "text": "80kph"
+          },
+          {
+            "questionId": "4400",
+            "isRight": false,
+            "id": "622f08a7-179b-4d4c-bd5d-cfab9daf785c",
+            "text": "50 kph"
+          }
+        ],
+        "id": "4400",
+        "text": " What is the national speed limit outside built up areas unless otherwise indicated  for cars and motorcycles?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4401",
+            "isRight": false,
+            "id": "996f1657-dfd3-47d9-8d72-99faf9f70312",
+            "text": "50kph"
+          },
+          {
+            "questionId": "4401",
+            "isRight": false,
+            "id": "d27f8cdf-851a-4486-ae80-b799be6337cc",
+            "text": "70kph"
+          },
+          {
+            "questionId": "4401",
+            "isRight": true,
+            "id": "4b85c8c0-82ad-4c3d-961c-a4e762eea221",
+            "text": "80kph"
+          },
+          {
+            "questionId": "4401",
+            "isRight": false,
+            "id": "a3856fdc-73c9-4942-8e35-6935c3f11147",
+            "text": "100kph"
+          }
+        ],
+        "id": "4401",
+        "text": " What is the national speed limit unless otherwise indicated  on dual carriageways for cars and motorcycles?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.7",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4402",
+            "isRight": true,
+            "id": "09c6e092-dba3-409c-944d-b0f3f312deec",
+            "text": "Children may run out from between the vehicles"
+          },
+          {
+            "questionId": "4402",
+            "isRight": true,
+            "id": "684b23a3-4566-476e-9caf-e9b85747f484",
+            "text": "Drivers' doors may open"
+          },
+          {
+            "questionId": "4402",
+            "isRight": true,
+            "id": "46b9873e-6d83-4bd5-92fc-81a530576969",
+            "text": "Vehicles may be pulling out"
+          },
+          {
+            "questionId": "4402",
+            "isRight": false,
+            "id": "b837ce2c-dfca-4cc9-ad81-702171c8bea8",
+            "text": "You may set off car alarms"
+          },
+          {
+            "questionId": "4402",
+            "isRight": false,
+            "id": "d70cad8c-ee66-4935-8de9-8241aafd8aae",
+            "text": "So that oncoming traffic can see you more clearly"
+          }
+        ],
+        "id": "4402",
+        "text": " You are driving along a street with parked vehicles on the left-hand side. For which THREE reasons should you keep your speed down?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4403",
+            "isRight": false,
+            "id": "feb2675c-5a77-409b-84f7-972455cdc97c",
+            "text": "Accelerate to get past first"
+          },
+          {
+            "questionId": "4403",
+            "isRight": true,
+            "id": "74accdba-c461-492d-bb9e-af87570c1da0",
+            "text": "Give way to oncoming traffic"
+          },
+          {
+            "questionId": "4403",
+            "isRight": false,
+            "id": "b0ab4a3f-069b-4ff2-8c5c-33886e78338e",
+            "text": "Wave oncoming vehicles through"
+          },
+          {
+            "questionId": "4403",
+            "isRight": false,
+            "id": "9651064e-fbd6-49bc-8dca-4713b346cf38",
+            "text": "Drive on; it is your right of way"
+          }
+        ],
+        "id": "4403",
+        "text": " You meet an obstruction on your side of the road. You should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4404",
+            "isRight": false,
+            "id": "d8be3deb-0e5d-4c8c-a703-89d08fbdb788",
+            "text": "Speed through but flash your lights to oncoming traffic"
+          },
+          {
+            "questionId": "4404",
+            "isRight": false,
+            "id": "fe8989c1-c7bb-4519-b5e5-3d9648cf07f2",
+            "text": "Sound your horn to the slow vehicle to pull over"
+          },
+          {
+            "questionId": "4404",
+            "isRight": false,
+            "id": "4e732d99-9699-49fb-97d2-a38e099261fe",
+            "text": "Follow another overtaking vehicle through"
+          },
+          {
+            "questionId": "4404",
+            "isRight": true,
+            "id": "47686322-6872-4d05-86e5-b35a2e3b4ff1",
+            "text": "Not overtake if you are in doubt"
+          }
+        ],
+        "id": "4404",
+        "text": " There is a tractor ahead of you. You wish to overtake but you are NOT sure if it is safe to do so. You should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.10",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4405",
+            "isRight": false,
+            "id": "a2cc9b8a-d859-4481-8b2a-0c72d28c7387",
+            "text": "Bread vans"
+          },
+          {
+            "questionId": "4405",
+            "isRight": true,
+            "id": "6668a297-80d8-4dd9-8e9b-5c11acad2ba5",
+            "text": "Horse riders"
+          },
+          {
+            "questionId": "4405",
+            "isRight": false,
+            "id": "6c7a9c90-164f-4f8d-9a7b-5bda386303b7",
+            "text": "Delivery vans"
+          },
+          {
+            "questionId": "4405",
+            "isRight": true,
+            "id": "d7179b01-6c6d-4215-97a9-4ee6775f5aec",
+            "text": "Long vehicles"
+          },
+          {
+            "questionId": "4405",
+            "isRight": true,
+            "id": "bde4d57a-2bbd-4ba5-9dc0-0deb3ac71fa7",
+            "text": "Cyclists"
+          },
+          {
+            "questionId": "4405",
+            "isRight": false,
+            "id": "e2844b4a-c1bb-4389-a238-edd0604b2f92",
+            "text": "Estate cars"
+          }
+        ],
+        "id": "4405",
+        "text": " Which three of the following are most likely to take an unusual course at roundabouts?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4406",
+            "isRight": false,
+            "id": "a69a12f5-0f8b-4338-8076-2014e8684e8f",
+            "text": "When in a 40 kph zone"
+          },
+          {
+            "questionId": "4406",
+            "isRight": false,
+            "id": "ffdfca7c-9955-4fa4-bd5c-30f2c80e2f24",
+            "text": "If the battery is flat"
+          },
+          {
+            "questionId": "4406",
+            "isRight": false,
+            "id": "1737503a-6569-4651-8964-0c4a9b0e5e54",
+            "text": "If you will be parked for less than five minutes"
+          },
+          {
+            "questionId": "4406",
+            "isRight": true,
+            "id": "45adee5b-ce11-4776-9950-1686cbe1ee70",
+            "text": "Not on any occasion"
+          }
+        ],
+        "id": "4406",
+        "text": " You are leaving your vehicle parked on a road. When may you leave the engine running?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.12",
+        "correctAnswersNumber": 5,
+        "answers": [
+          {
+            "questionId": "4407",
+            "isRight": false,
+            "id": "1dace5b0-0283-43dc-a34a-d9a2398624f3",
+            "text": "On the slope of a hill"
+          },
+          {
+            "questionId": "4407",
+            "isRight": true,
+            "id": "29ec375a-61b8-42d3-b081-9ef37e035aa2",
+            "text": "On the brow of a hill"
+          },
+          {
+            "questionId": "4407",
+            "isRight": true,
+            "id": "6a23e73d-9f41-4f87-9786-dc58f50e0a17",
+            "text": "In front of someone else's drive-way/garage"
+          },
+          {
+            "questionId": "4407",
+            "isRight": true,
+            "id": "ea2d9b29-480b-4f0e-817b-a7368a3c76dc",
+            "text": "Opposite a traffic island"
+          },
+          {
+            "questionId": "4407",
+            "isRight": true,
+            "id": "330d7c66-3d50-479b-9391-2521561b4a1b",
+            "text": "On a dual carriageway"
+          },
+          {
+            "questionId": "4407",
+            "isRight": true,
+            "id": "1260d15d-09d0-4dd8-80db-be871ca9ec91",
+            "text": "At a bus stop"
+          }
+        ],
+        "id": "4407",
+        "text": " In which Five places must you NOT park or wait?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4408",
+            "isRight": true,
+            "id": "e7490f82-ed08-441c-8573-e6b872725927",
+            "text": "5 meters   (16 feet)"
+          },
+          {
+            "questionId": "4408",
+            "isRight": false,
+            "id": "b02bd8ea-fced-477f-a981-42823234121b",
+            "text": "15 meters (49 feet)"
+          },
+          {
+            "questionId": "4408",
+            "isRight": false,
+            "id": "62f4382e-1b6e-49dc-8cfe-a0406c2783cb",
+            "text": "12 meters (39 feet)"
+          },
+          {
+            "questionId": "4408",
+            "isRight": false,
+            "id": "b9bb51a4-01d9-47ec-821e-cf105132c122",
+            "text": "10 meters (32 feet)"
+          }
+        ],
+        "id": "4408",
+        "text": " What is the nearest you may park your vehicle to a junction?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4409",
+            "isRight": false,
+            "id": "f02a7c9b-8143-46c2-b358-b19bed7a61bb",
+            "text": "Yes  if you don't block people from crossing"
+          },
+          {
+            "questionId": "4409",
+            "isRight": false,
+            "id": "da022d47-12ab-4e41-b138-f95acceb7c18",
+            "text": "Yes  in order to drop off a passenger"
+          },
+          {
+            "questionId": "4409",
+            "isRight": false,
+            "id": "13309e1d-ac1c-428b-ae21-1d752f061bc1",
+            "text": "No  unless you stay with your car"
+          },
+          {
+            "questionId": "4409",
+            "isRight": true,
+            "id": "8edee4e7-7adf-4e17-902f-3e6e292dd5f6",
+            "text": "No  not under any circumstances"
+          }
+        ],
+        "id": "4409",
+        "text": " You are finding it difficult to find a parking place in a busy town. You can see there is space on the zigzag lines of a zebra crossing. Can you\npark there?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.15",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4410",
+            "isRight": true,
+            "id": "2ffd6bb9-5794-4089-8ba5-c14118532cc1",
+            "text": "At a bus stop"
+          },
+          {
+            "questionId": "4410",
+            "isRight": false,
+            "id": "366bd402-891f-49f1-b8a4-b42db8c3602f",
+            "text": "In a one-way street"
+          },
+          {
+            "questionId": "4410",
+            "isRight": false,
+            "id": "553676aa-a692-414c-82b3-75dfb7bc012b",
+            "text": "In a side road"
+          },
+          {
+            "questionId": "4410",
+            "isRight": true,
+            "id": "d22d23d1-c334-4d9f-936c-7e8c7f9e44b0",
+            "text": "Near a school entrance"
+          },
+          {
+            "questionId": "4410",
+            "isRight": false,
+            "id": "3d94ad82-e8ea-4fa6-a9d1-3860b47d7b1f",
+            "text": "Near a police station"
+          }
+        ],
+        "id": "4410",
+        "text": " In which TWO places must you NOT park?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4411",
+            "isRight": false,
+            "id": "0971deb6-e470-47ea-8ecd-2453c2c7959a",
+            "text": "Use these spaces  disabled or not"
+          },
+          {
+            "questionId": "4411",
+            "isRight": false,
+            "id": "855a641c-6a38-4a12-bc4d-ce0b6c822480",
+            "text": "Park if you stay with your vehicle"
+          },
+          {
+            "questionId": "4411",
+            "isRight": false,
+            "id": "192d5664-c468-40f3-b47c-e2b87f1c9a7b",
+            "text": "Use these spaces when elsewhere is full"
+          },
+          {
+            "questionId": "4411",
+            "isRight": true,
+            "id": "09db2c77-02dc-4d83-94e7-09c23a8305f0",
+            "text": "Not park there unless permitted"
+          }
+        ],
+        "id": "4411",
+        "text": " You are looking for somewhere to park your vehicle. The area is full EXCEPT for spaces marked 'disabled use'. You can:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4412",
+            "isRight": false,
+            "id": "3f340192-36a0-4050-b1eb-fb960e5c7e65",
+            "text": "Only if the other driver dips his headlights"
+          },
+          {
+            "questionId": "4412",
+            "isRight": false,
+            "id": "476391f2-4e81-4529-8d79-effab6fd9b52",
+            "text": "Before the vehicles starts to pass you"
+          },
+          {
+            "questionId": "4412",
+            "isRight": false,
+            "id": "ca0fbd59-f6a2-44bf-8fa0-32d3ec170a34",
+            "text": "Some time after the vehicles has passed you"
+          },
+          {
+            "questionId": "4412",
+            "isRight": true,
+            "id": "0aecd6c8-4f91-4cdf-9a35-4bcf9f356cff",
+            "text": "As soon as the vehicle passes you"
+          }
+        ],
+        "id": "4412",
+        "text": " You are driving at night with full- beam headlights on. A vehicle is overtaking you. You should dip your lights:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.19",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4413",
+            "isRight": true,
+            "id": "075a8394-45fe-4157-ba16-efe56794e661",
+            "text": "Overtaking"
+          },
+          {
+            "questionId": "4413",
+            "isRight": false,
+            "id": "0c8e9b29-a613-430a-887d-0544dcc36e5c",
+            "text": "Mending punctures"
+          },
+          {
+            "questionId": "4413",
+            "isRight": false,
+            "id": "d767e015-9b03-4468-99d9-0101ee995002",
+            "text": "Constant high speed driving"
+          },
+          {
+            "questionId": "4413",
+            "isRight": false,
+            "id": "058067bf-59b8-4ca9-beb0-69442c2b0d2e",
+            "text": "Driving at the minimum allowed speed"
+          },
+          {
+            "questionId": "4413",
+            "isRight": true,
+            "id": "70d57c4a-8731-46e7-990f-51c71f1b9536",
+            "text": "Turning right"
+          },
+          {
+            "questionId": "4413",
+            "isRight": false,
+            "id": "488a2eff-a30f-4e8f-9fca-2c3dd843c446",
+            "text": "Normal driving"
+          }
+        ],
+        "id": "4413",
+        "text": " You are driving on a two-lane carriageway. For which TWO of the following would you use the right- hand lane?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4414",
+            "isRight": true,
+            "id": "800584f2-20dd-46f9-b470-93af4a8b6d9a",
+            "text": "Not exceed the speed limit"
+          },
+          {
+            "questionId": "4414",
+            "isRight": false,
+            "id": "03768492-635c-4624-90e2-8594bd0fb473",
+            "text": "Obey the limit except for overnight"
+          },
+          {
+            "questionId": "4414",
+            "isRight": false,
+            "id": "97aee6e3-bbcf-4270-b313-5d3a2a2d7c73",
+            "text": "Accept the speed limit as advisable"
+          },
+          {
+            "questionId": "4414",
+            "isRight": false,
+            "id": "eec82dba-e9bb-4d62-b638-9fb6c1ff4394",
+            "text": "Obey the limit only during rush hour"
+          }
+        ],
+        "id": "4414",
+        "text": " You are entering an area of roadworks. There is a temporary speed limit displayed. You must:",
+        "imageUrl": "Source/img/4414.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4415",
+            "isRight": true,
+            "id": "81a3448c-3fdd-4065-b5d1-2674e655d354",
+            "text": "Continue in that lane"
+          },
+          {
+            "questionId": "4415",
+            "isRight": false,
+            "id": "5994474c-9db2-4c1e-94f9-cb6d5ad4939d",
+            "text": "Use clear arm signals to cut across"
+          },
+          {
+            "questionId": "4415",
+            "isRight": false,
+            "id": "dcc81e8c-fe91-4359-9c82-fc35f35c9fdc",
+            "text": "Stop until the area has cleared"
+          },
+          {
+            "questionId": "4415",
+            "isRight": false,
+            "id": "7cdca64f-bb83-46c6-a6dd-8c4d070ff3d0",
+            "text": "Force your way across"
+          }
+        ],
+        "id": "4415",
+        "text": " You are approaching a busy junction. There are several lanes with road markings. At the last moment you realise that you are in\nthe wrong lane. You should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4416",
+            "isRight": false,
+            "id": "e908d566-c2ea-4871-a8f5-5f9c28368141",
+            "text": "Only on the right-hand side"
+          },
+          {
+            "questionId": "4416",
+            "isRight": false,
+            "id": "dac3180f-0b7f-494b-9842-8fb424f6873a",
+            "text": "Overtaking is not allowed"
+          },
+          {
+            "questionId": "4416",
+            "isRight": false,
+            "id": "5bf70595-873b-4a4d-bd2e-73e9a9755ae5",
+            "text": "Only on the left-hand side"
+          },
+          {
+            "questionId": "4416",
+            "isRight": true,
+            "id": "0b3e59de-cb7b-44cf-8fbf-ad37b983c1b8",
+            "text": "Either on the right or the left"
+          }
+        ],
+        "id": "4416",
+        "text": " Where may you overtake on a one- way street?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4417",
+            "isRight": false,
+            "id": "eb06f441-4257-45f6-9ab5-2ca5d89a5257",
+            "text": "Drive into a passing place on your right"
+          },
+          {
+            "questionId": "4417",
+            "isRight": false,
+            "id": "0722b07e-5ec9-481e-bb73-5efdbe47bc56",
+            "text": "Switch on your hazard warning lights"
+          },
+          {
+            "questionId": "4417",
+            "isRight": true,
+            "id": "b68eb43f-170a-4635-b2ab-dc6c9f603671",
+            "text": "Wait opposite a passing place on your right"
+          },
+          {
+            "questionId": "4417",
+            "isRight": false,
+            "id": "4294044e-4cac-4377-8e86-7741827b7837",
+            "text": "Speed up to get away from the following driver"
+          }
+        ],
+        "id": "4417",
+        "text": " You are going along a single-track road with passing places only on the right. The driver behind wishes to overtake. You should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.24",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4418",
+            "isRight": false,
+            "id": "22d2bd04-9c35-45d4-8883-d0222805493f",
+            "text": "Wait opposite a passing place on your left"
+          },
+          {
+            "questionId": "4418",
+            "isRight": false,
+            "id": "e00df4e1-3fc6-45fb-92af-1339dacb309c",
+            "text": "Pull into a passing place if your vehicle is wider"
+          },
+          {
+            "questionId": "4418",
+            "isRight": false,
+            "id": "c700f8da-1e87-4114-b9fe-37f9dbb59f7f",
+            "text": "Force the other driver to reverse"
+          },
+          {
+            "questionId": "4418",
+            "isRight": true,
+            "id": "c0483229-e719-4e70-8ff9-cbf923522c7d",
+            "text": "Wait opposite a passing place on your right"
+          },
+          {
+            "questionId": "4418",
+            "isRight": true,
+            "id": "67a4e95b-9657-4eb2-ab89-a7a3dd6c1c2d",
+            "text": "Pull into a passing place on your left"
+          },
+          {
+            "questionId": "4418",
+            "isRight": false,
+            "id": "8e058612-9312-4c3c-ae5c-8ec036a98cca",
+            "text": "Pull into a passing place on your right"
+          }
+        ],
+        "id": "4418",
+        "text": " You are on a road that is only wide enough for one vehicle. There is a car coming towards you. Which TWO of these would be correct?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4419",
+            "isRight": true,
+            "id": "98f0420d-c764-4a8c-8869-d9a15b4d514f",
+            "text": "Brake lights"
+          },
+          {
+            "questionId": "4419",
+            "isRight": false,
+            "id": "babe3b79-881c-46b8-9186-6e05dca17159",
+            "text": "Interior lights"
+          },
+          {
+            "questionId": "4419",
+            "isRight": false,
+            "id": "7528e005-c1b5-4765-8159-e11204cb4518",
+            "text": "Fog lights"
+          },
+          {
+            "questionId": "4419",
+            "isRight": false,
+            "id": "abb813f8-5429-4e60-b878-7d8294495e0a",
+            "text": "Side lights"
+          }
+        ],
+        "id": "4419",
+        "text": " Signals are normally given by direction indicators and:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4420",
+            "isRight": true,
+            "id": "4607b61c-71a5-4cdb-914a-162a98aacb1e",
+            "text": "Indicate left just after you pass the exit before the one you will take"
+          },
+          {
+            "questionId": "4420",
+            "isRight": false,
+            "id": "64e86c92-a9b5-4079-887c-552b6c71e5ed",
+            "text": "Indicate left when approaching the roundabout"
+          },
+          {
+            "questionId": "4420",
+            "isRight": false,
+            "id": "5e2a63c6-f892-4c4e-ae18-dd5b583ccc81",
+            "text": "Indicate right when approaching the roundabout"
+          },
+          {
+            "questionId": "4420",
+            "isRight": false,
+            "id": "74b56b50-5b0c-40e4-b904-b8fe9ebd71ae",
+            "text": "Not indicate at any time"
+          }
+        ],
+        "id": "4420",
+        "text": " When going straight ahead at a roundabout you should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4421",
+            "isRight": false,
+            "id": "275b6e2b-1376-4be3-aaff-4362317f49a5",
+            "text": "Estate car"
+          },
+          {
+            "questionId": "4421",
+            "isRight": false,
+            "id": "16672e54-e359-4509-bc28-e40484b9e7a6",
+            "text": "Van"
+          },
+          {
+            "questionId": "4421",
+            "isRight": false,
+            "id": "e648cd73-fc55-4fe7-9c74-5c4b777fd055",
+            "text": "Sports car"
+          },
+          {
+            "questionId": "4421",
+            "isRight": true,
+            "id": "b1d790c8-ab68-455d-a9aa-6db04a7834eb",
+            "text": "Long vehicle"
+          }
+        ],
+        "id": "4421",
+        "text": " Which vehicle might have to use a different course than normal at roundabouts?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4422",
+            "isRight": false,
+            "id": "905c52bc-4ea6-44c1-b1c1-b4e531bdd06f",
+            "text": "Signal right on the approach and then left to leave the roundabout"
+          },
+          {
+            "questionId": "4422",
+            "isRight": false,
+            "id": "7ca0400b-607d-4602-b7ff-a53e4e2b17d0",
+            "text": "Signal left on the approach to the roundabout and keep the signal on until you leave"
+          },
+          {
+            "questionId": "4422",
+            "isRight": false,
+            "id": "4951d58c-8f28-4e00-ae5b-f51e537498eb",
+            "text": "Signal left as you leave the roundabouts"
+          },
+          {
+            "questionId": "4422",
+            "isRight": true,
+            "id": "5ea68c10-a0cf-4178-90b9-10cc26937cca",
+            "text": "Signal left just after you pass the exit before the one you will take"
+          }
+        ],
+        "id": "4422",
+        "text": " You are going straight ahead at a roundabout. How should you signal?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4423",
+            "isRight": true,
+            "id": "b7af122c-315a-4462-ac91-ba4a7cd54f37",
+            "text": "Neither vehicle"
+          },
+          {
+            "questionId": "4423",
+            "isRight": false,
+            "id": "5135ec04-d2ab-4766-8252-b8ea94d71cdd",
+            "text": "Vehicles approaching from the right"
+          },
+          {
+            "questionId": "4423",
+            "isRight": false,
+            "id": "c664361a-6351-49aa-baea-99eb40f69ecd",
+            "text": "The vehicle on the widest road"
+          },
+          {
+            "questionId": "4423",
+            "isRight": false,
+            "id": "4315cdab-e02a-4f17-a35f-80c23f7689df",
+            "text": "The fastest vehicle"
+          }
+        ],
+        "id": "4423",
+        "text": " At a crossroads there are no signs or road markings. Two vehicles approach. Which has priority?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.30",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4424",
+            "isRight": false,
+            "id": "d4c99fde-905f-46a9-865c-be89c0dfcf0d",
+            "text": "The driver on the wider road"
+          },
+          {
+            "questionId": "4424",
+            "isRight": true,
+            "id": "e97b5b6c-17a0-42f8-98cd-79f442550c57",
+            "text": "No one"
+          },
+          {
+            "questionId": "4424",
+            "isRight": false,
+            "id": "b9c973a6-fe18-424a-8c90-ff5e54563568",
+            "text": "The driver who is going faster"
+          },
+          {
+            "questionId": "4424",
+            "isRight": false,
+            "id": "63fa51b3-3100-45cb-8cb7-254148763925",
+            "text": "The driver of the larger vehicle"
+          }
+        ],
+        "id": "4424",
+        "text": " Who has priority at an unmarked crossroads?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4425",
+            "isRight": true,
+            "id": "41e098d7-084e-48f7-bc66-08bd7b8f17e8",
+            "text": "Keep the other vehicle to your RIGHT and turn behind it (offside to offside)"
+          },
+          {
+            "questionId": "4425",
+            "isRight": false,
+            "id": "9aa1a121-63df-4b18-9f7e-54d4e1252769",
+            "text": "Hold back, wait for the other driver to turn first"
+          },
+          {
+            "questionId": "4425",
+            "isRight": false,
+            "id": "da4213d6-0921-4e93-86ea-178095473e9b",
+            "text": "Carry on and turn at the next junction instead"
+          },
+          {
+            "questionId": "4425",
+            "isRight": false,
+            "id": "b07c0024-f358-4c17-af8b-c64f0921ecf0",
+            "text": "Keep the other vehicle to your LEFT and turn in front of it (nearside to nearside)"
+          }
+        ],
+        "id": "4425",
+        "text": " You are intending to turn right at a junction. An oncoming driver is also turning right. It will normally be safer to:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4426",
+            "isRight": false,
+            "id": "9ad93f91-5284-490e-abf4-96a156245e72",
+            "text": "Emerge slightly to show your intentions"
+          },
+          {
+            "questionId": "4426",
+            "isRight": true,
+            "id": "20eff693-208d-4c9e-be6a-ecf75fb4a95e",
+            "text": "Wait until the road is clear in both directions"
+          },
+          {
+            "questionId": "4426",
+            "isRight": false,
+            "id": "cbd07bf3-ab68-42be-8e65-7861e1b281d7",
+            "text": "Stop in the first lane so that other vehicles give way"
+          },
+          {
+            "questionId": "4426",
+            "isRight": false,
+            "id": "a1a2b1e4-c576-4c1e-b42c-a2351364767f",
+            "text": "Proceed to central reservation and wait"
+          }
+        ],
+        "id": "4426",
+        "text": " The dual carriageway you are turning right onto has a narrow central reservation. You should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.33",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4427",
+            "isRight": false,
+            "id": "68926770-dd00-4712-893e-3ade38200bf3",
+            "text": "Swing out wide just before turning"
+          },
+          {
+            "questionId": "4427",
+            "isRight": false,
+            "id": "0971a8ee-0232-47a8-82fb-c0c9db1c11aa",
+            "text": "Keep in the middle of the road"
+          },
+          {
+            "questionId": "4427",
+            "isRight": false,
+            "id": "f15519dc-8c4a-4568-aa58-c4946b731595",
+            "text": "Keep just left of the middle of the road"
+          },
+          {
+            "questionId": "4427",
+            "isRight": true,
+            "id": "3e8db806-1516-42e4-b1ef-1a039a49856e",
+            "text": "Keep well to the left of the road"
+          }
+        ],
+        "id": "4427",
+        "text": " While driving  you intend to turn left into a minor road. On the approach you should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.34",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4428",
+            "isRight": false,
+            "id": "88ba2d3f-4bbb-4464-acac-6b4c5831ce8e",
+            "text": "You need to turn left"
+          },
+          {
+            "questionId": "4428",
+            "isRight": false,
+            "id": "afb2dce8-a57f-4ed4-9279-b2095bd689be",
+            "text": "The traffic lights show green"
+          },
+          {
+            "questionId": "4428",
+            "isRight": true,
+            "id": "35c4fc05-1b03-475d-88cf-9fa83c5c68bb",
+            "text": "Your exit road is clear"
+          },
+          {
+            "questionId": "4428",
+            "isRight": false,
+            "id": "23d91614-1b09-43e9-bddd-400995f788ae",
+            "text": "There are less than two vehicles in front of you"
+          }
+        ],
+        "id": "4428",
+        "text": " You may only enter a box junction when:",
+        "imageUrl": "Source/img/4428.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.35",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4429",
+            "isRight": false,
+            "id": "971cd0f6-848f-4720-b95c-d32b6527e4c7",
+            "text": "Ignore them as they are still on the pavement"
+          },
+          {
+            "questionId": "4429",
+            "isRight": false,
+            "id": "10eeb714-48a6-45e8-97b9-554577f46242",
+            "text": "Stop before you reach the zigzag lines and let them cross"
+          },
+          {
+            "questionId": "4429",
+            "isRight": true,
+            "id": "c0436f50-4d00-4850-b538-4908adf2c62f",
+            "text": "Stop, let them cross and wait patiently"
+          },
+          {
+            "questionId": "4429",
+            "isRight": false,
+            "id": "9205b83b-d094-479c-a861-1360154eb94f",
+            "text": "Go on quickly before they step onto the crossing"
+          }
+        ],
+        "id": "4429",
+        "text": " Someone is waiting to cross at a zebra crossing. They are standing on the pavement. You should normally:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.36",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4430",
+            "isRight": false,
+            "id": "26f5b13b-a613-4341-82b7-030de7998ffc",
+            "text": "Make a 'three point' turn in the main road"
+          },
+          {
+            "questionId": "4430",
+            "isRight": false,
+            "id": "633fe46e-73a4-4b0d-9de8-46a613e2708f",
+            "text": "Make a U-turn in the main road"
+          },
+          {
+            "questionId": "4430",
+            "isRight": false,
+            "id": "86829f0a-620d-4e8c-99b3-fd94ef4f2bb1",
+            "text": "Turn into a side road on the road on the right and reverse into the main road."
+          },
+          {
+            "questionId": "4430",
+            "isRight": true,
+            "id": "f467a76b-4c06-4eac-8deb-b55c09d5fab0",
+            "text": "Turn round in a side road"
+          }
+        ],
+        "id": "4430",
+        "text": " You are on a busy main road and find that you are in a wrong direction. What should you do?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.39",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4431",
+            "isRight": true,
+            "id": "c38003eb-fa8f-4392-a107-78be42a610af",
+            "text": "Find a quiet side road to turn round in"
+          },
+          {
+            "questionId": "4431",
+            "isRight": false,
+            "id": "5c9632e1-7a7a-49ec-a79b-73dd4b2b250c",
+            "text": "Do a U-turn"
+          },
+          {
+            "questionId": "4431",
+            "isRight": false,
+            "id": "c5f60e18-d413-4045-9fba-3f4304aa9a95",
+            "text": "Get someone to stop the traffic"
+          },
+          {
+            "questionId": "4431",
+            "isRight": false,
+            "id": "ac80eea3-e386-4b80-b85a-c734c1f4ef1f",
+            "text": "Drive into a side road and reverse into the main road"
+          }
+        ],
+        "id": "4431",
+        "text": " You are parked in a busy high street. What is the safest way to turn your vehicle around to go the opposite way?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.42",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4432",
+            "isRight": true,
+            "id": "96eff454-b457-4e70-a7ab-3f9a0d306390",
+            "text": "So that you are on the correct side of the road before and after turning left or right at junctions and when approaching roundabouts"
+          },
+          {
+            "questionId": "4432",
+            "isRight": true,
+            "id": "d2565fb1-d449-4f4a-97e9-ba912bc420ec",
+            "text": "So that you are always in the correct lane on a multi-lane road."
+          },
+          {
+            "questionId": "4432",
+            "isRight": false,
+            "id": "f7d4e07b-2841-42aa-8ed0-91262d682bc9",
+            "text": "Staying in the lane of your choice as long as you are driving within the speed limit."
+          },
+          {
+            "questionId": "4432",
+            "isRight": false,
+            "id": "e13acb98-9397-4e9a-830a-199864e3b31c",
+            "text": "So that nobody can overtake you if they are speeding."
+          }
+        ],
+        "id": "4432",
+        "text": " Why is it important for you to maintain road position."
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.43",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4433",
+            "isRight": false,
+            "id": "c0e97d6d-44a9-4322-9e38-a55341e4d541",
+            "text": "No lights are necessary as tunnels have their own lighting."
+          },
+          {
+            "questionId": "4433",
+            "isRight": true,
+            "id": "3cca5065-2add-48ae-8e35-147cd59c90e6",
+            "text": "Dipped-beam to help you see and also be clearly seen by others."
+          },
+          {
+            "questionId": "4433",
+            "isRight": false,
+            "id": "4911602c-8758-4ec2-8df2-b113cc8b3321",
+            "text": "Hazard warning lights so nobody drives too near."
+          },
+          {
+            "questionId": "4433",
+            "isRight": false,
+            "id": "26597ed3-6edf-4e18-97dc-2c2b6055ce53",
+            "text": "Main-beam to see clearly where you are going."
+          }
+        ],
+        "id": "4433",
+        "text": " What lights should you use and why, when going through a tunnel?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.44",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4434",
+            "isRight": false,
+            "id": "a6ca76ac-dab6-46c5-9041-3175459d57b2",
+            "text": "On the outside lane if the vehicle in front of you on the inner lane is not going fast enough."
+          },
+          {
+            "questionId": "4434",
+            "isRight": false,
+            "id": "ad218d6a-af6b-44da-a515-a3e24b331c7f",
+            "text": "On the inside lane if the vehicle in front of me on the outside lane is not going fast enough."
+          },
+          {
+            "questionId": "4434",
+            "isRight": true,
+            "id": "e42ecc31-025d-48c6-b175-8d8af451e586",
+            "text": "Never under normal circumstances as overtaking in tunnels is prohibited."
+          },
+          {
+            "questionId": "4434",
+            "isRight": true,
+            "id": "41b6695c-bd5f-4906-a571-5236485995fa",
+            "text": "If a broken down vehicle or other static hazard is obstructing the lane you are driving in, after having checked and signaled correctly"
+          }
+        ],
+        "id": "4434",
+        "text": " When can you overtake in a tunnel?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.45",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4435",
+            "isRight": false,
+            "id": "cfb0e31f-3489-42b6-87d2-4795adac15c7",
+            "text": "40kph and 70kph"
+          },
+          {
+            "questionId": "4435",
+            "isRight": true,
+            "id": "fb76b967-a671-48c6-bbce-d69ade225660",
+            "text": "50kph and 80kph"
+          },
+          {
+            "questionId": "4435",
+            "isRight": false,
+            "id": "53b1e649-363f-4eb6-854a-cd515c0149b5",
+            "text": "30kph and 60kph"
+          },
+          {
+            "questionId": "4435",
+            "isRight": false,
+            "id": "bc7fd4b5-d5f5-4507-9a1c-37f86c0c497a",
+            "text": "45kph and 100kph"
+          }
+        ],
+        "id": "4435",
+        "text": " What are the maximum national speed limits for cars and motorcycles in built-up areas and elsewhere?"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4489",
+            "isRight": false,
+            "id": "96edffbd-f2b3-43ce-84cd-1ec0141e8c32",
+            "text": "No entry to vehicular traffic"
+          },
+          {
+            "questionId": "4489",
+            "isRight": false,
+            "id": "0704a8db-1fe5-4ba1-bb4d-c0956370f4ba",
+            "text": "No waiting on the carriageway"
+          },
+          {
+            "questionId": "4489",
+            "isRight": true,
+            "id": "02664997-b5bf-4260-b09b-f98cfeca228f",
+            "text": "National speed limit applies"
+          },
+          {
+            "questionId": "4489",
+            "isRight": false,
+            "id": "f9c8a3ec-3ab3-4235-bfa6-b808b4370b76",
+            "text": "Local speed limit applies"
+          }
+        ],
+        "id": "4489",
+        "text": " What is the meaning of this sign?",
+        "imageUrl": "Source/img/4489.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4490",
+            "isRight": false,
+            "id": "8d5dc86e-2748-4200-b72c-372938bca418",
+            "text": "The minimum speed limit ahead is 30 kph"
+          },
+          {
+            "questionId": "4490",
+            "isRight": false,
+            "id": "59ee1994-d690-4d94-b3f4-745006c639fc",
+            "text": "You are leaving the 30 kph speed limit area"
+          },
+          {
+            "questionId": "4490",
+            "isRight": false,
+            "id": "a675c673-079e-4312-9322-38b50e4d8952",
+            "text": "Start to slow down to 30 kph after passing it"
+          },
+          {
+            "questionId": "4490",
+            "isRight": true,
+            "id": "0c8d8bad-e8e4-443b-8cd4-ef9f565e3128",
+            "text": "Do not exceed 30 kph after passing it"
+          }
+        ],
+        "id": "4490",
+        "text": " You see this sign ahead of you. It means:",
+        "imageUrl": "Source/img/4490.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4491",
+            "isRight": false,
+            "id": "18a417f4-6a55-4da4-a697-ca530410c637",
+            "text": "The speed shown allows for various road and weather conditions"
+          },
+          {
+            "questionId": "4491",
+            "isRight": false,
+            "id": "5e0d2eae-c191-4b0e-8d42-8157481a088a",
+            "text": "The speed shown is the advised maximum"
+          },
+          {
+            "questionId": "4491",
+            "isRight": false,
+            "id": "6d882d10-de68-4100-a144-3cee1a1c2ab0",
+            "text": "It is safe to drive at the speed shown"
+          },
+          {
+            "questionId": "4491",
+            "isRight": true,
+            "id": "8ef7fa6d-b3e3-44ca-bd3a-45d23b8cfc08",
+            "text": "You must not exceed the speed shown"
+          }
+        ],
+        "id": "4491",
+        "text": " What does a speed limit sign like this mean?",
+        "imageUrl": "Source/img/4491.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4492",
+            "isRight": false,
+            "id": "a6dbb961-0be5-4e44-ac0a-d1c2acbbd03f",
+            "text": "School crossing patrol"
+          },
+          {
+            "questionId": "4492",
+            "isRight": true,
+            "id": "b44244ee-6617-45c1-b2ca-713580918ee7",
+            "text": "Waiting restrictions"
+          },
+          {
+            "questionId": "4492",
+            "isRight": false,
+            "id": "97937c46-6b23-4a5e-9f64-6320ac443e33",
+            "text": "National speed limit"
+          },
+          {
+            "questionId": "4492",
+            "isRight": false,
+            "id": "9afdb1a7-8a1f-488b-86bd-c1a761aac8de",
+            "text": "No entry"
+          }
+        ],
+        "id": "4492",
+        "text": " What is the meaning of this sign?",
+        "imageUrl": "Source/img/4492.png"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.37",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4646",
+            "isRight": true,
+            "id": "585b21d1-1e13-4bc1-ae88-f2529b686b9f",
+            "text": "Reversing"
+          },
+          {
+            "questionId": "4646",
+            "isRight": false,
+            "id": "64f1a0db-bb89-4bf1-84af-c217f2acdce4",
+            "text": "Driving slowly"
+          },
+          {
+            "questionId": "4646",
+            "isRight": false,
+            "id": "0a43e07d-4261-4e98-8d8e-d8b593101b7b",
+            "text": "An emergency stop"
+          },
+          {
+            "questionId": "4646",
+            "isRight": false,
+            "id": "54b99eba-86db-4784-94ab-29665dd8ce52",
+            "text": "A hill start"
+          }
+        ],
+        "id": "4646",
+        "text": " You may remove your seat belt temporarily when carrying out a manoeuvre that involves:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.38",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4647",
+            "isRight": true,
+            "id": "698bce8f-3f94-4e79-99b8-ac4954cdc348",
+            "text": "For longer than necessary"
+          },
+          {
+            "questionId": "4647",
+            "isRight": false,
+            "id": "e3ae9633-302a-4373-b0af-ba9918bd6997",
+            "text": "In a built-up area"
+          },
+          {
+            "questionId": "4647",
+            "isRight": false,
+            "id": "502ef58e-98c5-4fd5-99b4-410775278052",
+            "text": "Into a side road"
+          },
+          {
+            "questionId": "4647",
+            "isRight": false,
+            "id": "b2c02ca2-7c33-4448-b141-0f3fd19ed319",
+            "text": "For more than a car's length"
+          }
+        ],
+        "id": "4647",
+        "text": " You must not reverse:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.40",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4648",
+            "isRight": false,
+            "id": "b660d0cc-2eda-48d3-969e-ae7e54ef1f51",
+            "text": "Use your horn"
+          },
+          {
+            "questionId": "4648",
+            "isRight": false,
+            "id": "ef963cb4-486b-4429-aa4b-4f28beb214e4",
+            "text": "Reverse slowly"
+          },
+          {
+            "questionId": "4648",
+            "isRight": true,
+            "id": "f888c3c5-8177-4e34-85a0-bf990e4dec75",
+            "text": "Get out and check"
+          },
+          {
+            "questionId": "4648",
+            "isRight": false,
+            "id": "f6e30a30-f260-4936-80df-15faf8d8ee5a",
+            "text": "Rev your engine"
+          }
+        ],
+        "id": "4648",
+        "text": " When you are NOT sure that it is safe to reverse your vehicle you should:"
+      },
+      {
+        "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+        "subCategoryId": "CARS10.41",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4649",
+            "isRight": false,
+            "id": "75d7c2ca-51fa-4ce3-bf95-b6a60bbd77e4",
+            "text": "After you've entered the side road"
+          },
+          {
+            "questionId": "4649",
+            "isRight": false,
+            "id": "633eb80f-62b0-453d-a6aa-74b4313af034",
+            "text": "Just before you actually begin to manoeuvre"
+          },
+          {
+            "questionId": "4649",
+            "isRight": false,
+            "id": "ede01b2f-ddb0-49af-90ad-dd820eedb0bd",
+            "text": "After you've completed the manoeuvre"
+          },
+          {
+            "questionId": "4649",
+            "isRight": true,
+            "id": "b0e5b5be-2ef7-4d3c-b7bf-9b19625e683d",
+            "text": "When the front of your vehicle swings out"
+          }
+        ],
+        "id": "4649",
+        "text": " You are reversing your vehicle into a side road. When would the greatest hazard to passing traffic occur?"
+      }
+    ],
+    "id": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
+    "text": "RULES OF THE ROAD"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4436",
+            "isRight": false,
+            "id": "2fe53d9a-dfb5-4a42-9788-0ae3feb01550",
+            "text": "Blue rectangles"
+          },
+          {
+            "questionId": "4436",
+            "isRight": false,
+            "id": "08b28388-ce7a-443c-aee6-26dc196a6865",
+            "text": "Red triangles"
+          },
+          {
+            "questionId": "4436",
+            "isRight": false,
+            "id": "bf610b17-282c-4a90-9eeb-84aab4e62e68",
+            "text": "Green rectangles"
+          },
+          {
+            "questionId": "4436",
+            "isRight": true,
+            "id": "cb9ec734-3a7a-4919-b4a4-a966c1d153f4",
+            "text": "Red circles"
+          }
+        ],
+        "id": "4436",
+        "text": " You MUST obey signs giving orders. These signs are mostly in:"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.25",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4437",
+            "isRight": true,
+            "id": "55b097e9-d15b-49ac-94ca-5d239f039498",
+            "text": "Give way to traffic from the right"
+          },
+          {
+            "questionId": "4437",
+            "isRight": false,
+            "id": "fa87e49d-145e-40de-bbe9-38d29b0e43d6",
+            "text": "Stop even when clear"
+          },
+          {
+            "questionId": "4437",
+            "isRight": false,
+            "id": "d73ab850-64b3-4a07-baa5-1e03d7bf68fe",
+            "text": "Give way to traffic from the other way"
+          },
+          {
+            "questionId": "4437",
+            "isRight": false,
+            "id": "9fff84b3-14e0-422d-b045-4b714b091663",
+            "text": "Give way to traffic from the left"
+          }
+        ],
+        "id": "4437",
+        "text": " At a mini-roundabout you should:",
+        "imageUrl": "Source/img/4437.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.27",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4438",
+            "isRight": false,
+            "id": "b40db971-3ff9-4d32-9652-46eb3a7e9335",
+            "text": "Give motorway information"
+          },
+          {
+            "questionId": "4438",
+            "isRight": false,
+            "id": "03cd3ccb-054d-4ef1-a990-cb975f37cfd6",
+            "text": "Give directions to a car park"
+          },
+          {
+            "questionId": "4438",
+            "isRight": false,
+            "id": "c22363d3-ac6b-416e-af93-c6ab0baabb96",
+            "text": "Give warning of a motorway ahead"
+          },
+          {
+            "questionId": "4438",
+            "isRight": true,
+            "id": "389e55d3-3c43-48fb-b20b-a31e47490574",
+            "text": "Give an instruction"
+          }
+        ],
+        "id": "4438",
+        "text": " What does a circular traffic sign with a blue background do?",
+        "imageUrl": "Source/img/4438.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.29",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4440",
+            "isRight": true,
+            "id": "b98c8bce-c766-4c56-a63b-a3d4f55ae1e7",
+            "text": "Tourist directions"
+          },
+          {
+            "questionId": "4440",
+            "isRight": false,
+            "id": "f3219ecd-8d4b-4a78-afd9-7044e7abb181",
+            "text": "Minor routes"
+          },
+          {
+            "questionId": "4440",
+            "isRight": false,
+            "id": "5ca2d9ed-7f6f-45e0-b530-ad0752bf7c38",
+            "text": "Motorway routes"
+          },
+          {
+            "questionId": "4440",
+            "isRight": false,
+            "id": "31e6bd15-0a36-43a4-b586-a2795d7221ec",
+            "text": "Primary roads"
+          }
+        ],
+        "id": "4440",
+        "text": " What does a sign with a brown background show?",
+        "imageUrl": "Source/img/4440.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.30",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4441",
+            "isRight": true,
+            "id": "61230b13-45d3-451a-be08-fec8184193e6",
+            "text": "To give warnings"
+          },
+          {
+            "questionId": "4441",
+            "isRight": false,
+            "id": "273a14bb-bae3-43d4-9859-af31fa35ef11",
+            "text": "To give directions"
+          },
+          {
+            "questionId": "4441",
+            "isRight": false,
+            "id": "cc2ca3d9-662c-46e8-bc15-d24823fc5552",
+            "text": "To give order"
+          },
+          {
+            "questionId": "4441",
+            "isRight": false,
+            "id": "cf92b0bd-a19d-4444-aeaa-85591e86b24c",
+            "text": "To give information"
+          }
+        ],
+        "id": "4441",
+        "text": " What are triangular signs for?",
+        "imageUrl": "Source/img/4441.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.34",
+        "correctAnswersNumber": 4,
+        "answers": [
+          {
+            "questionId": "4442",
+            "isRight": false,
+            "id": "04cdaeac-90a0-465a-85b0-732f4c21a911",
+            "text": "Ahead only"
+          },
+          {
+            "questionId": "4442",
+            "isRight": true,
+            "id": "e393315a-48be-4242-9401-5a450dc8d4d0",
+            "text": "Children crossing"
+          },
+          {
+            "questionId": "4442",
+            "isRight": true,
+            "id": "b1cde4ec-c3d8-461f-836f-ae373d5a3889",
+            "text": "T-junction"
+          },
+          {
+            "questionId": "4442",
+            "isRight": true,
+            "id": "7049f1b7-3c8a-48e1-81c2-f22f29fa1ce1",
+            "text": "Road narrows"
+          },
+          {
+            "questionId": "4442",
+            "isRight": true,
+            "id": "ff8529df-1357-4ff7-b96e-16508b10b686",
+            "text": "Tunnel ahead"
+          },
+          {
+            "questionId": "4442",
+            "isRight": false,
+            "id": "7a4e985b-1891-4036-a587-cac3f2641b4c",
+            "text": "Minimum speed"
+          }
+        ],
+        "id": "4442",
+        "text": " Which FOUR of these would be indicated by a triangular road sign?",
+        "imageUrl": "Source/img/4442.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.55",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4443",
+            "isRight": true,
+            "id": "ef9355f5-91ef-42e2-8b73-a0a7f4c6246d",
+            "text": "Red and amber then green"
+          },
+          {
+            "questionId": "4443",
+            "isRight": false,
+            "id": "4af18c90-d843-4982-9315-65ab40a47cd9",
+            "text": "Green and amber then green"
+          },
+          {
+            "questionId": "4443",
+            "isRight": false,
+            "id": "1e31a241-85ac-4486-9d27-2222c5732700",
+            "text": "Amber then green"
+          },
+          {
+            "questionId": "4443",
+            "isRight": false,
+            "id": "230e4cdc-65bb-46cd-a944-4b8619637272",
+            "text": "Green then amber"
+          }
+        ],
+        "id": "4443",
+        "text": " You are approaching a red traffic light. The signal will change from red to:",
+        "imageUrl": "Source/img/4443.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.56",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4444",
+            "isRight": false,
+            "id": "12ec344e-b19d-4dda-9b90-e076fd527e26",
+            "text": "Proceed with caution"
+          },
+          {
+            "questionId": "4444",
+            "isRight": false,
+            "id": "328fb214-ce3c-4623-a0e1-f6ef1bd32ace",
+            "text": "Stop  if you are able to brake safely"
+          },
+          {
+            "questionId": "4444",
+            "isRight": true,
+            "id": "258d82ee-3507-4a4a-9636-83ec0079733a",
+            "text": "You must stop and wait behind the stop line"
+          },
+          {
+            "questionId": "4444",
+            "isRight": false,
+            "id": "0205311d-563e-48b8-8ed7-da61d9afb6a3",
+            "text": "You should stop unless turning left"
+          }
+        ],
+        "id": "4444",
+        "text": " A red traffic light means:",
+        "imageUrl": "Source/img/4444.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.57",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4445",
+            "isRight": false,
+            "id": "be0363f4-e63d-4c67-bfcf-ed1ffa61a61a",
+            "text": "Go if no pedestrians are crossing"
+          },
+          {
+            "questionId": "4445",
+            "isRight": false,
+            "id": "c33f353e-ed3c-48be-9fd4-e93b5a59ba29",
+            "text": "Go if the way is clear"
+          },
+          {
+            "questionId": "4445",
+            "isRight": false,
+            "id": "08fddafc-61a0-4c58-b257-b1ca967c1280",
+            "text": "Prepare to go"
+          },
+          {
+            "questionId": "4445",
+            "isRight": true,
+            "id": "9e229d95-bc5c-4739-aa3e-eb3005b5f5f8",
+            "text": "Prepare to stop at the stop line"
+          }
+        ],
+        "id": "4445",
+        "text": " At traffic lights  amber on its own means:",
+        "imageUrl": "Source/img/4445.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.58",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4446",
+            "isRight": true,
+            "id": "22676152-df22-49b4-b4c7-b81201e636cb",
+            "text": "You must stop behind the white stop line"
+          },
+          {
+            "questionId": "4446",
+            "isRight": false,
+            "id": "3fd11c2d-f3a0-4038-99a1-6b9f4a089aec",
+            "text": "You must slow down and prepare to stop if traffic has started to cross"
+          },
+          {
+            "questionId": "4446",
+            "isRight": false,
+            "id": "011288f7-cb7b-450e-8e85-c3ce0b976541",
+            "text": "You may turn left if it is safe to do so"
+          },
+          {
+            "questionId": "4446",
+            "isRight": false,
+            "id": "ad63161a-1070-4306-9d7b-6c6d118b6e03",
+            "text": "You may drive straight on if there is no other traffic"
+          }
+        ],
+        "id": "4446",
+        "text": " A red traffic light means:",
+        "imageUrl": "Source/img/4446.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.59",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4447",
+            "isRight": false,
+            "id": "259c8b14-5cf1-4728-a443-25d1a6bb290f",
+            "text": "The lights are about to change to red"
+          },
+          {
+            "questionId": "4447",
+            "isRight": false,
+            "id": "3a92c426-aa7f-4db4-b8f4-843743237c69",
+            "text": "There is a fault with the lights - take care"
+          },
+          {
+            "questionId": "4447",
+            "isRight": true,
+            "id": "4ba87522-ab97-4146-8236-8c9d214d2379",
+            "text": "Wait for the green light before you pass the lights"
+          },
+          {
+            "questionId": "4447",
+            "isRight": false,
+            "id": "ac54611b-66c8-4348-a93e-b638121fd566",
+            "text": "Pass the lights if the road is clear"
+          }
+        ],
+        "id": "4447",
+        "text": " You are approaching traffic lights. Red and amber are showing. This means:",
+        "imageUrl": "Source/img/4447.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.60",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4448",
+            "isRight": false,
+            "id": "b225fde1-0e69-4e17-870a-22749e2f68aa",
+            "text": "When you intend to turn right"
+          },
+          {
+            "questionId": "4448",
+            "isRight": true,
+            "id": "d9c575ed-1fb0-467d-a1eb-6a4ade57aba9",
+            "text": "When your intended route from the junction is blocked"
+          },
+          {
+            "questionId": "4448",
+            "isRight": false,
+            "id": "075c377a-2dfa-4d4b-9f83-64d3571d9bec",
+            "text": "When you think the lights may be about to change"
+          },
+          {
+            "questionId": "4448",
+            "isRight": false,
+            "id": "fce6ddec-0224-4007-afa4-6d00bc7f23c5",
+            "text": "When pedestrians are waiting to cross"
+          }
+        ],
+        "id": "4448",
+        "text": " You are at a junction controlled by traffic lights. When should you NOT proceed at green?",
+        "imageUrl": "Source/img/4448.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.61",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4449",
+            "isRight": true,
+            "id": "47e68769-ea0d-4a38-8484-eac53c059bae",
+            "text": "No parking at any time"
+          },
+          {
+            "questionId": "4449",
+            "isRight": false,
+            "id": "e0a4a07f-d7c1-4870-9e74-faf3470a1ada",
+            "text": "Sounding of horns is not allowed"
+          },
+          {
+            "questionId": "4449",
+            "isRight": false,
+            "id": "f4d2e626-2af5-44e4-970a-02e6737cfc33",
+            "text": "Slow down to 20kph"
+          },
+          {
+            "questionId": "4449",
+            "isRight": false,
+            "id": "093778ab-4908-48e5-803b-1e1d850cc8b7",
+            "text": "Parking allowed only for a short time"
+          }
+        ],
+        "id": "4449",
+        "text": " What do these zigzag lines at pedestrian crossings mean?",
+        "imageUrl": "Source/img/4449.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.66",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4450",
+            "isRight": false,
+            "id": "a33bc4d4-14cc-45c5-bac6-6eb7fb1823b9",
+            "text": "Position over the centre line at an angle"
+          },
+          {
+            "questionId": "4450",
+            "isRight": true,
+            "id": "08eb08ac-0ae3-42ce-b07f-e2ed96e725c6",
+            "text": "Give an arm signal as well as an indicator signal"
+          },
+          {
+            "questionId": "4450",
+            "isRight": false,
+            "id": "598fa155-cffa-44f3-b193-d1b02ae8d298",
+            "text": "Flash your headlamp"
+          },
+          {
+            "questionId": "4450",
+            "isRight": false,
+            "id": "edae96f5-ca08-4b80-a2fc-9e4f35dd0449",
+            "text": "Sound the horn"
+          }
+        ],
+        "id": "4450",
+        "text": " You are to turn right in busy traffic. How would you confirm your intention safely?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.67",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4451",
+            "isRight": false,
+            "id": "bd78e87a-d308-4077-b54d-f5121e4e1faf",
+            "text": "Keep well over to the right"
+          },
+          {
+            "questionId": "4451",
+            "isRight": false,
+            "id": "1dda2760-9ea7-4bc4-9948-c0e692b67f0c",
+            "text": "Stay in the left-hand lane"
+          },
+          {
+            "questionId": "4451",
+            "isRight": false,
+            "id": "56dd7b64-b413-4bfe-961d-0ac2554ae6e5",
+            "text": "Get out and check if your indicators can be seen"
+          },
+          {
+            "questionId": "4451",
+            "isRight": true,
+            "id": "adbfbd9e-51f4-4240-baca-cce08f2fc036",
+            "text": "Give an arm signal as well as an indicator signal"
+          }
+        ],
+        "id": "4451",
+        "text": " You want to turn right at a junction but you think that your indicators cannot be seen clearly. What should you do?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.69",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4453",
+            "isRight": false,
+            "id": "cbb5126f-7eec-4850-87cc-4b9f75fc55f7",
+            "text": "To avoid damage to the indicator relay"
+          },
+          {
+            "questionId": "4453",
+            "isRight": true,
+            "id": "b0130285-a9f6-40a0-a91e-fa0cfe1765a6",
+            "text": "To avoid misleading other road users"
+          },
+          {
+            "questionId": "4453",
+            "isRight": false,
+            "id": "767b7839-8ee6-4fea-8ef8-f781c74fafba",
+            "text": "To avoid dazzling other road users"
+          },
+          {
+            "questionId": "4453",
+            "isRight": false,
+            "id": "30c7156f-308d-4688-9967-d5eb106d972e",
+            "text": "To avoid flattening the battery"
+          }
+        ],
+        "id": "4453",
+        "text": " Why should you make sure that you have cancelled your indicators after turning?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.70",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4454",
+            "isRight": false,
+            "id": "d418dd41-95f3-4221-b663-e884283f23f2",
+            "text": "Move out slowly"
+          },
+          {
+            "questionId": "4454",
+            "isRight": true,
+            "id": "ece10193-91ea-4de2-973a-9137b1251d32",
+            "text": "Wait until the vehicle starts to turn in"
+          },
+          {
+            "questionId": "4454",
+            "isRight": false,
+            "id": "9af9086b-785a-406b-a3f2-5f6edce760c2",
+            "text": "Pull out before the vehicle reaches the junction"
+          },
+          {
+            "questionId": "4454",
+            "isRight": false,
+            "id": "8876513c-1815-4a8d-8744-63ce6de354c3",
+            "text": "Move out and accelerate hard"
+          }
+        ],
+        "id": "4454",
+        "text": " You are waiting at a T-junction. A vehicle is coming from the right with the left signalflashing. What should you do?",
+        "imageUrl": "Source/img/4454.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.73",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4455",
+            "isRight": false,
+            "id": "b58badd4-e4df-4706-910a-5f3bc6d9dc76",
+            "text": "60kph"
+          },
+          {
+            "questionId": "4455",
+            "isRight": false,
+            "id": "d66faab1-20f6-4d27-998b-40acbe2ec09a",
+            "text": "40kph"
+          },
+          {
+            "questionId": "4455",
+            "isRight": true,
+            "id": "36d4d4b7-db52-4241-8032-a9dab8cdbe76",
+            "text": "50kph"
+          },
+          {
+            "questionId": "4455",
+            "isRight": false,
+            "id": "42e0506f-b922-4c2d-bbb9-50a103c51209",
+            "text": "30 kph"
+          }
+        ],
+        "id": "4455",
+        "text": " What is the maximum speed limit in a built up area unless indicated otherwise?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4493",
+            "isRight": false,
+            "id": "21d9aaa3-f134-4884-bf61-c11c52a9bc68",
+            "imageUrl": "Source/img/4493.1.png"
+          },
+          {
+            "questionId": "4493",
+            "isRight": false,
+            "id": "526134a7-e9b3-4c88-92ad-37d66d7a7c7d",
+            "imageUrl": "Source/img/4493.2.png"
+          },
+          {
+            "questionId": "4493",
+            "isRight": false,
+            "id": "33dc5de8-b691-414a-aae6-cf42b83efd62",
+            "imageUrl": "Source/img/4493.3.png"
+          },
+          {
+            "questionId": "4493",
+            "isRight": true,
+            "id": "d0c56ce4-95b5-4da5-97c5-cb9383dfeb85",
+            "imageUrl": "Source/img/4493.4.png"
+          }
+        ],
+        "id": "4493",
+        "text": " Traffic signs giving orders are generally which shape?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4494",
+            "isRight": true,
+            "id": "5a3fe002-5442-4f33-9eeb-05cfb2887461",
+            "imageUrl": "Source/img/4494.1.png"
+          },
+          {
+            "questionId": "4494",
+            "isRight": false,
+            "id": "38198844-5e1b-4896-a9d8-0e9f9a9881fa",
+            "imageUrl": "Source/img/4494.2.png"
+          },
+          {
+            "questionId": "4494",
+            "isRight": false,
+            "id": "37d695e6-29ea-4a38-b1c7-6ace7a54d626",
+            "imageUrl": "Source/img/4494.3.png"
+          },
+          {
+            "questionId": "4494",
+            "isRight": false,
+            "id": "cdaf156f-2b54-4d85-92c8-f4681d48a55a",
+            "imageUrl": "Source/img/4494.4.png"
+          }
+        ],
+        "id": "4494",
+        "text": " Which type of sign tells you NOT to do something?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4495",
+            "isRight": true,
+            "id": "ce1e1ac8-a40b-4ba0-94d2-70e857758382",
+            "text": "Maximum speed limit with traffic calming measures"
+          },
+          {
+            "questionId": "4495",
+            "isRight": false,
+            "id": "6a973376-a498-433b-9562-f3d527ba32eb",
+            "text": "Only 20 cars allowed at any one time"
+          },
+          {
+            "questionId": "4495",
+            "isRight": false,
+            "id": "40bcbb9f-f936-4b2d-be9e-2044147b36bf",
+            "text": "Parking area for 20 cars only"
+          },
+          {
+            "questionId": "4495",
+            "isRight": false,
+            "id": "7e25934a-ca83-4c8d-a8a5-c6a42ba05924",
+            "text": "Minimum speed limit with traffic calming measures"
+          }
+        ],
+        "id": "4495",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4495.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4496",
+            "isRight": true,
+            "id": "c4703413-5b35-4132-89d7-28250bbc68f6",
+            "imageUrl": "Source/img/4496.1.png"
+          },
+          {
+            "questionId": "4496",
+            "isRight": false,
+            "id": "fc1e18c8-b660-45f0-870f-5067dbcb7c63",
+            "imageUrl": "Source/img/4496.2.png"
+          },
+          {
+            "questionId": "4496",
+            "isRight": false,
+            "id": "c58cf495-60c0-4305-9374-7f8d4c36bf55",
+            "imageUrl": "Source/img/4496.3.png"
+          }
+        ],
+        "id": "4496",
+        "text": " Which sign means no motor vehicles are allowed?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4497",
+            "isRight": false,
+            "id": "a1eeec2a-deef-44ed-8258-19140f8885a7",
+            "imageUrl": "Source/img/4497.1.png"
+          },
+          {
+            "questionId": "4497",
+            "isRight": true,
+            "id": "e45b548a-2044-442c-90fb-8821c5cc915e",
+            "imageUrl": "Source/img/4497.2.png"
+          },
+          {
+            "questionId": "4497",
+            "isRight": false,
+            "id": "e46e7f67-bef6-482b-81b3-4fc3684d1c40",
+            "imageUrl": "Source/img/4497.3.png"
+          }
+        ],
+        "id": "4497",
+        "text": " Which of these signs means no motor vehicles?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.7",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4498",
+            "isRight": false,
+            "id": "15b52c63-bd5e-443d-996e-a1a11f5e378a",
+            "text": "Minimum speed limit 30kph"
+          },
+          {
+            "questionId": "4498",
+            "isRight": false,
+            "id": "ccc8b1c5-6aed-40e3-8685-7e4d550c348b",
+            "text": "No vehicles over 30 tonnes"
+          },
+          {
+            "questionId": "4498",
+            "isRight": false,
+            "id": "975eb27c-8d57-4fe0-899e-135df14ac5e5",
+            "text": "New speed limit 20 kph"
+          },
+          {
+            "questionId": "4498",
+            "isRight": true,
+            "id": "4fc5c818-c839-4c80-89a2-f12818f1be81",
+            "text": "End of 20kph zone"
+          }
+        ],
+        "id": "4498",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4498.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.8",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4499",
+            "isRight": true,
+            "id": "5b83a545-04c7-4abd-a251-05d296cbde0b",
+            "text": "No motor vehicles"
+          },
+          {
+            "questionId": "4499",
+            "isRight": false,
+            "id": "139fcb82-48de-426d-868f-be93900b9ade",
+            "text": "Cars and motorcycles only"
+          },
+          {
+            "questionId": "4499",
+            "isRight": false,
+            "id": "28e05302-4a68-488e-ab8e-5036f712d21f",
+            "text": "Clearway (no stopping)"
+          },
+          {
+            "questionId": "4499",
+            "isRight": false,
+            "id": "7c57150c-3c3d-4288-a4c4-360095bc55c1",
+            "text": "No overtaking"
+          }
+        ],
+        "id": "4499",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4499.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4500",
+            "isRight": false,
+            "id": "fe835902-dce7-4af0-9104-51400498b78b",
+            "text": "No through road"
+          },
+          {
+            "questionId": "4500",
+            "isRight": false,
+            "id": "a52ce533-9774-4455-bee1-2f537a030aa0",
+            "text": "No road markings"
+          },
+          {
+            "questionId": "4500",
+            "isRight": false,
+            "id": "d11eb5d1-0091-412f-bef8-0c2039629e8c",
+            "text": "No parking"
+          },
+          {
+            "questionId": "4500",
+            "isRight": true,
+            "id": "2598edc0-7332-4079-bea8-af2c7d9a58c9",
+            "text": "No entry"
+          }
+        ],
+        "id": "4500",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4500.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4501",
+            "isRight": false,
+            "id": "1d6a52b1-432b-4734-9c7a-f3a06366c80a",
+            "text": "No traffic from the right"
+          },
+          {
+            "questionId": "4501",
+            "isRight": false,
+            "id": "b93f6614-eb1e-43c7-8998-c7d924077305",
+            "text": "Road on the right closed"
+          },
+          {
+            "questionId": "4501",
+            "isRight": false,
+            "id": "15da8f11-3064-4e06-ab8b-0fee36d400a2",
+            "text": "Bend on the right"
+          },
+          {
+            "questionId": "4501",
+            "isRight": true,
+            "id": "0f45583c-e51a-4106-8b4f-1d557027d5e0",
+            "text": "No right turn"
+          }
+        ],
+        "id": "4501",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4501.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4502",
+            "isRight": false,
+            "id": "d80ca313-c55b-4251-9e9d-6b762e500e85",
+            "imageUrl": "Source/img/4502.1.png"
+          },
+          {
+            "questionId": "4502",
+            "isRight": false,
+            "id": "0b099300-f279-45b6-9a57-f1976f6662bb",
+            "imageUrl": "Source/img/4502.2.png"
+          },
+          {
+            "questionId": "4502",
+            "isRight": false,
+            "id": "e8874152-4877-4649-a636-33bd9685ac96",
+            "imageUrl": "Source/img/4502.3.png"
+          },
+          {
+            "questionId": "4502",
+            "isRight": true,
+            "id": "412c386d-b6ba-406e-ac51-7a45b7a3e7d9",
+            "imageUrl": "Source/img/4502.4.png"
+          }
+        ],
+        "id": "4502",
+        "text": " Which sign means 'no entry'?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.12",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4503",
+            "isRight": false,
+            "id": "cf4030d8-fca5-48dc-b787-9f4d2cc16214",
+            "text": "Two-way traffic"
+          },
+          {
+            "questionId": "4503",
+            "isRight": false,
+            "id": "ddeb92a3-705f-45db-a076-95c194d8dbab",
+            "text": "No motor vehicles"
+          },
+          {
+            "questionId": "4503",
+            "isRight": false,
+            "id": "0b3d8aaa-be79-48b2-8769-480e54d7db40",
+            "text": "You have priority"
+          },
+          {
+            "questionId": "4503",
+            "isRight": true,
+            "id": "6956c8f1-f665-436a-acf8-f9a91f73d5f7",
+            "text": "No overtaking"
+          }
+        ],
+        "id": "4503",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4503.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4504",
+            "isRight": false,
+            "id": "d7c3e49e-0ca1-46c5-a0ec-82dfd0ecaa2b",
+            "text": "Form two lanes"
+          },
+          {
+            "questionId": "4504",
+            "isRight": false,
+            "id": "22f23fd6-68c5-471e-846e-3bd117364ea9",
+            "text": "Give way to oncoming traffic"
+          },
+          {
+            "questionId": "4504",
+            "isRight": true,
+            "id": "0e43ae09-75fd-4724-a59c-a0e4d124292a",
+            "text": "Do not overtake"
+          },
+          {
+            "questionId": "4504",
+            "isRight": false,
+            "id": "abd6b541-36e9-43f7-8789-704f303ee399",
+            "text": "Keep in one lane"
+          }
+        ],
+        "id": "4504",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4504.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4505",
+            "isRight": true,
+            "id": "23578702-a149-44fe-a6f2-7fb3b1738187",
+            "text": "Waiting restrictions apply"
+          },
+          {
+            "questionId": "4505",
+            "isRight": false,
+            "id": "59829a52-b897-4b82-8ff4-b5a60c2ec8c7",
+            "text": "Clearway (no stopping)"
+          },
+          {
+            "questionId": "4505",
+            "isRight": false,
+            "id": "d83f2578-dc47-4639-bf19-9b2a42a3ada8",
+            "text": "National speed limit applies"
+          },
+          {
+            "questionId": "4505",
+            "isRight": false,
+            "id": "3327edb9-d981-4db4-86ab-f8e7fe54f0b5",
+            "text": "Waiting permitted"
+          }
+        ],
+        "id": "4505",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4505.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.15",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4506",
+            "isRight": false,
+            "id": "8ead9b7c-fbcc-4e6c-84b3-fe4dd07be215",
+            "imageUrl": "Source/img/4506.1.png"
+          },
+          {
+            "questionId": "4506",
+            "isRight": true,
+            "id": "0eb9a681-d789-494a-9080-d1eb7ff7df96",
+            "imageUrl": "Source/img/4506.2.png"
+          },
+          {
+            "questionId": "4506",
+            "isRight": false,
+            "id": "d16e9a82-aa0f-4906-994c-265fb01aabd0",
+            "imageUrl": "Source/img/4506.3.png"
+          },
+          {
+            "questionId": "4506",
+            "isRight": false,
+            "id": "c595ef86-0f05-4a03-a344-20c6fbc481ec",
+            "imageUrl": "Source/img/4506.4.png"
+          }
+        ],
+        "id": "4506",
+        "text": " Which sign means 'no stopping'?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.16",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4507",
+            "isRight": false,
+            "id": "1a9c3c62-6e88-4d8d-809c-1dd829a60ef3",
+            "text": "Roundabout"
+          },
+          {
+            "questionId": "4507",
+            "isRight": false,
+            "id": "8bc8d5d1-e6f5-41ba-8a09-6166e66d0349",
+            "text": "No entry"
+          },
+          {
+            "questionId": "4507",
+            "isRight": true,
+            "id": "52b559f2-f744-48eb-bd6f-956a60546010",
+            "text": "No stopping"
+          },
+          {
+            "questionId": "4507",
+            "isRight": false,
+            "id": "1432cac5-40a5-4bdf-b91f-d439572998fd",
+            "text": "Crossroads"
+          }
+        ],
+        "id": "4507",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4507.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4508",
+            "isRight": false,
+            "id": "108903ff-a627-4934-a73d-564884abdb11",
+            "text": "National speed limit applies"
+          },
+          {
+            "questionId": "4508",
+            "isRight": false,
+            "id": "b912be21-e8a2-481b-b933-020ac52973ce",
+            "text": "No entry"
+          },
+          {
+            "questionId": "4508",
+            "isRight": true,
+            "id": "b5340b25-cd50-429d-bf8c-16c33b803f12",
+            "text": "No stopping"
+          },
+          {
+            "questionId": "4508",
+            "isRight": false,
+            "id": "f6321731-2025-42c5-a859-8abac97985e3",
+            "text": "Waiting restrictions apply"
+          }
+        ],
+        "id": "4508",
+        "text": " You see this sign ahead. It means:",
+        "imageUrl": "Source/img/4508.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.18",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4509",
+            "isRight": false,
+            "id": "b3349a6f-00e2-4798-9e1c-bbad10cff2f1",
+            "text": "No overtaking allowed"
+          },
+          {
+            "questionId": "4509",
+            "isRight": false,
+            "id": "a4a77859-0d89-46f5-8c43-5590a7d64609",
+            "text": "One-way traffic only"
+          },
+          {
+            "questionId": "4509",
+            "isRight": false,
+            "id": "0beebe4b-4f64-4efd-801e-50e96297fed0",
+            "text": "Two way traffic"
+          },
+          {
+            "questionId": "4509",
+            "isRight": true,
+            "id": "a7dfc432-6b40-4880-992d-4eb0dc097e11",
+            "text": "Give priority to oncoming traffic"
+          }
+        ],
+        "id": "4509",
+        "text": " What does this traffic sign mean?",
+        "imageUrl": "Source/img/4509.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4510",
+            "isRight": false,
+            "id": "9c33d061-0e77-42d9-ae4d-cc30d39ff616",
+            "text": "Bus lane ahead"
+          },
+          {
+            "questionId": "4510",
+            "isRight": false,
+            "id": "6a058a99-9fe9-4a9e-a623-be9af66c4265",
+            "text": "Give priority to vehicles coming towards you"
+          },
+          {
+            "questionId": "4510",
+            "isRight": true,
+            "id": "8d34618e-eaec-49eb-bc0a-62ac8873b987",
+            "text": "You have priority over vehicles coming towards you"
+          },
+          {
+            "questionId": "4510",
+            "isRight": false,
+            "id": "57580cd2-fad1-441e-b2d1-b9562a1838dc",
+            "text": "End of two-way road"
+          }
+        ],
+        "id": "4510",
+        "text": " What is the meaning of this traffic sign?",
+        "imageUrl": "Source/img/4510.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4511",
+            "isRight": false,
+            "id": "b54d012a-4c60-453d-a50e-3e16ae1650cf",
+            "imageUrl": "Source/img/4511.1.png"
+          },
+          {
+            "questionId": "4511",
+            "isRight": false,
+            "id": "9553cdf9-267a-4ba5-be59-24cca51e17cf",
+            "imageUrl": "Source/img/4511.2.png"
+          },
+          {
+            "questionId": "4511",
+            "isRight": true,
+            "id": "6b011270-cd9c-48c4-894f-ebac3c34b18b",
+            "imageUrl": "Source/img/4511.3.png"
+          },
+          {
+            "questionId": "4511",
+            "isRight": false,
+            "id": "d187827f-b05e-415e-bc25-966bdc981fc3",
+            "imageUrl": "Source/img/4511.4.png"
+          }
+        ],
+        "id": "4511",
+        "text": " Which sign means 'traffic has priority over oncoming vehicles'?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4512",
+            "isRight": false,
+            "id": "dd116c4d-ee2d-4edb-9459-c34cff09e6f2",
+            "text": "Stop  ONLY if a red light is showing"
+          },
+          {
+            "questionId": "4512",
+            "isRight": false,
+            "id": "ea083b17-9a13-41d0-990e-4436593be660",
+            "text": "Stop  ONLY if children are waiting to cross"
+          },
+          {
+            "questionId": "4512",
+            "isRight": false,
+            "id": "a99cb18b-3b2b-412a-b6e5-d7e857a516a7",
+            "text": "Stop  ONLY if traffic is approaching"
+          },
+          {
+            "questionId": "4512",
+            "isRight": true,
+            "id": "2e03cacd-528b-4b1b-a028-652a022bba59",
+            "text": "Stop  even if the road is clear"
+          }
+        ],
+        "id": "4512",
+        "text": " What MUST you do when you see this sign?",
+        "imageUrl": "Source/img/4512.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.22",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4513",
+            "isRight": false,
+            "id": "87a59c2c-8ae5-4a88-bb37-6cdadda77a92",
+            "text": "Two-way traffic ahead"
+          },
+          {
+            "questionId": "4513",
+            "isRight": false,
+            "id": "2eb60ae1-79ab-411e-8249-876d97eb1278",
+            "text": "You are entering a one-way street"
+          },
+          {
+            "questionId": "4513",
+            "isRight": false,
+            "id": "a5b44d38-b528-4e54-89c7-b0ed233f051f",
+            "text": "No overtaking"
+          },
+          {
+            "questionId": "4513",
+            "isRight": true,
+            "id": "ec126630-8ccb-4aaa-85ad-affc1cdf032a",
+            "text": "You have priority over vehicles from the opposite direction"
+          }
+        ],
+        "id": "4513",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4513.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.23",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4514",
+            "isRight": false,
+            "id": "1e0f4ef1-ea11-48e1-bb6a-d01f99de3789",
+            "imageUrl": "Source/img/4514.1.png"
+          },
+          {
+            "questionId": "4514",
+            "isRight": false,
+            "id": "eef275b1-249e-4ff6-856e-05b5944e6195",
+            "imageUrl": "Source/img/4514.2.png"
+          },
+          {
+            "questionId": "4514",
+            "isRight": false,
+            "id": "ecf46829-5ae8-46b0-b3ff-eabbdc6f9ad0",
+            "imageUrl": "Source/img/4514.3.png"
+          },
+          {
+            "questionId": "4514",
+            "isRight": true,
+            "id": "8d128653-e30d-4902-8049-7cbc40492511",
+            "imageUrl": "Source/img/4514.4.png"
+          }
+        ],
+        "id": "4514",
+        "text": " What shape is a STOP sign at a junction?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4515",
+            "isRight": false,
+            "id": "c06b97b5-214c-43d5-a6f0-7db0430a4d2b",
+            "imageUrl": "Source/img/4515.1.png"
+          },
+          {
+            "questionId": "4515",
+            "isRight": false,
+            "id": "5593ca2d-87e8-4237-b023-8210aca41dc3",
+            "imageUrl": "Source/img/4515.2.png"
+          },
+          {
+            "questionId": "4515",
+            "isRight": false,
+            "id": "a84a9f6a-37d1-4b76-8c39-55b4525fd4a7",
+            "imageUrl": "Source/img/4515.3.png"
+          },
+          {
+            "questionId": "4515",
+            "isRight": true,
+            "id": "01670071-2a20-48c8-af4e-401a14b1dbfc",
+            "imageUrl": "Source/img/4515.4.png"
+          }
+        ],
+        "id": "4515",
+        "text": " Which shape is used for GIVE WAY sign?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.26",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4516",
+            "isRight": false,
+            "id": "2fcd5249-3c7b-49a8-b2a7-79cdc5a0e4c9",
+            "text": "Give way to oncoming vehicles"
+          },
+          {
+            "questionId": "4516",
+            "isRight": false,
+            "id": "8a7c7041-cf2e-4db2-be49-64cce4a34d90",
+            "text": "Turn off at the next available junction"
+          },
+          {
+            "questionId": "4516",
+            "isRight": false,
+            "id": "8c109966-4287-4fd3-9cf4-71e347b94f84",
+            "text": "Approaching traffic passes you on both sides"
+          },
+          {
+            "questionId": "4516",
+            "isRight": true,
+            "id": "9afbac41-a77c-4c77-bfc2-002b4fd9b6dc",
+            "text": "Pass either side to get to the same destination"
+          }
+        ],
+        "id": "4516",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4516.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.31",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4517",
+            "isRight": false,
+            "id": "a31bf3ab-58dd-4edf-adee-71765f0ae955",
+            "text": "Give way"
+          },
+          {
+            "questionId": "4517",
+            "isRight": true,
+            "id": "a7bf1ab1-4347-4032-961f-65fa9200eca0",
+            "text": "T-junction"
+          },
+          {
+            "questionId": "4517",
+            "isRight": false,
+            "id": "4f5c57d7-75ff-4e43-af85-da5088c55bf6",
+            "text": "No through road"
+          },
+          {
+            "questionId": "4517",
+            "isRight": false,
+            "id": "e9b9a14d-8aa7-427d-a50a-27e828834054",
+            "text": "Turn left ahead"
+          }
+        ],
+        "id": "4517",
+        "text": " What does this sign means?",
+        "imageUrl": "Source/img/4517.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.32",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4518",
+            "isRight": true,
+            "id": "66bc8952-878e-4cf4-9208-713b2bf3761b",
+            "text": "Crossroads"
+          },
+          {
+            "questionId": "4518",
+            "isRight": false,
+            "id": "6e76b1b6-0074-4b74-964e-8de5c1cd05ae",
+            "text": "Ahead only"
+          },
+          {
+            "questionId": "4518",
+            "isRight": false,
+            "id": "72a0cf63-b97d-4b5e-8d78-7ce4c86c65ed",
+            "text": "Level crossing without gate"
+          },
+          {
+            "questionId": "4518",
+            "isRight": false,
+            "id": "cf1088da-a3a8-48e9-936c-e0ad53746f97",
+            "text": "Level crossing with gate"
+          }
+        ],
+        "id": "4518",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4518.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.33",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4519",
+            "isRight": false,
+            "id": "23f5eeaf-b260-4c3b-9b04-6849be32418d",
+            "text": "Ring road"
+          },
+          {
+            "questionId": "4519",
+            "isRight": false,
+            "id": "95ae174d-5f23-490a-bf9a-1d0674509a52",
+            "text": "Mini-roundabout"
+          },
+          {
+            "questionId": "4519",
+            "isRight": false,
+            "id": "ee273e75-a998-47ef-b870-429d8929c3ea",
+            "text": "No vehicles"
+          },
+          {
+            "questionId": "4519",
+            "isRight": true,
+            "id": "35aac306-d62f-4445-b49f-00a43e29e52e",
+            "text": "Roundabout"
+          }
+        ],
+        "id": "4519",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4519.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.35",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4520",
+            "isRight": true,
+            "id": "bfbadcfe-e898-48d1-b78f-fae96e9d7a25",
+            "imageUrl": "Source/img/4520.1.png"
+          },
+          {
+            "questionId": "4520",
+            "isRight": false,
+            "id": "9d49060f-cf2f-4bdd-965d-e2f829d4fe59",
+            "imageUrl": "Source/img/4520.2.png"
+          },
+          {
+            "questionId": "4520",
+            "isRight": false,
+            "id": "946a478a-82bc-41a4-890e-cf89fe3512ee",
+            "imageUrl": "Source/img/4520.3.png"
+          },
+          {
+            "questionId": "4520",
+            "isRight": false,
+            "id": "85b47dc8-2ebd-4d15-af61-cc919f7667df",
+            "imageUrl": "Source/img/4520.4.png"
+          }
+        ],
+        "id": "4520",
+        "text": " Which sign means that pedestrians may be walking together along the road?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.36",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4521",
+            "isRight": true,
+            "id": "54cbbe87-3e87-45bf-a37b-858f24bf71e0",
+            "imageUrl": "Source/img/4521.1.png"
+          },
+          {
+            "questionId": "4521",
+            "isRight": false,
+            "id": "a2a5f8ff-65c8-4f7e-9b34-218b4eeb3ff4",
+            "imageUrl": "Source/img/4521.2.png"
+          },
+          {
+            "questionId": "4521",
+            "isRight": false,
+            "id": "e720b7b6-026f-4834-87cf-d95062a4aa5c",
+            "imageUrl": "Source/img/4521.3.png"
+          },
+          {
+            "questionId": "4521",
+            "isRight": false,
+            "id": "fa201f92-95f3-4cb9-a80c-32ff9c637d51",
+            "imageUrl": "Source/img/4521.4.png"
+          }
+        ],
+        "id": "4521",
+        "text": " Which of these signs warn you of a pedestrian crossing?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.37",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4522",
+            "isRight": false,
+            "id": "9e09ab46-78de-4a1f-bc5a-47f743303497",
+            "text": "No footpath ahead"
+          },
+          {
+            "questionId": "4522",
+            "isRight": false,
+            "id": "621690d2-05fe-4aaf-bce3-a8ed552351f9",
+            "text": "School crossing ahead"
+          },
+          {
+            "questionId": "4522",
+            "isRight": true,
+            "id": "f4e45da1-6c99-4495-be3e-a0cebcee10c3",
+            "text": "Pedestrian crossing ahead"
+          },
+          {
+            "questionId": "4522",
+            "isRight": false,
+            "id": "cd3e0845-4069-4bbd-a4e1-154a1971742c",
+            "text": "Pedestrians only ahead"
+          }
+        ],
+        "id": "4522",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4522.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.38",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4523",
+            "isRight": false,
+            "id": "ab05523e-811c-45e4-8e5c-cf566b4b5b1e",
+            "text": "School crossing patrol"
+          },
+          {
+            "questionId": "4523",
+            "isRight": false,
+            "id": "f46614af-e159-4a5f-b2d4-4b86cdc57bb2",
+            "text": "Pedestrian zone - no vehicles"
+          },
+          {
+            "questionId": "4523",
+            "isRight": false,
+            "id": "c7a9cc13-4966-4767-a475-e2f9df82feea",
+            "text": "No pedestrians allowed"
+          },
+          {
+            "questionId": "4523",
+            "isRight": true,
+            "id": "b0fa0d9e-e652-480b-a20b-1f7d89583f4b",
+            "text": "Pedestrian crossing ahead"
+          }
+        ],
+        "id": "4523",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4523.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.39",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4524",
+            "isRight": false,
+            "id": "338f6742-7e49-4bc8-b286-4ea6fceaa4da",
+            "imageUrl": "Source/img/4524.1.png"
+          },
+          {
+            "questionId": "4524",
+            "isRight": true,
+            "id": "acc7fd69-d990-4e7c-820c-fe2d2a5af9ae",
+            "imageUrl": "Source/img/4524.2.png"
+          },
+          {
+            "questionId": "4524",
+            "isRight": false,
+            "id": "fa3d64d0-b96b-4b42-b0ff-889de550bb63",
+            "imageUrl": "Source/img/4524.3.png"
+          },
+          {
+            "questionId": "4524",
+            "isRight": false,
+            "id": "a9d28463-b5db-4e80-bbbd-35aeb5103403",
+            "imageUrl": "Source/img/4524.4.png"
+          }
+        ],
+        "id": "4524",
+        "text": " Which of these signs means there is a double bend ahead?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.40",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4525",
+            "isRight": false,
+            "id": "9c71d185-b937-418e-a9d1-249dc8a3c19a",
+            "text": "Humpback bridge"
+          },
+          {
+            "questionId": "4525",
+            "isRight": true,
+            "id": "693f0fdb-166a-4c9b-aa8f-abd4ffcd5aaa",
+            "text": "Humps in the road"
+          },
+          {
+            "questionId": "4525",
+            "isRight": false,
+            "id": "3576eb40-a96d-4121-9173-bddb7d1e886c",
+            "text": "Exiting tunnels"
+          },
+          {
+            "questionId": "4525",
+            "isRight": false,
+            "id": "0753960a-e882-4eba-a6f5-5708aece8729",
+            "text": "Entrance to tunnel"
+          }
+        ],
+        "id": "4525",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4525.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.41",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4526",
+            "isRight": false,
+            "id": "0f668b34-5782-4657-8b24-3ccb8bc8cc96",
+            "text": "Low bridge ahead"
+          },
+          {
+            "questionId": "4526",
+            "isRight": true,
+            "id": "c33e9038-644e-4073-8bcd-d5bd559415ca",
+            "text": "Tunnel ahead"
+          },
+          {
+            "questionId": "4526",
+            "isRight": false,
+            "id": "fe8dc816-af9e-4dd9-b027-c5bc859c994d",
+            "text": "Accident black spot ahead"
+          },
+          {
+            "questionId": "4526",
+            "isRight": false,
+            "id": "9580c095-b62d-43fe-9a05-189d5bcc843c",
+            "text": "Ancient monument ahead"
+          }
+        ],
+        "id": "4526",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4526.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.42",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4527",
+            "isRight": true,
+            "id": "626ad1b9-8c35-4789-8ad4-dcc2e87201e2",
+            "imageUrl": "Source/img/4527.1.png"
+          },
+          {
+            "questionId": "4527",
+            "isRight": false,
+            "id": "9bb4856f-33a6-4123-9ed7-54a2ffe15a18",
+            "imageUrl": "Source/img/4527.2.png"
+          },
+          {
+            "questionId": "4527",
+            "isRight": false,
+            "id": "364231a1-210b-4e12-a5ef-0bc32f8ba941",
+            "imageUrl": "Source/img/4527.3.png"
+          },
+          {
+            "questionId": "4527",
+            "isRight": false,
+            "id": "10d7aa01-c06d-46a5-9964-7522b44c904f",
+            "imageUrl": "Source/img/4527.4.png"
+          }
+        ],
+        "id": "4527",
+        "text": " Which of these signs means the end of a dual carriageway?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.43",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4528",
+            "isRight": true,
+            "id": "51c0446c-f16f-45ee-bad7-a9ebc797e2ac",
+            "text": "End of dual carriageway"
+          },
+          {
+            "questionId": "4528",
+            "isRight": false,
+            "id": "107ba353-a281-4fdb-a766-19a5e07e79d0",
+            "text": "End of narrow bridge"
+          },
+          {
+            "questionId": "4528",
+            "isRight": false,
+            "id": "2a4719ea-29cd-45ed-bb24-6a5d5515903c",
+            "text": "Road narrows"
+          },
+          {
+            "questionId": "4528",
+            "isRight": false,
+            "id": "6311e988-6cb9-4b8f-ba2b-a943ef985a1a",
+            "text": "Tall bridge"
+          }
+        ],
+        "id": "4528",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4528.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.44",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4529",
+            "isRight": false,
+            "id": "70d43e1c-5a53-4c73-8266-5a12671f2226",
+            "text": "Two-way traffic ahead across a one-way street"
+          },
+          {
+            "questionId": "4529",
+            "isRight": false,
+            "id": "f98df08b-63f6-4dbc-bd58-c7f951bc3010",
+            "text": "Motorway contra flow system ahead"
+          },
+          {
+            "questionId": "4529",
+            "isRight": true,
+            "id": "939688db-79c1-4220-bfb6-7e9beb9bf54d",
+            "text": "Two-way traffic straight ahead"
+          },
+          {
+            "questionId": "4529",
+            "isRight": false,
+            "id": "3b629ac2-6d40-4e3b-a615-e9264ec259f4",
+            "text": "Traffic approaching you has priority"
+          }
+        ],
+        "id": "4529",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4529.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.45",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4530",
+            "isRight": false,
+            "id": "3d73ccc6-2309-4584-8981-5ef7cca2fece",
+            "text": "Slippery road ahead"
+          },
+          {
+            "questionId": "4530",
+            "isRight": false,
+            "id": "f79ae176-d963-45c7-be21-1876a9a860fe",
+            "text": "Service area ahead"
+          },
+          {
+            "questionId": "4530",
+            "isRight": true,
+            "id": "e66ecac6-adcc-4d48-ace1-599c19337add",
+            "text": "Danger ahead"
+          },
+          {
+            "questionId": "4530",
+            "isRight": false,
+            "id": "1dd98e5a-7501-4e75-9968-7878977252d9",
+            "text": "Tyres liable to punctures ahead"
+          }
+        ],
+        "id": "4530",
+        "text": " What does this traffic sign mean?",
+        "imageUrl": "Source/img/4530.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.46",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4531",
+            "isRight": false,
+            "id": "39318429-2e4e-44c4-862a-7920f7e0c375",
+            "text": "Switch your headlights on before overtaking"
+          },
+          {
+            "questionId": "4531",
+            "isRight": false,
+            "id": "f7fa7e73-01f0-465f-8483-48b9db93d47a",
+            "text": "Move to the right to get a better view"
+          },
+          {
+            "questionId": "4531",
+            "isRight": false,
+            "id": "a5c05fea-196b-4678-b7c8-29bc5368a04c",
+            "text": "Overtake the other driver as quickly as possible"
+          },
+          {
+            "questionId": "4531",
+            "isRight": true,
+            "id": "d323cedb-445c-4f37-adf7-848d48de77b3",
+            "text": "Hold back until you can see clearly ahead"
+          }
+        ],
+        "id": "4531",
+        "text": " You are about to overtake when you see this sign. You should:",
+        "imageUrl": "Source/img/4531.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.47",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4532",
+            "isRight": false,
+            "id": "1864e285-9c59-4f4e-bb04-3a284fcf1486",
+            "text": "Steep hill upwards"
+          },
+          {
+            "questionId": "4532",
+            "isRight": true,
+            "id": "215b1f90-ec60-4a00-b534-000626833159",
+            "text": "Steep hill downwards"
+          },
+          {
+            "questionId": "4532",
+            "isRight": false,
+            "id": "f7af6330-4977-475d-a989-c121685a9f67",
+            "text": "Uneven road"
+          },
+          {
+            "questionId": "4532",
+            "isRight": false,
+            "id": "816b1a05-fb7c-4ea4-a681-8b1bd9efe450",
+            "text": "Adverse camber"
+          }
+        ],
+        "id": "4532",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4532.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.48",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4533",
+            "isRight": true,
+            "id": "efb0b6c4-2980-45bc-8398-5a573be8d3b2",
+            "text": "Quayside or river bank"
+          },
+          {
+            "questionId": "4533",
+            "isRight": false,
+            "id": "8ca4ce13-e6a7-4804-97b7-cb07a4e0bd01",
+            "text": "Road liable to flooding"
+          },
+          {
+            "questionId": "4533",
+            "isRight": false,
+            "id": "c3025c09-95b9-4b35-89a5-47b7fa1bcfaf",
+            "text": "Slippery road"
+          },
+          {
+            "questionId": "4533",
+            "isRight": false,
+            "id": "f459e974-f6ef-4d18-81d5-8d14421065a1",
+            "text": "Steep hill downwards"
+          }
+        ],
+        "id": "4533",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4533.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.49",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4534",
+            "isRight": false,
+            "id": "49eab9b8-c059-4c92-a642-303db13240a2",
+            "text": "Turn left for ferry terminal"
+          },
+          {
+            "questionId": "4534",
+            "isRight": true,
+            "id": "07fcc2af-a6ae-4e50-a2e7-bba96959a0c1",
+            "text": "No through road on the left"
+          },
+          {
+            "questionId": "4534",
+            "isRight": false,
+            "id": "edac3b12-2c81-40f4-84c1-7ce665b3034d",
+            "text": "No entry for traffic turning left"
+          },
+          {
+            "questionId": "4534",
+            "isRight": false,
+            "id": "da4f3b7d-8f08-4ccf-82bb-b284f922d848",
+            "text": "Turn left for parking area"
+          }
+        ],
+        "id": "4534",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4534.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.50",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4535",
+            "isRight": false,
+            "id": "6a4d4acf-85a0-4a4a-a9d6-ae00cff74372",
+            "text": "Toilet ahead"
+          },
+          {
+            "questionId": "4535",
+            "isRight": false,
+            "id": "4f10cb62-910e-495c-9d12-aa31a99aca7c",
+            "text": "Telephone box ahead"
+          },
+          {
+            "questionId": "4535",
+            "isRight": false,
+            "id": "2331493f-34f4-4e72-8776-b9fc6e335559",
+            "text": "T-junction"
+          },
+          {
+            "questionId": "4535",
+            "isRight": true,
+            "id": "ae6ea5b1-1fce-4439-abc6-fe6fa08b694e",
+            "text": "No through road"
+          }
+        ],
+        "id": "4535",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4535.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.51",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4536",
+            "isRight": false,
+            "id": "7064bdfa-d1d6-409e-89fd-a4416b9ebd79",
+            "imageUrl": "Source/img/4536.1.png"
+          },
+          {
+            "questionId": "4536",
+            "isRight": false,
+            "id": "d36fcea0-7b9e-4abe-b4ab-3017bb22bc19",
+            "imageUrl": "Source/img/4536.2.png"
+          },
+          {
+            "questionId": "4536",
+            "isRight": true,
+            "id": "150647ad-fea0-4da1-97e2-381c7d67686d",
+            "imageUrl": "Source/img/4536.3.png"
+          }
+        ],
+        "id": "4536",
+        "text": " Which sign means 'no through road'?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.52",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4537",
+            "isRight": false,
+            "id": "35cee9bc-3557-4f35-ad7e-4b89dbbfdfaa",
+            "imageUrl": "Source/img/4537.1.png"
+          },
+          {
+            "questionId": "4537",
+            "isRight": false,
+            "id": "5d1b57c2-bb88-4408-918d-bca41bd25e62",
+            "imageUrl": "Source/img/4537.2.png"
+          },
+          {
+            "questionId": "4537",
+            "isRight": true,
+            "id": "d6fb7854-5f96-4a7f-98ea-927b10892977",
+            "imageUrl": "Source/img/4537.3.png"
+          }
+        ],
+        "id": "4537",
+        "text": " Which of the following signs informs you that you are coming to a No Through Road?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.53",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4538",
+            "isRight": false,
+            "id": "1ea2e37f-5eab-4467-8b63-acbbcf444fc3",
+            "text": "The right-hand lane ahead is narrow"
+          },
+          {
+            "questionId": "4538",
+            "isRight": false,
+            "id": "eecd6c2b-f2d9-4c6b-b210-1da07513d361",
+            "text": "Right hand lane for turning right"
+          },
+          {
+            "questionId": "4538",
+            "isRight": false,
+            "id": "c83c17e5-424c-4a55-9675-c184cb59e59a",
+            "text": "Right-hand lane for buses only"
+          },
+          {
+            "questionId": "4538",
+            "isRight": true,
+            "id": "9298f4d0-5ca8-42de-be16-eba2854a6a4b",
+            "text": "The right-hand lane ahead is closed"
+          }
+        ],
+        "id": "4538",
+        "text": " What does this sign mean?",
+        "imageUrl": "Source/img/4538.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.54",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4539",
+            "isRight": true,
+            "id": "f37baa91-a659-4868-aa2e-6d5e550cabbe",
+            "text": "Red alone"
+          },
+          {
+            "questionId": "4539",
+            "isRight": false,
+            "id": "8f931bed-e387-48bc-a764-b9993f01d8ad",
+            "text": "Green alone"
+          },
+          {
+            "questionId": "4539",
+            "isRight": false,
+            "id": "a712092b-2558-4656-a4e8-8cbd98785ffe",
+            "text": "Green and amber together"
+          },
+          {
+            "questionId": "4539",
+            "isRight": false,
+            "id": "66c9e6e1-2220-456c-b9b6-02d646ecdee7",
+            "text": "Red and amber together"
+          }
+        ],
+        "id": "4539",
+        "text": " You see this traffic light ahead. Which light(s) will come on next?",
+        "imageUrl": "Source/img/4539.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.62",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4540",
+            "isRight": false,
+            "id": "a7f0fee8-b41c-4983-8e9d-0d876d70cac2",
+            "text": "No through road sign"
+          },
+          {
+            "questionId": "4540",
+            "isRight": true,
+            "id": "c2e07a8e-21ab-431f-917e-3532d0284c8a",
+            "text": "Give way sign"
+          },
+          {
+            "questionId": "4540",
+            "isRight": false,
+            "id": "08df542b-5be6-4b92-86e1-c0dcc29e0578",
+            "text": "Stop sign"
+          },
+          {
+            "questionId": "4540",
+            "isRight": false,
+            "id": "72b2e640-ba08-4064-ac5b-ca49ec773b0a",
+            "text": "No entry sign"
+          }
+        ],
+        "id": "4540",
+        "text": " This marking appears on the road just before a",
+        "imageUrl": "Source/img/4540.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.63",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4541",
+            "isRight": true,
+            "id": "77c723a5-7f13-4770-9ca3-61188616d33d",
+            "text": "Give way to traffic from the right"
+          },
+          {
+            "questionId": "4541",
+            "isRight": false,
+            "id": "3110e819-d7a5-48bc-8fff-8808c3c10791",
+            "text": "Stop at the line"
+          },
+          {
+            "questionId": "4541",
+            "isRight": false,
+            "id": "0cc92c2f-173e-49ce-8c69-0a213078e437",
+            "text": "You have right of way"
+          },
+          {
+            "questionId": "4541",
+            "isRight": false,
+            "id": "5ecc22f2-f255-4037-ad9d-58beae8133fa",
+            "text": "Traffic from the left has right of way"
+          }
+        ],
+        "id": "4541",
+        "text": " You see this line across the road at the entrance to a roundabout.\nWhat does it mean?",
+        "imageUrl": "Source/img/4541.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.64",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4542",
+            "isRight": false,
+            "id": "b4e05e64-4513-4e12-aad0-6645c181a6ed",
+            "text": "The driver wishes to overtake"
+          },
+          {
+            "questionId": "4542",
+            "isRight": false,
+            "id": "edc7fa78-2378-4a30-983f-a64f181b1e2b",
+            "text": "The driver intends to turn right"
+          },
+          {
+            "questionId": "4542",
+            "isRight": false,
+            "id": "692e52b6-96d4-45b9-9981-b7379b21f15a",
+            "text": "The driver is slowing down"
+          },
+          {
+            "questionId": "4542",
+            "isRight": true,
+            "id": "5f58aaa6-8ddf-4fb4-81f1-3b12ca570843",
+            "text": "The drivers intends to turn left"
+          }
+        ],
+        "id": "4542",
+        "text": " The driver of the car in front is giving this signal. What does it mean?",
+        "imageUrl": "Source/img/4542.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.65",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4543",
+            "isRight": false,
+            "id": "5913659a-3d49-401b-a9a2-7d8f2b5865d9",
+            "text": "Let pedestrians cross"
+          },
+          {
+            "questionId": "4543",
+            "isRight": true,
+            "id": "71742ebc-a789-44b8-90b5-5b81bcb5e518",
+            "text": "Turn to the left"
+          },
+          {
+            "questionId": "4543",
+            "isRight": false,
+            "id": "8a67be0b-8b88-4d29-8415-c7af8e6fbf0f",
+            "text": "Go straight ahead"
+          },
+          {
+            "questionId": "4543",
+            "isRight": false,
+            "id": "f927317a-cd55-49da-9d6e-4c1d7f9a1d50",
+            "text": "Turn to the right"
+          }
+        ],
+        "id": "4543",
+        "text": " The driver of this car is giving an arm signal. What is he about to do?",
+        "imageUrl": "Source/img/4543.png"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.71",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4544",
+            "isRight": false,
+            "id": "67cef4a4-10f7-4969-9197-267a7f126f71",
+            "imageUrl": "Source/img/4544.1.png"
+          },
+          {
+            "questionId": "4544",
+            "isRight": false,
+            "id": "36223692-6f4d-4912-a0bb-b749d85474c9",
+            "imageUrl": "Source/img/4544.2.png"
+          },
+          {
+            "questionId": "4544",
+            "isRight": false,
+            "id": "37f1ff01-bce3-40a9-8ef2-bf931763c2ff",
+            "imageUrl": "Source/img/4544.3.png"
+          },
+          {
+            "questionId": "4544",
+            "isRight": true,
+            "id": "89c1afa9-348c-482d-a192-8195d9e09c7d",
+            "imageUrl": "Source/img/4544.4.png"
+          }
+        ],
+        "id": "4544",
+        "text": " Which of these signs means that the national speed limit applies?"
+      },
+      {
+        "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+        "subCategoryId": "CARS11.72",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4545",
+            "isRight": false,
+            "id": "201dd3d0-fd8a-4673-88ef-2adaf06b153d",
+            "text": "Hatched traffic stream separator warning lines that may be used for overtaking as long as no traffic is coming from the opposite direction"
+          },
+          {
+            "questionId": "4545",
+            "isRight": false,
+            "id": "d993e303-3627-4ce1-9f52-194dbb5edec2",
+            "text": "Central reservation and can be used for overtaking if no traffic is coming from the opposite direction."
+          },
+          {
+            "questionId": "4545",
+            "isRight": true,
+            "id": "c82024a3-dedc-434b-8bd4-679a8534f2d7",
+            "text": "Hatching bordered by continuous solid white lines intended to separate two opposing streams of traffic  which lines must not be crossed or entered into except in an emergency or when directed to do so by the police"
+          }
+        ],
+        "id": "4545",
+        "text": " Which of the following describe these road markings?",
+        "imageUrl": "Source/img/4545.png"
+      }
+    ],
+    "id": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
+    "text": "ROAD AND TRAFFIC SIGNS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4456",
+            "isRight": true,
+            "id": "998d7f0c-6fa0-4ef2-a617-58c714f94ca2",
+            "text": "Have held a full licence for at least 5 years"
+          },
+          {
+            "questionId": "4456",
+            "isRight": false,
+            "id": "cfc8fb53-2576-45b0-a397-2607dde337a9",
+            "text": "Hold an advanced driving certificate"
+          },
+          {
+            "questionId": "4456",
+            "isRight": false,
+            "id": "abd05a61-e569-4864-b211-9e23f15786a6",
+            "text": "Be an approved driving instructor"
+          },
+          {
+            "questionId": "4456",
+            "isRight": false,
+            "id": "4ac9622c-64d6-490c-a052-a7295d4098b9",
+            "text": "Be at least 23"
+          }
+        ],
+        "id": "4456",
+        "text": " To supervise a learner driver you must:"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.2",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4457",
+            "isRight": true,
+            "id": "3831418a-2571-4a42-a02d-56f3f53241c6",
+            "text": "When you are taxing your vehicle"
+          },
+          {
+            "questionId": "4457",
+            "isRight": true,
+            "id": "de714b69-0c9c-4861-b7e0-ecb469514871",
+            "text": "When a police officer asks you for it"
+          },
+          {
+            "questionId": "4457",
+            "isRight": false,
+            "id": "de84c84f-af73-414a-ae00-6e404296746a",
+            "text": "When having a VRT inspection"
+          },
+          {
+            "questionId": "4457",
+            "isRight": true,
+            "id": "50cb4edc-71b2-415f-99ac-43bdc9b25224",
+            "text": "When buying or selling a vehicle"
+          }
+        ],
+        "id": "4457",
+        "text": " For which THREE of these must you show your motor insurance certificate?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4458",
+            "isRight": false,
+            "id": "6cddf4ee-3fdd-4b54-a937-28819c68d8bb",
+            "text": "The owner has left the insurance documents in the vehicle"
+          },
+          {
+            "questionId": "4458",
+            "isRight": false,
+            "id": "eab2cfd3-47b1-40a5-99e8-5866709b9546",
+            "text": "Your own vehicle has insurance cover"
+          },
+          {
+            "questionId": "4458",
+            "isRight": true,
+            "id": "10cdcb58-3dcf-46f9-a7dc-bcd18bc3b735",
+            "text": "The vehicle is also insured for your use"
+          },
+          {
+            "questionId": "4458",
+            "isRight": false,
+            "id": "5821bb72-5e8d-44a8-ba82-b0a252327b8b",
+            "text": "The vehicle owner has third party insurance cover"
+          }
+        ],
+        "id": "4458",
+        "text": " Before driving anyone else's motor vehicle you should make sure that:"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4459",
+            "isRight": false,
+            "id": "e374d214-3904-4e27-8eaf-d5a5690b143f",
+            "text": "Personal injury cover"
+          },
+          {
+            "questionId": "4459",
+            "isRight": false,
+            "id": "7d31a6e8-2b54-4ebc-aa7d-49d772ad05c0",
+            "text": "Fully comprehensive"
+          },
+          {
+            "questionId": "4459",
+            "isRight": false,
+            "id": "1814bca5-6786-46b4-9926-d6df7e3468c7",
+            "text": "Third party fire and theft"
+          },
+          {
+            "questionId": "4459",
+            "isRight": true,
+            "id": "5013e773-cd9f-4b93-92de-d9bb0355e28b",
+            "text": "Third party only"
+          }
+        ],
+        "id": "4459",
+        "text": " What is the legal minimum insurance cover you must have to drive on public roads?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.7",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4460",
+            "isRight": true,
+            "id": "d516f1db-121f-47dc-8cc4-7fa37fafa22b",
+            "text": "Proper insurance cover"
+          },
+          {
+            "questionId": "4460",
+            "isRight": false,
+            "id": "f3177e22-56d4-4399-82d4-539633bb55e5",
+            "text": "A vehicle handbook"
+          },
+          {
+            "questionId": "4460",
+            "isRight": false,
+            "id": "8561c53b-88f3-4f6e-a36e-bbacafe7e957",
+            "text": "Breakdown cover"
+          },
+          {
+            "questionId": "4460",
+            "isRight": true,
+            "id": "514e4543-4395-464f-a01a-0453a0f9f54f",
+            "text": "A valid road tax disc displayed on your vehicle"
+          },
+          {
+            "questionId": "4460",
+            "isRight": true,
+            "id": "5061d9f0-8a6b-4609-a3e4-b570bdc73031",
+            "text": "A valid signed driving licence"
+          },
+          {
+            "questionId": "4460",
+            "isRight": false,
+            "id": "c4f2eb1d-0dbd-4503-8d8d-b3642e429f1f",
+            "text": "Proof of your identity"
+          }
+        ],
+        "id": "4460",
+        "text": " Which THREE of the following do you need before you can drive legally?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.8",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4461",
+            "isRight": true,
+            "id": "70e3d670-f0f5-4606-a138-a4e919c9dd4c",
+            "text": "Make of the vehicle"
+          },
+          {
+            "questionId": "4461",
+            "isRight": true,
+            "id": "9a263335-f626-4b7e-828f-95bb5de9b8ed",
+            "text": "Registered owner"
+          },
+          {
+            "questionId": "4461",
+            "isRight": false,
+            "id": "24c09c16-ca4d-44d8-8a46-7d473a0ace66",
+            "text": "Type of insurance cover"
+          },
+          {
+            "questionId": "4461",
+            "isRight": false,
+            "id": "6ce73caa-ff8f-48c0-b210-2f260f86a91c",
+            "text": "Date of the VRT"
+          },
+          {
+            "questionId": "4461",
+            "isRight": false,
+            "id": "9f77eac3-aff9-438a-8141-de54793eb7ac",
+            "text": "Service history details"
+          }
+        ],
+        "id": "4461",
+        "text": " Which TWO pieces of information are found on a vehicle registration document?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.9",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4462",
+            "isRight": false,
+            "id": "f1026355-efc2-4953-8077-9423c496b0e6",
+            "text": "4 points a year over a 3 year period."
+          },
+          {
+            "questionId": "4462",
+            "isRight": true,
+            "id": "5413acd9-dcf4-4e32-bcbb-eb83a637a176",
+            "text": "12 points at any time during a 3 year period."
+          },
+          {
+            "questionId": "4462",
+            "isRight": false,
+            "id": "dd84e508-ab6b-464f-9dca-a84a1c934c77",
+            "text": "18 points over a two year period."
+          },
+          {
+            "questionId": "4462",
+            "isRight": false,
+            "id": "a5e33ead-b576-4181-9757-0029890fb039",
+            "text": "10 points during any one year period."
+          },
+          {
+            "questionId": "4462",
+            "isRight": false,
+            "id": "6e75ac12-2e29-4b89-8ae1-59a8e4240990",
+            "text": "15 points over a five 5 year period."
+          }
+        ],
+        "id": "4462",
+        "text": " What is the maximum number of penalty points that will automatically disqualify a driver who holds a probationary driving licence?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.10",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4463",
+            "isRight": false,
+            "id": "d3948fad-d1c1-49a6-8c5d-5daa6ab2f8fc",
+            "text": "Simply re-sit and pass the test of skills and behaviour."
+          },
+          {
+            "questionId": "4463",
+            "isRight": false,
+            "id": "067a9aaa-924f-43e9-96a1-6252a3e694ea",
+            "text": "Re-apply as for a new driver after expiry of disqualification period and must re-sit and pass the theory test"
+          },
+          {
+            "questionId": "4463",
+            "isRight": true,
+            "id": "4e2b1922-712a-4979-bba7-1632b04eb86c",
+            "text": "Pay any outstanding fines  submit a new licence application after expiry of disqualification period and re-sit and pass both the theory and practical tests"
+          },
+          {
+            "questionId": "4463",
+            "isRight": false,
+            "id": "476ca06f-20c8-404a-941d-b1bbcc6e4352",
+            "text": "Wait for any disqualification period to pass and apply for a duplicate driving licence."
+          }
+        ],
+        "id": "4463",
+        "text": " Apart from complying with any punishment according to law  what will a disqualified driver have to do to obtain a driving licence?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.11",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4464",
+            "isRight": false,
+            "id": "455632af-a9ff-484f-b563-92ab5effec16",
+            "text": "Nobody in particular."
+          },
+          {
+            "questionId": "4464",
+            "isRight": false,
+            "id": "40a1de14-0fc2-4f4b-acd1-45c0a4828daa",
+            "text": "Your mechanic."
+          },
+          {
+            "questionId": "4464",
+            "isRight": false,
+            "id": "7345fd20-3e68-405f-a88c-0d5a6da01532",
+            "text": "The VRT tester."
+          },
+          {
+            "questionId": "4464",
+            "isRight": true,
+            "id": "502b0b8c-99ae-4f7c-8012-3eaa01989564",
+            "text": "You  the driver."
+          }
+        ],
+        "id": "4464",
+        "text": " Who is responsible for ensuring that a vehicle is fully road worthy when driven on a public road?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.5",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4650",
+            "isRight": true,
+            "id": "e76be51d-0f23-49cb-8a32-8f9f6a5541c6",
+            "text": "Damage to other vehicles"
+          },
+          {
+            "questionId": "4650",
+            "isRight": true,
+            "id": "75d588ed-488d-4257-9605-ce42dce70007",
+            "text": "Damage to someone's property"
+          },
+          {
+            "questionId": "4650",
+            "isRight": false,
+            "id": "b4de3fcf-4945-4622-8296-2128eec37ab9",
+            "text": "Injury to yourself"
+          },
+          {
+            "questionId": "4650",
+            "isRight": true,
+            "id": "96f36d58-3513-4803-98e5-c4466795ab80",
+            "text": "Injury to another person"
+          },
+          {
+            "questionId": "4650",
+            "isRight": false,
+            "id": "0d0e0cc5-5b3d-4014-8be0-43edb0b04d91",
+            "text": "Damage to your car by fire"
+          },
+          {
+            "questionId": "4650",
+            "isRight": false,
+            "id": "50cd7ec1-6b88-42b2-b49c-32363d696dfd",
+            "text": "Damage to your own car"
+          }
+        ],
+        "id": "4650",
+        "text": " Your car has third party insurance. What does this cover?"
+      },
+      {
+        "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+        "subCategoryId": "CARS12.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4651",
+            "isRight": false,
+            "id": "7a43ef42-e8da-49c6-9269-0305230d790e",
+            "text": "30,000 miles"
+          },
+          {
+            "questionId": "4651",
+            "isRight": false,
+            "id": "1d9e1aeb-5b61-4640-b1ca-35635dafa61a",
+            "text": "One year after the date it was issued"
+          },
+          {
+            "questionId": "4651",
+            "isRight": false,
+            "id": "f1d5cc2c-d4ad-45e2-8545-ec4b31933f68",
+            "text": "10,000 miles"
+          },
+          {
+            "questionId": "4651",
+            "isRight": true,
+            "id": "fcb69a25-0262-42ff-8140-cd3cf6d8a414",
+            "text": "Two years after the date it was issued"
+          }
+        ],
+        "id": "4651",
+        "text": " A VRT certificate is normally valid for:"
+      }
+    ],
+    "id": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
+    "text": "DOCUMENTS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.1",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4465",
+            "isRight": true,
+            "id": "9ae8315b-9b1a-43eb-872c-9660d7cc2fd2",
+            "text": "Not put yourself at risk"
+          },
+          {
+            "questionId": "4465",
+            "isRight": false,
+            "id": "ef3caf14-e832-409b-ae8d-2dfa6dbcb618",
+            "text": "Leave vehicle engines switched on"
+          },
+          {
+            "questionId": "4465",
+            "isRight": false,
+            "id": "7c8e3898-4826-4979-b66c-ec414b414563",
+            "text": "Pull everybody out of their vehicles"
+          },
+          {
+            "questionId": "4465",
+            "isRight": false,
+            "id": "e243e179-7fbb-4a4b-b8ae-082f379e48ec",
+            "text": "Go to those casualties who are screaming"
+          }
+        ],
+        "id": "4465",
+        "text": " At the scene of an accident you should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.2",
+        "correctAnswersNumber": 4,
+        "answers": [
+          {
+            "questionId": "4466",
+            "isRight": true,
+            "id": "c5f778ec-afcf-4b43-8d1b-395026d60ae4",
+            "text": "Warn other traffic"
+          },
+          {
+            "questionId": "4466",
+            "isRight": true,
+            "id": "d2b8c0ae-3d63-4eef-9408-74c032109ecd",
+            "text": "Call the emergency services"
+          },
+          {
+            "questionId": "4466",
+            "isRight": true,
+            "id": "b1aa83b3-b962-4f97-a074-844d15f608de",
+            "text": "Move uninjured people away from the vehicle(s)"
+          },
+          {
+            "questionId": "4466",
+            "isRight": true,
+            "id": "c58d4442-ebca-437c-8cc2-c37363aded52",
+            "text": "Switch off the vehicle engine(s)"
+          },
+          {
+            "questionId": "4466",
+            "isRight": false,
+            "id": "c01723ae-13c0-4aca-a35b-ac34adc83bbc",
+            "text": "Leave as soon as another motorist arrives"
+          },
+          {
+            "questionId": "4466",
+            "isRight": false,
+            "id": "ef22db9d-7d68-48e0-8ff6-9e28c12e9c87",
+            "text": "Offer casualties something to drink"
+          }
+        ],
+        "id": "4466",
+        "text": " You are the first to arrive at the scene of an accident. Which FOUR of these should you do?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.3",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4467",
+            "isRight": false,
+            "id": "512d7ebb-298a-49f4-bcf3-8b9148c94189",
+            "text": "Move the people who are injured clear of their vehicles"
+          },
+          {
+            "questionId": "4467",
+            "isRight": false,
+            "id": "7015f35c-244e-4536-86ac-914484e0d2b1",
+            "text": "Try and get people who are injured to drink something"
+          },
+          {
+            "questionId": "4467",
+            "isRight": true,
+            "id": "4312b2dd-4c1a-4b8e-9101-60048a854d37",
+            "text": "Get people who are not injured clear of the scene"
+          },
+          {
+            "questionId": "4467",
+            "isRight": true,
+            "id": "2674500f-6fee-4593-b5ff-8910ac64797d",
+            "text": "Make sure that someone telephones for an ambulance"
+          },
+          {
+            "questionId": "4467",
+            "isRight": true,
+            "id": "e44dfa90-b185-4a4f-805f-1c187eb09053",
+            "text": "Switch on your own hazard warning lights"
+          }
+        ],
+        "id": "4467",
+        "text": " You are the first person to arrive at an accident where people are badly injured. Which THREE should you do?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4468",
+            "isRight": true,
+            "id": "96a3e937-ace2-43bb-bf54-02dd2331178c",
+            "text": "Only when it is essential"
+          },
+          {
+            "questionId": "4468",
+            "isRight": false,
+            "id": "edc7e0a0-2cca-44b9-b83c-134997c5fd75",
+            "text": "Always  unless they are in shock"
+          },
+          {
+            "questionId": "4468",
+            "isRight": false,
+            "id": "787050bc-64b1-41ae-9989-717c024b7511",
+            "text": "Only when the motorcyclist asks"
+          },
+          {
+            "questionId": "4468",
+            "isRight": false,
+            "id": "77649d2a-6f91-4b25-953b-237b2d7aac94",
+            "text": "Always straight away"
+          }
+        ],
+        "id": "4468",
+        "text": " You arrive at the scene of a motorcycle accident. The rider is injured. When should the helmet be removed?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.5",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4469",
+            "isRight": true,
+            "id": "4fea08aa-4679-4b9a-90fd-2b577fac6320",
+            "text": "Check the casualty's breathing"
+          },
+          {
+            "questionId": "4469",
+            "isRight": true,
+            "id": "4af2e2c8-1ffa-4238-b83c-6c52ea22a599",
+            "text": "Try to stop any bleeding"
+          },
+          {
+            "questionId": "4469",
+            "isRight": false,
+            "id": "371aa392-c7c4-4e5f-879d-b6264bba95ef",
+            "text": "Sweep up any loose debris"
+          },
+          {
+            "questionId": "4469",
+            "isRight": false,
+            "id": "0548d413-aeb2-4050-a41c-18d44562a051",
+            "text": "Take the numbers of the vehicles involved"
+          },
+          {
+            "questionId": "4469",
+            "isRight": true,
+            "id": "b00bc242-d72f-4ad8-a5df-5245dc7070c0",
+            "text": "Check that the airway is clear"
+          },
+          {
+            "questionId": "4469",
+            "isRight": false,
+            "id": "5b533398-d2a9-458b-bccf-ef0da619a788",
+            "text": "Make a list of witnesses"
+          }
+        ],
+        "id": "4469",
+        "text": " You arrive at a serious motorcycle accident. The motorcyclist is unconscious and bleeding. Your main priorities should be to:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.6",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4470",
+            "isRight": true,
+            "id": "c9801b28-339a-4a27-b787-8aeca57c7841",
+            "text": "Breathing"
+          },
+          {
+            "questionId": "4470",
+            "isRight": false,
+            "id": "5dc5c1d6-ede5-4b4a-9991-0505e78c4699",
+            "text": "Bruising"
+          },
+          {
+            "questionId": "4470",
+            "isRight": false,
+            "id": "5cf0d21d-dad9-4218-94c6-f595623aade9",
+            "text": "Broken bones"
+          },
+          {
+            "questionId": "4470",
+            "isRight": false,
+            "id": "1d1f072a-106a-4d60-9bb9-e4c19b6da34e",
+            "text": "Bleeding"
+          }
+        ],
+        "id": "4470",
+        "text": " You arrive at an accident. A motorcyclist is unconscious. Your FIRST priority is the casualty's"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.7",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4471",
+            "isRight": false,
+            "id": "e1f5c470-e7ad-47c8-b182-045ec4e1fee4",
+            "text": "Broken bones"
+          },
+          {
+            "questionId": "4471",
+            "isRight": true,
+            "id": "2f87f940-ab52-4a43-a5bd-caecd57be611",
+            "text": "Airway"
+          },
+          {
+            "questionId": "4471",
+            "isRight": false,
+            "id": "788b18a7-35ce-483d-832a-d219d41516d2",
+            "text": "Shock"
+          },
+          {
+            "questionId": "4471",
+            "isRight": true,
+            "id": "764c1a3e-ecb0-4522-95c2-17400172f445",
+            "text": "Circulation"
+          },
+          {
+            "questionId": "4471",
+            "isRight": true,
+            "id": "c6eed8a0-a40b-4e04-9a64-271a5a5cdd6d",
+            "text": "Breathing"
+          }
+        ],
+        "id": "4471",
+        "text": " At an accident a casualty is unconscious. Which THREE of the following should you check urgently?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.8",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4472",
+            "isRight": true,
+            "id": "19044f7d-bd1a-49c0-8bed-3cbf6ff7f111",
+            "text": "Circulation"
+          },
+          {
+            "questionId": "4472",
+            "isRight": true,
+            "id": "58374215-6148-4a5a-8df4-9f594cafb034",
+            "text": "Airway"
+          },
+          {
+            "questionId": "4472",
+            "isRight": false,
+            "id": "329a1a5e-7c62-40ac-a556-7026453f608a",
+            "text": "Bleeding"
+          },
+          {
+            "questionId": "4472",
+            "isRight": false,
+            "id": "8074ed82-7928-4f90-8254-3add308ea50e",
+            "text": "Alert"
+          },
+          {
+            "questionId": "4472",
+            "isRight": true,
+            "id": "2a8231b2-567f-4142-81b3-1e2b5a3f46fa",
+            "text": "Breathing"
+          },
+          {
+            "questionId": "4472",
+            "isRight": false,
+            "id": "abe977fe-b9f9-411a-9f55-75451ffb06a5",
+            "text": "Conscious"
+          }
+        ],
+        "id": "4472",
+        "text": " In first aid what does ABC stand for?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.9",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4473",
+            "isRight": true,
+            "id": "9dfefccd-579b-40ce-96f8-7a7a7aed09ce",
+            "text": "Make sure they are breathing"
+          },
+          {
+            "questionId": "4473",
+            "isRight": true,
+            "id": "9cd6dd99-b748-4d72-935b-ee8627cf2cf8",
+            "text": "Check that the airway is clear"
+          },
+          {
+            "questionId": "4473",
+            "isRight": true,
+            "id": "0aa2a0b3-edd9-4cfa-9138-9cbb2a4dbbec",
+            "text": "Stop any heavy bleeding"
+          },
+          {
+            "questionId": "4473",
+            "isRight": false,
+            "id": "32049fb6-b617-473b-a7b4-a3c8294913a7",
+            "text": "Count the number of vehicles involved"
+          },
+          {
+            "questionId": "4473",
+            "isRight": false,
+            "id": "1611656f-1b00-454b-847c-79a9e8981436",
+            "text": "Take the names of witnesses"
+          },
+          {
+            "questionId": "4473",
+            "isRight": false,
+            "id": "39ef58e4-9042-4033-ab36-c433ba6e0db5",
+            "text": "Sweep up the broken glass"
+          }
+        ],
+        "id": "4473",
+        "text": " At an accident someone is unconscious. Your main priorities should be to:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.11",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4474",
+            "isRight": true,
+            "id": "9d2f11a6-3bc5-40de-9262-560140db0271",
+            "text": "Not leave the driver alone"
+          },
+          {
+            "questionId": "4474",
+            "isRight": true,
+            "id": "ca2ac3b4-ca06-4477-88e6-f6af76da6980",
+            "text": "Reassure the driver"
+          },
+          {
+            "questionId": "4474",
+            "isRight": false,
+            "id": "729d85a3-498a-4a49-85bc-ebef6aa8a0d4",
+            "text": "Ask who caused the accident"
+          },
+          {
+            "questionId": "4474",
+            "isRight": false,
+            "id": "67ec9e5b-8be4-4f6b-958e-8c569864b4a1",
+            "text": "Offer the driver a cigarette"
+          },
+          {
+            "questionId": "4474",
+            "isRight": false,
+            "id": "a5729adc-b933-4936-a447-ec204e1acb16",
+            "text": "Give the driver a drink"
+          }
+        ],
+        "id": "4474",
+        "text": " There has been an accident. The driver is suffering from shock. You should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.12",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4475",
+            "isRight": true,
+            "id": "25a5537d-2ed7-45c0-9480-9183dbc418a0",
+            "text": "Reassure them constantly"
+          },
+          {
+            "questionId": "4475",
+            "isRight": true,
+            "id": "aa13b68e-9f85-44dc-a7df-d3cea783e9ef",
+            "text": "Loosen any tight clothing"
+          },
+          {
+            "questionId": "4475",
+            "isRight": true,
+            "id": "9b20a1c7-18c6-499b-bc1f-e086bb3a3791",
+            "text": "Keep them warm"
+          },
+          {
+            "questionId": "4475",
+            "isRight": false,
+            "id": "0b7c8e1c-04ae-4f4b-b7ed-7fd538844f1f",
+            "text": "Offer them a warm drink"
+          },
+          {
+            "questionId": "4475",
+            "isRight": false,
+            "id": "b5db9357-2d60-43e1-a662-435f4b1d80dd",
+            "text": "Offer them a cigarette"
+          }
+        ],
+        "id": "4475",
+        "text": " You are at the scene of an accident. Someone is suffering from shock. You should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.13",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4476",
+            "isRight": false,
+            "id": "aabf88d7-0f57-4905-b2c7-27279d86e45f",
+            "text": "Give the rider reassurance"
+          },
+          {
+            "questionId": "4476",
+            "isRight": true,
+            "id": "67a1677e-852d-4d74-8290-53bf92a34ae6",
+            "text": "Warn other traffic"
+          },
+          {
+            "questionId": "4476",
+            "isRight": false,
+            "id": "e4cf00d0-6340-4ce6-b69b-3fdfa913124c",
+            "text": "Clear the road of debris"
+          },
+          {
+            "questionId": "4476",
+            "isRight": false,
+            "id": "395bea41-4027-4e87-a35b-09a4924b6f5d",
+            "text": "Move the rider out of the road"
+          }
+        ],
+        "id": "4476",
+        "text": " You arrive at the scene of a motorcycle accident. No other vehicle is involved. The rider is unconscious  lying in the middle of the road. The first thing you should do is:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.14",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4477",
+            "isRight": false,
+            "id": "731f6cd9-959c-4055-862f-d08760dcb9ec",
+            "text": "Rapidly"
+          },
+          {
+            "questionId": "4477",
+            "isRight": true,
+            "id": "a3def4ab-a4ed-482d-a809-757420b1986d",
+            "text": "Gently"
+          },
+          {
+            "questionId": "4477",
+            "isRight": false,
+            "id": "35eda730-3914-44db-a9b0-09067d64a598",
+            "text": "Heavily"
+          },
+          {
+            "questionId": "4477",
+            "isRight": false,
+            "id": "2371d860-93ce-415c-95f0-590b70af6119",
+            "text": "Sharply"
+          }
+        ],
+        "id": "4477",
+        "text": " At an accident a small child is not breathing. When giving a mouth to mouth you should breathe"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.15",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4478",
+            "isRight": true,
+            "id": "db4d5d7e-1599-4379-920d-3a3d49dd5a61",
+            "text": "Pinch the nostrils together"
+          },
+          {
+            "questionId": "4478",
+            "isRight": true,
+            "id": "c9b40c40-deb9-4011-90a7-a098266cba38",
+            "text": "Tilt their head back"
+          },
+          {
+            "questionId": "4478",
+            "isRight": false,
+            "id": "7ec448d4-3fee-47a9-9f1c-e832b2c2acf7",
+            "text": "Put their arms across their chest"
+          },
+          {
+            "questionId": "4478",
+            "isRight": true,
+            "id": "f1b402d6-a4b4-4a4e-ab73-56049a5c7cf6",
+            "text": "Clear the airway"
+          },
+          {
+            "questionId": "4478",
+            "isRight": false,
+            "id": "31534ea0-ca72-4424-83cf-b3ae0deb7a42",
+            "text": "Tilt their head forward"
+          }
+        ],
+        "id": "4478",
+        "text": " To start mouth to mouth on a casualty you should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.16",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4479",
+            "isRight": false,
+            "id": "11ad56ea-e7b7-4226-a2ec-c5beeb1e0cd6",
+            "text": "Remove anything sticking to burns"
+          },
+          {
+            "questionId": "4479",
+            "isRight": true,
+            "id": "88f87697-14aa-49aa-86cb-46a59b5347eb",
+            "text": "Reassure casualties constantly"
+          },
+          {
+            "questionId": "4479",
+            "isRight": false,
+            "id": "9725c716-7f0f-478c-8a09-b3be0079ad7c",
+            "text": "Lay the casualty down"
+          },
+          {
+            "questionId": "4479",
+            "isRight": true,
+            "id": "de51fc15-ff26-4ab7-8a9f-49987cab3923",
+            "text": "Douse the burn thoroughly with cold water"
+          }
+        ],
+        "id": "4479",
+        "text": " You arrive at the scene of an accident and a casualty is suffering from severe burns. You should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.17",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4480",
+            "isRight": false,
+            "id": "9865df16-42fa-4f44-940e-92c83326b663",
+            "text": "Remove anything stuck to the burns"
+          },
+          {
+            "questionId": "4480",
+            "isRight": false,
+            "id": "81508d86-4b77-4a0f-a88b-84a82d6ab5ee",
+            "text": "Burst any blisters"
+          },
+          {
+            "questionId": "4480",
+            "isRight": false,
+            "id": "b536da7f-97ec-40a9-a3a1-53825549984b",
+            "text": "Apply lotions to the injury"
+          },
+          {
+            "questionId": "4480",
+            "isRight": true,
+            "id": "a1b28c1f-5cfd-4486-bd3c-93989d3de663",
+            "text": "Douse the burns with cold water"
+          }
+        ],
+        "id": "4480",
+        "text": " You arrive at an accident where someone is suffering from severe burns. You should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.18",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4481",
+            "isRight": false,
+            "id": "5d6dddff-78c4-4334-9b48-77a1fe19ba46",
+            "text": "Fetch them a warm drink"
+          },
+          {
+            "questionId": "4481",
+            "isRight": true,
+            "id": "184fa774-b7ab-4303-870d-248da7feba4b",
+            "text": "Raise the leg to lessen bleeding"
+          },
+          {
+            "questionId": "4481",
+            "isRight": true,
+            "id": "65b1b47a-b60c-453e-88ac-e5b76f6d67e4",
+            "text": "Apply firm pressure to the wound to stop bleeding"
+          },
+          {
+            "questionId": "4481",
+            "isRight": false,
+            "id": "c9dad0de-313f-4944-b521-493269fdf9ac",
+            "text": "Keep both legs flat on the ground"
+          },
+          {
+            "questionId": "4481",
+            "isRight": false,
+            "id": "8d47b77a-d20d-45c7-ac7c-f30213c1a731",
+            "text": "Dab the wound to stop bleeding"
+          }
+        ],
+        "id": "4481",
+        "text": " You arrive at the scene of an accident. A pedestrian has a severe bleeding wound on the leg although it is not broken. What should you do?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.19",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4482",
+            "isRight": false,
+            "id": "8f01a477-50ea-4be0-ae18-e42346fc7e06",
+            "text": "Get them a drink"
+          },
+          {
+            "questionId": "4482",
+            "isRight": false,
+            "id": "d18995b4-10d4-479f-9896-db0516ad5dfb",
+            "text": "Dab the wound"
+          },
+          {
+            "questionId": "4482",
+            "isRight": false,
+            "id": "aa31ebdd-4a46-4fa0-9023-c2810ef6717e",
+            "text": "Apply pressure over the wound and keep the arm down"
+          },
+          {
+            "questionId": "4482",
+            "isRight": true,
+            "id": "553ee61b-bf86-43d9-b33e-ab1a3ca18c83",
+            "text": "Apply pressure over the wound and raise the arm"
+          }
+        ],
+        "id": "4482",
+        "text": " You arrive at a scene of an accident. A passenger is bleeding badly from an arm wound. What should you do?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.20",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4483",
+            "isRight": false,
+            "id": "82dbb54d-c652-4e35-a370-b46d73fb8a39",
+            "text": "Bystanders will help you to"
+          },
+          {
+            "questionId": "4483",
+            "isRight": false,
+            "id": "7db63c9d-06a9-42c0-84b7-092b7af8c186",
+            "text": "Bystanders advise you to"
+          },
+          {
+            "questionId": "4483",
+            "isRight": true,
+            "id": "b73ab243-2863-4e78-a356-5ca64d06cbcd",
+            "text": "There is further danger to the casualty"
+          },
+          {
+            "questionId": "4483",
+            "isRight": false,
+            "id": "41239670-d3c4-4f9f-9530-5cf21c71aedc",
+            "text": "An ambulance is on its way"
+          }
+        ],
+        "id": "4483",
+        "text": " At an accident a casualty is unconscious but still breathing. You should only move the person if :"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.21",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4484",
+            "isRight": false,
+            "id": "1d97b680-ae32-40c5-ae84-cd24adbf777b",
+            "text": "Offer them a cigarette"
+          },
+          {
+            "questionId": "4484",
+            "isRight": true,
+            "id": "607b1db1-8b0c-4810-bd83-edfd57331d05",
+            "text": "Not move them at all"
+          },
+          {
+            "questionId": "4484",
+            "isRight": false,
+            "id": "ca5558d9-b2bc-4dfd-b9a5-0bac32f6e38a",
+            "text": "Raise their legs"
+          },
+          {
+            "questionId": "4484",
+            "isRight": false,
+            "id": "9c2e7e01-d7d8-4d11-bdf3-05557203d911",
+            "text": "Offer them a drink"
+          }
+        ],
+        "id": "4484",
+        "text": " At an accident you suspect that a casualty has back injuries. The area is safe. You should:"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.25",
+        "correctAnswersNumber": 3,
+        "answers": [
+          {
+            "questionId": "4485",
+            "isRight": true,
+            "id": "c36b50b9-5c2c-4977-8ff4-1e1ed83d8517",
+            "text": "Driving licence"
+          },
+          {
+            "questionId": "4485",
+            "isRight": true,
+            "id": "466d25e2-cb57-4e61-a549-df693f185b11",
+            "text": "Vehicle registration document (log book)"
+          },
+          {
+            "questionId": "4485",
+            "isRight": false,
+            "id": "ac95a469-3d95-407d-8520-ce69c3a8760c",
+            "text": "Road tax disc"
+          },
+          {
+            "questionId": "4485",
+            "isRight": false,
+            "id": "204ba0ea-4c8d-44c7-8427-9e795f6f42b2",
+            "text": "VRT test certificate"
+          },
+          {
+            "questionId": "4485",
+            "isRight": true,
+            "id": "c63ed480-ed0c-4250-aa08-215f4787f8ba",
+            "text": "Insurance certificate"
+          }
+        ],
+        "id": "4485",
+        "text": " The police may ask you to produce which three of these documents following an accident?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.28",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4486",
+            "isRight": false,
+            "id": "f12f541c-3d23-4fe3-81de-77c7bc675db5",
+            "text": "To check a road atlas"
+          },
+          {
+            "questionId": "4486",
+            "isRight": true,
+            "id": "5417718b-2c4b-4b29-8e8b-5a993887b729",
+            "text": "When an emergency arises"
+          },
+          {
+            "questionId": "4486",
+            "isRight": false,
+            "id": "e62d3cfc-2ef7-427a-b44d-2f2dee708fd9",
+            "text": "For a short rest when tired"
+          },
+          {
+            "questionId": "4486",
+            "isRight": false,
+            "id": "5c962c32-c276-44a6-8c2d-4c2bcc9b4c03",
+            "text": "To answer a mobile phone"
+          }
+        ],
+        "id": "4486",
+        "text": " On the dual carriageway the hard shoulder should be used"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.10",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4652",
+            "isRight": false,
+            "id": "8045a030-ac2d-4c7d-8517-66fefc0683ce",
+            "text": "Ask drivers to switch off their engines"
+          },
+          {
+            "questionId": "4652",
+            "isRight": true,
+            "id": "1e005413-61e6-49ff-a9b4-59061fea3deb",
+            "text": "Give them an alcoholic drink"
+          },
+          {
+            "questionId": "4652",
+            "isRight": true,
+            "id": "b3fd0d17-a3c9-472a-8e4b-094c6e99fa64",
+            "text": "Offer someone a cigarette to calm them down"
+          },
+          {
+            "questionId": "4652",
+            "isRight": false,
+            "id": "fdc61497-871b-4d63-a25c-2787afa39d50",
+            "text": "Call the emergency services immediately"
+          },
+          {
+            "questionId": "4652",
+            "isRight": false,
+            "id": "dcf8ee23-96bb-46d5-9696-86a6e3edbafe",
+            "text": "Warn other traffic by switching on your hazard warning lights"
+          }
+        ],
+        "id": "4652",
+        "text": " Which of the following should you NOT do at the scene of an accident?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.22",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4653",
+            "isRight": true,
+            "id": "b6c843e2-7e0b-4a14-959b-81e3e29b7e78",
+            "text": "When you have broken down"
+          },
+          {
+            "questionId": "4653",
+            "isRight": true,
+            "id": "07e8d3c7-dc4c-4fc1-83bf-755a7ffbb7db",
+            "text": "When you slow down quickly because of a hazard ahead"
+          },
+          {
+            "questionId": "4653",
+            "isRight": false,
+            "id": "bfbdc48d-4c26-4ba4-9b3b-2795cc9439e4",
+            "text": "When you need to park on the pavement"
+          },
+          {
+            "questionId": "4653",
+            "isRight": false,
+            "id": "03b46fb2-4d7c-4548-9e5c-ac4eec406574",
+            "text": "When you wish to stop on double yellow lines"
+          }
+        ],
+        "id": "4653",
+        "text": " For which TWO should you use hazard-warning lights?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.24",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4654",
+            "isRight": true,
+            "id": "6c8b690c-00df-402b-b385-864a64383722",
+            "text": "When you cannot avoid causing an obstruction"
+          },
+          {
+            "questionId": "4654",
+            "isRight": false,
+            "id": "2c13feb6-4d66-4525-b390-b47c51540361",
+            "text": "When you are parked on double yellow lines"
+          },
+          {
+            "questionId": "4654",
+            "isRight": false,
+            "id": "cadf96e9-84ea-452a-a080-f1127c11d1f4",
+            "text": "When you are towing a broken down vehicle"
+          },
+          {
+            "questionId": "4654",
+            "isRight": false,
+            "id": "7e1390d3-4130-43f1-838c-1548a647673f",
+            "text": "When you are driving slowly due to bad weather"
+          }
+        ],
+        "id": "4654",
+        "text": " When should you switch on your hazard warning lights?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.26",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4655",
+            "isRight": false,
+            "id": "72c178e6-8086-4521-bea5-e0c94bef3ec1",
+            "text": "Continue on at a normal speed"
+          },
+          {
+            "questionId": "4655",
+            "isRight": true,
+            "id": "f9b2562b-a2b7-43d8-804f-bff88ab38e9d",
+            "text": "Hold the steering wheel firmly to keep control"
+          },
+          {
+            "questionId": "4655",
+            "isRight": true,
+            "id": "d69e2eb3-3535-4c33-a3ba-7d8027e52ff9",
+            "text": "Pull up slowly at the side of the road"
+          },
+          {
+            "questionId": "4655",
+            "isRight": false,
+            "id": "deffdc78-ee9d-4e36-b19f-a1cd61722ddc",
+            "text": "Brake as quickly as possible"
+          },
+          {
+            "questionId": "4655",
+            "isRight": false,
+            "id": "91f8799c-7b54-4a68-af55-02152f1a0b7b",
+            "text": "Pull on the handbrake"
+          }
+        ],
+        "id": "4655",
+        "text": " Your tyre bursts while you are driving. Which TWO things should you do?"
+      },
+      {
+        "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
+        "subCategoryId": "CARS13.27",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4656",
+            "isRight": false,
+            "id": "3c30b6af-4564-4b96-bf4c-58b5b529fba7",
+            "text": "Let the vehicle roll to a stop"
+          },
+          {
+            "questionId": "4656",
+            "isRight": true,
+            "id": "f7204bc3-dd9e-481f-b300-c39c3f302901",
+            "text": "Grip the steering wheel firmly"
+          },
+          {
+            "questionId": "4656",
+            "isRight": false,
+            "id": "352078d8-47cc-4e75-9eae-deb297c36bc9",
+            "text": "Hold the steering wheel lightly"
+          },
+          {
+            "questionId": "4656",
+            "isRight": true,
+            "id": "8d1c59c9-17cd-47b3-a582-ae7ad89f756a",
+            "text": "Stop gradually at the side of the road"
+          },
+          {
+            "questionId": "4656",
+            "isRight": false,
+            "id": "c9a28c34-57a4-4ee9-850f-189bedf45684",
+            "text": "Apply the handbrake to stop the vehicle"
+          }
+        ],
+        "id": "4656",
+        "text": " Which TWO things should you do when a front tyre bursts?"
+      }
+    ],
+    "id": "96841689-3744-4791-8ec9-f5c196381f7f",
+    "text": "ACCIDENTS"
+  },
+  {
+    "questions": [
+      {
+        "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+        "subCategoryId": "CARS14.1",
+        "correctAnswersNumber": 2,
+        "answers": [
+          {
+            "questionId": "4487",
+            "isRight": true,
+            "id": "48ea8671-8f73-49ff-b7d5-c8b193621b20",
+            "text": "Handling"
+          },
+          {
+            "questionId": "4487",
+            "isRight": true,
+            "id": "fccec36f-9b35-4c9d-a70c-462bb2951a16",
+            "text": "Steering"
+          },
+          {
+            "questionId": "4487",
+            "isRight": false,
+            "id": "e66a89ce-3d44-46f5-8bfb-dac60826b410",
+            "text": "Journey time"
+          },
+          {
+            "questionId": "4487",
+            "isRight": false,
+            "id": "9fceb6a9-9e71-41e5-a1c5-8c556907013e",
+            "text": "Battery life"
+          },
+          {
+            "questionId": "4487",
+            "isRight": false,
+            "id": "28cd39f6-12d4-4168-b2e3-e64d4426726f",
+            "text": "Gearbox"
+          }
+        ],
+        "id": "4487",
+        "text": " Overloading your vehicle can seriously affect the :"
+      },
+      {
+        "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+        "subCategoryId": "CARS14.2",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4488",
+            "isRight": true,
+            "id": "a4d34bd2-1667-452b-90aa-eb2f0d5adbc2",
+            "text": "The driver of the vehicle"
+          },
+          {
+            "questionId": "4488",
+            "isRight": false,
+            "id": "108a7527-74ff-42b2-b06a-4a12e535576e",
+            "text": "The owner of the vehicle"
+          },
+          {
+            "questionId": "4488",
+            "isRight": false,
+            "id": "73337685-158a-487f-bf44-29bc92b214bf",
+            "text": "The person who loaded the vehicle"
+          },
+          {
+            "questionId": "4488",
+            "isRight": false,
+            "id": "3e677382-ae12-4d33-8884-67de2bb9543a",
+            "text": "The owner of the items being carried"
+          }
+        ],
+        "id": "4488",
+        "text": " Who is responsible for making sure that a vehicle is not overloaded?"
+      },
+      {
+        "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+        "subCategoryId": "CARS14.3",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4657",
+            "isRight": true,
+            "id": "50703c49-853c-45d6-a187-12ca76a44e73",
+            "text": "Securely fastened when driving"
+          },
+          {
+            "questionId": "4657",
+            "isRight": false,
+            "id": "bba3137a-4b4d-4fe7-ae3a-3de6fc3788b4",
+            "text": "Covered with plastic sheeting"
+          },
+          {
+            "questionId": "4657",
+            "isRight": false,
+            "id": "67fbef3e-9933-4144-9c32-22e8fae0687b",
+            "text": "As light as possible"
+          },
+          {
+            "questionId": "4657",
+            "isRight": false,
+            "id": "0c691233-47dd-4c20-a939-aeb9a2122b28",
+            "text": "Carried only when strictly necessary"
+          }
+        ],
+        "id": "4657",
+        "text": " Any load that is carried on a roof rack MUST be:"
+      },
+      {
+        "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+        "subCategoryId": "CARS14.4",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4658",
+            "isRight": false,
+            "id": "f378a540-5abd-4377-b541-6a13b8a43dce",
+            "text": "Make the steering lighter"
+          },
+          {
+            "questionId": "4658",
+            "isRight": false,
+            "id": "115c1a63-abb4-4e30-8798-417570a115ee",
+            "text": "Reduce the stopping distance"
+          },
+          {
+            "questionId": "4658",
+            "isRight": false,
+            "id": "42c88774-e9c3-488d-9da6-0fe823fc8cf1",
+            "text": "Improve the road holding"
+          },
+          {
+            "questionId": "4658",
+            "isRight": true,
+            "id": "d8b9ba9d-bc5d-44dd-93a0-91cba02bb887",
+            "text": "Reduce stability"
+          }
+        ],
+        "id": "4658",
+        "text": " A heavy load on your roof rack will MAINLY:"
+      },
+      {
+        "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+        "subCategoryId": "CARS14.5",
+        "correctAnswersNumber": 1,
+        "answers": [
+          {
+            "questionId": "4659",
+            "isRight": false,
+            "id": "02ffe53b-75c9-4982-8c9d-c360e724d98e",
+            "text": "Stop the rear seats from tipping forward"
+          },
+          {
+            "questionId": "4659",
+            "isRight": true,
+            "id": "b47bfea7-784d-4452-917a-6723d98a78d3",
+            "text": "Stop children from opening rear doors from the inside"
+          },
+          {
+            "questionId": "4659",
+            "isRight": false,
+            "id": "e2fd8cc4-0fa4-4a51-b213-ca5f6019f9df",
+            "text": "Lock the rear windows in the up position"
+          },
+          {
+            "questionId": "4659",
+            "isRight": false,
+            "id": "d06304f9-4fa4-4b72-9048-c19aaa82ad2b",
+            "text": "Lock the seat belt buckles in place"
+          }
+        ],
+        "id": "4659",
+        "text": " What do child locks in a vehicle do?"
+      }
+    ],
+    "id": "e5b02312-8d55-451c-a7d5-e34591f69d70",
+    "text": "VEHICLE LOADING"
   }
-];
+]

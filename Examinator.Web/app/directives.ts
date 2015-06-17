@@ -40,9 +40,9 @@ module App {
                     };
 
                     scope.getAnswerClass = (answer) => {
-                        if (scope.question.isAnswered && ((answer.selected && answer.IsRight) || (answer.IsRight && !answer.selected))) {
+                        if (scope.question.isAnswered && ((answer.selected && answer.isRight) || (answer.isRight && !answer.selected))) {
                             return 'checkbox-balanced';
-                        } else if (scope.question.isAnswered && answer.selected && !answer.IsRight) {
+                        } else if (scope.question.isAnswered && answer.selected && !answer.isRight) {
                             return 'checkbox-assertive';
                         } else {
                             return 'checkbox-positive';

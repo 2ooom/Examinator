@@ -3,6 +3,7 @@ using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace Examinator.Parser
 {
@@ -24,7 +25,12 @@ namespace Examinator.Parser
             // Step 4. Serialize to json
             using (var stream = new StreamWriter(output, false))
             {
-                var outputStr = $"window.categories = {JsonConvert.SerializeObject(questions)}";
+                var jsonSettings = new JsonSerializerSettings
+                {
+                    ContractResolver = new CamelCasePropertyNamesContractResolver(),
+                    NullValueHandling = NullValueHandling.Ignore
+                };
+                var outputStr = $"window.categories = {JsonConvert.SerializeObject(questions, Formatting.Indented, jsonSettings)}";
                 
                 stream.Write(outputStr);
             }

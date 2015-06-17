@@ -1,4 +1,4 @@
-﻿namespace Examinator.Parser
+﻿namespace Examinator.Parser.Contract
 {
     public class Answer : Paragraph
     {

@@ -139,14 +139,14 @@ module App {
             utils => {
                 var categories = (<any>window).categories;
                 var questions = [];
-                categories.forEach(c => { questions = questions.concat(c.Questions) });
+                categories.forEach(c => { questions = questions.concat(c.questions) });
                 return {
                     categories: categories,
                     getCategory(categoryId:string) {
-                        return categories.filter(c => (c.Id === categoryId))[0];
+                        return categories.filter(c => (c.id === categoryId))[0];
                     },
                     getQuestion(questionId:string) {
-                        return questions.filter((q: any) => (q.Id === questionId))[0];
+                        return questions.filter((q: any) => (q.id === questionId))[0];
                     },
                     getRandomQuestions(num:number) {
                         var indexes = utils.getRandomNumbers(num, questions.length - 1);
@@ -154,15 +154,15 @@ module App {
                     },
                     checkAnswers(question: any) {
                         var correct = true;
-                        for (var i = 0; i < question.Answers.length; i++) {
-                            correct = correct && !!question.Answers[i].selected === !!question.Answers[i].IsRight;
+                        for (var i = 0; i < question.answers.length; i++) {
+                            correct = correct && !!question.answers[i].selected === !!question.answers[i].isRight;
                         }
                         question.isCorrect = correct;
                         question.isAnswered = true;
                     },
                     reset(questions: any[]) {
                         questions.forEach(q => {
-                            q.Answers.forEach(a => {
+                            q.answers.forEach(a => {
                                 delete a.selected;
                             });
                             delete q.isAnswered;

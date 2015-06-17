@@ -1,9 +1,9 @@
 <ion-view view-title="Categories">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="category in categories" href="#/app/category/{{category.Id}}" class="item-icon-right">
-          <h2><span ng-bind="$index + 1"></span>. <span ng-bind="category.Text"></span> </h2>
-          <p class="indented"><span ng-bind="category.Questions.length"></span> questions</p>
+      <ion-item ng-repeat="category in categories" href="#/app/category/{{category.id}}" class="item-icon-right">
+          <h2><span ng-bind="$index + 1"></span>. <span ng-bind="category.text"></span> </h2>
+          <p class="indented"><span ng-bind="category.questions.length"></span> questions</p>
           <i class="icon ion-chevron-right"></i>
       </ion-item>
     </ion-list>

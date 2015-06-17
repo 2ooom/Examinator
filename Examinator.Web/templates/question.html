@@ -1,17 +1,17 @@
 
 <div class="list list-inset question-container">
     <div class="item item-text-wrap question">
-        <h2 ng-bind="question.Text"></h2>
-        <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl"/>
-        <h3>Mark <span ng-bind="question.CorrectAnswersNumber"></span> Answer(s) <span class="grayed-out">#<span ng-bind="question.Id"></span></span></h3>
+        <h2 ng-bind="question.text"></h2>
+        <img ng-attr-src="{{question.imageUrl || undefined}}" ng-show="question.imageUrl"/>
+        <h3>Mark <span ng-bind="question.correctAnswersNumber"></span> Answer(s) <span class="grayed-out">#<span ng-bind="question.id"></span></span></h3>
     </div>
 </div>
 <div class="list list-inset answers-list">
-    <div class="item item-checkbox item-text-wrap" ng-repeat="answer in question.Answers">
+    <div class="item item-checkbox item-text-wrap" ng-repeat="answer in question.answers">
         <label class="checkbox" ng-class="getAnswerClass(answer)"><input type="checkbox" ng-model="answer.selected"></label>
 
-        <h2 ng-bind="answer.Text"></h2>
-        <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl"/>
+        <h2 ng-bind="answer.text"></h2>
+        <img ng-attr-src="{{answer.imageUrl || undefined}}" ng-show="answer.imageUrl"/>
     </div>
 </div>
 <div class="list list-inset questoin-buttons">

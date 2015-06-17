@@ -1,12 +1,12 @@
 <ion-view >
     <ion-nav-title>
         <span ng-hide="isFinished" class="answers-indicator">
-            <span class="padding-right"><span ng-bind="category.Text"></span>:</span>
+            <span class="padding-right"><span ng-bind="category.text"></span>:</span>
             <span ng-bind="correct"></span>
             <span class="icon ion-checkmark balanced padding-right"></span>
             <span ng-bind="wrong"></span>
             <span class="icon ion-close assertive padding-right"></span>
-            <span class="total-answers">of <span ng-bind="category.Questions.length"></span></span>
+            <span class="total-answers">of <span ng-bind="category.questions.length"></span></span>
         </span>
         <span ng-show="isFinished">Results</span>
     </ion-nav-title>
@@ -15,7 +15,7 @@
              is-last="isLast()"
              next="next()" ng-hide="isFinished"></div>
         <div ng-show="isFinished">
-            <mistakes questions="category.Questions" ng-show="wrong"></mistakes>
+            <mistakes questions="category.questions" ng-show="wrong"></mistakes>
 
             <div class="list list-inset">
                 <button class="button button-block button-balanced" ng-click="finish()">

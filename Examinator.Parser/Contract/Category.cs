@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Examinator.Parser
+namespace Examinator.Parser.Contract
 {
     public class Category : Paragraph
     {

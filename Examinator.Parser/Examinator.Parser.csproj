@@ -73,12 +73,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer.cs" />
-    <Compile Include="Category.cs" />
-    <Compile Include="Paragraph.cs" />
+    <Compile Include="Contract\Answer.cs" />
+    <Compile Include="Contract\Category.cs" />
+    <Compile Include="Contract\Paragraph.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Question.cs" />
+    <Compile Include="Contract\Question.cs" />
     <Compile Include="ScourceParser.cs" />
   </ItemGroup>
   <ItemGroup>

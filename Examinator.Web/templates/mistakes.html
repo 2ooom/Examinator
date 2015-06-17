@@ -4,12 +4,12 @@
 </div>
 <div class="list list-inset">
     <div class="item list-item item-text-wrap" ng-repeat="question in questions | filter: { isCorrect: false} as mistakes">
-        <p>#<span ng-bind="question.Id"></span>. <span ng-bind="question.Text"></span></p>
-        <img ng-attr-src="{{question.ImageUrl || undefined}}" ng-show="question.ImageUrl" />
-        <p ng-repeat="answer in question.Answers | filter: {IsRight: true}">
+        <p>#<span ng-bind="question.id"></span>. <span ng-bind="question.text"></span></p>
+        <img ng-attr-src="{{question.imageUrl || undefined}}" ng-show="question.imageUrl" />
+        <p ng-repeat="answer in question.answers | filter: {isRight: true}">
             <span class="icon ion-checkmark"></span>
-            <span ng-bind="answer.Text"></span>
-            <img ng-attr-src="{{answer.ImageUrl || undefined}}" ng-show="answer.ImageUrl" />
+            <span ng-bind="answer.text"></span>
+            <img ng-attr-src="{{answer.imageUrl || undefined}}" ng-show="answer.imageUrl" />
         </p>
     </div>
 </div>

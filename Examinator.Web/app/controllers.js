@@ -28,7 +28,7 @@ var App;
             }
             function setCurrent(index) {
                 $scope.current = index;
-                $scope.currentQuestion = category.Questions[$scope.current - 1];
+                $scope.currentQuestion = category.questions[$scope.current - 1];
             }
             function reset() {
                 $scope.category = category;
@@ -36,25 +36,23 @@ var App;
                 $scope.wrong = 0;
                 $scope.correct = 0;
                 $scope.isFinished = false;
-                var progress = storage.getProgress(category.Id) + 1;
+                var progress = storage.getProgress(category.id) + 1;
                 if (progress > 1) {
                     confirm.show('Do you want to continue from question #' + progress + '?', 'Continue', 'Restart').then(function () {
                         setCurrent(progress);
                         console.log('loading question answers from previous session');
-                        var answers = storage.getAnswers(category.Id);
+                        var answers = storage.getAnswers(category.id);
                         for (var i = 0; i < $scope.current - 1; i++) {
-                            var q = category.Questions[i];
+                            var q = category.questions[i];
                             var qa = answers[i];
-                            console.log('loading answers for question [' + q.Id + ']: ');
-                            console.log(qa);
                             for (var j = 0; j < qa.length; j++) {
-                                q.Answers[qa[j]].selected = true;
+                                q.answers[qa[j]].selected = true;
                             }
                             categories.checkAnswers(q);
                             countAnswer(q.isCorrect);
                         }
                     }).catch(function () {
-                        storage.saveProgress(category.Id, 0);
+                        storage.saveProgress(category.id, 0);
                     });
                 }
             }
@@ -62,7 +60,7 @@ var App;
                 $state.go('app.categories');
             };
             $scope.$on('$ionicView.afterLeave', function () {
-                categories.reset(category.Questions);
+                categories.reset(category.questions);
             });
             $scope.$on('$ionicView.beforeEnter', function () {
                 $ionicScrollDelegate.scrollTop();
@@ -70,26 +68,26 @@ var App;
             });
             $scope.next = function () {
                 var answersIndexes = [];
-                $scope.currentQuestion.Answers.forEach(function (a, i) {
+                $scope.currentQuestion.answers.forEach(function (a, i) {
                     if (a.selected) {
                         answersIndexes.push(i);
                     }
                 });
-                storage.saveAnswers(category.Id, answersIndexes);
+                storage.saveAnswers(category.id, answersIndexes);
                 countAnswer($scope.currentQuestion.isCorrect);
                 if ($scope.isLast()) {
-                    storage.saveProgress(category.Id, 0);
+                    storage.saveProgress(category.id, 0);
                     $scope.isFinished = true;
                 }
                 else {
-                    storage.saveProgress(category.Id, $scope.current);
+                    storage.saveProgress(category.id, $scope.current);
                     $scope.current++;
-                    $scope.currentQuestion = category.Questions[$scope.current - 1];
+                    $scope.currentQuestion = category.questions[$scope.current - 1];
                 }
             };
-            $scope.isLast = function () { return (category.Questions.length <= $scope.current); };
+            $scope.isLast = function () { return (category.questions.length <= $scope.current); };
             $scope.$on('$destroy', function () {
-                //categories.reset(category.Questions);
+                //categories.reset(category.questions);
             });
         }
     ]).controller('ExamCtrl', [
