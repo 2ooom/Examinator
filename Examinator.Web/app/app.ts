@@ -1,6 +1,11 @@
 /// <reference path="_all.d.ts" />
 module App {
-    angular.module('examinator', ['ionic', 'examinator.controllers', 'examinator.servicies', 'examinator.directives', 'ngStorage'])
+    angular.module('examinator', [
+        'ionic',
+        'ngStorage',
+        'examinator.controllers',
+        Servicies.init(),
+        'examinator.directives'])
         .run($ionicPlatform => {
             $ionicPlatform.ready(() => {
                 // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
