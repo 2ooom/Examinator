@@ -20,6 +20,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\android-chrome-144x144.png" />
@@ -54,6 +55,10 @@
     <TypeScriptCompile Include="app\_all.d.ts" />
     <TypeScriptCompile Include="app\directives.ts" />
     <Content Include="lib\ngStorage.min.js" />
+    <Content Include="Scripts\Contract.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Contract.d.ts</LastGenOutput>
+    </Content>
     <Content Include="Source\img\4236.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -501,6 +506,11 @@
     <Content Include="templates\category.html" />
     <Content Include="templates\categories.html" />
     <Content Include="web.config" />
+    <TypeScriptCompile Include="Scripts\Contract.d.ts">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contract.tt</DependentUpon>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
@@ -570,6 +580,16 @@
       <Project>{46853664-48e0-48da-b032-61e70ad142f2}</Project>
       <Name>Examinator.Contract</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="TypeLite, Version=1.1.2.0, Culture=neutral, PublicKeyToken=8cd4b9c9ac23d744, processorArchitecture=MSIL">
+      <HintPath>..\packages\TypeLite.1.1.2.0\lib\net4\TypeLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TypeLite.Net4, Version=1.1.2.0, Culture=neutral, PublicKeyToken=8cd4b9c9ac23d744, processorArchitecture=MSIL">
+      <HintPath>..\packages\TypeLite.1.1.2.0\lib\net4\TypeLite.Net4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

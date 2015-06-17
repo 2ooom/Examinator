@@ -1,0 +1,25 @@
+<Project ToolsVersion="4.0" DefaultTargets="T4Complite" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
+    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
+  </PropertyGroup>
+  <ItemGroup>
+    <T4ReferencePath Include="$(SolutionDir)packages\TypeLite.Lib.1.1.2.0\lib\net4\">
+      <InProject>False</InProject>
+    </T4ReferencePath>
+    <T4ReferencePath Include="$(SolutionDir)packages\Newtonsoft.Json.7.0.1-beta3\lib\net45\">
+      <InProject>False</InProject>
+    </T4ReferencePath>
+    <T4ParameterValues Include="Examinator.Contract">
+      <Value>$(SolutionDir)Examinator.Contract\bin\$(Configuration)\Examinator.Contract.dll</Value>
+    </T4ParameterValues>
+  </ItemGroup>
+  
+  <Import Project="$(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets" Condition="Exists('$(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets')"/>
+  
+  <Target Name="PrebuildContract">
+    <MSBuild Projects="$(SolutionDir)Examinator.Contract\Examinator.Contract.csproj" Targets="Build" Properties="Configuration=$(Configuration);Platform=AnyCPU"/>
+  </Target>
+  <Target Name="T4Complite" DependsOnTargets="TransformAll" Condition="Exists('$(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets')">
+  </Target>
+</Project>

@@ -1,0 +1,36 @@
+<Project ToolsVersion="4.0" DefaultTargets="GruntBuild" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="common.props"/>
+  <Import Project="T4Compile.targets" />
+  
+  <PropertyGroup>
+    <!-- Git executable path - use git from current PATH by default -->
+    <NpmPath Condition=" '$(NpmExe)' == '' ">$(MSBuildProjectDirectory)\.bin\npm</NpmPath>
+    <BowerPath Condition=" '$(BowerExe)' == '' ">$(MSBuildProjectDirectory)\node_modules\.bin\bower</BowerPath>
+    <GruntPath Condition=" '$(GruntExe)' == '' ">$(MSBuildProjectDirectory)\node_modules\.bin\grunt</GruntPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Commands -->
+
+    <NpmCommand>&quot;$(NpmPath)&quot; install --loglevel error</NpmCommand>
+    <BowerCommand>&quot;$(BowerPath)&quot; install --silent</BowerCommand>
+    <GruntCommand>&quot;$(GruntPath)&quot; --no-color build:$(Configuration)</GruntCommand>
+
+    <!-- Enlist our build targets in the project build -->
+    <BuildDependsOn>
+      GruntBuild;
+      $(BuildDependsOn);
+    </BuildDependsOn>
+  </PropertyGroup>
+  <Target Name="GruntBuild" DependsOnTargets="T4Complite">
+    <Exec Command="$(NpmCommand)"
+          LogStandardErrorAsError="true"
+          WorkingDirectory="$(MSBuildProjectDirectory)"/>
+    <Exec Command="$(BowerCommand)"
+          LogStandardErrorAsError="true"
+          WorkingDirectory="$(MSBuildProjectDirectory)"/>
+    <Exec Command="$(GruntCommand)"
+          LogStandardErrorAsError="true"
+          WorkingDirectory="$(MSBuildProjectDirectory)" />
+  </Target>
+</Project>
