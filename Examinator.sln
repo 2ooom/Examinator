@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examinator.Web", "Examinato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examinator.Contract", "Examinator.Contract\Examinator.Contract.csproj", "{46853664-48E0-48DA-B032-61E70AD142F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{D23B6EB7-92A8-4916-836A-E2865534387C}"
+	ProjectSection(SolutionItems) = preProject
+		.build\common.props = .build\common.props
+		.build\Grunt.targets = .build\Grunt.targets
+		.build\T4Compile.targets = .build\T4Compile.targets
+		.build\UpdateDatabase.proj = .build\UpdateDatabase.proj
+		.build\UpdateVersion.proj = .build\UpdateVersion.proj
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

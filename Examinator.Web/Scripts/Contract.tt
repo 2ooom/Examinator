@@ -16,8 +16,14 @@
 <#@output extension=".ts"#>
 <#
 	var ts = TypeScript.Definitions()
-		//.WithFormatter((TsTypeFormatter)FormatTypeName)
-		.WithVisibility((types) => true);
+		.WithTypeFormatter((TsType type, ITsTypeFormatter formatter) => {
+			if(type.Type.IsInterface) {
+				return type.Type.Name;
+			}
+			return "I" + type.Type.Name;
+		})
+		.WithVisibility((tsClass, typeName) => true)
+		.WithModuleNameFormatter((TsModule module) => "App");
 	
 	var contractDllParams = new [] {
 		"Examinator.Contract"
@@ -43,15 +49,4 @@
         }
     }
 #>
-<#= ts.Generate(TsGeneratorOutput.Enums) #>
 <#= ts.Generate(TsGeneratorOutput.Properties) #>
-<#+
-Dictionary<string, string> _renamedModules = new Dictionary<string, string>();
-
-string FormatTypeName(TsType type, ITsTypeFormatter formatter) {
-	if(type.ClrType.IsInterface) {
-		return ((TypeLite.TsModels.TsClass)type).Name;
-	}
-	return "I" + ((TypeLite.TsModels.TsClass)type).Name;
-}
-#>

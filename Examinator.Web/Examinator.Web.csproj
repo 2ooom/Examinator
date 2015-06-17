@@ -57,7 +57,7 @@
     <Content Include="lib\ngStorage.min.js" />
     <Content Include="Scripts\Contract.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Contract.d.ts</LastGenOutput>
+      <LastGenOutput>Contract.ts</LastGenOutput>
     </Content>
     <Content Include="Source\img\4236.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -506,7 +506,7 @@
     <Content Include="templates\category.html" />
     <Content Include="templates\categories.html" />
     <Content Include="web.config" />
-    <TypeScriptCompile Include="Scripts\Contract.d.ts">
+    <TypeScriptCompile Include="Scripts\Contract.ts">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Contract.tt</DependentUpon>
@@ -625,5 +625,11 @@
     <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
     <TypeScriptSourceMap>false</TypeScriptSourceMap>
   </PropertyGroup>
+
+  <Import Project="$(SolutionDir)\.build\common.props"/>
+  <Import Project="$(SolutionDir)\.build\T4Compile.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  
+  <Target Name="BeforeBuild" DependsOnTargets="T4Complite">
+  </Target>
 </Project>

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using TypeLite;
 
 namespace Examinator.Contract
 {
+    [TsClass]
     public class Category : Paragraph
     {
         public Category()

@@ -1,7 +1,9 @@
 using Newtonsoft.Json;
+using TypeLite;
 
 namespace Examinator.Contract
 {
+    [TsClass]
     public class Paragraph
     {
         public string Id { get; set; }
@@ -10,7 +12,7 @@ namespace Examinator.Contract
         
         public string ImageUrl { get; set; }
 
-        [JsonIgnore]
+        [JsonIgnore, TsIgnore]
         public bool IsNew => string.IsNullOrEmpty(Id);
     }
 }

@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
+using TypeLite;
 
 namespace Examinator.Contract
 {
+    [TsClass]
     public class Question : Paragraph
     {
         public string CategoryId { get; set; }
