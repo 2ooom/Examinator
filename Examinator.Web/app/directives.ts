@@ -15,7 +15,7 @@ module App {
         ])
         .directive('question', ['$ionicScrollDelegate', 'categories',
         ($ionicScrollDelegate, categories) => {
-                function link(scope, element, attributes) {
+                function link(scope:any) {
                     scope.question.isCorrect = false;
 
                     scope.answerHandle = () => {
@@ -39,7 +39,7 @@ module App {
                         }
                     };
 
-                    scope.getAnswerClass = (answer) => {
+                    scope.getAnswerClass = (answer:IAnswer) => {
                         if (scope.question.isAnswered && ((answer.selected && answer.isRight) || (answer.isRight && !answer.selected))) {
                             return 'checkbox-balanced';
                         } else if (scope.question.isAnswered && answer.selected && !answer.isRight) {

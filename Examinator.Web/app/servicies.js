@@ -121,45 +121,42 @@ var App;
                 return deferred.promise;
             }
         };
-    }]).factory('categories', [
-        'utils',
-        function (utils) {
-            var categories = window.categories;
-            var questions = [];
-            categories.forEach(function (c) {
-                questions = questions.concat(c.questions);
-            });
-            return {
-                categories: categories,
-                getCategory: function (categoryId) {
-                    return categories.filter(function (c) { return (c.id === categoryId); })[0];
-                },
-                getQuestion: function (questionId) {
-                    return questions.filter(function (q) { return (q.id === questionId); })[0];
-                },
-                getRandomQuestions: function (num) {
-                    var indexes = utils.getRandomNumbers(num, questions.length - 1);
-                    return indexes.map(function (i) { return questions[i]; });
-                },
-                checkAnswers: function (question) {
-                    var correct = true;
-                    for (var i = 0; i < question.answers.length; i++) {
-                        correct = correct && !!question.answers[i].selected === !!question.answers[i].isRight;
-                    }
-                    question.isCorrect = correct;
-                    question.isAnswered = true;
-                },
-                reset: function (questions) {
-                    questions.forEach(function (q) {
-                        q.answers.forEach(function (a) {
-                            delete a.selected;
-                        });
-                        delete q.isAnswered;
-                        delete q.isCorrect;
-                    });
+    }]).factory('categories', ['utils', function (utils) {
+        var categories = window.categories;
+        var questions = [];
+        categories.forEach(function (c) {
+            questions = questions.concat(c.questions);
+        });
+        return {
+            categories: categories,
+            getCategory: function (categoryId) {
+                return categories.filter(function (c) { return (c.id === categoryId); })[0];
+            },
+            getQuestion: function (questionId) {
+                return questions.filter(function (q) { return (q.id === questionId); })[0];
+            },
+            getRandomQuestions: function (num) {
+                var indexes = utils.getRandomNumbers(num, questions.length - 1);
+                return indexes.map(function (i) { return questions[i]; });
+            },
+            checkAnswers: function (question) {
+                var correct = true;
+                for (var i = 0; i < question.answers.length; i++) {
+                    correct = correct && question.answers[i].selected === question.answers[i].isRight;
                 }
-            };
-        }
-    ]);
+                question.isCorrect = correct;
+                question.isAnswered = true;
+            },
+            reset: function (questionsList) {
+                questionsList.forEach(function (q) {
+                    q.answers.forEach(function (a) {
+                        delete a.selected;
+                    });
+                    delete q.isAnswered;
+                    delete q.isCorrect;
+                });
+            }
+        };
+    }]);
 })(App || (App = {}));
 //# sourceMappingURL=servicies.js.map

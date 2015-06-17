@@ -12,7 +12,7 @@ var App;
             };
         }
     ]).directive('question', ['$ionicScrollDelegate', 'categories', function ($ionicScrollDelegate, categories) {
-        function link(scope, element, attributes) {
+        function link(scope) {
             scope.question.isCorrect = false;
             scope.answerHandle = function () {
                 if (!scope.question.isAnswered) {

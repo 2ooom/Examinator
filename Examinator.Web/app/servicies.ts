@@ -75,7 +75,7 @@ module App {
             () => {
                 var maxattempts = 1000;
                 return {
-                    getRandomNumbers(num, max) {
+                    getRandomNumbers(num:number, max:number) {
                         var q = [];
                         var attempts = 0;
                         while (q.length !== num || attempts >= maxattempts) {
@@ -96,7 +96,7 @@ module App {
             }
         ])
         .factory('confirm', ['$ionicModal', '$rootScope', '$q',
-        ($ionicModal, $rootScope, $q) => {
+        ($ionicModal, $rootScope :ng.IRootScopeService, $q:ng.IQService) => {
                 var $scope = $rootScope.$new();
                 var deferred = $q.defer();
                 var modal = null;
@@ -109,21 +109,21 @@ module App {
                     modal = m;
                 });
 
-                $scope.reject = () => {
+                (<any>$scope).reject = () => {
                     modal.hide();
                     deferred.reject();
                 };;
             
-                $scope.resolve = () => {
+                (<any>$scope).resolve = () => {
                     modal.hide();
                     deferred.resolve();
                 };
 
                 return {
                     show: (text: string, resolveText: string, rejectText:string) => {
-                        $scope.text = text;
-                        $scope.resolveText = resolveText || 'Ok';
-                        $scope.rejectText = rejectText || 'Cancel';
+                        (<any>$scope).text = text;
+                        (<any>$scope).resolveText = resolveText || 'Ok';
+                        (<any>$scope).rejectText = rejectText || 'Cancel';
                         deferred = $q.defer();
                         loadModal.then(() => {
                             modal.show();
@@ -134,34 +134,33 @@ module App {
                 }
             }
         ])
-        .factory('categories', [
-            'utils',
+        .factory('categories', ['utils',
             utils => {
-                var categories = (<any>window).categories;
-                var questions = [];
+                var categories:ICategory[] = (<any>window).categories;
+                var questions:IQuestion[] = [];
                 categories.forEach(c => { questions = questions.concat(c.questions) });
                 return {
                     categories: categories,
-                    getCategory(categoryId:string) {
+                    getCategory(categoryId:string):ICategory {
                         return categories.filter(c => (c.id === categoryId))[0];
                     },
-                    getQuestion(questionId:string) {
+                    getQuestion(questionId:string):IQuestion {
                         return questions.filter((q: any) => (q.id === questionId))[0];
                     },
-                    getRandomQuestions(num:number) {
+                    getRandomQuestions(num:number):IQuestion[] {
                         var indexes = utils.getRandomNumbers(num, questions.length - 1);
                         return indexes.map(i => questions[i]);
                     },
-                    checkAnswers(question: any) {
+                    checkAnswers(question: IQuestion):void {
                         var correct = true;
                         for (var i = 0; i < question.answers.length; i++) {
-                            correct = correct && !!question.answers[i].selected === !!question.answers[i].isRight;
+                            correct = correct && question.answers[i].selected === question.answers[i].isRight;
                         }
                         question.isCorrect = correct;
                         question.isAnswered = true;
                     },
-                    reset(questions: any[]) {
-                        questions.forEach(q => {
+                    reset(questionsList: IQuestion[]):void {
+                        questionsList.forEach(q => {
                             q.answers.forEach(a => {
                                 delete a.selected;
                             });

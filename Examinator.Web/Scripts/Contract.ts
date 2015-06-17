@@ -3,22 +3,22 @@
  
 
 declare module App {
-	export interface IAnswer extends App.IParagraph {
-		QuestionId: string;
-		IsRight: boolean;
+	export interface IAnswerContract extends App.IParagraphContract {
+		questionId: string;
+		isRight: boolean;
 	}
-	export interface IParagraph {
-		Id: string;
-		Text: string;
-		ImageUrl: string;
+	export interface IParagraphContract {
+		id: string;
+		text: string;
+		imageUrl: string;
 	}
-	export interface ICategory extends App.IParagraph {
-		Questions: App.IQuestion[];
+	export interface ICategoryContract extends App.IParagraphContract {
+		questions: App.IQuestionContract[];
 	}
-	export interface IQuestion extends App.IParagraph {
-		CategoryId: string;
-		SubCategoryId: string;
-		CorrectAnswersNumber: number;
-		Answers: App.IAnswer[];
+	export interface IQuestionContract extends App.IParagraphContract {
+		categoryId: string;
+		subCategoryId: string;
+		correctAnswersNumber: number;
+		answers: App.IAnswerContract[];
 	}
 }
