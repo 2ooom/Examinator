@@ -154,7 +154,7 @@ module App {
                     checkAnswers(question: IQuestion):void {
                         var correct = true;
                         for (var i = 0; i < question.answers.length; i++) {
-                            correct = correct && question.answers[i].selected === question.answers[i].isRight;
+                            correct = correct && !!question.answers[i].selected === !!question.answers[i].isRight;
                         }
                         question.isCorrect = correct;
                         question.isAnswered = true;
