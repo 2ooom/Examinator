@@ -565,7 +565,12 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Examinator.Contract\Examinator.Contract.csproj">
+      <Project>{46853664-48e0-48da-b032-61e70ad142f2}</Project>
+      <Name>Examinator.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

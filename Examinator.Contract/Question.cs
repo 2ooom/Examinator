@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace Examinator.Parser.Contract
+namespace Examinator.Contract
 {
     public class Question : Paragraph
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Examinator.Parser.Contract;
+using Examinator.Contract;
 using LinqToExcel;
 
 namespace Examinator.Parser

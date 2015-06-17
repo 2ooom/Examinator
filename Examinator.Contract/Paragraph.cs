@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 
-namespace Examinator.Parser.Contract
+namespace Examinator.Contract
 {
     public class Paragraph
     {
