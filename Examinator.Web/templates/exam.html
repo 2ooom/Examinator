@@ -1,6 +1,6 @@
 <ion-view>
     <ion-nav-title>
-        <span ng-hide="isFinished" class="answers-indicator">
+        <span ng-hide="isFinished">
             <span ng-bind="correct"></span>
             <span class="icon ion-checkmark balanced padding-right"></span>
             <span ng-bind="wrong"></span>
@@ -8,10 +8,16 @@
             <span class="total-answers">of <span ng-bind="total"></span></span>
         </span>
         <span ng-show="isFinished">Examination Results</span>
-        <span class="timer">
-            <span ng-bind="getTimer() | date: 'mm:ss'"></span>
-        </span>
+        <!--<span class="timer">
+            
+        </span>-->
     </ion-nav-title>
+
+    <ion-nav-buttons side="right">
+        <button class="button button-clear timer">
+            <span ng-bind="getTimer() | date: 'mm:ss'"></span>
+            </button>
+    </ion-nav-buttons>
     <ion-content>
         <div data-question="currentQuestion"
              is-last="isLast()"

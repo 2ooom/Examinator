@@ -41,10 +41,6 @@
 .settings h2:first-child {
     margin-top: 20px;
 }
-.timer {
-    position: absolute;
-    right: -45px;
-}
 .exam-result h1, .exam-result h2 {
     text-align: center;
 }
@@ -80,4 +76,7 @@
 }
 .confirm-modal .bar-footer .padding-right {
     padding-right: 5px;
+}
+.timer span {
+    font-weight: 500;
 }
