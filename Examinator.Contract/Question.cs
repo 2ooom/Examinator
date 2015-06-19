@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json;
 using TypeLite;
 
 namespace Examinator.Contract
 {
     [TsClass]
-    public class Question : Paragraph
+    public class Question : Paragraph<string>
     {
         public string CategoryId { get; set; }
         public string SubCategoryId { get; set; }
@@ -18,6 +19,12 @@ namespace Examinator.Contract
             Text = string.Empty;
             CategoryId = string.Empty;
             Answers = new List<Answer>();
+        }
+
+        [JsonIgnore, TsIgnore]
+        public bool IsNew
+        {
+            get { return string.IsNullOrEmpty(Id); }
         }
     }
 }

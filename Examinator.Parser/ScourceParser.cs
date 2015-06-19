@@ -21,6 +21,7 @@ namespace Examinator.Parser
             var question = new Question();
             var rightAnswers = 0;
             var newQuestion = false;
+            
             var questions = new List<Question>();
             foreach (var proxy in proxies)
             {

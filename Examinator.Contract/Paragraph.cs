@@ -1,21 +1,14 @@
-using Newtonsoft.Json;
 using TypeLite;
 
 namespace Examinator.Contract
 {
     [TsClass]
-    public class Paragraph
+    public class Paragraph<TId>
     {
-        public string Id { get; set; }
+        public TId Id { get; set; }
         
         public string Text { get; set; }
         
         public string ImageUrl { get; set; }
-
-        [JsonIgnore, TsIgnore]
-        public bool IsNew
-        {
-            get { return string.IsNullOrEmpty(Id); }
-        }
     }
 }
