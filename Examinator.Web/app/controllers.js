@@ -164,11 +164,5 @@ var App;
                 reset();
             });
         }
-    ]).controller('SettingsCtrl', [
-        '$scope',
-        'settings',
-        function ($scope, settings) {
-            $scope.settings = settings;
-        }
     ]);
 })(App || (App = {}));

@@ -52,12 +52,14 @@
     <Content Include="Content\mstile-310x310.png" />
     <Content Include="Content\mstile-70x70.png" />
     <Content Include="css\style.css" />
-    <TypeScriptCompile Include="app\servicies\settings.ts" />
-    <TypeScriptCompile Include="app\servicies\storage.ts" />
-    <TypeScriptCompile Include="app\servicies\confirm.ts" />
-    <TypeScriptCompile Include="app\servicies\servicies.ts" />
-    <TypeScriptCompile Include="app\servicies\utils.ts" />
-    <TypeScriptCompile Include="app\servicies\categories.ts" />
+    <TypeScriptCompile Include="app\controllers\ExamCtrl.ts" />
+    <TypeScriptCompile Include="app\controllers\SettingsCtrl.ts" />
+    <TypeScriptCompile Include="app\servicies\Settings.ts" />
+    <TypeScriptCompile Include="app\servicies\Storage.ts" />
+    <TypeScriptCompile Include="app\servicies\Confirm.ts" />
+    <TypeScriptCompile Include="app\servicies\Servicies.ts" />
+    <TypeScriptCompile Include="app\servicies\Utils.ts" />
+    <TypeScriptCompile Include="app\servicies\Categories.ts" />
     <TypeScriptCompile Include="app\_all.d.ts" />
     <TypeScriptCompile Include="app\directives.ts" />
     <Content Include="lib\ngStorage.min.js" />
@@ -603,9 +605,7 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

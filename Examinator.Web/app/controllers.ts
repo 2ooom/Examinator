@@ -173,11 +173,6 @@ module App {
                     reset();
                 });
             }
-        ])
-        .controller('SettingsCtrl', [
-            '$scope', 'settings', ($scope, settings) => {
-                $scope.settings = settings;
-            }
         ]);
 
 }

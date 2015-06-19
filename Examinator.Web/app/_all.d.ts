@@ -3,12 +3,14 @@
 /// <reference path="../Scripts/typings/angularjs/angular.d.ts" />
 /// <reference path="../Scripts/typings/cordova-ionic/cordova-ionic.d.ts" />
 
-/// <reference path="servicies/utils.ts" />
-/// <reference path="servicies/categories.ts" />
-/// <reference path="servicies/confirm.ts" />
-/// <reference path="servicies/servicies.ts" />
-/// <reference path="servicies/settings.ts" />
-/// <reference path="servicies/storage.ts" />
+/// <reference path="servicies/Utils.ts" />
+/// <reference path="servicies/Categories.ts" />
+/// <reference path="servicies/Confirm.ts" />
+/// <reference path="servicies/Servicies.ts" />
+/// <reference path="servicies/Settings.ts" />
+/// <reference path="servicies/Storage.ts" />
+
+/// <reference path="controllers/SettingsCtrl.ts" />
 
 declare var StatusBar: any;
 declare var cordova: ICordova;

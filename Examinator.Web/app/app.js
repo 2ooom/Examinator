@@ -26,7 +26,7 @@ var App;
             views: {
                 'menuContent': {
                     templateUrl: "templates/settings.html",
-                    controller: 'SettingsCtrl'
+                    controller: App.SettingsCtrl
                 }
             }
         }).state('app.exam', {

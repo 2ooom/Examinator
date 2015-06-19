@@ -32,7 +32,7 @@ module App {
                     views: {
                         'menuContent': {
                             templateUrl: "templates/settings.html",
-                            controller: 'SettingsCtrl'
+                            controller: SettingsCtrl
                         }
                     }
                 })
