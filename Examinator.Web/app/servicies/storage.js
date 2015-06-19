@@ -1,4 +1,3 @@
-/// <reference path="../_all.d.ts" />
 var App;
 (function (App) {
     var Storage = (function () {
@@ -51,4 +50,3 @@ var App;
     })();
     App.Storage = Storage;
 })(App || (App = {}));
-//# sourceMappingURL=storage.js.map

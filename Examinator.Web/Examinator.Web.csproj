@@ -52,6 +52,7 @@
     <Content Include="Content\mstile-310x310.png" />
     <Content Include="Content\mstile-70x70.png" />
     <Content Include="css\style.css" />
+    <TypeScriptCompile Include="app\servicies\settings.ts" />
     <TypeScriptCompile Include="app\servicies\storage.ts" />
     <TypeScriptCompile Include="app\servicies\confirm.ts" />
     <TypeScriptCompile Include="app\servicies\servicies.ts" />
@@ -602,6 +603,9 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\controllers\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
@@ -629,8 +633,8 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
-    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
-    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
@@ -639,8 +643,6 @@
   <Import Project="$(SolutionDir)\.build\common.props" />
   <Import Project="$(SolutionDir)\.build\T4Compile.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
-  
   <Target Name="BeforeBuild" DependsOnTargets="T4Complite">
-  
   </Target>
 </Project>

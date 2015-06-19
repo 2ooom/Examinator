@@ -1,4 +1,5 @@
 /// <reference path="../_all.d.ts" />
+
 module App {
     export class Categories {
         public static $inject = [
@@ -8,7 +9,7 @@ module App {
         private categories: ICategory[];
         private questions: IQuestion[];
         constructor(
-            private utils: any,
+            private utils: Utils,
             private $window: any
             ) {
 

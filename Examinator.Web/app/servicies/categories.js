@@ -1,4 +1,3 @@
-/// <reference path="../_all.d.ts" />
 var App;
 (function (App) {
     var Categories = (function () {
@@ -48,4 +47,3 @@ var App;
     })();
     App.Categories = Categories;
 })(App || (App = {}));
-//# sourceMappingURL=categories.js.map

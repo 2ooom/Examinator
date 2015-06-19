@@ -1,4 +1,3 @@
-/// <reference path="_all.d.ts" />
 var App;
 (function (App) {
     angular.module('examinator.directives', []).directive('mistakes', [
@@ -73,4 +72,3 @@ var App;
         };
     }]);
 })(App || (App = {}));
-//# sourceMappingURL=directives.js.map

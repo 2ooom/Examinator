@@ -1,4 +1,3 @@
-/// <reference path="_all.d.ts" />
 var App;
 (function (App) {
     angular.module('examinator.controllers', []).controller('AppCtrl', ['$scope', 'confirm', function ($scope, confirm) {
@@ -87,7 +86,6 @@ var App;
             };
             $scope.isLast = function () { return (category.questions.length <= $scope.current); };
             $scope.$on('$destroy', function () {
-                //categories.reset(category.questions);
             });
         }
     ]).controller('ExamCtrl', [
@@ -174,4 +172,3 @@ var App;
         }
     ]);
 })(App || (App = {}));
-//# sourceMappingURL=controllers.js.map

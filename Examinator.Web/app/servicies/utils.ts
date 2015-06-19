@@ -1,4 +1,5 @@
 /// <reference path="../_all.d.ts" />
+
 module App {
     export class Utils {
         private static maxattempts = 1000;

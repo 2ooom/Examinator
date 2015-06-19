@@ -1,4 +1,3 @@
-/// <reference path="../_all.d.ts" />
 var App;
 (function (App) {
     var Confirm = (function () {
@@ -46,4 +45,3 @@ var App;
     })();
     App.Confirm = Confirm;
 })(App || (App = {}));
-//# sourceMappingURL=confirm.js.map
