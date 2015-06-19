@@ -1,25 +1,25 @@
 <ion-view >
     <ion-nav-title>
-        <span ng-hide="isFinished">
-            <span ng-bind="correct"></span>
+        <span ng-hide="categoryCtrl.isFinished">
+            <span ng-bind="categoryCtrl.correct"></span>
             <span class="icon ion-checkmark balanced padding-right"></span>
-            <span ng-bind="wrong"></span>
+            <span ng-bind="categoryCtrl.wrong"></span>
             <span class="icon ion-close assertive padding-right"></span>
-            <span class="total-answers">of <span ng-bind="category.questions.length"></span></span>
+            <span class="total-answers">of <span ng-bind="categoryCtrl.category.questions.length"></span></span>
         </span>
-        <span ng-show="isFinished">
-            <span ng-bind="category.text"></span> Results
+        <span ng-show="categoryCtrl.isFinished">
+            <span ng-bind="categoryCtrl.category.text"></span> Results
         </span>
     </ion-nav-title>
     <ion-content>
-        <div data-question="currentQuestion"
-             is-last="isLast()"
-             next="next()" ng-hide="isFinished"></div>
-        <div ng-show="isFinished">
-            <mistakes questions="category.questions" ng-show="wrong"></mistakes>
+        <div data-question="categoryCtrl.currentQuestion"
+             is-last="categoryCtrl.isLast()"
+             next="categoryCtrl.next()" ng-hide="categoryCtrl.isFinished"></div>
+        <div ng-show="categoryCtrl.isFinished">
+            <mistakes questions="categoryCtrl.category.questions" ng-show="categoryCtrl.wrong"></mistakes>
 
             <div class="list list-inset">
-                <button class="button button-block button-balanced" ng-click="finish()">
+                <button class="button button-block button-balanced" ng-click="categoryCtrl.finish()">
                     Finish
                 </button>
             </div>

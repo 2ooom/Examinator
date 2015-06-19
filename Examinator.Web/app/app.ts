@@ -60,7 +60,7 @@ module App {
                     views: {
                         'menuContent': {
                             templateUrl: "templates/category.html",
-                            controller: 'CategoryCtrl'
+                            controller: CategoryCtrl
                         }
                     }
                 });

@@ -10,7 +10,11 @@
 /// <reference path="servicies/Settings.ts" />
 /// <reference path="servicies/Storage.ts" />
 
+/// <reference path="controllers/AppCtrl.ts" />
 /// <reference path="controllers/SettingsCtrl.ts" />
+/// <reference path="controllers/CategoriesCtrl.ts" />
+/// <reference path="controllers/CategoryCtrl.ts" />
+/// <reference path="controllers/ExamCtrl.ts" />
 
 declare var StatusBar: any;
 declare var cordova: ICordova;

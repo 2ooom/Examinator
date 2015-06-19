@@ -53,6 +53,7 @@
     <Content Include="Content\mstile-70x70.png" />
     <Content Include="css\style.css" />
     <TypeScriptCompile Include="app\controllers\CategoriesCtrl.ts" />
+    <TypeScriptCompile Include="app\controllers\CategoryCtrl.ts" />
     <TypeScriptCompile Include="app\controllers\ExamCtrl.ts" />
     <TypeScriptCompile Include="app\controllers\AppCtrl.ts" />
     <TypeScriptCompile Include="app\controllers\SettingsCtrl.ts" />
