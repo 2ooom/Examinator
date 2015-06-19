@@ -30,10 +30,10 @@ module App {
             private $ionicScrollDelegate,
             private confirm: Confirm) {
 
-            this.category = categories.getCategory($stateParams.categoryId);
+            this.category = this.categories.getCategory($stateParams.categoryId);
             
             $scope.$on('$ionicView.afterLeave',() => {
-                categories.reset(this.category.questions);
+                this.categories.reset(this.category.questions);
             });
 
             $scope.$on('$ionicView.beforeEnter',() => {
@@ -42,7 +42,7 @@ module App {
             });
 
             $scope.$on('$destroy',() => {
-                //categories.reset(category.questions);
+                //this.categories.reset(category.questions);
             });
 
             $scope.categoryCtrl = this;
@@ -82,7 +82,7 @@ module App {
                         for (var j = 0; j < qa.length; j++) {
                             q.answers[qa[j]].selected = true;
                         }
-                        categories.checkAnswers(q);
+                        this.categories.checkAnswers(q);
                         this.countAnswer(q.isCorrect);
                     }
                 }).catch(() => {

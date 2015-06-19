@@ -17,11 +17,11 @@ module App {
 
             this.categories = $window.categories;
             this.questions = [];
-            categories.forEach(c => { this.questions = this.questions.concat(c.questions) });
+            this.categories.forEach(c => { this.questions = this.questions.concat(c.questions) });
         }
 
         public getCategory(categoryId: string): ICategory {
-            return categories.filter(c => (c.id === categoryId))[0];
+            return this.categories.filter(c => (c.id === categoryId))[0];
         }
 
         public getQuestion(questionId: string): IQuestion {

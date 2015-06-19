@@ -13,9 +13,9 @@ var App;
             this.wrong = 0;
             this.correct = 0;
             this.isFinished = false;
-            this.category = categories.getCategory($stateParams.categoryId);
+            this.category = this.categories.getCategory($stateParams.categoryId);
             $scope.$on('$ionicView.afterLeave', function () {
-                categories.reset(_this.category.questions);
+                _this.categories.reset(_this.category.questions);
             });
             $scope.$on('$ionicView.beforeEnter', function () {
                 $ionicScrollDelegate.scrollTop();
@@ -55,7 +55,7 @@ var App;
                         for (var j = 0; j < qa.length; j++) {
                             q.answers[qa[j]].selected = true;
                         }
-                        categories.checkAnswers(q);
+                        _this.categories.checkAnswers(q);
                         _this.countAnswer(q.isCorrect);
                     }
                 }).catch(function () {

@@ -2,8 +2,6 @@ var App;
 (function (App) {
     angular.module('examinator', [
         'ionic',
-        'ngStorage',
-        'examinator.controllers',
         App.Servicies.init(),
         'examinator.directives'
     ]).run(function ($ionicPlatform) {
@@ -34,7 +32,7 @@ var App;
             views: {
                 'menuContent': {
                     templateUrl: "templates/exam.html",
-                    controller: 'ExamCtrl'
+                    controller: App.ExamCtrl
                 }
             }
         }).state('app.categories', {

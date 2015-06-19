@@ -7,12 +7,12 @@ var App;
             this.$window = $window;
             this.categories = $window.categories;
             this.questions = [];
-            categories.forEach(function (c) {
+            this.categories.forEach(function (c) {
                 _this.questions = _this.questions.concat(c.questions);
             });
         }
         Categories.prototype.getCategory = function (categoryId) {
-            return categories.filter(function (c) { return (c.id === categoryId); })[0];
+            return this.categories.filter(function (c) { return (c.id === categoryId); })[0];
         };
         Categories.prototype.getQuestion = function (questionId) {
             return this.questions.filter(function (q) { return (q.id === questionId); })[0];

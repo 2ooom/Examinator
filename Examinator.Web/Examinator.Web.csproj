@@ -488,7 +488,6 @@
     <Content Include="index.html" />
     <TypeScriptCompile Include="app\app.ts" />
     <Content Include="Source\categories.js" />
-    <TypeScriptCompile Include="app\controllers.ts" />
     <Content Include="lib\ionic\css\ionic.css" />
     <Content Include="lib\ionic\css\ionic.min.css" />
     <Content Include="lib\ionic\fonts\ionicons.svg" />

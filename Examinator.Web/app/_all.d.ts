@@ -18,7 +18,6 @@
 
 declare var StatusBar: any;
 declare var cordova: ICordova;
-declare var categories: any;
 
 interface ICordova {
     plugins:any;

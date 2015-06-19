@@ -5,7 +5,9 @@ module App {
         public static Name = 'examinator.servicies';
         
         public static init() {
-            angular.module(Servicies.Name, [])
+            angular.module(Servicies.Name, [
+                    'ngStorage'
+                ])
                 .service('confirm', Confirm)
                 .service('storage', Storage)
                 .service('categories', Categories)

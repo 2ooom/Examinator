@@ -3,8 +3,6 @@
 module App {
     angular.module('examinator', [
         'ionic',
-        'ngStorage',
-        'examinator.controllers',
         Servicies.init(),
         'examinator.directives'])
         .run($ionicPlatform => {
@@ -42,7 +40,7 @@ module App {
                     views: {
                         'menuContent': {
                             templateUrl: "templates/exam.html",
-                            controller: 'ExamCtrl'
+                            controller: ExamCtrl
                         }
                     }
                 })
