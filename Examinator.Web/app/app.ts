@@ -1,4 +1,5 @@
 /// <reference path="_all.d.ts" />
+
 module App {
     angular.module('examinator', [
         'ionic',
@@ -25,7 +26,7 @@ module App {
                     url: "/app",
                     abstract: true,
                     templateUrl: "templates/menu.html",
-                    controller: 'AppCtrl'
+                    controller: AppCtrl
                 })
                 .state('app.settings', {
                     url: "/settings",
@@ -50,7 +51,7 @@ module App {
                     views: {
                         'menuContent': {
                             templateUrl: "templates/categories.html",
-                            controller: 'CategoriesCtrl'
+                            controller: CategoriesCtrl
                         }
                     }
                 })

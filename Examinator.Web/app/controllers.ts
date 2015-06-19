@@ -1,16 +1,6 @@
 /// <reference path="_all.d.ts" />
 module App {
     angular.module('examinator.controllers', [])
-        .controller('AppCtrl', ['$scope', 'confirm',
-        ($scope, confirm) => {
-
-            }
-        ])
-        .controller('CategoriesCtrl', [
-            '$scope', 'categories', ($scope, categories) => {
-                $scope.categories = categories.categories;
-            }
-        ])
         .controller('CategoryCtrl', [
         '$scope', '$stateParams', 'categories', '$state', 'storage', '$ionicScrollDelegate','confirm', ($scope, $stateParams, categories, $state, storage, $ionicScrollDelegate, confirm) => {
 

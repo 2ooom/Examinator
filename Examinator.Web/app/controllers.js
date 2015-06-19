@@ -1,13 +1,6 @@
 var App;
 (function (App) {
-    angular.module('examinator.controllers', []).controller('AppCtrl', ['$scope', 'confirm', function ($scope, confirm) {
-    }]).controller('CategoriesCtrl', [
-        '$scope',
-        'categories',
-        function ($scope, categories) {
-            $scope.categories = categories.categories;
-        }
-    ]).controller('CategoryCtrl', [
+    angular.module('examinator.controllers', []).controller('CategoryCtrl', [
         '$scope',
         '$stateParams',
         'categories',

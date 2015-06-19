@@ -20,7 +20,7 @@ var App;
             url: "/app",
             abstract: true,
             templateUrl: "templates/menu.html",
-            controller: 'AppCtrl'
+            controller: App.AppCtrl
         }).state('app.settings', {
             url: "/settings",
             views: {
@@ -42,7 +42,7 @@ var App;
             views: {
                 'menuContent': {
                     templateUrl: "templates/categories.html",
-                    controller: 'CategoriesCtrl'
+                    controller: App.CategoriesCtrl
                 }
             }
         }).state('app.category', {

@@ -6,8 +6,10 @@ module App {
             'utils',
             '$window'
         ];
-        private categories: ICategory[];
+
+        public categories: ICategory[];
         private questions: IQuestion[];
+
         constructor(
             private utils: Utils,
             private $window: any
@@ -17,6 +19,7 @@ module App {
             this.questions = [];
             categories.forEach(c => { this.questions = this.questions.concat(c.questions) });
         }
+
         public getCategory(categoryId: string): ICategory {
             return categories.filter(c => (c.id === categoryId))[0];
         }
