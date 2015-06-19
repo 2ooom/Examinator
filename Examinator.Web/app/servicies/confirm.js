@@ -15,6 +15,7 @@ var App;
             }).then(function (m) {
                 _this.modal = m;
             });
+            console.log('creating confirm');
         }
         Confirm.prototype.show = function (text, resolveText, rejectText) {
             var _this = this;

@@ -12,15 +12,15 @@ module App {
             '$ionicScrollDelegate'
         ];
 
-        public total:number;
-        public current = 1;
-        public wrong = 0;
-        public correct = 0;
-        public isFailed = false;
-        public isFinished = false;
-        public isTimerElapsed = false;
-        public secondsElapsed = 0;
-        public currentQuestion: IQuestion;
+        total:number;
+        current = 1;
+        wrong = 0;
+        correct = 0;
+        isFailed = false;
+        isFinished = false;
+        isTimerElapsed = false;
+        secondsElapsed = 0;
+        currentQuestion: IQuestion;
 
         private timerPromise: ng.IPromise<any>;
         private timeLimitSeconds:number;
@@ -29,7 +29,7 @@ module App {
         constructor(
             $scope: any,
             private categories: Categories,
-            private $state: any,
+            private $state: ng.ui.IStateService,
             private settings: Settings,
             private $timeout: ng.ITimeoutService,
             private $ionicScrollDelegate: any) {
@@ -41,7 +41,7 @@ module App {
                 $timeout.cancel(this.timerPromise);
             });
 
-            $scope.$on('$ionicView.beforeEnter',(a, b, c) => {
+            $scope.$on('$ionicView.beforeEnter',() => {
                 $ionicScrollDelegate.scrollTop();
                 this.reset();
             });
@@ -74,15 +74,16 @@ module App {
             this.timer();
         }
 
-        public getTimer() {
+        getTimer() {
             return new Date((this.timeLimitSeconds - this.secondsElapsed) * 1000);
         }
 
-        public complete() {
+        complete() {
             this.isFinished = true;
             this.$timeout.cancel(this.timerPromise);
         }
-        public next() {
+
+        next() {
             if (!this.currentQuestion.isCorrect) {
                 this.wrong++;
             } else {
@@ -100,12 +101,12 @@ module App {
             }
         }
 
-        public finish() {
+        finish() {
             this.categories.reset(this.questions);
             this.$state.go('app.categories');
         }
 
-        public isLast() {
+        isLast() {
             return this.questions.length <= this.current;
         }
     }

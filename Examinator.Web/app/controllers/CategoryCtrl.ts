@@ -25,7 +25,7 @@ module App {
             $scope: any,
             private $stateParams: any,
             private categories: Categories,
-            private $state: any,
+            private $state: ng.ui.IStateService,
             private storage: Storage,
             private $ionicScrollDelegate,
             private confirm: Confirm) {

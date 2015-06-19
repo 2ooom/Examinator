@@ -3,7 +3,7 @@ var App;
     angular.module('examinator', [
         'ionic',
         App.Servicies.init(),
-        'examinator.directives'
+        App.Directives.init()
     ]).run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
             if (window.cordova && window.cordova.plugins.Keyboard) {

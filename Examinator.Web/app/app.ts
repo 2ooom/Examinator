@@ -2,9 +2,10 @@
 
 module App {
     angular.module('examinator', [
-        'ionic',
-        Servicies.init(),
-        'examinator.directives'])
+            'ionic',
+            Servicies.init(),
+            Directives.init()
+        ])
         .run($ionicPlatform => {
             $ionicPlatform.ready(() => {
                 // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

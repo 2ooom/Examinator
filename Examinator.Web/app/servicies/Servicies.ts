@@ -5,9 +5,11 @@ module App {
         public static Name = 'examinator.servicies';
         
         public static init() {
+            console.log('Init servicies');
             angular.module(Servicies.Name, [
                     'ngStorage'
                 ])
+
                 .service('confirm', Confirm)
                 .service('storage', Storage)
                 .service('categories', Categories)

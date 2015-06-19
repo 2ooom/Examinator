@@ -27,7 +27,8 @@ module App {
                 hardwareBackButtonClose: false
             }).then(m => {
                 this.modal = m;
-            });
+                });
+            console.log('creating confirm');
         }
 
         public show(text: string, resolveText: string, rejectText: string) {

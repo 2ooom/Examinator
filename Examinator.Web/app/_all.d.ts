@@ -2,6 +2,7 @@
 /// <reference path="../Scripts/typings/jquery/jquery.d.ts" />
 /// <reference path="../Scripts/typings/angularjs/angular.d.ts" />
 /// <reference path="../Scripts/typings/cordova-ionic/cordova-ionic.d.ts" />
+/// <reference path="../Scripts/typings/angular-ui-router/angular-ui-router.d.ts" />
 
 /// <reference path="servicies/Utils.ts" />
 /// <reference path="servicies/Categories.ts" />
@@ -15,6 +16,10 @@
 /// <reference path="controllers/CategoriesCtrl.ts" />
 /// <reference path="controllers/CategoryCtrl.ts" />
 /// <reference path="controllers/ExamCtrl.ts" />
+
+/// <reference path="directives/MistakesCtrl.ts" />
+/// <reference path="directives/QuestionCtrl.ts" />
+/// <reference path="directives/Directives.ts" />
 
 declare var StatusBar: any;
 declare var cordova: ICordova;

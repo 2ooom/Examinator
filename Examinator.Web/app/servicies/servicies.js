@@ -4,6 +4,7 @@ var App;
         function Servicies() {
         }
         Servicies.init = function () {
+            console.log('Init servicies');
             angular.module(Servicies.Name, [
                 'ngStorage'
             ]).service('confirm', App.Confirm).service('storage', App.Storage).service('categories', App.Categories).service('utils', App.Utils).service('settings', App.Settings);

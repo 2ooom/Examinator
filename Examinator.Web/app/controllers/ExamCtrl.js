@@ -21,7 +21,7 @@ var App;
                 categories.reset(_this.questions);
                 $timeout.cancel(_this.timerPromise);
             });
-            $scope.$on('$ionicView.beforeEnter', function (a, b, c) {
+            $scope.$on('$ionicView.beforeEnter', function () {
                 $ionicScrollDelegate.scrollTop();
                 _this.reset();
             });
