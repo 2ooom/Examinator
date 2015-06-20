@@ -67,12 +67,14 @@
     <TypeScriptCompile Include="app\servicies\Utils.ts" />
     <TypeScriptCompile Include="app\servicies\Categories.ts" />
     <TypeScriptCompile Include="app\_all.d.ts" />
+    <Content Include="Gruntfile.js" />
     <Content Include="lib\ngStorage.min.js" />
     <Content Include="Scripts\Contract.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Contract.ts</LastGenOutput>
     </Content>
     <Content Include="Source\categories.new.js" />
+    <Content Include="Source\categories.new.min.js" />
     <Content Include="Source\img\4236.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
