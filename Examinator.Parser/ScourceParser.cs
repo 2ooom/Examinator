@@ -47,7 +47,7 @@ namespace Examinator.Parser
                     if (Regex.IsMatch(id, "CARS\\s*\\d+\\.\\d+", RegexOptions.IgnoreCase))
                     {
                         matches++;
-                        question.SubCategoryId = Regex.Match(id, "(CARS\\s*\\d{1,}\\.\\d{1,})", RegexOptions.IgnoreCase).Groups[1].Value; 
+                        //question.SubCategoryId = Regex.Match(id, "(CARS\\s*\\d{1,}\\.\\d{1,})", RegexOptions.IgnoreCase).Groups[1].Value; 
                     }
                     // Correct answers counter
                     if (Regex.IsMatch(id, "MARK\\s\\d+\\sANSWER", RegexOptions.IgnoreCase))

@@ -9,7 +9,6 @@ namespace Examinator.Contract
     public class Question : Paragraph<int>
     {
         public int CategoryId { get; set; }
-        public string SubCategoryId { get; set; }
 
         public int Correct { get { return Answers.Count(t => t.IsRight.HasValue && t.IsRight.Value); } }
         public IList<Answer> Answers { get; set; }
