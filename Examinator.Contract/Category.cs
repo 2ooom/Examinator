@@ -8,7 +8,6 @@ namespace Examinator.Contract
     {
         public Category()
         {
-            Text = string.Empty;
             Questions = new List<Question>();
         }
         public IList<Question> Questions { get; set; }

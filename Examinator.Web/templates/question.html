@@ -3,7 +3,7 @@
     <div class="item item-text-wrap question">
         <h2 ng-bind="question.text"></h2>
         <img ng-attr-src="{{question.imageUrl || undefined}}" ng-show="question.imageUrl"/>
-        <h3>Mark <span ng-bind="question.correctAnswersNumber"></span> Answer(s) <span class="grayed-out">#<span ng-bind="question.id"></span></span></h3>
+        <h3>Mark <span ng-bind="question.correct"></span> Answer(s) <span class="grayed-out">#<span ng-bind="question.id"></span></span></h3>
     </div>
 </div>
 <div class="list list-inset answers-list">

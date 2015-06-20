@@ -20,9 +20,9 @@ namespace Examinator.Parser
             
             var question = new Question();
             var rightAnswers = 0;
-            var newQuestion = false;
-            
-            var questions = new List<Question>();
+            var categoryName = string.Empty;
+            var categories = new List<Category>();
+
             foreach (var proxy in proxies)
             {
                 var id = proxy.Id?.Trim() ?? string.Empty;
@@ -35,10 +35,11 @@ namespace Examinator.Parser
                     {
                         if (!question.IsNew)
                         {
-                            question = PushQuestion(questions, question, rightAnswers);
+                            question = PushQuestion(categories, question, rightAnswers, categoryName);
                             rightAnswers = 0;
+                            categoryName = string.Empty;;
                         }
-                        question.Id = Regex.Match(id, "(\\d{4,})", RegexOptions.IgnoreCase).Groups[1].Value;
+                        question.Id = int.Parse(Regex.Match(id, "(\\d{4,})", RegexOptions.IgnoreCase).Groups[1].Value);
                         CheckQuestionImage(question);
                         matches++;
                     }
@@ -59,11 +60,11 @@ namespace Examinator.Parser
                     {
                         if (matches == 0)
                         {
-                            question.CategoryId = $"{question.CategoryId} {id}";
+                            categoryName += " " + id;
                         }
                         else
                         {
-                            question.CategoryId = Regex.Match(id, "\\n(.+)[\\n|\\s]MARK", RegexOptions.IgnoreCase).Groups[1].Value;
+                            categoryName = Regex.Match(id, "\\n(.+)[\\n|\\s]MARK", RegexOptions.IgnoreCase).Groups[1].Value;
                         }
                     }
                 }
@@ -77,21 +78,8 @@ namespace Examinator.Parser
                     question.Answers.Add(answer);
                 }
             }
-            questions.Add(question);
-            var categories = new List<Category>();
-            var category = new Category();
-            foreach (var q in questions)
-            {
-                var text = q.CategoryId.Trim().Replace("\n", " ");
-                if (text != category.Text)
-                {
-                    category = PushCategory(categories, category);
-                }
-                category.Text = text;
-                q.CategoryId = category.Id;
-                category.Questions.Add(q);
-            }
-            PushCategory(categories, category);
+            PushQuestion(categories, question, rightAnswers, categoryName);
+            
             Console.WriteLine();
             
             foreach (var c in categories)
@@ -161,56 +149,36 @@ namespace Examinator.Parser
             };
         }
 
-        private static Category PushCategory(ICollection<Category> categories, Category category)
+        private static Question PushQuestion(List<Category> categories, Question question, int rightAnswers, string categoryName)
         {
-            // skip the first empty one
-            if (category.Questions.Count > 0)
+            var text = categoryName.Trim().Replace("\n", " ");
+            var existing = categories.FirstOrDefault(t => t.Text == text);
+            if (existing == null)
             {
-                var existing = categories.FirstOrDefault(t => t.Text == category.Text);
-                if (existing != null)
-                {
-                    foreach (var question in category.Questions)
-                    {
-                        question.CategoryId = existing.Id;
-                    }
-                    existing.Questions = existing.Questions.Union(category.Questions).ToList();
-                    Console.WriteLine(" [*] Category [{0}] updated with [{1}] questions. Last Question [{2}]",
-                        category.Text, category.Questions.Count, category.Questions.Last().Id);
-                }
-                else
-                {
-                    categories.Add(category);
-                    Console.WriteLine(" [+] Category [{0}] added with [{1}] questions. Last Question [{2}]",
-                        category.Text, category.Questions.Count, category.Questions.Last().Id);
-                }
+                existing = new Category {Id = categories.Count + 1, Text = text};
+                categories.Add(existing);
             }
-            return new Category();
-        }
-
-        private static Question PushQuestion(List<Question> questions, Question question, int rightAnswers)
-        {
-            questions.Add(question);
-            if (question.CorrectAnswersNumber != rightAnswers)
+            existing.Questions.Add(question);
+            if (question.Correct != rightAnswers)
             {
                 Console.WriteLine(" [-] Question [{0}] is expected to have [{1}] correct answers but parsed [{2}]",
-                    question.Id, rightAnswers, question.CorrectAnswersNumber);
-            }
-            else
-            {
-                //Console.WriteLine(" [+] Added Question [{0}]({1}) added with [{2}/{3}] answers", question.Id, question.Text, question.Answers.Count, question.CorrectAnswersNumber);
+                    question.Id, rightAnswers, question.Correct);
             }
             return new Question();
         }
+
         private Answer GetAnswer(SourceProxy proxy, Question question)
         {
             var answer = new Answer
             {
-                Id = Guid.NewGuid().ToString(),
-                IsRight = !string.IsNullOrEmpty(proxy.AnswerIsRight) && proxy.AnswerIsRight.Trim().Length > 0,
-                Text = proxy.AnswerText,
-                QuestionId = question.Id
+                Id = question.Answers.Count + 1,
+                Text = proxy.AnswerText
             };
-            var filename = $"{question.Id}.{question.Answers.Count + 1}.png";
+            if (!string.IsNullOrEmpty(proxy.AnswerIsRight) && proxy.AnswerIsRight.Trim().Length > 0)
+            {
+                answer.IsRight = true;
+            }
+            var filename = $"{question.Id}.{answer.Id}.png";
             var path = Path.Combine(ImagesPath, filename);
             if (File.Exists(path))
             {

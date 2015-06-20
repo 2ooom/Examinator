@@ -4,7 +4,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "2562",
@@ -37,7 +37,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4212",
@@ -70,7 +70,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4213",
@@ -103,7 +103,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4214",
@@ -136,7 +136,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4215",
@@ -169,7 +169,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4216",
@@ -202,7 +202,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4217",
@@ -235,7 +235,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4218",
@@ -268,7 +268,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4219",
@@ -301,7 +301,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4220",
@@ -334,7 +334,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4221",
@@ -367,7 +367,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4222",
@@ -400,7 +400,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4223",
@@ -433,7 +433,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.25",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4224",
@@ -466,7 +466,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4225",
@@ -499,7 +499,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4547",
@@ -533,7 +533,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4548",
@@ -567,7 +567,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.4",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4551",
@@ -600,7 +600,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.5",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4552",
@@ -633,7 +633,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.6",
-        "correctAnswersNumber": 4,
+        "correct": 4,
         "answers": [
           {
             "questionId": "4553",
@@ -678,7 +678,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4554",
@@ -711,7 +711,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.11",
-        "correctAnswersNumber": 4,
+        "correct": 4,
         "answers": [
           {
             "questionId": "4555",
@@ -756,7 +756,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4556",
@@ -789,7 +789,7 @@ window.categories = [
       {
         "categoryId": "fe80340a-8920-4532-873c-7fee834886eb",
         "subCategoryId": "CARS1.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4557",
@@ -828,7 +828,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4226",
@@ -861,7 +861,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.2",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4227",
@@ -894,7 +894,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.3",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4228",
@@ -927,7 +927,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4229",
@@ -960,7 +960,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4230",
@@ -993,7 +993,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4231",
@@ -1026,7 +1026,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4232",
@@ -1059,7 +1059,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4233",
@@ -1092,7 +1092,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4234",
@@ -1125,7 +1125,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4235",
@@ -1158,7 +1158,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.14",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4236",
@@ -1192,7 +1192,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4237",
@@ -1225,7 +1225,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4238",
@@ -1258,7 +1258,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4239",
@@ -1291,7 +1291,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4240",
@@ -1324,7 +1324,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4241",
@@ -1357,7 +1357,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.30",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4242",
@@ -1396,7 +1396,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4243",
@@ -1429,7 +1429,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4244",
@@ -1462,7 +1462,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.33",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4245",
@@ -1495,7 +1495,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.34",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4246",
@@ -1528,7 +1528,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.36",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4247",
@@ -1561,7 +1561,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.37",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4248",
@@ -1594,7 +1594,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.41",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4249",
@@ -1633,7 +1633,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4558",
@@ -1666,7 +1666,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4559",
@@ -1699,7 +1699,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4560",
@@ -1732,7 +1732,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4561",
@@ -1765,7 +1765,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4562",
@@ -1798,7 +1798,7 @@ window.categories = [
       {
         "categoryId": "7ee6a242-4199-4955-bdef-6feab70c4615",
         "subCategoryId": "CARS2.40",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4563",
@@ -1837,7 +1837,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4250",
@@ -1870,7 +1870,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.4",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4251",
@@ -1903,7 +1903,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4252",
@@ -1936,7 +1936,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4253",
@@ -1969,7 +1969,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.9",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4254",
@@ -2002,7 +2002,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4255",
@@ -2035,7 +2035,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.23",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4256",
@@ -2080,7 +2080,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.27",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4257",
@@ -2125,7 +2125,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.28",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4258",
@@ -2164,7 +2164,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4259",
@@ -2197,7 +2197,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.30",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4260",
@@ -2230,7 +2230,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.31",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4261",
@@ -2275,7 +2275,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.33",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4262",
@@ -2320,7 +2320,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.38",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4263",
@@ -2353,7 +2353,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.45",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4264",
@@ -2386,7 +2386,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.46",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4265",
@@ -2419,7 +2419,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.47",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4266",
@@ -2452,7 +2452,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.2",
-        "correctAnswersNumber": 4,
+        "correct": 4,
         "answers": [
           {
             "questionId": "4564",
@@ -2497,7 +2497,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4565",
@@ -2530,7 +2530,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4566",
@@ -2563,7 +2563,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4567",
@@ -2596,7 +2596,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4568",
@@ -2629,7 +2629,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4569",
@@ -2662,7 +2662,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.12",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4570",
@@ -2695,7 +2695,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.13",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4571",
@@ -2734,7 +2734,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4572",
@@ -2767,7 +2767,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4573",
@@ -2800,7 +2800,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4574",
@@ -2833,7 +2833,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4575",
@@ -2866,7 +2866,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4576",
@@ -2899,7 +2899,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4577",
@@ -2932,7 +2932,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4578",
@@ -2965,7 +2965,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.24",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4579",
@@ -3004,7 +3004,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4580",
@@ -3037,7 +3037,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4581",
@@ -3070,7 +3070,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.34",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4582",
@@ -3109,7 +3109,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.35",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4583",
@@ -3142,7 +3142,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.37",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4584",
@@ -3175,7 +3175,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.39",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4585",
@@ -3208,7 +3208,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.41",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4586",
@@ -3241,7 +3241,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.42",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4587",
@@ -3274,7 +3274,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.43",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4588",
@@ -3307,7 +3307,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.44",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4589",
@@ -3346,7 +3346,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.48",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4590",
@@ -3385,7 +3385,7 @@ window.categories = [
       {
         "categoryId": "d3c5b4e3-47f5-4ef2-bd58-f85a4b9f28a3",
         "subCategoryId": "CARS3.49",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4591",
@@ -3424,7 +3424,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4267",
@@ -3457,7 +3457,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4268",
@@ -3490,7 +3490,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.7",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4269",
@@ -3535,7 +3535,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4270",
@@ -3568,7 +3568,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4271",
@@ -3601,7 +3601,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4272",
@@ -3634,7 +3634,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4273",
@@ -3667,7 +3667,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4274",
@@ -3700,7 +3700,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.21",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4275",
@@ -3733,7 +3733,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4276",
@@ -3766,7 +3766,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4277",
@@ -3799,7 +3799,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4278",
@@ -3832,7 +3832,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4279",
@@ -3866,7 +3866,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4280",
@@ -3900,7 +3900,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.30",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4281",
@@ -3939,7 +3939,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4592",
@@ -3972,7 +3972,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4593",
@@ -4005,7 +4005,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4594",
@@ -4038,7 +4038,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.4",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4595",
@@ -4077,7 +4077,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4596",
@@ -4110,7 +4110,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4597",
@@ -4143,7 +4143,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4598",
@@ -4176,7 +4176,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4599",
@@ -4209,7 +4209,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4600",
@@ -4242,7 +4242,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4601",
@@ -4275,7 +4275,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4602",
@@ -4308,7 +4308,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4603",
@@ -4341,7 +4341,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.26",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4604",
@@ -4380,7 +4380,7 @@ window.categories = [
       {
         "categoryId": "fe4cbf16-e6ce-48af-9ca1-6f7d604fb63e",
         "subCategoryId": "CARS4.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4605",
@@ -4425,7 +4425,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4282",
@@ -4458,7 +4458,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4283",
@@ -4491,7 +4491,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4284",
@@ -4524,7 +4524,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.6",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4285",
@@ -4563,7 +4563,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.7",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4286",
@@ -4608,7 +4608,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.8",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4287",
@@ -4647,7 +4647,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4288",
@@ -4680,7 +4680,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.10",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4289",
@@ -4719,7 +4719,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4290",
@@ -4752,7 +4752,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.12",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4291",
@@ -4785,7 +4785,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4292",
@@ -4818,7 +4818,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4293",
@@ -4851,7 +4851,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.15",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4294",
@@ -4884,7 +4884,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4295",
@@ -4917,7 +4917,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4296",
@@ -4950,7 +4950,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4297",
@@ -4983,7 +4983,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.19",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4298",
@@ -5022,7 +5022,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4300",
@@ -5055,7 +5055,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4301",
@@ -5088,7 +5088,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4302",
@@ -5121,7 +5121,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.24",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4303",
@@ -5160,7 +5160,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4304",
@@ -5193,7 +5193,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4305",
@@ -5226,7 +5226,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4306",
@@ -5259,7 +5259,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4307",
@@ -5292,7 +5292,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.30",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4308",
@@ -5325,7 +5325,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4309",
@@ -5358,7 +5358,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4549",
@@ -5392,7 +5392,7 @@ window.categories = [
       {
         "categoryId": "405180a6-030c-4631-9b79-4b7008c426e2",
         "subCategoryId": "CARS5.25",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4606",
@@ -5443,7 +5443,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4310",
@@ -5476,7 +5476,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4311",
@@ -5509,7 +5509,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4312",
@@ -5542,7 +5542,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4313",
@@ -5575,7 +5575,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4314",
@@ -5608,7 +5608,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4315",
@@ -5641,7 +5641,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4316",
@@ -5674,7 +5674,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.14",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4317",
@@ -5719,7 +5719,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4318",
@@ -5752,7 +5752,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4319",
@@ -5785,7 +5785,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4320",
@@ -5818,7 +5818,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4321",
@@ -5851,7 +5851,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4322",
@@ -5884,7 +5884,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4323",
@@ -5917,7 +5917,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4324",
@@ -5950,7 +5950,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4325",
@@ -5983,7 +5983,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4326",
@@ -6016,7 +6016,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4327",
@@ -6049,7 +6049,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4328",
@@ -6082,7 +6082,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4329",
@@ -6115,7 +6115,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4330",
@@ -6148,7 +6148,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.30",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4331",
@@ -6181,7 +6181,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4332",
@@ -6214,7 +6214,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4333",
@@ -6247,7 +6247,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.38",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4334",
@@ -6280,7 +6280,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.39",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4335",
@@ -6313,7 +6313,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.42",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4336",
@@ -6346,7 +6346,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.44",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4337",
@@ -6385,7 +6385,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.45",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4338",
@@ -6418,7 +6418,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.46",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4339",
@@ -6451,7 +6451,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.48",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4340",
@@ -6484,7 +6484,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.50",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4341",
@@ -6517,7 +6517,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.51",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4342",
@@ -6550,7 +6550,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.52",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4343",
@@ -6583,7 +6583,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.53",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4344",
@@ -6617,7 +6617,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.54",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4345",
@@ -6650,7 +6650,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.55",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4346",
@@ -6683,7 +6683,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.56",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4347",
@@ -6722,7 +6722,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.57",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4348",
@@ -6755,7 +6755,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.58",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4349",
@@ -6788,7 +6788,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.60",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4350",
@@ -6821,7 +6821,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.61",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4351",
@@ -6854,7 +6854,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4607",
@@ -6887,7 +6887,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4608",
@@ -6920,7 +6920,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4609",
@@ -6953,7 +6953,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4610",
@@ -6986,7 +6986,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.12",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4611",
@@ -7025,7 +7025,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4612",
@@ -7058,7 +7058,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4613",
@@ -7091,7 +7091,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.33",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4614",
@@ -7124,7 +7124,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.34",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4615",
@@ -7157,7 +7157,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.35",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4616",
@@ -7190,7 +7190,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.36",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4617",
@@ -7223,7 +7223,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.37",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4618",
@@ -7256,7 +7256,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.43",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4619",
@@ -7289,7 +7289,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.47",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4620",
@@ -7328,7 +7328,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.49",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4621",
@@ -7361,7 +7361,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.59",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4622",
@@ -7394,7 +7394,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.62",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4623",
@@ -7427,7 +7427,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.63",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4624",
@@ -7460,7 +7460,7 @@ window.categories = [
       {
         "categoryId": "a2b95a9e-c0f0-4b7f-beaa-06c1cd4886eb",
         "subCategoryId": "CARS6.64",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4625",
@@ -7499,7 +7499,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4352",
@@ -7532,7 +7532,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4353",
@@ -7565,7 +7565,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4354",
@@ -7598,7 +7598,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4355",
@@ -7631,7 +7631,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4356",
@@ -7665,7 +7665,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4357",
@@ -7698,7 +7698,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4358",
@@ -7731,7 +7731,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4359",
@@ -7764,7 +7764,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4360",
@@ -7797,7 +7797,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4361",
@@ -7830,7 +7830,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.15",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4362",
@@ -7863,7 +7863,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.16",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4363",
@@ -7896,7 +7896,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4364",
@@ -7930,7 +7930,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4365",
@@ -7963,7 +7963,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4366",
@@ -7997,7 +7997,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4367",
@@ -8030,7 +8030,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4626",
@@ -8063,7 +8063,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4627",
@@ -8096,7 +8096,7 @@ window.categories = [
       {
         "categoryId": "d44c1b7f-f765-44d6-8de5-9e001c9c693e",
         "subCategoryId": "CARS7.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4628",
@@ -8135,7 +8135,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.1",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4368",
@@ -8174,7 +8174,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4369",
@@ -8207,7 +8207,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.4",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4370",
@@ -8246,7 +8246,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4371",
@@ -8279,7 +8279,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4372",
@@ -8312,7 +8312,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.8",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4373",
@@ -8345,7 +8345,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.9",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4374",
@@ -8384,7 +8384,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4375",
@@ -8417,7 +8417,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4376",
@@ -8450,7 +8450,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4377",
@@ -8483,7 +8483,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4378",
@@ -8516,7 +8516,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4379",
@@ -8549,7 +8549,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4380",
@@ -8582,7 +8582,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.30",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4381",
@@ -8621,7 +8621,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4382",
@@ -8654,7 +8654,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4383",
@@ -8687,7 +8687,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.33",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4384",
@@ -8720,7 +8720,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.34",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4385",
@@ -8753,7 +8753,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.35",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4386",
@@ -8792,7 +8792,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.36",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4387",
@@ -8825,7 +8825,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4629",
@@ -8858,7 +8858,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4630",
@@ -8891,7 +8891,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4631",
@@ -8924,7 +8924,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4632",
@@ -8957,7 +8957,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4633",
@@ -8990,7 +8990,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.14",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4634",
@@ -9029,7 +9029,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4635",
@@ -9062,7 +9062,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4636",
@@ -9095,7 +9095,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4637",
@@ -9128,7 +9128,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4638",
@@ -9161,7 +9161,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4639",
@@ -9194,7 +9194,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4640",
@@ -9227,7 +9227,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.26",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4641",
@@ -9266,7 +9266,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.27",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4642",
@@ -9305,7 +9305,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4643",
@@ -9338,7 +9338,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4644",
@@ -9371,7 +9371,7 @@ window.categories = [
       {
         "categoryId": "81b17976-a1ee-4864-bbcd-8c1af5e7035f",
         "subCategoryId": "CARS8.38",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4645",
@@ -9410,7 +9410,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4388",
@@ -9443,7 +9443,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4389",
@@ -9476,7 +9476,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4390",
@@ -9509,7 +9509,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4391",
@@ -9542,7 +9542,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4392",
@@ -9575,7 +9575,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.6",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4393",
@@ -9614,7 +9614,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4394",
@@ -9647,7 +9647,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4395",
@@ -9680,7 +9680,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4396",
@@ -9713,7 +9713,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4397",
@@ -9746,7 +9746,7 @@ window.categories = [
       {
         "categoryId": "f7fc2efa-e110-4aa4-8db4-4465979faae1",
         "subCategoryId": "CARS9.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4398",
@@ -9785,7 +9785,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4399",
@@ -9818,7 +9818,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4400",
@@ -9851,7 +9851,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4401",
@@ -9884,7 +9884,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.7",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4402",
@@ -9923,7 +9923,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4403",
@@ -9956,7 +9956,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4404",
@@ -9989,7 +9989,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.10",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4405",
@@ -10034,7 +10034,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4406",
@@ -10067,7 +10067,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.12",
-        "correctAnswersNumber": 5,
+        "correct": 5,
         "answers": [
           {
             "questionId": "4407",
@@ -10112,7 +10112,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4408",
@@ -10145,7 +10145,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4409",
@@ -10178,7 +10178,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.15",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4410",
@@ -10217,7 +10217,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4411",
@@ -10250,7 +10250,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4412",
@@ -10283,7 +10283,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.19",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4413",
@@ -10328,7 +10328,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4414",
@@ -10362,7 +10362,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4415",
@@ -10395,7 +10395,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4416",
@@ -10428,7 +10428,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4417",
@@ -10461,7 +10461,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.24",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4418",
@@ -10506,7 +10506,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4419",
@@ -10539,7 +10539,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4420",
@@ -10572,7 +10572,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4421",
@@ -10605,7 +10605,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4422",
@@ -10638,7 +10638,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4423",
@@ -10671,7 +10671,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.30",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4424",
@@ -10704,7 +10704,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4425",
@@ -10737,7 +10737,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4426",
@@ -10770,7 +10770,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.33",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4427",
@@ -10803,7 +10803,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.34",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4428",
@@ -10837,7 +10837,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.35",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4429",
@@ -10870,7 +10870,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.36",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4430",
@@ -10903,7 +10903,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.39",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4431",
@@ -10936,7 +10936,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.42",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4432",
@@ -10969,7 +10969,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.43",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4433",
@@ -11002,7 +11002,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.44",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4434",
@@ -11035,7 +11035,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.45",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4435",
@@ -11068,7 +11068,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4489",
@@ -11102,7 +11102,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4490",
@@ -11136,7 +11136,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4491",
@@ -11170,7 +11170,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4492",
@@ -11204,7 +11204,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.37",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4646",
@@ -11237,7 +11237,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.38",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4647",
@@ -11270,7 +11270,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.40",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4648",
@@ -11303,7 +11303,7 @@ window.categories = [
       {
         "categoryId": "8f76a88c-a2cb-43be-ad1d-b0bfea64bad2",
         "subCategoryId": "CARS10.41",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4649",
@@ -11342,7 +11342,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4436",
@@ -11375,7 +11375,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.25",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4437",
@@ -11409,7 +11409,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.27",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4438",
@@ -11443,7 +11443,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.29",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4440",
@@ -11477,7 +11477,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.30",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4441",
@@ -11511,7 +11511,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.34",
-        "correctAnswersNumber": 4,
+        "correct": 4,
         "answers": [
           {
             "questionId": "4442",
@@ -11557,7 +11557,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.55",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4443",
@@ -11591,7 +11591,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.56",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4444",
@@ -11625,7 +11625,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.57",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4445",
@@ -11659,7 +11659,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.58",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4446",
@@ -11693,7 +11693,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.59",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4447",
@@ -11727,7 +11727,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.60",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4448",
@@ -11761,7 +11761,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.61",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4449",
@@ -11795,7 +11795,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.66",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4450",
@@ -11828,7 +11828,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.67",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4451",
@@ -11861,7 +11861,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.69",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4453",
@@ -11894,7 +11894,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.70",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4454",
@@ -11928,7 +11928,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.73",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4455",
@@ -11961,7 +11961,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4493",
@@ -11994,7 +11994,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4494",
@@ -12027,7 +12027,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4495",
@@ -12061,7 +12061,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4496",
@@ -12088,7 +12088,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4497",
@@ -12115,7 +12115,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.7",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4498",
@@ -12149,7 +12149,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.8",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4499",
@@ -12183,7 +12183,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4500",
@@ -12217,7 +12217,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4501",
@@ -12251,7 +12251,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4502",
@@ -12284,7 +12284,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.12",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4503",
@@ -12318,7 +12318,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4504",
@@ -12352,7 +12352,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4505",
@@ -12386,7 +12386,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.15",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4506",
@@ -12419,7 +12419,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.16",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4507",
@@ -12453,7 +12453,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4508",
@@ -12487,7 +12487,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.18",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4509",
@@ -12521,7 +12521,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4510",
@@ -12555,7 +12555,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4511",
@@ -12588,7 +12588,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4512",
@@ -12622,7 +12622,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.22",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4513",
@@ -12656,7 +12656,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.23",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4514",
@@ -12689,7 +12689,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4515",
@@ -12722,7 +12722,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.26",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4516",
@@ -12756,7 +12756,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.31",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4517",
@@ -12790,7 +12790,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.32",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4518",
@@ -12824,7 +12824,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.33",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4519",
@@ -12858,7 +12858,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.35",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4520",
@@ -12891,7 +12891,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.36",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4521",
@@ -12924,7 +12924,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.37",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4522",
@@ -12958,7 +12958,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.38",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4523",
@@ -12992,7 +12992,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.39",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4524",
@@ -13025,7 +13025,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.40",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4525",
@@ -13059,7 +13059,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.41",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4526",
@@ -13093,7 +13093,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.42",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4527",
@@ -13126,7 +13126,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.43",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4528",
@@ -13160,7 +13160,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.44",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4529",
@@ -13194,7 +13194,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.45",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4530",
@@ -13228,7 +13228,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.46",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4531",
@@ -13262,7 +13262,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.47",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4532",
@@ -13296,7 +13296,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.48",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4533",
@@ -13330,7 +13330,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.49",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4534",
@@ -13364,7 +13364,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.50",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4535",
@@ -13398,7 +13398,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.51",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4536",
@@ -13425,7 +13425,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.52",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4537",
@@ -13452,7 +13452,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.53",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4538",
@@ -13486,7 +13486,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.54",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4539",
@@ -13520,7 +13520,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.62",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4540",
@@ -13554,7 +13554,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.63",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4541",
@@ -13588,7 +13588,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.64",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4542",
@@ -13622,7 +13622,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.65",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4543",
@@ -13656,7 +13656,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.71",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4544",
@@ -13689,7 +13689,7 @@ window.categories = [
       {
         "categoryId": "84497ea1-18ad-43e1-9aac-de2f1e66784d",
         "subCategoryId": "CARS11.72",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4545",
@@ -13723,7 +13723,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4456",
@@ -13756,7 +13756,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.2",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4457",
@@ -13789,7 +13789,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4458",
@@ -13822,7 +13822,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4459",
@@ -13855,7 +13855,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.7",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4460",
@@ -13900,7 +13900,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.8",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4461",
@@ -13939,7 +13939,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.9",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4462",
@@ -13978,7 +13978,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.10",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4463",
@@ -14011,7 +14011,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.11",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4464",
@@ -14044,7 +14044,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.5",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4650",
@@ -14089,7 +14089,7 @@ window.categories = [
       {
         "categoryId": "8bdf8fc5-3484-40ae-b290-7abac581b51f",
         "subCategoryId": "CARS12.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4651",
@@ -14128,7 +14128,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.1",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4465",
@@ -14161,7 +14161,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.2",
-        "correctAnswersNumber": 4,
+        "correct": 4,
         "answers": [
           {
             "questionId": "4466",
@@ -14206,7 +14206,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.3",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4467",
@@ -14245,7 +14245,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4468",
@@ -14278,7 +14278,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.5",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4469",
@@ -14323,7 +14323,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.6",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4470",
@@ -14356,7 +14356,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.7",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4471",
@@ -14395,7 +14395,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.8",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4472",
@@ -14440,7 +14440,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.9",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4473",
@@ -14485,7 +14485,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.11",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4474",
@@ -14524,7 +14524,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.12",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4475",
@@ -14563,7 +14563,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.13",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4476",
@@ -14596,7 +14596,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.14",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4477",
@@ -14629,7 +14629,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.15",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4478",
@@ -14668,7 +14668,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.16",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4479",
@@ -14701,7 +14701,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.17",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4480",
@@ -14734,7 +14734,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.18",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4481",
@@ -14773,7 +14773,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.19",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4482",
@@ -14806,7 +14806,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.20",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4483",
@@ -14839,7 +14839,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.21",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4484",
@@ -14872,7 +14872,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.25",
-        "correctAnswersNumber": 3,
+        "correct": 3,
         "answers": [
           {
             "questionId": "4485",
@@ -14911,7 +14911,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.28",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4486",
@@ -14944,7 +14944,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.10",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4652",
@@ -14983,7 +14983,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.22",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4653",
@@ -15016,7 +15016,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.24",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4654",
@@ -15049,7 +15049,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.26",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4655",
@@ -15088,7 +15088,7 @@ window.categories = [
       {
         "categoryId": "96841689-3744-4791-8ec9-f5c196381f7f",
         "subCategoryId": "CARS13.27",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4656",
@@ -15133,7 +15133,7 @@ window.categories = [
       {
         "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
         "subCategoryId": "CARS14.1",
-        "correctAnswersNumber": 2,
+        "correct": 2,
         "answers": [
           {
             "questionId": "4487",
@@ -15172,7 +15172,7 @@ window.categories = [
       {
         "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
         "subCategoryId": "CARS14.2",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4488",
@@ -15205,7 +15205,7 @@ window.categories = [
       {
         "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
         "subCategoryId": "CARS14.3",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4657",
@@ -15238,7 +15238,7 @@ window.categories = [
       {
         "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
         "subCategoryId": "CARS14.4",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4658",
@@ -15271,7 +15271,7 @@ window.categories = [
       {
         "categoryId": "e5b02312-8d55-451c-a7d5-e34591f69d70",
         "subCategoryId": "CARS14.5",
-        "correctAnswersNumber": 1,
+        "correct": 1,
         "answers": [
           {
             "questionId": "4659",

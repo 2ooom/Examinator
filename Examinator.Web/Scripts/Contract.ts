@@ -18,7 +18,7 @@ declare module App {
 	export interface IQuestionContract extends App.IParagraphContract {
 		categoryId: string;
 		subCategoryId: string;
-		correctAnswersNumber: number;
+		correct: number;
 		answers: App.IAnswerContract[];
 	}
 }
