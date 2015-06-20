@@ -4,11 +4,11 @@
 
 declare module App {
 	export interface IAnswerContract extends App.IParagraphContract {
-		questionId: string;
+		questionId: number;
 		isRight: boolean;
 	}
 	export interface IParagraphContract {
-		id: string;
+		id: number;
 		text: string;
 		imageUrl: string;
 	}
@@ -17,7 +17,6 @@ declare module App {
 	}
 	export interface IQuestionContract extends App.IParagraphContract {
 		categoryId: string;
-		subCategoryId: string;
 		correct: number;
 		answers: App.IAnswerContract[];
 	}

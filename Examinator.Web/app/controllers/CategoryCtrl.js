@@ -13,7 +13,7 @@ var App;
             this.wrong = 0;
             this.correct = 0;
             this.isFinished = false;
-            this.category = this.categories.getCategory($stateParams.categoryId);
+            this.category = this.categories.getCategory(parseInt($stateParams.categoryId));
             $scope.$on('$ionicView.afterLeave', function () {
                 _this.categories.reset(_this.category.questions);
             });

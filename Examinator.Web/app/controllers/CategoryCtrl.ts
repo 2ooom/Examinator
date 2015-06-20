@@ -30,7 +30,7 @@ module App {
             private $ionicScrollDelegate,
             private confirm: Confirm) {
 
-            this.category = this.categories.getCategory($stateParams.categoryId);
+            this.category = this.categories.getCategory(parseInt($stateParams.categoryId));
             
             $scope.$on('$ionicView.afterLeave',() => {
                 this.categories.reset(this.category.questions);

@@ -6,7 +6,7 @@ using TypeLite;
 namespace Examinator.Contract
 {
     [TsClass]
-    public class Question : Paragraph<int>
+    public class Question : Paragraph
     {
         public int CategoryId { get; set; }
 

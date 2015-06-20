@@ -72,6 +72,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Contract.ts</LastGenOutput>
     </Content>
+    <Content Include="Source\categories.new.js" />
     <Content Include="Source\img\4236.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

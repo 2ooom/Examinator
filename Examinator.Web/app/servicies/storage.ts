@@ -19,14 +19,14 @@ module App {
             }
         }
 
-        public getProgress(categoryId: string):number {
+        public getProgress(categoryId: number):number {
             if (!this.settings.saveProgress) {
                 return 0;
             }
             return this.$localStorage.progress[categoryId] || 0;
         }
 
-        public saveProgress(categoryId: string, questionIndex: number) {
+        public saveProgress(categoryId: number, questionIndex: number) {
             if (!this.settings.saveProgress) {
                 this.$localStorage.progress[categoryId] = 0;
                 return false;
@@ -35,7 +35,7 @@ module App {
             return true;
         }
 
-        public saveAnswers(categoryId: string, answers: number[]) {
+        public saveAnswers(categoryId: number, answers: number[]) {
             if (!this.settings.saveProgress) {
                 this.$localStorage.answers[categoryId] = [];
                 return false;
@@ -47,7 +47,7 @@ module App {
             return true;
         }
 
-        public getAnswers(categoryId: string) {
+        public getAnswers(categoryId: number) {
             if (!this.settings.saveProgress) {
                 return [];
             }

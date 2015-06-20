@@ -4,7 +4,7 @@ using TypeLite;
 namespace Examinator.Contract
 {
     [TsClass]
-    public class Category : Paragraph<int>
+    public class Category : Paragraph
     {
         public Category()
         {

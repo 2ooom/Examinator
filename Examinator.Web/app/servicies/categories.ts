@@ -20,7 +20,7 @@ module App {
             this.categories.forEach(c => { this.questions = this.questions.concat(c.questions) });
         }
 
-        public getCategory(categoryId: string): ICategory {
+        public getCategory(categoryId: number): ICategory {
             return this.categories.filter(c => (c.id === categoryId))[0];
         }
 

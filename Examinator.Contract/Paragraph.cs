@@ -3,9 +3,9 @@ using TypeLite;
 namespace Examinator.Contract
 {
     [TsClass]
-    public class Paragraph<TId>
+    public class Paragraph
     {
-        public TId Id { get; set; }
+        public int Id { get; set; }
         
         public string Text { get; set; }
         
