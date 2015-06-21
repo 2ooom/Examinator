@@ -83,3 +83,7 @@
 .font-light {
     font-weight: 400;
 }
+.menu-header {
+    padding-left: 11px;
+    text-align: left;
+}

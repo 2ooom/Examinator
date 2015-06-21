@@ -22,7 +22,7 @@ var App;
         }).state('app.settings', {
             url: "/settings",
             views: {
-                'menuContent': {
+                'main': {
                     templateUrl: "templates/settings.html",
                     controller: App.SettingsCtrl
                 }
@@ -30,7 +30,7 @@ var App;
         }).state('app.exam', {
             url: "/exam",
             views: {
-                'menuContent': {
+                'main': {
                     templateUrl: "templates/exam.html",
                     controller: App.ExamCtrl
                 }
@@ -38,7 +38,7 @@ var App;
         }).state('app.categories', {
             url: "/categories",
             views: {
-                'menuContent': {
+                'main': {
                     templateUrl: "templates/categories.html",
                     controller: App.CategoriesCtrl
                 }
@@ -46,7 +46,7 @@ var App;
         }).state('app.category', {
             url: "/category/:categoryId",
             views: {
-                'menuContent': {
+                'main': {
                     templateUrl: "templates/category.html",
                     controller: App.CategoryCtrl
                 }

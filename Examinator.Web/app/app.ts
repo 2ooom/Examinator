@@ -30,7 +30,7 @@ module App {
                 .state('app.settings', {
                     url: "/settings",
                     views: {
-                        'menuContent': {
+                        'main': {
                             templateUrl: "templates/settings.html",
                             controller: SettingsCtrl
                         }
@@ -39,7 +39,7 @@ module App {
                 .state('app.exam', {
                     url: "/exam",
                     views: {
-                        'menuContent': {
+                        'main': {
                             templateUrl: "templates/exam.html",
                             controller: ExamCtrl
                         }
@@ -48,7 +48,7 @@ module App {
                 .state('app.categories', {
                     url: "/categories",
                     views: {
-                        'menuContent': {
+                        'main': {
                             templateUrl: "templates/categories.html",
                             controller: CategoriesCtrl
                         }
@@ -57,7 +57,7 @@ module App {
                 .state('app.category', {
                     url: "/category/:categoryId",
                     views: {
-                        'menuContent': {
+                        'main': {
                             templateUrl: "templates/category.html",
                             controller: CategoryCtrl
                         }
