@@ -16,9 +16,22 @@ var App;
                 }
             }
             if (attempts >= Utils.maxattempts) {
+                console.log('Couldnt find random sequence');
                 throw new Error('Invalid arguments. Couldnt find random sequence');
             }
             return q;
+        };
+        Utils.prototype.shuffle = function (array) {
+            var currentIndex = array.length, randomIndex;
+            var temporaryValue;
+            while (0 !== currentIndex) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
+                temporaryValue = array[currentIndex];
+                array[currentIndex] = array[randomIndex];
+                array[randomIndex] = temporaryValue;
+            }
+            return array;
         };
         Utils.maxattempts = 1000;
         return Utils;

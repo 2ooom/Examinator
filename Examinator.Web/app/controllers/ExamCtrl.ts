@@ -37,7 +37,7 @@ module App {
             this.timeLimitSeconds = settings.examTimeLimitMinutes * 60;
             
             $scope.$on('$ionicView.afterLeave',() => {
-                categories.reset(this.questions);
+                this.questions = null;
                 $timeout.cancel(this.timerPromise);
             });
 
@@ -102,7 +102,6 @@ module App {
         }
 
         finish() {
-            this.categories.reset(this.questions);
             this.$state.go('app.categories');
         }
 

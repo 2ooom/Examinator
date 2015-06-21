@@ -20,7 +20,16 @@ var App;
         Categories.prototype.getRandomQuestions = function (num) {
             var _this = this;
             var indexes = this.utils.getRandomNumbers(num, this.questions.length - 1);
-            return indexes.map(function (i) { return _this.questions[i]; });
+            return indexes.map(function (i) {
+                var q = _this.questions[i];
+                var qCopy = angular.extend({}, q);
+                qCopy.answers = [];
+                q.answers.forEach(function (a) {
+                    qCopy.answers.push(angular.extend({}, a));
+                });
+                _this.utils.shuffle(qCopy.answers);
+                return qCopy;
+            });
         };
         Categories.prototype.checkAnswers = function (question) {
             var correct = true;

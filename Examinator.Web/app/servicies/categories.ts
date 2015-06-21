@@ -30,7 +30,17 @@ module App {
 
         public getRandomQuestions(num: number): IQuestion[] {
             var indexes = this.utils.getRandomNumbers(num, this.questions.length - 1);
-            return indexes.map(i => this.questions[i]);
+            return indexes.map(i => {
+                var q = this.questions[i];
+                var qCopy = angular.extend({}, q);
+                qCopy.answers = [];
+                q.answers.forEach(a => {
+                    qCopy.answers.push(angular.extend({}, a));
+                });
+                this.utils.shuffle(qCopy.answers);
+                //console.log(`Shuffled answers for ${q.id} from [${q.answers.map(i => i.id).join(', ') }] to [${qCopy.answers.map(i => i.id).join(', ')}]`);
+                return qCopy;
+            });
         }
 
         public checkAnswers(question: IQuestion): void {

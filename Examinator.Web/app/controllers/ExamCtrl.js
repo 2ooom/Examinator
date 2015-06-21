@@ -18,7 +18,7 @@ var App;
             $scope.examCtrl = this;
             this.timeLimitSeconds = settings.examTimeLimitMinutes * 60;
             $scope.$on('$ionicView.afterLeave', function () {
-                categories.reset(_this.questions);
+                _this.questions = null;
                 $timeout.cancel(_this.timerPromise);
             });
             $scope.$on('$ionicView.beforeEnter', function () {
@@ -80,7 +80,6 @@ var App;
             }
         };
         ExamCtrl.prototype.finish = function () {
-            this.categories.reset(this.questions);
             this.$state.go('app.categories');
         };
         ExamCtrl.prototype.isLast = function () {

@@ -4,7 +4,7 @@ module App {
     export class Utils {
         private static maxattempts = 1000;
 
-        public getRandomNumbers(num: number, max: number) {
+        getRandomNumbers(num: number, max: number) {
             var q = [];
             var attempts = 0;
             while (q.length !== num || attempts >= Utils.maxattempts) {
@@ -17,9 +17,30 @@ module App {
                 }
             }
             if (attempts >= Utils.maxattempts) {
+                console.log('Couldnt find random sequence');
                 throw new Error('Invalid arguments. Couldnt find random sequence');
             }
             return q;
+        }
+
+        shuffle<T>(array: T[]): T[] {
+            var currentIndex = array.length, randomIndex;
+            var temporaryValue: T;
+
+            // While there remain elements to shuffle...
+            while (0 !== currentIndex) {
+
+                // Pick a remaining element...
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
+
+                // And swap it with the current element.
+                temporaryValue = array[currentIndex];
+                array[currentIndex] = array[randomIndex];
+                array[randomIndex] = temporaryValue;
+            }
+
+            return array;
         }
     }
 }
