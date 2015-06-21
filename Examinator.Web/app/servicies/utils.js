@@ -1,7 +1,8 @@
 var App;
 (function (App) {
     var Utils = (function () {
-        function Utils() {
+        function Utils($q) {
+            this.$q = $q;
         }
         Utils.prototype.getRandomNumbers = function (num, max) {
             var q = [];
@@ -33,7 +34,24 @@ var App;
             }
             return array;
         };
+        Utils.prototype.preload = function (imageUrl) {
+            var deffer = this.$q.defer();
+            var img = new Image();
+            var element = angular.element(img);
+            element.bind('load', function () {
+                deffer.resolve();
+            });
+            element.bind('error', function () {
+                console.log("Error: failed to load " + imageUrl);
+                deffer.reject();
+            });
+            img.src = imageUrl;
+            return deffer.promise;
+        };
         Utils.maxattempts = 1000;
+        Utils.$inject = [
+            '$q'
+        ];
         return Utils;
     })();
     App.Utils = Utils;

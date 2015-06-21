@@ -20,15 +20,15 @@ module App {
             this.categories.forEach(c => { this.questions = this.questions.concat(c.questions) });
         }
 
-        public getCategory(categoryId: number): ICategory {
+        getCategory(categoryId: number): ICategory {
             return this.categories.filter(c => (c.id === categoryId))[0];
         }
 
-        public getQuestion(questionId: string): IQuestion {
+        getQuestion(questionId: string): IQuestion {
             return this.questions.filter((q: any) => (q.id === questionId))[0];
         }
 
-        public getRandomQuestions(num: number): IQuestion[] {
+        getRandomQuestions(num: number): IQuestion[] {
             var indexes = this.utils.getRandomNumbers(num, this.questions.length - 1);
             return indexes.map(i => {
                 var q = this.questions[i];
@@ -43,7 +43,7 @@ module App {
             });
         }
 
-        public checkAnswers(question: IQuestion): void {
+        checkAnswers(question: IQuestion): void {
             var correct = true;
             for (var i = 0; i < question.answers.length; i++) {
                 correct = correct && !!question.answers[i].selected === !!question.answers[i].isRight;
@@ -51,7 +51,8 @@ module App {
             question.isCorrect = correct;
             question.isAnswered = true;
         }
-        public reset(questionsList: IQuestion[]): void {
+
+        reset(questionsList: IQuestion[]): void {
             questionsList.forEach(q => {
                 q.answers.forEach(a => {
                     delete a.selected;
@@ -59,6 +60,21 @@ module App {
                 delete q.isAnswered;
                 delete q.isCorrect;
             });
+        }
+
+        getImageUrls(): string[] {
+            var imgs: string[] = [];
+            this.questions.forEach(q => {
+                if (q.imageUrl) {
+                    imgs.push(q.imageUrl);
+                }
+                q.answers.forEach(a => {
+                    if (a.imageUrl) {
+                        imgs.push(a.imageUrl);
+                    }
+                });
+            });
+            return imgs;
         }
     }
 }

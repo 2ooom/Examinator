@@ -48,6 +48,20 @@ var App;
                 delete q.isCorrect;
             });
         };
+        Categories.prototype.getImageUrls = function () {
+            var imgs = [];
+            this.questions.forEach(function (q) {
+                if (q.imageUrl) {
+                    imgs.push(q.imageUrl);
+                }
+                q.answers.forEach(function (a) {
+                    if (a.imageUrl) {
+                        imgs.push(a.imageUrl);
+                    }
+                });
+            });
+            return imgs;
+        };
         Categories.$inject = [
             'utils',
             '$window'

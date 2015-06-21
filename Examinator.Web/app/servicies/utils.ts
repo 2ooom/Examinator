@@ -3,6 +3,13 @@
 module App {
     export class Utils {
         private static maxattempts = 1000;
+        private static $inject = [
+            '$q'
+        ];
+
+        constructor(private $q:ng.IQService) {
+            
+        }
 
         getRandomNumbers(num: number, max: number) {
             var q = [];
@@ -41,6 +48,22 @@ module App {
             }
 
             return array;
+        }
+
+        preload(imageUrl: string):ng.IPromise<any> {
+            var deffer = this.$q.defer();
+            var img = new Image();
+            var element = angular.element(img);
+            element.bind('load', () => {
+                //console.log(`${imageUrl} loaded`);
+                deffer.resolve();
+            });
+            element.bind('error', () => {
+                console.log(`Error: failed to load ${imageUrl}`);
+                deffer.reject();
+            });
+            img.src = imageUrl;
+            return deffer.promise;
         }
     }
 }
