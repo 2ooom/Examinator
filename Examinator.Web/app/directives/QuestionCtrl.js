@@ -44,6 +44,12 @@ var App;
                 return 'Wrong';
             }
         };
+        QuestionCtrl.prototype.getCorrectLabel = function () {
+            if (this.$scope.question.correct !== 11 && this.$scope.question.correct % 10 === 1) {
+                return 'Answer';
+            }
+            return 'Answers';
+        };
         QuestionCtrl.prototype.getAnswerClass = function (answer) {
             if (this.$scope.question.isAnswered && ((answer.selected && answer.isRight) || (answer.isRight && !answer.selected))) {
                 return 'checkbox-balanced';

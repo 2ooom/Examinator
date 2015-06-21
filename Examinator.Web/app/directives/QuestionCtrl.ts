@@ -65,6 +65,13 @@ module App {
                 return 'Wrong';
             }
         }
+        getCorrectLabel() {
+            if (this.$scope.question.correct !== 11 &&
+                this.$scope.question.correct % 10 === 1) {
+                return 'Answer';
+            }
+            return 'Answers';
+        }
 
         getAnswerClass (answer: IAnswer) {
             if (this.$scope.question.isAnswered && ((answer.selected && answer.isRight) || (answer.isRight && !answer.selected))) {
