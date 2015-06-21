@@ -8,8 +8,7 @@ module App {
             console.log('Init servicies');
             angular.module(Servicies.Name, [
                     'ngStorage'
-                ])
-
+            ])
                 .service('confirm', Confirm)
                 .service('storage', Storage)
                 .service('categories', Categories)

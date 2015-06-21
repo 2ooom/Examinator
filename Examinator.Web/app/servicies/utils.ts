@@ -3,7 +3,7 @@
 module App {
     export class Utils {
         private static maxattempts = 1000;
-        private static $inject = [
+        public static $inject = [
             '$q'
         ];
 
