@@ -1,0 +1,21 @@
+
+<div class="list list-inset question-container">
+    <div class="item item-text-wrap question">
+        <h2 ng-bind="question.text"></h2>
+        <img ng-attr-src="{{question.imageUrl || undefined}}" ng-show="question.imageUrl"/>
+        <h3><span ng-bind="question.correct"></span> <span ng-bind="questionCtrl.getCorrectLabel()" class="font-light"></span> <span class="grayed-out">#<span ng-bind="question.id"></span></span></h3>
+    </div>
+</div>
+<div class="list list-inset answers-list">
+    <div class="item item-checkbox item-text-wrap" ng-repeat="answer in question.answers">
+        <label class="checkbox" ng-class="questionCtrl.getAnswerClass(answer)"><input type="checkbox" ng-model="answer.selected"></label>
+
+        <h2 ng-bind="answer.text"></h2>
+        <img ng-attr-src="{{answer.imageUrl || undefined}}" ng-show="answer.imageUrl"/>
+    </div>
+</div>
+<div class="list list-inset questoin-buttons">
+    <a ng-click="questionCtrl.answerHandle()" class="button button-block"
+       ng-class="questionCtrl.getAnswerButtonClass()"
+       ng-bind="questionCtrl.getAnswerButtonText()"></a>
+</div>

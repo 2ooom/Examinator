@@ -1,0 +1,53 @@
+﻿<#@ template debug="false" hostspecific="True" language="C#" #>
+<#@ assembly name="TypeLite.dll" #>
+<#@ assembly name="TypeLite.Net4.dll" #>
+<#@ assembly name="Newtonsoft.Json.dll" #>
+<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Reflection" #>
+<#@ import namespace="TypeLite" #> 
+<#@ import namespace="TypeLite.TsModels" #> 
+<#@ import namespace="TypeLite.Net4" #> 
+<#@ import namespace="System.Reflection" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@output extension=".ts"#>
+<#
+	var ts = TypeScript.Definitions()
+		.WithTypeFormatter((TsType type, ITsTypeFormatter formatter) => {
+			if(type.Type.IsInterface) {
+				return type.Type.Name + "Contract";
+			}
+			return "I" + type.Type.Name + "Contract";
+		})
+		.WithMemberFormatter((TsProperty property) => Char.ToLower(property.Name[0]) + property.Name.Substring(1))
+		.WithVisibility((tsClass, typeName) => true)
+		.WithModuleNameFormatter((TsModule module) => "App");
+	
+	var contractDllParams = new [] {
+		"Examinator.Contract"
+	};
+	var classDecoratorType = typeof(TsClassAttribute);
+	var enumDecoratorType = typeof(TsEnumAttribute);
+	foreach(var contact in contractDllParams) {
+		var contractPath = Host.ResolveParameterValue("directive","processor", contact);
+		var assembly = Assembly.Load(File.ReadAllBytes(contractPath));
+		var types = assembly.GetTypes().Where(t => !t.IsInterface);
+		var marked = types.Where(t => 
+			t.CustomAttributes.Any(a => 
+			a.AttributeType == classDecoratorType ||
+			a.AttributeType == enumDecoratorType));
+		if(marked.Any()) {
+			foreach(var t in marked){
+				ts.For(t);
+            }
+        } else {
+			foreach(var t in types){
+				ts.For(t);
+            }
+        }
+    }
+#>
+<#= ts.Generate(TsGeneratorOutput.Properties) #>

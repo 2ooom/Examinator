@@ -4,7 +4,6 @@
 
 declare module App {
 	export interface IAnswerContract extends App.IParagraphContract {
-		questionId: number;
 		isRight: boolean;
 	}
 	export interface IParagraphContract {
@@ -16,7 +15,7 @@ declare module App {
 		questions: App.IQuestionContract[];
 	}
 	export interface IQuestionContract extends App.IParagraphContract {
-		categoryId: string;
+		categoryId: number;
 		correct: number;
 		answers: App.IAnswerContract[];
 	}

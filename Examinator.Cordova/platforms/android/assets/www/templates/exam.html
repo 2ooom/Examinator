@@ -1,0 +1,42 @@
+<ion-view>
+    <ion-nav-title>
+        <span ng-hide="examCtrl.isFinished">
+            <span ng-bind="examCtrl.correct"></span>
+            <span class="icon ion-checkmark balanced padding-right"></span>
+            <span ng-bind="examCtrl.wrong"></span>
+            <span class="icon ion-close assertive padding-right"></span>
+            <span class="total-answers">of <span ng-bind="examCtrl.total"></span></span>
+        </span>
+        <span ng-show="examCtrl.isFinished">Examination Results</span>
+    </ion-nav-title>
+
+    <ion-nav-buttons side="right">
+        <button class="button button-clear timer">
+            <span ng-bind="examCtrl.getTimer() | date: 'mm:ss'"></span>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <div data-question="examCtrl.currentQuestion"
+             is-last="examCtrl.isLast()"
+             next="examCtrl.next()" ng-hide="examCtrl.isFinished"></div>
+        <div ng-show="examCtrl.isFinished">
+            <div class="list list-inset exam-result">
+                <div class="list-item">
+                    <h1 class="balanced" ng-hide="examCtrl.isFailed">Exam Passed</h1>
+                    <h1 class="assertive" ng-show="examCtrl.isFailed">Exam Failed</h1>
+                    <h2 ng-show="examCtrl.isTimerElapsed">You failed to answer all questions in time</h2>
+                </div>
+            </div>
+            <mistakes questions="examCtrl.questions"></mistakes>
+
+            <div class="list list-inset">
+                <button class="button button-block"
+                        ng-class="{'button-balanced':!examCtrl.isFailed, 'button-assertive':examCtrl.isFailed}"
+                        ng-click="examCtrl.finish()">
+                    Finish
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

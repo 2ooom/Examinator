@@ -584,6 +584,7 @@
     <Content Include="lib\ionic\version.json" />
     <Content Include="packages.config" />
     <Content Include="Content\manifest.json" />
+    <Content Include="package.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

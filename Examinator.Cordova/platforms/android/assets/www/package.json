@@ -1,0 +1,28 @@
+{
+  "name": "examinator.web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ooom/Examinator.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Dmitry Parfenchik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ooom/Examinator/issues"
+  },
+  "homepage": "https://github.com/2ooom/Examinator#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-usemin": "^3.0.0"
+  }
+}

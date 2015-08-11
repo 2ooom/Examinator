@@ -1,0 +1,28 @@
+<ion-view view-title="Settings">
+    <ion-content class="settings">
+        <h2 class="list-inset">Categories</h2>
+        <div class="list">
+            <div class="item item-checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" ng-model="settings.saveProgress">
+                </label>
+                Save Progress
+            </div>
+        </div>
+        <h2 class="list-inset">Examination</h2>
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label">Questions Number</span>
+                <input type="number" placeholder="" ng-model="settings.examQuestionsNumber">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Maximum Mistakes</span>
+                <input type="number" placeholder="" ng-model="settings.examMaxMistakes">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Time Limit (min.)</span>
+                <input type="number" placeholder="" ng-model="settings.examTimeLimitMinutes">
+            </label>
+        </div>
+    </ion-content>
+</ion-view>
